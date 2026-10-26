@@ -9,9 +9,9 @@ import { useRender } from "@base-ui/react/use-render";
 import { ChevronRightIcon, XIcon } from "lucide-react";
 import type React from "react";
 import { createContext, useContext } from "react";
-import { cn } from "void/db/lib/utils";
-import { Button } from "void/db/components/ui/button";
-import { ScrollArea } from "void/db/components/ui/scroll-area";
+import { cn } from "../../lib/utils";
+import { Button } from "./button";
+import { ScrollArea } from "./scroll-area";
 
 type DrawerPosition = "right" | "left" | "top" | "bottom";
 

@@ -24,9 +24,9 @@ import {
   useComposerInputLayout,
   useComposerItem,
   useComposerSuggestionsContext,
-} from "void/db/lib/composer-editor";
-import { cn } from "void/db/lib/utils";
-import { ScrollArea } from "void/db/components/ui/scroll-area";
+} from "../../lib/composer-editor";
+import { cn } from "../../lib/utils";
+import { ScrollArea } from "./scroll-area";
 
 type ComposerPopupProps = ComponentProps<typeof PopoverPrimitive.Popup> & {
   anchor?: ComponentProps<typeof PopoverPrimitive.Positioner>["anchor"];
@@ -510,5 +510,5 @@ export {
   getComposerText,
   useComposerContext,
   useComposerFilter,
-} from "void/db/lib/composer-editor";
+} from "../../lib/composer-editor";
 export type { ComposerPopupProps, ComposerTokenVariant };

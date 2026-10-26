@@ -2,7 +2,7 @@
 
 import { ScrollArea as ScrollAreaPrimitive } from "@base-ui/react/scroll-area";
 import type React from "react";
-import { cn } from "void/db/lib/utils";
+import { cn } from "../../lib/utils";
 
 export function ScrollArea({
   className,

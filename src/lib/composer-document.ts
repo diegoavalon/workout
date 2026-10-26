@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { getComposerQuery } from "void/db/lib/composer-query";
+import { getComposerQuery } from "./composer-query";
 
 type ComposerPart =
   | { type: "text"; text: string }

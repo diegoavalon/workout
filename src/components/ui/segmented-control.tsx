@@ -3,7 +3,7 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import * as React from "react";
-import { cn } from "void/db/lib/utils";
+import { cn } from "../../lib/utils";
 
 export type SegmentedControlSize = "default" | "lg" | "sm";
 

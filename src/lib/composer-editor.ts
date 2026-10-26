@@ -28,7 +28,7 @@ import {
   type ComposerValue,
   type UseComposerEditorOptions,
   useComposerEditor,
-} from "void/db/hooks/use-composer-editor";
+} from "../hooks/use-composer-editor";
 
 type ComposerEditorOptions = Omit<
   UseComposerEditorOptions,
@@ -500,7 +500,7 @@ export {
   type ComposerValue,
   getComposerText,
   useComposerFilter,
-} from "void/db/hooks/use-composer-editor";
+} from "../hooks/use-composer-editor";
 export type { ComposerEditorOptions };
 export {
   ComposerEditorProvider,
