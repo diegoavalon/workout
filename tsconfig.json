@@ -14,11 +14,6 @@
   },
   "include": [
     "src",
-    "pages",
-    "routes",
-    "middleware",
-    "crons",
-    "queues",
-    "db"
+    "index.html"
   ]
 }

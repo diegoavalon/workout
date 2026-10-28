@@ -1,0 +1,10 @@
+[
+  {
+    "order": 1,
+    "type": "richText",
+    "itemId": "rt-1",
+    "child": {
+      "content": "{\"ops\": [{\"insert\": \"Coaching notes\"}, {\"insert\": \"\\n\", \"attributes\": {\"header\": 2}}, {\"insert\": \"Demo fixture session.\\n\"}]}"
+    }
+  }
+]

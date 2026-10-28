@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "id": "demo-program",
+  "title": "Demo Program",
+  "description": "Synthetic demo metadata for Slice 0; workout content is the sanitized fixture session.",
+  "daysPerWeek": 3,
+  "weeks": [
+    {
+      "id": "w01",
+      "order": 1,
+      "title": "Week 1",
+      "sessions": [
+        {
+          "id": "w01-s1",
+          "order": 1,
+          "title": "Session 1",
+          "suggestedWeekday": 1,
+          "estimatedMinutes": 45,
+          "contentPath": "week-01/session-01.json"
+        }
+      ]
+    }
+  ]
+}

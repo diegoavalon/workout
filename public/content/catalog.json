@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "programs": [
+    {
+      "id": "demo-program",
+      "title": "Demo Program (synthetic manifest)",
+      "daysPerWeek": 3,
+      "contentVersion": "1.0.0",
+      "manifestPath": "programs/demo/program.json"
+    }
+  ]
+}
