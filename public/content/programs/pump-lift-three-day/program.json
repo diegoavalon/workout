@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "id": "pump-lift-three-day",
+  "title": "PUMP-LIFT",
+  "daysPerWeek": 3,
+  "weeks": [
+    {
+      "id": "w01",
+      "order": 1,
+      "sessions": [
+        {
+          "id": "w01-s1",
+          "order": 1,
+          "title": "Day 1",
+          "contentPath": "week-01/session-01.json"
+        },
+        {
+          "id": "w01-s2",
+          "order": 2,
+          "title": "Day 2",
+          "contentPath": "week-01/session-02.json"
+        },
+        {
+          "id": "w01-s3",
+          "order": 3,
+          "title": "Day 3",
+          "contentPath": "week-01/session-03.json"
+        },
+        {
+          "id": "w01-s4",
+          "order": 4,
+          "title": "Day 4",
+          "contentPath": "week-01/session-04.json"
+        },
+        {
+          "id": "w01-s5",
+          "order": 5,
+          "title": "Day 5",
+          "contentPath": "week-01/session-05.json"
+        },
+        {
+          "id": "w01-s6",
+          "order": 6,
+          "title": "Day 6",
+          "contentPath": "week-01/session-06.json"
+        }
+      ]
+    },
+    {
+      "id": "w02",
+      "order": 2,
+      "sessions": [
+        {
+          "id": "w02-s1",
+          "order": 1,
+          "title": "Day 1",
+          "contentPath": "week-02/session-01.json"
+        },
+        {
+          "id": "w02-s2",
+          "order": 2,
+          "title": "Day 2",
+          "contentPath": "week-02/session-02.json"
+        },
+        {
+          "id": "w02-s3",
+          "order": 3,
+          "title": "Day 3",
+          "contentPath": "week-02/session-03.json"
+        },
+        {
+          "id": "w02-s4",
+          "order": 4,
+          "title": "Day 4",
+          "contentPath": "week-02/session-04.json"
+        },
+        {
+          "id": "w02-s5",
+          "order": 5,
+          "title": "Day 5",
+          "contentPath": "week-02/session-05.json"
+        }
+      ]
+    },
+    {
+      "id": "w03",
+      "order": 3,
+      "sessions": [
+        {
+          "id": "w03-s1",
+          "order": 1,
+          "title": "Day 1",
+          "contentPath": "week-03/session-01.json"
+        },
+        {
+          "id": "w03-s2",
+          "order": 2,
+          "title": "Day 2",
+          "contentPath": "week-03/session-02.json"
+        },
+        {
+          "id": "w03-s3",
+          "order": 3,
+          "title": "Day 3",
+          "contentPath": "week-03/session-03.json"
+        },
+        {
+          "id": "w03-s4",
+          "order": 4,
+          "title": "Day 4",
+          "contentPath": "week-03/session-04.json"
+        },
+        {
+          "id": "w03-s5",
+          "order": 5,
+          "title": "Day 5",
+          "contentPath": "week-03/session-05.json"
+        },
+        {
+          "id": "w03-s6",
+          "order": 6,
+          "title": "Day 6",
+          "contentPath": "week-03/session-06.json"
+        }
+      ]
+    },
+    {
+      "id": "w04",
+      "order": 4,
+      "sessions": [
+        {
+          "id": "w04-s1",
+          "order": 1,
+          "title": "Day 1",
+          "contentPath": "week-04/session-01.json"
+        },
+        {
+          "id": "w04-s2",
+          "order": 2,
+          "title": "Day 2",
+          "contentPath": "week-04/session-02.json"
+        },
+        {
+          "id": "w04-s3",
+          "order": 3,
+          "title": "Day 3",
+          "contentPath": "week-04/session-03.json"
+        },
+        {
+          "id": "w04-s4",
+          "order": 4,
+          "title": "Day 4",
+          "contentPath": "week-04/session-04.json"
+        },
+        {
+          "id": "w04-s5",
+          "order": 5,
+          "title": "Day 5",
+          "contentPath": "week-04/session-05.json"
+        },
+        {
+          "id": "w04-s6",
+          "order": 6,
+          "title": "Day 6",
+          "contentPath": "week-04/session-06.json"
+        }
+      ]
+    },
+    {
+      "id": "w05",
+      "order": 5,
+      "sessions": [
+        {
+          "id": "w05-s1",
+          "order": 1,
+          "title": "Day 1",
+          "contentPath": "week-05/session-01.json"
+        },
+        {
+          "id": "w05-s2",
+          "order": 2,
+          "title": "Day 2",
+          "contentPath": "week-05/session-02.json"
+        },
+        {
+          "id": "w05-s3",
+          "order": 3,
+          "title": "Day 3",
+          "contentPath": "week-05/session-03.json"
+        },
+        {
+          "id": "w05-s4",
+          "order": 4,
+          "title": "Day 4",
+          "contentPath": "week-05/session-04.json"
+        },
+        {
+          "id": "w05-s5",
+          "order": 5,
+          "title": "Day 5",
+          "contentPath": "week-05/session-05.json"
+        },
+        {
+          "id": "w05-s6",
+          "order": 6,
+          "title": "Day 6",
+          "contentPath": "week-05/session-06.json"
+        }
+      ]
+    },
+    {
+      "id": "w06",
+      "order": 6,
+      "sessions": [
+        {
+          "id": "w06-s1",
+          "order": 1,
+          "title": "Day 1",
+          "contentPath": "week-06/session-01.json"
+        },
+        {
+          "id": "w06-s2",
+          "order": 2,
+          "title": "Day 2",
+          "contentPath": "week-06/session-02.json"
+        },
+        {
+          "id": "w06-s3",
+          "order": 3,
+          "title": "Day 3",
+          "contentPath": "week-06/session-03.json"
+        },
+        {
+          "id": "w06-s4",
+          "order": 4,
+          "title": "Day 4",
+          "contentPath": "week-06/session-04.json"
+        },
+        {
+          "id": "w06-s5",
+          "order": 5,
+          "title": "Day 5",
+          "contentPath": "week-06/session-05.json"
+        },
+        {
+          "id": "w06-s6",
+          "order": 6,
+          "title": "Day 6",
+          "contentPath": "week-06/session-06.json"
+        }
+      ]
+    }
+  ]
+}

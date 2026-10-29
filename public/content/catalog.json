@@ -10,6 +10,13 @@
       "manifestPath": "programs/pump-condition-three-day/program.json"
     },
     {
+      "id": "pump-lift-three-day",
+      "title": "PUMP-LIFT",
+      "daysPerWeek": 3,
+      "contentVersion": "1.0.0",
+      "manifestPath": "programs/pump-lift-three-day/program.json"
+    },
+    {
       "id": "perform-five-day",
       "title": "PERFORM",
       "daysPerWeek": 5,
