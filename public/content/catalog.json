@@ -17,6 +17,13 @@
       "manifestPath": "programs/pump-lift-three-day/program.json"
     },
     {
+      "id": "minimalist-four-day",
+      "title": "MINIMALIST",
+      "daysPerWeek": 4,
+      "contentVersion": "1.0.0",
+      "manifestPath": "programs/minimalist-four-day/program.json"
+    },
+    {
       "id": "perform-five-day",
       "title": "PERFORM",
       "daysPerWeek": 5,
