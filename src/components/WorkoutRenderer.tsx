@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PlayIcon } from "lucide-react";
+import { DumbbellIcon, PlayIcon } from "lucide-react";
 import { parseDelta, type DeltaLine } from "../domain/delta";
 import type { Exercise } from "../domain/types";
 import { deltaTextOf, fmtSeconds, notesOf, prescription, resolveExercise, sortItems, subAssignments, type RawItem } from "../domain/workout";
@@ -28,20 +28,30 @@ export function DeltaView({ value }: { value: unknown }) {
   );
 }
 
+export function MediaPlaceholder({ title }: { title?: string }) {
+  return (
+    <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-muted text-muted-foreground" role="img" aria-label={title ? `No media for ${title}` : "No media available"}>
+      <DumbbellIcon className="size-10 opacity-40" aria-hidden />
+      <span className="text-[13px] font-medium">No media available</span>
+    </div>
+  );
+}
+
 function ExerciseCard({ item, label, index, nested }: { item: RawItem; label: string; index: Map<string, Exercise>; nested?: boolean }) {
   const ex = resolveExercise(item, index);
   const [showVideo, setShowVideo] = useState(false);
+  const [imgFailed, setImgFailed] = useState(false);
   const presc = prescription(item);
   const notes = notesOf(item);
   const mediaUrl = showVideo && ex?.videoUrl ? ex.videoUrl : ex?.imageUrl ?? ex?.thumbnail;
   return (
     <article className={cn("flex flex-wrap overflow-hidden border bg-card rounded-2xl", !nested && "shadow-xs/5")} aria-label={ex?.title ?? "Unknown exercise"}>
-      <div className="relative flex min-h-42 flex-[1_1_220px] flex-col items-start justify-between gap-2 bg-muted p-3">
-        {mediaUrl && !showVideo ? <img src={mediaUrl} alt={ex?.title ?? ""} loading="lazy" className="absolute inset-0 h-full w-full object-cover" onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} /> : null}
-        {showVideo && ex?.videoUrl ? <video src={ex.videoUrl} controls preload="metadata" className="absolute inset-0 h-full w-full object-cover" aria-label={`${ex.title} instructional video`} /> : null}
-        <span className="relative font-mono text-[11px] text-muted-foreground">{ex ? (ex.videoUrl ? "exercise media" : "exercise image") : "media unavailable"}</span>
+      <div className="relative min-h-42 flex-[1_1_220px] overflow-hidden bg-muted">
+        {mediaUrl && !showVideo ? <img src={mediaUrl} alt={ex?.title ?? ""} loading="lazy" className="absolute inset-0 h-full w-full object-cover" onError={() => setImgFailed(true)} /> : null}
+        {!showVideo && (!mediaUrl || imgFailed) && <MediaPlaceholder title={ex?.title} />}
+        {showVideo && ex?.videoUrl ? <video src={ex.videoUrl} controls autoPlay playsInline preload="metadata" poster={ex.imageUrl ?? ex.thumbnail} className="absolute inset-0 h-full w-full bg-black object-contain" aria-label={`${ex.title} instructional video`} /> : null}
         {ex?.videoUrl && (
-          <Button variant="outline" size="sm" className="relative min-h-11" onClick={() => setShowVideo((v) => !v)} aria-pressed={showVideo}>
+          <Button variant="outline" size="sm" className={cn("absolute z-10 min-h-11", showVideo ? "top-2 right-2" : "bottom-2 left-2")} onClick={() => setShowVideo((v) => !v)} aria-pressed={showVideo}>
             <PlayIcon className="size-3 fill-current" />{showVideo ? "Hide video" : "Watch video"}
           </Button>
         )}

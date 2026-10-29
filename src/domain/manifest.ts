@@ -10,7 +10,8 @@ export const sessionSchema = z.object({
   id, order: z.number().int().min(1, "order is 1-based"),
   title: z.string().optional(), summary: z.string().optional(),
   suggestedWeekday: z.number().int().min(1).max(7).optional(),
-  estimatedMinutes: z.number().positive().optional(), contentPath,
+  estimatedMinutes: z.number().positive().optional(),
+  optional: z.boolean().optional(), contentPath,
 }).passthrough();
 export const weekSchema = z.object({
   id, order: z.number().int().min(1), title: z.string().optional(),
@@ -39,8 +40,9 @@ export function validateManifest(input: unknown): { manifest?: Program; issues: 
   dup("program", m.id);
   for (const w of m.weeks) {
     dup("week", w.id);
-    if (w.sessions.length !== m.daysPerWeek)
-      warnings.push(`Week ${w.order} has ${w.sessions.length} sessions but daysPerWeek is ${m.daysPerWeek}; sessions are kept as authored.`);
+    const required = w.sessions.filter((s) => !s.optional).length;
+    if (required !== m.daysPerWeek)
+      warnings.push(`Week ${w.order} has ${required} required sessions but daysPerWeek is ${m.daysPerWeek}; sessions are kept as authored.`);
     for (const s of w.sessions) dup("session", s.id);
   }
   if (issues.length) return { issues, warnings };

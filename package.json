@@ -29,6 +29,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
+    "convert:raw": "node scripts/convert-raw-export.ts",
+    "capture:raw": "node scripts/capture-raw-export.ts",
     "postinstall": "void prepare"
   },
   "dependencies": {

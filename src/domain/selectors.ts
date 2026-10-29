@@ -21,10 +21,10 @@ export function completedKeys(progress: SessionProgress[], runId: string | undef
   return new Set(progress.filter((p) => p.runId === runId && p.completedAt).map((p) => p.sessionKey));
 }
 export function nextIncomplete(program: Program, done: Set<string>) {
-  return flatSessions(program).find((s) => !done.has(sessionKey(program.id, s.id))) ?? null;
+  return flatSessions(program).find((s) => !s.optional && !done.has(sessionKey(program.id, s.id))) ?? null;
 }
 export function programProgress(program: Program, done: Set<string>) {
-  const all = flatSessions(program);
+  const all = flatSessions(program).filter((s) => !s.optional);
   return { done: all.filter((s) => done.has(sessionKey(program.id, s.id))).length, total: all.length };
 }
 

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { parseDelta } from "./delta";
 import { validateManifest } from "./manifest";
-import { frequencyGroups, nextIncomplete } from "./selectors";
+import { frequencyGroups, nextIncomplete, programProgress } from "./selectors";
 import { flatSessions, sessionKey, type Program } from "./types";
 import { prescription, resolveExercise, sortItems } from "./workout";
 
@@ -19,6 +19,19 @@ describe("parseDelta", () => {
     expect(lines[0].number).toBe(1);
     expect(lines[1].segs[0].embed).toBe("image");
     expect(lines[1].number).toBe(2);
+  });
+  it("converts source AARRGGBB colors to CSS colors", () => {
+    const lines = parseDelta(D([
+      { insert: "Coach", attributes: { color: "#FFEE4B0F" } },
+      { insert: "\n", attributes: { header: 1 } },
+      { insert: "Black", attributes: { color: "#FF000000" } },
+      { insert: "\n" },
+      { insert: "Faded", attributes: { color: "#80FF0000" } },
+      { insert: "\n" },
+    ]));
+    expect(lines[0].segs[0].color).toBe("#EE4B0F");
+    expect(lines[1].segs[0].color).toBe("#000000");
+    expect(lines[2].segs[0].color).toBe("#FF000080");
   });
   it("degrades malformed input to plain text without throwing", () => {
     expect(parseDelta("{not json")[0].segs[0].text).toBe("{not json");
@@ -71,6 +84,12 @@ describe("selectors", () => {
   it("groups 3/4/5 and puts everything else in Other schedules", () => {
     const g = frequencyGroups([prog(3, "a"), prog(2, "b"), prog(7, "c")]);
     expect(g.find((x) => x.key === "other")?.programs.map((p) => p.id)).toEqual(["b", "c"]);
+  });
+  it("optional sessions never block next-incomplete or inflate progress totals", () => {
+    const p: Program = { schemaVersion: 1, contentVersion: "1", id: "o", title: "o", daysPerWeek: 1, totalWeeks: 1, weeks: [{ id: "w01", order: 1, sessions: [{ id: "s1", order: 1, contentPath: "a.json", optional: true }, { id: "s2", order: 2, contentPath: "b.json" }] }] };
+    expect(nextIncomplete(p, new Set())?.id).toBe("s2");
+    expect(nextIncomplete(p, new Set([sessionKey("o", "s1"), sessionKey("o", "s2")]))).toBeNull();
+    expect(programProgress(p, new Set([sessionKey("o", "s1")]))).toEqual({ done: 0, total: 1 });
   });
   it("next incomplete follows canonical order regardless of weekday", () => {
     const p = prog(3, "a");

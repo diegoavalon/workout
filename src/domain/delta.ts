@@ -4,6 +4,15 @@ export type DeltaLine = { segs: DeltaSeg[]; header?: number; list?: "bullet" | "
 type Op = { insert?: unknown; attributes?: Record<string, unknown> };
 const SAFE_COLOR = /^#[0-9a-fA-F]{3,8}$|^[a-zA-Z]{1,20}$/;
 
+/** Source colors use AARRGGBB (alpha first); CSS hex uses RRGGBBAA. Reorder 8-digit values. */
+export function normalizeColor(c: string): string | undefined {
+  if (!SAFE_COLOR.test(c)) return undefined;
+  const m = c.match(/^#([0-9a-fA-F]{8})$/);
+  if (!m) return c;
+  const [a, r, g, b] = [m[1].slice(0, 2), m[1].slice(2, 4), m[1].slice(4, 6), m[1].slice(6, 8)];
+  return a.toUpperCase() === "FF" ? `#${r}${g}${b}` : `#${r}${g}${b}${a}`;
+}
+
 /** Line-aware Quill Delta parser (PRD §5): block attributes live on the `\n` insert ending the line. Never produces HTML. */
 export function parseDelta(input: unknown): DeltaLine[] {
   let ops: unknown;
@@ -39,7 +48,7 @@ export function parseDelta(input: unknown): DeltaLine[] {
     }
     const segAttrs: Partial<DeltaSeg> = {
       bold: !!attrs.bold, italic: !!attrs.italic, underline: !!attrs.underline, strike: !!attrs.strike,
-      color: typeof attrs.color === "string" && SAFE_COLOR.test(attrs.color) ? attrs.color : undefined,
+      color: typeof attrs.color === "string" ? normalizeColor(attrs.color) : undefined,
       size: typeof attrs.size === "string" ? attrs.size : undefined,
     };
     let start = 0;

@@ -3,11 +3,11 @@
   "contentVersion": "1.0.0",
   "programs": [
     {
-      "id": "demo-program",
-      "title": "Demo Program (synthetic manifest)",
-      "daysPerWeek": 3,
+      "id": "perform-five-day",
+      "title": "PERFORM",
+      "daysPerWeek": 5,
       "contentVersion": "1.0.0",
-      "manifestPath": "programs/demo/program.json"
+      "manifestPath": "programs/perform-five-day/program.json"
     }
   ]
 }

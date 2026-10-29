@@ -19,6 +19,7 @@ const card = (cls?: string) => cn("rounded-2xl border bg-card shadow-xs/5", cls)
 
 async function baseData() {
   await repo.ensureSeeded();
+  await repo.syncCatalog();
   const [programs, runs, progress] = await Promise.all([repo.listPrograms(), repo.listRuns(), repo.listProgress()]);
   return { programs, runs, progress };
 }
@@ -249,7 +250,18 @@ function MediaSummary({ programId, items, exerciseIndex }: { programId: string; 
 function ProgramOverview() {
   const { program, runs, progress, items, exerciseIndex } = programRoute.useLoaderData();
   const navigate = useNavigate(); const router = useRouter();
+  const [downloading, setDownloading] = useState(false);
   if (!program) return <NotFound what="Program" />;
+  const totalSessions = flatSessions(program).length;
+  const downloadedSessions = items.size;
+  const fullyDownloaded = downloadedSessions >= totalSessions;
+  const download = async () => {
+    setDownloading(true);
+    const r = await repo.downloadProgram(program.id);
+    setDownloading(false);
+    flash(r.downloaded >= r.total ? "Program saved for offline use" : `Saved ${r.downloaded} of ${r.total} sessions — check your connection`);
+    await router.invalidate();
+  };
   const run = activeRunOf(runs, program.id);
   const done = completedKeys(progress, run?.id);
   const pr = programProgress(program, done);
@@ -274,16 +286,24 @@ function ProgramOverview() {
         <span className="text-center text-[13px] text-muted-foreground">{run ? `${pr.done} of ${pr.total} sessions complete` : "You can preview any session without starting."}</span>
         {run && <Button variant="outline" onClick={async () => { await repo.endRun(run.id); await repo.startRun(program.id); flash("New run started — previous progress kept"); await router.invalidate(); }}>Restart as new run</Button>}
       </div>
+      <section className={card("flex flex-wrap items-center justify-between gap-3 p-5")} aria-label="Offline download">
+        <div className="flex flex-col gap-0.5">
+          <span className="text-[15px] font-semibold">Offline use</span>
+          <span className="text-[13px] text-muted-foreground">{fullyDownloaded ? "All sessions are saved on this device and open offline." : `${downloadedSessions} of ${totalSessions} sessions saved on this device. The rest load when you open them online.`}</span>
+        </div>
+        {fullyDownloaded ? <Badge variant="success" size="lg">Downloaded</Badge> : <Button variant="outline" disabled={downloading} onClick={download}><DownloadIcon />{downloading ? "Downloading…" : "Download program"}</Button>}
+      </section>
       <MediaSummary programId={program.id} items={items} exerciseIndex={exerciseIndex} />
       <section className="flex flex-col gap-3" aria-label="Weeks">
         <h2 className="font-heading text-xl font-semibold tracking-tight">Weeks</h2>
         <div className="overflow-hidden rounded-2xl border bg-card shadow-xs/5">
           {[...program.weeks].sort((a, b) => a.order - b.order).map((w) => {
             const wd = w.sessions.filter((s) => done.has(sessionKey(program.id, s.id))).length;
+            const weekLabel = w.title && w.title.trim().toLowerCase() !== `week ${w.order}` ? w.title : "";
             return (
               <Link key={w.id} to="/program/$programId/week/$weekId" params={{ programId: program.id, weekId: w.id }} className="flex min-h-16 w-full items-center gap-4 border-t px-5 py-3.5 first:border-t-0 hover:bg-muted">
                 <span className="w-16 shrink-0 text-sm font-semibold">Week {w.order}</span>
-                <span className="flex-1 text-[15px] font-medium">{w.title ?? ""}</span>
+                <span className="flex-1 text-[15px] font-medium">{weekLabel}</span>
                 <span className="font-mono text-[13px] text-muted-foreground">{wd}/{w.sessions.length}</span><ChevronRightIcon className="size-4.5 opacity-50" />
               </Link>
             );
@@ -304,7 +324,7 @@ function WeekView() {
   return (
     <>
       <p className="text-sm font-medium text-muted-foreground"><Link to="/program/$programId" params={{ programId: program.id }} className="underline">{program.title}</Link> · {sessions.length} sessions this week</p>
-      <Heading title={`Week ${week.order}${week.title ? ` — ${week.title}` : ""}`} sub="Train these in order on whichever days suit you. A missed day never skips a session." />
+      <Heading title={`Week ${week.order}${week.title && week.title.trim().toLowerCase() !== `week ${week.order}` ? ` — ${week.title}` : ""}`} sub="Train these in order on whichever days suit you. A missed day never skips a session." />
       <div className="flex flex-col gap-2.5">
         {sessions.map((s) => {
           const isDone = done.has(sessionKey(program.id, s.id));
@@ -318,7 +338,7 @@ function WeekView() {
                 <span className="text-[13px] text-muted-foreground">{[s.summary, s.estimatedMinutes ? `${s.estimatedMinutes} min` : null].filter(Boolean).join(" · ")}</span>
               </span>
               <span className="flex shrink-0 flex-col items-end gap-1.5">
-                <Badge variant={isDone ? "success" : isNext ? "default" : "secondary"} size="lg">{isDone ? "Done" : isNext ? "Up next" : "To do"}</Badge>
+                <Badge variant={isDone ? "success" : isNext ? "default" : "secondary"} size="lg">{isDone ? "Done" : s.optional ? "Optional" : isNext ? "Up next" : "To do"}</Badge>
                 {s.suggestedWeekday && <span className="text-xs text-muted-foreground">Suggested {WEEKDAYS[s.suggestedWeekday]}</span>}
               </span>
             </Link>
@@ -335,7 +355,7 @@ function SessionView() {
   const { program, week, session, items, exerciseIndex, runs, progress } = data;
   useEffect(() => { const r = activeRunOf(runs, program?.id ?? ""); if (r && program && session) repo.markOpened(r.id, program.id, session.id); }, []);
   if (!program || !week || !session) return <NotFound what="Session" />;
-  if (!items) return <><Heading title={`Session ${session.order}`} sub="This session's workout content is missing from the imported program." /><p className="text-sm text-muted-foreground">The program structure is intact; re-import the bundle to restore this session's content.</p></>;
+  if (!items) return <><Heading title={`Session ${session.order}`} sub="This session's workout is not on this device yet." /><p className="text-sm text-muted-foreground">Connect to the internet and open it again, or use Download program on the program page to save every session for offline use.</p></>;
   const run = activeRunOf(runs, program.id);
   const done = completedKeys(progress, run?.id);
   const all = flatSessions(program);
@@ -366,6 +386,7 @@ function SessionView() {
         <div className="flex flex-wrap gap-1.5 pt-1">
           {session.estimatedMinutes && <Badge variant="outline" size="lg"><ClockIcon />{session.estimatedMinutes} min</Badge>}
           <Badge variant="outline" size="lg">{exerciseCount} exercises</Badge>
+          {session.optional && <Badge variant="secondary" size="lg">Optional · recovery</Badge>}
           {completedAt && <Badge variant="success" size="lg">Completed {new Date(completedAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })}</Badge>}
           {!run && <Badge variant="secondary" size="lg">Preview</Badge>}
         </div>
@@ -450,7 +471,7 @@ function Settings() {
         {row("Restore progress", "Import a previously exported file. Invalid files are rejected without changing data.", <><input ref={fileRef} type="file" accept="application/json" className="hidden" onChange={(e) => restore(e.target.files?.[0])} /><Button variant="outline" onClick={() => fileRef.current?.click()}>Restore</Button></>)}
         {row("Delete media only", "Removes downloaded images/video. Workouts and progress stay.", <Button variant="outline" onClick={() => setConfirm("media")}>Delete media</Button>)}
         {row("Delete progress only", "Removes runs and completion history. Content stays.", <Button variant="outline" onClick={() => setConfirm("progress")}>Delete progress</Button>)}
-        {row("Reset local content", "Removes imported programs and re-seeds the starter library. Progress stays, keyed by stable session IDs.", <Button variant="outline" onClick={() => setConfirm("content")}>Reset content</Button>)}
+        {row("Reset local content", "Removes imported programs from this device. Progress stays, keyed by stable session IDs.", <Button variant="outline" onClick={() => setConfirm("content")}>Reset content</Button>)}
       </section>
       <p className="text-[13px] text-muted-foreground">Browsers can evict local storage, especially Safari on iOS for sites not added to the Home Screen. Export your progress regularly; no storage is guaranteed indefinitely.</p>
       <Dialog open={!!confirm} onOpenChange={(v) => !v && setConfirm(null)}>
@@ -483,7 +504,7 @@ const sessionRoute = createRoute({
     const b = await baseData(); const program = b.programs.find((p) => p.id === params.programId);
     const week = program?.weeks.find((w) => w.id === params.weekId);
     const session = week?.sessions.find((s) => s.id === params.sessionId);
-    return { ...b, program, week, session, items: program && session ? await repo.getSessionItems(program.id, session.id) : undefined, exerciseIndex: await repo.exerciseIndex() };
+    return { ...b, program, week, session, items: program && session ? await repo.ensureSessionItems(program.id, session.id) : undefined, exerciseIndex: await repo.exerciseIndex() };
   },
   component: SessionView,
 });

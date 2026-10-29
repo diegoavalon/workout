@@ -1,7 +1,7 @@
 import { progressExportSchema, validateManifest } from "../domain/manifest";
 import { flatSessions, sessionKey, type Exercise, type ImportReport, type MediaRecord, type Program, type ProgramRun, type SessionProgress } from "../domain/types";
 import { exerciseIdOf, allAssignments } from "../domain/workout";
-import { buildSeed } from "./fixtures";
+import { buildSeed, SEED_PROGRAM_IDS } from "./fixtures";
 
 export type BundleInput = { manifest: unknown; files: Record<string, unknown>; library?: unknown[] };
 export interface Repository {
@@ -13,6 +13,9 @@ export interface Repository {
   exerciseIndex(): Promise<Map<string, Exercise>>;
   listExercises(): Promise<Exercise[]>;
   importBundle(input: BundleInput): Promise<ImportReport>;
+  syncCatalog(catalogUrl?: string): Promise<void>;
+  ensureSessionItems(programId: string, sessionId: string): Promise<Record<string, unknown>[] | undefined>;
+  downloadProgram(programId: string): Promise<{ downloaded: number; total: number }>;
   listRuns(): Promise<ProgramRun[]>;
   activeRun(programId: string): Promise<ProgramRun | undefined>;
   startRun(programId: string): Promise<ProgramRun>;
@@ -45,7 +48,7 @@ export class MemoryRepository implements Repository {
 
   async ensureSeeded() {
     if (this.seeded) return;
-    if (!this.syncing) this.syncing = (async () => { await this.hydrate(); if (!this.seeded && this.programs.size === 0) { const s = buildSeed(); for (const p of s.programs) this.programs.set(p.id, structuredClone(p)); for (const [k, v] of s.items) this.items.set(k, structuredClone(v)); for (const e of s.exercises) this.exercises.set(e.id, e); } this.seeded = true; await this.sync(); })();
+    if (!this.syncing) this.syncing = (async () => { await this.hydrate(); for (const id of SEED_PROGRAM_IDS) { this.programs.delete(id); for (const k of [...this.items.keys()]) if (k.startsWith(`${id}/`)) this.items.delete(k); } if (!this.seeded && this.programs.size === 0) { const s = buildSeed(); for (const p of s.programs) this.programs.set(p.id, structuredClone(p)); for (const [k, v] of s.items) this.items.set(k, structuredClone(v)); for (const e of s.exercises) this.exercises.set(e.id, e); } this.seeded = true; await this.sync(); })();
     await this.syncing;
   }
   protected async hydrate() { /* Dexie overrides */ }
@@ -98,6 +101,57 @@ export class MemoryRepository implements Repository {
     for (const [k, v] of library) this.exercises.set(k, v);
     await this.sync();
     return { programId: manifest.id, contentVersion: manifest.contentVersion, sessionsImported: staged.size, missingExercises: [...missing], warnings: [...warnings, ...libReport], errors: [], removedSessionIds, duplicate };
+  }
+
+  /** Online-first catalog: fetch published manifests and upsert program metadata only. Session content loads lazily. No-ops offline or on any fetch failure, leaving local data as-is. */
+  async syncCatalog(catalogUrl = "/content/catalog.json") {
+    await this.ensureSeeded();
+    try {
+      if (typeof fetch !== "function") return;
+      const origin = typeof location !== "undefined" ? location.href : "http://localhost/";
+      const catRes = await fetch(catalogUrl);
+      if (!catRes.ok) return;
+      const catalog = (await catRes.json()) as { programs?: { manifestPath?: string }[] };
+      for (const entry of catalog.programs ?? []) {
+        if (!entry.manifestPath) continue;
+        const manifestUrl = new URL(entry.manifestPath, new URL(catalogUrl, origin));
+        const res = await fetch(manifestUrl);
+        if (!res.ok) continue;
+        const { manifest } = validateManifest(await res.json());
+        if (!manifest) continue;
+        const sourceBase = manifestUrl.href.slice(0, manifestUrl.href.lastIndexOf("/") + 1);
+        this.programs.set(manifest.id, { ...manifest, sourceBase });
+      }
+      await this.sync();
+    } catch { /* offline or unpublished: local catalog stands */ }
+  }
+
+  /** Local copy if present; otherwise fetch the session file from the published source and cache it locally. */
+  async ensureSessionItems(pid: string, sid: string) {
+    const local = await this.getSessionItems(pid, sid);
+    if (local) return local;
+    const program = await this.getProgram(pid);
+    const session = program ? flatSessions(program).find((s) => s.id === sid) : undefined;
+    if (!program?.sourceBase || !session) return undefined;
+    try {
+      const res = await fetch(new URL(session.contentPath, program.sourceBase));
+      if (!res.ok) return undefined;
+      const data: unknown = await res.json();
+      if (!Array.isArray(data)) return undefined;
+      this.items.set(sessionKey(pid, sid), data as Record<string, unknown>[]);
+      await this.sync();
+      return data as Record<string, unknown>[];
+    } catch { return undefined; }
+  }
+
+  /** Download every session's text content for offline use. Media stays a separate, explicit download. */
+  async downloadProgram(pid: string) {
+    const program = await this.getProgram(pid);
+    if (!program) return { downloaded: 0, total: 0 };
+    const sessions = flatSessions(program);
+    let downloaded = 0;
+    for (const s of sessions) if (await this.ensureSessionItems(pid, s.id)) downloaded++;
+    return { downloaded, total: sessions.length };
   }
 
   async listRuns() { await this.ensureSeeded(); return [...this.runs.values()].sort((a, b) => b.startedAt.localeCompare(a.startedAt)); }

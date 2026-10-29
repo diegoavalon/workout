@@ -1,10 +1,2861 @@
 [
   {
-    "id": "ex-back-squat",
+    "id": "zfuHeKBgvsJOxXAJeyXF",
+    "title": "Cardio of Choice",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "MkGprlzdHB92FByU2MRP",
+    "title": "Goblet Heel Sit",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FGoblet%20Heel%20Sit_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FGoblet%20Heel%20Sits%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FGoblet%20Heel%20Sit_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "ejqX2rWHbVoI8kqA4Mkv",
+    "title": "Ring Assisted Cossack Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FejqX2rWHbVoI8kqA4Mkv-Ring%20Assisted%20Cossack%20Squat_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/ejqX2rWHbVoI8kqA4Mkv-Ring Assisted Cossack Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/U_LahS-4viE/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "CnRWIh1dCtl9wsdHOya0",
+    "title": "Barbell Romanian Deadlift",
+    "imageUrl": "https://img.youtube.com/vi/SeZHPMBO0os/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/CnRWIh1dCtl9wsdHOya0-Romanian Deadlift.mp4",
+    "thumbnail": "https://img.youtube.com/vi/SeZHPMBO0os/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "5CmbN4XmGnJvcmOTTkGo",
+    "title": "Barbell Strict Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FScreenshot%202026-06-23%20at%206.31.26%C3%A2%C2%80%C2%AFAM.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FStanding%20Barbell%20Overhead%20Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FScreenshot%202026-06-23%20at%206.31.26%C3%A2%C2%80%C2%AFAM.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "O0wqsnseMAg7dK4zclxw",
+    "title": "Front Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(30)_ATOM_7_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FFront%20Squat%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(30)_ATOM_7_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "k5nDvWDH42Ft6VFzKY7e",
+    "title": "Squatting Quad Clean Grip Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(22)_ATOM_8_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(22)_ATOM_8.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(22)_ATOM_8_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "ToIGD0NtdOMi7kyL3Cv1",
+    "title": "Front Rack Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328406126112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6328406126112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328406126112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "OH96vX5wq2BgCXYPkWKo",
+    "title": "Front Squat Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(25)_ATOM_8_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(25)_ATOM_8.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(25)_ATOM_8_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "2DKhLGyP51G6K3QGsTHW",
+    "title": "No Feet Clean",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FNo%20Feet%20Clean_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FNo%20Feet%20Clean.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FNo%20Feet%20Clean_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "QiWynOsUtTzyAS7sjoGr",
     "title": "Back Squat",
-    "logType": "reps",
-    "tags": [
-      "strength"
-    ]
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBack%20Squat_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBack%20Squat%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBack%20Squat_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "jMMW1TZ5dIDGBBXOrpa3",
+    "title": "Band Assisted Nordic Hamstring Curl",
+    "imageUrl": "https://img.youtube.com/vi/-rROt1SM9f8/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/jMMW1TZ5dIDGBBXOrpa3-Band Assisted Nordic Hamstring Curl.mp4",
+    "thumbnail": "https://img.youtube.com/vi/-rROt1SM9f8/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "p6gs9QsxO7xKZ41EtTt1",
+    "title": "Russian Kettlebell Swings",
+    "imageUrl": "https://img.youtube.com/vi/1C9U-E753F0/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/p6gs9QsxO7xKZ41EtTt1-Russian Kettlebell Swing.mp4",
+    "thumbnail": "https://img.youtube.com/vi/1C9U-E753F0/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "X9GITgbaxahxcJSUsbU3",
+    "title": "Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_(6)_Row_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(6)_Row.mp4",
+    "thumbnail": "https://img.youtube.com/vi/LLd9S-iMmLY/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "h29fCjKv9EtqU751qfO6",
+    "title": "Dumbbell Suitcase Walking Lunge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(31)_ATOM_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/h29fCjKv9EtqU751qfO6-Dumbbell Suitcase Walking Lunge.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(31)_ATOM_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "mrswZ4pL7TkvDKAHU7MB",
+    "title": "GHD Sit Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(26)_ATOM_6_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/mrswZ4pL7TkvDKAHU7MB-GHD Sit Up.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(26)_ATOM_6_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "fDzbwO4yDMidaE8g8DOP",
+    "title": "Foot Elevated Hamstring Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(38)_ATOM_2_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(38)_ATOM_2.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(38)_ATOM_2_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "bUcSPNMxaCwkm1gRo8Zy",
+    "title": "Dynamic Couch Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(34)_ATOM_5_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDynamic%20Couch%20Stretch%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(34)_ATOM_5_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "No04JfVIVQkBgYWp07US",
+    "title": "Hip Sleeper Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(17)_ATOM_11_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(17)_ATOM_11.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(17)_ATOM_11_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "vOOO9MWdxCJzOBLI0udY",
+    "title": "Tall Plank to Alternating Toe Touch",
+    "imageUrl": "https://img.youtube.com/vi/WrQM3CtYIXg/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/vOOO9MWdxCJzOBLI0udY-Tall Plank to Alternating Toe Touch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/WrQM3CtYIXg/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "v1BvPqEssetXatlYumvL",
+    "title": "Half Kneeling Cable Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FHalf%20Kneeling%20Cable%20Row%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FHalf%20Kneeling%20Cable%20Row%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/ZFLrj2xcGZc/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "awGz0arawA1lb84UxO6A",
+    "title": "Cardio Sprint",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "FWBldBUfMnUWlOadI6Dm",
+    "title": "Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315185332112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FRow.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315185332112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "IEQEEb5rMsjg8oq0Ii92",
+    "title": "Bar Muscle Up",
+    "imageUrl": "https://img.youtube.com/vi/gKZUrrD_IEw/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/IEQEEb5rMsjg8oq0Ii92-Kipping Bar Muscle Up.mp4",
+    "thumbnail": "https://img.youtube.com/vi/gKZUrrD_IEw/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "OLV2p0YK7Nqv9MWhLVEB",
+    "title": "Tuck Ups",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FTuck%20Ups%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FTuck%20Ups%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/35o0fYAifvw/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "HuO5s78ctdVscpuqoPgq",
+    "title": "Burpee Strict Pull Up",
+    "imageUrl": "https://img.youtube.com/vi/wOyzZYLMmRc/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/HuO5s78ctdVscpuqoPgq-Burpee Strict Pull Up.mp4",
+    "thumbnail": "https://img.youtube.com/vi/mgohaNfFWjM/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "ywDDNR239Ze1M779zsUv",
+    "title": "Close Grip Bench Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(8)_ATOM_9_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/ywDDNR239Ze1M779zsUv-Close Grip Bench Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(8)_ATOM_9_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "A4jwBaNtjxaiGXMfFaOX",
+    "title": "Incline Dumbbell Chest Fly",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FIncline%20Dumbbell%20Fly_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FIncline%20Dumbbell%20Fly.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FIncline%20Dumbbell%20Fly_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "oVyX6sJT896o8JJWOEYa",
+    "title": "Barbell Skull Crusher",
+    "imageUrl": "https://img.youtube.com/vi/8cLLkfVsVGM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/oVyX6sJT896o8JJWOEYa-Barbell Skull Crusher.mp4",
+    "thumbnail": "https://img.youtube.com/vi/8cLLkfVsVGM/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "HQkqrdYOByVzQytNJXZV",
+    "title": "Toes To Bar",
+    "imageUrl": "https://img.youtube.com/vi/K0dl8l2ZJiM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/HQkqrdYOByVzQytNJXZV-Toes to Bar.mp4",
+    "thumbnail": "https://img.youtube.com/vi/K0dl8l2ZJiM/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "VeRXyrsFs5eg7GRMZr0g",
+    "title": "Dumbbell Bench Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_(1)_Dumbbell%20Bench%20Press%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Dumbbell%20Bench%20Press%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_(1)_Dumbbell%20Bench%20Press%20(720p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "oiFVcTD9iK2di45tgcU4",
+    "title": "Burpees",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBurpees%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBurpees%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/hKhPVQ9Z46Q/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "zy5TsFg0cORssg9S2oPA",
+    "title": "Scorpion Chest Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Scorpion%20Chest%20Stretch_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Scorpion%20Chest%20Stretch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Scorpion%20Chest%20Stretch_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "lP4pKd2OIvSWjsb4IAV5",
+    "title": "Banded Single Arm Behind the Back Stretch",
+    "imageUrl": "https://img.youtube.com/vi/U4ow2MXpHL0/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/lP4pKd2OIvSWjsb4IAV5-Banded Single Arm Behind the Back Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/U4ow2MXpHL0/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "2BpfUzKy77xIFNmPegif",
+    "title": "Passive Hang",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPassive%20Hang%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPassive%20Hang%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/Lo0J0CyQTHY/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "ORfXBZYR9OQqsIspzTF7",
+    "title": "Banded Goodmorning",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6354827402112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6354827402112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6354827402112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "hOgf7CqzkXX6jFDh68Ew",
+    "title": "Dumbbell Chainsaw Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(27)_ATOM_4_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/hOgf7CqzkXX6jFDh68Ew-Dumbbell Chainsaw Row.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(27)_ATOM_4_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "p6mGteSt395T8QIkEavr",
+    "title": "Snatch Grip Romanian Deadlift",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSnatch%20Grip%20Romanian%20Deadlift%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSnatch%20Grip%20Romanian%20Deadlift%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/4YbbblBhInk/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "zQwGtai9MSsov525bRfZ",
+    "title": "BTN Snatch Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(15)_ATOM_11_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(15)_ATOM_11.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(15)_ATOM_11_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "N5ahIjZJ9LflUoIDXZw2",
+    "title": "Overhead Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FOverhead%20Squat%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FOverhead%20Squat%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/vYkF08gmApI/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "8O07fTA5ECHYUNPMRUui",
+    "title": "Squatting Quad Snatch Grip Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(25)_ATOM_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(25)_ATOM.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(25)_ATOM_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Vj2HCLiZra7IKUjCpjiZ",
+    "title": "Snatch Grip Overhead Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6330316317112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6330316317112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6330316317112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "4CDNfygJ6ajBEYw7J0bf",
+    "title": "Overhead Squat Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328406876112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6328406876112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328406876112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Mj3IodO92gQ0yVnFuJuB",
+    "title": "Muscle Snatch",
+    "imageUrl": "https://img.youtube.com/vi/13Exeqm50tw/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Mj3IodO92gQ0yVnFuJuB-Muscle Snatch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/13Exeqm50tw/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "3foEVGYeaT1fq8MBs6Dl",
+    "title": "Bodyweight Supinated Strict Pull Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSupinated%20Strict%20Pull%20Up%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSupinated%20Strict%20Pull%20Up%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/3CG_KGaG4Yc/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "I7QlfvZcQQuiOGg5ry9K",
+    "title": "Bike",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "o5hx316yP2p4MlvBULYG",
+    "title": "Alternating Single Arm Devils Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315177693112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/o5hx316yP2p4MlvBULYG-Alternating Single Arm Devils Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315177693112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "QzDZS8NANgPgTAhFEx7Q",
+    "title": "Cat Cow",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(3)_Cat%20Cow%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(3)_Cat%20Cow%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/6_hrX6-WFAA/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "dso6eUsHY6LsuKfKmLvE",
+    "title": "Childs Pose with Lat Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Childs%20Pose%20Lat%20Stretch_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/dso6eUsHY6LsuKfKmLvE-Childs Pose with Lat Stretch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Childs%20Pose%20Lat%20Stretch_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "pI7vh9VroqPp3AF6O6iY",
+    "title": "Downdog to Updog",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6319314057112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6319314057112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6319314057112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "10rwOcQds061ieWX0jSZ",
+    "title": "Pigeon Stretch",
+    "imageUrl": "https://img.youtube.com/vi/Z4BFDxiuZaw/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/10rwOcQds061ieWX0jSZ-Pigeon Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Z4BFDxiuZaw/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "6cDhrUetbqbCRIVenVWr",
+    "title": "Run",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "PvzEEAcaSdhOEXW3YUJx",
+    "title": "Tall Plank Shoulder Taps",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6316076599112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPlank%20Shoulder%20Taps.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6316076599112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "CXdsZGZQB6hsTNXlzHSv",
+    "title": "Superman Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(42)_ATOM_5_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(42)_ATOM_5.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(42)_ATOM_5_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "B9nVxehvwtQNo6JUXaRy",
+    "title": "Quadruped Plank Shoulder Taps",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_6315183552112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/B9nVxehvwtQNo6JUXaRy-Quadruped Shoulder Taps.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_6315183552112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "LW5nU7gnt40Q67F32FmM",
+    "title": "Swimmer Kicks",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSwimmer%20Kicks_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSwimmer%20Kicks.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSwimmer%20Kicks_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "y4On2DNK8bEwW84cO9XM",
+    "title": "FBB Active Recovery: Front Splits ",
+    "imageUrl": "https://img.youtube.com/vi/h9t5ZX_pGqU/0.jpg",
+    "videoUrl": "https://youtu.be/h9t5ZX_pGqU",
+    "thumbnail": "https://img.youtube.com/vi/h9t5ZX_pGqU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "ohRAmXOUWKkFOsvclUF9",
+    "title": "Supine Hamstring Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Supine%20Hamstring%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Supine%20Hamstring%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/595mOnIpahE/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "FifV81SzQCNPOzMm0O7A",
+    "title": "Active Straight Leg Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FActive%20Straight%20Leg%20Raise%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FActive%20Straight%20Leg%20Raise%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/i7918yETfpw/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "t9Tp3Dsiu8XC8Q9of3U9",
+    "title": "Couch Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_6315181799112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/t9Tp3Dsiu8XC8Q9of3U9-Couch Stretch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_6315181799112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "T7b0t8TeY7usxhbqsGmf",
+    "title": "Front Split Progression",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_(5)_ATOM_9_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(5)_ATOM_9.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_(5)_ATOM_9_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "Oaz2Dy2m1CF7rdVeBWF5",
+    "title": "Front Split",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FFront%20Split_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Oaz2Dy2m1CF7rdVeBWF5-Front Split.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FFront%20Split_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Gn1CL4elyIwyWYZKVcu0",
+    "title": "Dumbbell Single Leg Glute Bridge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20Single%20Leg%20Glute%20Bridge%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDumbbell%20Single%20Leg%20Glute%20Bridge%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/1u5ZDhtYC8s/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Ra6UAnwOFOAgwxVmyg3I",
+    "title": "Deficit Dual Dumbbell Sumo Deadlift",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDeficit%20Dual%20DB%20Sumo%20Deadlift%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDeficit%20Dual%20DB%20Sumo%20Deadlift%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/cTKJAcNEBtU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "G6oylIeIzFdxE8WjIVgL",
+    "title": "Single Arm Kettlebell Snatch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315682639112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6315682639112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315682639112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "1TC85UO1GoNyqftrWLF6",
+    "title": "SA Kettlebell Overhead Reverse Lunge",
+    "imageUrl": "https://img.youtube.com/vi/WV6XLLamm_k/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/1TC85UO1GoNyqftrWLF6-SA Kettlebell overhead Reverse Lunge.mp4",
+    "thumbnail": "https://img.youtube.com/vi/WV6XLLamm_k/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "PuSqvdwuNG3xyXSw3sG8",
+    "title": "Diagonal Skater Jump",
+    "imageUrl": "https://img.youtube.com/vi/1GcJTWzzee4/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/PuSqvdwuNG3xyXSw3sG8-Diaganol Skater Jump.mp4",
+    "thumbnail": "https://img.youtube.com/vi/1GcJTWzzee4/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "7BxTfkdUTq2RyEYqj2Yc",
+    "title": "Rear Foot Elevated Suitcase Split Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6333821397112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6333821397112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6333821397112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "oYoAitvVRWCdCVKqH0CT",
+    "title": "Alternating Goblet Tall Kneel to Stand",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FAlternating%20Goblet%20Tall%20Kneel%20to%20Stand_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FAlternating%20Goblet%20Tall%20Kneel%20to%20Stand.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FAlternating%20Goblet%20Tall%20Kneel%20to%20Stand_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "PS2OhAbPZaUwD0b52wpV",
+    "title": "Alternating Goblet Curtsy Squat",
+    "imageUrl": "https://img.youtube.com/vi/8oXYiD47isM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/PS2OhAbPZaUwD0b52wpV-Alternating Goblet Curtsy Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/8oXYiD47isM/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "niXXdbgAaF6PtIYZVi2a",
+    "title": "Bike",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Assault%20Bike%20(1080p_24fps_H264-128kbit_AAC)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FAssault%20Bike%20(1080p_24fps_H264-128kbit_AAC).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Assault%20Bike%20(1080p_24fps_H264-128kbit_AAC)_thumbnail.png",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "upjp7XlOr4PBR9C3hHtP",
+    "title": "Power Snatch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPower%20Snatch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPower%20Snatch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/KTiShMBVvew/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "sADJXvbyf9zPX1CxmRL7",
+    "title": "Seal Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Seal%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/sADJXvbyf9zPX1CxmRL7-Seal Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/IJ9cKNaT5ug/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Iwh7xgEVoIZWdCCNaq3L",
+    "title": "Pancake Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPancake%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPancake%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/B7c8TdbljqU/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "tr0REHADmhK4aLxb7sFQ",
+    "title": "Horse Stance Pulse",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Horse%20Stance%20Pulse%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Horse%20Stance%20Pulse%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/HMsmTWk0I3E/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "hoKlvJAEicuP9mufxqGM",
+    "title": "Prone Behind the Neck Press",
+    "imageUrl": "https://img.youtube.com/vi/Ey4IIN9z-U8/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/hoKlvJAEicuP9mufxqGM-Prone Behind the Neck Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Ey4IIN9z-U8/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "QCWOcalael3ljSSLxS6m",
+    "title": "Ring Y Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FRing%20Y%20Row_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FRing%20Y%20Row.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FRing%20Y%20Row_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "P39cG0HYlnQ9GBBXd5Hg",
+    "title": "Calorie Bike",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FScreenshot%202026-08-19%20at%208.24.37%C3%A2%C2%80%C2%AFAM.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FCalorie%20Bike.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(4)_Assault%20Bike%20(1080p_24fps_H264-128kbit_AAC)_thumbnail.png",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "UKwTBzb0nugeN2rlhoWz",
+    "title": "Push Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPush%20Ups%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPush%20Ups%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/s_uJLrlJJ6A/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "MTyYkX85ynT8SXsLpKJU",
+    "title": "Supinated Pull Up Isometric",
+    "imageUrl": "https://img.youtube.com/vi/O-CO7uaoh70/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/MTyYkX85ynT8SXsLpKJU-Supinated Pull Up Isometric.mp4",
+    "thumbnail": "https://img.youtube.com/vi/O-CO7uaoh70/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "SOT5rlgJdUERuBE74840",
+    "title": "Barbell Z Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBarbell%20Z%20Press_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBarbell%20Z%20Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBarbell%20Z%20Press_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "1PJld9PBYh9UuocWHCco",
+    "title": "Inchworm Push Up",
+    "imageUrl": "https://img.youtube.com/vi/gZ87UGVB6q4/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/1PJld9PBYh9UuocWHCco-Inchworm Pushup.mp4",
+    "thumbnail": "https://img.youtube.com/vi/gZ87UGVB6q4/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "8a1gaRKN5I27otzlo1wD",
+    "title": "Dumbbell Front Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6350023230112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6350023230112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6350023230112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "SUdR40qqwuceE7jxtzes",
+    "title": "Quadruped Crawl",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FQuadruped%20Crawl_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FQuadruped%20Crawl.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FQuadruped%20Crawl_thumbnail.png",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "I5i6eogsx0RPbwgZUxFT",
+    "title": "Kettlebell Gorilla Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(30)_ATOM_10_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/I5i6eogsx0RPbwgZUxFT-KB Gorilla Row.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(30)_ATOM_10_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "7qagcicrzEDt1Y4J99lN",
+    "title": "Kettlebell Strict Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FKettlebell%20Strict%20Press_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FKettlebell%20Strict%20Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FKettlebell%20Strict%20Press_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "hej1HoeXyTO0aMSgVJNo",
+    "title": "Dual Kettlebell Push Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDual%20Kettlebell%20Push%20Press%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDual%20Kettlebell%20Push%20Press%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/GSuIx2qmpMk/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "F9ruMZyCEYwMmOVDHBg3",
+    "title": "Theraband Around the World",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(5)_ATOM_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(5)_ATOM.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(5)_ATOM_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "iiyeMnFXSH88hEfQtTPd",
+    "title": "Supinated Passive Hang",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_(1)_Supinated%20Passive%20Hang%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Supinated%20Passive%20Hang%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/h7xqAFfJKBA/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "RSNsqZ9fR43r6qycKhjC",
+    "title": "PVC Box Shoulder Extension Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6350080995112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6350080995112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6350080995112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "yliJq4Oknwk8jdx5i9tW",
+    "title": "Reverse Nordic Band Assisted",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FyliJq4Oknwk8jdx5i9tW-Reverse%20Nordic%20Band%20Assisted_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/yliJq4Oknwk8jdx5i9tW-Reverse Nordic Band Assisted.mp4",
+    "thumbnail": "https://img.youtube.com/vi/UaCHbdRqtgM/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "mijOtMcZrrkhxEC7QbJ7",
+    "title": "Low Switch Cossack Squat",
+    "imageUrl": "https://img.youtube.com/vi/XvsLb0TWhyM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/mijOtMcZrrkhxEC7QbJ7-Low Switch Cossack Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/XvsLb0TWhyM/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "WVRUFIPuubBQjM8S4Crd",
+    "title": "Barbell Hip Thrust",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315181684112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/WVRUFIPuubBQjM8S4Crd-Barbell Hip Thrust.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315181684112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "KdqwgCUtp3y94JcPJPpc",
+    "title": "Bent Knee Copenhagen Plank",
+    "imageUrl": "https://img.youtube.com/vi/aIwvDsserSM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/KdqwgCUtp3y94JcPJPpc-Bent Knee Copenhagen Plank.mp4",
+    "thumbnail": "https://img.youtube.com/vi/aIwvDsserSM/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Kwy9k0biASXwKRL7aaMJ",
+    "title": "Goblet Tall Kneeling to Stand",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6321049407112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6321049407112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6321049407112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "epJVNjQWSTxRbo2oRPZR",
+    "title": "Alternating Single Arm Russian Kettlebell Swings",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FAlternating%20Single%20Arm%20Russian%20Kettlebell%20Swings%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FAlternating%20Single%20Arm%20Russian%20Kettlebell%20Swings%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/fsVct49p3SI/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "tmSWdyCtVFZQleU2Qg6r",
+    "title": "Front Foot Elevated Hip Flexion Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(31)_ATOM_2_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(31)_ATOM_2.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(31)_ATOM_2_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "ZoQ2WLlPTM6VuoKaIqaW",
+    "title": "Butterfly Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FButterfly%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FButterfly%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/i0CHhwChUdI/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "OcqRNUJEtOf583UUGhbw",
+    "title": "Shinbox Switch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FShinbox%20Switch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FShinbox%20Switch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/gavF_r9-hTU/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "einMDyxCwrsOu4p1ZoDB",
+    "title": "Tall Plank Knee to Elbow",
+    "imageUrl": "https://img.youtube.com/vi/I5g-WXSAtfo/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/einMDyxCwrsOu4p1ZoDB-Tall Plank Knee to Elbow.mp4",
+    "thumbnail": "https://img.youtube.com/vi/I5g-WXSAtfo/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "qjpIjojJiBo9TcwtrJ7B",
+    "title": "Tall Kneeling Kettlebell Hip to Halo",
+    "imageUrl": "https://img.youtube.com/vi/JJ1X-I_PHII/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/qjpIjojJiBo9TcwtrJ7B-Tall Kneeling KB Hip to Halo.mp4",
+    "thumbnail": "https://img.youtube.com/vi/JJ1X-I_PHII/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Rkr5e7fi2gQboAbxEAzU",
+    "title": "Run",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "vLfJeDzegE95gYzl8DNF",
+    "title": "Kipping Ring Muscle Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FKipping%20Ring%20Muscle%20Up%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FKipping%20Ring%20Muscle%20Up%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/ZmwmEUUTQmA/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "EMUwtPCK0FQn7j9N1lPI",
+    "title": "V Ups",
+    "imageUrl": "https://img.youtube.com/vi/2UNk8XAUVhw/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/EMUwtPCK0FQn7j9N1lPI-V Ups.mp4",
+    "thumbnail": "https://img.youtube.com/vi/2UNk8XAUVhw/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "yvcOvhSRYl2rBHSgFemZ",
+    "title": "Muscle Up Rows",
+    "imageUrl": "https://img.youtube.com/vi/V4hAiO1xhEI/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/yvcOvhSRYl2rBHSgFemZ-Muscle Up Rows.mp4",
+    "thumbnail": "https://img.youtube.com/vi/V4hAiO1xhEI/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "o6rgOzrDEUgOlbXwpgxo",
+    "title": "Wide Grip Bench Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FWide%20Grip%20Bench%20Press_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FWide%20Grip%20Bench%20Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FWide%20Grip%20Bench%20Press_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "78EKL0Bev2AfokqkS4jL",
+    "title": "Bent Over Cable Chest Fly",
+    "imageUrl": "https://img.youtube.com/vi/6MHTG56kiUQ/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/78EKL0Bev2AfokqkS4jL-Bent over Cable Chest Fly.mp4",
+    "thumbnail": "https://img.youtube.com/vi/6MHTG56kiUQ/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "LkB8HCuZWhlRSAedl7DC",
+    "title": "Dumbbell Skull Crusher",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20Skull%20Crusher_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDumbbell%20Skull%20Crusher.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20Skull%20Crusher_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Uyvd9hBKojux0hDWYVbm",
+    "title": "Alternating Glute Bridge Dumbbell Floor Press",
+    "imageUrl": "https://img.youtube.com/vi/5esXMtATMT8/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Uyvd9hBKojux0hDWYVbm-Alternating Glute Bridge Dumbbell Floor Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/5esXMtATMT8/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "1NpEgeimMRYnqOC0gVDQ",
+    "title": "Double Unders",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDouble%20Unders_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDouble%20Unders%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDouble%20Unders_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "Qtjxrqcjrtu9mccsPHFO",
+    "title": "Banded Single Arm Pec Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(3)_ATOM_8_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(3)_ATOM_8.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(3)_ATOM_8_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "DHvVvqS7GCHTlJfsMcxV",
+    "title": "Pretzel Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(24)_ATOM_6_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(24)_ATOM_6.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(24)_ATOM_6_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "ISnxxvCqHZjdLIKONqaP",
+    "title": "PVC Lat Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPVC%20Lat%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPVC%20Lat%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/7Kp3zVJjOj0/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "qqzKTvwkHZK9K5kCXN55",
+    "title": "Seated Dumbbell Goodmorning",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315681081112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6315681081112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315681081112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "h5Wa6D7zrj0PYH5VOebC",
+    "title": "Kettlebell Ballistic Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FKettlebell%20Ballistic%20Row%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FKettlebell%20Ballistic%20Row%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/k9J3S1UeLwg/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "K7W80UXXQhD0iCZpl13p",
+    "title": "Conventional Deadlift",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FConventional%20Deadlift%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/K7W80UXXQhD0iCZpl13p-Conventional Deadlift.mp4",
+    "thumbnail": "https://img.youtube.com/vi/OB48M1nz5jM/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "1DP6YnLK9uK71EcYotHm",
+    "title": "Pronated Strict Pull Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPronated%20Strict%20Pull%20Up%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPronated%20Strict%20Pull%20Up%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/ePouuita0us/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "xvX3WcAQgAURixbMkR4g",
+    "title": "Alternating Dumbbell Power Snatch",
+    "imageUrl": "https://img.youtube.com/vi/Gq3lz2UGzoQ/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/xvX3WcAQgAURixbMkR4g-Alternating Dumbbell Power Snatch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Gq3lz2UGzoQ/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "kyl7RqbAedfjMcS7ZIgk",
+    "title": "Jump Lunges",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(43)_ATOM_4_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/kyl7RqbAedfjMcS7ZIgk-Jump Lunges.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(43)_ATOM_4_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "8uHu1BhvU3SyotZw2shk",
+    "title": "Childs Pose Reach Through ",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Childs%20Pose%20Reach%20Through_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FChilds%20Pose%20Reach%20Through%20to%20Quadruped%20Thoracic%20Rotation%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Childs%20Pose%20Reach%20Through_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "VrRjlpi10Boig2ffXMFe",
+    "title": "Elevated Pigeon",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FElevated%20Pigeon%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FElevated%20Pigeon%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/nil6JxS4h0o/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "4UGHqBJqaeceizJxsSES",
+    "title": "Lumbar Roll to Pike ",
+    "imageUrl": "https://img.youtube.com/vi/GbKXWqT5dJM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/4UGHqBJqaeceizJxsSES-Lumbar Roll to Pike.mp4",
+    "thumbnail": "https://img.youtube.com/vi/GbKXWqT5dJM/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "mIQiZArhmvvwfgv5Z4wg",
+    "title": "Single Leg Hip Thrust Isometric",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Single%20Leg%20Hip%20Thrust%20Isometric%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSingle%20Leg%20Hip%20Thrust%20Isometric%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/zY89Fozfihw/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "4IEHlXcqBxYGgDQ54jFP",
+    "title": "Side Plank",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSide%20Plank%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSide%20Plank%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/yXhKSRod1z0/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "DvziQbb6MGztDN7vvUhA",
+    "title": "Single Arm Ring Plank",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(17)_ATOM_7_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(17)_ATOM_7.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(17)_ATOM_7_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "l0c6FNbcsBJZYEYJBXrf",
+    "title": "Single Arm Ring Row Hold",
+    "imageUrl": "https://img.youtube.com/vi/x5tjHZrw_u4/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/l0c6FNbcsBJZYEYJBXrf-Single Arm Ring Row Hold.mp4",
+    "thumbnail": "https://img.youtube.com/vi/x5tjHZrw_u4/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "l1uiCO1CFRdYrmBpSkvl",
+    "title": "FBB Recovery: Upper Body Mobility ",
+    "imageUrl": "https://img.youtube.com/vi/d54qf9SIScI/0.jpg",
+    "videoUrl": "https://youtu.be/d54qf9SIScI",
+    "thumbnail": "https://img.youtube.com/vi/d54qf9SIScI/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "UcQbmVY6AnzgrEDdR86y",
+    "title": "Shoulder Circles",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FShoulder%20Circles%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FShoulder%20Circles%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/mKU8_eQUhmw/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "Y816YSx3ObuZSccuxWS9",
+    "title": "Kneeling Triceps Stretch",
+    "imageUrl": "https://img.youtube.com/vi/x_65r76EiPg/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Y816YSx3ObuZSccuxWS9-Kneeling Triceps Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/x_65r76EiPg/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "RkST70IKN6XK2PKTtyPw",
+    "title": "Behind the Back Neck Stretch",
+    "imageUrl": "https://img.youtube.com/vi/QBJqwkXjZVg/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/RkST70IKN6XK2PKTtyPw-Behind the Back Neck Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/QBJqwkXjZVg/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "MmjCKDICCO6tlSwzGTjf",
+    "title": "Prone I Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FProne%20I%20Raise%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FProne%20I%20Raise%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/us2_4-PRkIo/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "6NordZIXBFzaCFdvq84M",
+    "title": "Prone T Raise",
+    "imageUrl": "https://img.youtube.com/vi/bJLYEq4JR-8/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/6NordZIXBFzaCFdvq84M-Prone T Raise.mp4",
+    "thumbnail": "https://img.youtube.com/vi/bJLYEq4JR-8/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "3jYaov88oIS07zwa6QgC",
+    "title": "Prone Y Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FProne%20Y%20Raise_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FProne%20Y%20Raise.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FProne%20Y%20Raise_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "9YUaQzfp739kLC5NJ9VI",
+    "title": "Prone Shoulder Swimmer",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FProne%20Shoulder%20Swimmer%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FProne%20Shoulder%20Swimmer%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/acGjxHZkw1g/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "dCtxl1cLytsudiHb4ayl",
+    "title": "Wrist Extension Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FWrist%20Extension%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FWrist%20Extension%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/JetcUMAeepU/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "i3qHxZsem69ksSDBObQi",
+    "title": "Wrist Flexion Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(6)_ATOM_14_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(6)_ATOM_14.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(6)_ATOM_14_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "9KIcwNSwADeQkLWI7EyW",
+    "title": "Single Leg Hip Bridge Hold ",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Leg%20Hip%20Bridge%20Hold%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSingle%20Leg%20Hip%20Bridge%20Hold%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/i0-jiod-PJI/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "tnjqRNLH8eFVkA8pe5f6",
+    "title": "Alternating Split Stance Single Arm Kettlebell Swing",
+    "imageUrl": "https://img.youtube.com/vi/Ss7KjOjCpVU/0.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=Ss7KjOjCpVU",
+    "thumbnail": "https://img.youtube.com/vi/Ss7KjOjCpVU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "E6XbwsIDKtScgqqi0KLL",
+    "title": "Single Arm Kettlebell Clean ",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315697107112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6315697107112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315697107112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "AkRhr0NepBF9OL7GhrGd",
+    "title": "Single Arm Kettlebell Push Jerk",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FKettlebell%20Single%20Arm%20Push%20Jerk_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FKettlebell%20Single%20Arm%20Push%20Jerk.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FKettlebell%20Single%20Arm%20Push%20Jerk_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "XMZp55v5eLIRbIfJm58x",
+    "title": "Continuous Broad Jump",
+    "imageUrl": "https://img.youtube.com/vi/kBIicqiIsCQ/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/XMZp55v5eLIRbIfJm58x-Continuous Broad Jump.mp4",
+    "thumbnail": "https://img.youtube.com/vi/kBIicqiIsCQ/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "HVe2OpOEYzCjG9O0QTfY",
+    "title": "Dumbbell Short Step Walking Lunge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(7)_ATOM_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(7)_ATOM.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(7)_ATOM_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "qfbexWi5HeEanmmTrAfB",
+    "title": "Alternating Goblet Kickstand Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FAlternating%20Goblet%20Kickstand%20Squat_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FAlternating%20Goblet%20Kickstand%20Squat.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FAlternating%20Goblet%20Kickstand%20Squat_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "MXubrpguUUi45tYoqw3z",
+    "title": "Alternating Goblet Cossack Squat",
+    "imageUrl": "https://img.youtube.com/vi/p8s9180mKNA/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/MXubrpguUUi45tYoqw3z-Alternating Goblet Cossack Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/p8s9180mKNA/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "rD6u9yIC22WxeuinYxWK",
+    "title": "Dynamic Adductor Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDynamic%20Adductor%20Stretch_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDynamic%20Adductor%20Stretch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDynamic%20Adductor%20Stretch_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "3m9M50wkYEz0cA5dwbdT",
+    "title": "Half Kneeling Weight Shift",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FHalf%20Kneeling%20Weight%20Shift%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FHalf%20Kneeling%20Weight%20Shift%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/oZ9FJ5Ue0vg/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "L5cLKQ9aKcCMS2EV4wje",
+    "title": "Middle Split",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FMiddle%20Split%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FMiddle%20Split%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/qtOxWO307fk/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "GLEowZfoSEDnhfXLb3wn",
+    "title": "Dual Dumbbell Bent Over Row Isometric",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328631705112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6328631705112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328631705112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "L0CEpESKLgl3VHUAkhoQ",
+    "title": "Half Kneeling Bottoms Up Kettlebell Press",
+    "imageUrl": "https://img.youtube.com/vi/0Xg9NKpyRbU/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/L0CEpESKLgl3VHUAkhoQ-Half Kneeling Bottoms Up Kettlebell Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/0Xg9NKpyRbU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "8SxrTtBx2QACEtD7A0aL",
+    "title": "Yoga Push Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FYoga%20Push%20Up_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FYoga%20Push%20Up.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FYoga%20Push%20Up_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "OwlY5vW93eZKWjqG8XO5",
+    "title": "Calorie Row",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_6315185332112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(2)_6315185332112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_6315185332112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "w2tZQf32MgGuf8d7Vl2G",
+    "title": "Seated Barbell Behind the Neck Press",
+    "imageUrl": "https://img.youtube.com/vi/Z43ACeSunNs/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/w2tZQf32MgGuf8d7Vl2G-Seated Barbell Behind the Neck Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Z43ACeSunNs/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "LwZ19iwlvSu6ue7cYqde",
+    "title": "Poliquin Lateral Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPoliquin%20Lateral%20Raise_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPoliquin%20Lateral%20Raise%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPoliquin%20Lateral%20Raise_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "PB3TRiI0NDCax2oqD9W7",
+    "title": "Forearm Plank",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FForearm%20Plank_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/PB3TRiI0NDCax2oqD9W7-Forearm Plank.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FForearm%20Plank_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "qWFL8qVWTF2MUap5Pa1Q",
+    "title": "Dual Dumbbell Hang Snatch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FScreenshot%202026-08-19%20at%2010.45.44%C3%A2%C2%80%C2%AFAM.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Dual%20Dumbbell%20Hang%20Snatch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDual%20DB%20Hang%20Snatch_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "47MsoJrcgfWhXcdToLii",
+    "title": "Dual Dumbbell Overhead Carry",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315181614112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/47MsoJrcgfWhXcdToLii-Dual Dumbbell Overhead Carry.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315181614112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "rAUmz67nHdAwzS69Vhdv",
+    "title": "Dual Dumbbell Strict Press",
+    "imageUrl": "https://img.youtube.com/vi/_pay3RqSGh0/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/rAUmz67nHdAwzS69Vhdv-Dual Dumbbell Strict Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/_pay3RqSGh0/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "31uc0vwSVIaFforJCoDf",
+    "title": "Reverse Shoulder Wall Circles",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FReverse%20Shoulder%20Wall%20Circles%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FReverse%20Shoulder%20Wall%20Circles%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/VaT4hWSSzBQ/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "vB229jrctIhWXS83fm0o",
+    "title": "Single Arm Banded Lat Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBanded%20Lat%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBanded%20Lat%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/UTet3JkpUeY/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Z7hwMLUvrJzr1JNd7PUw",
+    "title": "Active Scratch Test",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_6327233471112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_6327233471112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_6327233471112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "Z9ohYzdJqUTCKG1jikef",
+    "title": "Dumbbell Lateral Lunge",
+    "imageUrl": "https://img.youtube.com/vi/o1QjUpyRUJs/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Z9ohYzdJqUTCKG1jikef-Dumbell Lateral Lunge.mp4",
+    "thumbnail": "https://img.youtube.com/vi/o1QjUpyRUJs/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "cCRvaEUPS6TXmZ9cTmNC",
+    "title": "Hang Power Clean",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FHang%20Power%20Clean%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FHang%20Power%20Clean%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/nrkQ3iJhRBo/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "DKM3VBMW2Tdhrb5KgmOS",
+    "title": "Single Arm Dumbbell Suitcase Reverse Lunge",
+    "imageUrl": "https://img.youtube.com/vi/djBNI1aqrLk/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/DKM3VBMW2Tdhrb5KgmOS-Single Arm Dumbbell Suitcase Reverse Lunge.mp4",
+    "thumbnail": "https://img.youtube.com/vi/ikdIociPTqo/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "W9zOsI4CBD5FeTY2kNGV",
+    "title": "Tall Plank Shoulder Taps",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Plank%20Shoulder%20Taps_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Plank%20Shoulder%20Taps.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Plank%20Shoulder%20Taps_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "V6lSlVyMsQD4uFyJ7R2Z",
+    "title": "Single Arm Bottoms Up Rack Kettlebell Carry",
+    "imageUrl": "https://img.youtube.com/vi/PN79QsI_zFI/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/V6lSlVyMsQD4uFyJ7R2Z-Single Arm Bottoms Up Rack Kettlebell Carry.mp4",
+    "thumbnail": "https://img.youtube.com/vi/PN79QsI_zFI/0.jpg",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "aICKNCU9zfKNgYz7ORoq",
+    "title": "Toes to Rings",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(43)_ATOM_2_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(43)_ATOM_2.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(43)_ATOM_2_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "2uig0Hq17Dhe1cetEsK7",
+    "title": "Pike Leg Lift Over",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPike%20Leg%20Lift%20Over_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPike%20Leg%20Lift%20Over.mp4",
+    "thumbnail": "https://img.youtube.com/vi/aT1rNQBpmWY/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "OjM5iiCNIU4Qt079WOx6",
+    "title": "Low Incline Dumbbell Bench Press",
+    "imageUrl": "https://img.youtube.com/vi/keayllQYsqg/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/OjM5iiCNIU4Qt079WOx6-Low Incline Dumbbell Bench Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/keayllQYsqg/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "qip4L9DilpZaDgM61gdo",
+    "title": "Hand Release Burpee",
+    "imageUrl": "https://img.youtube.com/vi/3TTyDNrQd1U/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/qip4L9DilpZaDgM61gdo-Hand Release Burpee.mp4",
+    "thumbnail": "https://img.youtube.com/vi/3TTyDNrQd1U/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "OKxxWELPDM0Gdog5Yf9d",
+    "title": "Dumbbell Zercher Goodmorning",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20Zercher%20Goodmorning_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDumbbell%20Zercher%20Goodmorning.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20Zercher%20Goodmorning_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "6nQGmG1XhX4HrTJdDKRK",
+    "title": "Hang Power Snatch",
+    "imageUrl": "https://img.youtube.com/vi/JttO9PIa7KU/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/6nQGmG1XhX4HrTJdDKRK-Hang Power Snatch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/JttO9PIa7KU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "uJriC6u8tiM6eT2vAejK",
+    "title": "Devils Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDevils%20Press%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDevils%20Press%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/bvZ_dmxZ_1s/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "RPO3LNWXqUhSJOe7uWXu",
+    "title": "Box Jump Overs",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_ATOM_3_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBox%20Jump%20Overs%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_ATOM_3_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "MKcA9fnBXWuOh5LjxEuL",
+    "title": "Single Arm Dumbbell Snatch High Pull",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(11)_ATOM_10_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(11)_ATOM_10.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(11)_ATOM_10_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Y4oXDpPG8CgOuCuD3wvW",
+    "title": "Single Arm Dumbbell Snatch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20DB%20Snatch_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSingle%20Arm%20DB%20Snatch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20DB%20Snatch_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "26mAxssMM0w7OY7gAA3k",
+    "title": "Standing Single Arm Dumbbell Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FStanding%20Single%20Arm%20Dumbbell%20Press_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FStanding%20Single%20Arm%20Dumbbell%20Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FStanding%20Single%20Arm%20Dumbbell%20Press_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "ARpTEa6dhIudui1HHoZd",
+    "title": "Candlestick Roll Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_ATOM_7_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/ARpTEa6dhIudui1HHoZd-Candlestick Roll Up.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(2)_ATOM_7_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "bd7PeZLJJ3vSyCUblKPp",
+    "title": "Lateral Bench Hops Hands on Bench",
+    "imageUrl": "https://img.youtube.com/vi/tPeMPFyayHM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/bd7PeZLJJ3vSyCUblKPp-Lateral Bench Hops Hands on Bench.mp4",
+    "thumbnail": "https://img.youtube.com/vi/tPeMPFyayHM/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "eeHXVpXPDm6LRI9MvVSZ",
+    "title": "Down Dog Shoulder Taps",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDown%20Dog%20Shoulder%20Taps_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/eeHXVpXPDm6LRI9MvVSZ-Down Dog Shoulder Taps.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDown%20Dog%20Shoulder%20Taps_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "6q43zbHh3CeDNoYu8Jr0",
+    "title": "FBB Active Recovery: Middle Splits ",
+    "imageUrl": "https://img.youtube.com/vi/gm7L9Z8AyQY/0.jpg",
+    "videoUrl": "https://youtu.be/gm7L9Z8AyQY",
+    "thumbnail": "https://img.youtube.com/vi/gm7L9Z8AyQY/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "wHpQWbEU6V80eWXWIXLF",
+    "title": "Half Split Hip Hinge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FHalf%20Split%20Hip%20Hinge_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FHalf%20Split%20Hip%20Hinge.m4v%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/Hg2eRMhS-jc/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "wosDQvuWtn2Hc7alLvFI",
+    "title": "Weighted Butterfly Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FWeighted%20Butterfly%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FWeighted%20Butterfly%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/eTgQtGxOPOI/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "XBA0WltxhB4JfBl2OSeh",
+    "title": "Middle Split Hinge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FMiddle%20Split%20Hinge_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/XBA0WltxhB4JfBl2OSeh-middle split hinge.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FMiddle%20Split%20Hinge_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "9xNIQDoOF8NPi6pQMcoY",
+    "title": "Middle Split with Knee Bends",
+    "imageUrl": "https://img.youtube.com/vi/WN4bcGB7A7k/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/9xNIQDoOF8NPi6pQMcoY-middle split with knee bends.mp4",
+    "thumbnail": "https://img.youtube.com/vi/WN4bcGB7A7k/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "5eATlnNMZyCw3JIH11aM",
+    "title": "Bottom of Squat Hold",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315180415112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/5eATlnNMZyCw3JIH11aM-Bottom of Squat Hold.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315180415112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "zW6tCf3fMPqpHymCPr7E",
+    "title": "Alternating Landmine Rotational Deadlifts",
+    "imageUrl": "https://img.youtube.com/vi/3YWIYo1abAE/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/zW6tCf3fMPqpHymCPr7E-Alternating Landmine Rotational Deadlifts.mp4",
+    "thumbnail": "https://img.youtube.com/vi/3YWIYo1abAE/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "m50ZS8zFiXkDsMga0lYK",
+    "title": "Landmine Zercher Forward Lunge",
+    "imageUrl": "https://img.youtube.com/vi/CbxDyBwT1zQ/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/m50ZS8zFiXkDsMga0lYK-Landmine Zercher Forward Lunge.mp4",
+    "thumbnail": "https://img.youtube.com/vi/CbxDyBwT1zQ/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "aMglFBWr7S5jb4CEfEAw",
+    "title": "Single Arm Kettlebell Snatch High Pull",
+    "imageUrl": "https://img.youtube.com/vi/ddX1Da9PJlM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/aMglFBWr7S5jb4CEfEAw-Single Arm KB Snatch High Pull.mp4",
+    "thumbnail": "https://img.youtube.com/vi/ddX1Da9PJlM/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "CLCfF8yK7n1ImzNvGrH9",
+    "title": "Single Arm Kettlebell Rack Reverse Lunge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20Kettlebell%20Rack%20Reverse%20Lunge_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSingle%20Arm%20Kettlebell%20Rack%20Reverse%20Lunge.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20Kettlebell%20Rack%20Reverse%20Lunge_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "CNL01WVLZCjXrTMOPikP",
+    "title": "Burpee to Skater Jump",
+    "imageUrl": "https://img.youtube.com/vi/AFJZsyYD-dQ/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/CNL01WVLZCjXrTMOPikP-Burpee to Skater Jump.mp4",
+    "thumbnail": "https://img.youtube.com/vi/AFJZsyYD-dQ/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "TlxHE2MpVDyLUo0KrSzD",
+    "title": "Alternating Single Arm Dumbbell Rack Tall Kneel to Stand",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Akv80NYQjb4DC8lqvcID",
+    "title": "Alternating Single Arm Dumbbell Rack Curtsy Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FAlternating%20Single%20Arm%20Dumbbell%20Rack%20Curtsy%20Squat_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FAlternating%20Single%20Arm%20Dumbbell%20Rack%20Curtsy%20Squat.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FAlternating%20Single%20Arm%20Dumbbell%20Rack%20Curtsy%20Squat_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "V4gtGvZeSUPlg5GdHjkj",
+    "title": "Hang Squat Snatch",
+    "imageUrl": "https://img.youtube.com/vi/eSstuH7Aci0/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/V4gtGvZeSUPlg5GdHjkj-Hang Squat Snatch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/eSstuH7Aci0/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "cTRbSdtkjjuV94EpLFJ2",
+    "title": "Prone Half Angels",
+    "imageUrl": "https://img.youtube.com/vi/KgCwkWtLmYI/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/cTRbSdtkjjuV94EpLFJ2-Prone Half Angels.mp4",
+    "thumbnail": "https://img.youtube.com/vi/KgCwkWtLmYI/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "xB0EXsKX2AsCxg0Ha0GN",
+    "title": "Bulgarian Ring Row",
+    "imageUrl": "https://img.youtube.com/vi/n3ffECinyEU/0.jpg",
+    "videoUrl": "https://youtu.be/n3ffECinyEU",
+    "thumbnail": "https://img.youtube.com/vi/n3ffECinyEU/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "odj3nGssyHe9Ktl6kNBd",
+    "title": "Explosive Push Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(26)_ATOM_5_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(26)_ATOM_5.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(26)_ATOM_5_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "RmG6iwv4rxm6jk0PuPcI",
+    "title": "Pike Strict Handstand Push Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315696524112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6315696524112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315696524112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "WiTNLSKkFBvDqV9HMLa5",
+    "title": "Dumbbell Lateral Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20Lateral%20Raise-%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDumbbell%20Lateral%20Raise-%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/Z_UA6tIxgvs/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "ySSVfrDY77HrRY7jn4HN",
+    "title": "Alternating Kettlebell Push Press",
+    "imageUrl": "https://img.youtube.com/vi/F4QtglSk6Sk/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/ySSVfrDY77HrRY7jn4HN-Alternating Kettlebell Push Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/F4QtglSk6Sk/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "CkR3aVk9Qwmpd8st5WQs",
+    "title": "Single Arm Kettlebell Overhead Carry",
+    "imageUrl": "https://img.youtube.com/vi/xEFeYea1UTY/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/CkR3aVk9Qwmpd8st5WQs-Single Arm Kettlebell Overhead Carry.mp4",
+    "thumbnail": "https://img.youtube.com/vi/xEFeYea1UTY/0.jpg",
+    "tags": [],
+    "logType": "1"
+  },
+  {
+    "id": "f66J2HMzuc5o7pFwWDef",
+    "title": "Ring Plank",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6316078266112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6316078266112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6316078266112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "1IsH9F9RKhHapxyo4bI7",
+    "title": "Supine Band Lat Pull Over",
+    "imageUrl": "https://img.youtube.com/vi/fPZX0i8thWs/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/1IsH9F9RKhHapxyo4bI7-Supine Band Lat Pull Over.mp4",
+    "thumbnail": "https://img.youtube.com/vi/fPZX0i8thWs/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "QTF9qkrPZFqPGisNOzvA",
+    "title": "Dumbbell Horse Stance + Pulse",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20horse%20stance%20%2B%20pulse_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDumbbell%20horse%20stance%20%2B%20pulse.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDumbbell%20horse%20stance%20%2B%20pulse_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "I8fRXYmjkUTBcbRPjyYn",
+    "title": "Full Snatch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FFull%20Snatch_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FFull%20Snatch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/7vYqm4smx9o/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "c5SEMeriXKEB4FtB8lfo",
+    "title": "Deficit Deadlift",
+    "imageUrl": "https://img.youtube.com/vi/UARvYsZ2_vg/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/c5SEMeriXKEB4FtB8lfo-Deficit Deadlift.mp4",
+    "thumbnail": "https://img.youtube.com/vi/UARvYsZ2_vg/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "E508qSV41mbOK3hVArFl",
+    "title": "Ring Row",
+    "imageUrl": "https://img.youtube.com/vi/ay3x0Ni7YTE/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/E508qSV41mbOK3hVArFl-Ring Row.mp4",
+    "thumbnail": "https://img.youtube.com/vi/ay3x0Ni7YTE/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "c09SmadcS6Tqcd7cwhSY",
+    "title": "Shuttle Run",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FShuttle%20Run%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FShuttle%20Run%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/aCEi5nScb_o/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "j1WUntRInUXGGGKckKFY",
+    "title": "Couch Stretch Rocks",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FCouch%20Stretch%20Rocks_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FCouch%20Stretch%20Rocks.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FCouch%20Stretch%20Rocks_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "acueheeODoXhLMPtB2tP",
+    "title": "Single Arm Wall Prayer Stretch ",
+    "imageUrl": "https://img.youtube.com/vi/Yrn2IxxFpzg/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/acueheeODoXhLMPtB2tP-Single Arm Wall Prayer Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Yrn2IxxFpzg/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "1INNKk6EsgZjkRznWa3w",
+    "title": "Dumbbell External Rotation Elbow on Knee",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(6)_ATOM_7_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/1INNKk6EsgZjkRznWa3w-Dumbbell External Rotation Elbow on Knee.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(6)_ATOM_7_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "2JFDTy0S0daO468Sqixr",
+    "title": "Burpee Box Jump Step Down",
+    "imageUrl": "https://img.youtube.com/vi/X0TWIS1uSnc/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/2JFDTy0S0daO468Sqixr-Burpee Box Jump.mp4",
+    "thumbnail": "https://img.youtube.com/vi/iCiEj987QbA/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "MIVfycTZmhEbET4O7jJn",
+    "title": "Wall Walks",
+    "imageUrl": "https://img.youtube.com/vi/eXBmqhObeoo/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/MIVfycTZmhEbET4O7jJn-Wall Walks.mp4",
+    "thumbnail": "https://img.youtube.com/vi/eXBmqhObeoo/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "LaD8dxF4UV9m6h6u5ura",
+    "title": "Seated Dumbbell Shoulder Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_6315696726112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_6315696726112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_6315696726112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "5WkUhzS28sFzcK5gg0gh",
+    "title": "Wide Grip Deficit Push Up",
+    "imageUrl": "https://img.youtube.com/vi/LPlDM29n3ZY/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/5WkUhzS28sFzcK5gg0gh-Wide Grip Deficit Push Up.mp4",
+    "thumbnail": "https://img.youtube.com/vi/LPlDM29n3ZY/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "rcxjBsNQmj76NAEwB5RK",
+    "title": "Narrow Grip Tricep Push Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FNarrow%20Grip%20Tricep%20Push%20Up%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FNarrow%20Grip%20Tricep%20Push%20Up%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/6N1W_00I3Y0/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "NGHthX9a9jFblTO4rmZd",
+    "title": "Dual Kettlebell Clean from Floor",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315183398112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6315183398112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315183398112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "bpXm4bmvDZAswnQIPD0c",
+    "title": "Sidelying 90 90 Thoracic Rotation",
+    "imageUrl": "https://img.youtube.com/vi/TBaiLAZfdG0/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/bpXm4bmvDZAswnQIPD0c-Sidelying 90-90 Thoracic Rotation.mp4",
+    "thumbnail": "https://img.youtube.com/vi/TBaiLAZfdG0/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "TNvFiYX2ahowZugq0czs",
+    "title": "Shinbox Hip Extension + Switch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328632391112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6328632391112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328632391112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "eq9dukX1bg0nd7MRp9qj",
+    "title": "Worlds Greatest Stretch",
+    "imageUrl": "https://img.youtube.com/vi/aJCh5g3MaQk/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/eq9dukX1bg0nd7MRp9qj-Worlds Greatest Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/aJCh5g3MaQk/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "VoivgflDpbXr3ZWmSpft",
+    "title": "Power Clean",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Power%20Clean%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Power%20Clean%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/Z7oZkJwDabo/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "1ksqglnqOfT3epyBd4XA",
+    "title": "Broad Jump",
+    "imageUrl": "https://img.youtube.com/vi/uU5zMFMSyvE/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/1ksqglnqOfT3epyBd4XA-Broad Jump.mp4",
+    "thumbnail": "https://img.youtube.com/vi/uU5zMFMSyvE/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "6v9i7nqCOczLoneR4rSp",
+    "title": "Single Arm Suitcase Rear Foot Elevated Split Squat",
+    "imageUrl": "https://img.youtube.com/vi/bdhb57Niy3o/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/6v9i7nqCOczLoneR4rSp-Single Arm Suitcase Rear Foot Elevated Split Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/bdhb57Niy3o/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "RhQJrGLmqF4xZ3qkRGVN",
+    "title": "Feet Elevated Side Plank Hip Taps",
+    "imageUrl": "https://img.youtube.com/vi/ipscqCNLSn4/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/RhQJrGLmqF4xZ3qkRGVN-Feet Elevated Side Plank Hip Tap.mp4",
+    "thumbnail": "https://img.youtube.com/vi/ipscqCNLSn4/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "RBGARaMcopZWqDxXxwQ2",
+    "title": "Alternating Lunge Box Jump",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6321051492112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6321051492112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6321051492112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "4y57VZWMY9ISMbn6GXEF",
+    "title": "Slant Board Jefferson Pulse",
+    "imageUrl": "https://img.youtube.com/vi/6NCf21VEbz4/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/4y57VZWMY9ISMbn6GXEF-Slant Board Jefferson Pulse.mp4",
+    "thumbnail": "https://img.youtube.com/vi/6NCf21VEbz4/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "rHODvUjZWtueJt7RrRNG",
+    "title": "Reclining Hero Pose",
+    "imageUrl": "https://img.youtube.com/vi/h-jVpI_ZsUw/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/rHODvUjZWtueJt7RrRNG-Reclining Hero Pose-.mp4",
+    "thumbnail": "https://img.youtube.com/vi/h-jVpI_ZsUw/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "hVP2vdJJBlvzl2tfjnFZ",
+    "title": "Walk",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "LSTOU9XkXuJDbA0cGdMb",
+    "title": "Side Plank Rotations",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328430389112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6328430389112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328430389112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "lJUyRLKspPrv3QLIzbu9",
+    "title": "Extended Wall Plank",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FExtended%20Wall%20Plank_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FExtended%20Wall%20Plank.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FExtended%20Wall%20Plank_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "EjWc3ZRW2J0PGLZX6126",
+    "title": "Reverse Plank Bridge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FReverse%20Plank%20Bridge%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FReverse%20Plank%20Bridge%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/bil-ZbGIsAU/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "xsfk1tAsRXARyVISrDeu",
+    "title": "Clamshell Plank",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(5)_ATOM_11_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(5)_ATOM_11.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(5)_ATOM_11_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "zvdC0o9qIIFgynJbTKWS",
+    "title": "Ski",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Ski%20Erg%20(1080p_24fps_H264-128kbit_AAC)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSki%20Erg%20(1080p_24fps_H264-128kbit_AAC).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Ski%20Erg%20(1080p_24fps_H264-128kbit_AAC)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "ArGbgdzDo3pPajP3OU08",
+    "title": "FBB Active Recovery: Shoulder Mobility",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FFBB%20Active%20Recovery%3A%20Shoulder%20Mobility%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FFBB%20Active%20Recovery%3A%20Shoulder%20Mobility%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/Sb83Ylx3wFc/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "K5Tw4xAB2Fjs6OAdzRhl",
+    "title": "Shoulder Extension Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315188037112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6315188037112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315188037112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "lbhBgw0ety3pAtEkemuo",
+    "title": "Shoulder Extension Bridge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FShoulder%20Extension%20Bridge%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FShoulder%20Extension%20Bridge%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/ZlTfjy8fo_g/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "2zgIdZAliTPtzxIGBMOS",
+    "title": "Prayer Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2Fprayer%20stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2Fprayer%20stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/1SlpyOxSNY0/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "EI4FS1gnPQi9AmAoA81o",
+    "title": "Band Pull Apart",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPronated%20Band%20Pull%20Apart_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPronated%20Band%20Pull%20Apart.m4v",
+    "thumbnail": "https://img.youtube.com/vi/MnDpmNYUjbc/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "L7ynOhLvzQKTFvXqAV4j",
+    "title": "Plank Walk Up",
+    "imageUrl": "https://img.youtube.com/vi/NcWOVq2_dwk/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/L7ynOhLvzQKTFvXqAV4j-Plank Walk Up.mp4",
+    "thumbnail": "https://img.youtube.com/vi/NcWOVq2_dwk/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "Mf4kCWYoc8NthPTyo8yR",
+    "title": "Single Arm Kettlebell Russian Swing ",
+    "imageUrl": "https://img.youtube.com/vi/lGcvJVRtTAw/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Mf4kCWYoc8NthPTyo8yR-Single Arm Russian KB Swing.mp4",
+    "thumbnail": "https://img.youtube.com/vi/lGcvJVRtTAw/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "nk7xV5niB0wnaqYba0S6",
+    "title": "Kettlebell Split Snatch",
+    "imageUrl": "https://img.youtube.com/vi/RVWM2EEcOWE/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/nk7xV5niB0wnaqYba0S6-Kettlebell Split Snatch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/RVWM2EEcOWE/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "dVFXD4hT4JmG6SCZlalc",
+    "title": "Strict Bar Dip",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_(4)_Strict%20Bar%20Dip%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(4)_Strict%20Bar%20Dip%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/tLMYHOJ1QqY/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "SjKfTj7YqflvgO4kzQtL",
+    "title": "Farmers Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(46)_ATOM_7_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(46)_ATOM_7.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(46)_ATOM_7_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Ve52mmrCMtQtxT9h9Ml7",
+    "title": "Lean In Dumbbell Lateral Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FLean%20In%20Dumbbell%20Lateral%20Raise_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FLean%20In%20Dumbbell%20Lateral%20Raise.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FLean%20In%20Dumbbell%20Lateral%20Raise_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "p2KdGW0mVxEN6L2XOkxf",
+    "title": "Alternating Dumbbell Push Press",
+    "imageUrl": "https://img.youtube.com/vi/x-yl2iw_Szs/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/p2KdGW0mVxEN6L2XOkxf-Alternating Dumbbell Push Press.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Kn3oZ9MNAhg/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "IqMuRhpOoWK54zVwP5K7",
+    "title": "Kipping Chest to Bar Pull Up",
+    "imageUrl": "https://img.youtube.com/vi/JwvPCeWOHZY/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/IqMuRhpOoWK54zVwP5K7-Kipping Chest to Bar Pull-Up.mp4",
+    "thumbnail": "https://img.youtube.com/vi/JwvPCeWOHZY/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "R5JxhH1wpY4RqYcvrXUU",
+    "title": "Banded Cross Body Shoulder Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_ATOM_9_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_ATOM_9.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_ATOM_9_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Z6fCQTUikXbM6Mou0Rzl",
+    "title": "Hands Clasped Behind Back Shoulder Stretch",
+    "imageUrl": "https://img.youtube.com/vi/BebGczyhTLM/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Z6fCQTUikXbM6Mou0Rzl-Hands Clasped Behind Back Shoulder Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/BebGczyhTLM/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "A5uMde9WnH74Aw0riIm9",
+    "title": "Hand Supported Single Leg Dumbbell Romanian Deadlift",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FHand%20Supported%20Single%20Leg%20Dumbbell%20Romanian%20Deadlift%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FHand%20Supported%20Single%20Leg%20Dumbbell%20Romanian%20Deadlift%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/vG3RA7TAQ6U/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "ryoLb2daZTXVTcburKTA",
+    "title": "1:1/4 Goblet Cyclist Squat",
+    "imageUrl": "https://img.youtube.com/vi/Z1SYYWnGZxk/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/ryoLb2daZTXVTcburKTA-1-1-4 Goblet Cyclist Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Z1SYYWnGZxk/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "3iYBzGZlgbumIQuHMP33",
+    "title": "Single Arm Dumbbell Power Snatch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20Dumbbell%20Power%20Snatch_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSingle%20Arm%20Dumbbell%20Power%20Snatch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20Dumbbell%20Power%20Snatch_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "fgAnZaYt3xRWHGp99tM7",
+    "title": "Wall Balls",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FWall%20Balls%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FWall%20Balls%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/V_vvxa9otSU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Y4vztDLcmQLm06m8Kd8s",
+    "title": "Dumbbell Suitcase Box Step Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FY4vztDLcmQLm06m8Kd8s-Dumbbell%20Suitcase%20Box%20Step%20Up_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Y4vztDLcmQLm06m8Kd8s-Dumbbell Suitcase Box Step Up.mp4",
+    "thumbnail": "https://img.youtube.com/vi/FV8vaiFsWVs/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "g7ySI7KyoUT8NwLXIe8G",
+    "title": "Straight Arm Banded Lat Pulldown",
+    "imageUrl": "https://img.youtube.com/vi/QTQ3zTlb61g/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/g7ySI7KyoUT8NwLXIe8G-Straight Arm Banded Lat Pull Down.mp4",
+    "thumbnail": "https://img.youtube.com/vi/QTQ3zTlb61g/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "8aivfj1lZHvPksXIcpPq",
+    "title": "Sumo Deadlift",
+    "imageUrl": "https://img.youtube.com/vi/-gRPz_2xUUE/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/8aivfj1lZHvPksXIcpPq-Sumo Deadlift.mp4",
+    "thumbnail": "https://img.youtube.com/vi/-gRPz_2xUUE/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "RcC4Delk0ShrKARnFOM9",
+    "title": "Weighted Hanging Tuck",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FScreenshot_21.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/RcC4Delk0ShrKARnFOM9-Weighted Hanging Tuck.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FScreenshot_21.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "UluvYrTp6hm02UeSozM4",
+    "title": "Half Kneeling Hamstring Stretch",
+    "imageUrl": "https://img.youtube.com/vi/VZuRUoIlQMY/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/UluvYrTp6hm02UeSozM4-Half Kneeling Hamstring Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/VZuRUoIlQMY/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "UGJFqFqDyYnSLlSEgigK",
+    "title": "Bodyweight Side Plank Powell Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315181381112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/UGJFqFqDyYnSLlSEgigK-BW Side Plank Powell Raise.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315181381112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "1YX0FUDgzo7jVFw1QXk1",
+    "title": "PVC Alternating Shoulder Circles",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPVC%20Alternating%20Shoulder%20Circles_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPVC%20Alternating%20Shoulder%20Circles.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPVC%20Alternating%20Shoulder%20Circles_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "xcRiFNG1ff3fk0yKHgGC",
+    "title": "Deficit Strict Handstand Push-Up",
+    "imageUrl": "https://img.youtube.com/vi/w6ZZP0ME2nE/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/xcRiFNG1ff3fk0yKHgGC-Deficit Strict Handstand Push-up.mp4",
+    "thumbnail": "https://img.youtube.com/vi/w6ZZP0ME2nE/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "6o7tYftjaTr59izoA1A5",
+    "title": "Barbell Bench Press",
+    "imageUrl": "https://img.youtube.com/vi/_ssMvM1S5Lg/0.jpg",
+    "videoUrl": "https://youtu.be/_ssMvM1S5Lg?si=I_0-vhaZAiMroi29",
+    "thumbnail": "https://img.youtube.com/vi/_ssMvM1S5Lg/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "XTLARHHqEwkgWaWxonD5",
+    "title": "Seated Strict Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328629556112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6328629556112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328629556112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "bXWTTCSpCUWAVHAKiFMj",
+    "title": "Single Arm KB Clean and Push Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20KB%20Clean%20and%20Push%20Press_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSingle%20Arm%20KB%20Clean%20and%20Push%20Press.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSingle%20Arm%20KB%20Clean%20and%20Push%20Press_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "ipSJJOSeFImCAJJkO4BH",
+    "title": "Burpee Over Kettlebell",
+    "imageUrl": "https://img.youtube.com/vi/m_CziUhfUaQ/0.jpg",
+    "videoUrl": "https://youtu.be/m_CziUhfUaQ",
+    "thumbnail": "https://img.youtube.com/vi/m_CziUhfUaQ/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "Io1ii5BrVpd5A0cWkVeH",
+    "title": "Thoracic Rotation with Sweep",
+    "imageUrl": "https://img.youtube.com/vi/yK_WTi5mhTw/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Io1ii5BrVpd5A0cWkVeH-Thoracic Rotation with Sweep.mp4",
+    "thumbnail": "https://img.youtube.com/vi/yK_WTi5mhTw/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "J0KAIi8jakVHhOrrUrKU",
+    "title": "Half Kneeling Weight Shift",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Half%20Kneeling%20Weight%20Shift_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Half%20Kneeling%20Weight%20Shift.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Half%20Kneeling%20Weight%20Shift_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "6tdWI0curUN00wiN1ueW",
+    "title": "Hang Squat Clean",
+    "imageUrl": "https://img.youtube.com/vi/aewQdRPGmYo/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/6tdWI0curUN00wiN1ueW-Hang Squat Clean.mp4",
+    "thumbnail": "https://img.youtube.com/vi/aewQdRPGmYo/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Qh2CsPEZDpqgkbVhk2iq",
+    "title": "Box Jump Step Down",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBox%20Jump%20Step%20Down%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBox%20Jump%20Step%20Down%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/HPVd8q7eoAs/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "0fFFwAh4mILeo30VHjet",
+    "title": "1 1/4 Cyclist Back Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FCyclist%201%201_4%20Back%20Squat_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FCyclist%201%201_4%20Back%20Squat.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FCyclist%201%201_4%20Back%20Squat_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "TaNIluYRjVCSPSxVP8XB",
+    "title": "Goblet Rear Foot Elevated Split Squat",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FGoblet%20Rear%20Foot%20Elevated%20DB%20Squat_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FGoblet%20Rear%20Foot%20Elevated%20DB%20Squat.m4v",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FGoblet%20Rear%20Foot%20Elevated%20DB%20Squat_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "k42tSYyCXmTrqTglHNdl",
+    "title": "Copenhagen Plank",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2Fi4n7grqd60ukltrn0g7ugy30_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/k42tSYyCXmTrqTglHNdl-Copenhagen Plank.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2Fi4n7grqd60ukltrn0g7ugy30_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "xFSCT6QhKajc9n17tjVM",
+    "title": "Weight Plate Russian Twists",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(24)_ATOM_3_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(24)_ATOM_3.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(24)_ATOM_3_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "Yk7omayG0CRXIsXtrJ5x",
+    "title": "Frog Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Frog%20Stretch_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/Yk7omayG0CRXIsXtrJ5x-Frog Stretch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Frog%20Stretch_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "LwrZExm51rFiamwzuvlr",
+    "title": "Single Leg Wall Sit",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315699486112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6315699486112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315699486112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "oBT4PNRhbRu6EiY5ndes",
+    "title": "Star Plank",
+    "imageUrl": "https://img.youtube.com/vi/POwy8uchfBo/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/oBT4PNRhbRu6EiY5ndes-Star Plank.mp4",
+    "thumbnail": "https://img.youtube.com/vi/POwy8uchfBo/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "wshrJo00rTbAaTWPZukl",
+    "title": "Single Arm Passive Hang",
+    "imageUrl": "https://img.youtube.com/vi/wLgMDt1yfuA/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/wshrJo00rTbAaTWPZukl-Single Arm Passive Hang.mp4",
+    "thumbnail": "https://img.youtube.com/vi/wLgMDt1yfuA/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "Ggt9SX467XOysxF2JwqP",
+    "title": "FBB Active Recovery: Pikes and Pancakes",
+    "imageUrl": "https://img.youtube.com/vi/KiC-rDS1-W0/0.jpg",
+    "videoUrl": "https://youtu.be/KiC-rDS1-W0",
+    "thumbnail": "https://img.youtube.com/vi/KiC-rDS1-W0/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "AYrZ4Mllq9Sc2sNh3q0F",
+    "title": "Bodyweight RDL",
+    "imageUrl": "https://img.youtube.com/vi/tOZnzuATxmU/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/AYrZ4Mllq9Sc2sNh3q0F-Bodyweight RDL.mp4",
+    "thumbnail": "https://img.youtube.com/vi/tOZnzuATxmU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "RT065pR5lVdoZqCXWPIN",
+    "title": "Elephant Walk Step",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FElephant%20Walk%20Step_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/RT065pR5lVdoZqCXWPIN-Elephant Walk Step.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FElephant%20Walk%20Step_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "a2ysWnjZyHTwbXJCLaig",
+    "title": "Pike Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FPike%20Stretch%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FPike%20Stretch%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/Ct93_gMpfYU/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "kuFg89Hxhox6k38TNz3U",
+    "title": "Air Squats",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315179196112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/kuFg89Hxhox6k38TNz3U-Air Squat.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315179196112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "z7j8Mp50liSxFnQhLCi5",
+    "title": "Forearm Plank to Dolphin Pose",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FATOM_6_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/z7j8Mp50liSxFnQhLCi5-Forearm Plank to Dolphin Pose.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FATOM_6_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "3HmnznEfDIk6hEbZzFFO",
+    "title": "Banded YTW",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6350017811112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6350017811112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6350017811112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "qPL0Dx6Tft5QiZ1uvAc1",
+    "title": "T Spine Can Opener",
+    "imageUrl": "https://img.youtube.com/vi/VyXiJGxeZsI/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/qPL0Dx6Tft5QiZ1uvAc1-T Spine Can Opener.mp4",
+    "thumbnail": "https://img.youtube.com/vi/VyXiJGxeZsI/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "nYNS4qxmv2MieNJH7B4x",
+    "title": "Dual Kettlebell Clean",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FDual%20KB%20Cleans%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FDual%20KB%20Cleans%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/cuEiSl5iecA/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "H7wvVSJLWt2VDNpzN3Ct",
+    "title": "Dual Kettlebell Clean from Floor",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(6)_ATOM_2_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(6)_ATOM_2.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(6)_ATOM_2_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "vPgPaaiL28CGbHUJRJyW",
+    "title": "Dual Kettlebell Rack Squat",
+    "imageUrl": "https://img.youtube.com/vi/sYGfQkg8qLA/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/vPgPaaiL28CGbHUJRJyW-Dual Kettlebell Rack Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/sYGfQkg8qLA/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "0khmB0eE6PWYBanEWFOK",
+    "title": "1:1/4 Dumbbell Bench Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315178110112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F1-1-4%20Dumbbell%20Bench%20Press%20(720p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6315178110112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "efCbrMIJSaEIdldvoiZs",
+    "title": "Flat Bench Dumbbell Fly",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(37)_ATOM_3_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(37)_ATOM_3.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(37)_ATOM_3_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "tvALwFEiWVxAWzouLIGW",
+    "title": "Narrow Grip Push Ups",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FNarrow%20Grip%20Push%20Ups_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FNarrow%20Grip%20Push%20Ups.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FNarrow%20Grip%20Push%20Ups_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "mLJT8Alj2xgnfzQVFKIn",
+    "title": "Pole Rhomboid Stretch",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FATOM_23_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/mLJT8Alj2xgnfzQVFKIn-Pole Rhomboid Stretch.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FATOM_23_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "8bLxqGpE0LSmu7nMWV7B",
+    "title": "Front Rack Split Squat",
+    "imageUrl": "https://img.youtube.com/vi/AvTTqszMixA/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/8bLxqGpE0LSmu7nMWV7B-Front Rack Split Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/AvTTqszMixA/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "tB1pJUiUFgRP9gd40dXc",
+    "title": "Cyclist Front Squat",
+    "imageUrl": "https://img.youtube.com/vi/gb5567hyyxA/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/tB1pJUiUFgRP9gd40dXc-Cyclist Front Squat.mp4",
+    "thumbnail": "https://img.youtube.com/vi/gb5567hyyxA/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "vdmEPMiIWVfTJ1exhKYK",
+    "title": "Hamstring V Walk Out",
+    "imageUrl": "https://img.youtube.com/vi/A5fR5RDe9ko/0.jpg",
+    "videoUrl": "https://youtu.be/A5fR5RDe9ko",
+    "thumbnail": "https://img.youtube.com/vi/A5fR5RDe9ko/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "9sgnO3hmRALQerTHcDOm",
+    "title": "Bar Facing Burpee",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBar%20Facing%20Burpees%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBar%20Facing%20Burpees%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/3BIMq94hbH0/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "BtkxcpRp36qtfnM4KZ91",
+    "title": "Barbell Horse Stance Pulse",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBarbell%20Horse%20Stance%20Pulse_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FBarbell%20Horse%20Stance%20Pulse.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FBarbell%20Horse%20Stance%20Pulse_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "RpLtLv3EbEi6MI7qr228",
+    "title": "Strict Toes to Bar",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Strict%20Toes%20to%20Bar%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Strict%20Toes%20to%20Bar%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/Tzs1KG0KafI/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "pRZlnKIdDXXObrLB40Vl",
+    "title": "Alternating Single Arm Dumbbell Power Clean",
+    "imageUrl": "https://img.youtube.com/vi/CcqE9CP1soY/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/pRZlnKIdDXXObrLB40Vl-Alternating Single Arm Dumbbell Power Clean.mp4",
+    "thumbnail": "https://img.youtube.com/vi/CcqE9CP1soY/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "IkxxyyOMqCIHuFckVAib",
+    "title": "Slow Shoulder Circles",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSlow%20Shoulder%20Circles_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FSlow%20Shoulder%20Circles.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FSlow%20Shoulder%20Circles_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "5lmel71MdJL37jw5OZxx",
+    "title": "Handstand Walk",
+    "imageUrl": "https://img.youtube.com/vi/8Js4BC3ibWI/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/5lmel71MdJL37jw5OZxx-Handstand Walk.mp4",
+    "thumbnail": "https://img.youtube.com/vi/8Js4BC3ibWI/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "E2gVub7KuOrMNhXtTAz9",
+    "title": "Half Kneeling Hip Flexor to Half Kneeling Hamstring Flow",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328631984112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6328631984112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6328631984112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "z5mSpEghi3zGIomH6ylK",
+    "title": "Box Jump Over Clear the Box",
+    "imageUrl": "https://img.youtube.com/vi/qOx2bHqoa-0/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/z5mSpEghi3zGIomH6ylK-Box Jump Over Clear the Box.mp4",
+    "thumbnail": "https://img.youtube.com/vi/2oQnzehawfk/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "H3kzYyKi58eAjLrNoWBk",
+    "title": "Clamshell Side Plank Hip Thrust",
+    "imageUrl": "https://img.youtube.com/vi/Ni6-sGVYEGY/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/H3kzYyKi58eAjLrNoWBk-Clamshell Side Plank Hip Thrust.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Ni6-sGVYEGY/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "Wit8eC2O1Amv73sMF8Hp",
+    "title": "Dumbbell Jump Lunge",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(5)_ATOM_2_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(5)_ATOM_2.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(5)_ATOM_2_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "YqXwYmhJE3K21s3kLXRA",
+    "title": "Planche Lean",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6329568275112_Delta_768%20(432p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F6329568275112_Delta_768%20(432p).mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F6329568275112_Delta_768%20(432p)_thumbnail.png",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "h1ypxr7wpy4x70bSQyZ8",
+    "title": "Single Arm Reverse Plank Bridge",
+    "imageUrl": "https://img.youtube.com/vi/phT9RoelC90/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/h1ypxr7wpy4x70bSQyZ8-Single Arm Reverse Plank Bridge.mp4",
+    "thumbnail": "https://img.youtube.com/vi/phT9RoelC90/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "re0G47tLVuTrY9KYZJpR",
+    "title": "FBB Recovery: 30 min Full Body Mobility ",
+    "imageUrl": "https://img.youtube.com/vi/HZ8w1uQHkIg/0.jpg",
+    "videoUrl": "https://youtu.be/HZ8w1uQHkIg",
+    "thumbnail": "https://img.youtube.com/vi/HZ8w1uQHkIg/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "J0lioCLWNUsGvEA2dj8S",
+    "title": "Hand to Hand Wrist Circles",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FHand%20to%20Hand%20Wrist%20Circles_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FHand%20to%20Hand%20Wrist%20Circles.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FHand%20to%20Hand%20Wrist%20Circles_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "9uNi5uydo09qtorklgZy",
+    "title": "Prone Shoulder External Rotation",
+    "imageUrl": "https://img.youtube.com/vi/mDWdM46nfZU/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/9uNi5uydo09qtorklgZy-Prone Shoulder External Rotation.mp4",
+    "thumbnail": "https://img.youtube.com/vi/mDWdM46nfZU/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "mRJRXK0iZKhelqofzTDx",
+    "title": "Prone Band Pass Through",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FATOM_20_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/mRJRXK0iZKhelqofzTDx-Prone Band Pass Through.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FATOM_20_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "RZBc59xK8MDnnhet7yZh",
+    "title": "Butterfly Fold",
+    "imageUrl": "https://img.youtube.com/vi/Lr25M-cuZD0/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/RZBc59xK8MDnnhet7yZh-Butterfly Fold.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Lr25M-cuZD0/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "3us71Va9hovEHY33Z0zJ",
+    "title": "Crab Reach",
+    "imageUrl": "https://img.youtube.com/vi/bDII6YNiHko/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/3us71Va9hovEHY33Z0zJ-Crab Reach.mp4",
+    "thumbnail": "https://img.youtube.com/vi/bDII6YNiHko/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "pzvGwbnjeoIRbQYx29DG",
+    "title": "Half Kneeling Hip Flexor Stretch",
+    "imageUrl": "https://img.youtube.com/vi/kR5zK1GDzJk/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/pzvGwbnjeoIRbQYx29DG-Half Kneeling Hip Flexor Stretch.mp4",
+    "thumbnail": "https://img.youtube.com/vi/kR5zK1GDzJk/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "sZTk4Jn2cjo4S2MsiPEQ",
+    "title": "Reverse Nordic",
+    "imageUrl": "https://img.youtube.com/vi/y1IUUp8m0BQ/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/sZTk4Jn2cjo4S2MsiPEQ-Reverse Nordic.mp4",
+    "thumbnail": "https://img.youtube.com/vi/y1IUUp8m0BQ/0.jpg",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "LU8vBECthlqllc5C76Dq",
+    "title": "Single Arm Plank",
+    "imageUrl": "https://img.youtube.com/vi/Rv-ctBqa-Ks/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/LU8vBECthlqllc5C76Dq-Single Arm Plank.mp4",
+    "thumbnail": "https://img.youtube.com/vi/Rv-ctBqa-Ks/0.jpg",
+    "tags": [],
+    "logType": "5"
+  },
+  {
+    "id": "fPCow6f5XvtzDrPCwvBv",
+    "title": "Prone Shoulder CARs",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Prone%20Shoulder%20CARs_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FProne%20Shoulder%20CARs.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Prone%20Shoulder%20CARs_thumbnail.png",
+    "tags": [],
+    "logType": "3"
+  },
+  {
+    "id": "7krE8nT12cmQOrs6FZQK",
+    "title": "Single Kettlebell Sumo Deadlift",
+    "imageUrl": "https://img.youtube.com/vi/rEqf-XiWdcs/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/7krE8nT12cmQOrs6FZQK-Single Kettlebell Sumo Deadlift.mp4",
+    "thumbnail": "https://img.youtube.com/vi/rEqf-XiWdcs/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "b9qgwFg0doQdc3VoYKwG",
+    "title": "Single Arm Kettlebell Snatch from Floor",
+    "imageUrl": "https://img.youtube.com/vi/t41nR5QToIk/0.jpg",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/00_upload_script/aojurmDW1bDRGxLjFf8M/videos/b9qgwFg0doQdc3VoYKwG-Kettlebell Snatch From Floor.mp4",
+    "thumbnail": "https://img.youtube.com/vi/z0tHucwkYgM/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "d6zQ5oqYMFfUXOMz8jxZ",
+    "title": "Lean Away Dumbbell Lateral Raise",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(29)_ATOM_7_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(29)_ATOM_7.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(29)_ATOM_7_thumbnail.png",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "UUyJBJI2djO5eRw455oi",
+    "title": "Dual Dumbbell Push Press",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2F(1)_Dual%20Dumbbell%20Push%20Press%20(720p)_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2F(1)_Dual%20Dumbbell%20Push%20Press%20(720p).mp4",
+    "thumbnail": "https://img.youtube.com/vi/pmq2DFIuZaU/0.jpg",
+    "tags": [],
+    "logType": "2"
+  },
+  {
+    "id": "bKrRwq3shgfRKYP0bxwf",
+    "title": "Goblet Box Step Up",
+    "imageUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FGoblet%20Box%20Step%20Up_thumbnail.png",
+    "videoUrl": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fvideos%2FGoblet%20Box%20Step%20Up.mp4",
+    "thumbnail": "https://storage.googleapis.com/mygameplan-4de84.appspot.com/aojurmDW1bDRGxLjFf8M%2Fimages%2FGoblet%20Box%20Step%20Up_thumbnail.png",
+    "tags": [],
+    "logType": "2"
   }
 ]

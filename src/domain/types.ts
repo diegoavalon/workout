@@ -16,6 +16,8 @@ export type SessionManifest = {
   summary?: string;
   suggestedWeekday?: number;
   estimatedMinutes?: number;
+  /** Optional sessions (e.g. recovery) never block progress or the next-session pointer. */
+  optional?: boolean;
   contentPath: string;
 };
 export type WeekManifest = { id: string; order: number; title?: string; sessions: SessionManifest[] };
@@ -32,7 +34,7 @@ export type ProgramManifest = {
   cover?: string;
   weeks: WeekManifest[];
 };
-export type Program = ProgramManifest & { totalWeeks: number };
+export type Program = ProgramManifest & { totalWeeks: number; /** Directory URL the manifest was published at; sessions load lazily from here. */ sourceBase?: string };
 export type FlatSession = SessionManifest & { weekId: string; weekOrder: number; programId: string };
 
 /** Canonical session key — defined once (PRD §8). */

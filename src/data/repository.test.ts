@@ -8,11 +8,38 @@ const manifest = (version = "1.0.0", sessionIds = ["s1"]) => ({
 const files = (ids = ["s1"]) => Object.fromEntries(ids.map((id) => [`${id}.json`, [{ order: 1, type: "exerciseAssignment", exerciseId: "ex-missing", child: null, sets: 3, reps: "8" }]]));
 
 describe("MemoryRepository", () => {
-  it("seeds a catalog spanning 3/4/5 and Other schedules", async () => {
+  it("seeds no workout programs and purges legacy seeded programs on load", async () => {
     const repo = new MemoryRepository();
-    const programs = await repo.listPrograms();
-    expect(new Set(programs.map((p) => p.daysPerWeek))).toEqual(new Set([3, 4, 5, 2, 3]));
-    expect(await repo.getSessionItems("athletic-performance", "w01-s1")).toBeTruthy();
+    expect(await repo.listPrograms()).toEqual([]);
+    const legacy = new MemoryRepository();
+    legacy.programs.set("foundations", { id: "foundations" } as never);
+    legacy.items.set("foundations/w01-s1", []);
+    expect(await legacy.listPrograms()).toEqual([]);
+    expect(await legacy.getSessionItems("foundations", "w01-s1")).toBeUndefined();
+  });
+  it("syncs the published catalog lazily: manifest online, sessions on demand, download caches all", async () => {
+    const fetched: string[] = [];
+    const realFetch = globalThis.fetch;
+    const sessionBody = [{ order: 1, type: "exerciseAssignment", exerciseId: "ex-missing", child: null, sets: 3, reps: "8" }];
+    globalThis.fetch = (async (url: unknown) => {
+      const u = String(url);
+      fetched.push(u);
+      const body = u.endsWith("catalog.json") ? { programs: [{ manifestPath: "programs/p1/program.json" }] }
+        : u.endsWith("program.json") ? manifest()
+        : sessionBody;
+      return { ok: true, json: async () => body };
+    }) as typeof fetch;
+    try {
+      const repo = new MemoryRepository();
+      await repo.syncCatalog("https://cdn.test/content/catalog.json");
+      expect((await repo.listPrograms()).map((p) => p.id)).toEqual(["p1"]);
+      expect(await repo.getSessionItems("p1", "s1")).toBeUndefined();
+      expect(await repo.ensureSessionItems("p1", "s1")).toEqual(sessionBody);
+      expect(await repo.getSessionItems("p1", "s1")).toEqual(sessionBody);
+      const before = fetched.length;
+      expect(await repo.downloadProgram("p1")).toEqual({ downloaded: 1, total: 1 });
+      expect(fetched.length).toBe(before);
+    } finally { globalThis.fetch = realFetch; }
   });
   it("imports idempotently, reports missing exercises, and preserves progress across updates", async () => {
     const repo = new MemoryRepository();
@@ -54,12 +81,13 @@ describe("MemoryRepository", () => {
   });
   it("deleting media keeps workouts and progress", async () => {
     const repo = new MemoryRepository();
-    const run = await repo.startRun("foundations");
-    await repo.toggleComplete(run.id, "foundations", "w01-s1");
-    await repo.setMedia({ url: "https://x/img.jpg", programId: "foundations", kind: "image", status: "downloaded", updatedAt: new Date().toISOString() });
-    await repo.deleteMedia("foundations");
-    expect(await repo.listMedia("foundations")).toHaveLength(0);
+    await repo.importBundle({ manifest: manifest(), files: files() });
+    const run = await repo.startRun("p1");
+    await repo.toggleComplete(run.id, "p1", "s1");
+    await repo.setMedia({ url: "https://x/img.jpg", programId: "p1", kind: "image", status: "downloaded", updatedAt: new Date().toISOString() });
+    await repo.deleteMedia("p1");
+    expect(await repo.listMedia("p1")).toHaveLength(0);
     expect((await repo.listProgress()).some((p) => p.completedAt)).toBe(true);
-    expect(await repo.getProgram("foundations")).toBeTruthy();
+    expect(await repo.getProgram("p1")).toBeTruthy();
   });
 });

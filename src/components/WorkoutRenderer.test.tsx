@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import { WorkoutRenderer } from "./WorkoutRenderer";
 
@@ -23,6 +23,26 @@ describe("WorkoutRenderer", () => {
     const text = container.textContent ?? "";
     expect(text.indexOf("Strength")).toBeLessThan(text.indexOf("Unknown exercise"));
     expect(text.indexOf("First")).toBeLessThan(text.indexOf("Second"));
+  });
+  it("watch video swaps the poster for a native-controls video player", () => {
+    const items = [{ order: 1, type: "exerciseAssignment", itemId: "a1", exerciseId: "ex1", child: { id: "ex1", title: "Squat", imageUrl: "https://x/img.jpg", videoUrl: "https://x/vid.mp4" }, sets: 3, reps: "5" }];
+    const { container } = render(<WorkoutRenderer items={items} exerciseIndex={new Map()} />);
+    expect(container.querySelector("video")).toBeNull();
+    fireEvent.click(screen.getByRole("button", { name: /Watch video/ }));
+    const video = container.querySelector("video");
+    expect(video).toBeTruthy();
+    expect(video?.hasAttribute("controls")).toBe(true);
+    expect(video?.getAttribute("src")).toBe("https://x/vid.mp4");
+    expect(screen.getByRole("button", { name: /Hide video/ })).toBeTruthy();
+    fireEvent.click(screen.getByRole("button", { name: /Hide video/ }));
+    expect(container.querySelector("video")).toBeNull();
+  });
+  it("shows a placeholder and no media label when an exercise has no media", () => {
+    const items = [{ order: 1, type: "exerciseAssignment", itemId: "a1", exerciseId: "ex1", child: { id: "ex1", title: "Sled Push" }, sets: 3, reps: "20 m" }];
+    const { container } = render(<WorkoutRenderer items={items} exerciseIndex={new Map()} />);
+    expect(container.textContent).toContain("No media available");
+    expect(container.textContent).not.toContain("exercise media");
+    expect(container.textContent).not.toContain("media unavailable");
   });
   it("renders invalid Delta as readable text", () => {
     render(<WorkoutRenderer items={[{ order: 1, type: "richText", itemId: "rt", child: { content: "{broken" } }]} exerciseIndex={new Map()} />);
