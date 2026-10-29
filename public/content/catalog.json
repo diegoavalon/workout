@@ -3,6 +3,13 @@
   "contentVersion": "1.0.0",
   "programs": [
     {
+      "id": "pump-condition-three-day",
+      "title": "PUMP-CONDITION",
+      "daysPerWeek": 3,
+      "contentVersion": "1.0.0",
+      "manifestPath": "programs/pump-condition-three-day/program.json"
+    },
+    {
       "id": "perform-five-day",
       "title": "PERFORM",
       "daysPerWeek": 5,
