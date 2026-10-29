@@ -8,6 +8,13 @@
       "daysPerWeek": 5,
       "contentVersion": "1.0.0",
       "manifestPath": "programs/perform-five-day/program.json"
+    },
+    {
+      "id": "pump-condition-five-day",
+      "title": "PUMP-CONDITION",
+      "daysPerWeek": 5,
+      "contentVersion": "1.0.0",
+      "manifestPath": "programs/pump-condition-five-day/program.json"
     }
   ]
 }

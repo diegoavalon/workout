@@ -147,6 +147,19 @@ console.log(`Sessions: ${indexSessions.length} (${indexSessions.reduce((n, s) =>
 console.log(`Exercise library: ${library.length} unique exercises`);
 console.log(`Bundle: ${bundlePath}`);
 console.log(`Report: ${indexPath}`);
+if (publishDir) {
+  console.log("\nNext steps:");
+  console.log(`  Published source is in ${publishDir}/ (commit it). Nothing was moved; ${trackDir}/ still holds the raw captures.`);
+  console.log("  Using npm run dev:     just refresh the app — it serves public/ directly.");
+  console.log("  Using npm run preview: run `npm run build` first (it copies public/ into dist/), then refresh and accept \"Update now\" if prompted.");
+} else {
+  console.log("\nNext steps:");
+  console.log("  This bundle stays inside raw-export/ — the app cannot see it yet.");
+  console.log(`  To publish as app source: re-run with --publish public/content, e.g.`);
+  console.log(`    npm run convert:raw -- ${trackDir} --publish public/content`);
+  console.log("  Then: npm run dev shows it on refresh; npm run preview needs `npm run build` first.");
+  console.log("  Or load it manually in the app: Library -> Import program -> choose the bundle file above.");
+}
 if (warnings.length) {
   console.log(`Warnings (${warnings.length}):`);
   warnings.forEach((w) => console.log(`  - ${w}`));

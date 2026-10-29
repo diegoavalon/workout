@@ -135,7 +135,9 @@ rl.on("line", (line) => {
   if (cmd) console.log("Commands: w<n> new week, d<n> set day, s status, q quit");
 });
 rl.on("close", async () => {
-  console.log(`\nDone. ${saved} day(s) saved under ${track}. Next: npm run convert:raw -- ${track}`);
+  console.log(`\nDone. ${saved} day(s) saved under ${track}. Next, publish it as app source:`);
+  console.log(`  npm run convert:raw -- ${track} --publish public/content`);
+  console.log("  Then: npm run dev shows it on refresh; npm run preview needs `npm run build` first.");
   await context.close().catch(() => undefined);
   process.exit(0);
 });
