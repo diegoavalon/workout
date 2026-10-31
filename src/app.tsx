@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { createRootRoute, createRoute, createRouter, Link, Outlet, useNavigate, useRouter } from "@tanstack/react-router";
-import { ArrowUpFromLineIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, ClockIcon, DownloadIcon, HardDriveDownloadIcon, MoonIcon, PlayIcon, SettingsIcon, SunIcon, Trash2Icon } from "lucide-react";
+import { ArrowUpFromLineIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, ClockIcon, DownloadIcon, HardDriveDownloadIcon, MoonIcon, PlayIcon, RotateCcwIcon, SettingsIcon, SunIcon, Trash2Icon } from "lucide-react";
 import { Badge } from "./components/ui/badge";
 import { Button } from "./components/ui/button";
 import { Dialog, DialogDescription, DialogFooter, DialogHeader, DialogPanel, DialogPopup, DialogTitle } from "./components/ui/dialog";
 import { Progress } from "./components/ui/progress";
 import { ToastProvider, toastManager } from "./components/ui/toast";
+import { BrandLogo } from "./components/BrandLogo";
 import { WorkoutRenderer } from "./components/WorkoutRenderer";
 import { repo } from "./data/db";
 import { deleteCachedMedia, downloadMedia, requestPersistence, storageEstimate } from "./data/media";
@@ -47,8 +48,8 @@ function Shell() {
   return (
     <ToastProvider position="bottom-center">
       <div className="relative flex min-h-dvh bg-background text-foreground">
-        <aside className="sticky top-0 hidden h-dvh w-70 shrink-0 flex-col overflow-auto border-e bg-sidebar lg:flex">
-          <div className="flex h-15 items-center gap-2.5 border-b px-5"><div className="size-5.5 rounded-md bg-primary" /><span className="text-[15px] font-semibold tracking-tight">Logbook</span></div>
+        <aside className="sticky top-0 hidden h-dvh w-56 shrink-0 flex-col overflow-auto border-e bg-sidebar lg:flex">
+          <Link to="/" aria-label="Tempo home" className="flex h-15 shrink-0 items-center border-b px-5 transition-colors hover:bg-muted"><BrandLogo /></Link>
           <nav className="flex flex-col gap-0.5 p-3" aria-label="Library">
             <span className="px-2 pt-1 pb-2 text-xs font-medium text-muted-foreground">Library</span>
             {[3, 4, 5].map((n) => <Link key={n} to="/programs/$group" params={{ group: String(n) }} className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">{n}× per week</Link>)}
@@ -64,8 +65,8 @@ function Shell() {
           </div>
         </aside>
         <div className="flex min-w-0 flex-1 flex-col">
-          <header className="sticky top-0 z-10 flex h-15 items-center gap-2 border-b bg-background px-3 sm:px-6">
-            <Link to="/" className="flex items-center gap-2.5 font-semibold lg:hidden"><span className="size-5.5 rounded-md bg-primary" />Logbook</Link>
+          <header className="sticky top-0 z-20 flex h-15 items-center gap-2 border-b bg-background px-3 sm:px-6">
+            <Link to="/" aria-label="Tempo home" className="flex min-h-11 items-center lg:hidden"><BrandLogo /></Link>
             <span className="flex-1" />
             {offline && <Badge variant="secondary" size="lg">Offline</Badge>}
             <Button variant="ghost" size="icon-lg" aria-label="Toggle theme" onClick={() => setDark((d) => !d)}>{dark ? <SunIcon /> : <MoonIcon />}</Button>
@@ -266,26 +267,62 @@ function ProgramOverview() {
   const done = completedKeys(progress, run?.id);
   const pr = programProgress(program, done);
   const nx = run ? nextIncomplete(program, done) : null;
+  const optionalSessions = totalSessions - pr.total;
+  const focus = program.focus?.trim();
+  const difficulty = program.difficulty?.trim();
+  const description = program.description?.trim()
+    || `Train ${program.daysPerWeek} ${program.daysPerWeek === 1 ? "day" : "days"} a week over ${program.totalWeeks} ${program.totalWeeks === 1 ? "week" : "weeks"}. Follow the sessions in order${optionalSessions ? `, with ${optionalSessions} optional ${optionalSessions === 1 ? "session" : "sessions"} available` : ""}.`;
+  const progressPercent = Math.round((pr.done / Math.max(1, pr.total)) * 100);
   const primary = async () => {
     if (!run) { await repo.startRun(program.id); flash(`${program.title} started`); await router.invalidate(); return; }
     if (nx) navigate({ to: "/program/$programId/week/$weekId/session/$sessionId", params: { programId: program.id, weekId: nx.weekId, sessionId: nx.id } });
   };
   return (
     <>
-      <div className="flex flex-col gap-2.5">
-        <h1 className="font-heading text-[clamp(28px,4.5vw,36px)] leading-[1.1] font-semibold tracking-tight">{program.title}</h1>
-        {program.description && <p className="text-base leading-relaxed text-muted-foreground text-pretty">{program.description}</p>}
-      </div>
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(140px,1fr))] overflow-hidden rounded-2xl border bg-card">
-        {[["Days per week", String(program.daysPerWeek)], ["Weeks", String(program.totalWeeks)], ["Sessions", String(flatSessions(program).length)], ["Focus", program.focus ?? "—"], ["Level", program.difficulty ?? "—"]].map(([k, v]) => (
-          <div key={k} className="flex flex-col gap-1 px-4 py-4 shadow-[-1px_0_0_var(--border),0_-1px_0_var(--border)]"><span className="text-xs font-medium text-muted-foreground">{k}</span><span className="text-lg font-semibold">{v}</span></div>
-        ))}
-      </div>
-      <div className="flex flex-col gap-2.5">
-        <Button size="xl" className="min-h-13 text-base font-semibold" onClick={primary}>{run ? (nx ? `Continue · Week ${nx.weekOrder}, Session ${nx.order}` : "Program complete") : "Start program"}</Button>
-        <span className="text-center text-[13px] text-muted-foreground">{run ? `${pr.done} of ${pr.total} sessions complete` : "You can preview any session without starting."}</span>
-        {run && <Button variant="outline" onClick={async () => { await repo.endRun(run.id); await repo.startRun(program.id); flash("New run started — previous progress kept"); await router.invalidate(); }}>Restart as new run</Button>}
-      </div>
+      <section className={card("overflow-hidden")} aria-label="Program summary">
+        <div className="flex flex-col gap-3 p-5 sm:p-6">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <span className="text-xs font-medium tracking-widest text-muted-foreground uppercase">Training program</span>
+            {run && <Badge variant={nx ? "secondary" : "success"} size="lg">{nx ? "In progress" : "Completed"}</Badge>}
+          </div>
+          <h1 className="font-heading text-[clamp(28px,4.5vw,36px)] leading-[1.1] font-semibold tracking-tight">{program.title}</h1>
+          <p className="text-[15px] leading-relaxed text-muted-foreground text-pretty">{description}</p>
+          {(focus || difficulty) && (
+            <div className="flex flex-wrap gap-2">
+              {focus && <Badge variant="outline" size="lg" className="h-auto max-w-full shrink py-1 whitespace-normal sm:h-auto">Focus: {focus}</Badge>}
+              {difficulty && <Badge variant="outline" size="lg" className="h-auto max-w-full shrink py-1 whitespace-normal sm:h-auto">Level: {difficulty}</Badge>}
+            </div>
+          )}
+        </div>
+        <dl className="grid grid-cols-3 gap-px border-y bg-border">
+          {[["Days per week", program.daysPerWeek], ["Weeks", program.totalWeeks], ["Sessions", totalSessions]].map(([label, value]) => (
+            <div key={label} className="flex flex-col gap-1.5 bg-card p-4 sm:px-6 sm:py-5">
+              <dt className="text-xs leading-4 font-medium text-muted-foreground">{label}</dt>
+              <dd className="order-first font-heading text-[28px] leading-none font-semibold tracking-tight tabular-nums">{value}</dd>
+              {label === "Sessions" && optionalSessions > 0 && <dd className="text-[11px] leading-relaxed text-muted-foreground">{pr.total} training · {optionalSessions} optional</dd>}
+            </div>
+          ))}
+        </dl>
+        <div className="flex flex-col gap-4 p-5 sm:p-6">
+          {run && (
+            <div className="flex flex-col gap-2">
+              <div className="flex flex-wrap items-center justify-between gap-1 text-[13px]">
+                <span className="font-medium">Your progress</span>
+                <span className="text-muted-foreground tabular-nums">{pr.done} of {pr.total} {optionalSessions > 0 ? "training sessions" : "sessions"} complete</span>
+              </div>
+              <Progress value={progressPercent} aria-label="Program progress" />
+            </div>
+          )}
+          <div className="flex flex-wrap items-center gap-2">
+            <Button size="xl" className="h-auto min-h-12 min-w-0 flex-[1_1_240px] px-3 py-3 text-base font-semibold whitespace-normal sm:h-auto" onClick={primary}>
+              {run ? (nx ? `Continue · Week ${nx.weekOrder}, Session ${nx.order}` : "Program complete") : "Start program"}
+              {run && !nx ? <CheckIcon aria-hidden="true" /> : <ChevronRightIcon aria-hidden="true" />}
+            </Button>
+            {run && <Button variant="ghost" className="ms-auto min-h-11 text-muted-foreground" onClick={async () => { await repo.endRun(run.id); await repo.startRun(program.id); flash("New run started — previous progress kept"); await router.invalidate(); }}><RotateCcwIcon aria-hidden="true" />Restart as new run</Button>}
+          </div>
+          {!run && <p className="text-[13px] text-muted-foreground">You can preview any session before starting.</p>}
+        </div>
+      </section>
       <section className={card("flex flex-wrap items-center justify-between gap-3 p-5")} aria-label="Offline download">
         <div className="flex flex-col gap-0.5">
           <span className="text-[15px] font-semibold">Offline use</span>
@@ -391,8 +428,8 @@ function SessionView() {
           {!run && <Badge variant="secondary" size="lg">Preview</Badge>}
         </div>
       </div>
-      <WorkoutRenderer items={items} exerciseIndex={exerciseIndex} />
-      <div className="sticky bottom-14 lg:bottom-0 flex items-center gap-2 border-t bg-background pt-3 pb-4">
+      <WorkoutRenderer key={sessionKey(program.id, session.id)} items={items} exerciseIndex={exerciseIndex} />
+      <div className="sticky bottom-14 z-30 lg:bottom-0 flex items-center gap-2 border-t bg-background pt-3 pb-4">
         {navBtn(prev, "Previous session")}
         <Button size="xl" variant={isDone ? "secondary" : "default"} className={cn("min-h-13 flex-1 text-base font-semibold", isDone && "bg-success/8 text-success-foreground")} onClick={toggle}>
           <CheckIcon strokeWidth={2.5} />{isDone ? "Completed" : "Mark complete"}

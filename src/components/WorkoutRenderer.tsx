@@ -1,16 +1,32 @@
 import { useState } from "react";
-import { DumbbellIcon, PlayIcon } from "lucide-react";
+import { CheckIcon, ClockIcon, DumbbellIcon, PlayIcon, RepeatIcon } from "lucide-react";
 import { parseDelta, type DeltaLine } from "../domain/delta";
 import type { Exercise } from "../domain/types";
 import { deltaTextOf, fmtSeconds, notesOf, prescription, resolveExercise, sortItems, subAssignments, type RawItem } from "../domain/workout";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
+import { ExerciseCountdown } from "./ExerciseCountdown";
+import { SetTracker, type SetTracking } from "./SetTracker";
+import { SupersetCard } from "./SupersetCard";
 import { cn } from "../lib/utils";
+
+function noteMetricIcon(line: DeltaLine) {
+  if (line.header || line.list || line.indent || line.align && line.align !== "left" || line.segs.some((seg) => seg.embed)) return null;
+  const text = line.segs.map((seg) => seg.text).join("").trim();
+  if (/^\d+(?:\s*[-–]\s*\d+)?\s*(?:sets?|rounds?|reps?)$/i.test(text)) return RepeatIcon;
+  if (/^\d+(?:\s*[-–]\s*\d+)?\s*(?:min(?:ute)?s?|sec(?:ond)?s?)$/i.test(text)
+    || /^every\s+\d+\s*(?:min(?:ute)?s?|sec(?:ond)?s?)(?:\s*[x×]\s*\d+\s*(?:sets?|rounds?))?$/i.test(text)
+    || /^for time$/i.test(text)) return ClockIcon;
+  return null;
+}
 
 export function DeltaView({ value }: { value: unknown }) {
   const lines = parseDelta(value);
+  // Only heading-and-metadata summaries use tiles; detailed instructions stay prose.
+  const isSummary = lines.some((line) => !!line.header)
+    && lines.every((line) => !line.segs.length || !!line.header || noteMetricIcon(line) !== null);
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-wrap items-start gap-2 text-foreground">
       {lines.map((ln: DeltaLine, i: number) => {
         if (!ln.segs.length) return null;
         const cls = ln.header === 1 ? "mt-2 font-heading text-[26px] font-bold leading-tight tracking-tight"
@@ -19,10 +35,17 @@ export function DeltaView({ value }: { value: unknown }) {
         const Tag = (ln.header ? `h${Math.min(ln.header + 1, 6)}` : "p") as "p";
         const inner = ln.segs.map((sg, k) => (
           <span key={k} className={cn(sg.bold && "font-semibold", sg.italic && "italic", sg.underline && "underline", sg.strike && "line-through", sg.embed && "font-mono text-sm text-muted-foreground")}
-            style={sg.color ? { color: sg.color } : undefined}>{sg.text}</span>
+            style={sg.color && !/^(?:#000(?:000)?|#fff(?:fff)?|black|white)$/i.test(sg.color) ? { color: sg.color } : undefined}>{sg.text}</span>
         ));
-        if (ln.list) return <div key={i} className={cn(cls, "flex gap-2 pl-4")}><span aria-hidden>{ln.list === "bullet" ? "•" : `${ln.number}.`}</span><span>{inner}</span></div>;
-        return <Tag key={i} className={cn(cls, "text-pretty", ln.align === "center" && "text-center", ln.indent && `pl-${ln.indent * 4}`)}>{inner}</Tag>;
+        const MetricIcon = isSummary ? noteMetricIcon(ln) : null;
+        if (MetricIcon) return (
+          <Badge key={i} variant="secondary" render={<p />} className="h-auto min-h-9 max-w-full shrink gap-2 rounded-lg px-3 py-1.5 text-sm/5 whitespace-normal sm:h-auto sm:text-sm/5">
+            <MetricIcon className="size-4 text-muted-foreground" aria-hidden="true" />
+            <span>{inner}</span>
+          </Badge>
+        );
+        if (ln.list) return <div key={i} className={cn(cls, "flex basis-full gap-2 pl-4")}><span aria-hidden>{ln.list === "bullet" ? "•" : `${ln.number}.`}</span><span>{inner}</span></div>;
+        return <Tag key={i} className={cn(cls, "basis-full text-pretty", ln.align === "center" && "text-center", ln.indent && `pl-${ln.indent * 4}`)}>{inner}</Tag>;
       })}
     </div>
   );
@@ -37,15 +60,26 @@ export function MediaPlaceholder({ title }: { title?: string }) {
   );
 }
 
-function ExerciseCard({ item, label, index, nested }: { item: RawItem; label: string; index: Map<string, Exercise>; nested?: boolean }) {
+type ExerciseCardProps = { item: RawItem; label: string; index: Map<string, Exercise>; nested?: boolean };
+
+function TrackedExercise(props: ExerciseCardProps) {
+  const [completedSets, setCompletedSets] = useState<string[]>([]);
+  const sets = props.item.sets;
+  const count = typeof sets === "number" && Number.isSafeInteger(sets) && sets > 0 ? sets : 0;
+  return <ExerciseCard {...props} tracking={{ count, completed: completedSets, onChange: setCompletedSets }} complete={count > 0 && completedSets.length === count} />;
+}
+
+function ExerciseCard({ item, label, index, nested, tracking, complete = false }: ExerciseCardProps & { tracking?: SetTracking; complete?: boolean }) {
   const ex = resolveExercise(item, index);
   const [showVideo, setShowVideo] = useState(false);
   const [imgFailed, setImgFailed] = useState(false);
-  const presc = prescription(item);
+  const presc = prescription(item).filter(([key]) => tracking || key !== "Sets");
+  const time = item.times ?? item.durationSeconds ?? item.seconds;
+  const rest = item.rest ?? item.restSeconds;
   const notes = notesOf(item);
   const mediaUrl = showVideo && ex?.videoUrl ? ex.videoUrl : ex?.imageUrl ?? ex?.thumbnail;
   return (
-    <article className={cn("flex flex-wrap overflow-hidden border bg-card rounded-2xl", !nested && "shadow-xs/5")} aria-label={ex?.title ?? "Unknown exercise"}>
+    <article className={cn("isolate flex flex-wrap overflow-hidden border bg-card rounded-2xl transition-colors", !nested && "shadow-xs/5", complete && "border-success/40 bg-success/4")} aria-label={ex?.title ?? "Unknown exercise"} data-completed={complete}>
       <div className="relative min-h-42 flex-[1_1_220px] overflow-hidden bg-muted">
         {mediaUrl && !showVideo ? <img src={mediaUrl} alt={ex?.title ?? ""} loading="lazy" className="absolute inset-0 h-full w-full object-cover" onError={() => setImgFailed(true)} /> : null}
         {!showVideo && (!mediaUrl || imgFailed) && <MediaPlaceholder title={ex?.title} />}
@@ -57,20 +91,31 @@ function ExerciseCard({ item, label, index, nested }: { item: RawItem; label: st
         )}
       </div>
       <div className={cn("flex flex-[999_1_280px] flex-col gap-3 p-5", nested && "p-4")}>
-        <div className="flex items-center gap-2.5">
+        <div className="flex flex-wrap items-center gap-2.5">
           <span className="rounded-md bg-muted px-1.5 py-0.5 font-mono text-[13px] font-medium text-muted-foreground">{label}</span>
-          <h3 className="font-heading text-[21px] font-semibold tracking-tight">{ex?.title ?? "Unknown exercise"}</h3>
+          <h3 className={cn("flex-1 font-heading text-[21px] font-semibold tracking-tight", complete && "text-success-foreground")}>{ex?.title ?? "Unknown exercise"}</h3>
+          {complete && tracking && <Badge variant="success"><CheckIcon aria-hidden="true" />Completed</Badge>}
         </div>
         {!ex && <p className="text-sm text-warning-foreground">This exercise was not found in the library. The prescription is shown as written.</p>}
         {presc.length > 0 && (
-          <dl className="grid grid-cols-[repeat(auto-fit,minmax(84px,1fr))] gap-2">
-            {presc.map(([k, v]) => (
-              <div key={k} className="flex flex-col gap-0.5 rounded-[10px] bg-muted px-3 py-2.5">
-                <dt className="text-xs font-medium text-muted-foreground">{k}</dt>
-                <dd className="text-2xl font-semibold tracking-tight tabular-nums">{v}</dd>
-              </div>
-            ))}
+          <dl className="grid grid-cols-[repeat(auto-fit,minmax(90px,1fr))] gap-2">
+            {presc.map(([k, v]) => {
+              const seconds = k === "Time" ? time : k === "Rest" ? rest : null;
+              return (
+                <div key={k} className="flex flex-col gap-0.5 rounded-[10px] bg-muted px-3 py-2.5 has-[[data-timer-completed=true]]:ring-1 has-[[data-timer-completed=true]]:ring-success/40">
+                  <dt className="text-xs font-medium text-muted-foreground">{k}</dt>
+                  {tracking && typeof seconds === "number" && Number.isFinite(seconds) && seconds > 0
+                    ? <ExerciseCountdown key={seconds} seconds={seconds} label={k} />
+                    : <dd className="text-2xl font-semibold tracking-tight tabular-nums">{v}</dd>}
+                </div>
+              );
+            })}
           </dl>
+        )}
+        {tracking && tracking.count > 0 && (
+          <div className="border-t pt-3">
+            <SetTracker {...tracking} label={ex?.title ?? "Unknown exercise"} />
+          </div>
         )}
         {notes && <p className="text-[15px] leading-relaxed text-muted-foreground text-pretty">{notes}</p>}
       </div>
@@ -90,13 +135,18 @@ export function WorkoutRenderer({ items, exerciseIndex }: { items: Record<string
         if (item.type === "richText" || item.type === "text" || deltaTextOf(item) != null && item.type !== "exerciseAssignment" && item.type !== "groupedAssignment") {
           return <section key={key} aria-label="Coach notes"><DeltaView value={deltaTextOf(item)} /></section>;
         }
-        if (item.type === "exerciseAssignment") { letterIdx++; return <ExerciseCard key={key} item={item} label={letter(letterIdx)} index={exerciseIndex} />; }
+        if (item.type === "exerciseAssignment") { letterIdx++; return <TrackedExercise key={key} item={item} label={letter(letterIdx)} index={exerciseIndex} />; }
         if (item.type === "groupedAssignment") {
           const subs = subAssignments(item);
           const isSection = !!item.isSection;
           const isSuperset = !!item.isSuperset;
           letterIdx++;
           const lt = letter(letterIdx);
+          if (isSuperset && !isSection) return (
+            <SupersetCard key={key} item={item} exercises={subs} label={lt}>
+              {(complete) => subs.map((sa, j) => <ExerciseCard key={String(sa.itemId ?? j)} item={sa} label={lt + (j + 1)} index={exerciseIndex} nested complete={complete} />)}
+            </SupersetCard>
+          );
           return (
             <section key={key} className={cn("flex flex-col gap-1.5", !isSection && "rounded-3xl border bg-muted p-1.5")} aria-label={typeof item.title === "string" ? item.title : isSuperset ? `Superset ${lt}` : `Group ${lt}`}>
               <div className="flex flex-wrap items-baseline justify-between gap-3 px-3.5 pt-2.5 pb-1.5">
@@ -106,8 +156,8 @@ export function WorkoutRenderer({ items, exerciseIndex }: { items: Record<string
                 </span>
               </div>
               {isSection
-                ? subs.map((sa, j) => <ExerciseCard key={String(sa.itemId ?? j)} item={sa} label={String(j + 1)} index={exerciseIndex} nested />)
-                : subs.map((sa, j) => <ExerciseCard key={String(sa.itemId ?? j)} item={sa} label={lt + (j + 1)} index={exerciseIndex} nested />)}
+                ? subs.map((sa, j) => <TrackedExercise key={String(sa.itemId ?? j)} item={sa} label={String(j + 1)} index={exerciseIndex} nested />)
+                : subs.map((sa, j) => <TrackedExercise key={String(sa.itemId ?? j)} item={sa} label={lt + (j + 1)} index={exerciseIndex} nested />)}
             </section>
           );
         }
