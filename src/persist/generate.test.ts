@@ -176,8 +176,9 @@ describe.skipIf(!haveViews)("generate (real corpus)", () => {
 
   it("pairs a leg-dominant main lift with balance work that suits it", () => {
     let days = 0, off = 0;
-    for (let seed = 1; seed <= 25; seed++) {
-      const g = generate(corpus, { track: "pump-lift-5x", seed, startDate: start });
+    // The 3x track has few days per pattern, so it is checked as well as 5x.
+    for (const [track, seed] of ["pump-lift-5x", "pump-lift-3x"].flatMap((t) => Array.from({ length: 25 }, (_, i) => [t, i + 1] as const))) {
+      const g = generate(corpus, { track: track as "pump-lift-5x", seed, startDate: start });
       for (const wk of [g.weeks[0], g.weeks[1]]) {
         for (const d of wk.days.filter((x) => x.type === "training")) {
           const partners = BALANCE_PARTNERS[d.headline.mainLift?.pattern ?? ""];

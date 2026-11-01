@@ -380,9 +380,10 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
   // stream is specific to the track.
   r = rng((opts.seed * 2654435761 + FAMILIES.indexOf(family) * 40503 + freq) >>> 0);
   const genTrack = opts.track;
-  const sectionPool = (roles: string[], pattern: string, dayNumber?: number): { sec: Sec; exact: boolean }[] => {
+  const familyTracks = [...new Set(ix.days.map((d) => d.track))].filter((t) => familyOf(t) === family);
+  const sectionPool = (roles: string[], pattern: string, dayNumber?: number, tracks: string[] = [genTrack]): { sec: Sec; exact: boolean }[] => {
     const out: { sec: Sec; exact: boolean }[] = [];
-    for (const d of ix.daysFor(genTrack, null)) {
+    for (const d of tracks.flatMap((t) => ix.daysFor(t, null))) {
       if (dayNumber !== undefined && d.day.day !== dayNumber) continue;
       // A stray "Week 2" line inside a section is a leftover from the source PDF; such sections are not copied.
       for (const sec of d.day.sections) if (roles.includes(sec.role) && sec.items.length && !STRAY_WEEK.test(sec.raw)) out.push({ sec, exact: d.mainPattern === pattern });
@@ -425,7 +426,8 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
   const supporting = new Map<number, { balance: Sec[]; finisher: Sec[]; conditioning: Sec[]; pre: Sec[]; warmup: Sec[]; cooldown: Sec[]; short: string[] }>();
   for (const [day, slot] of dayOf) {
     const mp = slot.p1;
-    const two = distinct(sectionPool(["strength-balance"], mp), 2);
+    // Balance work in the 5x, 4x and 3x tracks of a family is alike, and a single frequency has few days per pattern, so they pool.
+    const two = distinct(sectionPool(["strength-balance"], mp, undefined, familyTracks), 2);
     const mk = (roles: string[], dayNumber?: number) => distinct(sectionPool(roles, mp, dayNumber), nWeeks);
     supporting.set(day, {
       balance: Array.from({ length: nWeeks }, (_, w) => two[w % 2]),
