@@ -25,7 +25,7 @@ npm run persist:generate -- --track pump-lift-4x --seed 12 --start 2027-01-04 \
 | Option | Meaning |
 |---|---|
 | `--track` | One of `pump-lift-5x/4x/3x`, `pump-condition-5x/4x/3x`, `perform`, `minimalist` |
-| `--seed` | Integer. The same seed, track, start and options always give the same block |
+| `--seed` | Whole number from 0 to 4294967295. The same seed, track, start and options always give the same block. If omitted, the tool picks a random number from 1 to 50 and prints it, so you can reproduce that block with `--seed <n>` |
 | `--start` | A Monday: week 1 of the block |
 | `--equipment` | Comma list of what you own. `bodyweight` is always allowed. Omit for no restriction |
 | `--allow-recent` | Permit lifts from the latest published block (avoided by default) |
@@ -197,6 +197,6 @@ The exercise grouping that all of this depends on is reviewable in `data/reports
 
 ## 10. Reproducibility and testing
 
-A block is a function of `(corpus, track, seed, start, equipment, avoidRecent)`. The corpus is the set of view files, which are themselves rebuilt from the PDFs by `npm run persist:all`. There is no clock and no network. The default start date uses today's date only in the CLI wrapper, not in `generate()`.
+A block is a function of `(corpus, track, seed, start, equipment, avoidRecent)`. The corpus is the set of view files, which are themselves rebuilt from the PDFs by `npm run persist:all`. There is no clock and no network. The default start date (the next Monday) and the random default seed are chosen only in the CLI wrapper, never in `generate()`, and the chosen seed is printed.
 
 `src/persist/generate.test.ts` covers: seeded randomness; equipment rules; text rendering; a valid six-week block for every track; reproducibility and variation across seeds; A/B alternation and the skeleton; seed coupling between tracks; Perform's pre-lift kind; Minimalist's day count; the validation checks, including deliberately broken blocks. The corpus tests skip themselves if `data/views` has not been built.
