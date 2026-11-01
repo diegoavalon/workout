@@ -1,0 +1,164 @@
+{
+ "counts": {
+  "tracks": 8,
+  "blocks": 8,
+  "weeks": 43,
+  "sessions": 1584,
+  "sections": 8668,
+  "items": 19451,
+  "sets": 24237,
+  "schedule": 2184,
+  "exercises": 1308,
+  "exercise_aliases": 1724
+ },
+ "totalSessions": 2184,
+ "uniqueSessions": 1584,
+ "totalSections": 9797,
+ "uniqueSections": 3221,
+ "weeks": {
+  "observed": 39,
+  "missing": 4
+ },
+ "warnings": [],
+ "proseVariants": [],
+ "unknownFormats": {
+  "GRINDER (15 min)": 19,
+  "Pull Couplet (15min)": 1,
+  "Jerk Progression (12 min)": 9,
+  "Speed Strength - Clean (15min)": 15,
+  "Shoulder Pre Fatigue": 4,
+  "Couple of Couplets (15 min)": 5,
+  "Strength Balance (12 min)": 2,
+  "GRINDER": 1,
+  "Couple of Couplets (15min)": 1,
+  "Couple of Couplets": 1,
+  "Push Pull Sprint (12-15 min)": 7,
+  "HOT START (10-12 minutes)": 6,
+  "Dip + Core + Shoulder Prefatigue (12 min)": 6,
+  "Speed Strength - Clean (15 min)": 5,
+  "Alphabet Soup (20-25 minutes)": 6,
+  "Functional Pump Conditioning (12-15 min)": 13,
+  "Lower Body Conditioning (15-20 min)": 15,
+  "Push Pull Sprint (12 min)": 5,
+  "Finisher (6-8 min)": 11,
+  "Kettlebell Hot Start (8-10 min)": 1,
+  "Threshold Lower Body (15 min)": 4,
+  "Gymnastics Skills (8-10 min)": 1,
+  "Kettlebell Hot Start (10 min)": 3,
+  "Gymnastics Skills (8 min)": 1,
+  "Gymnastics Skills (10 min)": 1,
+  "Kettlebell Hot Start (10 Min)": 1,
+  "Threshold Lower Body (15-18 min)": 2,
+  "Kettlebell Hot Start (10-12 min)": 1,
+  "Upper Body Grinder (12-15 min)": 12,
+  "Dynamic Effort Upper Body": 3,
+  "Hinge Conditioning (12-15 min)": 4,
+  "Single Leg Conditioning (12-15 min)": 8,
+  "Dynamic Effort Upper Body (12 min)": 1,
+  "Conditioning (15-20 min)": 2,
+  "Dynamic Effort Upper (12-15 min)": 2,
+  "Conditioning (15 min)": 1,
+  "Conditioning (15 Minutes)": 1,
+  "Fatigued Shoulders (15 min)": 17,
+  "Carry Conditioning (12-15 min)": 24,
+  "Aerobic KB Skills (9-12 min)": 3,
+  "Sprint Hinge Core (15 min)": 2,
+  "Cyclical Hot Start (10 min)": 1,
+  "Couple of Couplets (12-15 min)": 2,
+  "Jerk Progression": 1,
+  "Cyclical Hot Start": 1,
+  "Hinge, Back, Bicep (15 min)": 12,
+  "Aerobic Push Pull (12 min)": 30,
+  "KB HOT START (10-12 min)": 1,
+  "KB HOT START (10 min)": 5,
+  "Run Mix Modal (12 min)": 3,
+  "Increasing Effort (15 min)": 10,
+  "Gymnastics HOT START (12 min)": 3,
+  "Barbell Cycling (12 min)": 5,
+  "Upper HOT START (10 min)": 5,
+  "Aerobic Lower Body (15 min)": 11,
+  "Anaerobic Power Conditioning (15 min)": 5,
+  "Functional Pump Conditioning (15 min)": 2,
+  "Functional Pump Conditioning (12 min)": 2
+ },
+ "blocks": [
+  {
+   "id": 1,
+   "startDate": "2025-12-29",
+   "endDate": "2026-02-08",
+   "weekCount": 6,
+   "startInferred": true
+  },
+  {
+   "id": 2,
+   "startDate": "2026-02-09",
+   "endDate": "2026-03-22",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 3,
+   "startDate": "2026-03-23",
+   "endDate": "2026-05-03",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 4,
+   "startDate": "2026-05-04",
+   "endDate": "2026-06-14",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 5,
+   "startDate": "2026-06-15",
+   "endDate": "2026-07-12",
+   "weekCount": 4,
+   "startInferred": false
+  },
+  {
+   "id": 6,
+   "startDate": "2026-07-13",
+   "endDate": "2026-08-23",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 7,
+   "startDate": "2026-08-24",
+   "endDate": "2026-10-04",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 8,
+   "startDate": "2026-10-05",
+   "endDate": "2026-11-08",
+   "weekCount": 5,
+   "startInferred": false
+  }
+ ],
+ "missingWeeks": [
+  {
+   "block": 4,
+   "week": 3,
+   "start": "2026-05-18"
+  },
+  {
+   "block": 4,
+   "week": 4,
+   "start": "2026-05-25"
+  },
+  {
+   "block": 5,
+   "week": 2,
+   "start": "2026-06-22"
+  },
+  {
+   "block": 5,
+   "week": 3,
+   "start": "2026-06-29"
+  }
+ ]
+}
