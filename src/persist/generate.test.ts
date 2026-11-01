@@ -51,11 +51,11 @@ describe.skipIf(!haveViews)("generate (real corpus)", () => {
   for (const w of index.weeks) for (const f of Object.values(w.files)) corpus.push(JSON.parse(readFileSync(`data/views/${f}`, "utf8")));
   const start = "2027-01-04";
 
-  it("builds six valid weeks with the right training-day count for every Pump Lift and Pump Condition track", () => {
-    for (const track of TRACK_IDS.filter((t) => t.startsWith("pump"))) {
+  it("builds six valid weeks with the right training-day count for every track", () => {
+    for (const track of TRACK_IDS) {
       const g = generate(corpus, { track, seed: 11, startDate: start });
       expect(g.weeks).toHaveLength(6);
-      const freq = Number(track.slice(-2, -1));
+      const freq = track === "perform" ? 5 : track === "minimalist" ? 4 : Number(track.slice(-2, -1));
       for (const wk of g.weeks) {
         expect(wk.days).toHaveLength(7);
         expect(wk.days.filter((d) => d.type === "training")).toHaveLength(freq);
@@ -99,7 +99,32 @@ describe.skipIf(!haveViews)("generate (real corpus)", () => {
     expect(g.warnings.filter((w) => w.includes("nothing matches your equipment"))).toEqual([]);
   });
 
-  it("refuses tracks it cannot generate yet", () => {
-    expect(() => generate(corpus, { track: "perform", seed: 1, startDate: start })).toThrow(/pump-lift and pump-condition/);
+  it("gives Pump Condition and Perform the Pump Lift main lifts on the same days for one seed", () => {
+    const lift = generate(corpus, { track: "pump-lift-5x", seed: 6, startDate: start });
+    for (const track of ["pump-condition-5x", "perform"] as const) {
+      const other = generate(corpus, { track, seed: 6, startDate: start });
+      const mains = (g: typeof lift) => g.weeks.map((w) => w.days.map((d) => d.headline.mainLift?.id ?? null));
+      expect(mains(other)).toEqual(mains(lift));
+    }
+  });
+
+  it("builds Perform with a pre-lift piece that stays one kind per day", () => {
+    const g = generate(corpus, { track: "perform", seed: 8, startDate: start });
+    for (const dayIdx of [0, 1, 2, 4, 5]) {
+      const roles = g.weeks.map((w) => w.days[dayIdx].sections.map((s) => s.role));
+      for (const r of roles) expect(r.slice(0, 4)).toEqual(["focus-note", "warmup", expect.stringMatching(/hot-start|speed-strength/), "strength-intensity-1"]);
+      expect(new Set(roles.map((r) => r[2])).size).toBe(1);
+    }
+  });
+
+  it("builds Minimalist with four training days and its own lifts", () => {
+    const g = generate(corpus, { track: "minimalist", seed: 8, startDate: start });
+    expect(g.weeks[0].days.filter((d) => d.type === "training")).toHaveLength(4);
+    const lifts = g.weeks[0].days.filter((d) => d.type === "training").map((d) => d.headline.mainLift!);
+    expect(lifts.every((l) => !l.equipment.includes("barbell") || g.warnings.some((w) => w.includes("borrowed")))).toBe(true);
+  });
+
+  it("rejects an unknown track", () => {
+    expect(() => generate(corpus, { track: "nope" as never, seed: 1, startDate: start })).toThrow(/unknown track/);
   });
 });
