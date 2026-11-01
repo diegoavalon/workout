@@ -157,6 +157,38 @@ describe.skipIf(!haveViews)("generate (real corpus)", () => {
     expect(c2.find((c) => c.name === "Session skeleton")?.status).toBe("warn");
   });
 
+  it("keeps source artifacts and repeated recovery topics out of a block", () => {
+    for (const track of ["pump-lift-3x", "pump-lift-4x", "perform"] as const) {
+      for (let seed = 1; seed <= 12; seed++) {
+        const g = generate(corpus, { track, seed, startDate: start });
+        for (const wk of g.weeks) {
+          const topics: string[] = [];
+          for (const d of wk.days) {
+            for (const sec of d.sections) expect(sec.raw).not.toMatch(/^\s*Week \d+:?\s*$/m);
+            const mob = d.sections.find((x) => x.role === "mobility");
+            if (mob) topics.push(mob.raw.split("\n").map((l) => l.trim()).filter(Boolean)[1]?.toLowerCase() ?? "");
+          }
+          expect(new Set(topics).size).toBe(topics.length);
+        }
+      }
+    }
+  });
+
+  it("pairs a leg-dominant main lift with lower-body or trunk balance work when the program usually does", () => {
+    const lower = new Set(["squat", "hinge", "lunge-single-leg", "isolation-legs", "core", "carry", "olympic", "plyometric"]);
+    let days = 0, upperOnly = 0;
+    for (let seed = 1; seed <= 20; seed++) {
+      const g = generate(corpus, { track: "pump-lift-5x", seed, startDate: start });
+      for (const d of g.weeks[0].days.filter((x) => x.type === "training" && ["squat", "hinge", "lunge-single-leg"].includes(x.headline.mainLift?.pattern ?? ""))) {
+        const bal = d.sections.find((x) => x.role === "strength-balance")!;
+        days++;
+        if (!bal.items.some((i) => i.exercise && lower.has(i.exercise.pattern ?? ""))) upperOnly++;
+      }
+    }
+    expect(days).toBeGreaterThan(20);
+    expect(upperOnly / days).toBeLessThan(0.1);
+  });
+
   it("rejects an unknown track", () => {
     expect(() => generate(corpus, { track: "nope" as never, seed: 1, startDate: start })).toThrow(/unknown track/);
   });

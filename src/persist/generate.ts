@@ -188,6 +188,10 @@ export function renderStrength(title: string, items: Item[], schemeLines: string
   return lines.join("\n");
 }
 
+const STRAY_WEEK = /^\s*Week \d+:?\s*$/m;
+const LOWER_MAINS = new Set(["squat", "hinge", "lunge-single-leg"]);
+const LOWER_OR_TRUNK = new Set(["squat", "hinge", "lunge-single-leg", "isolation-legs", "core", "carry", "olympic", "plyometric"]);
+const mobilityTopic = (d: Day) => (d.sections.find((x) => x.role === "mobility")?.raw.split("\n").map((l) => l.trim()).filter(Boolean)[1] ?? "").toLowerCase();
 const FAMILIES = ["pump-lift", "pump-condition", "perform", "minimalist"];
 const familyOf = (track: string) => (track === "perform" || track === "minimalist" ? track : track.replace(/-\dx$/, ""));
 const PRE_LIFT = ["hot-start", "speed-strength"];
@@ -371,14 +375,22 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
     const out: { sec: Sec; exact: boolean }[] = [];
     for (const d of ix.daysFor(genTrack, null)) {
       if (dayNumber !== undefined && d.day.day !== dayNumber) continue;
-      for (const sec of d.day.sections) if (roles.includes(sec.role) && sec.items.length) out.push({ sec, exact: d.mainPattern === pattern });
+      // A stray "Week 2" line inside a section is a leftover from the source PDF; such sections are not copied.
+      for (const sec of d.day.sections) if (roles.includes(sec.role) && sec.items.length && !STRAY_WEEK.test(sec.raw)) out.push({ sec, exact: d.mainPattern === pattern });
     }
     // Pump Lift balance and finisher sections are supersets; skip single-movement formats.
     const shaped = roles.some((x) => x === "strength-balance" || x === "finisher") ? out.filter((x) => x.sec.items.length >= 2 || !out.some((y) => y.sec.items.length >= 2)) : out;
     const ok = shaped.filter((x) => sectionOk(x.sec, allowed));
     const pool = ok.length ? ok : shaped;
     const exactOnly = pool.filter((x) => x.exact);
-    return exactOnly.length >= 2 ? exactOnly : pool;
+    const matched = exactOnly.length >= 2 ? exactOnly : pool;
+    // After a leg-dominant lift the published balance work trains the lower body or trunk in 81% of days; the other
+    // 19% pair it with upper-body work only. Prefer the majority so a block reads coherently.
+    if (roles.includes("strength-balance") && LOWER_MAINS.has(pattern)) {
+      const coherent = matched.filter((x) => x.sec.items.some((i) => i.exercise && LOWER_OR_TRUNK.has(i.exercise.pattern ?? "")));
+      if (coherent.length >= 2) return coherent;
+    }
+    return matched;
   };
   const distinct = (pool: { sec: Sec }[], n: number): Sec[] => {
     const seen = new Set<string>();
@@ -410,7 +422,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
       short: ix.daysFor(genTrack, mp)[0]?.day.focus.shortOnTime ?? [],
     });
   }
-  const recoveryOrder = shuffle(ix.days.filter((d) => d.track === opts.track && d.day.type === "recovery"), r);
+  const recoveryOrder = shuffle(ix.days.filter((d) => d.track === opts.track && d.day.type === "recovery" && !d.day.sections.some((x) => STRAY_WEEK.test(x.raw))), r);
 
   // 7. Assemble the weeks.
   const weeks: WeekView[] = [];
@@ -418,6 +430,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
   const itemFor = (ex: Item, sch: Scheme): Item => ({ ...ex, tempo: sch.tempo, restSec: sch.restSec, sets: sch.sets });
   for (let w = 0; w < nWeeks; w++) {
     const odd = w % 2 === 0; // week 1 is "A"
+    const usedTopics = new Set<string>();
     const days: Day[] = layout.map(({ day, type }) => {
       const date = addDays(opts.startDate, w * 7 + day - 1);
       const dayBase = { day, date, sessionId: sid--, sharedWith: [] as TrackId[] };
@@ -450,7 +463,13 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
         };
       }
       if (type === "recovery") {
-        const rec = recoveryOrder.length ? recoveryOrder[(w + day) % recoveryOrder.length].day : null;
+        // Walk the shuffled recovery sessions from this week's start and take the first whose mobility topic is new this week.
+        let rec: Day | null = null;
+        for (let k = 0; k < recoveryOrder.length; k++) {
+          const cand = recoveryOrder[(w + day + k) % recoveryOrder.length].day;
+          if (!usedTopics.has(mobilityTopic(cand)) || k === recoveryOrder.length - 1) { rec = cand; break; }
+        }
+        if (rec) usedTopics.add(mobilityTopic(rec));
         const secs = rec ? rec.sections.map((x, i) => ({ ...x, label: LETTERS[i], raw: x.raw.replace(/^[A-H]\)\s*/, "") })) : [];
         return { ...dayBase, type: "recovery" as const, headline: { mainLift: null, focusTopic: null, roles: secs.map((x) => x.role) }, focus: { topic: null, body: null, shortOnTime: [] }, sections: secs };
       }

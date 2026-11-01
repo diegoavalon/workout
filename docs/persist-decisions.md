@@ -101,6 +101,13 @@ How to read an entry: **Decision**, **Why** (the evidence or reasoning), **Alter
 - **Risk.** Inference is name-based, so it can be wrong in both directions. When nothing matches, the generator warns and ignores the equipment for that slot rather than failing.
 - **Revisit.** `EQUIPMENT` and `BARBELL_BY_DEFAULT` in `classify.ts`; per-exercise overrides.
 
+### D20. Three coherence rules found by reading a real block
+Printing week 1 of a generated Pump Lift 3x block (seed 28) showed three things that the automatic checks did not catch. All three are now handled, and a test covers each.
+- **Source artifacts are not copied.** 13 of 9,797 published sections contain a stray "Week 2" style line (mostly in cooldowns), a leftover from the PDFs. Sections and recovery days containing one are excluded as donors.
+- **Balance work after a leg-dominant lift is lower-body or trunk work when the program usually does that.** The published program pairs a squat, hinge or single-leg main lift with upper-body-only balance work on 19% of days (65 of 334 squat days) and with lower-body or trunk work on the other 81%. The generator prefers the 81%, so the block reads coherently. This is a deliberate departure from sampling the program's exact mix: in generated blocks the upper-body-only share is now below 10%.
+- **A week never repeats a recovery mobility topic.** Two recovery days in the same week could draw the same mobility session ("Squat Mobility" twice). The generator now takes the first shuffled recovery session whose topic is new that week.
+- **Risk.** The balance preference removes some of the program's variety. If the generated blocks start to feel too uniform, relax it by lowering the preference in `sectionPool()`.
+
 ---
 
 ## Data and grouping decisions the generator depends on
