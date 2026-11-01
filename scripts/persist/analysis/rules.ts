@@ -10,7 +10,7 @@ const mode = <T>(xs: T[]): T | undefined => {
 };
 
 // Inputs are the structured results returned by the q01-q09 modules.
-export function buildRules(slots: Slot[], r: { q01: any; q02: any; q03: any; q04: any; q05: any; q06: any; q07: any; q08: any; q09: any }, ctx: { topUnresolved: string[]; weeksObserved: number; weeksMissing: number; blocks: number; unresolvedUses: number; totalUses: number }): Rule[] {
+export function buildRules(slots: Slot[], r: { q01: any; q02: any; q03: any; q04: any; q05: any; q06: any; q07: any; q08: any; q09: any }, ctx: { topUnresolved: string[]; weeksObserved: number; weeksMissing: number; excluded: number; excludedUses: number; blocks: number; unresolvedUses: number; totalUses: number }): Rule[] {
   const rules: Rule[] = [];
 
   // R1: weekly day structure.
@@ -61,7 +61,7 @@ export function buildRules(slots: Slot[], r: { q01: any; q02: any; q03: any; q04
     title: "Pump Lift 5x covers squat, hinge and both presses in nearly every week; pulls and single-leg work less consistently",
     rule: `Weekly strength slots (strength intensity 1 and 2) of Pump Lift 5x include ${full.join(", ")} in at least 90% of weeks, and usually more than once. ${partial.join(", ")} appear less reliably. Pump Lift 3x covers ${once3.join(", ") || "no pattern"} exactly once in at least 85% of weeks. Pattern is not tied to a day number: the pattern on a given day changes from block to block.`,
     evidence: cov.map((x) => `${x.pattern} ${x.atLeastOnce}/${x.weeks}`).join(", ") + " weeks covered at least once (Pump Lift 5x); exactly-once counts are in q02-pattern-coverage.csv.",
-    exceptions: `Coverage counts exercises with a resolved pattern only. Dips and chest flies are counted as horizontal presses (a judgment call: the pattern list has no chest-isolation category), and burpees as plyometric. Still unresolved: ${ctx.topUnresolved.join(", ")}.`,
+    exceptions: `Coverage counts exercises with a resolved pattern only. Dips and chest flies are counted as horizontal presses (a judgment call: the pattern list has no chest-isolation category), and burpees as plyometric. Every exercise has a pattern; judgment calls (for example wall sits as squat, handstand work as vertical press, Turkish get-ups as core) are noted in data/catalog/overrides.json and src/persist/classify.ts.`,
   });
 
   // R4: AB alternation.
@@ -142,7 +142,7 @@ export function buildRules(slots: Slot[], r: { q01: any; q02: any; q03: any; q04
     title: "Strength-balance supersets are chosen around the day's main lift, not as push/pull pairs",
     rule: "The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day " + forMain("squat") + "; hinge day " + forMain("hinge") + "; vertical-press day " + forMain("vertical-press") + ".",
     evidence: `Top pair types among ${r.q07.knownTotal} resolved supersets: ${top}. Push-with-pull pairs are only ${pct(pushPull, r.q07.knownTotal)} of them.`,
-    exceptions: `${r.q07.total - r.q07.knownTotal} of ${r.q07.total} supersets have a movement whose pattern is unresolved (for example ${ctx.topUnresolved.slice(0, 3).join(", ")}), so these shares may shift once those patterns are resolved.`,
+    exceptions: `${r.q07.total - r.q07.knownTotal} of ${r.q07.total} supersets have a movement kept out of the catalog (a name the parser could not read as one exercise), so they are not in these shares.`,
   });
 
   // R10: conditioning.
@@ -167,15 +167,15 @@ export function buildRules(slots: Slot[], r: { q01: any; q02: any; q03: any; q04
     title: "Pump Lift hard-set volume per pattern drops with frequency, but not proportionally",
     rule: `Averaged over squat, hinge, horizontal press and horizontal pull, Pump Lift 4x carries ${(100 * ratio("pump-lift-4x")).toFixed(0)}% and 3x ${(100 * ratio("pump-lift-3x")).toFixed(0)}% of the 5x hard sets. Hinge volume is nearly unchanged from 5x to 4x while horizontal pull falls the most.`,
     evidence: `Average weekly hard sets, Pump Lift 5x: ${vol("pump-lift-5x")}; 4x: ${vol("pump-lift-4x")}; 3x: ${vol("pump-lift-3x")}.`,
-    exceptions: `Hard sets are working sets of strength intensity 1-2 plus the prescribed sets of each balance and finisher movement; conditioning is not counted. Volume on exercises with an unresolved pattern is excluded from the pattern rows (${r.q09.unresolvedPerWeek("pump-lift-5x").toFixed(1)} sets a week for Pump Lift 5x), so every number is a lower bound.`,
+    exceptions: `Hard sets are working sets of strength intensity 1-2 plus the prescribed sets of each balance and finisher movement; conditioning is not counted. Volume on movements kept out of the catalog is excluded from the pattern rows (${r.q09.unresolvedPerWeek("pump-lift-5x").toFixed(1)} sets a week for Pump Lift 5x), so every number is a lower bound.`,
   });
 
   // R12: data limits.
   rules.push({
     title: "What the data cannot yet support",
     rule: "Rules above describe the program as published in these weeks. Gaps: four whole weeks are missing inside blocks (May 18/25 and Jun 22/29), the first block starts at Week 3, and the current block is only at Week 5.",
-    evidence: `${ctx.weeksObserved} weeks observed, ${ctx.weeksMissing} missing, ${ctx.blocks} blocks. ${pct(ctx.unresolvedUses, ctx.totalUses)} of exercise uses still have no resolved pattern (data/reports/unmapped_exercises.json).`,
-    exceptions: `Resolving the pattern for the top unresolved exercises (${ctx.topUnresolved.join(", ")}) would tighten the coverage, pairing and volume numbers.`,
+    evidence: `${ctx.weeksObserved} weeks observed, ${ctx.weeksMissing} missing, ${ctx.blocks} blocks. ${pct(ctx.unresolvedUses, ctx.totalUses)} of catalogued exercise uses have no pattern; ${ctx.excluded} names are kept out of the catalog (data/reports/unmapped_exercises.json).`,
+    exceptions: `Every catalogued exercise now has a pattern, but ${ctx.excluded} names (${ctx.excludedUses} uses) are kept out of the catalog as headings or fragments the parser read as items; they have no exercise or pattern. Several patterns are judgment calls on movements the pattern list does not name.`,
   });
   return rules;
 }

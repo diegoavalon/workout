@@ -51,7 +51,7 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
-        "hinge": 23,
+        "hinge": 24,
         "squat": 15
        },
        "exercisePool": [
@@ -124,7 +124,7 @@
         {
          "exerciseId": "rack-pull",
          "name": "Rack Pull",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         }
        ],
@@ -229,13 +229,13 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "horizontal-pull": 8,
+        "horizontal-pull": 9,
+        "vertical-pull": 9,
         "lunge-single-leg": 6,
-        "vertical-pull": 6,
+        "hinge": 5,
         "core": 4,
         "mobility": 3,
-        "isolation-arms": 3,
-        "hinge": 2
+        "isolation-arms": 3
        },
        "exercisePool": [
         {
@@ -247,7 +247,7 @@
         {
          "exerciseId": "ghd-hip-extension",
          "name": "Ghd Hip Extension",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -277,7 +277,7 @@
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 3
         },
         {
@@ -373,7 +373,7 @@
         {
          "exerciseId": "dumbbell-bent-over-meadows-row",
          "name": "Dumbbell Bent Over Meadows Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -391,7 +391,7 @@
         {
          "exerciseId": "dumbbell-external-rotation-elbow-on-knee",
          "name": "Dumbbell External Rotation Elbow On Knee",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -433,7 +433,7 @@
         {
          "exerciseId": "single-leg-wall-sit",
          "name": "Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -445,13 +445,13 @@
         {
          "exerciseId": "bench-support-landmine-meadow",
          "name": "Bench Support Landmine Meadow",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
          "exerciseId": "single-arm-landmine-row",
          "name": "Single Arm Landmine Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -472,7 +472,7 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "isolation-arms": 15,
+        "isolation-arms": 16,
         "core": 11,
         "isolation-shoulders": 6,
         "isolation-legs": 4
@@ -495,12 +495,6 @@
          "name": "Single Arm Farmers Walk",
          "pattern": "carry",
          "n": 3
-        },
-        {
-         "exerciseId": "mechanical-drop-set",
-         "name": "Mechanical Drop Set",
-         "pattern": null,
-         "n": 2
         },
         {
          "exerciseId": "dumbbell-twist-curl",
@@ -553,6 +547,12 @@
         {
          "exerciseId": "dumbbell-waiter-curl-pulse",
          "name": "Dumbbell Waiter Curl Pulse",
+         "pattern": "isolation-arms",
+         "n": 2
+        },
+        {
+         "exerciseId": "barbell-reverse-curl",
+         "name": "Barbell Reverse Curl",
          "pattern": "isolation-arms",
          "n": 2
         },
@@ -992,7 +992,8 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "horizontal-press": 30,
-        "isolation-arms": 6
+        "isolation-arms": 7,
+        "isolation-shoulders": 2
        },
        "exercisePool": [
         {
@@ -1010,7 +1011,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 6
         },
         {
@@ -1070,7 +1071,7 @@
         {
          "exerciseId": "kettlebell-horn-grip-raise",
          "name": "Kettlebell Horn Grip Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -1196,7 +1197,7 @@
         {
          "exerciseId": "jm-press",
          "name": "Jm Press",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 1
         },
         {
@@ -1242,8 +1243,8 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "isolation-arms": 17,
-        "horizontal-press": 9,
-        "isolation-shoulders": 5
+        "isolation-shoulders": 9,
+        "horizontal-press": 9
        },
        "exercisePool": [
         {
@@ -1255,7 +1256,7 @@
         {
          "exerciseId": "cuban-press",
          "name": "Cuban Press",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 5
         },
         {
@@ -1274,12 +1275,6 @@
          "exerciseId": "1-1-4-barbell-curl",
          "name": "1 1/4 Barbell Curl",
          "pattern": "isolation-arms",
-         "n": 3
-        },
-        {
-         "exerciseId": "extension",
-         "name": "Extension",
-         "pattern": null,
          "n": 3
         },
         {
@@ -1373,18 +1368,6 @@
          "n": 1
         },
         {
-         "exerciseId": "cluster-set",
-         "name": "Cluster Set",
-         "pattern": null,
-         "n": 1
-        },
-        {
-         "exerciseId": "mechanical-drop-set",
-         "name": "Mechanical Drop Set",
-         "pattern": null,
-         "n": 1
-        },
-        {
          "exerciseId": "yoga-push-up",
          "name": "Yoga Push Up",
          "pattern": "horizontal-press",
@@ -1405,7 +1388,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -1435,7 +1418,7 @@
         {
          "exerciseId": "poliquin-raise",
          "name": "Poliquin Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -1484,6 +1467,24 @@
          "exerciseId": "tall-plank-kettlebell-pass-through",
          "name": "Tall Plank Kettlebell Pass Through",
          "pattern": "core",
+         "n": 1
+        },
+        {
+         "exerciseId": "leg-lower-to-windshield",
+         "name": "Leg Lower To Windshield",
+         "pattern": "core",
+         "n": 1
+        },
+        {
+         "exerciseId": "dumbbell-front-raise",
+         "name": "Dumbbell Front Raise",
+         "pattern": "isolation-shoulders",
+         "n": 1
+        },
+        {
+         "exerciseId": "bent-over-reverse-fly",
+         "name": "Bent Over Reverse Fly",
+         "pattern": "isolation-shoulders",
          "n": 1
         }
        ],
@@ -1760,9 +1761,9 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "lunge-single-leg": 15,
+        "lunge-single-leg": 18,
+        "vertical-pull": 7,
         "horizontal-pull": 6,
-        "vertical-pull": 5,
         "isolation-arms": 4,
         "isolation-shoulders": 2,
         "hinge": 2
@@ -1795,7 +1796,7 @@
         {
          "exerciseId": "poliquin-step",
          "name": "Poliquin Step",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 3
         },
         {
@@ -1837,7 +1838,7 @@
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 2
         },
         {
@@ -2020,7 +2021,7 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "core": 16,
+        "core": 17,
         "isolation-arms": 10,
         "isolation-legs": 4,
         "vertical-pull": 3,
@@ -2108,13 +2109,13 @@
         {
          "exerciseId": "cable-or-banded-adduction",
          "name": "Cable Or Banded Adduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 1
         },
         {
          "exerciseId": "cable-or-banded-abduction",
          "name": "Cable Or Banded Abduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 1
         },
         {
@@ -2258,7 +2259,7 @@
         {
          "exerciseId": "lateral-banded-walk",
          "name": "Lateral Banded Walk",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 1
         },
         {
@@ -2305,6 +2306,7 @@
        "itemsPerSection": 0,
        "patternDistribution": {
         "cardio": 15,
+        "squat": 4,
         "core": 3,
         "isolation-arms": 1
        },
@@ -2594,11 +2596,11 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "lunge-single-leg": 9,
-        "isolation-arms": 7,
+        "lunge-single-leg": 12,
+        "isolation-arms": 9,
+        "vertical-press": 6,
         "horizontal-press": 5,
         "isolation-shoulders": 4,
-        "vertical-press": 3,
         "horizontal-pull": 3
        },
        "exercisePool": [
@@ -2629,7 +2631,7 @@
         {
          "exerciseId": "farmers-press",
          "name": "Farmers Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -2647,7 +2649,7 @@
         {
          "exerciseId": "inverted-skull-crusher",
          "name": "Inverted Skull Crusher",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 2
         },
         {
@@ -2737,7 +2739,7 @@
         {
          "exerciseId": "bradford-press-to-full-press",
          "name": "Bradford Press To Full Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -2749,7 +2751,7 @@
         {
          "exerciseId": "bradford-press-with-lockout",
          "name": "Bradford Press With Lockout",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -2815,7 +2817,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -2857,7 +2859,8 @@
         "isolation-arms": 18,
         "isolation-shoulders": 6,
         "isolation-legs": 6,
-        "core": 3
+        "core": 5,
+        "squat": 4
        },
        "exercisePool": [
         {
@@ -2941,7 +2944,7 @@
         {
          "exerciseId": "standing-band-abduction",
          "name": "Standing Band Abduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 2
         },
         {
@@ -2953,7 +2956,7 @@
         {
          "exerciseId": "lateral-banded-walk",
          "name": "Lateral Banded Walk",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 2
         },
         {
@@ -3001,7 +3004,7 @@
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -3073,7 +3076,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -3085,19 +3088,19 @@
         {
          "exerciseId": "wall-sit-single-leg-march",
          "name": "Wall Sit Single Leg March",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
          "exerciseId": "dual-kettlebell-rack-wall-sit",
          "name": "Dual Kettlebell Rack Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
          "exerciseId": "dual-kettlebell-rack-single-leg-wall-sit",
          "name": "Dual Kettlebell Rack Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         }
        ],
@@ -3168,7 +3171,7 @@
        "itemsPerSection": 1,
        "patternDistribution": {
         "lunge-single-leg": 12,
-        "horizontal-press": 8,
+        "horizontal-press": 10,
         "squat": 6,
         "vertical-press": 5
        },
@@ -3236,7 +3239,7 @@
         {
          "exerciseId": "spoto-press",
          "name": "Spoto Press",
-         "pattern": null,
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -3265,7 +3268,7 @@
        "patternDistribution": {
         "squat": 12,
         "vertical-press": 11,
-        "lunge-single-leg": 4,
+        "lunge-single-leg": 5,
         "vertical-pull": 2
        },
        "exercisePool": [
@@ -3350,7 +3353,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         }
        ],
@@ -3366,11 +3369,12 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "hinge": 11,
-        "horizontal-pull": 4,
+        "horizontal-pull": 6,
         "isolation-shoulders": 4,
         "horizontal-press": 4,
         "lunge-single-leg": 3,
-        "isolation-arms": 3
+        "isolation-arms": 3,
+        "vertical-press": 1
        },
        "exercisePool": [
         {
@@ -3386,9 +3390,9 @@
          "n": 3
         },
         {
-         "exerciseId": "single-arm-dumbbell",
-         "name": "Single Arm Dumbbell",
-         "pattern": null,
+         "exerciseId": "single-arm-dumbbell-lean-away-lateral-raise",
+         "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -3418,7 +3422,7 @@
         {
          "exerciseId": "hamstring-walkout",
          "name": "Hamstring Walkout",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -3448,7 +3452,7 @@
         {
          "exerciseId": "landmine-meadow-row",
          "name": "Landmine Meadow Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -3490,7 +3494,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -3502,7 +3506,7 @@
         {
          "exerciseId": "dual-kettlebell-rack-tall-kneel-to-stand",
          "name": "Dual Kettlebell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -3514,7 +3518,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -3574,7 +3578,7 @@
         {
          "exerciseId": "pike-strict-hspu",
          "name": "Pike Strict Hspu",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         }
        ],
@@ -3589,7 +3593,7 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "core": 16,
+        "core": 18,
         "carry": 6,
         "isolation-arms": 5,
         "isolation-shoulders": 4
@@ -3598,7 +3602,7 @@
         {
          "exerciseId": "dumbbell-side-bend",
          "name": "Dumbbell Side Bend",
-         "pattern": null,
+         "pattern": "core",
          "n": 3
         },
         {
@@ -3646,7 +3650,7 @@
         {
          "exerciseId": "quadruped-crawl",
          "name": "Quadruped Crawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -3670,13 +3674,13 @@
         {
          "exerciseId": "half-kneeling-kettlebell-chop-and-lift",
          "name": "Half Kneeling Kettlebell Chop And Lift",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
-         "exerciseId": "ring-slider",
-         "name": "Ring Slider",
-         "pattern": null,
+         "exerciseId": "ring-body-saw",
+         "name": "Ring Body Saw",
+         "pattern": "core",
          "n": 2
         },
         {
@@ -3724,7 +3728,7 @@
         {
          "exerciseId": "quadruped-reverse-crawl",
          "name": "Quadruped Reverse Crawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -3920,7 +3924,7 @@
         "horizontal-press": 15,
         "squat": 15,
         "vertical-press": 2,
-        "hinge": 1
+        "hinge": 2
        },
        "exercisePool": [
         {
@@ -4004,7 +4008,7 @@
         {
          "exerciseId": "rack-pull",
          "name": "Rack Pull",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         }
        ],
@@ -4133,8 +4137,9 @@
         "isolation-arms": 8,
         "lunge-single-leg": 6,
         "core": 4,
+        "horizontal-pull": 2,
         "hinge": 2,
-        "horizontal-pull": 1
+        "isolation-shoulders": 1
        },
        "exercisePool": [
         {
@@ -4146,7 +4151,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 4
         },
         {
@@ -4296,7 +4301,7 @@
         {
          "exerciseId": "kettlebell-horn-grip-raise",
          "name": "Kettlebell Horn Grip Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -4338,7 +4343,7 @@
         {
          "exerciseId": "single-leg-wall-sit",
          "name": "Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -4362,13 +4367,13 @@
         {
          "exerciseId": "bench-support-landmine-meadow",
          "name": "Bench Support Landmine Meadow",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
          "exerciseId": "single-arm-landmine-row",
          "name": "Single Arm Landmine Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -4441,7 +4446,7 @@
         {
          "exerciseId": "cuban-press",
          "name": "Cuban Press",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -4526,12 +4531,6 @@
          "exerciseId": "weight-plate-bicep-curl-isometric",
          "name": "Weight Plate Bicep Curl Isometric",
          "pattern": "isolation-arms",
-         "n": 1
-        },
-        {
-         "exerciseId": "mechanical-drop-set",
-         "name": "Mechanical Drop Set",
-         "pattern": null,
          "n": 1
         },
         {
@@ -4627,12 +4626,18 @@
         {
          "exerciseId": "alternating-single-arm-kettlebell-split-stance-swing",
          "name": "Alternating Single Arm Kettlebell Split Stance Swing",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
          "exerciseId": "dumbbell-front-raise",
          "name": "Dumbbell Front Raise",
+         "pattern": "isolation-shoulders",
+         "n": 1
+        },
+        {
+         "exerciseId": "bent-over-reverse-fly",
+         "name": "Bent Over Reverse Fly",
          "pattern": "isolation-shoulders",
          "n": 1
         }
@@ -4938,8 +4943,8 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "horizontal-press": 14,
-        "lunge-single-leg": 8,
-        "isolation-arms": 4,
+        "lunge-single-leg": 11,
+        "isolation-arms": 5,
         "squat": 2,
         "hinge": 2
        },
@@ -4989,7 +4994,7 @@
         {
          "exerciseId": "poliquin-step",
          "name": "Poliquin Step",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 3
         },
         {
@@ -5085,7 +5090,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -5115,7 +5120,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -5151,7 +5156,7 @@
         {
          "exerciseId": "jm-press",
          "name": "Jm Press",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 1
         },
         {
@@ -5197,7 +5202,7 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "isolation-arms": 11,
-        "core": 9,
+        "core": 10,
         "horizontal-press": 6,
         "isolation-legs": 4
        },
@@ -5283,13 +5288,13 @@
         {
          "exerciseId": "cable-or-banded-adduction",
          "name": "Cable Or Banded Adduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 1
         },
         {
          "exerciseId": "cable-or-banded-abduction",
          "name": "Cable Or Banded Abduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 1
         },
         {
@@ -5403,13 +5408,13 @@
         {
          "exerciseId": "leg-lower-to-windshield",
          "name": "Leg Lower To Windshield",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
          "exerciseId": "supine-single-leg-lowering",
          "name": "Supine Single Leg Lowering",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -5753,10 +5758,10 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
+        "lunge-single-leg": 14,
         "horizontal-press": 11,
-        "lunge-single-leg": 9,
-        "isolation-arms": 5,
-        "vertical-press": 2
+        "vertical-press": 5,
+        "isolation-arms": 5
        },
        "exercisePool": [
         {
@@ -5798,7 +5803,7 @@
         {
          "exerciseId": "farmers-press",
          "name": "Farmers Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -5846,7 +5851,7 @@
         {
          "exerciseId": "goblet-tall-kneel-to-stand",
          "name": "Goblet Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 2
         },
         {
@@ -5876,7 +5881,7 @@
         {
          "exerciseId": "dumbbell-external-rotation-elbow-on-knee",
          "name": "Dumbbell External Rotation Elbow On Knee",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -5942,7 +5947,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -5984,7 +5989,7 @@
         {
          "exerciseId": "alternating-single-arm-dumbbell-rack-tall-kneel-to-stand",
          "name": "Alternating Single Arm Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -6012,8 +6017,9 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "isolation-arms": 16,
+        "core": 7,
         "isolation-legs": 6,
-        "core": 5,
+        "squat": 4,
         "isolation-shoulders": 2
        },
        "exercisePool": [
@@ -6026,7 +6032,7 @@
         {
          "exerciseId": "lateral-banded-walk",
          "name": "Lateral Banded Walk",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -6062,7 +6068,7 @@
         {
          "exerciseId": "standing-band-abduction",
          "name": "Standing Band Abduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 2
         },
         {
@@ -6128,7 +6134,7 @@
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -6206,7 +6212,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -6218,19 +6224,19 @@
         {
          "exerciseId": "wall-sit-single-leg-march",
          "name": "Wall Sit Single Leg March",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
          "exerciseId": "dual-kettlebell-rack-wall-sit",
          "name": "Dual Kettlebell Rack Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
          "exerciseId": "dual-kettlebell-rack-single-leg-wall-sit",
          "name": "Dual Kettlebell Rack Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -6329,7 +6335,7 @@
         "vertical-pull": 6,
         "lunge-single-leg": 6,
         "hinge": 6,
-        "horizontal-press": 2
+        "horizontal-press": 4
        },
        "exercisePool": [
         {
@@ -6389,7 +6395,7 @@
         {
          "exerciseId": "spoto-press",
          "name": "Spoto Press",
-         "pattern": null,
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -6550,12 +6556,13 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "hinge": 11,
-        "isolation-shoulders": 6,
+        "isolation-shoulders": 7,
         "lunge-single-leg": 4,
         "horizontal-press": 4,
         "isolation-arms": 3,
+        "vertical-pull": 2,
         "horizontal-pull": 2,
-        "vertical-press": 1
+        "vertical-press": 2
        },
        "exercisePool": [
         {
@@ -6591,7 +6598,7 @@
         {
          "exerciseId": "hamstring-walkout",
          "name": "Hamstring Walkout",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -6609,7 +6616,7 @@
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 2
         },
         {
@@ -6639,7 +6646,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -6669,7 +6676,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -6681,7 +6688,7 @@
         {
          "exerciseId": "dual-kettlebell-rack-tall-kneel-to-stand",
          "name": "Dual Kettlebell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -6810,16 +6817,16 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "core": 16,
+        "core": 18,
+        "isolation-shoulders": 7,
         "isolation-arms": 7,
-        "isolation-shoulders": 4,
         "horizontal-press": 3
        },
        "exercisePool": [
         {
          "exerciseId": "dumbbell-side-bend",
          "name": "Dumbbell Side Bend",
-         "pattern": null,
+         "pattern": "core",
          "n": 3
         },
         {
@@ -6861,7 +6868,7 @@
         {
          "exerciseId": "cuban-press",
          "name": "Cuban Press",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -6885,13 +6892,13 @@
         {
          "exerciseId": "half-kneeling-kettlebell-chop-and-lift",
          "name": "Half Kneeling Kettlebell Chop And Lift",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
-         "exerciseId": "ring-slider",
-         "name": "Ring Slider",
-         "pattern": null,
+         "exerciseId": "ring-body-saw",
+         "name": "Ring Body Saw",
+         "pattern": "core",
          "n": 2
         },
         {
@@ -6975,7 +6982,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -7005,7 +7012,7 @@
         {
          "exerciseId": "poliquin-raise",
          "name": "Poliquin Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -7096,8 +7103,9 @@
        "itemsPerSection": 0,
        "patternDistribution": {
         "cardio": 9,
-        "core": 2,
-        "isolation-arms": 2
+        "core": 3,
+        "isolation-arms": 2,
+        "vertical-press": 1
        },
        "observedSections": 34
       },
@@ -7181,7 +7189,7 @@
        "patternDistribution": {
         "squat": 20,
         "horizontal-press": 10,
-        "hinge": 7
+        "hinge": 8
        },
        "exercisePool": [
         {
@@ -7259,7 +7267,7 @@
         {
          "exerciseId": "rack-pull",
          "name": "Rack Pull",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         }
        ],
@@ -7382,7 +7390,7 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "horizontal-press": 18,
-        "lunge-single-leg": 8,
+        "lunge-single-leg": 10,
         "squat": 6,
         "hinge": 4
        },
@@ -7420,7 +7428,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -7444,7 +7452,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 2
         },
         {
@@ -7456,7 +7464,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 2
         },
         {
@@ -7510,7 +7518,7 @@
         {
          "exerciseId": "dual-kettlebell-rack-tall-kneel-to-stand",
          "name": "Dual Kettlebell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -7780,13 +7788,13 @@
         {
          "exerciseId": "cable-or-banded-adduction",
          "name": "Cable Or Banded Adduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 1
         },
         {
          "exerciseId": "cable-or-banded-abduction",
          "name": "Cable Or Banded Abduction",
-         "pattern": null,
+         "pattern": "isolation-legs",
          "n": 1
         },
         {
@@ -7897,7 +7905,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 36
+        "mobility": 38
        },
        "observedSections": 38
       }
@@ -7988,7 +7996,7 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
-        "horizontal-press": 16,
+        "horizontal-press": 18,
         "squat": 10,
         "vertical-press": 6,
         "hinge": 5
@@ -8051,7 +8059,7 @@
         {
          "exerciseId": "spoto-press",
          "name": "Spoto Press",
-         "pattern": null,
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -8217,12 +8225,13 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "isolation-arms": 13,
+        "isolation-arms": 15,
         "horizontal-press": 6,
-        "horizontal-pull": 5,
+        "horizontal-pull": 6,
         "core": 4,
+        "vertical-press": 3,
         "lunge-single-leg": 3,
-        "vertical-press": 2
+        "vertical-pull": 2
        },
        "exercisePool": [
         {
@@ -8288,7 +8297,7 @@
         {
          "exerciseId": "inverted-skull-crusher",
          "name": "Inverted Skull Crusher",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 2
         },
         {
@@ -8342,13 +8351,13 @@
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 2
         },
         {
          "exerciseId": "dumbbell-bent-over-meadows-row",
          "name": "Dumbbell Bent Over Meadows Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -8396,7 +8405,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -8462,7 +8471,7 @@
         {
          "exerciseId": "bench-support-landmine-meadow",
          "name": "Bench Support Landmine Meadow",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         }
        ],
@@ -8477,8 +8486,8 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
+        "isolation-shoulders": 12,
         "isolation-arms": 12,
-        "isolation-shoulders": 11,
         "core": 9,
         "isolation-legs": 4,
         "hinge": 2
@@ -8493,7 +8502,7 @@
         {
          "exerciseId": "cuban-press",
          "name": "Cuban Press",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -8529,7 +8538,7 @@
         {
          "exerciseId": "dumbbell-side-bend",
          "name": "Dumbbell Side Bend",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -9020,10 +9029,10 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "lunge-single-leg": 14,
+        "lunge-single-leg": 17,
         "horizontal-press": 4,
-        "isolation-shoulders": 3,
-        "isolation-arms": 3,
+        "isolation-shoulders": 4,
+        "isolation-arms": 4,
         "hinge": 3,
         "core": 1
        },
@@ -9055,7 +9064,7 @@
         {
          "exerciseId": "poliquin-step",
          "name": "Poliquin Step",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 3
         },
         {
@@ -9169,7 +9178,7 @@
         {
          "exerciseId": "single-leg-wall-sit",
          "name": "Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -9193,13 +9202,13 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
          "exerciseId": "jm-press",
          "name": "Jm Press",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 1
         },
         {
@@ -9274,9 +9283,10 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
+        "core": 13,
         "isolation-arms": 12,
-        "core": 11,
         "carry": 6,
+        "squat": 4,
         "mobility": 1
        },
        "exercisePool": [
@@ -9319,7 +9329,7 @@
         {
          "exerciseId": "quadruped-crawl",
          "name": "Quadruped Crawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -9385,7 +9395,7 @@
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -9463,7 +9473,7 @@
         {
          "exerciseId": "quadruped-reverse-crawl",
          "name": "Quadruped Reverse Crawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -9475,25 +9485,25 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
          "exerciseId": "wall-sit-single-leg-march",
          "name": "Wall Sit Single Leg March",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
          "exerciseId": "dual-kettlebell-rack-wall-sit",
          "name": "Dual Kettlebell Rack Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
          "exerciseId": "dual-kettlebell-rack-single-leg-wall-sit",
          "name": "Dual Kettlebell Rack Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -9559,7 +9569,9 @@
        "itemsPerSection": 0,
        "patternDistribution": {
         "cardio": 15,
-        "core": 5
+        "core": 5,
+        "mobility": 3,
+        "vertical-press": 1
        },
        "observedSections": 39
       },
@@ -9640,7 +9652,7 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
-        "hinge": 19,
+        "hinge": 20,
         "squat": 14
        },
        "exercisePool": [
@@ -9707,7 +9719,7 @@
         {
          "exerciseId": "rack-pull",
          "name": "Rack Pull",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         }
        ],
@@ -9723,12 +9735,12 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "vertical-pull": 8,
+        "horizontal-pull": 6,
+        "hinge": 5,
         "lunge-single-leg": 5,
-        "horizontal-pull": 5,
         "core": 4,
         "mobility": 3,
-        "isolation-arms": 3,
-        "hinge": 2
+        "isolation-arms": 3
        },
        "exercisePool": [
         {
@@ -9758,7 +9770,7 @@
         {
          "exerciseId": "ghd-hip-extension",
          "name": "Ghd Hip Extension",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -9878,7 +9890,7 @@
         {
          "exerciseId": "single-leg-wall-sit",
          "name": "Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -9896,13 +9908,13 @@
         {
          "exerciseId": "bench-support-landmine-meadow",
          "name": "Bench Support Landmine Meadow",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
          "exerciseId": "single-arm-landmine-row",
          "name": "Single Arm Landmine Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -9924,9 +9936,9 @@
        "itemsPerSection": 3,
        "patternDistribution": {
         "cardio": 17,
-        "olympic": 2,
+        "olympic": 3,
+        "hinge": 2,
         "isolation-arms": 2,
-        "hinge": 1,
         "plyometric": 1,
         "horizontal-press": 1,
         "carry": 1
@@ -9969,9 +9981,9 @@
          "n": 2
         },
         {
-         "exerciseId": "russian-kettlebell",
-         "name": "Russian Kettlebell",
-         "pattern": null,
+         "exerciseId": "russian-kettlebell-swing",
+         "name": "Russian Kettlebell Swing",
+         "pattern": "hinge",
          "n": 2
         },
         {
@@ -10031,7 +10043,7 @@
         {
          "exerciseId": "mountain-climber",
          "name": "Mountain Climber",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -10055,13 +10067,13 @@
         {
          "exerciseId": "hamstring-march",
          "name": "Hamstring March",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
          "exerciseId": "alternating-single-arm-dumbbell-devil-press",
          "name": "Alternating Single Arm Dumbbell Devil Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -10151,7 +10163,7 @@
         {
          "exerciseId": "devils-press",
          "name": "Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -10333,7 +10345,8 @@
        "patternDistribution": {
         "horizontal-press": 24,
         "vertical-press": 6,
-        "isolation-arms": 3
+        "isolation-arms": 3,
+        "isolation-shoulders": 2
        },
        "exercisePool": [
         {
@@ -10357,7 +10370,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -10435,7 +10448,7 @@
         {
          "exerciseId": "kettlebell-horn-grip-raise",
          "name": "Kettlebell Horn Grip Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -10507,7 +10520,7 @@
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 1
         }
        ],
@@ -10524,10 +10537,11 @@
        "patternDistribution": {
         "cardio": 11,
         "horizontal-press": 6,
-        "core": 4,
+        "core": 5,
         "hinge": 3,
+        "vertical-press": 2,
+        "olympic": 2,
         "carry": 2,
-        "olympic": 1,
         "plyometric": 1
        },
        "exercisePool": [
@@ -10550,9 +10564,15 @@
          "n": 4
         },
         {
+         "exerciseId": "strict-bar-dip",
+         "name": "Strict Bar Dip",
+         "pattern": "horizontal-press",
+         "n": 4
+        },
+        {
          "exerciseId": "wall-walk",
          "name": "Wall Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -10580,12 +10600,6 @@
          "n": 2
         },
         {
-         "exerciseId": "strict-bar-dip",
-         "name": "Strict Bar Dip",
-         "pattern": "horizontal-press",
-         "n": 2
-        },
-        {
          "exerciseId": "push-up",
          "name": "Push Up",
          "pattern": "horizontal-press",
@@ -10598,21 +10612,9 @@
          "n": 2
         },
         {
-         "exerciseId": "strict-bar",
-         "name": "Strict Bar",
-         "pattern": null,
-         "n": 2
-        },
-        {
          "exerciseId": "bike-calorie",
          "name": "Bike Calorie",
          "pattern": "cardio",
-         "n": 2
-        },
-        {
-         "exerciseId": "move-immediately-into-the-next-couplet",
-         "name": "Move Immediately Into The Next Couplet",
-         "pattern": null,
          "n": 2
         },
         {
@@ -10696,7 +10698,7 @@
         {
          "exerciseId": "mountain-climber",
          "name": "Mountain Climber",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -10708,7 +10710,7 @@
         {
          "exerciseId": "dip-support-knee-raise",
          "name": "Dip Support Knee Raise",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -10769,6 +10771,18 @@
          "exerciseId": "deficit-push-up",
          "name": "Deficit Push Up",
          "pattern": "horizontal-press",
+         "n": 1
+        },
+        {
+         "exerciseId": "inchworm-push-up",
+         "name": "Inchworm Push Up",
+         "pattern": "horizontal-press",
+         "n": 1
+        },
+        {
+         "exerciseId": "farmers-carry",
+         "name": "Farmers Carry",
+         "pattern": "carry",
          "n": 1
         }
        ],
@@ -10909,8 +10923,8 @@
        "patternDistribution": {
         "lunge-single-leg": 12,
         "hinge": 8,
+        "vertical-pull": 7,
         "horizontal-pull": 6,
-        "vertical-pull": 5,
         "isolation-shoulders": 2
        },
        "exercisePool": [
@@ -10953,7 +10967,7 @@
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 2
         },
         {
@@ -11268,7 +11282,7 @@
         {
          "exerciseId": "kettlebell-sprawl",
          "name": "Kettlebell Sprawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -11358,7 +11372,7 @@
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -11435,6 +11449,7 @@
        "itemsPerSection": 8,
        "patternDistribution": {
         "cardio": 16,
+        "squat": 4,
         "core": 2,
         "isolation-arms": 1,
         "mobility": 1,
@@ -11598,12 +11613,12 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "lunge-single-leg": 9,
-        "isolation-arms": 7,
+        "lunge-single-leg": 12,
+        "isolation-arms": 9,
+        "vertical-press": 4,
         "horizontal-pull": 3,
         "isolation-shoulders": 3,
-        "horizontal-press": 3,
-        "vertical-press": 1
+        "horizontal-press": 3
        },
        "exercisePool": [
         {
@@ -11633,13 +11648,13 @@
         {
          "exerciseId": "farmers-press",
          "name": "Farmers Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
          "exerciseId": "inverted-skull-crusher",
          "name": "Inverted Skull Crusher",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 2
         },
         {
@@ -11765,7 +11780,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -11813,7 +11828,7 @@
         {
          "exerciseId": "goblet-tall-kneel-to-stand",
          "name": "Goblet Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -11837,7 +11852,7 @@
         {
          "exerciseId": "single-arm-dumbbell-rack-tall-kneel-to-stand",
          "name": "Single Arm Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -11863,7 +11878,8 @@
         "squat": 2,
         "vertical-press": 1,
         "lunge-single-leg": 1,
-        "isolation-shoulders": 1
+        "isolation-shoulders": 1,
+        "core": 1
        },
        "exercisePool": [
         {
@@ -11911,7 +11927,7 @@
         {
          "exerciseId": "turkish-get-up",
          "name": "Turkish Get Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -11969,9 +11985,9 @@
          "n": 1
         },
         {
-         "exerciseId": "kettlebell-russian-twists-or",
-         "name": "Kettlebell Russian Twists Or",
-         "pattern": null,
+         "exerciseId": "russian-twist",
+         "name": "Russian Twist",
+         "pattern": "core",
          "n": 1
         },
         {
@@ -12155,7 +12171,7 @@
        "itemsPerSection": 1,
        "patternDistribution": {
         "lunge-single-leg": 12,
-        "horizontal-press": 8,
+        "horizontal-press": 10,
         "vertical-press": 5,
         "squat": 2
        },
@@ -12211,7 +12227,7 @@
         {
          "exerciseId": "spoto-press",
          "name": "Spoto Press",
-         "pattern": null,
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -12238,13 +12254,14 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
+        "horizontal-pull": 6,
         "squat": 6,
-        "horizontal-pull": 4,
         "isolation-shoulders": 4,
         "horizontal-press": 4,
         "isolation-arms": 3,
         "hinge": 3,
-        "lunge-single-leg": 1
+        "lunge-single-leg": 2,
+        "vertical-press": 1
        },
        "exercisePool": [
         {
@@ -12260,9 +12277,9 @@
          "n": 3
         },
         {
-         "exerciseId": "single-arm-dumbbell",
-         "name": "Single Arm Dumbbell",
-         "pattern": null,
+         "exerciseId": "single-arm-dumbbell-lean-away-lateral-raise",
+         "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -12292,7 +12309,7 @@
         {
          "exerciseId": "hamstring-walkout",
          "name": "Hamstring Walkout",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -12322,7 +12339,7 @@
         {
          "exerciseId": "landmine-meadow-row",
          "name": "Landmine Meadow Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -12352,7 +12369,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -12364,7 +12381,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -12406,7 +12423,7 @@
         {
          "exerciseId": "pike-strict-hspu",
          "name": "Pike Strict Hspu",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         }
        ],
@@ -12423,7 +12440,7 @@
        "patternDistribution": {
         "cardio": 18,
         "plyometric": 2,
-        "hinge": 1,
+        "hinge": 2,
         "vertical-press": 1,
         "olympic": 1
        },
@@ -12439,6 +12456,12 @@
          "name": "Run",
          "pattern": "cardio",
          "n": 9
+        },
+        {
+         "exerciseId": "russian-kettlebell-swing",
+         "name": "Russian Kettlebell Swing",
+         "pattern": "hinge",
+         "n": 5
         },
         {
          "exerciseId": "kettlebell-farmers-carry",
@@ -12468,12 +12491,6 @@
          "exerciseId": "box-jump-over",
          "name": "Box Jump Over",
          "pattern": "plyometric",
-         "n": 2
-        },
-        {
-         "exerciseId": "russian-kettlebell",
-         "name": "Russian Kettlebell",
-         "pattern": null,
          "n": 2
         },
         {
@@ -12543,12 +12560,6 @@
          "n": 1
         },
         {
-         "exerciseId": "russian-kettlebell-swing",
-         "name": "Russian Kettlebell Swing",
-         "pattern": "hinge",
-         "n": 1
-        },
-        {
          "exerciseId": "dumbbell-box-step-up",
          "name": "Dumbbell Box Step Up",
          "pattern": "lunge-single-leg",
@@ -12585,18 +12596,6 @@
          "n": 1
         },
         {
-         "exerciseId": "single-arm-alternating-russian-kettlebell",
-         "name": "Single Arm Alternating Russian Kettlebell",
-         "pattern": null,
-         "n": 1
-        },
-        {
-         "exerciseId": "split-stance-single-arm-russian-kettlebell",
-         "name": "Split Stance Single Arm Russian Kettlebell",
-         "pattern": null,
-         "n": 1
-        },
-        {
          "exerciseId": "burpee-box-jump",
          "name": "Burpee Box Jump",
          "pattern": "plyometric",
@@ -12611,7 +12610,7 @@
         {
          "exerciseId": "strict-kettlebell-press",
          "name": "Strict Kettlebell Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -12659,13 +12658,19 @@
         {
          "exerciseId": "rower-pike-up",
          "name": "Rower Pike Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
          "exerciseId": "dumbbell-hang-power-clean",
          "name": "Dumbbell Hang Power Clean",
          "pattern": "olympic",
+         "n": 1
+        },
+        {
+         "exerciseId": "dumbbell-push-press",
+         "name": "Dumbbell Push Press",
+         "pattern": "vertical-press",
          "n": 1
         }
        ],
@@ -12755,7 +12760,7 @@
         "horizontal-press": 16,
         "squat": 15,
         "vertical-press": 6,
-        "hinge": 1
+        "hinge": 2
        },
        "exercisePool": [
         {
@@ -12845,7 +12850,7 @@
         {
          "exerciseId": "rack-pull",
          "name": "Rack Pull",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         }
        ],
@@ -12861,7 +12866,7 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "vertical-pull": 11,
-        "horizontal-pull": 6,
+        "horizontal-pull": 7,
         "lunge-single-leg": 6,
         "vertical-press": 6,
         "core": 4,
@@ -12974,7 +12979,7 @@
         {
          "exerciseId": "kettlebell-horn-grip-raise",
          "name": "Kettlebell Horn Grip Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -12992,7 +12997,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -13064,7 +13069,7 @@
         {
          "exerciseId": "single-leg-wall-sit",
          "name": "Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -13088,13 +13093,13 @@
         {
          "exerciseId": "bench-support-landmine-meadow",
          "name": "Bench Support Landmine Meadow",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
          "exerciseId": "single-arm-landmine-row",
          "name": "Single Arm Landmine Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -13116,11 +13121,12 @@
        "itemsPerSection": 3,
        "patternDistribution": {
         "cardio": 16,
+        "hinge": 4,
+        "olympic": 4,
         "carry": 3,
-        "hinge": 3,
-        "olympic": 2,
-        "horizontal-press": 1,
-        "core": 1
+        "vertical-press": 2,
+        "core": 2,
+        "horizontal-press": 1
        },
        "exercisePool": [
         {
@@ -13144,7 +13150,7 @@
         {
          "exerciseId": "wall-walk",
          "name": "Wall Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -13160,27 +13166,21 @@
          "n": 2
         },
         {
-         "exerciseId": "russian-kettlebell",
-         "name": "Russian Kettlebell",
-         "pattern": null,
+         "exerciseId": "russian-kettlebell-swing",
+         "name": "Russian Kettlebell Swing",
+         "pattern": "hinge",
          "n": 2
         },
         {
-         "exerciseId": "strict-bar",
-         "name": "Strict Bar",
-         "pattern": null,
+         "exerciseId": "strict-bar-dip",
+         "name": "Strict Bar Dip",
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
          "exerciseId": "bike-calorie",
          "name": "Bike Calorie",
          "pattern": "cardio",
-         "n": 2
-        },
-        {
-         "exerciseId": "move-immediately-into-the-next-couplet",
-         "name": "Move Immediately Into The Next Couplet",
-         "pattern": null,
          "n": 2
         },
         {
@@ -13264,7 +13264,7 @@
         {
          "exerciseId": "deadstop-hike-kettlebell",
          "name": "Deadstop Hike Kettlebell",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
@@ -13276,13 +13276,13 @@
         {
          "exerciseId": "hamstring-march",
          "name": "Hamstring March",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
          "exerciseId": "alternating-single-arm-dumbbell-devil-press",
          "name": "Alternating Single Arm Dumbbell Devil Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -13360,6 +13360,12 @@
         {
          "exerciseId": "parallette-push-up",
          "name": "Parallette Push Up",
+         "pattern": "horizontal-press",
+         "n": 1
+        },
+        {
+         "exerciseId": "ring-push-up",
+         "name": "Ring Push Up",
          "pattern": "horizontal-press",
          "n": 1
         }
@@ -13534,6 +13540,7 @@
         "squat": 6,
         "horizontal-pull": 6,
         "isolation-arms": 4,
+        "vertical-pull": 2,
         "isolation-shoulders": 2
        },
        "exercisePool": [
@@ -13546,7 +13553,7 @@
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 3
         },
         {
@@ -13768,7 +13775,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -13902,13 +13909,13 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
-         "exerciseId": "russian-kettlebell-or",
-         "name": "Russian Kettlebell Or",
-         "pattern": null,
+         "exerciseId": "russian-kettlebell-swing",
+         "name": "Russian Kettlebell Swing",
+         "pattern": "hinge",
          "n": 1
         },
         {
@@ -13950,7 +13957,7 @@
         {
          "exerciseId": "dip-support-knee-raise",
          "name": "Dip Support Knee Raise",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -14010,7 +14017,7 @@
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -14239,8 +14246,8 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "isolation-arms": 10,
-        "lunge-single-leg": 9,
+        "isolation-arms": 12,
+        "lunge-single-leg": 12,
         "vertical-pull": 6,
         "horizontal-press": 5,
         "vertical-press": 2,
@@ -14322,7 +14329,7 @@
         {
          "exerciseId": "inverted-skull-crusher",
          "name": "Inverted Skull Crusher",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 2
         },
         {
@@ -14388,7 +14395,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -14454,13 +14461,13 @@
         {
          "exerciseId": "alternating-single-arm-kettlebell-split-stance-swing",
          "name": "Alternating Single Arm Kettlebell Split Stance Swing",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
          "exerciseId": "goblet-tall-kneel-to-stand",
          "name": "Goblet Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -14484,7 +14491,7 @@
         {
          "exerciseId": "alternating-single-arm-dumbbell-rack-tall-kneel-to-stand",
          "name": "Alternating Single Arm Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         }
        ],
@@ -14499,7 +14506,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "cardio": 16,
+        "cardio": 17,
         "plyometric": 3,
         "squat": 2,
         "horizontal-pull": 1,
@@ -14541,7 +14548,7 @@
         {
          "exerciseId": "calories-row",
          "name": "Calories Row",
-         "pattern": null,
+         "pattern": "cardio",
          "n": 2
         },
         {
@@ -14623,9 +14630,9 @@
          "n": 1
         },
         {
-         "exerciseId": "kettlebell-russian-twists-or",
-         "name": "Kettlebell Russian Twists Or",
-         "pattern": null,
+         "exerciseId": "russian-twist",
+         "name": "Russian Twist",
+         "pattern": "core",
          "n": 1
         },
         {
@@ -14818,7 +14825,7 @@
        "itemsPerSection": 1,
        "patternDistribution": {
         "hinge": 16,
-        "horizontal-press": 8,
+        "horizontal-press": 10,
         "squat": 6,
         "vertical-press": 5,
         "vertical-pull": 2
@@ -14893,7 +14900,7 @@
         {
          "exerciseId": "spoto-press",
          "name": "Spoto Press",
-         "pattern": null,
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -14927,10 +14934,10 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "hinge": 11,
+        "horizontal-pull": 6,
         "lunge-single-leg": 5,
         "vertical-pull": 5,
-        "horizontal-pull": 4,
-        "isolation-shoulders": 3,
+        "isolation-shoulders": 4,
         "isolation-arms": 3,
         "squat": 3,
         "vertical-press": 2
@@ -14943,15 +14950,15 @@
          "n": 4
         },
         {
-         "exerciseId": "single-arm-dumbbell",
-         "name": "Single Arm Dumbbell",
-         "pattern": null,
+         "exerciseId": "single-arm-dumbbell-lean-away-lateral-raise",
+         "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -14981,7 +14988,7 @@
         {
          "exerciseId": "hamstring-walkout",
          "name": "Hamstring Walkout",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -15047,7 +15054,7 @@
         {
          "exerciseId": "landmine-meadow-row",
          "name": "Landmine Meadow Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -15065,7 +15072,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -15077,7 +15084,7 @@
         {
          "exerciseId": "dual-kettlebell-rack-tall-kneel-to-stand",
          "name": "Dual Kettlebell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -15192,8 +15199,9 @@
         "olympic": 5,
         "lunge-single-leg": 2,
         "plyometric": 2,
+        "vertical-press": 2,
         "hinge": 2,
-        "vertical-press": 1
+        "core": 1
        },
        "exercisePool": [
         {
@@ -15229,7 +15237,13 @@
         {
          "exerciseId": "goblet-wall-sit",
          "name": "Goblet Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
+         "n": 2
+        },
+        {
+         "exerciseId": "american-kettlebell-swing",
+         "name": "American Kettlebell Swing",
+         "pattern": "hinge",
          "n": 2
         },
         {
@@ -15247,7 +15261,7 @@
         {
          "exerciseId": "turkish-get-up",
          "name": "Turkish Get Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -15267,12 +15281,6 @@
          "name": "Box Jump Over",
          "pattern": "plyometric",
          "n": 2
-        },
-        {
-         "exerciseId": "american-kettlebell",
-         "name": "American Kettlebell",
-         "pattern": null,
-         "n": 1
         },
         {
          "exerciseId": "russian-kettlebell-to-goblet-squat",
@@ -15301,7 +15309,7 @@
         {
          "exerciseId": "dual-kettlebell-russian-swing",
          "name": "Dual Kettlebell Russian Swing",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
@@ -15337,7 +15345,7 @@
         {
          "exerciseId": "kettlebell-sprawl",
          "name": "Kettlebell Sprawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -15397,7 +15405,7 @@
         {
          "exerciseId": "wall-walk",
          "name": "Wall Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -15431,8 +15439,8 @@
          "n": 1
         },
         {
-         "exerciseId": "american-kettlebell-swing",
-         "name": "American Kettlebell Swing",
+         "exerciseId": "dual-russian-kettlebell-swing",
+         "name": "Dual Russian Kettlebell Swing",
          "pattern": "hinge",
          "n": 1
         }
@@ -15562,7 +15570,7 @@
        "patternDistribution": {
         "squat": 21,
         "horizontal-press": 10,
-        "hinge": 7
+        "hinge": 8
        },
        "exercisePool": [
         {
@@ -15640,7 +15648,7 @@
         {
          "exerciseId": "rack-pull",
          "name": "Rack Pull",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         }
        ],
@@ -15691,7 +15699,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 4
         },
         {
@@ -15799,7 +15807,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -15811,7 +15819,7 @@
         {
          "exerciseId": "dual-kettlebell-rack-tall-kneel-to-stand",
          "name": "Dual Kettlebell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -15872,6 +15880,7 @@
         "horizontal-press": 4,
         "plyometric": 2,
         "carry": 1,
+        "hinge": 1,
         "core": 1,
         "lunge-single-leg": 1,
         "vertical-press": 1,
@@ -15897,15 +15906,15 @@
          "n": 6
         },
         {
+         "exerciseId": "russian-kettlebell-swing",
+         "name": "Russian Kettlebell Swing",
+         "pattern": "hinge",
+         "n": 3
+        },
+        {
          "exerciseId": "feet-anchored-sit-up",
          "name": "Feet Anchored Sit Up",
          "pattern": "core",
-         "n": 2
-        },
-        {
-         "exerciseId": "russian-kettlebell",
-         "name": "Russian Kettlebell",
-         "pattern": null,
          "n": 2
         },
         {
@@ -15971,13 +15980,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
-         "n": 1
-        },
-        {
-         "exerciseId": "russian-kettlebell-or",
-         "name": "Russian Kettlebell Or",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -16007,7 +16010,7 @@
         {
          "exerciseId": "deadstop-hike-kettlebell",
          "name": "Deadstop Hike Kettlebell",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
@@ -16019,13 +16022,13 @@
         {
          "exerciseId": "hamstring-march",
          "name": "Hamstring March",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
          "exerciseId": "dip-support-knee-raise",
          "name": "Dip Support Knee Raise",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -16079,7 +16082,7 @@
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -16117,6 +16120,12 @@
          "name": "Cross Body Toe Touch",
          "pattern": "core",
          "n": 1
+        },
+        {
+         "exerciseId": "burpee-box-jump-over",
+         "name": "Burpee Box Jump Over",
+         "pattern": "plyometric",
+         "n": 1
         }
        ],
        "observedSections": 39
@@ -16130,7 +16139,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 36
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -16224,7 +16233,7 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
-        "horizontal-press": 21,
+        "horizontal-press": 23,
         "squat": 10,
         "vertical-press": 6
        },
@@ -16286,7 +16295,7 @@
         {
          "exerciseId": "spoto-press",
          "name": "Spoto Press",
-         "pattern": null,
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -16319,8 +16328,8 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "horizontal-pull": 9,
-        "vertical-pull": 7,
+        "horizontal-pull": 10,
+        "vertical-pull": 9,
         "squat": 6,
         "hinge": 6,
         "lunge-single-leg": 6,
@@ -16378,13 +16387,13 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 2
         },
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 2
         },
         {
@@ -16558,13 +16567,13 @@
         {
          "exerciseId": "bench-support-landmine-meadow",
          "name": "Bench Support Landmine Meadow",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
          "exerciseId": "single-arm-landmine-row",
          "name": "Single Arm Landmine Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         }
        ],
@@ -16581,8 +16590,8 @@
        "patternDistribution": {
         "cardio": 20,
         "horizontal-pull": 5,
+        "olympic": 3,
         "plyometric": 2,
-        "olympic": 2,
         "isolation-arms": 2,
         "vertical-press": 1,
         "lunge-single-leg": 1,
@@ -16646,6 +16655,12 @@
          "n": 2
         },
         {
+         "exerciseId": "russian-twist",
+         "name": "Russian Twist",
+         "pattern": "core",
+         "n": 2
+        },
+        {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
          "pattern": "squat",
@@ -16658,15 +16673,9 @@
          "n": 2
         },
         {
-         "exerciseId": "strict-bar",
-         "name": "Strict Bar",
-         "pattern": null,
-         "n": 2
-        },
-        {
-         "exerciseId": "move-immediately-into-the-next-couplet",
-         "name": "Move Immediately Into The Next Couplet",
-         "pattern": null,
+         "exerciseId": "strict-bar-dip",
+         "name": "Strict Bar Dip",
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -16732,7 +16741,7 @@
         {
          "exerciseId": "devils-press",
          "name": "Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -16774,7 +16783,7 @@
         {
          "exerciseId": "single-arm-devils-press",
          "name": "Single Arm Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -16814,12 +16823,6 @@
          "n": 1
         },
         {
-         "exerciseId": "kettlebell-russian-twists-or",
-         "name": "Kettlebell Russian Twists Or",
-         "pattern": null,
-         "n": 1
-        },
-        {
          "exerciseId": "weight-plate-squat",
          "name": "Weight Plate Squat",
          "pattern": "squat",
@@ -16829,6 +16832,12 @@
          "exerciseId": "kettlebell-plank-knee-to-elbow",
          "name": "Kettlebell Plank Knee To Elbow",
          "pattern": "core",
+         "n": 1
+        },
+        {
+         "exerciseId": "alternating-single-arm-dumbbell-devil-press",
+         "name": "Alternating Single Arm Dumbbell Devil Press",
+         "pattern": "olympic",
          "n": 1
         }
        ],
@@ -17009,8 +17018,8 @@
        "patternDistribution": {
         "vertical-press": 19,
         "horizontal-press": 7,
-        "isolation-arms": 4,
-        "horizontal-pull": 4
+        "isolation-arms": 7,
+        "horizontal-pull": 6
        },
        "exercisePool": [
         {
@@ -17044,9 +17053,9 @@
          "n": 3
         },
         {
-         "exerciseId": "single-arm-dumbbell",
-         "name": "Single Arm Dumbbell",
-         "pattern": null,
+         "exerciseId": "single-arm-dumbbell-lean-away-lateral-raise",
+         "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -17094,7 +17103,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -17106,7 +17115,7 @@
         {
          "exerciseId": "inverted-skull-crusher",
          "name": "Inverted Skull Crusher",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 2
         },
         {
@@ -17154,7 +17163,7 @@
         {
          "exerciseId": "landmine-meadow-row",
          "name": "Landmine Meadow Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -17202,7 +17211,7 @@
         {
          "exerciseId": "jm-press",
          "name": "Jm Press",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 1
         },
         {
@@ -17270,7 +17279,7 @@
         {
          "exerciseId": "goblet-wall-sit",
          "name": "Goblet Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 2
         },
         {
@@ -17324,7 +17333,7 @@
         {
          "exerciseId": "kettlebell-see-saw-row",
          "name": "Kettlebell See Saw Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -17378,7 +17387,7 @@
         {
          "exerciseId": "kettlebell-sprawl",
          "name": "Kettlebell Sprawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -17854,7 +17863,7 @@
         {
          "exerciseId": "single-leg-wall-sit",
          "name": "Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -17882,7 +17891,7 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "cardio": 12,
-        "olympic": 2
+        "olympic": 3
        },
        "exercisePool": [
         {
@@ -17916,21 +17925,9 @@
          "n": 3
         },
         {
-         "exerciseId": "sustained-pace",
-         "name": "Sustained Pace",
-         "pattern": null,
-         "n": 3
-        },
-        {
          "exerciseId": "lateral-arc-med-ball-slam",
          "name": "Lateral Arc Med Ball Slam",
-         "pattern": null,
-         "n": 2
-        },
-        {
-         "exerciseId": "easy-pedal",
-         "name": "Easy Pedal",
-         "pattern": null,
+         "pattern": "plyometric",
          "n": 2
         },
         {
@@ -17960,7 +17957,7 @@
         {
          "exerciseId": "devils-press",
          "name": "Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 2
         },
         {
@@ -17982,9 +17979,9 @@
          "n": 1
         },
         {
-         "exerciseId": "russian-kettlebell",
-         "name": "Russian Kettlebell",
-         "pattern": null,
+         "exerciseId": "russian-kettlebell-swing",
+         "name": "Russian Kettlebell Swing",
+         "pattern": "hinge",
          "n": 1
         },
         {
@@ -18014,7 +18011,7 @@
         {
          "exerciseId": "weighted-hanging-leg-tuck",
          "name": "Weighted Hanging Leg Tuck",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -18091,7 +18088,9 @@
        "patternDistribution": {
         "cardio": 13,
         "olympic": 8,
-        "core": 2,
+        "core": 5,
+        "horizontal-press": 4,
+        "vertical-press": 4,
         "plyometric": 2
        },
        "exercisePool": [
@@ -18108,27 +18107,21 @@
          "n": 11
         },
         {
-         "exerciseId": "sec",
-         "name": "Sec",
-         "pattern": null,
+         "exerciseId": "strict-bar-dip",
+         "name": "Strict Bar Dip",
+         "pattern": "horizontal-press",
          "n": 4
         },
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 4
         },
         {
          "exerciseId": "pause-split-jerk",
          "name": "Pause Split Jerk",
          "pattern": "olympic",
-         "n": 3
-        },
-        {
-         "exerciseId": "strict-bar",
-         "name": "Strict Bar",
-         "pattern": null,
          "n": 3
         },
         {
@@ -18146,7 +18139,7 @@
         {
          "exerciseId": "dumbbell-external-rotation-on-knee",
          "name": "Dumbbell External Rotation On Knee",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -18158,25 +18151,25 @@
         {
          "exerciseId": "powell-raise",
          "name": "Powell Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
          "exerciseId": "alternating-oblique-raise-in-dip-support",
          "name": "Alternating Oblique Raise In Dip Support",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
          "exerciseId": "single-arm-dumbbell-cuban-press",
          "name": "Single Arm Dumbbell Cuban Press",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
          "exerciseId": "wall-walk",
          "name": "Wall Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 2
         },
         {
@@ -18194,7 +18187,7 @@
         {
          "exerciseId": "lateral-arc-slam-ball",
          "name": "Lateral Arc Slam Ball",
-         "pattern": null,
+         "pattern": "plyometric",
          "n": 2
         },
         {
@@ -18212,19 +18205,13 @@
         {
          "exerciseId": "dip-support",
          "name": "Dip Support",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
          "exerciseId": "bottom-of-dip-support",
          "name": "Bottom Of Dip Support",
-         "pattern": null,
-         "n": 1
-        },
-        {
-         "exerciseId": "elevator-bar",
-         "name": "Elevator Bar",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -18236,7 +18223,7 @@
         {
          "exerciseId": "hs-hold",
          "name": "Hs Hold",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -18254,7 +18241,7 @@
         {
          "exerciseId": "handstand-hold",
          "name": "Handstand Hold",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -18278,7 +18265,7 @@
         {
          "exerciseId": "strict-hspu",
          "name": "Strict Hspu",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -18419,7 +18406,8 @@
        "patternDistribution": {
         "horizontal-press": 24,
         "vertical-press": 8,
-        "isolation-arms": 3
+        "isolation-arms": 3,
+        "isolation-shoulders": 2
        },
        "exercisePool": [
         {
@@ -18443,7 +18431,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 4
         },
         {
@@ -18521,7 +18509,7 @@
         {
          "exerciseId": "kettlebell-horn-grip-raise",
          "name": "Kettlebell Horn Grip Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -18644,12 +18632,12 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "cardio": 9,
+        "cardio": 12,
         "horizontal-press": 7,
+        "olympic": 3,
         "core": 3,
         "carry": 2,
-        "olympic": 1,
-        "vertical-press": 1,
+        "vertical-press": 2,
         "hinge": 1
        },
        "exercisePool": [
@@ -18686,7 +18674,7 @@
         {
          "exerciseId": "calorie-row",
          "name": "Calorie Row",
-         "pattern": null,
+         "pattern": "cardio",
          "n": 3
         },
         {
@@ -18740,7 +18728,7 @@
         {
          "exerciseId": "wall-walk",
          "name": "Wall Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -18764,7 +18752,7 @@
         {
          "exerciseId": "single-arm-devils-press",
          "name": "Single Arm Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -18812,7 +18800,7 @@
         {
          "exerciseId": "devils-press",
          "name": "Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -18836,7 +18824,7 @@
         {
          "exerciseId": "dip-support-knee-raise",
          "name": "Dip Support Knee Raise",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -18872,7 +18860,7 @@
         {
          "exerciseId": "kettlebell-sprawl",
          "name": "Kettlebell Sprawl",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -19268,7 +19256,7 @@
        "itemsPerSection": 3,
        "patternDistribution": {
         "cardio": 18,
-        "olympic": 4,
+        "olympic": 5,
         "lunge-single-leg": 2,
         "plyometric": 1
        },
@@ -19336,7 +19324,7 @@
         {
          "exerciseId": "devils-press",
          "name": "Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 2
         },
         {
@@ -19372,7 +19360,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -19426,7 +19414,7 @@
         {
          "exerciseId": "weighted-hanging-leg-tuck",
          "name": "Weighted Hanging Leg Tuck",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -19468,7 +19456,7 @@
         {
          "exerciseId": "single-arm-alternating-devils-press",
          "name": "Single Arm Alternating Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -19527,6 +19515,7 @@
        "itemsPerSection": 8,
        "patternDistribution": {
         "cardio": 20,
+        "squat": 6,
         "core": 3,
         "mobility": 1,
         "olympic": 1
@@ -19602,6 +19591,7 @@
         "cardio": 11,
         "olympic": 5,
         "vertical-press": 3,
+        "horizontal-pull": 1,
         "horizontal-press": 1,
         "lunge-single-leg": 1,
         "squat": 1
@@ -19634,7 +19624,7 @@
         {
          "exerciseId": "landmine-meadow-row",
          "name": "Landmine Meadow Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -19664,7 +19654,7 @@
         {
          "exerciseId": "single-arm-russian-swing",
          "name": "Single Arm Russian Swing",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 2
         },
         {
@@ -19688,7 +19678,7 @@
         {
          "exerciseId": "hs-walk",
          "name": "Hs Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -19712,7 +19702,7 @@
         {
          "exerciseId": "slam-ball",
          "name": "Slam Ball",
-         "pattern": null,
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -19724,7 +19714,7 @@
         {
          "exerciseId": "dual-kettlebell-russian-swing",
          "name": "Dual Kettlebell Russian Swing",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
@@ -19841,12 +19831,12 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
+        "isolation-arms": 6,
         "horizontal-press": 5,
-        "isolation-arms": 4,
+        "vertical-press": 5,
+        "lunge-single-leg": 5,
         "horizontal-pull": 3,
         "isolation-shoulders": 3,
-        "vertical-press": 2,
-        "lunge-single-leg": 2,
         "hinge": 1
        },
        "exercisePool": [
@@ -19865,7 +19855,7 @@
         {
          "exerciseId": "farmers-press",
          "name": "Farmers Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -19877,7 +19867,7 @@
         {
          "exerciseId": "inverted-skull-crusher",
          "name": "Inverted Skull Crusher",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 2
         },
         {
@@ -19985,7 +19975,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -20033,7 +20023,7 @@
         {
          "exerciseId": "goblet-tall-kneel-to-stand",
          "name": "Goblet Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -20057,7 +20047,7 @@
         {
          "exerciseId": "alternating-single-arm-dumbbell-rack-tall-kneel-to-stand",
          "name": "Alternating Single Arm Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -20081,7 +20071,7 @@
         {
          "exerciseId": "dual-kettlebell-dumbbell-rack-tall-kneel-to-stand",
          "name": "Dual Kettlebell/Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -20105,7 +20095,9 @@
         "cardio": 12,
         "vertical-pull": 5,
         "carry": 1,
-        "mobility": 1
+        "mobility": 1,
+        "vertical-press": 1,
+        "core": 1
        },
        "exercisePool": [
         {
@@ -20141,7 +20133,7 @@
         {
          "exerciseId": "turkish-get-up",
          "name": "Turkish Get Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -20195,7 +20187,7 @@
         {
          "exerciseId": "wall-walk",
          "name": "Wall Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -20432,7 +20424,7 @@
         {
          "exerciseId": "hanging-knee-raise",
          "name": "Hanging Knee Raise",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -20495,7 +20487,7 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
-        "horizontal-press": 8,
+        "horizontal-press": 10,
         "lunge-single-leg": 6,
         "vertical-press": 5
        },
@@ -20539,7 +20531,7 @@
         {
          "exerciseId": "spoto-press",
          "name": "Spoto Press",
-         "pattern": null,
+         "pattern": "horizontal-press",
          "n": 2
         },
         {
@@ -20560,11 +20552,12 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "horizontal-pull": 4,
+        "horizontal-pull": 6,
         "isolation-shoulders": 4,
         "horizontal-press": 4,
         "isolation-arms": 3,
-        "hinge": 3
+        "hinge": 3,
+        "vertical-press": 1
        },
        "exercisePool": [
         {
@@ -20580,9 +20573,9 @@
          "n": 3
         },
         {
-         "exerciseId": "single-arm-dumbbell",
-         "name": "Single Arm Dumbbell",
-         "pattern": null,
+         "exerciseId": "single-arm-dumbbell-lean-away-lateral-raise",
+         "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -20618,7 +20611,7 @@
         {
          "exerciseId": "landmine-meadow-row",
          "name": "Landmine Meadow Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 2
         },
         {
@@ -20642,7 +20635,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -20684,7 +20677,7 @@
         {
          "exerciseId": "pike-strict-hspu",
          "name": "Pike Strict Hspu",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         }
        ],
@@ -20757,7 +20750,7 @@
         {
          "exerciseId": "cal-row",
          "name": "Cal Row",
-         "pattern": null,
+         "pattern": "cardio",
          "n": 1
         },
         {
@@ -20787,7 +20780,7 @@
         {
          "exerciseId": "strict-kettlebell-press",
          "name": "Strict Kettlebell Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -21039,8 +21032,8 @@
         "vertical-pull": 11,
         "horizontal-pull": 7,
         "lunge-single-leg": 6,
+        "vertical-press": 6,
         "core": 4,
-        "vertical-press": 3,
         "isolation-arms": 3,
         "hinge": 2
        },
@@ -21090,7 +21083,7 @@
         {
          "exerciseId": "filly-press",
          "name": "Filly Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -21114,7 +21107,7 @@
         {
          "exerciseId": "single-arm-dumbbell-swing",
          "name": "Single Arm Dumbbell Swing",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -21156,7 +21149,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 2
         },
         {
@@ -21174,7 +21167,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 2
         },
         {
@@ -21240,7 +21233,7 @@
         {
          "exerciseId": "single-leg-wall-sit",
          "name": "Single Leg Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -21284,10 +21277,11 @@
         "horizontal-press": 3,
         "plyometric": 3,
         "hinge": 3,
+        "olympic": 3,
+        "vertical-press": 2,
+        "core": 2,
         "lunge-single-leg": 1,
-        "olympic": 1,
-        "squat": 1,
-        "core": 1
+        "squat": 1
        },
        "exercisePool": [
         {
@@ -21305,7 +21299,7 @@
         {
          "exerciseId": "wall-walk",
          "name": "Wall Walk",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -21335,19 +21329,13 @@
         {
          "exerciseId": "mountain-climber",
          "name": "Mountain Climber",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
          "exerciseId": "push-up",
          "name": "Push Up",
          "pattern": "horizontal-press",
-         "n": 2
-        },
-        {
-         "exerciseId": "move-immediately-into-the-next-couplet",
-         "name": "Move Immediately Into The Next Couplet",
-         "pattern": null,
          "n": 2
         },
         {
@@ -21431,13 +21419,13 @@
         {
          "exerciseId": "hamstring-march",
          "name": "Hamstring March",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 1
         },
         {
          "exerciseId": "alternating-single-arm-dumbbell-devil-press",
          "name": "Alternating Single Arm Dumbbell Devil Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -21528,6 +21516,12 @@
          "exerciseId": "wide-grip-push-up",
          "name": "Wide Grip Push Up",
          "pattern": "horizontal-press",
+         "n": 1
+        },
+        {
+         "exerciseId": "tall-plank-knee-to-elbow",
+         "name": "Tall Plank Knee To Elbow",
+         "pattern": "core",
          "n": 1
         }
        ],
@@ -21715,9 +21709,10 @@
         "lunge-single-leg": 12,
         "squat": 6,
         "horizontal-press": 5,
+        "hinge": 4,
         "isolation-shoulders": 4,
         "horizontal-pull": 4,
-        "hinge": 2
+        "vertical-pull": 2
        },
        "exercisePool": [
         {
@@ -21735,7 +21730,7 @@
         {
          "exerciseId": "dumbbell-hamstring-march",
          "name": "Dumbbell Hamstring March",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -21777,13 +21772,13 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 2
         },
         {
          "exerciseId": "dumbbell-pullover",
          "name": "Dumbbell Pullover",
-         "pattern": null,
+         "pattern": "vertical-pull",
          "n": 2
         },
         {
@@ -22091,7 +22086,7 @@
         {
          "exerciseId": "wall-sit",
          "name": "Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -22133,7 +22128,7 @@
         {
          "exerciseId": "dip-support-knee-raise",
          "name": "Dip Support Knee Raise",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -22163,7 +22158,7 @@
         {
          "exerciseId": "tuck-up",
          "name": "Tuck Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -22205,7 +22200,7 @@
         {
          "exerciseId": "tuck-up-in-dip-support",
          "name": "Tuck Up In Dip Support",
-         "pattern": null,
+         "pattern": "core",
          "n": 1
         },
         {
@@ -22299,7 +22294,8 @@
        ],
        "itemsPerSection": 0,
        "patternDistribution": {
-        "vertical-pull": 3
+        "vertical-pull": 3,
+        "vertical-press": 1
        },
        "observedSections": 39
       },
@@ -22396,9 +22392,10 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
+        "lunge-single-leg": 14,
+        "isolation-arms": 12,
         "horizontal-press": 10,
-        "isolation-arms": 10,
-        "lunge-single-leg": 9
+        "vertical-press": 3
        },
        "exercisePool": [
         {
@@ -22434,7 +22431,7 @@
         {
          "exerciseId": "dumbbell-tate-press",
          "name": "Dumbbell Tate Press",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 3
         },
         {
@@ -22446,7 +22443,7 @@
         {
          "exerciseId": "farmers-press",
          "name": "Farmers Press",
-         "pattern": null,
+         "pattern": "vertical-press",
          "n": 3
         },
         {
@@ -22476,7 +22473,7 @@
         {
          "exerciseId": "dumbbell-skull-crusher",
          "name": "Dumbbell Skull Crusher",
-         "pattern": null,
+         "pattern": "isolation-arms",
          "n": 2
         },
         {
@@ -22536,7 +22533,7 @@
         {
          "exerciseId": "goblet-tall-kneel-to-stand",
          "name": "Goblet Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 2
         },
         {
@@ -22560,7 +22557,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 1
         },
         {
@@ -22620,7 +22617,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -22758,7 +22755,7 @@
         {
          "exerciseId": "single-arm-alternating-devils-press",
          "name": "Single Arm Alternating Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 2
         },
         {
@@ -22878,7 +22875,7 @@
         {
          "exerciseId": "devils-press",
          "name": "Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {
@@ -23052,13 +23049,13 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "hinge": 11,
+        "hinge": 14,
+        "horizontal-pull": 6,
         "lunge-single-leg": 5,
+        "isolation-shoulders": 4,
         "horizontal-press": 4,
-        "horizontal-pull": 3,
-        "isolation-shoulders": 3,
-        "squat": 3,
-        "vertical-press": 2
+        "vertical-press": 3,
+        "squat": 3
        },
        "exercisePool": [
         {
@@ -23082,7 +23079,7 @@
         {
          "exerciseId": "single-arm-dumbbell-meadow-row",
          "name": "Single Arm Dumbbell Meadow Row",
-         "pattern": null,
+         "pattern": "horizontal-pull",
          "n": 3
         },
         {
@@ -23094,7 +23091,7 @@
         {
          "exerciseId": "dumbbell-full-raise",
          "name": "Dumbbell Full Raise",
-         "pattern": null,
+         "pattern": "isolation-shoulders",
          "n": 3
         },
         {
@@ -23112,7 +23109,7 @@
         {
          "exerciseId": "hamstring-walk-out",
          "name": "Hamstring Walk Out",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -23130,7 +23127,7 @@
         {
          "exerciseId": "hamstring-walkout",
          "name": "Hamstring Walkout",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 3
         },
         {
@@ -23190,7 +23187,7 @@
         {
          "exerciseId": "dumbbell-rack-tall-kneel-to-stand",
          "name": "Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -23208,7 +23205,7 @@
         {
          "exerciseId": "dual-dumbbell-rack-tall-kneel-to-stand",
          "name": "Dual Dumbbell Rack Tall Kneel To Stand",
-         "pattern": null,
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -23315,10 +23312,12 @@
        "patternDistribution": {
         "cardio": 13,
         "plyometric": 5,
+        "core": 4,
         "olympic": 3,
+        "vertical-press": 2,
+        "hinge": 2,
         "lunge-single-leg": 1,
-        "vertical-pull": 1,
-        "vertical-press": 1
+        "vertical-pull": 1
        },
        "exercisePool": [
         {
@@ -23336,13 +23335,13 @@
         {
          "exerciseId": "mountain-climber",
          "name": "Mountain Climber",
-         "pattern": null,
+         "pattern": "core",
          "n": 5
         },
         {
          "exerciseId": "dumbbell-swing",
          "name": "Dumbbell Swing",
-         "pattern": null,
+         "pattern": "hinge",
          "n": 4
         },
         {
@@ -23354,7 +23353,7 @@
         {
          "exerciseId": "goblet-wall-sit",
          "name": "Goblet Wall Sit",
-         "pattern": null,
+         "pattern": "squat",
          "n": 2
         },
         {
@@ -23390,7 +23389,7 @@
         {
          "exerciseId": "dumbbell-turkish-get-up",
          "name": "Dumbbell Turkish Get Up",
-         "pattern": null,
+         "pattern": "core",
          "n": 2
         },
         {
@@ -23414,7 +23413,7 @@
         {
          "exerciseId": "devils-press",
          "name": "Devils Press",
-         "pattern": null,
+         "pattern": "olympic",
          "n": 1
         },
         {

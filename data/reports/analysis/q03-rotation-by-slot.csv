@@ -239,7 +239,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 2,pump-lift-4x,1,strength-intensity-2,1,6,rotating,3,1:1-1-4-dumbbell-bench-press 2:alternating-dumbbell-bench-press 3:single-arm-dumbbell-bench-press 4:1-1-4-dumbbell-bench-press 5:alternating-dumbbell-bench-press 6:single-arm-dumbbell-bench-press
 2,pump-lift-4x,1,strength-balance,1,6,rotating,3,1:incline-dumbbell-chest-fly 2:kettlebell-horn-grip-raise 3:flat-bench-dumbbell-fly 4:incline-dumbbell-chest-fly 5:kettlebell-horn-grip-raise 6:flat-bench-dumbbell-fly
 2,pump-lift-4x,1,strength-balance,2,6,rotating,3,1:chest-supported-dumbbell-front-raise 2:offset-kettlebell-push-up 3:dumbbell-full-raise 4:chest-supported-dumbbell-front-raise 5:offset-kettlebell-push-up 6:dumbbell-full-raise
-2,pump-lift-4x,1,finisher,1,4,rotating,4,1:dumbbell-skullcrusher 2:cluster-set 4:dumbbell-rolling-skullcrusher 5:mechanical-drop-set
+2,pump-lift-4x,1,finisher,1,4,rotating,4,1:dumbbell-skullcrusher 2:Cluster Sets 4:dumbbell-rolling-skullcrusher 5:Mechanical Drop Sets
 2,pump-lift-4x,1,finisher,2,4,rotating,2,1:hands-on-bench-narrow-grip-push-up 2:dumbbell-skullcrusher 4:hands-on-bench-narrow-grip-push-up 5:dumbbell-skullcrusher
 2,pump-lift-4x,2,strength-intensity-1,1,6,alternating-AB,2,1:sumo-deadlift 2:split-stance-deadlift 3:sumo-deadlift 4:split-stance-deadlift 5:sumo-deadlift 6:split-stance-deadlift
 2,pump-lift-4x,2,strength-intensity-2,1,6,rotating,4,1:pendlay-row 2:pronated-strict-pull-up 3:pendlay-row 4:supinated-strict-pull-up 5:pendlay-row 6:neutral-grip-pull-up
@@ -264,14 +264,14 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 2,pump-lift-5x,1,strength-intensity-2,1,6,rotating,4,1:pendlay-row 2:pronated-strict-pull-up 3:pendlay-row 4:supinated-strict-pull-up 5:pendlay-row 6:neutral-grip-pull-up
 2,pump-lift-5x,1,strength-balance,1,6,alternating-AB,2,1:ghd-hip-extension 2:dumbbell-frog-pump 3:ghd-hip-extension 4:dumbbell-frog-pump 5:ghd-hip-extension 6:dumbbell-frog-pump
 2,pump-lift-5x,1,strength-balance,2,6,rotating,4,1:pronated-pull-up-negative 2:dumbbell-gorilla-row 3:supinated-pull-up-negative 4:dumbbell-bent-over-row 5:pronated-pull-up-negative 6:dumbbell-gorilla-row
-2,pump-lift-5x,1,finisher,1,6,rotating,5,1:crush-grip-dumbbell-bicep-curl 2:mechanical-drop-set 3:1-1-4-dumbbell-bicep-curl 4:kettlebell-horn-grip-bicep-curl 5:mechanical-drop-set 6:alternating-dumbbell-curl
+2,pump-lift-5x,1,finisher,1,6,rotating,5,1:crush-grip-dumbbell-bicep-curl 2:Mechanical Drop Sets 3:1-1-4-dumbbell-bicep-curl 4:kettlebell-horn-grip-bicep-curl 5:Mechanical Drop Sets 6:alternating-dumbbell-curl
 2,pump-lift-5x,1,finisher,2,6,rotating,4,1:dumbbell-crush-grip-bicep-curl-carry 2:dumbbell-twist-curl 3:farmers-walk 4:kettlebell-horn-grip-carry 5:dumbbell-twist-curl 6:farmers-walk
 2,pump-lift-5x,1,finisher,3,4,rotating,3,1:farmers-walk 2:dumbbell-hammer-curl 4:single-arm-kettlebell-farmers-walk 5:dumbbell-hammer-curl
 2,pump-lift-5x,2,strength-intensity-1,1,6,rotating,3,1:half-kneeling-landmine-press 2:seated-filly-press 3:strict-press 4:half-kneeling-landmine-press 5:seated-filly-press 6:strict-press
 2,pump-lift-5x,2,strength-intensity-2,1,6,rotating,3,1:1-1-4-dumbbell-bench-press 2:alternating-dumbbell-bench-press 3:single-arm-dumbbell-bench-press 4:1-1-4-dumbbell-bench-press 5:alternating-dumbbell-bench-press 6:single-arm-dumbbell-bench-press
 2,pump-lift-5x,2,strength-balance,1,6,rotating,3,1:incline-dumbbell-chest-fly 2:kettlebell-horn-grip-raise 3:flat-bench-dumbbell-fly 4:incline-dumbbell-chest-fly 5:kettlebell-horn-grip-raise 6:flat-bench-dumbbell-fly
 2,pump-lift-5x,2,strength-balance,2,6,rotating,3,1:chest-supported-dumbbell-front-raise 2:offset-kettlebell-push-up 3:dumbbell-full-raise 4:chest-supported-dumbbell-front-raise 5:offset-kettlebell-push-up 6:dumbbell-full-raise
-2,pump-lift-5x,2,finisher,1,4,rotating,4,1:dumbbell-skullcrusher 2:cluster-set 4:dumbbell-rolling-skullcrusher 5:mechanical-drop-set
+2,pump-lift-5x,2,finisher,1,4,rotating,4,1:dumbbell-skullcrusher 2:Cluster Sets 4:dumbbell-rolling-skullcrusher 5:Mechanical Drop Sets
 2,pump-lift-5x,2,finisher,2,4,rotating,2,1:hands-on-bench-narrow-grip-push-up 2:dumbbell-skullcrusher 4:hands-on-bench-narrow-grip-push-up 5:dumbbell-skullcrusher
 2,pump-lift-5x,3,strength-intensity-1,1,6,alternating-AB,2,1:back-squat 2:1-1-4-back-squat 3:back-squat 4:1-1-4-back-squat 5:back-squat 6:1-1-4-back-squat
 2,pump-lift-5x,3,strength-intensity-2,1,6,rotating,3,1:1-1-4-barbell-hip-thrust 2:b-stance-hip-thrust 3:1-1-4-hip-thrust 4:b-stance-hip-thrust 5:1-1-4-hip-thrust 6:b-stance-hip-thrust
@@ -287,7 +287,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 2,pump-lift-5x,5,finisher,1,6,rotating,3,1:seated-dumbbell-lateral-raise 2:incline-dumbbell-front-raise 3:dumbbell-lateral-raise 4:seated-dumbbell-lateral-raise 5:incline-dumbbell-front-raise 6:dumbbell-lateral-raise
 2,pump-lift-5x,5,finisher,2,6,rotating,3,1:seated-dumbbell-rear-delt-fly 2:incline-rear-delt-swing 3:cable-or-banded-face-pull 4:seated-dumbbell-rear-delt-fly 5:incline-rear-delt-swing 6:cable-or-banded-face-pull
 2,pump-lift-5x,6,strength-intensity-1,1,6,rotating,6,1:goblet-squat 2:dumbbell-zercher-good-morning 3:goblet-cyclist-squat 4:dumbbell-front-squat 5:dumbbell-suitcase-cyclist-squat 6:dumbbell-cyclist-front-squat
-2,pump-lift-5x,6,strength-balance,1,6,alternating-AB,2,1:gliding-hamstring-curl 2:rower-ring 3:gliding-hamstring-curl 4:rower-ring 5:gliding-hamstring-curl 6:rower-ring
+2,pump-lift-5x,6,strength-balance,1,6,alternating-AB,2,1:gliding-hamstring-curl 2:rower-hamstring-curl 3:gliding-hamstring-curl 4:rower-hamstring-curl 5:gliding-hamstring-curl 6:rower-hamstring-curl
 2,pump-lift-5x,6,strength-balance,2,6,rotating,3,1:ring-assisted-pistol-squat 2:band-assisted-reverse-nordic 3:ring-assisted-cossack-squat 4:band-assisted-reverse-nordic 5:ring-assisted-pistol-squat 6:band-assisted-reverse-nordic
 2,pump-lift-5x,6,finisher,1,6,rotating,6,1:bent-knee-copenhagen-plank 2:hanging-knee-tuck 3:bent-knee-copenhagen-raise 4:tuck-l-hang 5:copenhagen-plank 6:hanging-leg-raise
 2,pump-lift-5x,6,finisher,2,4,rotating,4,1:hanging-knee-tuck 3:weighted-hanging-knee-tuck 4:copenhagen-plank 5:hanging-leg-raise
@@ -331,7 +331,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 3,perform,5,strength-balance,2,6,rotating,6,1:bent-hollow-body-hold 2:tuck-l-sit-on-parallette 3:single-leg-bent-hollow-body-hold 4:single-leg-l-sit-on-parallette 5:hollow-body-hold 6:l-sit-on-parallette
 3,perform,6,strength-intensity-1,1,6,rotating,3,1:barbell-incline-bench-press 2:low-incline-barbell-bench-press 3:barbell-bench-press 4:barbell-incline-bench-press 5:low-incline-barbell-bench-press 6:barbell-bench-press
 3,perform,6,strength-balance,1,6,rotating,3,1:single-arm-dumbbell-row 2:body-row 3:landmine-meadow-row 4:single-arm-dumbbell-row 5:body-row 6:landmine-meadow-row
-3,perform,6,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell 3:dumbbell-full-raise 4:single-arm-dumbbell 5:dumbbell-lateral-raise 6:single-arm-dumbbell
+3,perform,6,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell-lean-away-lateral-raise 3:dumbbell-full-raise 4:single-arm-dumbbell-lean-away-lateral-raise 5:dumbbell-lateral-raise 6:single-arm-dumbbell-lean-away-lateral-raise
 3,pump-condition-3x,1,strength-intensity-1,1,6,alternating-AB,2,1:front-squat 2:cyclist-front-squat 3:front-squat 4:cyclist-front-squat 5:front-squat 6:cyclist-front-squat
 3,pump-condition-3x,1,strength-balance,1,6,alternating-AB,2,1:strict-bar-dip 2:deficit-push-up 3:strict-bar-dip 4:deficit-push-up 5:strict-bar-dip 6:deficit-push-up
 3,pump-condition-3x,1,strength-balance,2,6,rotating,4,1:barbell-skullcrusher 2:dumbbell-lateral-raise 3:barbell-skullcrusher 4:dumbbell-front-raise 5:barbell-skullcrusher 6:dumbbell-full-raise
@@ -340,7 +340,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 3,pump-condition-3x,3,strength-balance,2,6,rotating,3,1:barbell-bent-over-row 2:supinated-barbell-bent-over-row 3:farmers-walk 4:barbell-bent-over-row 5:supinated-barbell-bent-over-row 6:farmers-walk
 3,pump-condition-3x,5,strength-intensity-1,1,6,alternating-AB,2,1:conventional-deadlift 2:romanian-deadlift 3:conventional-deadlift 4:romanian-deadlift 5:conventional-deadlift 6:romanian-deadlift
 3,pump-condition-3x,5,strength-balance,1,6,rotating,3,1:single-arm-dumbbell-row 2:body-row 3:landmine-meadow-row 4:single-arm-dumbbell-row 5:body-row 6:landmine-meadow-row
-3,pump-condition-3x,5,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell 3:dumbbell-full-raise 4:single-arm-dumbbell 5:dumbbell-lateral-raise 6:single-arm-dumbbell
+3,pump-condition-3x,5,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell-lean-away-lateral-raise 3:dumbbell-full-raise 4:single-arm-dumbbell-lean-away-lateral-raise 5:dumbbell-lateral-raise 6:single-arm-dumbbell-lean-away-lateral-raise
 3,pump-condition-4x,1,strength-intensity-1,1,6,alternating-AB,2,1:front-squat 2:cyclist-front-squat 3:front-squat 4:cyclist-front-squat 5:front-squat 6:cyclist-front-squat
 3,pump-condition-4x,1,strength-balance,1,6,rotating,5,1:low-handle-landmine-cossack-squat 2:leg-behind-plate-loaded-pistol 3:low-switch-landmine-cossack-squat 4:plate-loaded-pistol-squat-negative 5:low-handle-landmine-cossack-squat 6:plate-loaded-heel-elevated-pistol-squat
 3,pump-condition-4x,1,strength-balance,2,6,rotating,4,1:landmine-hack-squat 2:plate-loaded-banded-spanish-squat 3:landmine-kickstand-squat 4:single-leg-wall-sit 5:landmine-hack-squat 6:plate-loaded-banded-spanish-squat
@@ -352,7 +352,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 3,pump-condition-4x,4,strength-balance,2,6,rotating,6,1:bent-hollow-body-hold 2:tuck-l-sit-on-parallette 3:single-leg-bent-hollow-body-hold 4:single-leg-l-sit-on-parallette 5:hollow-body-hold 6:l-sit-on-parallette
 3,pump-condition-4x,5,strength-intensity-1,1,6,rotating,3,1:barbell-incline-bench-press 2:low-incline-barbell-bench-press 3:barbell-bench-press 4:barbell-incline-bench-press 5:low-incline-barbell-bench-press 6:barbell-bench-press
 3,pump-condition-4x,5,strength-balance,1,6,rotating,3,1:single-arm-dumbbell-row 2:body-row 3:landmine-meadow-row 4:single-arm-dumbbell-row 5:body-row 6:landmine-meadow-row
-3,pump-condition-4x,5,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell 3:dumbbell-full-raise 4:single-arm-dumbbell 5:dumbbell-lateral-raise 6:single-arm-dumbbell
+3,pump-condition-4x,5,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell-lean-away-lateral-raise 3:dumbbell-full-raise 4:single-arm-dumbbell-lean-away-lateral-raise 5:dumbbell-lateral-raise 6:single-arm-dumbbell-lean-away-lateral-raise
 3,pump-condition-5x,1,strength-intensity-1,1,6,alternating-AB,2,1:front-squat 2:cyclist-front-squat 3:front-squat 4:cyclist-front-squat 5:front-squat 6:cyclist-front-squat
 3,pump-condition-5x,1,strength-balance,1,6,rotating,5,1:low-handle-landmine-cossack-squat 2:leg-behind-plate-loaded-pistol 3:low-switch-landmine-cossack-squat 4:plate-loaded-pistol-squat-negative 5:low-handle-landmine-cossack-squat 6:plate-loaded-heel-elevated-pistol-squat
 3,pump-condition-5x,1,strength-balance,2,6,rotating,4,1:landmine-hack-squat 2:plate-loaded-banded-spanish-squat 3:landmine-kickstand-squat 4:single-leg-wall-sit 5:landmine-hack-squat 6:plate-loaded-banded-spanish-squat
@@ -367,7 +367,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 3,pump-condition-5x,5,strength-balance,2,6,rotating,6,1:bent-hollow-body-hold 2:tuck-l-sit-on-parallette 3:single-leg-bent-hollow-body-hold 4:single-leg-l-sit-on-parallette 5:hollow-body-hold 6:l-sit-on-parallette
 3,pump-condition-5x,6,strength-intensity-1,1,6,rotating,3,1:barbell-incline-bench-press 2:low-incline-barbell-bench-press 3:barbell-bench-press 4:barbell-incline-bench-press 5:low-incline-barbell-bench-press 6:barbell-bench-press
 3,pump-condition-5x,6,strength-balance,1,6,rotating,3,1:single-arm-dumbbell-row 2:body-row 3:landmine-meadow-row 4:single-arm-dumbbell-row 5:body-row 6:landmine-meadow-row
-3,pump-condition-5x,6,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell 3:dumbbell-full-raise 4:single-arm-dumbbell 5:dumbbell-lateral-raise 6:single-arm-dumbbell
+3,pump-condition-5x,6,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell-lean-away-lateral-raise 3:dumbbell-full-raise 4:single-arm-dumbbell-lean-away-lateral-raise 5:dumbbell-lateral-raise 6:single-arm-dumbbell-lean-away-lateral-raise
 3,pump-lift-3x,1,strength-intensity-1,1,6,alternating-AB,2,1:front-squat 2:cyclist-front-squat 3:front-squat 4:cyclist-front-squat 5:front-squat 6:cyclist-front-squat
 3,pump-lift-3x,1,strength-intensity-2,1,6,alternating-AB,2,1:supinated-lat-pulldown 2:close-grip-lat-pulldown 3:supinated-lat-pulldown 4:close-grip-lat-pulldown 5:supinated-lat-pulldown 6:close-grip-lat-pulldown
 3,pump-lift-3x,1,strength-balance,1,6,alternating-AB,2,1:strict-bar-dip 2:deficit-push-up 3:strict-bar-dip 4:deficit-push-up 5:strict-bar-dip 6:deficit-push-up
@@ -441,7 +441,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 3,pump-lift-5x,6,strength-intensity-1,1,6,rotating,3,1:barbell-incline-bench-press 2:low-incline-barbell-bench-press 3:barbell-bench-press 4:barbell-incline-bench-press 5:low-incline-barbell-bench-press 6:barbell-bench-press
 3,pump-lift-5x,6,strength-intensity-2,1,6,rotating,3,1:half-kneeling-single-arm-arnold-press 2:single-arm-arnold-z-press 3:back-supported-single-arm-arnold-press 4:half-kneeling-single-arm-arnold-press 5:single-arm-arnold-z-press 6:back-supported-single-arm-arnold-press
 3,pump-lift-5x,6,strength-balance,1,6,rotating,3,1:single-arm-dumbbell-row 2:body-row 3:landmine-meadow-row 4:single-arm-dumbbell-row 5:body-row 6:landmine-meadow-row
-3,pump-lift-5x,6,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell 3:dumbbell-full-raise 4:single-arm-dumbbell 5:dumbbell-lateral-raise 6:single-arm-dumbbell
+3,pump-lift-5x,6,strength-balance,2,6,rotating,4,1:dumbbell-front-raise 2:single-arm-dumbbell-lean-away-lateral-raise 3:dumbbell-full-raise 4:single-arm-dumbbell-lean-away-lateral-raise 5:dumbbell-lateral-raise 6:single-arm-dumbbell-lean-away-lateral-raise
 3,pump-lift-5x,6,finisher,1,6,rotating,4,1:single-arm-overhead-dumbbell-carry 2:cross-body-kettlebell-carry 3:dual-kettlebell-front-rack-carry 4:dual-dumbbell-overhead-carry 5:cross-body-kettlebell-carry 6:dual-kettlebell-front-rack-carry
 3,pump-lift-5x,6,finisher,2,6,rotating,3,1:quadruped-crawl 2:ring-or-plank-body-saw 3:quadruped-reverse-crawl 4:ring-or-plank-body-saw 5:quadruped-crawl 6:ring-or-plank-body-saw
 3,perform,2,strength-balance,3,2,too-few-weeks,2,3:rolling-skullcrusher 5:close-grip-bench-press
@@ -857,7 +857,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 6,pump-lift-5x,1,strength-intensity-1,1,6,alternating-AB,2,1:conventional-deadlift 2:stiff-leg-deadlift 3:conventional-deadlift 4:stiff-leg-deadlift 5:conventional-deadlift 6:stiff-leg-deadlift
 6,pump-lift-5x,1,strength-intensity-2,1,6,alternating-AB,2,1:pendlay-row 2:supinated-bent-over-row 3:pendlay-row 4:supinated-bent-over-row 5:pendlay-row 6:supinated-bent-over-row
 6,pump-lift-5x,1,strength-balance,1,6,alternating-AB,2,1:supinated-strict-pull-up 2:lat-pulldown 3:supinated-strict-pull-up 4:lat-pulldown 5:supinated-strict-pull-up 6:lat-pulldown
-6,pump-lift-5x,1,finisher,1,6,rotating,4,1:barbell-curl 2:hammer-curl 3:barbell-reverse-cur 4:barbell-curl 5:hammer-curl 6:barbell-reverse-curl
+6,pump-lift-5x,1,finisher,1,6,rotating,3,1:barbell-curl 2:hammer-curl 3:barbell-reverse-curl 4:barbell-curl 5:hammer-curl 6:barbell-reverse-curl
 6,pump-lift-5x,2,strength-intensity-1,1,6,rotating,2,1:incline-bench-press 2:close-grip-bench-press 3:incline-bench-press 4:close-grip-bench-press 5:incline-bench-press 6:incline-bench-press
 6,pump-lift-5x,2,strength-intensity-2,1,6,alternating-AB,2,1:narrow-grip-dumbbell-bench-press 2:alternating-dumbbell-bench-press 3:narrow-grip-dumbbell-bench-press 4:alternating-dumbbell-bench-press 5:narrow-grip-dumbbell-bench-press 6:alternating-dumbbell-bench-press
 6,pump-lift-5x,2,strength-balance,1,6,alternating-AB,2,1:barbell-skullcrusher 2:cable-tricep-push-down 3:barbell-skullcrusher 4:cable-tricep-push-down 5:barbell-skullcrusher 6:cable-tricep-push-down
@@ -987,7 +987,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 7,pump-lift-4x,5,strength-intensity-2,1,6,alternating-AB,2,1:front-rack-split-squat 2:suitcase-walking-lunge 3:front-rack-split-squat 4:suitcase-walking-lunge 5:front-rack-split-squat 6:suitcase-walking-lunge
 7,pump-lift-4x,5,strength-balance,1,6,rotating,4,1:single-leg-bodyweight-hip-thrust 2:split-stance-dumbbell-romanian-deadlift 3:hip-thrust-march 4:split-stance-dumbbell-cross-body-romanian-deadlift 5:single-leg-bodyweight-hip-thrust 6:split-stance-dumbbell-romanian-deadlift
 7,pump-lift-4x,5,strength-balance,2,6,alternating-AB,2,1:single-leg-hand-support-dumbbell-romanian-deadlift 2:hamstring-walkout 3:single-leg-hand-support-dumbbell-romanian-deadlift 4:hamstring-walkout 5:single-leg-hand-support-dumbbell-romanian-deadlift 6:hamstring-walkout
-7,pump-lift-4x,5,finisher,1,6,rotating,5,1:plank-body-saw 2:extended-plank 3:ring-slider 4:single-arm-plank 5:ring-slider 6:single-arm-extended-plank
+7,pump-lift-4x,5,finisher,1,6,rotating,5,1:plank-body-saw 2:extended-plank 3:ring-body-saw 4:single-arm-plank 5:ring-body-saw 6:single-arm-extended-plank
 7,pump-lift-4x,5,finisher,2,6,alternating-AB,2,1:donkey-calf-raise 2:suitcase-single-leg-standing-calf-raise 3:donkey-calf-raise 4:suitcase-single-leg-standing-calf-raise 5:donkey-calf-raise 6:suitcase-single-leg-standing-calf-raise
 7,pump-lift-5x,1,strength-intensity-1,1,6,alternating-AB,2,1:sumo-deadlift 2:deficit-deadlift 3:sumo-deadlift 4:deficit-deadlift 5:sumo-deadlift 6:deficit-deadlift
 7,pump-lift-5x,1,strength-intensity-2,1,6,fixed,1,1:1. Pronated Strict Pull Up or Lat Pulldown 2:1. Pronated Strict Pull Up or Lat Pulldown 3:1. Pronated Strict Pull Up or Lat Pulldown 4:1. Pronated Strict Pull Up or Lat Pulldown 5:1. Pronated Strict Pull Up or Lat Pulldown 6:1. Pronated Strict Pull Up or Lat Pulldown
@@ -1000,7 +1000,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 7,pump-lift-5x,2,strength-balance,1,6,alternating-AB,2,1:push-up 2:deficit-wide-push-up 3:push-up 4:deficit-wide-push-up 5:push-up 6:deficit-wide-push-up
 7,pump-lift-5x,2,strength-balance,2,6,rotating,4,1:dumbbell-lateral-raise 2:narrow-push-up 3:internal-dumbbell-lateral-raise 4:narrow-push-up 5:external-dumbbell-lateral-raise 6:narrow-push-up
 7,pump-lift-5x,2,finisher,1,6,alternating-AB,2,1:1-1-4-barbell-curl 2:barbell-preacher-curl 3:1-1-4-barbell-curl 4:barbell-preacher-curl 5:1-1-4-barbell-curl 6:barbell-preacher-curl
-7,pump-lift-5x,2,finisher,2,6,alternating-AB,2,1:extension 2:cable-tricep-pushdown 3:extension 4:cable-tricep-pushdown 5:extension 6:cable-tricep-pushdown
+7,pump-lift-5x,2,finisher,2,6,alternating-AB,2,1:Extension 2:cable-tricep-pushdown 3:Extension 4:cable-tricep-pushdown 5:Extension 6:cable-tricep-pushdown
 7,pump-lift-5x,3,strength-intensity-1,1,6,alternating-AB,2,1:1-1-4-cyclist-back-squat 2:back-squat 3:1-1-4-cyclist-back-squat 4:back-squat 5:1-1-4-cyclist-back-squat 6:back-squat
 7,pump-lift-5x,3,strength-intensity-2,1,6,rotating,6,1:single-arm-suitcase-rear-foot-elevated-split-squat 2:goblet-front-foot-elevated-split-squat 3:suitcase-rear-foot-elevated-split-squat 4:dumbbell-front-foot-elevated-split-squat 5:dumbbell-kettlebell-front-rack-rear-foot-elevated-split-squat 6:dumbbell-kettlebell-front-rack-front-foot-elevated-split-squat
 7,pump-lift-5x,3,strength-balance,1,6,alternating-AB,2,1:suitcase-russian-step-up 2:poliquin-step 3:suitcase-russian-step-up 4:poliquin-step 5:suitcase-russian-step-up 6:poliquin-step
@@ -1017,7 +1017,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 7,pump-lift-5x,6,strength-intensity-2,1,6,alternating-AB,2,1:1-1-4-goblet-cyclist-squat 2:cyclist-front-squat 3:1-1-4-goblet-cyclist-squat 4:cyclist-front-squat 5:1-1-4-goblet-cyclist-squat 6:cyclist-front-squat
 7,pump-lift-5x,6,strength-balance,1,6,rotating,4,1:single-leg-bodyweight-hip-thrust 2:split-stance-dumbbell-romanian-deadlift 3:hip-thrust-march 4:split-stance-dumbbell-cross-body-romanian-deadlift 5:single-leg-bodyweight-hip-thrust 6:split-stance-dumbbell-romanian-deadlift
 7,pump-lift-5x,6,strength-balance,2,6,alternating-AB,2,1:single-leg-hand-support-dumbbell-romanian-deadlift 2:hamstring-walkout 3:single-leg-hand-support-dumbbell-romanian-deadlift 4:hamstring-walkout 5:single-leg-hand-support-dumbbell-romanian-deadlift 6:hamstring-walkout
-7,pump-lift-5x,6,finisher,1,6,rotating,5,1:plank-body-saw 2:extended-plank 3:ring-slider 4:single-arm-plank 5:ring-slider 6:single-arm-extended-plank
+7,pump-lift-5x,6,finisher,1,6,rotating,5,1:plank-body-saw 2:extended-plank 3:ring-body-saw 4:single-arm-plank 5:ring-body-saw 6:single-arm-extended-plank
 7,pump-lift-5x,6,finisher,2,6,alternating-AB,2,1:donkey-calf-raise 2:suitcase-single-leg-standing-calf-raise 3:donkey-calf-raise 4:suitcase-single-leg-standing-calf-raise 5:donkey-calf-raise 6:suitcase-single-leg-standing-calf-raise
 7,minimalist,1,strength-balance,3,3,fixed,1,2:narrow-push-up 4:narrow-push-up 6:narrow-push-up
 7,perform,2,strength-balance,3,3,fixed,1,2:narrow-push-up 4:narrow-push-up 6:narrow-push-up

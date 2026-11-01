@@ -39,7 +39,14 @@ describe("classification", () => {
     expect(guessPattern("hand release burpee").pattern).toBe("plyometric");
     expect(guessPattern("burpee pull up").pattern).toBe("vertical-pull");
     expect(guessPattern("bottom of bench dip stretch").pattern).toBe("mobility");
-    expect(guessPattern("dip support")).toMatchObject({ pattern: null });
+    expect(guessPattern("dip support").pattern).toBe("core");
+    expect(guessPattern("something unheard of").pattern).toBeNull();
+    expect(guessPattern("wall sit").pattern).toBe("squat");
+    expect(guessPattern("russian kettlebell swing").pattern).toBe("hinge");
+    expect(guessPattern("rear delt swing").pattern).toBe("isolation-shoulders");
+    expect(guessPattern("side plank powell raise").pattern).toBe("core");
+    expect(guessPattern("lateral banded walk").pattern).toBe("isolation-legs");
+    expect(guessPattern("devils press").pattern).toBe("olympic");
     expect(guessPattern("something unheard of")).toMatchObject({ pattern: null, suggested: null });
   });
 

@@ -722,22 +722,22 @@ block,week,weekStart,track,day,role,exercise,pattern
 4,1,2026-05-04,perform,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
 4,1,2026-05-04,perform,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
 4,1,2026-05-04,perform,5,strength-intensity-1,Sumo Deadlift,hinge
-4,1,2026-05-04,perform,6,strength-intensity-1,Spoto Press,
+4,1,2026-05-04,perform,6,strength-intensity-1,Spoto Press,horizontal-press
 4,1,2026-05-04,pump-condition-3x,1,strength-intensity-1,Box Squat,squat
-4,1,2026-05-04,pump-condition-3x,3,strength-intensity-1,Spoto Press,
+4,1,2026-05-04,pump-condition-3x,3,strength-intensity-1,Spoto Press,horizontal-press
 4,1,2026-05-04,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,hinge
 4,1,2026-05-04,pump-condition-4x,1,strength-intensity-1,Box Squat,squat
 4,1,2026-05-04,pump-condition-4x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
 4,1,2026-05-04,pump-condition-4x,4,strength-intensity-1,Sumo Deadlift,hinge
-4,1,2026-05-04,pump-condition-4x,5,strength-intensity-1,Spoto Press,
+4,1,2026-05-04,pump-condition-4x,5,strength-intensity-1,Spoto Press,horizontal-press
 4,1,2026-05-04,pump-condition-5x,1,strength-intensity-1,Box Squat,squat
 4,1,2026-05-04,pump-condition-5x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
 4,1,2026-05-04,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
 4,1,2026-05-04,pump-condition-5x,5,strength-intensity-1,Sumo Deadlift,hinge
-4,1,2026-05-04,pump-condition-5x,6,strength-intensity-1,Spoto Press,
+4,1,2026-05-04,pump-condition-5x,6,strength-intensity-1,Spoto Press,horizontal-press
 4,1,2026-05-04,pump-lift-3x,1,strength-intensity-1,Box Squat,squat
 4,1,2026-05-04,pump-lift-3x,1,strength-intensity-2,Dumbbell Strict Press,vertical-press
-4,1,2026-05-04,pump-lift-3x,3,strength-intensity-1,Spoto Press,
+4,1,2026-05-04,pump-lift-3x,3,strength-intensity-1,Spoto Press,horizontal-press
 4,1,2026-05-04,pump-lift-3x,3,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
 4,1,2026-05-04,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,hinge
 4,1,2026-05-04,pump-lift-3x,5,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
@@ -747,7 +747,7 @@ block,week,weekStart,track,day,role,exercise,pattern
 4,1,2026-05-04,pump-lift-4x,2,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
 4,1,2026-05-04,pump-lift-4x,4,strength-intensity-1,Sumo Deadlift,hinge
 4,1,2026-05-04,pump-lift-4x,4,strength-intensity-2,Goblet Rear Foot Elevated Split Squat,lunge-single-leg
-4,1,2026-05-04,pump-lift-4x,5,strength-intensity-1,Spoto Press,
+4,1,2026-05-04,pump-lift-4x,5,strength-intensity-1,Spoto Press,horizontal-press
 4,1,2026-05-04,pump-lift-4x,5,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
 4,1,2026-05-04,pump-lift-5x,1,strength-intensity-1,Box Squat,squat
 4,1,2026-05-04,pump-lift-5x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,hinge
@@ -757,7 +757,7 @@ block,week,weekStart,track,day,role,exercise,pattern
 4,1,2026-05-04,pump-lift-5x,3,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
 4,1,2026-05-04,pump-lift-5x,5,strength-intensity-1,Sumo Deadlift,hinge
 4,1,2026-05-04,pump-lift-5x,5,strength-intensity-2,Goblet Rear Foot Elevated Split Squat,lunge-single-leg
-4,1,2026-05-04,pump-lift-5x,6,strength-intensity-1,Spoto Press,
+4,1,2026-05-04,pump-lift-5x,6,strength-intensity-1,Spoto Press,horizontal-press
 4,1,2026-05-04,pump-lift-5x,6,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
 4,2,2026-05-11,minimalist,1,strength-intensity-1,1 1/4 Goblet Squat,squat
 4,2,2026-05-11,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Arnold Press,vertical-press
@@ -812,22 +812,22 @@ block,week,weekStart,track,day,role,exercise,pattern
 4,5,2026-06-01,perform,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
 4,5,2026-06-01,perform,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
 4,5,2026-06-01,perform,5,strength-intensity-1,Sumo Deadlift,hinge
-4,5,2026-06-01,perform,6,strength-intensity-1,Spoto Press,
+4,5,2026-06-01,perform,6,strength-intensity-1,Spoto Press,horizontal-press
 4,5,2026-06-01,pump-condition-3x,1,strength-intensity-1,Box Squat,squat
-4,5,2026-06-01,pump-condition-3x,3,strength-intensity-1,Spoto Press,
+4,5,2026-06-01,pump-condition-3x,3,strength-intensity-1,Spoto Press,horizontal-press
 4,5,2026-06-01,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,hinge
 4,5,2026-06-01,pump-condition-4x,1,strength-intensity-1,Box Squat,squat
 4,5,2026-06-01,pump-condition-4x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
 4,5,2026-06-01,pump-condition-4x,4,strength-intensity-1,Sumo Deadlift,hinge
-4,5,2026-06-01,pump-condition-4x,5,strength-intensity-1,Spoto Press,
+4,5,2026-06-01,pump-condition-4x,5,strength-intensity-1,Spoto Press,horizontal-press
 4,5,2026-06-01,pump-condition-5x,1,strength-intensity-1,Box Squat,squat
 4,5,2026-06-01,pump-condition-5x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
 4,5,2026-06-01,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
 4,5,2026-06-01,pump-condition-5x,5,strength-intensity-1,Sumo Deadlift,hinge
-4,5,2026-06-01,pump-condition-5x,6,strength-intensity-1,Spoto Press,
+4,5,2026-06-01,pump-condition-5x,6,strength-intensity-1,Spoto Press,horizontal-press
 4,5,2026-06-01,pump-lift-3x,1,strength-intensity-1,Box Squat,squat
 4,5,2026-06-01,pump-lift-3x,1,strength-intensity-2,Dumbbell Strict Press,vertical-press
-4,5,2026-06-01,pump-lift-3x,3,strength-intensity-1,Spoto Press,
+4,5,2026-06-01,pump-lift-3x,3,strength-intensity-1,Spoto Press,horizontal-press
 4,5,2026-06-01,pump-lift-3x,3,strength-intensity-2,,
 4,5,2026-06-01,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,hinge
 4,5,2026-06-01,pump-lift-3x,5,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
@@ -837,7 +837,7 @@ block,week,weekStart,track,day,role,exercise,pattern
 4,5,2026-06-01,pump-lift-4x,2,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
 4,5,2026-06-01,pump-lift-4x,4,strength-intensity-1,Sumo Deadlift,hinge
 4,5,2026-06-01,pump-lift-4x,4,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
-4,5,2026-06-01,pump-lift-4x,5,strength-intensity-1,Spoto Press,
+4,5,2026-06-01,pump-lift-4x,5,strength-intensity-1,Spoto Press,horizontal-press
 4,5,2026-06-01,pump-lift-4x,5,strength-intensity-2,,
 4,5,2026-06-01,pump-lift-5x,1,strength-intensity-1,Box Squat,squat
 4,5,2026-06-01,pump-lift-5x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,hinge
@@ -847,7 +847,7 @@ block,week,weekStart,track,day,role,exercise,pattern
 4,5,2026-06-01,pump-lift-5x,3,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
 4,5,2026-06-01,pump-lift-5x,5,strength-intensity-1,Sumo Deadlift,hinge
 4,5,2026-06-01,pump-lift-5x,5,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
-4,5,2026-06-01,pump-lift-5x,6,strength-intensity-1,Spoto Press,
+4,5,2026-06-01,pump-lift-5x,6,strength-intensity-1,Spoto Press,horizontal-press
 4,5,2026-06-01,pump-lift-5x,6,strength-intensity-2,,
 4,6,2026-06-08,minimalist,1,strength-intensity-1,1 1/4 Goblet Squat,squat
 4,6,2026-06-08,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Arnold Press,vertical-press
@@ -945,30 +945,30 @@ block,week,weekStart,track,day,role,exercise,pattern
 5,4,2026-07-06,minimalist,2,strength-intensity-2,Incline Dumbbell Fly,horizontal-press
 5,4,2026-07-06,minimalist,4,strength-intensity-1,,
 5,4,2026-07-06,minimalist,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
-5,4,2026-07-06,perform,1,strength-intensity-1,Rack Pull,
+5,4,2026-07-06,perform,1,strength-intensity-1,Rack Pull,hinge
 5,4,2026-07-06,perform,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
 5,4,2026-07-06,perform,3,strength-intensity-1,Back Squat,squat
 5,4,2026-07-06,perform,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
 5,4,2026-07-06,perform,6,strength-intensity-1,Front Squat,squat
-5,4,2026-07-06,pump-condition-3x,1,strength-intensity-1,Rack Pull,
+5,4,2026-07-06,pump-condition-3x,1,strength-intensity-1,Rack Pull,hinge
 5,4,2026-07-06,pump-condition-3x,3,strength-intensity-1,1 1/4 Bench Press,horizontal-press
 5,4,2026-07-06,pump-condition-3x,5,strength-intensity-1,Back Squat,squat
-5,4,2026-07-06,pump-condition-4x,1,strength-intensity-1,Rack Pull,
+5,4,2026-07-06,pump-condition-4x,1,strength-intensity-1,Rack Pull,hinge
 5,4,2026-07-06,pump-condition-4x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
 5,4,2026-07-06,pump-condition-4x,4,strength-intensity-1,Back Squat,squat
 5,4,2026-07-06,pump-condition-4x,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
-5,4,2026-07-06,pump-condition-5x,1,strength-intensity-1,Rack Pull,
+5,4,2026-07-06,pump-condition-5x,1,strength-intensity-1,Rack Pull,hinge
 5,4,2026-07-06,pump-condition-5x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
 5,4,2026-07-06,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
 5,4,2026-07-06,pump-condition-5x,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
 5,4,2026-07-06,pump-condition-5x,6,strength-intensity-1,Front Squat,squat
-5,4,2026-07-06,pump-lift-3x,1,strength-intensity-1,Rack Pull,
+5,4,2026-07-06,pump-lift-3x,1,strength-intensity-1,Rack Pull,hinge
 5,4,2026-07-06,pump-lift-3x,1,strength-intensity-2,Barbell Strict Press,vertical-press
 5,4,2026-07-06,pump-lift-3x,3,strength-intensity-1,1 1/4 Bench Press,horizontal-press
 5,4,2026-07-06,pump-lift-3x,3,strength-intensity-2,Dumbbell Suitcase Walking Lunge,lunge-single-leg
 5,4,2026-07-06,pump-lift-3x,5,strength-intensity-1,Back Squat,squat
 5,4,2026-07-06,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
-5,4,2026-07-06,pump-lift-4x,1,strength-intensity-1,Rack Pull,
+5,4,2026-07-06,pump-lift-4x,1,strength-intensity-1,Rack Pull,hinge
 5,4,2026-07-06,pump-lift-4x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
 5,4,2026-07-06,pump-lift-4x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
 5,4,2026-07-06,pump-lift-4x,2,strength-intensity-2,Incline Dumbbell Bench Press,horizontal-press
@@ -976,7 +976,7 @@ block,week,weekStart,track,day,role,exercise,pattern
 5,4,2026-07-06,pump-lift-4x,4,strength-intensity-2,Dumbbell Alternating Drop Lunge,lunge-single-leg
 5,4,2026-07-06,pump-lift-4x,5,strength-intensity-1,Barbell Strict Press,vertical-press
 5,4,2026-07-06,pump-lift-4x,5,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
-5,4,2026-07-06,pump-lift-5x,1,strength-intensity-1,Rack Pull,
+5,4,2026-07-06,pump-lift-5x,1,strength-intensity-1,Rack Pull,hinge
 5,4,2026-07-06,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
 5,4,2026-07-06,pump-lift-5x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
 5,4,2026-07-06,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,horizontal-press
@@ -985,7 +985,7 @@ block,week,weekStart,track,day,role,exercise,pattern
 5,4,2026-07-06,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
 5,4,2026-07-06,pump-lift-5x,5,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
 5,4,2026-07-06,pump-lift-5x,6,strength-intensity-1,Front Squat,squat
-5,4,2026-07-06,pump-lift-5x,6,strength-intensity-2,Dumbbell Rack Tall Kneel To Stand,
+5,4,2026-07-06,pump-lift-5x,6,strength-intensity-2,Dumbbell Rack Tall Kneel To Stand,lunge-single-leg
 6,1,2026-07-13,minimalist,1,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
 6,1,2026-07-13,minimalist,2,strength-intensity-1,Cyclist Goblet Squat,squat
 6,1,2026-07-13,minimalist,4,strength-intensity-1,Seated Dumbbell Filly Press,vertical-press

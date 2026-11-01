@@ -1,107 +1,10 @@
 [
  {
-  "id": "tuck-up",
-  "name": "Tuck Up",
-  "uses": 60,
-  "aliases": [
-   "Tuck Up",
-   "Tuck Ups"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "russian-babymaker",
-  "name": "Russian Babymaker",
-  "uses": 55,
-  "aliases": [
-   "Russian Babymaker"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-full-raise",
-  "name": "Dumbbell Full Raise",
-  "uses": 54,
-  "aliases": [
-   "DB Full Raise",
-   "Dumbbell Full Raise",
-   "Dumbbell Full Raises"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Loading Note",
   "uses": 45,
   "aliases": [],
   "reason": "instruction-text",
-  "suggestedPattern": null
- },
- {
-  "id": "wall-sit",
-  "name": "Wall Sit",
-  "uses": 45,
-  "aliases": [
-   "Wall Sit"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "front-rack-hold",
-  "name": "Front Rack Hold",
-  "uses": 39,
-  "aliases": [
-   "Front Rack Hold"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "quadruped-crawl",
-  "name": "Quadruped Crawl",
-  "uses": 39,
-  "aliases": [
-   "Quadruped Crawl"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "toe-sit",
-  "name": "Toe Sit",
-  "uses": 38,
-  "aliases": [
-   "Toe Sit"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "turkish-get-up",
-  "name": "Turkish Get Up",
-  "uses": 38,
-  "aliases": [
-   "Turkish Get Up",
-   "Turkish Get Up L",
-   "Turkish Get Up Left",
-   "Turkish Get Up R",
-   "Turkish Get Up Right"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "half-kneeling-cable",
-  "name": "Half Kneeling Cable",
-  "uses": 37,
-  "aliases": [
-   "Half Kneeling Cable or Band Row"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -113,84 +16,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "lateral-banded-walk",
-  "name": "Lateral Banded Walk",
-  "uses": 36,
-  "aliases": [
-   "Lateral Banded Walk",
-   "Lateral Banded Walks"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "single-leg-hip-bridge-hold",
-  "name": "Single Leg Hip Bridge Hold",
-  "uses": 36,
-  "aliases": [
-   "Single Leg Hip Bridge Hold"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "straight-arm-shoulder-rotation",
-  "name": "Straight Arm Shoulder Rotation",
-  "uses": 36,
-  "aliases": [
-   "Straight Arm Shoulder Rotations"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Shinbox Hip Extension + Switch",
   "uses": 32,
   "aliases": [],
   "reason": "compound-of-several-movements",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-kettlebell-rack-lateral-band-walk",
-  "name": "Dual Kettlebell Rack Lateral Band Walk",
-  "uses": 30,
-  "aliases": [
-   "Dual KB Rack Lateral Band Walk"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "dual-kettlebell-rack-march",
-  "name": "Dual Kettlebell Rack March",
-  "uses": 30,
-  "aliases": [
-   "Dual KB Rack March",
-   "Dual Kettlebell Rack March"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "standing-kettlebell",
-  "name": "Standing Kettlebell",
-  "uses": 30,
-  "aliases": [
-   "Standing KB or Bodyweight Windmill Left",
-   "Standing KB or Bodyweight Windmill Right"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-er-on-knee",
-  "name": "Dumbbell Er On Knee",
-  "uses": 28,
-  "aliases": [
-   "DB ER on Knee"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -210,98 +40,12 @@
   "suggestedPattern": null
  },
  {
-  "id": "single-leg-wall-sit",
-  "name": "Single Leg Wall Sit",
-  "uses": 25,
-  "aliases": [
-   "Single Leg Wall Sit",
-   "Single Leg Wall Sit L",
-   "Single Leg Wall Sit R",
-   "Single Leg Wall Sit/leg"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "band-pull-apart",
-  "name": "Band Pull Apart",
-  "uses": 24,
-  "aliases": [
-   "Band Pull Apart"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-pullover",
-  "name": "Dumbbell Pullover",
-  "uses": 24,
-  "aliases": [
-   "DB Pullover",
-   "Dumbbell Pullover"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "quadruped-crawl-reverse",
-  "name": "Quadruped Crawl Reverse",
-  "uses": 24,
-  "aliases": [
-   "Quadruped Crawl Reverse"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "russian-kettlebell",
-  "name": "Russian Kettlebell",
-  "uses": 22,
-  "aliases": [
-   "Russian KBS"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "band-pullapart",
-  "name": "Band Pullapart",
-  "uses": 20,
-  "aliases": [
-   "Band Pullapart"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "elephant-walk-step",
-  "name": "Elephant Walk Step",
-  "uses": 20,
-  "aliases": [
-   "Elephant Walk Step"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
   "id": null,
   "name": "minutes @ GRINDER pace",
   "uses": 20,
   "aliases": [],
   "reason": "instruction-text",
   "suggestedPattern": null
- },
- {
-  "id": "wall-walk",
-  "name": "Wall Walk",
-  "uses": 19,
-  "aliases": [
-   "Wall Walks",
-   "Wall Walks or 2x Inchworm Push Ups",
-   "Wall Walks or 6 Inchworms"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
  },
  {
   "id": null,
@@ -320,49 +64,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "goblet-wall-sit",
-  "name": "Goblet Wall Sit",
-  "uses": 18,
-  "aliases": [
-   "Goblet Wall Sit",
-   "Goblet Wall Sit (50/35)",
-   "Goblet Wall Sit (53/35)",
-   "Goblet Wall Sit (70/53)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "hamstring-walkout",
-  "name": "Hamstring Walkout",
-  "uses": 18,
-  "aliases": [
-   "Hamstring Walkout"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "powell-raise",
-  "name": "Powell Raise",
-  "uses": 18,
-  "aliases": [
-   "Powell Raise"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "superman-hold",
-  "name": "Superman Hold",
-  "uses": 17,
-  "aliases": [
-   "Superman Hold"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
   "id": null,
   "name": "As Many Reps As Possible (AMRAP)",
   "uses": 16,
@@ -371,227 +72,20 @@
   "suggestedPattern": null
  },
  {
-  "id": "banded-shoulder-external-rotation",
-  "name": "Banded Shoulder External Rotation",
-  "uses": 16,
-  "aliases": [
-   "Banded Shoulder External Rotation"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "farmers-press",
-  "name": "Farmers Press",
-  "uses": 16,
-  "aliases": [
-   "Farmers Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "half-kneeling-hamstring-to-half-kneeling-hip-flexor-flow",
-  "name": "Half Kneeling Hamstring To Half Kneeling Hip Flexor Flow",
-  "uses": 16,
-  "aliases": [
-   "Half Kneeling Hamstring to Half Kneeling Hip Flexor Flow"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "beast-to-alternating-leg-through",
-  "name": "Beast To Alternating Leg Through",
-  "uses": 15,
-  "aliases": [
-   "Beast to Alternating Leg Through"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "devils-press",
-  "name": "Devils Press",
-  "uses": 15,
-  "aliases": [
-   "Devils Press",
-   "Devils Press (50/35)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "hanging-oblique-raise",
-  "name": "Hanging Oblique Raise",
-  "uses": 15,
-  "aliases": [
-   "Hanging Oblique Raises/side"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "quadruped-crawl-backward",
-  "name": "Quadruped Crawl Backward",
-  "uses": 15,
-  "aliases": [
-   "Quadruped Crawl Backward"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "quadruped-crawl-forward",
-  "name": "Quadruped Crawl Forward",
-  "uses": 15,
-  "aliases": [
-   "Quadruped Crawl Forward"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "reverse-quadruped-crawl",
-  "name": "Reverse Quadruped Crawl",
-  "uses": 15,
-  "aliases": [
-   "Reverse Quadruped Crawl"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "single-arm-dumbbell",
-  "name": "Single Arm Dumbbell",
-  "uses": 15,
-  "aliases": [
-   "Single Arm DB or Cable Lean Away Lateral Raise"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "supine-band-lat-pullover",
-  "name": "Supine Band Lat Pullover",
-  "uses": 15,
-  "aliases": [
-   "Supine Band Lat Pullover"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "1-2-turkish-get-up",
-  "name": "1/2 Turkish Get Up",
-  "uses": 14,
-  "aliases": [
-   "1/2 Turkish Get Up"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "arm-bar-rotation",
-  "name": "Arm Bar Rotation",
-  "uses": 14,
-  "aliases": [
-   "Arm Bar Rotation"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-rack-tall-kneel-to-stand",
-  "name": "Dumbbell Rack Tall Kneel To Stand",
-  "uses": 14,
-  "aliases": [
-   "DB Rack Tall Kneel to Stand"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "full-body",
+  "id": null,
   "name": "Full Body",
   "uses": 14,
-  "aliases": [
-   "Full Body"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
-  "id": "full-body-mobility",
+  "id": null,
   "name": "Full Body Mobility",
   "uses": 14,
-  "aliases": [
-   "Full Body Mobility"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
- },
- {
-  "id": "inverted-skull-crusher",
-  "name": "Inverted Skull Crusher",
-  "uses": 14,
-  "aliases": [
-   "Inverted Skull Crushers"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "spoto-press",
-  "name": "Spoto Press",
-  "uses": 14,
-  "aliases": [
-   "Spoto Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "cuban-press",
-  "name": "Cuban Press",
-  "uses": 13,
-  "aliases": [
-   "Cuban Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "supinated-band-pull-apart",
-  "name": "Supinated Band Pull Apart",
-  "uses": 13,
-  "aliases": [
-   "Supinated Band Pull Apart"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-meadows-row",
-  "name": "Dumbbell Meadows Row",
-  "uses": 12,
-  "aliases": [
-   "DB Meadows Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
-  "id": "landmine-meadow-row",
-  "name": "Landmine Meadow Row",
-  "uses": 12,
-  "aliases": [
-   "Landmine Meadow Row",
-   "Landmine Meadow Row L",
-   "Landmine Meadow Row R"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
  },
  {
   "id": null,
@@ -599,16 +93,6 @@
   "uses": 12,
   "aliases": [],
   "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": "prone-shoulder-car",
-  "name": "Prone Shoulder Car",
-  "uses": 12,
-  "aliases": [
-   "Prone Shoulder CARs"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -628,294 +112,44 @@
   "suggestedPattern": null
  },
  {
-  "id": "goblet-tall-kneel-to-stand",
-  "name": "Goblet Tall Kneel To Stand",
-  "uses": 11,
-  "aliases": [
-   "Goblet Tall Kneel to Stand"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "mobility",
+  "id": null,
   "name": "Mobility",
   "uses": 11,
-  "aliases": [
-   "Mobility"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
-  "id": "downward-dog-shoulder-tap",
-  "name": "Downward Dog Shoulder Tap",
+  "id": null,
+  "name": "Even -",
   "uses": 10,
-  "aliases": [
-   "Downward Dog Shoulder Taps"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
-  "id": "even",
-  "name": "Even",
+  "id": null,
+  "name": "Pauses at Bottom)",
   "uses": 10,
-  "aliases": [
-   "Even -"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
-  "id": "ghd-hip-extension",
-  "name": "Ghd Hip Extension",
-  "uses": 10,
-  "aliases": [
-   "GHD Hip Extension",
-   "GHD Hip Extension or 45 Degree Hypers"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "isolation-arms"
- },
- {
-  "id": "kettlebell-horn-grip-raise",
-  "name": "Kettlebell Horn Grip Raise",
-  "uses": 10,
-  "aliases": [
-   "KB Horn Grip Raise"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "pauses-at-bottom",
-  "name": "Pauses At Bottom)",
-  "uses": 10,
-  "aliases": [
-   "Pauses at Bottom)"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "sidelying-active-hip-er",
-  "name": "Sidelying Active Hip Er",
-  "uses": 10,
-  "aliases": [
-   "Sidelying Active Hip ER"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "sprawl",
-  "name": "Sprawl",
-  "uses": 10,
-  "aliases": [
-   "Sprawl",
-   "Sprawls"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "alternating-kettlebell-press",
-  "name": "Alternating Kettlebell Press",
-  "uses": 9,
-  "aliases": [
-   "Alternating KB Press",
-   "Alternating KB Press (4/side)",
-   "Alternating Kettlebell Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "candlestick-roll-up",
-  "name": "Candlestick Roll Up",
-  "uses": 9,
-  "aliases": [
-   "Candlestick Roll-Ups"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "lateral-bench-hops-hands-on-bench",
-  "name": "Lateral Bench Hops Hands On Bench",
-  "uses": 9,
-  "aliases": [
-   "Lateral Bench Hops hands-on Bench"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "mountain-climber",
-  "name": "Mountain Climber",
-  "uses": 9,
-  "aliases": [
-   "Mountain Climbers",
-   "Mountain Climbers (12/side)",
-   "Mountain Climbers (15/side)",
-   "Mountain Climbers (20/side)"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "poliquin-step",
-  "name": "Poliquin Step",
-  "uses": 9,
-  "aliases": [
-   "Poliquin Step"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "single-arm-dumbbell-press",
-  "name": "Single Arm Dumbbell Press",
-  "uses": 9,
-  "aliases": [
-   "Single Arm Dumbbell Press Left",
-   "Single Arm Dumbbell Press Right"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "strict-bar",
-  "name": "Strict Bar",
-  "uses": 9,
-  "aliases": [
-   "Strict Bar or Ring Dip",
-   "Strict Bar or Ring Dips"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-side-bend",
-  "name": "Dumbbell Side Bend",
+  "id": null,
+  "name": "Move immediately into the next couplet",
   "uses": 8,
-  "aliases": [
-   "DB Side Bend",
-   "Dumbbell Side Bend"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
-  "id": "heels-elevated-wall-sit",
-  "name": "Heels Elevated Wall Sit",
-  "uses": 8,
-  "aliases": [
-   "Heels Elevated Wall Sit"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "move-immediately-into-the-next-couplet",
-  "name": "Move Immediately Into The Next Couplet",
-  "uses": 8,
-  "aliases": [
-   "Move immediately into the next couplet"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "single-leg-straight-leg-bridge-hold",
-  "name": "Single Leg Straight Leg Bridge Hold",
-  "uses": 8,
-  "aliases": [
-   "Single Leg Straight Leg Bridge Hold"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "straight-leg-bridge-hold",
-  "name": "Straight Leg Bridge Hold",
-  "uses": 8,
-  "aliases": [
-   "Straight Leg Bridge Hold"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "supine-bench-weighted-chest-opener",
-  "name": "Supine Bench Weighted Chest Opener",
-  "uses": 8,
-  "aliases": [
-   "Supine Bench Weighted Chest Opener"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "bench-support-landmine-meadow",
-  "name": "Bench Support Landmine Meadow",
+  "id": null,
+  "name": "Odd -",
   "uses": 7,
-  "aliases": [
-   "Bench Support Landmine Meadow"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
- },
- {
-  "id": "dip-support",
-  "name": "Dip Support",
-  "uses": 7,
-  "aliases": [
-   "Dip Support"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-kettlebell-rack-tall-kneel-to-stand",
-  "name": "Dual Kettlebell Rack Tall Kneel To Stand",
-  "uses": 7,
-  "aliases": [
-   "Dual KB Rack Tall Kneel to Stand"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "odd",
-  "name": "Odd",
-  "uses": 7,
-  "aliases": [
-   "Odd -"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "rack-pull",
-  "name": "Rack Pull",
-  "uses": 7,
-  "aliases": [
-   "Rack Pull"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "single-arm-landmine-row",
-  "name": "Single Arm Landmine Row",
-  "uses": 7,
-  "aliases": [
-   "Single Arm Landmine Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
  },
  {
   "id": null,
@@ -942,93 +176,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "chin-over-bar-isometric",
-  "name": "Chin Over Bar Isometric",
-  "uses": 6,
-  "aliases": [
-   "Chin Over Bar Isometric"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-kettlebell-gunslinger",
-  "name": "Dual Kettlebell Gunslinger",
-  "uses": 6,
-  "aliases": [
-   "Dual KB Gunslinger",
-   "Dual Kettlebell Gunslinger"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-kettlebell-russian-swing",
-  "name": "Dual Kettlebell Russian Swing",
-  "uses": 6,
-  "aliases": [
-   "Dual KB Russian Swing",
-   "Dual KB Russian Swings",
-   "Dual KB Russian Swings (53/35)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "duck-walk",
-  "name": "Duck Walk",
-  "uses": 6,
-  "aliases": [
-   "Duck Walk"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "dumbbell-arm-bar",
-  "name": "Dumbbell Arm Bar",
-  "uses": 6,
-  "aliases": [
-   "DB Arm Bar",
-   "Dumbbell Arm Bar"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-external-rotation-on-knee",
-  "name": "Dumbbell External Rotation On Knee",
-  "uses": 6,
-  "aliases": [
-   "DB External Rotation on Knee",
-   "Dumbbell External Rotation on Knee"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-meadow-row",
-  "name": "Dumbbell Meadow Row",
-  "uses": 6,
-  "aliases": [
-   "DB Meadow Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
-  "id": "dumbbell-swing",
-  "name": "Dumbbell Swing",
-  "uses": 6,
-  "aliases": [
-   "DB Swing (70/50)",
-   "DB Swings",
-   "Dumbbell Swings"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
   "id": null,
   "name": "Effort Note",
   "uses": 6,
@@ -1042,37 +189,6 @@
   "uses": 6,
   "aliases": [],
   "reason": "too-long-for-an-exercise-name",
-  "suggestedPattern": null
- },
- {
-  "id": "ostrich-walk",
-  "name": "Ostrich Walk",
-  "uses": 6,
-  "aliases": [
-   "Ostrich Walk"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "pike-strict-hspu",
-  "name": "Pike Strict Hspu",
-  "uses": 6,
-  "aliases": [
-   "Pike Strict HSPU",
-   "Pike Strict HSPU or Pike HS Hold"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "planche-lean",
-  "name": "Planche Lean",
-  "uses": 6,
-  "aliases": [
-   "Planche Lean"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -1100,106 +216,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "sidelying-thoracic-sweep",
-  "name": "Sidelying Thoracic Sweep",
-  "uses": 6,
-  "aliases": [
-   "Sidelying Thoracic Sweep"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "single-arm-russian-swing",
-  "name": "Single Arm Russian Swing",
-  "uses": 6,
-  "aliases": [
-   "Single Arm Russian Swing L",
-   "Single Arm Russian Swing R",
-   "Single Arm Russian Swings L",
-   "Single Arm Russian Swings R"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "straight-leg-hip-bridge-march",
-  "name": "Straight Leg Hip Bridge March",
-  "uses": 6,
-  "aliases": [
-   "Straight Leg Hip Bridge March"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
   "id": null,
   "name": "Tempo (Aim for 8+ reps)",
   "uses": 6,
   "aliases": [],
-  "reason": "compound-of-several-movements",
-  "suggestedPattern": null
- },
- {
-  "id": "thread-the-needle",
-  "name": "Thread The Needle",
-  "uses": 6,
-  "aliases": [
-   "Thread the Needle"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "wall-sit-march",
-  "name": "Wall Sit March",
-  "uses": 6,
-  "aliases": [
-   "Wall Sit March"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "alternating-single-arm-dumbbell-rack-tall-kneel-to-stand",
-  "name": "Alternating Single Arm Dumbbell Rack Tall Kneel To Stand",
-  "uses": 5,
-  "aliases": [
-   "Alternating Single Arm DB Rack Tall Kneel to Stand",
-   "Alternating Single Arm Dumbbell Rack Tall Kneel to Stand"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dip-support-knee-raise",
-  "name": "Dip Support Knee Raise",
-  "uses": 5,
-  "aliases": [
-   "Dip Support Knee Raise"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-kettlebell-dumbbell-rack-tall-kneel-to-stand",
-  "name": "Dual Kettlebell/Dumbbell Rack Tall Kneel To Stand",
-  "uses": 5,
-  "aliases": [
-   "Dual KB/DB Rack Tall Kneel to Stand",
-   "Dual Kettlebell/Dumbbell Rack Tall Kneel to Stand"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-seated-goodmoring",
-  "name": "Dumbbell Seated Goodmoring",
-  "uses": 5,
-  "aliases": [
-   "DB Seated Goodmoring"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -1208,17 +229,6 @@
   "uses": 5,
   "aliases": [],
   "reason": "instruction-text",
-  "suggestedPattern": null
- },
- {
-  "id": "rower-pike-up",
-  "name": "Rower Pike Up",
-  "uses": 5,
-  "aliases": [
-   "Rower Pike Up",
-   "Rower Pike Ups"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -1238,28 +248,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "alternating-single-arm-dumbbell-devil-press",
-  "name": "Alternating Single Arm Dumbbell Devil Press",
-  "uses": 4,
-  "aliases": [
-   "Alternating Single Arm DB Devil Press",
-   "Alternating Single Arm Dumbbell Devil Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "american-kettlebell",
-  "name": "American Kettlebell",
-  "uses": 4,
-  "aliases": [
-   "American KBS",
-   "American KBS (70/53)"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "AMRAP Switch Lunge",
   "uses": 4,
@@ -1268,24 +256,12 @@
   "suggestedPattern": null
  },
  {
-  "id": "bottom",
+  "id": null,
   "name": "Bottom)",
   "uses": 4,
-  "aliases": [
-   "Bottom)"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
- },
- {
-  "id": "dumbbell-bent-over-meadows-row",
-  "name": "Dumbbell Bent Over Meadows Row",
-  "uses": 4,
-  "aliases": [
-   "DB Bent Over Meadows Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
  },
  {
   "id": null,
@@ -1293,58 +269,6 @@
   "uses": 4,
   "aliases": [],
   "reason": "compound-of-several-movements",
-  "suggestedPattern": null
- },
- {
-  "id": "forward-fold-with-rotation",
-  "name": "Forward Fold With Rotation",
-  "uses": 4,
-  "aliases": [
-   "Forward Fold with Rotation"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "half-kneeling-kettlebell-chop-and-lift",
-  "name": "Half Kneeling Kettlebell Chop And Lift",
-  "uses": 4,
-  "aliases": [
-   "Half Kneeling KB Chop and Lift",
-   "Half Kneeling Kettlebell Chop and Lift"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "hamstring-march",
-  "name": "Hamstring March",
-  "uses": 4,
-  "aliases": [
-   "Hamstring March (7/side)",
-   "Hamstring March (7/side) #"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "jm-press",
-  "name": "Jm Press",
-  "uses": 4,
-  "aliases": [
-   "JM Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "kettlebell-sprawl",
-  "name": "Kettlebell Sprawl",
-  "uses": 4,
-  "aliases": [
-   "KB Sprawl"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -1356,13 +280,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "mechanical-drop-set",
-  "name": "Mechanical Drop Set",
+  "id": null,
+  "name": "Mechanical Drop Sets",
   "uses": 4,
-  "aliases": [
-   "Mechanical Drop Sets"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -1382,16 +304,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "ring-slider",
-  "name": "Ring Slider",
-  "uses": 4,
-  "aliases": [
-   "Ring, Slider, or Rower Body Saw"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Run or 5 Shuttle Runs",
   "uses": 4,
@@ -1400,13 +312,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "sec",
-  "name": "Sec",
+  "id": null,
+  "name": "sec",
   "uses": 4,
-  "aliases": [
-   "sec"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -1466,48 +376,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "single-arm-devils-press",
-  "name": "Single Arm Devils Press",
-  "uses": 4,
-  "aliases": [
-   "Single Arm Devils Press",
-   "Single Arm Devils Press (10/side)",
-   "Single Arm Devils Press (50/35) (10/side)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "standing-band-abduction",
-  "name": "Standing Band Abduction",
-  "uses": 4,
-  "aliases": [
-   "Standing Band Abduction or Standing Cable Abduction"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "strict-kettlebell-press",
-  "name": "Strict Kettlebell Press",
-  "uses": 4,
-  "aliases": [
-   "Strict Kettlebell Press (44/26)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "tuck-up-in-dip-support",
-  "name": "Tuck Up In Dip Support",
-  "uses": 4,
-  "aliases": [
-   "Tuck Up in Dip Support"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Weight Plate Turkish Sit Ups 10-25#",
   "uses": 4,
@@ -1532,24 +400,12 @@
   "suggestedPattern": null
  },
  {
-  "id": "aerobic-push-pull",
+  "id": null,
   "name": "Aerobic Push Pull",
   "uses": 3,
-  "aliases": [
-   "Aerobic Push Pull"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
- },
- {
-  "id": "alternating-single-arm-kettlebell-split-stance-swing",
-  "name": "Alternating Single Arm Kettlebell Split Stance Swing",
-  "uses": 3,
-  "aliases": [
-   "Alternating Single Arm KB Split Stance Swing"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
  },
  {
   "id": null,
@@ -1576,36 +432,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "cable-or-banded-abduction",
-  "name": "Cable Or Banded Abduction",
-  "uses": 3,
-  "aliases": [
-   "Cable or Banded Abduction"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "cable-or-banded-adduction",
-  "name": "Cable Or Banded Adduction",
-  "uses": 3,
-  "aliases": [
-   "Cable or Banded Adduction"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "calorie-row",
-  "name": "Calorie Row",
-  "uses": 3,
-  "aliases": [
-   "Calorie Row (Female Rx Cals - 16-12-8-12-16)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
   "id": null,
   "name": "Cobra 5",
   "uses": 3,
@@ -1622,57 +448,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "deadstop-hike-kettlebell",
-  "name": "Deadstop Hike Kettlebell",
-  "uses": 3,
-  "aliases": [
-   "Deadstop Hike KBS"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-kettlebell-rack-single-leg-wall-sit",
-  "name": "Dual Kettlebell Rack Single Leg Wall Sit",
-  "uses": 3,
-  "aliases": [
-   "Dual KB Rack Single Leg Wall Sit"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "dual-kettlebell-rack-wall-sit",
-  "name": "Dual Kettlebell Rack Wall Sit",
-  "uses": 3,
-  "aliases": [
-   "Dual KB Rack Wall Sit",
-   "Dual Kettlebell Rack Wall Sit"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "dumbbell-hamstring-march",
-  "name": "Dumbbell Hamstring March",
-  "uses": 3,
-  "aliases": [
-   "DB Hamstring March"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "dumbbell-tate-press",
-  "name": "Dumbbell Tate Press",
-  "uses": 3,
-  "aliases": [
-   "Dumbbell Tate Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
   "id": null,
   "name": "EMOM Format",
   "uses": 3,
@@ -1681,73 +456,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "extension",
+  "id": null,
   "name": "Extension",
   "uses": 3,
-  "aliases": [
-   "Extension"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "isolation-arms"
- },
- {
-  "id": "filly-press",
-  "name": "Filly Press",
-  "uses": 3,
-  "aliases": [
-   "Filly Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "hamstring-walk-out",
-  "name": "Hamstring Walk Out",
-  "uses": 3,
-  "aliases": [
-   "Hamstring Walk Out"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "inchworm",
-  "name": "Inchworm",
-  "uses": 3,
-  "aliases": [
-   "Inchworms"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "kettlebell-russian-twists-or",
-  "name": "Kettlebell Russian Twists Or",
-  "uses": 3,
-  "aliases": [
-   "KB Russian Twists or"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "lumbar-roll-to-pike",
-  "name": "Lumbar Roll To Pike",
-  "uses": 3,
-  "aliases": [
-   "Lumbar Roll to Pike"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "neck-car",
-  "name": "Neck Car",
-  "uses": 3,
-  "aliases": [
-   "Neck Cars"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -1759,104 +472,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "ring-or-bar-dip-support",
-  "name": "Ring Or Bar Dip Support",
+  "id": null,
+  "name": "SUSTAINED PACE",
   "uses": 3,
-  "aliases": [
-   "Ring or Bar Dip Support"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "rower-ring",
-  "name": "Rower Ring",
-  "uses": 3,
-  "aliases": [
-   "Rower, Ring, or Physioball Hamstring Curl"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "russian-kettlebell-or",
-  "name": "Russian Kettlebell Or",
-  "uses": 3,
-  "aliases": [
-   "Russian KBS or"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "sidelying-powell-raise-on-bench",
-  "name": "Sidelying Powell Raise On Bench",
-  "uses": 3,
-  "aliases": [
-   "Sidelying Powell Raise on Bench"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "single-arm-alternating-devils-press",
-  "name": "Single Arm Alternating Devils Press",
-  "uses": 3,
-  "aliases": [
-   "Single Arm Alternating Devils Press (5/side)",
-   "Single Arm Alternating Devils Press (6/side)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "single-arm-dumbbell-meadow-row",
-  "name": "Single Arm Dumbbell Meadow Row",
-  "uses": 3,
-  "aliases": [
-   "Single Arm DB Meadow Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
-  "id": "single-arm-dumbbell-swing",
-  "name": "Single Arm Dumbbell Swing",
-  "uses": 3,
-  "aliases": [
-   "Single Arm Dumbbell Swing"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "single-leg-banded-adduction",
-  "name": "Single Leg Banded Adduction",
-  "uses": 3,
-  "aliases": [
-   "Single Leg Banded Adduction"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "supinated-band-pullapart",
-  "name": "Supinated Band Pullapart",
-  "uses": 3,
-  "aliases": [
-   "Supinated Band Pullapart"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "sustained-pace",
-  "name": "Sustained Pace",
-  "uses": 3,
-  "aliases": [
-   "SUSTAINED PACE"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -1865,26 +485,6 @@
   "uses": 3,
   "aliases": [],
   "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": "wall-sit-single-leg-march",
-  "name": "Wall Sit Single Leg March",
-  "uses": 3,
-  "aliases": [
-   "Wall Sit Single Leg March"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "squat"
- },
- {
-  "id": "weighted-hanging-leg-tuck",
-  "name": "Weighted Hanging Leg Tuck",
-  "uses": 3,
-  "aliases": [
-   "Weighted Hanging Leg Tuck"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -1944,36 +544,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "alternating-oblique-raise-in-dip-support",
-  "name": "Alternating Oblique Raise In Dip Support",
-  "uses": 2,
-  "aliases": [
-   "Alternating Oblique Raise in Dip Support"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "banded-monster-walk",
-  "name": "Banded Monster Walk",
-  "uses": 2,
-  "aliases": [
-   "Banded Monster Walk"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "bent-over-scap-retraction",
-  "name": "Bent Over Scap Retraction",
-  "uses": 2,
-  "aliases": [
-   "Bent Over Scap Retractions"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Bike 1k/900m",
   "uses": 2,
@@ -1982,23 +552,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "calories-row",
-  "name": "Calories Row",
+  "id": null,
+  "name": "Cluster Sets",
   "uses": 2,
-  "aliases": [
-   "Calories Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
-  "id": "cluster-set",
-  "name": "Cluster Set",
-  "uses": 2,
-  "aliases": [
-   "Cluster Sets"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -2007,38 +565,6 @@
   "uses": 2,
   "aliases": [],
   "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-dumbbell-rack-march",
-  "name": "Dual Dumbbell Rack March",
-  "uses": 2,
-  "aliases": [
-   "Dual DB Rack March"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-dumbbell-rack-tall-kneel-to-stand",
-  "name": "Dual Dumbbell Rack Tall Kneel To Stand",
-  "uses": 2,
-  "aliases": [
-   "Dual DB Rack Tall Kneel to Stand",
-   "Dual Dumbbell Rack Tall Kneel to Stand"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-dumbbell-sumo-dl-high-pull",
-  "name": "Dual Dumbbell Sumo Dl High Pull",
-  "uses": 2,
-  "aliases": [
-   "Dual DB Sumo DL High Pull",
-   "Dual Dumbbell Sumo DL High Pull"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -2066,144 +592,27 @@
   "suggestedPattern": null
  },
  {
-  "id": "dumbbell-external-rotation-elbow-on-knee",
-  "name": "Dumbbell External Rotation Elbow On Knee",
+  "id": null,
+  "name": "Easy Pedal (or rest)",
   "uses": 2,
-  "aliases": [
-   "Dumbbell External Rotation Elbow on Knee"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
-  "id": "dumbbell-powell-raise",
-  "name": "Dumbbell Powell Raise",
+  "id": null,
+  "name": "Fatigued Abdominals",
   "uses": 2,
-  "aliases": [
-   "DB Powell Raise"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
-  "id": "dumbbell-skull-crusher",
-  "name": "Dumbbell Skull Crusher",
+  "id": null,
+  "name": "Isometric Fatigue Shoulders",
   "uses": 2,
-  "aliases": [
-   "DB Skull Crushers"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-turkish-get-up",
-  "name": "Dumbbell Turkish Get Up",
-  "uses": 2,
-  "aliases": [
-   "DB Turkish Get Up L",
-   "DB Turkish Get Up R"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "easy-pedal",
-  "name": "Easy Pedal",
-  "uses": 2,
-  "aliases": [
-   "Easy Pedal (or rest)"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "fatigued-abdominal",
-  "name": "Fatigued Abdominal",
-  "uses": 2,
-  "aliases": [
-   "Fatigued Abdominals"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "half-kneeling-dumbbell-chop-and-lift",
-  "name": "Half Kneeling Dumbbell Chop And Lift",
-  "uses": 2,
-  "aliases": [
-   "Half Kneeling DB Chop and Lift"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "handstand-walk",
-  "name": "Handstand Walk",
-  "uses": 2,
-  "aliases": [
-   "Handstand Walk"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "isometric-fatigue-shoulder",
-  "name": "Isometric Fatigue Shoulder",
-  "uses": 2,
-  "aliases": [
-   "Isometric Fatigue Shoulders"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "lateral-arc-med-ball-slam",
-  "name": "Lateral Arc Med Ball Slam",
-  "uses": 2,
-  "aliases": [
-   "Lateral Arc Med Ball Slam"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "lateral-arc-slam-ball",
-  "name": "Lateral Arc Slam Ball",
-  "uses": 2,
-  "aliases": [
-   "Lateral Arc Slam Ball"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "left-arm-kettlebell-press",
-  "name": "Left Arm Kettlebell Press",
-  "uses": 2,
-  "aliases": [
-   "Left Arm KB Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "left-arm-press",
-  "name": "Left Arm Press",
-  "uses": 2,
-  "aliases": [
-   "Left Arm Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "leg-lower-to-windshield",
-  "name": "Leg Lower To Windshield",
-  "uses": 2,
-  "aliases": [
-   "Leg Lower to Windshield"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -2220,16 +629,6 @@
   "uses": 2,
   "aliases": [],
   "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": "poliquin-raise",
-  "name": "Poliquin Raise",
-  "uses": 2,
-  "aliases": [
-   "Poliquin Raise"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -2265,16 +664,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "quadruped-reverse-crawl",
-  "name": "Quadruped Reverse Crawl",
-  "uses": 2,
-  "aliases": [
-   "Quadruped Reverse Crawl"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
   "id": null,
   "name": "Row + Ring Dip",
   "uses": 2,
@@ -2307,41 +696,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "single-arm-dumbbell-cuban-press",
-  "name": "Single Arm Dumbbell Cuban Press",
-  "uses": 2,
-  "aliases": [
-   "Single Arm DB Cuban Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
   "id": null,
   "name": "Single Arm Trap 3 Raise",
   "uses": 2,
   "aliases": [],
   "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": "supine-single-leg-lowering",
-  "name": "Supine Single Leg Lowering",
-  "uses": 2,
-  "aliases": [
-   "Supine Single Leg Lowering"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "toes-to-ring",
-  "name": "Toes To Ring",
-  "uses": 2,
-  "aliases": [
-   "Toes to Rings"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -2465,72 +824,12 @@
   "suggestedPattern": null
  },
  {
-  "id": "barbell-reverse-cur",
-  "name": "Barbell Reverse Cur",
-  "uses": 1,
-  "aliases": [
-   "Barbell Reverse Cur"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Bike 600",
   "uses": 1,
   "aliases": [],
   "reason": "contains-numbers",
   "suggestedPattern": null
- },
- {
-  "id": "bottom-of-dip-support",
-  "name": "Bottom Of Dip Support",
-  "uses": 1,
-  "aliases": [
-   "Bottom of Dip Support"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "bradford-press-to-full-press",
-  "name": "Bradford Press To Full Press",
-  "uses": 1,
-  "aliases": [
-   "Bradford Press to Full Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "bradford-press-with-lockout",
-  "name": "Bradford Press With Lockout",
-  "uses": 1,
-  "aliases": [
-   "Bradford Press with Lockout"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "cal-bike",
-  "name": "Cal Bike",
-  "uses": 1,
-  "aliases": [
-   "Cal Bike"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "cal-row",
-  "name": "Cal Row",
-  "uses": 1,
-  "aliases": [
-   "Cal Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
  },
  {
   "id": null,
@@ -2549,81 +848,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "dual-dumbbell-rack-lateral-band-walk",
-  "name": "Dual Dumbbell Rack Lateral Band Walk",
-  "uses": 1,
-  "aliases": [
-   "Dual DB Rack Lateral Band Walk"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "dual-kettlebell-dl",
-  "name": "Dual Kettlebell Dl",
-  "uses": 1,
-  "aliases": [
-   "Dual KB DL"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dual-kettlebell-high-pull",
-  "name": "Dual Kettlebell High Pull",
-  "uses": 1,
-  "aliases": [
-   "Dual KB High Pull"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-box-step-over",
-  "name": "Dumbbell Box Step Over",
-  "uses": 1,
-  "aliases": [
-   "DB Box Step Over ()"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "dumbbell-external-rotation",
-  "name": "Dumbbell External Rotation",
-  "uses": 1,
-  "aliases": [
-   "DB External Rotation"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Dumbbell Turkish Sit Ups 10-25#",
   "uses": 1,
   "aliases": [],
   "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": "elevator-bar",
-  "name": "Elevator Bar",
-  "uses": 1,
-  "aliases": [
-   "Elevator Bar or Ring Dip"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "feet-anchored",
-  "name": "Feet Anchored",
-  "uses": 1,
-  "aliases": [
-   "Feet Anchored or GHD Sit Up"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -2691,56 +920,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "half-kneeling-band-row",
-  "name": "Half Kneeling Band Row",
-  "uses": 1,
-  "aliases": [
-   "Half Kneeling Band Row"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
-  "id": "handstand-hold",
-  "name": "Handstand Hold",
-  "uses": 1,
-  "aliases": [
-   "Handstand Hold"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "hanging-knee-raise",
-  "name": "Hanging Knee Raise",
-  "uses": 1,
-  "aliases": [
-   "Hanging Knee Raise"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "hs-hold",
-  "name": "Hs Hold",
-  "uses": 1,
-  "aliases": [
-   "HS Hold"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "hs-walk",
-  "name": "Hs Walk",
-  "uses": 1,
-  "aliases": [
-   "HS Walk or 4 Wall Walks"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
   "id": null,
   "name": "Incline Trap 3 Raise",
   "uses": 1,
@@ -2787,16 +966,6 @@
   "aliases": [],
   "reason": "contains-numbers",
   "suggestedPattern": null
- },
- {
-  "id": "kettlebell-see-saw-row",
-  "name": "Kettlebell See Saw Row",
-  "uses": 1,
-  "aliases": [
-   "KB See Saw Row (10/side) (53/35)"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
  },
  {
   "id": null,
@@ -2887,16 +1056,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "monster-walk",
-  "name": "Monster Walk",
-  "uses": 1,
-  "aliases": [
-   "Monster Walk"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
   "id": null,
   "name": "Muscle Snatch + 2 Overhead Squat",
   "uses": 1,
@@ -2945,13 +1104,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "rep",
-  "name": "Rep",
+  "id": null,
+  "name": "reps.",
   "uses": 1,
-  "aliases": [
-   "reps."
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -2963,41 +1120,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "right-arm-kettlebell-press",
-  "name": "Right Arm Kettlebell Press",
-  "uses": 1,
-  "aliases": [
-   "Right Arm KB Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "right-arm-press",
-  "name": "Right Arm Press",
-  "uses": 1,
-  "aliases": [
-   "Right Arm Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
   "id": null,
   "name": "Row for Max Calories",
   "uses": 1,
   "aliases": [],
   "reason": "instruction-text",
-  "suggestedPattern": null
- },
- {
-  "id": "russian-twists-s",
-  "name": "Russian Twists S",
-  "uses": 1,
-  "aliases": [
-   "Russian Twists s (10/side)"
-  ],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  },
  {
@@ -3057,86 +1184,6 @@
   "suggestedPattern": null
  },
  {
-  "id": "single-arm-alternating-russian-kettlebell",
-  "name": "Single Arm Alternating Russian Kettlebell",
-  "uses": 1,
-  "aliases": [
-   "Single Arm Alternating Russian KBS"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "single-arm-dumbbell-rack-tall-kneel-to-stand",
-  "name": "Single Arm Dumbbell Rack Tall Kneel To Stand",
-  "uses": 1,
-  "aliases": [
-   "Single Arm Dumbbell Rack Tall Kneel to Stand"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "single-arm-split-stance-dumbbell-swing",
-  "name": "Single Arm Split Stance Dumbbell Swing",
-  "uses": 1,
-  "aliases": [
-   "Single Arm Split Stance Dumbbell Swing"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "slam-ball",
-  "name": "Slam Ball",
-  "uses": 1,
-  "aliases": [
-   "Slam Ball"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "split-stance-dumbbell-swing",
-  "name": "Split Stance Dumbbell Swing",
-  "uses": 1,
-  "aliases": [
-   "Split Stance DB Swing"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "hinge"
- },
- {
-  "id": "split-stance-single-arm-russian-kettlebell",
-  "name": "Split Stance Single Arm Russian Kettlebell",
-  "uses": 1,
-  "aliases": [
-   "Split Stance Single Arm Russian KBS"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "strict-dumbbell-press",
-  "name": "Strict Dumbbell Press",
-  "uses": 1,
-  "aliases": [
-   "Strict Dumbbell Press"
-  ],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-press"
- },
- {
-  "id": "strict-hspu",
-  "name": "Strict Hspu",
-  "uses": 1,
-  "aliases": [
-   "Strict HSPU or Pike HSPU"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
   "id": null,
   "name": "Sunday, , March 29th, 2026",
   "uses": 1,
@@ -3145,13 +1192,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "tempo",
+  "id": null,
   "name": "Tempo",
   "uses": 1,
-  "aliases": [
-   "Tempo"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -3187,23 +1232,11 @@
   "suggestedPattern": null
  },
  {
-  "id": "wall-facing-shoulder-tap",
-  "name": "Wall Facing Shoulder Tap",
+  "id": null,
+  "name": "Warm-up (8 min)",
   "uses": 1,
-  "aliases": [
-   "Wall Facing Shoulder Taps"
-  ],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "warm-up",
-  "name": "Warm Up",
-  "uses": 1,
-  "aliases": [
-   "Warm-up (8 min)"
-  ],
-  "reason": "no-pattern-rule-matched",
+  "aliases": [],
+  "reason": "excluded-by-override",
   "suggestedPattern": null
  },
  {
@@ -3212,182 +1245,6 @@
   "uses": 1,
   "aliases": [],
   "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": "100m-run",
-  "name": "100m Run",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "140-single-under",
-  "name": "140 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "4-wall-walk",
-  "name": "4 Wall Walk",
-  "uses": 0,
-  "aliases": [],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "40-50-single-under",
-  "name": "40 50 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "40-single-under",
-  "name": "40 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "45-degree-hyper",
-  "name": "45 Degree Hyper",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "48-single-under",
-  "name": "48 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "50-single-under",
-  "name": "50 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "6-inchworm",
-  "name": "6 Inchworm",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "60-75-single-under",
-  "name": "60 75 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "60-single-under",
-  "name": "60 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "75-single-under",
-  "name": "75 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "80-single-under",
-  "name": "80 Single Under",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "band-row",
-  "name": "Band Row",
-  "uses": 0,
-  "aliases": [],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
-  "id": "dumbbell-prone-row",
-  "name": "Dumbbell Prone Row",
-  "uses": 0,
-  "aliases": [],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "horizontal-pull"
- },
- {
-  "id": "pike-hs-hold",
-  "name": "Pike Hs Hold",
-  "uses": 0,
-  "aliases": [],
-  "reason": "pattern-not-certain",
-  "suggestedPattern": "core"
- },
- {
-  "id": "pike-hspu",
-  "name": "Pike Hspu",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "pronated-grip-lat-pull-down",
-  "name": "Pronated Grip Lat Pull Down",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "rower-body-saw",
-  "name": "Rower Body Saw",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "standing-cable-abduction",
-  "name": "Standing Cable Abduction",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "supinated-grip-lat-pull-down",
-  "name": "Supinated Grip Lat Pull Down",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
-  "suggestedPattern": null
- },
- {
-  "id": "wide-grip-lat-pull-down",
-  "name": "Wide Grip Lat Pull Down",
-  "uses": 0,
-  "aliases": [],
-  "reason": "no-pattern-rule-matched",
   "suggestedPattern": null
  }
 ]

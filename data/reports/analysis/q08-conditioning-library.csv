@@ -26,7 +26,7 @@ conditioning,amrap,"Run, Hinge, Core (12 min)",12,12,0ed5f5e5dc40d41866e44be9cb3
 conditioning,amrap,Push Up + Dip Fatigue (12 min),12,12,0ed7c9c931f4e41e9a19c74340e4,1,"Push Up,Row"
 conditioning,amrap,High Turnover Push (12 min),12,12,0ef081231a77341594fb2530d89f,1,"Row Calorie,Deficit Push Up,Inchworm Push Up"
 conditioning,amrap,Upper Functional Pump Conditioning (12 min),12,12,11bf7e73721ae9189784e8f013eb,1,
-conditioning,amrap,High Turnover Push (12 min),12,12,12f9d1d2dc5add0559e5ae756ad6,1,"Row Calorie,Strict Bar,Tall Plank Knee To Elbow"
+conditioning,amrap,High Turnover Push (12 min),12,12,12f9d1d2dc5add0559e5ae756ad6,1,"Row Calorie,Strict Bar Dip,Tall Plank Knee To Elbow"
 conditioning,amrap,Functional Pump Conditioning (12 min),12,12,14363a8a4ec87f013e9b42bc707b,1,"Dual Dumbbell Strict Press,Dual Dumbbell Hang Snatch,Dual Dumbbell Overhead Carry,Forearm Plank"
 conditioning,amrap,Upper Body Conditioning (12 min),12,12,1512e673199269008caf61cbb495,1,"Single Arm Devils Press,Push Up"
 conditioning,amrap,"Run, Hinge, Core (12 min)",12,12,15899da8d5b46f11a8b5b4c5813e,1,"Run,Kettlebell Snatch,Cross Body Toe Touch"
@@ -40,7 +40,7 @@ conditioning,amrap,Push Up + Dip Fatigue (12 min),12,12,1a04cfbfa089ab0df31758cd
 conditioning,amrap,Upper Intervals (12 min),12,12,1ab97f12260cf507c854b31e752a,1,
 conditioning,amrap,High Turnover Push (12 min),12,12,1bc9ad2a84db281445ab1fc4884b,1,"Run,Push Up,Tall Plank Knee To Elbow"
 conditioning,amrap,High Turnover Push (12 min),12,12,1bd1c77c9c08cf18bc1314bf305a,1,"Row Calorie,Ring Push Up,Inchworm Push Up"
-conditioning,amrap,High Turnover Push (12 min),12,12,1cbcc21a09fbce12e68c90f22a76,1,"Row Calorie,Strict Bar,Kettlebell Plank Pass Through"
+conditioning,amrap,High Turnover Push (12 min),12,12,1cbcc21a09fbce12e68c90f22a76,1,"Row Calorie,Strict Bar Dip,Kettlebell Plank Pass Through"
 conditioning,amrap,Functional Pump Conditioning (12 min),12,12,1d8a26086724460ca5c54c91ef77,1,"Run,Dumbbell Gorilla Row,Single Arm Dumbbell Push Press,Pike Leg Lift Over"
 conditioning,amrap,Upper Intervals (12 min),12,12,1d8f6810a909621a6de995f3404e,1,
 conditioning,amrap,Hinge Conditioning (12-15 min),12,15,0063381566cb0d08a683b4c8fa72,1,"Dumbbell Power Clean,Dual Dumbbell Hang Snatch,Dumbbell Front Squat,Row Max Meters In Time Remaining"
@@ -125,7 +125,7 @@ conditioning,every-n-sec,Upper Couplets,,,03d2c3fe0029461557dffeebcbc6,1,"Double
 conditioning,every-n-sec,Upper Couplets,,,179066a66c982e1b6956a6f047eb,1,"Row,Push Up,Kettlebell Goblet Carry"
 conditioning,every-n-sec,High Turnover Cardio,,,19d6da19aea54c15c806a4292ee1,1,"Row,Kettlebell Ballistic Row,Kettlebell Goblet Carry"
 conditioning,every-n-sec,Vertical Push/Pull Conditioning,,,1a55878b12339d138bf87c7a861a,1,
-conditioning,every-n-sec,High Power Output (9-12 min),9,12,070aae7495c779106bb929b01e55,1,Easy Pedal
+conditioning,every-n-sec,High Power Output (9-12 min),9,12,070aae7495c779106bb929b01e55,1,
 conditioning,every-n-sec,Lower Body Interval Weight Training (10 min),10,10,017513be9194590fc371de7311cb,1,Double Under
 conditioning,every-n-sec,Overhead Intervals (10 min),10,10,018383951800751f2577c7456df4,1,"Run,Dual Dumbbell Push Press,Dual Dumbbell Overhead Carry,Feet Anchored Sit Up"
 conditioning,every-n-sec,Overhead Intervals (10 min),10,10,02061c28f21f600554b7c817b8ef,1,"Run,Dual Dumbbell Push Press,Weighted Feet Anchored Sit Up"
@@ -138,7 +138,7 @@ conditioning,every-n-sec,Lower Sprint (10 min),10,10,1e91c36f7a8f06138748e98206d
 conditioning,every-n-sec,Vertical Push/Pull Conditioning (12 min),12,12,0002cf216531a81547ee1e63f177,1,
 conditioning,every-n-sec,Isometric Fatigue Shoulders (12 min),12,12,001fbf19346c0d1fe20d4750a701,1,"Devils Press,Plank Press Up"
 conditioning,every-n-sec,Isometric Fatigue Shoulders (12 min),12,12,005cf65571f6cb02ac67b1b48d8a,1,"Wall Walk,Plank Dumbbell Pull Through,Dumbbell Front Raise,Overhead Dumbbell Carry"
-conditioning,every-n-sec,High Turnover Push (12 min),12,12,01521cee0fd0ee16251e2fcddadd,1,"Bike Calorie,Parallette Push Up,Move Immediately Into The Next Couplet,Plank Walk Up"
+conditioning,every-n-sec,High Turnover Push (12 min),12,12,01521cee0fd0ee16251e2fcddadd,1,"Bike Calorie,Parallette Push Up,Plank Walk Up"
 conditioning,every-n-sec,Isometric Fatigue Shoulders (12 min),12,12,01a82729ff9f4d015fcf76da1c1d,1,"Wall Walk,Plank Dumbbell Pull Through,Farmers Walk"
 conditioning,every-n-sec,"Run, Hinge, Core (12 min)",12,12,02dd7d5b234c3e1470fa2f5c7d70,1,"Shuttle Run,Pike Leg Lift Over"
 conditioning,every-n-sec,Vertical Push/Pull Conditioning (12 min),12,12,02ebb242f0fe3b100fb63eefd5e9,1,Lateral Burpee Over Dumbbell
@@ -151,7 +151,7 @@ conditioning,every-n-sec,Push Up + Dip Fatigue (12 min),12,12,071ccc9ee89648180f
 conditioning,every-n-sec,Overhead Intervals (12 min),12,12,07330ddfdafcad01cceced67a91b,1,"Row,Dual Dumbbell Push Press"
 conditioning,every-n-sec,Isometric Fatigue Shoulders (12 min),12,12,07b8397e456f2e0abfdda0394beb,1,"Ring Plank,Wall Walk,Dumbbell Reverse Curl,Plank Press Up"
 conditioning,every-n-sec,Push Up + Dip Fatigue (12 min),12,12,09c6b26d9d716411d8929216b3a3,1,"Wide Push Up,Push Up,Narrow Tricep Push Up,Row"
-conditioning,every-n-sec,High Power Output (12 min),12,12,0a808bb0141cef0a8577a62dbf5c,1,Easy Pedal
+conditioning,every-n-sec,High Power Output (12 min),12,12,0a808bb0141cef0a8577a62dbf5c,1,
 conditioning,every-n-sec,Vertical Push/Pull Conditioning (12 min),12,12,0bc50c41cbb76904d3a4c087536b,1,"Burpee,Supinated Strict Pull Up"
 conditioning,every-n-sec,Upper Intervals (12 min),12,12,0c02b5c0ede68e0cb6538defdc07,1,"Row,Kettlebell Snatch,Single Arm Kettlebell Push Press,Burpee Over Kettlebell"
 conditioning,every-n-sec,Functional Pump Conditioning (12 min),12,12,0d00451c6228891571efdd1f1587,1,"Right Leg Goblet Kickstand Squat,Left Leg Goblet Kickstand Squat,Run"
@@ -165,14 +165,14 @@ conditioning,every-n-sec,Vertical Push/Pull Conditioning (12 min),12,12,11b98034
 conditioning,every-n-sec,Vertical Push/Pull Conditioning (12 min),12,12,11e346f836b29306c7f4a82b5784,1,
 conditioning,every-n-sec,Isometric Fatigue Shoulders (12 min),12,12,1327f027d94a8103a45ca6778bb8,1,"Devils Press,Crush Grip Hammer Curl,Plank Press Up"
 conditioning,every-n-sec,Isometric Fatigue Shoulders (12 min),12,12,13869b38f5f4e507003ab207c53e,1,"Farmers Carry,Dumbbell Burpee,Waiter Curl,Plank Knee To Elbow"
-conditioning,every-n-sec,High Power Output (12 min),12,12,14c0e1157e1ff606fd125ed7dfd7,1,"Russian Kettlebell,Box Jump Over"
-conditioning,every-n-sec,High Turnover Push (12 min),12,12,16995307f3691b0482335ae1c122,1,"Bike Calorie,Wide Grip Push Up,Move Immediately Into The Next Couplet,Plank To Alternating Toe Touch"
-conditioning,every-n-sec,High Turnover Push (12 min),12,12,16e8847c4611590ce242b238c843,1,"Parallette Push Up,Burpee,Move Immediately Into The Next Couplet,Double Under,Plank Walk Up"
+conditioning,every-n-sec,High Power Output (12 min),12,12,14c0e1157e1ff606fd125ed7dfd7,1,"Russian Kettlebell Swing,Box Jump Over"
+conditioning,every-n-sec,High Turnover Push (12 min),12,12,16995307f3691b0482335ae1c122,1,"Bike Calorie,Wide Grip Push Up,Plank To Alternating Toe Touch"
+conditioning,every-n-sec,High Turnover Push (12 min),12,12,16e8847c4611590ce242b238c843,1,"Parallette Push Up,Burpee,Double Under,Plank Walk Up"
 conditioning,every-n-sec,Isometric Fatigue Shoulders (12 min),12,12,16f1c70df1dc1f00de0fded21044,1,"Ring Or Bar Dip Support,Dumbbell Lateral Raise,Diamond Push Up,Wall Walk"
 conditioning,every-n-sec,Interval Lower Body Weight Training (12min),12,12,17ceb20a41bea60ee7f6573268e1,2,Bike
 conditioning,every-n-sec,Push Up + Dip Fatigue (12 min),12,12,19a649d43c7caa168558fa6f36ac,1,"Wide Push Up,Push Up,Narrow Tricep Push Up,Run"
 conditioning,every-n-sec,Overhead Intervals (12 min),12,12,1bd256c702677f19ca3474f441b3,1,"Row,Dual Kettlebell Push Press,Feet Anchored Sit Up"
-conditioning,every-n-sec,High Turnover Push (12 min),12,12,1c8610d19caaca1779730f0b4751,1,"Wide Grip Push Up,Burpee,Move Immediately Into The Next Couplet,Double Under,Plank To Alternating Toe Touch"
+conditioning,every-n-sec,High Turnover Push (12 min),12,12,1c8610d19caaca1779730f0b4751,1,"Wide Grip Push Up,Burpee,Double Under,Plank To Alternating Toe Touch"
 conditioning,every-n-sec,Functional Pump Conditioning (12 min),12,12,1ceb19ca473f191b32c23fe3c85a,1,"Right Leg Goblet Kickstand Squat,Left Leg Goblet Kickstand Squat,Row"
 conditioning,every-n-sec,Upper Intervals (12 min),12,12,1d3d4b51b0d6e11fff42922cc606,1,"Burpee Over Kettlebell,Run"
 conditioning,every-n-sec,Upper Couplets (12 min),12,12,1f1f88eacfc8e00c4a417bdb8395,1,"Deficit Push Up,Burpee,Farmers Walk"
@@ -222,12 +222,12 @@ conditioning,every-n-sec,Conditioning (15 min),15,15,14acbefe847c3313748d1c541b4
 conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,192cd3f5ea12de0df2328baf6d42,2,
 conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,1a6e6d6ff8608c07d24db54958e5,1,Row
 conditioning,every-n-sec,Overhead Intervals (15 min),15,15,1a6f2a6576ab851e76e2a964ec6d,1,"Row,Dual Dumbbell Push Press"
-conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,1b2c18a252ddf1171e4cc5d5721f,1,"Russian Kettlebell,Row"
-conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,1c183013035637199e0c8fd8d281,1,"Row,Kettlebell Sumo Deadlift,Russian Kettlebell"
-conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,1dd8c58bee31da006582d6a17aa8,1,"Russian Kettlebell,Row"
+conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,1b2c18a252ddf1171e4cc5d5721f,1,"Russian Kettlebell Swing,Row"
+conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,1c183013035637199e0c8fd8d281,1,"Row,Kettlebell Sumo Deadlift,Russian Kettlebell Swing"
+conditioning,every-n-sec,Hinge + Core Intervals (15 min),15,15,1dd8c58bee31da006582d6a17aa8,1,"Russian Kettlebell Swing,Row"
 conditioning,every-n-sec,Conditioning (15-16 min),15,16,03807b15057c7706c484f6925f80,1,"Row,Strict Pull Up"
-conditioning,every-n-sec,Alphabet Soup (21-28 min),21,28,01e20824192b6c1c7d724deda994,1,"American Kettlebell,Row,Run,Burpee"
-conditioning,every-n-sec,Alphabet Soup (21-28 min),21,28,0708c1fe81cce51a8945e1fee585,1,"Russian Twists S,Bike,Hand Release Burpee,Shuttle Run"
+conditioning,every-n-sec,Alphabet Soup (21-28 min),21,28,01e20824192b6c1c7d724deda994,1,"American Kettlebell Swing,Row,Run,Burpee"
+conditioning,every-n-sec,Alphabet Soup (21-28 min),21,28,0708c1fe81cce51a8945e1fee585,1,"Russian Twist,Bike,Hand Release Burpee,Shuttle Run"
 conditioning,every-n-sec,Alphabet Soup (21-28 min),21,28,1e085391f421cb15c2e3c1d38838,1,"Bike,Hand Release Burpee,Shuttle Run"
 conditioning,every-n-sec,Alphabet Soup (28 min),28,28,026fa9efa9a3561892557f341f2b,1,"Row,Burpee Over Rower,Run"
 conditioning,for-time,Run Mix Modal,,,0d12482e8c794316c4ea6a64bd25,1,Alternating Dumbbell Clean
@@ -327,7 +327,7 @@ conditioning,for-time,Lower Body Conditioning (15-20 min),15,20,1f5b4b3acdd50107
 conditioning,for-time,Aerobic Carry (18 min),18,18,04d6e99c5439611564babb8f1d10,1,"Bike Cal,Cross Body Toe Touch"
 conditioning,for-time,Aerobic Carry (18 min),18,18,141a0d86e62e411c5f1bca3fca10,1,"Bike Cal,Burpee No Jump,Side Plank Rotation"
 conditioning,for-time,Power 30 (30 min),30,30,05369fce67b9630a0c5e1aa0eac6,1,"Row,Dumbbell Hang Power Clean"
-conditioning,for-time,Power 30 (30 min),30,30,0d844ed15d971803204bd1075ca6,1,"Box Jump Over,Russian Kettlebell"
+conditioning,for-time,Power 30 (30 min),30,30,0d844ed15d971803204bd1075ca6,1,"Box Jump Over,Russian Kettlebell Swing"
 conditioning,for-time,Power 30 (30 min),30,30,11047c768dc4b91efafedc7d0723,1,"Row,Box Jump Over,Hang Power Snatch"
 conditioning,for-time,Power 30 (30 min),30,30,133733106bd5dd1d146068b72230,1,"Bar Facing Burpee,Hang Power Clean,Row,Ghd Sit Up,Alternating Dumbbell Snatch,Box Jump Over"
 conditioning,for-time,Power 30 (30 min),30,30,16815edc71b25b13f95de6e19193,1,"Power Snatch,Burpee Over Bar"
@@ -341,14 +341,14 @@ conditioning,intervals,Interval Weight Training (12 min),12,12,065e1cd151dae6001
 conditioning,intervals,Interval Weight Training (12 min),12,12,06d5768e51b8ee0677130bad0de3,1,"Dumbbell Swing,Box Jump Step Down,Double Under"
 conditioning,intervals,Interval Weight Training (12 min),12,12,0769eb1942c4b311c76f8a89c4b4,1,"Single Arm Split Stance Dumbbell Swing,Switch Lunge,Double Under"
 conditioning,intervals,Interval Weight Training (12 min),12,12,082d18ae5a92b5176c0d1928ba0e,1,"Row,Single Arm Alternating Russian Kettlebell Swing,Box Jump Over"
-conditioning,intervals,Interval Weight Training (12 min),12,12,085fc32975ef401a28b7866386df,1,"Row,Single Arm Alternating Russian Kettlebell,Box Jump Over"
+conditioning,intervals,Interval Weight Training (12 min),12,12,085fc32975ef401a28b7866386df,1,"Row,Russian Kettlebell Swing,Box Jump Over"
 conditioning,intervals,Interval Weight Training (12 min),12,12,0a11d603be8aa9070aa986a1cca6,1,"Run,Russian Step Up,Russian Kettlebell Swing"
-conditioning,intervals,Interval Weight Training (12 min),12,12,0a5c974e77907d0ce58d431ca4c6,1,"Run,Russian Step Up,Russian Kettlebell"
+conditioning,intervals,Interval Weight Training (12 min),12,12,0a5c974e77907d0ce58d431ca4c6,1,"Run,Russian Step Up,Russian Kettlebell Swing"
 conditioning,intervals,Interval Weight Training (12 min),12,12,0b9735d029ba990bcd8578996f0a,1,"Row,Burpee Box Jump"
-conditioning,intervals,Interval Weight Training (12 min),12,12,0bd2d884f934c6097ad91cc359e9,1,"Russian Kettlebell,Box Jump Step Down,Row"
+conditioning,intervals,Interval Weight Training (12 min),12,12,0bd2d884f934c6097ad91cc359e9,1,"Russian Kettlebell Swing,Box Jump Step Down,Row"
 conditioning,intervals,Interval Weight Training (12 min),12,12,0cce2e8246f15f18c7036d2d9f7b,1,"Dual Russian Kettlebell Swing,Switch Lunge,Run"
 conditioning,intervals,Interval Weight Training (12 min),12,12,13e030c2b8001711bf5f58d54d14,1,"Russian Kettlebell Swing,Box Jump Step Down,Row"
-conditioning,intervals,Interval Weight Training (12 min),12,12,142399b0e94ad10eebc11856fbad,1,"Run,Split Stance Single Arm Russian Kettlebell"
+conditioning,intervals,Interval Weight Training (12 min),12,12,142399b0e94ad10eebc11856fbad,1,"Run,Russian Kettlebell Swing"
 conditioning,intervals,Interval Weight Training (12 min),12,12,148656c6e4a1581a5c173514be51,1,"Russian Kettlebell Swing,Box Jump Step Down,Row"
 conditioning,intervals,Interval Weight Training (12 min),12,12,14df08d9adacb50c0789dfca0f69,1,Run
 conditioning,intervals,Interval Weight Training (12 min),12,12,166c20e56d77c51600ea5ede9c4b,1,Run
@@ -362,7 +362,7 @@ conditioning,intervals,Interval Lower Body Weight Training (12-15 min),12,15,0a2
 conditioning,intervals,Interval Lower Body Weight Training (12-15 min),12,15,0b49fb1d1672751d7991ee0133d8,1,"Run,Goblet Squat"
 conditioning,intervals,Interval Lower Body Weight Training (12-15 min),12,15,0eee04d1cccf5d11199fb9abd8df,1,"Run,Dumbbell Suitcase Walking Lunge,Squat Jump"
 conditioning,intervals,Interval Lower Body Weight Training (12-15 min),12,15,1e0da5b730161206987a65cca15e,1,"Run,Goblet Squat"
-conditioning,intervals,Interval Lower Body Weight Training (14 min),14,14,0ced821ca0f45004be7dbc20e869,1,"Bike,Kettlebell Russian Twists Or"
+conditioning,intervals,Interval Lower Body Weight Training (14 min),14,14,0ced821ca0f45004be7dbc20e869,1,"Bike,Russian Twist"
 conditioning,intervals,Interval Lower Body Weight Training (14 min),14,14,110492b47e7b9e0b44e2ded8b6aa,1,"Row,Kettlebell Plank Knee To Elbow"
 conditioning,intervals,Interval Lower Body Weight Training (14 min),14,14,1e99843c85f3ba0d6c52ae14acdf,1,"Row,Dumbbell Suitcase Squat,Dumbbell Suitcase Walking Lunge,Alternating Dumbbell Power Snatch"
 conditioning,intervals,Anaerobic Power Conditioning (15 min),15,15,0008e7dcaab805098b5b37df4617,1,"Box Jump Over,Bike"
@@ -401,7 +401,7 @@ conditioning,ladder,Upper Body Grinder (15 min time cap),15,15,1d71f740dc2a87123
 conditioning,unclassified,GRINDER,,,071539aa357cf11ebdf234ea4613,1,"Dumbbell Swing,Goblet Squat,Farmers Walk,Single Arm Plank"
 conditioning,unclassified,Couple of Couplets,,,0fe7db00c4334d005213e79dc087,1,"Row,Ring Push Up,Pronated Body Row"
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,00a297b2918e970707dd99e9a005,1,"Bike,Deficit Push Up"
-conditioning,unclassified,Run Mix Modal (12 min),12,12,00bc5cd00412f60da1b97ed2ba3e,1,"Sustained Pace,Run,Strict Toes To Bar,Alternating Dumbbell Power Clean"
+conditioning,unclassified,Run Mix Modal (12 min),12,12,00bc5cd00412f60da1b97ed2ba3e,1,"Run,Strict Toes To Bar,Alternating Dumbbell Power Clean"
 conditioning,unclassified,Barbell Cycling (12 min),12,12,01b42a20d4de1b1491af71dae76a,1,"Bike,Hang Squat Snatch"
 conditioning,unclassified,Push Pull Sprint (12 min),12,12,01dbc1f92f0f4c07432b6411f00e,2,Shuttle Run
 conditioning,unclassified,Functional Pump Conditioning (12 min),12,12,027e45269265130a14f25caae267,1,"Run,Alternating Kettlebell Push Press,Kettlebell Overhead Carry,Ring Plank"
@@ -420,10 +420,10 @@ conditioning,unclassified,Push Pull Sprint (12 min),12,12,0dfa6373fe5fd2022a1c50
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,10ffedd47ddc330b87ad25e2194f,1,"Narrow Grip Push Up,Bike"
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,11112a3c0229e5001b3446674c26,1,"Shuttle Run,Deficit Push Up"
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,1159333eb88ec511cf0eb6ae768b,2,"Narrow Grip Push Up,Shuttle Run"
-conditioning,unclassified,Run Mix Modal (12 min),12,12,137142b6f7ba9d17d82cfddd81b1,1,"Sustained Pace,Shuttle Run,Devils Press,Weighted Hanging Leg Tuck"
+conditioning,unclassified,Run Mix Modal (12 min),12,12,137142b6f7ba9d17d82cfddd81b1,1,"Shuttle Run,Devils Press,Weighted Hanging Leg Tuck"
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,15b78837f7fadd1ad2b2b6997587,1,"Row,Bar Muscle Up,Dumbbell Push Press"
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,15f3a71e31d8ae021ab8a71c0b29,1,"Bike,Ring Muscle Up"
-conditioning,unclassified,Run Mix Modal (12 min),12,12,17523ce2f6029f02f7ebda4888c4,1,"Sustained Pace,Shuttle Run,Ghd Sit Up,Alternating Dumbbell Snatch"
+conditioning,unclassified,Run Mix Modal (12 min),12,12,17523ce2f6029f02f7ebda4888c4,1,"Shuttle Run,Ghd Sit Up,Alternating Dumbbell Snatch"
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,17a57dad9c49510652e9b48b54a5,1,"Ring Muscle Up,Narrow Grip Push Up,Bike"
 conditioning,unclassified,Aerobic Push Pull (12 min),12,12,18f80d2c87cb65136715bd251ad6,1,Shuttle Run
 conditioning,unclassified,Functional Pump Conditioning (12 min),12,12,19aae5e4810d7617fb6701ca6ef3,1,"Run,Alternating Dumbbell Push Press,Dumbbell Overhead Carry,Ring Plank"
@@ -476,7 +476,7 @@ conditioning,unclassified,"Hinge, Back, Bicep (15 min)",15,15,00fd937c2d656b1b9a
 conditioning,unclassified,GRINDER (15 min),15,15,01588e86cd17641db8a6187b2829,1,"Russian Kettlebell To Goblet Squat,Farmers Walk,Single Arm Kettlebell Plank"
 conditioning,unclassified,GRINDER (15 min),15,15,02d63aa97f33250b4c80189db432,1,"Goblet Wall Sit,Kettlebell See Saw Row,Goblet Carry,Bodyweight Walking Lunge"
 conditioning,unclassified,Functional Pump Conditioning (15 min),15,15,0448e3b649340a05571b2def19c0,1,"Run,Kettlebell Overhead Carry,Ring Plank"
-conditioning,unclassified,GRINDER (15 min),15,15,04534cf579d4cc1909ddfc4ebdd5,1,"Goblet Wall Sit,American Kettlebell,Goblet Carry,Long Step Bodyweight Walking Lunge"
+conditioning,unclassified,GRINDER (15 min),15,15,04534cf579d4cc1909ddfc4ebdd5,1,"Goblet Wall Sit,American Kettlebell Swing,Goblet Carry,Long Step Bodyweight Walking Lunge"
 conditioning,unclassified,Fatigued Shoulders (15 min),15,15,04f8dcef9dc92406f03257ea1485,1,"Bike,Half Kneeling Landmine Press,Bar Facing Burpee"
 conditioning,unclassified,Couple of Couplets (15 min),15,15,062cfc25f72853029d780379571b,1,"Shuttle Run,Push Up To Shoulder Tap,Dumbbell Power Clean"
 conditioning,unclassified,GRINDER (15 min),15,15,07784d45ea3da018e66abe79d887,1,"Farmers Walk,Single Arm Kettlebell Plank"
@@ -543,7 +543,7 @@ conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,043d75d818d6
 conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,064c87b439deb4101bc3a2110b16,1,"Run,Weighted Anchored Sit Up"
 conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,06c474e228c1cb1fa6817ad866e8,1,"Run,Wall Sit,Toes To Bar"
 conditioning,unclassified,Conditioning (15-20 min),15,20,0d64db41d68cea118f0d82f1c281,1,"Bike,Dumbbell Suitcase Drop Lunge,Box Jump Over"
-conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,1283547481c2ec099dc903f0dc64,1,"Run,Wall Sit,Russian Kettlebell Or,Weighted Hanging Knee Tuck"
+conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,1283547481c2ec099dc903f0dc64,1,"Run,Wall Sit,Russian Kettlebell Swing,Weighted Hanging Knee Tuck"
 conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,14a69a15c088a40723ea439da4f6,1,"Run,Weighted Anchored Sit Up"
 conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,1b99714b2ad5dd19dfabe95c5900,1,"Run,Wall Sit,Dumbbell Power Clean Or,Weighted Hanging Knee Tuck"
 conditioning,unclassified,Lower Body Conditioning (15-20 min),15,20,1bc722e1951fd915a0c314d6c236,1,Run
@@ -553,27 +553,27 @@ conditioning,unclassified,Alphabet Soup (20-25 minutes),20,25,022d8ea224d3e1133a
 conditioning,unclassified,Alphabet Soup (20-25 minutes),20,25,0873716e964fa904885405e6e003,1,"Dumbbell Power Clean,Row,Dumbbell Burpee,Dumbbell Thruster"
 conditioning,unclassified,Alphabet Soup (20-25 minutes),20,25,0b27e0af9747a01df7ce12e1518f,1,"Box Jump Step Down,Bike"
 conditioning,unclassified,Alphabet Soup (20-25 minutes),20,25,0dce16c05c38ab0c5bf109f7deb5,1,"Kettlebell Snatch,Burpee Box Jump,Row"
-conditioning,unclassified,Alphabet Soup (20-25 minutes),20,25,196e086839466b1866db269de3db,1,"American Kettlebell,Box Jump Over,Bike,Burpee"
+conditioning,unclassified,Alphabet Soup (20-25 minutes),20,25,196e086839466b1866db269de3db,1,"American Kettlebell Swing,Box Jump Over,Bike,Burpee"
 finisher,amrap,Finisher (8 min),8,8,0f6234f9cece0218ef544604edbe,1,"Kettlebell Horn Grip Bicep Curl,Kettlebell Horn Grip Carry,Single Arm Kettlebell Farmers Walk"
 finisher,amrap,Finisher (8 min),8,8,1e7ab4732cec7d02535d8834017b,1,"Crush Grip Dumbbell Bicep Curl,Dumbbell Crush Grip Bicep Curl Carry,Farmers Walk"
 finisher,every-n-sec,Finisher (8 min),8,8,01fd5c5970d3f2191c05efab360e,1,Barbell Curl
 finisher,every-n-sec,Finisher (8 min),8,8,0d9fb70a62bbd210055c8584f8ea,1,Barbell Curl
-finisher,every-n-sec,Finisher (8 min),8,8,126e7faa3b02a013705b98aff0d5,1,Barbell Reverse Cur
+finisher,every-n-sec,Finisher (8 min),8,8,126e7faa3b02a013705b98aff0d5,1,Barbell Reverse Curl
 finisher,every-n-sec,Finisher (8 min),8,8,1509ba29ce024f16c7c18247e004,1,Barbell Reverse Curl
 finisher,every-n-sec,Finisher (8 min),8,8,153d7263e5de09036bb6388cc1f2,1,Barbell Reverse Curl
 finisher,every-n-sec,Finisher (8 min),8,8,1e3341ce59357d05127ac21fecdf,1,Barbell Curl
-finisher,giant-set,Finisher (6-8 min),6,8,16e18b3a275971074129b36895d0,1,"Mechanical Drop Set,Dumbbell Skullcrusher,Dumbbell Rolling Skullcrusher,Dumbbell Narrow Grip Bench Press"
+finisher,giant-set,Finisher (6-8 min),6,8,16e18b3a275971074129b36895d0,1,"Dumbbell Skullcrusher,Dumbbell Rolling Skullcrusher,Dumbbell Narrow Grip Bench Press"
 finisher,run-the-rack,Finisher (8 min),8,8,078f7d181363fd0b9c1d330cdd73,1,"Alternating Dumbbell Curl,Dumbbell Curl Run The Rack"
 finisher,run-the-rack,Finisher (8 min),8,8,12e000be4343ae1b3a6ed6497020,1,"Dual Dumbbell Curl,Dumbbell Curl Run The Rack"
-finisher,straight-sets,Finisher (6-8 min),6,8,01dbb73776c79e0b855a3543ae0e,1,"1 1/4 Barbell Curl,Extension"
+finisher,straight-sets,Finisher (6-8 min),6,8,01dbb73776c79e0b855a3543ae0e,1,1 1/4 Barbell Curl
 finisher,straight-sets,Finisher (6-8 min),6,8,01ea22e0ba25e10dbe5e1731687d,1,Alternating Dumbbell Bicep Curl Drop Set
 finisher,straight-sets,Finisher (6-8 min),6,8,027878f42e74dc13eaa4b43a23b8,1,Hanging Knee Tuck
 finisher,straight-sets,Finisher (6-8 min),6,8,06e780f9da380a1df3873f0dade3,1,Hanging Leg Raise
 finisher,straight-sets,Finisher (6-8 min),6,8,0ecf73dbf389890d24a562208752,1,Dumbbell Skullcrusher Density Set
 finisher,straight-sets,Finisher (6-8 min),6,8,14f9b1c7f5f46d108663f7291b4c,1,Hammer Curl Drop Set
 finisher,straight-sets,Finisher (6-8 min),6,8,16dd6ff666c67a17ab6afb784188,1,Dumbbell Overhead Tricep Extension Density Set
-finisher,straight-sets,Finisher (6-8 min),6,8,188494edbbaf3b14a80654dbb488,1,"1 1/4 Barbell Curl,Extension"
-finisher,straight-sets,Finisher (6-8 min),6,8,1b3bbad58d6e9c0f548ff422c384,1,"1 1/4 Barbell Curl,Extension"
+finisher,straight-sets,Finisher (6-8 min),6,8,188494edbbaf3b14a80654dbb488,1,1 1/4 Barbell Curl
+finisher,straight-sets,Finisher (6-8 min),6,8,1b3bbad58d6e9c0f548ff422c384,1,1 1/4 Barbell Curl
 finisher,straight-sets,Finisher (8-10 min),8,10,009726f2d759f41e449e0442e707,1,"Concentration Curl,Barbell Reverse Curl"
 finisher,straight-sets,Finisher (8-10 min),8,10,0591ee2dab0c2a024966d21ed452,1,"Bodyweight Donkey Calf Raise,Hollow Hold"
 finisher,straight-sets,Finisher (8-10 min),8,10,070e80a8d2af5503cd4c8749827d,1,"Kettlebell Front Raise,Half Kneeling Kettlebell Chop And Lift"
@@ -589,7 +589,7 @@ finisher,superset,Finisher (4-8 min),4,8,0b3c85bd55c075079d7788686adf,1,"Forearm
 finisher,superset,Finisher (4-8 min),4,8,11572c07b327491a8480363815cb,1,"Frog Crunch,Cross Body Toe Touch,Oblique Crunch"
 finisher,superset,Finisher (4-8 min),4,8,16ed992fc724641aa52d64f2f5a7,2,Feet Anchored Sit Up
 finisher,superset,Finisher (4-8 min),4,8,1c74b5d6997b69182f6cf089c74c,1,"Bicycle Crunch,Heel Tap,Russian Twist"
-finisher,superset,Finisher (6-8 min),6,8,011ffa835b148d0bc87c328c72a9,1,"Cluster Set,Dumbbell Skullcrusher"
+finisher,superset,Finisher (6-8 min),6,8,011ffa835b148d0bc87c328c72a9,1,Dumbbell Skullcrusher
 finisher,superset,Finisher (6-8 min),6,8,0268ffbfb853a11e7131e7ec1cc4,1,"Incline Alternating Dumbbell Bicep Curl,Incline Dumbbell Tricep Kickback"
 finisher,superset,Finisher (6-8 min),6,8,027ebfbaec43f7124087b6637b06,1,"Dumbbell Lateral Raise,Cable Or Banded Face Pull"
 finisher,superset,Finisher (6-8 min),6,8,039679c98070cf0b260fe39d4a28,1,"Dumbbell Twist Curl,Barbell Skullcrusher"
@@ -650,11 +650,11 @@ finisher,superset,Finisher (6-8 Min),6,8,18d99ebcd14c53096b5ac39d1e73,1,"Single 
 finisher,superset,Finisher (6-8 min),6,8,18ebfe97de6de011fc1b35c3bde5,1,"Dumbbell Full Raise,Dumbbell Lateral Raise,Seated Dumbbell Lateral Raise"
 finisher,superset,Finisher (6-8 min),6,8,19c7e45f894519079b1340162435,1,"Copenhagen Plank,Hanging Leg Raise"
 finisher,superset,Finisher (6-8 min),6,8,1ab7b7770fa59d009feb4936a8c7,1,"Single Arm Extended Plank,Suitcase Single Leg Standing Calf Raise"
-finisher,superset,Finisher (6-8 min),6,8,1b12f4049018bf057e32c99be8f4,1,"Ring Slider,Donkey Calf Raise"
+finisher,superset,Finisher (6-8 min),6,8,1b12f4049018bf057e32c99be8f4,1,"Ring Body Saw,Donkey Calf Raise"
 finisher,superset,Finisher (6-8 min),6,8,1b31f02f8efa671cb6d7d7fa340d,1,"Alternating Dumbbell Hammer Curl,Crush Grip Dumbbell Bicep Curl Carry"
 finisher,superset,Finisher (6-8 min),6,8,1b6a49116286f9100bf6f8989b63,1,"Side Plank,Feet Anchored Sit Up"
 finisher,superset,Finisher (6-8 Min),6,8,1b9069c61a648d04bed5eca5487d,1,"Dual Dumbbell Overhead Carry,Ring Or Plank Body Saw"
-finisher,superset,Finisher (6-8 min),6,8,1bac5112c9e8f2150cc4296fec98,1,"Ring Slider,Donkey Calf Raise"
+finisher,superset,Finisher (6-8 min),6,8,1bac5112c9e8f2150cc4296fec98,1,"Ring Body Saw,Donkey Calf Raise"
 finisher,superset,Finisher (6-8 min),6,8,1c1cb36d6853d00cb44477ef535e,1,"Forearm Plank Knee To Elbow,Weighted Hanging Knee Tuck"
 finisher,superset,Finisher (6-8 min),6,8,1c2cd6e894863a13e52a85e003fb,1,"Dumbbell Cross Body Hammer Curl,Dumbbell Skullcrusher"
 finisher,superset,Finisher (6-8 Min),6,8,1c8c813bc4677810adbf59d1512c,1,"Dual Kettlebell Front Rack Carry,Quadruped Reverse Crawl"
@@ -681,7 +681,7 @@ finisher,superset,Finisher (8 min),8,8,1765f07898d2c814b97f1880dc75,1,"Hand On B
 finisher,superset,Finisher (8 min),8,8,176701c3ce1a59034a6377f4c0eb,1,"Russian Twist,Side Plank Hip Tap"
 finisher,superset,Finisher (8 min),8,8,1c45feaec213b51bde41ade0d32c,1,"1 1/4 Push Up,Bent Over Reverse Dumbbell Fly"
 finisher,superset,Finisher (8 min),8,8,1ec1a3ca9442e21289335249b1ef,1,"1 1/4 Push Up,Head Support Dumbbell Rear Delt Fly"
-finisher,superset,Finisher (8 min),8,8,1ee81db18669020cc8c03080250b,2,"Mechanical Drop Set,Dumbbell Twist Curl,Dumbbell Hammer Curl"
+finisher,superset,Finisher (8 min),8,8,1ee81db18669020cc8c03080250b,2,"Dumbbell Twist Curl,Dumbbell Hammer Curl"
 finisher,superset,Finisher (8-10 min),8,10,00275e752a0e831b56e1c8fb4c0d,1,"Wall Leaning Double Calf Raise,Bent Hollow Hold"
 finisher,superset,Finisher (8-10 min),8,10,00b1d6bec2abec1d0f72df82bcf7,1,"Dumbbell Overhead Tricep Extension,Diamond Half Push Up Pulse"
 finisher,superset,Finisher (8-10 min),8,10,01ac6df37b84650b8b9d65a06e29,1,Barbell Curl 21s
@@ -785,7 +785,7 @@ hot-start,emom,Aerobic KB Skills (9-12 min),9,12,0213e5ee88bcce1e126f0529efa4,1,
 hot-start,every-n-sec,Hot Start,,,109adc3606e8f51e8f6e14ec91e1,1,"Alternating Dumbbell Push Press,Single Leg Hanging L Sit"
 hot-start,every-n-sec,Gymnastics Pre Fatigue,,,180a10921512fc1e2b4fe513cf87,1,"Bike,Bar Or Ring Muscle Up,Handstand Walk"
 hot-start,every-n-sec,Engine Hot Start (5 min),5,5,0153c77b7dcb1f121777f754b3dc,1,"Tuck L Sit,Row"
-hot-start,every-n-sec,Cyclical Hot Start (8 min),8,8,123d35ed9fbdb01af8326d1d1fed,2,"Bike,Sec"
+hot-start,every-n-sec,Cyclical Hot Start (8 min),8,8,123d35ed9fbdb01af8326d1d1fed,2,Bike
 hot-start,every-n-sec,Kettlebell and Plyometric HOT START (9 min),9,9,0555b62661381e1896091f76a011,1,Kettlebell Rack Reverse Lunge
 hot-start,every-n-sec,Kettlebell and Plyometric HOT START (9 min),9,9,0d56fc3a4ce3fb1cd065a07d3b10,1,
 hot-start,every-n-sec,Kettlebell and Plyometric HOT START (9 min),9,9,0dea15d6d7d61014373c5d9ddb97,1,Kettlebell Overhead Squat
@@ -810,7 +810,7 @@ hot-start,every-n-sec,HS HOT START (12 min),12,12,03e89b187977091e4d5e9263c585,1
 hot-start,every-n-sec,Gymnastics Skills (12 min),12,12,0425b5e58d58721cec6d6363a19a,1,"Bike,Strict Muscle Up,Strict Ring Pull Up,Pike Leg Lift Over"
 hot-start,every-n-sec,Gymnastics Skills (12 min),12,12,082f254cb4e0050ee3a58cb22adf,1,"V Up,Strict Muscle Up,Row"
 hot-start,every-n-sec,Gymnastics HOT START (12 min),12,12,0c21cc2d58fb3e1ffb6b0dd934a6,1,"Burpee Bar Muscle Up,Wall Facing Shoulder Tap,Bike"
-hot-start,every-n-sec,Gymnastics Skills (12 min),12,12,118095e71f5ddb0e02471809770c,1,"Strict Muscle Up,Row,Feet Anchored"
+hot-start,every-n-sec,Gymnastics Skills (12 min),12,12,118095e71f5ddb0e02471809770c,1,"Strict Muscle Up,Row,Feet Anchored Sit Up"
 hot-start,every-n-sec,Gymnastics HOT START (12 min),12,12,18953fbd143ddc0f6b6122f47a43,1,Handstand Walk
 hot-start,every-n-sec,HS HOT START (15 min),15,15,0c49d6c34afb350e455353751373,1,"Tuck Up,Bike,Yoga Push Up"
 hot-start,every-n-sec,HS HOT START (15 min),15,15,0d0c922bf9fe211f582c50ce2223,1,"Burpee Box Jump,Row"
@@ -860,21 +860,21 @@ hot-start,unclassified,KB HOT START (10-12 min),10,12,144415263bee37192b487955ee
 hot-start,unclassified,HOT START (10-12 minutes),10,12,1471b097ae8e9306d4bfca8c3cd7,1,"Row,Bodyweight Walking Lunge"
 hot-start,unclassified,HOT START (10-12 minutes),10,12,19812ba7490380186ecb5f51bb8c,1,"Bike,Goblet Tall Kneel To Stand"
 hot-start,unclassified,HOT START (10-12 minutes),10,12,1bbd255a32ae0810ae045904263b,1,"Row,Kettlebell Split Snatch"
-hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,00b840eb0a081a0995098b61d759,1,"Strict Bar,Alternating Oblique Raise In Dip Support,Single Arm Dumbbell Cuban Press"
+hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,00b840eb0a081a0995098b61d759,1,"Strict Bar Dip,Alternating Oblique Raise In Dip Support,Single Arm Dumbbell Cuban Press"
 hot-start,unclassified,Jerk Progression (12 min),12,12,00e731ddb859221182e3edcaaf50,3,Pause Split Jerk
 hot-start,unclassified,Jerk Progression (12 min),12,12,011d25850d5ed61a6bd0b4a1519e,1,Split Jerk
 hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,04223e1690c4bb087632bc2807f8,1,"Bottom Of Dip Support,Dip Support Tuck L Sit,Powell Raise"
 hot-start,unclassified,Jerk Progression (12 min),12,12,0596cca7ede9c90b10d974a0eada,2,Power Jerk
-hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,0a0751795ef5a60a5bdf7acaa65a,1,"Elevator Bar,Dip Support Knee Tuck,Dumbbell External Rotation On Knee"
+hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,0a0751795ef5a60a5bdf7acaa65a,1,"Strict Bar Dip,Dip Support Knee Tuck,Dumbbell External Rotation On Knee"
 hot-start,unclassified,Gymnastics HOT START (12 min),12,12,0b0a8b870349570a6e97e07fbeaa,1,"Row,Bar Muscle Up,Tuck Up,Burpee Strict Pull Up"
 hot-start,unclassified,Dynamic Effort Upper Body (12 min),12,12,0b9def3479003906a6a9c1e30086,1,"Split Jerk,Lateral Arc Slam Ball"
 hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,0d6b315494eb510366485e7c49d1,1,"Dip Support,Dip Support Knee Tuck,Dumbbell External Rotation On Knee"
 hot-start,unclassified,Jerk Progression (12 min),12,12,0dc06ea44d26eb187441b49faf5e,1,
 hot-start,unclassified,Jerk Progression (12 min),12,12,1010143d5042a71a0c3b72be5e14,1,Pause Split Jerk
 hot-start,unclassified,Jerk Progression (12 min),12,12,1814afe680f24710edbf14829c82,1,
-hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,1a4dc2f6b6d2941bd1319ba56f38,1,"Strict Bar,Alternating Oblique Raise In Dip Support,Single Arm Dumbbell Cuban Press"
+hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,1a4dc2f6b6d2941bd1319ba56f38,1,"Strict Bar Dip,Alternating Oblique Raise In Dip Support,Single Arm Dumbbell Cuban Press"
 hot-start,unclassified,Gymnastics HOT START (12 min),12,12,1ab6ed4130fd52182eaec24261e3,1,"Run,Ring Muscle Up,V Up"
-hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,1b5314de477d79129f635f8547d1,1,"Strict Bar,Dip Support Tuck L Sit,Powell Raise"
+hot-start,unclassified,Dip + Core + Shoulder Prefatigue (12 min),12,12,1b5314de477d79129f635f8547d1,1,"Strict Bar Dip,Dip Support Tuck L Sit,Powell Raise"
 hot-start,unclassified,Gymnastics HOT START (12 min),12,12,1cf928db0dd82011a8ac928b4243,1,"Bike,Ring Muscle Up,Toes To Ring"
 hot-start,unclassified,Dynamic Effort Upper (12-15 min),12,15,086a79a585229e0ee3b06536abfd,1,"Single Arm Dumbbell Push Press,Plyo Push Up"
 hot-start,unclassified,Dynamic Effort Upper (12-15 min),12,15,0f7e72fe6eb29413f1637e2c4877,1,"Barbell Push Jerk,Slam Ball"

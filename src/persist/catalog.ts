@@ -10,6 +10,10 @@ export interface Override {
   /** Treat this exercise as another catalog id (spelling variants the rules could not join). */
   mergeInto?: string;
   name?: string;
+  /** Not an exercise (a heading or fragment that the parser read as an item); kept out of the catalog. */
+  exclude?: boolean;
+  /** Why this was decided; not used by the code. */
+  note?: string;
 }
 export type Overrides = Record<string, Override>;
 
@@ -95,7 +99,7 @@ export function buildCatalog(weeks: WeekFile[], overrides: Overrides = {}): Cata
   for (const [raw, u] of [...uses].sort((a, b) => b[1].n - a[1].n || a[0].localeCompare(b[0]))) {
     const norm = normalizeName(raw);
     if (!norm) { aliasToId[raw] = null; continue; }
-    const reason = suspectReason(raw, norm.key);
+    const reason = overrides[norm.key]?.exclude || overrides[idOf(norm.key)]?.exclude ? "excluded-by-override" : suspectReason(raw, norm.key);
     if (reason) {
       aliasToId[raw] = null;
       unmapped.push({ id: null, name: raw, uses: u.n, aliases: [], reason, suggestedPattern: null });

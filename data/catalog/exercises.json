@@ -182,6 +182,21 @@
    "uses": 135
   },
   {
+   "id": "strict-bar-dip",
+   "name": "Strict Bar Dip",
+   "pattern": "horizontal-press",
+   "equipment": [],
+   "unilateral": false,
+   "aliases": [
+    "Elevator Bar or Ring Dip",
+    "Strict Bar Dip",
+    "Strict Bar Dip or Ring Dip",
+    "Strict Bar or Ring Dip",
+    "Strict Bar or Ring Dips"
+   ],
+   "uses": 124
+  },
+  {
    "id": "butterfly-stretch",
    "name": "Butterfly Stretch",
    "pattern": "mobility",
@@ -230,18 +245,6 @@
     "Supinated Strict Pullup or Supinated Grip Lat Pull Down"
    ],
    "uses": 117
-  },
-  {
-   "id": "strict-bar-dip",
-   "name": "Strict Bar Dip",
-   "pattern": "horizontal-press",
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Strict Bar Dip",
-    "Strict Bar Dip or Ring Dip"
-   ],
-   "uses": 114
   },
   {
    "id": "wrist-extension-stretch",
@@ -680,6 +683,26 @@
    "uses": 69
   },
   {
+   "id": "russian-kettlebell-swing",
+   "name": "Russian Kettlebell Swing",
+   "pattern": "hinge",
+   "equipment": [
+    "kettlebell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Russian KB Swing",
+    "Russian KB Swing (70/53)",
+    "Russian KB Swings",
+    "Russian KBS",
+    "Russian KBS or",
+    "Russian Kettlebell Swings",
+    "Single Arm Alternating Russian KBS",
+    "Split Stance Single Arm Russian KBS"
+   ],
+   "uses": 68
+  },
+  {
    "id": "front-squat",
    "name": "Front Squat",
    "pattern": "squat",
@@ -780,7 +803,7 @@
   {
    "id": "tuck-up",
    "name": "Tuck Up",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -858,7 +881,7 @@
   {
    "id": "russian-babymaker",
    "name": "Russian Babymaker",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -891,7 +914,7 @@
   {
    "id": "dumbbell-full-raise",
    "name": "Dumbbell Full Raise",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -1205,7 +1228,7 @@
   {
    "id": "wall-sit",
    "name": "Wall Sit",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -1361,22 +1384,6 @@
    "uses": 41
   },
   {
-   "id": "russian-kettlebell-swing",
-   "name": "Russian Kettlebell Swing",
-   "pattern": "hinge",
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Russian KB Swing",
-    "Russian KB Swing (70/53)",
-    "Russian KB Swings",
-    "Russian Kettlebell Swings"
-   ],
-   "uses": 41
-  },
-  {
    "id": "low-incline-dumbbell-bench-press",
    "name": "Low Incline Dumbbell Bench Press",
    "pattern": "horizontal-press",
@@ -1482,7 +1489,7 @@
   {
    "id": "front-rack-hold",
    "name": "Front Rack Hold",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -1515,7 +1522,7 @@
   {
    "id": "quadruped-crawl",
    "name": "Quadruped Crawl",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -1629,7 +1636,7 @@
   {
    "id": "toe-sit",
    "name": "Toe Sit",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -1640,7 +1647,7 @@
   {
    "id": "turkish-get-up",
    "name": "Turkish Get Up",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -1668,9 +1675,9 @@
    "uses": 37
   },
   {
-   "id": "half-kneeling-cable",
-   "name": "Half Kneeling Cable",
-   "pattern": null,
+   "id": "half-kneeling-cable-row",
+   "name": "Half Kneeling Cable Row",
+   "pattern": "horizontal-pull",
    "equipment": [
     "cable"
    ],
@@ -1812,7 +1819,7 @@
   {
    "id": "lateral-banded-walk",
    "name": "Lateral Banded Walk",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "band"
    ],
@@ -1848,7 +1855,7 @@
   {
    "id": "single-leg-hip-bridge-hold",
    "name": "Single Leg Hip Bridge Hold",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -1859,7 +1866,7 @@
   {
    "id": "straight-arm-shoulder-rotation",
    "name": "Straight Arm Shoulder Rotation",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -2064,6 +2071,19 @@
    "uses": 33
   },
   {
+   "id": "feet-anchored-sit-up",
+   "name": "Feet Anchored Sit Up",
+   "pattern": "core",
+   "equipment": [],
+   "unilateral": false,
+   "aliases": [
+    "Feet Anchored Sit Up",
+    "Feet Anchored Sit Ups",
+    "Feet Anchored or GHD Sit Up"
+   ],
+   "uses": 32
+  },
+  {
    "id": "long-split-pulse",
    "name": "Long Split Pulse",
    "pattern": "mobility",
@@ -2139,18 +2159,6 @@
    "uses": 31
   },
   {
-   "id": "feet-anchored-sit-up",
-   "name": "Feet Anchored Sit Up",
-   "pattern": "core",
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Feet Anchored Sit Up",
-    "Feet Anchored Sit Ups"
-   ],
-   "uses": 31
-  },
-  {
    "id": "shuttle-run",
    "name": "Shuttle Run",
    "pattern": "cardio",
@@ -2190,7 +2198,7 @@
   {
    "id": "dual-kettlebell-rack-lateral-band-walk",
    "name": "Dual Kettlebell Rack Lateral Band Walk",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "kettlebell",
     "band"
@@ -2204,7 +2212,7 @@
   {
    "id": "dual-kettlebell-rack-march",
    "name": "Dual Kettlebell Rack March",
-   "pattern": null,
+   "pattern": "carry",
    "equipment": [
     "kettlebell"
    ],
@@ -2297,9 +2305,9 @@
    "uses": 30
   },
   {
-   "id": "standing-kettlebell",
-   "name": "Standing Kettlebell",
-   "pattern": null,
+   "id": "standing-kettlebell-windmill",
+   "name": "Standing Kettlebell Windmill",
+   "pattern": "mobility",
    "equipment": [
     "kettlebell"
    ],
@@ -2389,6 +2397,21 @@
    "uses": 29
   },
   {
+   "id": "russian-twist",
+   "name": "Russian Twist",
+   "pattern": "core",
+   "equipment": [],
+   "unilateral": true,
+   "aliases": [
+    "KB Russian Twists or",
+    "Russian Twist",
+    "Russian Twist (10-15/side)",
+    "Russian Twists",
+    "Russian Twists s (10/side)"
+   ],
+   "uses": 29
+  },
+  {
    "id": "body-row",
    "name": "Body Row",
    "pattern": "horizontal-pull",
@@ -2430,7 +2453,7 @@
   {
    "id": "dumbbell-er-on-knee",
    "name": "Dumbbell Er On Knee",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -2705,19 +2728,6 @@
    "uses": 25
   },
   {
-   "id": "russian-twist",
-   "name": "Russian Twist",
-   "pattern": "core",
-   "equipment": [],
-   "unilateral": true,
-   "aliases": [
-    "Russian Twist",
-    "Russian Twist (10-15/side)",
-    "Russian Twists"
-   ],
-   "uses": 25
-  },
-  {
    "id": "seated-dumbbell-press",
    "name": "Seated Dumbbell Press",
    "pattern": "vertical-press",
@@ -2734,7 +2744,7 @@
   {
    "id": "single-leg-wall-sit",
    "name": "Single Leg Wall Sit",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -2784,7 +2794,7 @@
   {
    "id": "band-pull-apart",
    "name": "Band Pull Apart",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "band"
    ],
@@ -2871,7 +2881,7 @@
   {
    "id": "dumbbell-pullover",
    "name": "Dumbbell Pullover",
-   "pattern": null,
+   "pattern": "vertical-pull",
    "equipment": [
     "dumbbell"
    ],
@@ -2963,7 +2973,7 @@
   {
    "id": "quadruped-crawl-reverse",
    "name": "Quadruped Crawl Reverse",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -3236,19 +3246,6 @@
    "uses": 22
   },
   {
-   "id": "russian-kettlebell",
-   "name": "Russian Kettlebell",
-   "pattern": null,
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Russian KBS"
-   ],
-   "uses": 22
-  },
-  {
    "id": "supinated-pull-up-isometric",
    "name": "Supinated Pull Up Isometric",
    "pattern": "vertical-pull",
@@ -3445,7 +3442,7 @@
   {
    "id": "band-pullapart",
    "name": "Band Pullapart",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "band"
    ],
@@ -3504,7 +3501,7 @@
   {
    "id": "elephant-walk-step",
    "name": "Elephant Walk Step",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -3668,7 +3665,7 @@
   {
    "id": "wall-walk",
    "name": "Wall Walk",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -3819,7 +3816,7 @@
   {
    "id": "goblet-wall-sit",
    "name": "Goblet Wall Sit",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -3833,7 +3830,7 @@
   {
    "id": "hamstring-walkout",
    "name": "Hamstring Walkout",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -3894,7 +3891,7 @@
   {
    "id": "powell-raise",
    "name": "Powell Raise",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -4074,7 +4071,7 @@
   {
    "id": "superman-hold",
    "name": "Superman Hold",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -4111,7 +4108,7 @@
   {
    "id": "banded-shoulder-external-rotation",
    "name": "Banded Shoulder External Rotation",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "band"
    ],
@@ -4205,7 +4202,7 @@
   {
    "id": "farmers-press",
    "name": "Farmers Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -4227,7 +4224,7 @@
   {
    "id": "half-kneeling-hamstring-to-half-kneeling-hip-flexor-flow",
    "name": "Half Kneeling Hamstring To Half Kneeling Hip Flexor Flow",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -4354,7 +4351,7 @@
   {
    "id": "beast-to-alternating-leg-through",
    "name": "Beast To Alternating Leg Through",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -4379,7 +4376,7 @@
   {
    "id": "devils-press",
    "name": "Devils Press",
-   "pattern": null,
+   "pattern": "olympic",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -4413,7 +4410,7 @@
   {
    "id": "hanging-oblique-raise",
    "name": "Hanging Oblique Raise",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -4463,7 +4460,7 @@
   {
    "id": "quadruped-crawl-backward",
    "name": "Quadruped Crawl Backward",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -4474,7 +4471,7 @@
   {
    "id": "quadruped-crawl-forward",
    "name": "Quadruped Crawl Forward",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -4485,7 +4482,7 @@
   {
    "id": "reverse-quadruped-crawl",
    "name": "Reverse Quadruped Crawl",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -4523,9 +4520,9 @@
    "uses": 15
   },
   {
-   "id": "single-arm-dumbbell",
-   "name": "Single Arm Dumbbell",
-   "pattern": null,
+   "id": "single-arm-dumbbell-lean-away-lateral-raise",
+   "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -4572,7 +4569,7 @@
   {
    "id": "supine-band-lat-pullover",
    "name": "Supine Band Lat Pullover",
-   "pattern": null,
+   "pattern": "vertical-pull",
    "equipment": [
     "band"
    ],
@@ -4585,7 +4582,7 @@
   {
    "id": "1-2-turkish-get-up",
    "name": "1/2 Turkish Get Up",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -4596,7 +4593,7 @@
   {
    "id": "arm-bar-rotation",
    "name": "Arm Bar Rotation",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -4725,7 +4722,7 @@
   {
    "id": "dumbbell-rack-tall-kneel-to-stand",
    "name": "Dumbbell Rack Tall Kneel To Stand",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell"
    ],
@@ -4784,31 +4781,9 @@
    "uses": 14
   },
   {
-   "id": "full-body",
-   "name": "Full Body",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Full Body"
-   ],
-   "uses": 14
-  },
-  {
-   "id": "full-body-mobility",
-   "name": "Full Body Mobility",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Full Body Mobility"
-   ],
-   "uses": 14
-  },
-  {
    "id": "inverted-skull-crusher",
    "name": "Inverted Skull Crusher",
-   "pattern": null,
+   "pattern": "isolation-arms",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -4978,7 +4953,7 @@
   {
    "id": "spoto-press",
    "name": "Spoto Press",
-   "pattern": null,
+   "pattern": "horizontal-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -5060,6 +5035,20 @@
    "uses": 14
   },
   {
+   "id": "barbell-reverse-curl",
+   "name": "Barbell Reverse Curl",
+   "pattern": "isolation-arms",
+   "equipment": [
+    "barbell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Barbell Reverse Cur",
+    "Barbell Reverse Curl"
+   ],
+   "uses": 13
+  },
+  {
    "id": "cable-or-banded-face-pull",
    "name": "Cable Or Banded Face Pull",
    "pattern": "isolation-shoulders",
@@ -5076,7 +5065,7 @@
   {
    "id": "cuban-press",
    "name": "Cuban Press",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -5141,7 +5130,7 @@
   {
    "id": "supinated-band-pull-apart",
    "name": "Supinated Band Pull Apart",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "band"
    ],
@@ -5254,19 +5243,6 @@
    "uses": 12
   },
   {
-   "id": "barbell-reverse-curl",
-   "name": "Barbell Reverse Curl",
-   "pattern": "isolation-arms",
-   "equipment": [
-    "barbell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Barbell Reverse Curl"
-   ],
-   "uses": 12
-  },
-  {
    "id": "bodyweight-donkey-calf-raise",
    "name": "Bodyweight Donkey Calf Raise",
    "pattern": "isolation-legs",
@@ -5335,7 +5311,7 @@
   {
    "id": "dumbbell-meadows-row",
    "name": "Dumbbell Meadows Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "dumbbell"
    ],
@@ -5397,7 +5373,7 @@
   {
    "id": "landmine-meadow-row",
    "name": "Landmine Meadow Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "landmine"
    ],
@@ -5496,7 +5472,7 @@
   {
    "id": "prone-shoulder-car",
    "name": "Prone Shoulder Car",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -5688,7 +5664,7 @@
   {
    "id": "goblet-tall-kneel-to-stand",
    "name": "Goblet Tall Kneel To Stand",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -5731,17 +5707,6 @@
    "aliases": [
     "Incline Bench Lateral Raise",
     "Incline Bench Lateral Raises"
-   ],
-   "uses": 11
-  },
-  {
-   "id": "mobility",
-   "name": "Mobility",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Mobility"
    ],
    "uses": 11
   },
@@ -5892,7 +5857,7 @@
   {
    "id": "downward-dog-shoulder-tap",
    "name": "Downward Dog Shoulder Tap",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -5943,20 +5908,9 @@
    "uses": 10
   },
   {
-   "id": "even",
-   "name": "Even",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Even -"
-   ],
-   "uses": 10
-  },
-  {
    "id": "ghd-hip-extension",
    "name": "Ghd Hip Extension",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -5980,7 +5934,7 @@
   {
    "id": "kettlebell-horn-grip-raise",
    "name": "Kettlebell Horn Grip Raise",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "kettlebell"
    ],
@@ -6015,17 +5969,6 @@
    "uses": 10
   },
   {
-   "id": "pauses-at-bottom",
-   "name": "Pauses At Bottom)",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Pauses at Bottom)"
-   ],
-   "uses": 10
-  },
-  {
    "id": "shinbox-hip-er-stretch",
    "name": "Shinbox Hip Er Stretch",
    "pattern": "mobility",
@@ -6039,7 +5982,7 @@
   {
    "id": "sidelying-active-hip-er",
    "name": "Sidelying Active Hip Er",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -6106,7 +6049,7 @@
   {
    "id": "sprawl",
    "name": "Sprawl",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -6188,7 +6131,7 @@
   {
    "id": "alternating-kettlebell-press",
    "name": "Alternating Kettlebell Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [
     "kettlebell"
    ],
@@ -6197,6 +6140,22 @@
     "Alternating KB Press",
     "Alternating KB Press (4/side)",
     "Alternating Kettlebell Press"
+   ],
+   "uses": 9
+  },
+  {
+   "id": "american-kettlebell-swing",
+   "name": "American Kettlebell Swing",
+   "pattern": "hinge",
+   "equipment": [
+    "kettlebell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "American KB Swings",
+    "American KBS",
+    "American KBS (70/53)",
+    "American Kettlebell Swing (70/53)"
    ],
    "uses": 9
   },
@@ -6239,7 +6198,7 @@
   {
    "id": "candlestick-roll-up",
    "name": "Candlestick Roll Up",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -6341,7 +6300,7 @@
   {
    "id": "lateral-bench-hops-hands-on-bench",
    "name": "Lateral Bench Hops Hands On Bench",
-   "pattern": null,
+   "pattern": "plyometric",
    "equipment": [
     "bench"
    ],
@@ -6354,7 +6313,7 @@
   {
    "id": "mountain-climber",
    "name": "Mountain Climber",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -6392,7 +6351,7 @@
   {
    "id": "poliquin-step",
    "name": "Poliquin Step",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -6427,7 +6386,7 @@
   {
    "id": "single-arm-dumbbell-press",
    "name": "Single Arm Dumbbell Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [
     "dumbbell"
    ],
@@ -6450,18 +6409,6 @@
    "aliases": [
     "Single Arm Ring Plank",
     "Single Arm Ring Plank/arm"
-   ],
-   "uses": 9
-  },
-  {
-   "id": "strict-bar",
-   "name": "Strict Bar",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Strict Bar or Ring Dip",
-    "Strict Bar or Ring Dips"
    ],
    "uses": 9
   },
@@ -6686,7 +6633,7 @@
   {
    "id": "dumbbell-side-bend",
    "name": "Dumbbell Side Bend",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "dumbbell"
    ],
@@ -6782,7 +6729,7 @@
   {
    "id": "heels-elevated-wall-sit",
    "name": "Heels Elevated Wall Sit",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -6843,17 +6790,6 @@
     "KB Gorilla Row",
     "Kettlebell Gorilla Row",
     "Kettlebell Gorilla Row (10/side)"
-   ],
-   "uses": 8
-  },
-  {
-   "id": "move-immediately-into-the-next-couplet",
-   "name": "Move Immediately Into The Next Couplet",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Move immediately into the next couplet"
    ],
    "uses": 8
   },
@@ -6965,7 +6901,7 @@
   {
    "id": "single-leg-straight-leg-bridge-hold",
    "name": "Single Leg Straight Leg Bridge Hold",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -7011,7 +6947,7 @@
   {
    "id": "straight-leg-bridge-hold",
    "name": "Straight Leg Bridge Hold",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -7057,7 +6993,7 @@
   {
    "id": "supine-bench-weighted-chest-opener",
    "name": "Supine Bench Weighted Chest Opener",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [
     "bench"
    ],
@@ -7121,7 +7057,7 @@
   {
    "id": "bench-support-landmine-meadow",
    "name": "Bench Support Landmine Meadow",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "landmine",
     "bench"
@@ -7174,7 +7110,7 @@
   {
    "id": "dip-support",
    "name": "Dip Support",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -7199,7 +7135,7 @@
   {
    "id": "dual-kettlebell-rack-tall-kneel-to-stand",
    "name": "Dual Kettlebell Rack Tall Kneel To Stand",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [
     "kettlebell"
    ],
@@ -7404,17 +7340,6 @@
    "uses": 7
   },
   {
-   "id": "odd",
-   "name": "Odd",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Odd -"
-   ],
-   "uses": 7
-  },
-  {
    "id": "parallette-push-up",
    "name": "Parallette Push Up",
    "pattern": "horizontal-press",
@@ -7444,7 +7369,7 @@
   {
    "id": "rack-pull",
    "name": "Rack Pull",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -7455,7 +7380,7 @@
   {
    "id": "single-arm-landmine-row",
    "name": "Single Arm Landmine Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "landmine"
    ],
@@ -7590,7 +7515,7 @@
   {
    "id": "chin-over-bar-isometric",
    "name": "Chin Over Bar Isometric",
-   "pattern": null,
+   "pattern": "vertical-pull",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -7678,7 +7603,7 @@
   {
    "id": "dual-kettlebell-gunslinger",
    "name": "Dual Kettlebell Gunslinger",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [
     "kettlebell"
    ],
@@ -7705,7 +7630,7 @@
   {
    "id": "dual-kettlebell-russian-swing",
    "name": "Dual Kettlebell Russian Swing",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "kettlebell"
    ],
@@ -7720,7 +7645,7 @@
   {
    "id": "duck-walk",
    "name": "Duck Walk",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -7731,7 +7656,7 @@
   {
    "id": "dumbbell-arm-bar",
    "name": "Dumbbell Arm Bar",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [
     "dumbbell"
    ],
@@ -7772,7 +7697,7 @@
   {
    "id": "dumbbell-external-rotation-on-knee",
    "name": "Dumbbell External Rotation On Knee",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -7814,7 +7739,7 @@
   {
    "id": "dumbbell-meadow-row",
    "name": "Dumbbell Meadow Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "dumbbell"
    ],
@@ -7868,7 +7793,7 @@
   {
    "id": "dumbbell-swing",
    "name": "Dumbbell Swing",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "dumbbell"
    ],
@@ -8145,7 +8070,7 @@
   {
    "id": "ostrich-walk",
    "name": "Ostrich Walk",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -8167,7 +8092,7 @@
   {
    "id": "pike-strict-hspu",
    "name": "Pike Strict Hspu",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -8179,7 +8104,7 @@
   {
    "id": "planche-lean",
    "name": "Planche Lean",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -8326,7 +8251,7 @@
   {
    "id": "sidelying-thoracic-sweep",
    "name": "Sidelying Thoracic Sweep",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -8363,7 +8288,7 @@
   {
    "id": "single-arm-russian-swing",
    "name": "Single Arm Russian Swing",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -8423,7 +8348,7 @@
   {
    "id": "straight-leg-hip-bridge-march",
    "name": "Straight Leg Hip Bridge March",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -8485,7 +8410,7 @@
   {
    "id": "thread-the-needle",
    "name": "Thread The Needle",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -8507,7 +8432,7 @@
   {
    "id": "wall-sit-march",
    "name": "Wall Sit March",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -8639,7 +8564,7 @@
   {
    "id": "alternating-single-arm-dumbbell-rack-tall-kneel-to-stand",
    "name": "Alternating Single Arm Dumbbell Rack Tall Kneel To Stand",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell"
    ],
@@ -8658,20 +8583,6 @@
    "unilateral": true,
    "aliases": [
     "Alternating Squat with Reach (hold 2sec/side)"
-   ],
-   "uses": 5
-  },
-  {
-   "id": "american-kettlebell-swing",
-   "name": "American Kettlebell Swing",
-   "pattern": "hinge",
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "American KB Swings",
-    "American Kettlebell Swing (70/53)"
    ],
    "uses": 5
   },
@@ -8755,7 +8666,7 @@
   {
    "id": "dip-support-knee-raise",
    "name": "Dip Support Knee Raise",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -8781,7 +8692,7 @@
   {
    "id": "dual-kettlebell-dumbbell-rack-tall-kneel-to-stand",
    "name": "Dual Kettlebell/Dumbbell Rack Tall Kneel To Stand",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell",
     "kettlebell"
@@ -8852,7 +8763,7 @@
   {
    "id": "dumbbell-seated-goodmoring",
    "name": "Dumbbell Seated Goodmoring",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "dumbbell"
    ],
@@ -9172,7 +9083,7 @@
   {
    "id": "rower-pike-up",
    "name": "Rower Pike Up",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "rower"
    ],
@@ -9319,7 +9230,7 @@
   {
    "id": "alternating-single-arm-dumbbell-devil-press",
    "name": "Alternating Single Arm Dumbbell Devil Press",
-   "pattern": null,
+   "pattern": "olympic",
    "equipment": [
     "dumbbell"
    ],
@@ -9338,20 +9249,6 @@
    "unilateral": true,
    "aliases": [
     "Alternating Suitcase KOT Forward Elevated Lunge"
-   ],
-   "uses": 4
-  },
-  {
-   "id": "american-kettlebell",
-   "name": "American Kettlebell",
-   "pattern": null,
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "American KBS",
-    "American KBS (70/53)"
    ],
    "uses": 4
   },
@@ -9401,17 +9298,6 @@
    "unilateral": false,
    "aliases": [
     "Bar or Ring Muscle Up"
-   ],
-   "uses": 4
-  },
-  {
-   "id": "bottom",
-   "name": "Bottom)",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Bottom)"
    ],
    "uses": 4
   },
@@ -9509,7 +9395,7 @@
   {
    "id": "dumbbell-bent-over-meadows-row",
    "name": "Dumbbell Bent Over Meadows Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "dumbbell"
    ],
@@ -9642,7 +9528,7 @@
   {
    "id": "forward-fold-with-rotation",
    "name": "Forward Fold With Rotation",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -9653,7 +9539,7 @@
   {
    "id": "half-kneeling-kettlebell-chop-and-lift",
    "name": "Half Kneeling Kettlebell Chop And Lift",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "kettlebell"
    ],
@@ -9680,7 +9566,7 @@
   {
    "id": "hamstring-march",
    "name": "Hamstring March",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -9782,7 +9668,7 @@
   {
    "id": "jm-press",
    "name": "Jm Press",
-   "pattern": null,
+   "pattern": "isolation-arms",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -9888,7 +9774,7 @@
   {
    "id": "kettlebell-sprawl",
    "name": "Kettlebell Sprawl",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "kettlebell"
    ],
@@ -9958,17 +9844,6 @@
    "uses": 4
   },
   {
-   "id": "mechanical-drop-set",
-   "name": "Mechanical Drop Set",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Mechanical Drop Sets"
-   ],
-   "uses": 4
-  },
-  {
    "id": "plank-dumbbell-pull-through",
    "name": "Plank Dumbbell Pull Through",
    "pattern": "hinge",
@@ -10033,9 +9908,9 @@
    "uses": 4
   },
   {
-   "id": "ring-slider",
-   "name": "Ring Slider",
-   "pattern": null,
+   "id": "ring-body-saw",
+   "name": "Ring Body Saw",
+   "pattern": "core",
    "equipment": [
     "rings"
    ],
@@ -10057,17 +9932,6 @@
    "uses": 4
   },
   {
-   "id": "sec",
-   "name": "Sec",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "sec"
-   ],
-   "uses": 4
-  },
-  {
    "id": "side-star-plank",
    "name": "Side Star Plank",
    "pattern": "core",
@@ -10084,7 +9948,7 @@
   {
    "id": "single-arm-devils-press",
    "name": "Single Arm Devils Press",
-   "pattern": null,
+   "pattern": "olympic",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -10132,7 +9996,7 @@
   {
    "id": "standing-band-abduction",
    "name": "Standing Band Abduction",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "band"
    ],
@@ -10156,7 +10020,7 @@
   {
    "id": "strict-kettlebell-press",
    "name": "Strict Kettlebell Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [
     "kettlebell"
    ],
@@ -10191,7 +10055,7 @@
   {
    "id": "tuck-up-in-dip-support",
    "name": "Tuck Up In Dip Support",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -10261,17 +10125,6 @@
    "uses": 3
   },
   {
-   "id": "aerobic-push-pull",
-   "name": "Aerobic Push Pull",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Aerobic Push Pull"
-   ],
-   "uses": 3
-  },
-  {
    "id": "alternating-dumbbell-glute-bridge-floor-press",
    "name": "Alternating Dumbbell Glute Bridge Floor Press",
    "pattern": "hinge",
@@ -10315,7 +10168,7 @@
   {
    "id": "alternating-single-arm-kettlebell-split-stance-swing",
    "name": "Alternating Single Arm Kettlebell Split Stance Swing",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "kettlebell"
    ],
@@ -10538,7 +10391,7 @@
   {
    "id": "cable-or-banded-abduction",
    "name": "Cable Or Banded Abduction",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "cable",
     "band"
@@ -10552,7 +10405,7 @@
   {
    "id": "cable-or-banded-adduction",
    "name": "Cable Or Banded Adduction",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "cable",
     "band"
@@ -10580,7 +10433,7 @@
   {
    "id": "calorie-row",
    "name": "Calorie Row",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -10616,7 +10469,7 @@
   {
    "id": "deadstop-hike-kettlebell",
    "name": "Deadstop Hike Kettlebell",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "kettlebell"
    ],
@@ -10709,7 +10562,7 @@
   {
    "id": "dual-kettlebell-rack-single-leg-wall-sit",
    "name": "Dual Kettlebell Rack Single Leg Wall Sit",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [
     "kettlebell"
    ],
@@ -10722,7 +10575,7 @@
   {
    "id": "dual-kettlebell-rack-wall-sit",
    "name": "Dual Kettlebell Rack Wall Sit",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [
     "kettlebell"
    ],
@@ -10788,7 +10641,7 @@
   {
    "id": "dumbbell-hamstring-march",
    "name": "Dumbbell Hamstring March",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "dumbbell"
    ],
@@ -11005,24 +10858,13 @@
   {
    "id": "dumbbell-tate-press",
    "name": "Dumbbell Tate Press",
-   "pattern": null,
+   "pattern": "isolation-arms",
    "equipment": [
     "dumbbell"
    ],
    "unilateral": false,
    "aliases": [
     "Dumbbell Tate Press"
-   ],
-   "uses": 3
-  },
-  {
-   "id": "extension",
-   "name": "Extension",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Extension"
    ],
    "uses": 3
   },
@@ -11053,7 +10895,7 @@
   {
    "id": "filly-press",
    "name": "Filly Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -11121,7 +10963,7 @@
   {
    "id": "hamstring-walk-out",
    "name": "Hamstring Walk Out",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -11156,7 +10998,7 @@
   {
    "id": "inchworm",
    "name": "Inchworm",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -11275,19 +11117,6 @@
    "uses": 3
   },
   {
-   "id": "kettlebell-russian-twists-or",
-   "name": "Kettlebell Russian Twists Or",
-   "pattern": null,
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "KB Russian Twists or"
-   ],
-   "uses": 3
-  },
-  {
    "id": "kettlebell-sumo-deadlift",
    "name": "Kettlebell Sumo Deadlift",
    "pattern": "hinge",
@@ -11338,7 +11167,7 @@
   {
    "id": "lumbar-roll-to-pike",
    "name": "Lumbar Roll To Pike",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -11384,7 +11213,7 @@
   {
    "id": "neck-car",
    "name": "Neck Car",
-   "pattern": null,
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -11494,7 +11323,7 @@
   {
    "id": "ring-or-bar-dip-support",
    "name": "Ring Or Bar Dip Support",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "rings"
    ],
@@ -11527,29 +11356,15 @@
    "uses": 3
   },
   {
-   "id": "rower-ring",
-   "name": "Rower Ring",
-   "pattern": null,
+   "id": "rower-hamstring-curl",
+   "name": "Rower Hamstring Curl",
+   "pattern": "isolation-legs",
    "equipment": [
-    "rings",
     "rower"
    ],
    "unilateral": false,
    "aliases": [
     "Rower, Ring, or Physioball Hamstring Curl"
-   ],
-   "uses": 3
-  },
-  {
-   "id": "russian-kettlebell-or",
-   "name": "Russian Kettlebell Or",
-   "pattern": null,
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Russian KBS or"
    ],
    "uses": 3
   },
@@ -11569,7 +11384,7 @@
   {
    "id": "sidelying-powell-raise-on-bench",
    "name": "Sidelying Powell Raise On Bench",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "bench"
    ],
@@ -11582,7 +11397,7 @@
   {
    "id": "single-arm-alternating-devils-press",
    "name": "Single Arm Alternating Devils Press",
-   "pattern": null,
+   "pattern": "olympic",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -11594,7 +11409,7 @@
   {
    "id": "single-arm-dumbbell-meadow-row",
    "name": "Single Arm Dumbbell Meadow Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "dumbbell"
    ],
@@ -11622,7 +11437,7 @@
   {
    "id": "single-arm-dumbbell-swing",
    "name": "Single Arm Dumbbell Swing",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "dumbbell"
    ],
@@ -11688,7 +11503,7 @@
   {
    "id": "single-leg-banded-adduction",
    "name": "Single Leg Banded Adduction",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "band"
    ],
@@ -11812,7 +11627,7 @@
   {
    "id": "supinated-band-pullapart",
    "name": "Supinated Band Pullapart",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "band"
    ],
@@ -11862,17 +11677,6 @@
    "uses": 3
   },
   {
-   "id": "sustained-pace",
-   "name": "Sustained Pace",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "SUSTAINED PACE"
-   ],
-   "uses": 3
-  },
-  {
    "id": "theraband-side-plank-clam-thrust",
    "name": "Theraband Side Plank Clam Thrust",
    "pattern": "core",
@@ -11912,7 +11716,7 @@
   {
    "id": "wall-sit-single-leg-march",
    "name": "Wall Sit Single Leg March",
-   "pattern": null,
+   "pattern": "squat",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -11947,7 +11751,7 @@
   {
    "id": "weighted-hanging-leg-tuck",
    "name": "Weighted Hanging Leg Tuck",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -12048,7 +11852,7 @@
   {
    "id": "alternating-oblique-raise-in-dip-support",
    "name": "Alternating Oblique Raise In Dip Support",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -12135,7 +11939,7 @@
   {
    "id": "banded-monster-walk",
    "name": "Banded Monster Walk",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "band"
    ],
@@ -12211,7 +12015,7 @@
   {
    "id": "bent-over-scap-retraction",
    "name": "Bent Over Scap Retraction",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -12287,7 +12091,7 @@
   {
    "id": "calories-row",
    "name": "Calories Row",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -12318,17 +12122,6 @@
    "unilateral": false,
    "aliases": [
     "Chest to Bar Kipping Pull Ups"
-   ],
-   "uses": 2
-  },
-  {
-   "id": "cluster-set",
-   "name": "Cluster Set",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Cluster Sets"
    ],
    "uses": 2
   },
@@ -12430,7 +12223,7 @@
   {
    "id": "dual-dumbbell-rack-march",
    "name": "Dual Dumbbell Rack March",
-   "pattern": null,
+   "pattern": "carry",
    "equipment": [
     "dumbbell"
    ],
@@ -12443,7 +12236,7 @@
   {
    "id": "dual-dumbbell-rack-tall-kneel-to-stand",
    "name": "Dual Dumbbell Rack Tall Kneel To Stand",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell"
    ],
@@ -12457,7 +12250,7 @@
   {
    "id": "dual-dumbbell-sumo-dl-high-pull",
    "name": "Dual Dumbbell Sumo Dl High Pull",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "dumbbell"
    ],
@@ -12536,7 +12329,7 @@
   {
    "id": "dumbbell-external-rotation-elbow-on-knee",
    "name": "Dumbbell External Rotation Elbow On Knee",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -12643,7 +12436,7 @@
   {
    "id": "dumbbell-powell-raise",
    "name": "Dumbbell Powell Raise",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -12683,7 +12476,7 @@
   {
    "id": "dumbbell-skull-crusher",
    "name": "Dumbbell Skull Crusher",
-   "pattern": null,
+   "pattern": "isolation-arms",
    "equipment": [
     "dumbbell"
    ],
@@ -12735,7 +12528,7 @@
   {
    "id": "dumbbell-turkish-get-up",
    "name": "Dumbbell Turkish Get Up",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "dumbbell"
    ],
@@ -12743,17 +12536,6 @@
    "aliases": [
     "DB Turkish Get Up L",
     "DB Turkish Get Up R"
-   ],
-   "uses": 2
-  },
-  {
-   "id": "easy-pedal",
-   "name": "Easy Pedal",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Easy Pedal (or rest)"
    ],
    "uses": 2
   },
@@ -12767,17 +12549,6 @@
    "unilateral": false,
    "aliases": [
     "Extended Plank"
-   ],
-   "uses": 2
-  },
-  {
-   "id": "fatigued-abdominal",
-   "name": "Fatigued Abdominal",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Fatigued Abdominals"
    ],
    "uses": 2
   },
@@ -12870,7 +12641,7 @@
   {
    "id": "half-kneeling-dumbbell-chop-and-lift",
    "name": "Half Kneeling Dumbbell Chop And Lift",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "dumbbell"
    ],
@@ -12974,7 +12745,7 @@
   {
    "id": "handstand-walk",
    "name": "Handstand Walk",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -13041,17 +12812,6 @@
    "aliases": [
     "Incline DB Bicep Curl",
     "Incline Dumbbell Bicep Curl"
-   ],
-   "uses": 2
-  },
-  {
-   "id": "isometric-fatigue-shoulder",
-   "name": "Isometric Fatigue Shoulder",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Isometric Fatigue Shoulders"
    ],
    "uses": 2
   },
@@ -13199,7 +12959,7 @@
   {
    "id": "lateral-arc-med-ball-slam",
    "name": "Lateral Arc Med Ball Slam",
-   "pattern": null,
+   "pattern": "plyometric",
    "equipment": [
     "medicine-ball"
    ],
@@ -13212,7 +12972,7 @@
   {
    "id": "lateral-arc-slam-ball",
    "name": "Lateral Arc Slam Ball",
-   "pattern": null,
+   "pattern": "plyometric",
    "equipment": [
     "medicine-ball"
    ],
@@ -13225,7 +12985,7 @@
   {
    "id": "left-arm-kettlebell-press",
    "name": "Left Arm Kettlebell Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [
     "kettlebell"
    ],
@@ -13251,7 +13011,7 @@
   {
    "id": "left-arm-press",
    "name": "Left Arm Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -13262,7 +13022,7 @@
   {
    "id": "leg-lower-to-windshield",
    "name": "Leg Lower To Windshield",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -13347,7 +13107,7 @@
   {
    "id": "poliquin-raise",
    "name": "Poliquin Raise",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -13382,7 +13142,7 @@
   {
    "id": "quadruped-reverse-crawl",
    "name": "Quadruped Reverse Crawl",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -13579,7 +13339,7 @@
   {
    "id": "single-arm-dumbbell-cuban-press",
    "name": "Single Arm Dumbbell Cuban Press",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -13732,7 +13492,7 @@
   {
    "id": "supine-single-leg-lowering",
    "name": "Supine Single Leg Lowering",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -13784,7 +13544,7 @@
   {
    "id": "toes-to-ring",
    "name": "Toes To Ring",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "rings"
    ],
@@ -14001,19 +13761,6 @@
    "uses": 1
   },
   {
-   "id": "barbell-reverse-cur",
-   "name": "Barbell Reverse Cur",
-   "pattern": null,
-   "equipment": [
-    "barbell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Barbell Reverse Cur"
-   ],
-   "uses": 1
-  },
-  {
    "id": "bike-as-many-calories-as-possible",
    "name": "Bike As Many Calories As Possible",
    "pattern": "cardio",
@@ -14042,7 +13789,7 @@
   {
    "id": "bottom-of-dip-support",
    "name": "Bottom Of Dip Support",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14053,7 +13800,7 @@
   {
    "id": "bradford-press-to-full-press",
    "name": "Bradford Press To Full Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14064,7 +13811,7 @@
   {
    "id": "bradford-press-with-lockout",
    "name": "Bradford Press With Lockout",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14182,7 +13929,7 @@
   {
    "id": "cal-bike",
    "name": "Cal Bike",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [
     "bike"
    ],
@@ -14195,7 +13942,7 @@
   {
    "id": "cal-row",
    "name": "Cal Row",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14306,7 +14053,7 @@
   {
    "id": "dual-dumbbell-rack-lateral-band-walk",
    "name": "Dual Dumbbell Rack Lateral Band Walk",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "dumbbell",
     "band"
@@ -14333,7 +14080,7 @@
   {
    "id": "dual-kettlebell-dl",
    "name": "Dual Kettlebell Dl",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "kettlebell"
    ],
@@ -14346,7 +14093,7 @@
   {
    "id": "dual-kettlebell-high-pull",
    "name": "Dual Kettlebell High Pull",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "kettlebell"
    ],
@@ -14424,7 +14171,7 @@
   {
    "id": "dumbbell-box-step-over",
    "name": "Dumbbell Box Step Over",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell",
     "box"
@@ -14492,7 +14239,7 @@
   {
    "id": "dumbbell-external-rotation",
    "name": "Dumbbell External Rotation",
-   "pattern": null,
+   "pattern": "isolation-shoulders",
    "equipment": [
     "dumbbell"
    ],
@@ -14635,17 +14382,6 @@
    "uses": 1
   },
   {
-   "id": "elevator-bar",
-   "name": "Elevator Bar",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Elevator Bar or Ring Dip"
-   ],
-   "uses": 1
-  },
-  {
    "id": "explosive-push-up",
    "name": "Explosive Push Up",
    "pattern": "horizontal-press",
@@ -14655,17 +14391,6 @@
    "unilateral": false,
    "aliases": [
     "Explosive Pushup"
-   ],
-   "uses": 1
-  },
-  {
-   "id": "feet-anchored",
-   "name": "Feet Anchored",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Feet Anchored or GHD Sit Up"
    ],
    "uses": 1
   },
@@ -14773,7 +14498,7 @@
   {
    "id": "half-kneeling-band-row",
    "name": "Half Kneeling Band Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "band"
    ],
@@ -14786,7 +14511,7 @@
   {
    "id": "handstand-hold",
    "name": "Handstand Hold",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14819,7 +14544,7 @@
   {
    "id": "hanging-knee-raise",
    "name": "Hanging Knee Raise",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14863,7 +14588,7 @@
   {
    "id": "hs-hold",
    "name": "Hs Hold",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14874,7 +14599,7 @@
   {
    "id": "hs-walk",
    "name": "Hs Walk",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -14964,7 +14689,7 @@
   {
    "id": "kettlebell-see-saw-row",
    "name": "Kettlebell See Saw Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "kettlebell"
    ],
@@ -15206,7 +14931,7 @@
   {
    "id": "monster-walk",
    "name": "Monster Walk",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -15354,17 +15079,6 @@
    "uses": 1
   },
   {
-   "id": "rep",
-   "name": "Rep",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "reps."
-   ],
-   "uses": 1
-  },
-  {
    "id": "reverse-lunge-with-twist",
    "name": "Reverse Lunge With Twist",
    "pattern": "lunge-single-leg",
@@ -15391,7 +15105,7 @@
   {
    "id": "right-arm-kettlebell-press",
    "name": "Right Arm Kettlebell Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [
     "kettlebell"
    ],
@@ -15417,7 +15131,7 @@
   {
    "id": "right-arm-press",
    "name": "Right Arm Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -15472,17 +15186,6 @@
    "uses": 1
   },
   {
-   "id": "russian-twists-s",
-   "name": "Russian Twists S",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Russian Twists s (10/side)"
-   ],
-   "uses": 1
-  },
-  {
    "id": "segment-muscle-clean",
    "name": "Segment Muscle Clean",
    "pattern": "olympic",
@@ -15501,19 +15204,6 @@
    "unilateral": false,
    "aliases": [
     "Shoulder Extension"
-   ],
-   "uses": 1
-  },
-  {
-   "id": "single-arm-alternating-russian-kettlebell",
-   "name": "Single Arm Alternating Russian Kettlebell",
-   "pattern": null,
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": true,
-   "aliases": [
-    "Single Arm Alternating Russian KBS"
    ],
    "uses": 1
   },
@@ -15573,7 +15263,7 @@
   {
    "id": "single-arm-dumbbell-rack-tall-kneel-to-stand",
    "name": "Single Arm Dumbbell Rack Tall Kneel To Stand",
-   "pattern": null,
+   "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell"
    ],
@@ -15621,7 +15311,7 @@
   {
    "id": "single-arm-split-stance-dumbbell-swing",
    "name": "Single Arm Split Stance Dumbbell Swing",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "dumbbell"
    ],
@@ -15683,7 +15373,7 @@
   {
    "id": "slam-ball",
    "name": "Slam Ball",
-   "pattern": null,
+   "pattern": "plyometric",
    "equipment": [
     "medicine-ball"
    ],
@@ -15696,26 +15386,13 @@
   {
    "id": "split-stance-dumbbell-swing",
    "name": "Split Stance Dumbbell Swing",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [
     "dumbbell"
    ],
    "unilateral": false,
    "aliases": [
     "Split Stance DB Swing"
-   ],
-   "uses": 1
-  },
-  {
-   "id": "split-stance-single-arm-russian-kettlebell",
-   "name": "Split Stance Single Arm Russian Kettlebell",
-   "pattern": null,
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": true,
-   "aliases": [
-    "Split Stance Single Arm Russian KBS"
    ],
    "uses": 1
   },
@@ -15746,7 +15423,7 @@
   {
    "id": "strict-dumbbell-press",
    "name": "Strict Dumbbell Press",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [
     "dumbbell"
    ],
@@ -15759,7 +15436,7 @@
   {
    "id": "strict-hspu",
    "name": "Strict Hspu",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -15820,17 +15497,6 @@
    "uses": 1
   },
   {
-   "id": "tempo",
-   "name": "Tempo",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Tempo"
-   ],
-   "uses": 1
-  },
-  {
    "id": "tripod-dumbbell-row",
    "name": "Tripod Dumbbell Row",
    "pattern": "horizontal-pull",
@@ -15857,22 +15523,11 @@
   {
    "id": "wall-facing-shoulder-tap",
    "name": "Wall Facing Shoulder Tap",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [
     "Wall Facing Shoulder Taps"
-   ],
-   "uses": 1
-  },
-  {
-   "id": "warm-up",
-   "name": "Warm Up",
-   "pattern": null,
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Warm-up (8 min)"
    ],
    "uses": 1
   },
@@ -15890,7 +15545,7 @@
   {
    "id": "100m-run",
    "name": "100m Run",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15899,7 +15554,7 @@
   {
    "id": "140-single-under",
    "name": "140 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15919,7 +15574,7 @@
   {
    "id": "4-wall-walk",
    "name": "4 Wall Walk",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15928,7 +15583,7 @@
   {
    "id": "40-50-single-under",
    "name": "40 50 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15937,7 +15592,7 @@
   {
    "id": "40-single-under",
    "name": "40 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15955,7 +15610,7 @@
   {
    "id": "45-degree-hyper",
    "name": "45 Degree Hyper",
-   "pattern": null,
+   "pattern": "hinge",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15964,7 +15619,7 @@
   {
    "id": "48-single-under",
    "name": "48 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15973,7 +15628,7 @@
   {
    "id": "50-single-under",
    "name": "50 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15982,7 +15637,7 @@
   {
    "id": "6-inchworm",
    "name": "6 Inchworm",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15991,7 +15646,7 @@
   {
    "id": "60-75-single-under",
    "name": "60 75 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16000,7 +15655,7 @@
   {
    "id": "60-single-under",
    "name": "60 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16009,7 +15664,7 @@
   {
    "id": "75-single-under",
    "name": "75 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16018,7 +15673,7 @@
   {
    "id": "80-single-under",
    "name": "80 Single Under",
-   "pattern": null,
+   "pattern": "cardio",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16038,7 +15693,7 @@
   {
    "id": "band-row",
    "name": "Band Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "band"
    ],
@@ -16144,7 +15799,7 @@
   {
    "id": "dumbbell-prone-row",
    "name": "Dumbbell Prone Row",
-   "pattern": null,
+   "pattern": "horizontal-pull",
    "equipment": [
     "dumbbell"
    ],
@@ -16217,7 +15872,7 @@
   {
    "id": "pike-hs-hold",
    "name": "Pike Hs Hold",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16226,7 +15881,7 @@
   {
    "id": "pike-hspu",
    "name": "Pike Hspu",
-   "pattern": null,
+   "pattern": "vertical-press",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16235,7 +15890,7 @@
   {
    "id": "pronated-grip-lat-pull-down",
    "name": "Pronated Grip Lat Pull Down",
-   "pattern": null,
+   "pattern": "vertical-pull",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16266,7 +15921,7 @@
   {
    "id": "rower-body-saw",
    "name": "Rower Body Saw",
-   "pattern": null,
+   "pattern": "core",
    "equipment": [
     "rower"
    ],
@@ -16288,7 +15943,7 @@
   {
    "id": "standing-cable-abduction",
    "name": "Standing Cable Abduction",
-   "pattern": null,
+   "pattern": "isolation-legs",
    "equipment": [
     "cable"
    ],
@@ -16299,7 +15954,7 @@
   {
    "id": "supinated-grip-lat-pull-down",
    "name": "Supinated Grip Lat Pull Down",
-   "pattern": null,
+   "pattern": "vertical-pull",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16339,7 +15994,7 @@
   {
    "id": "wide-grip-lat-pull-down",
    "name": "Wide Grip Lat Pull Down",
-   "pattern": null,
+   "pattern": "vertical-pull",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -16470,7 +16125,7 @@
   "Quadruped Wrist Circles": "quadruped-wrist-circle",
   "Toe Sit": "toe-sit",
   "Barbell Hip Thrust": "barbell-hip-thrust",
-  "Half Kneeling Cable or Band Row": "half-kneeling-cable",
+  "Half Kneeling Cable or Band Row": "half-kneeling-cable-row",
   "PVC Box Shoulder Extension Stretch": "pvc-box-shoulder-extension-stretch",
   "Ring Assisted Cossack Squat": "ring-assisted-cossack-squat",
   "Active Scratch Test": "active-scratch-test",
@@ -16581,7 +16236,7 @@
   "Incline Prone Dumbbell Row": "incline-prone-dumbbell-row",
   "Low Switch Cossack": "low-switch-cossack",
   "Prone Band Pass Through": "prone-band-pass-through",
-  "Russian KBS": "russian-kettlebell",
+  "Russian KBS": "russian-kettlebell-swing",
   "V Up": "v-up",
   "1 1/4 Back Squat": "1-1-4-back-squat",
   "1 1/4 Close-Grip Bench Press": "1-1-4-close-grip-bench-press",
@@ -16691,11 +16346,11 @@
   "Side Plank Left": "side-plank",
   "Side Plank Powell Raise": "side-plank-powell-raise",
   "Side Plank Right": "side-plank",
-  "Single Arm DB or Cable Lean Away Lateral Raise": "single-arm-dumbbell",
+  "Single Arm DB or Cable Lean Away Lateral Raise": "single-arm-dumbbell-lean-away-lateral-raise",
   "Single Leg Hip Thrust": "single-leg-hip-thrust",
   "Split Stance DB RDL": "split-stance-dumbbell-romanian-deadlift",
-  "Standing KB or Bodyweight Windmill Left": "standing-kettlebell",
-  "Standing KB or Bodyweight Windmill Right": "standing-kettlebell",
+  "Standing KB or Bodyweight Windmill Left": "standing-kettlebell-windmill",
+  "Standing KB or Bodyweight Windmill Right": "standing-kettlebell-windmill",
   "Supinated Body Row": "supinated-body-row",
   "Supine Band Lat Pullover": "supine-band-lat-pullover",
   "Underswitch to Crab Reach": "underswitch-to-crab-reach",
@@ -16721,8 +16376,8 @@
   "Foot Elevated Cossack Squat": "foot-elevated-cossack-squat",
   "Forearm Plank": "forearm-plank",
   "Forward Lunge": "forward-lunge",
-  "Full Body": "full-body",
-  "Full Body Mobility": "full-body-mobility",
+  "Full Body": null,
+  "Full Body Mobility": null,
   "Inverted Skull Crushers": "inverted-skull-crusher",
   "L Crunches": "l-crunch",
   "Landmine Lateral Lunge with Rotation": "landmine-lateral-lunge-with-rotation",
@@ -16806,7 +16461,7 @@
   "Dumbbell Skullcrushers": "dumbbell-skullcrusher",
   "Goblet Tall Kneel to Stand": "goblet-tall-kneel-to-stand",
   "Incline Dumbbell Fly": "incline-dumbbell-fly",
-  "Mobility": "mobility",
+  "Mobility": null,
   "Seated Dumbbell Lateral Raise": "seated-dumbbell-lateral-raise",
   "Side Plank": "side-plank",
   "Tall Kneeling Triceps Stretch": "tall-kneeling-triceps-stretch",
@@ -16822,14 +16477,14 @@
   "DB Suitcase Walking Lunge": "dumbbell-suitcase-walking-lunge",
   "Downward Dog Shoulder Taps": "downward-dog-shoulder-tap",
   "Dumbbell Pullover": "dumbbell-pullover",
-  "Even -": "even",
+  "Even -": null,
   "KB Horn Grip Raise": "kettlebell-horn-grip-raise",
   "L Sit or Tuck L Sit on Parallettes": "l-sit",
   "Landmine Meadow Row": "landmine-meadow-row",
   "Narrow Grip DB Bench Press": "narrow-grip-dumbbell-bench-press",
   "Narrow Tricep Push Up": "narrow-tricep-push-up",
   "Offset Kettlebell Push up": "offset-kettlebell-push-up",
-  "Pauses at Bottom)": "pauses-at-bottom",
+  "Pauses at Bottom)": null,
   "Prone Behind the Neck Press": "prone-behind-the-neck-press",
   "Prone Shoulder Swimmers": "prone-shoulder-swimmer",
   "Push Up With Shoulder Tap": "push-up-with-shoulder-tap",
@@ -16919,7 +16574,7 @@
   "Incline Y Raise": "incline-y-raise",
   "Kelso Shrug": "kelso-shrug",
   "Low Incline 1-1/4 DB Bench Press": "low-incline-1-1-4-dumbbell-bench-press",
-  "Move immediately into the next couplet": "move-immediately-into-the-next-couplet",
+  "Move immediately into the next couplet": null,
   "Plate Loaded Turkish Sit Ups": "plate-loaded-turkish-sit-up",
   "Ring Plank": "ring-plank",
   "Seated DB Rear Delt Fly": "seated-dumbbell-rear-delt-fly",
@@ -16978,7 +16633,7 @@
   "Landmine Cossack Squat": "landmine-cossack-squat",
   "Leg Behind Goblet Squat": "leg-behind-goblet-squat",
   "Low Hold Landmine Cossack Lunge": "low-hold-landmine-cossack-lunge",
-  "Odd -": "odd",
+  "Odd -": null,
   "Plate Loaded Leg Behind Squat": "plate-loaded-leg-behind-squat",
   "Rack Pull": "rack-pull",
   "Side Plank Hip Taps L": "side-plank-hip-tap",
@@ -17087,7 +16742,7 @@
   "Single Leg Wall Sit/leg": "single-leg-wall-sit",
   "Sit Up": "sit-up",
   "Straight Leg Hip Bridge March": "straight-leg-hip-bridge-march",
-  "Strict Bar or Ring Dip": "strict-bar",
+  "Strict Bar or Ring Dip": "strict-bar-dip",
   "Strict Muscle Up": "strict-muscle-up",
   "Strict Pull Up": "strict-pull-up",
   "Sumo DB RDL": "sumo-dumbbell-romanian-deadlift",
@@ -17190,7 +16845,7 @@
   "Bar Muscle Up": "bar-muscle-up",
   "Bar or Ring Muscle Up": "bar-or-ring-muscle-up",
   "Bodyweight Walking Lunge (15/side)": "bodyweight-walking-lunge",
-  "Bottom)": "bottom",
+  "Bottom)": null,
   "Cross Body Carry": "cross-body-carry",
   "Crush Grip Dumbbell Curls": "crush-grip-dumbbell-curl",
   "DB Arnold Press": "dumbbell-arnold-press",
@@ -17257,7 +16912,7 @@
   "Long Step Bodyweight Walking Lunge (12/side)": "long-step-bodyweight-walking-lunge",
   "Low Incline 1-1/4 Dumbbell Bench Press": "low-incline-1-1-4-dumbbell-bench-press",
   "Low Incline Dumbbell Bench Press": "low-incline-dumbbell-bench-press",
-  "Mechanical Drop Sets": "mechanical-drop-set",
+  "Mechanical Drop Sets": null,
   "Mixed Front Rack Overhead KB Carry": "mixed-front-rack-overhead-kettlebell-carry",
   "Mountain Climbers": "mountain-climber",
   "Neutral Grip Pull Up": "neutral-grip-pull-up",
@@ -17271,7 +16926,7 @@
   "Right Leg Goblet Cossack Lunge": "right-leg-goblet-cossack-lunge",
   "Right Side Single Arm Suitcase Rear Foot Elevated Split Squat": null,
   "Ring Plank or Tall Plank Seconds": "ring-plank",
-  "Ring, Slider, or Rower Body Saw": "ring-slider",
+  "Ring, Slider, or Rower Body Saw": "ring-body-saw",
   "RNT Single Arm Dumbbell Row": "rnt-single-arm-dumbbell-row",
   "Rower Pike Ups": "rower-pike-up",
   "Run or 5 Shuttle Runs": null,
@@ -17280,7 +16935,7 @@
   "Russian Step Up (5/side)": "russian-step-up",
   "Seated DB Lateral Raises": "seated-dumbbell-lateral-raise",
   "Seated Dumbbell Strict Press": "seated-dumbbell-strict-press",
-  "sec": "sec",
+  "sec": null,
   "Set 1 - ABCDE": null,
   "Set 1 - Easy to Moderate": null,
   "Set 1)": null,
@@ -17319,7 +16974,7 @@
   "1. Pronated Pull Up Isometric": null,
   "1. Supinated Pull Up Isometric": null,
   "Ab Wheel or Barbell Rollout": "ab-wheel",
-  "Aerobic Push Pull": "aerobic-push-pull",
+  "Aerobic Push Pull": null,
   "Alternating DB Glute Bridge Floor Press": "alternating-dumbbell-glute-bridge-floor-press",
   "Alternating DB Power Clean": "alternating-dumbbell-power-clean",
   "Alternating Dumbbell Bench Press (Top Down)": "alternating-dumbbell-bench-press",
@@ -17400,7 +17055,7 @@
   "Dumbbell Tate Press": "dumbbell-tate-press",
   "Dumbbell Zercher Goodmorning": "dumbbell-zercher-good-morning",
   "EMOM Format": null,
-  "Extension": "extension",
+  "Extension": null,
   "External Dumbbell Lateral Raise": "external-dumbbell-lateral-raise",
   "Farmers Carry": "farmers-carry",
   "Filly Carry TOUGH (switch arms halfway)": "filly-carry-tough",
@@ -17433,7 +17088,7 @@
   "KB Plank Pull Through": "kettlebell-plank-pull-through",
   "KB Rack Carry or": "kettlebell-rack-carry-or",
   "KB Rack Carry TOUGH": "kettlebell-rack-carry-tough",
-  "KB Russian Twists or": "kettlebell-russian-twists-or",
+  "KB Russian Twists or": "russian-twist",
   "KB Sumo Deadlift": "kettlebell-sumo-deadlift",
   "KB Upright Row": "kettlebell-upright-row",
   "Kettlebell Front Rack Carry": "kettlebell-front-rack-carry",
@@ -17467,8 +17122,8 @@
   "Ring Plank or Tall Plank": "ring-plank",
   "RNT Chainsaw Row": "rnt-chainsaw-row",
   "Row Max Meters in Time Remaining": "row-max-meters-in-time-remaining",
-  "Rower, Ring, or Physioball Hamstring Curl": "rower-ring",
-  "Russian KBS or": "russian-kettlebell-or",
+  "Rower, Ring, or Physioball Hamstring Curl": "rower-hamstring-curl",
+  "Russian KBS or": "russian-kettlebell-swing",
   "Seated Alternating Dumbbell Press": "seated-alternating-dumbbell-press",
   "Segmented Cat/Cow": "segmented-cat-cow",
   "Side Plank/side": "side-plank",
@@ -17494,7 +17149,7 @@
   "Split Stance Dual KB RDL": "split-stance-dual-kettlebell-romanian-deadlift",
   "Split Stance Dual Kettlebell Row": "split-stance-dual-kettlebell-row",
   "Split Stance Isometric Hold w/ Pulse": "split-stance-isometric-hold-w-pulse",
-  "Strict Bar or Ring Dips": "strict-bar",
+  "Strict Bar or Ring Dips": "strict-bar-dip",
   "Strict Handstand Push Up": "strict-handstand-push-up",
   "Strict Ring Muscle Up": "strict-ring-muscle-up",
   "Supinated Band Pullapart": "supinated-band-pullapart",
@@ -17503,7 +17158,7 @@
   "Supinated Grip Ring Row": "supinated-grip-ring-row",
   "Supinated Lat Pulldown or Supinated Strict Pull up": "supinated-lat-pulldown",
   "Supinated Pull Up Negative": "supinated-pull-up-negative",
-  "SUSTAINED PACE": "sustained-pace",
+  "SUSTAINED PACE": null,
   "Switch Lunge (12/side)": "switch-lunge",
   "Switch Lunge (15/side)": "switch-lunge",
   "Switch Lunge (6/side)": "switch-lunge",
@@ -17546,8 +17201,8 @@
   "Alternating Incline Dumbbell Curl": "alternating-incline-dumbbell-curl",
   "Alternating KB Press": "alternating-kettlebell-press",
   "Alternating Oblique Raise in Dip Support": "alternating-oblique-raise-in-dip-support",
-  "American KBS": "american-kettlebell",
-  "American KBS (70/53)": "american-kettlebell",
+  "American KBS": "american-kettlebell-swing",
+  "American KBS (70/53)": "american-kettlebell-swing",
   "Anchored Feet Sit Ups": "anchored-feet-sit-up",
   "Arnold Z Press L": "arnold-z-press",
   "Arnold Z Press R": "arnold-z-press",
@@ -17581,7 +17236,7 @@
   "Chainsaw DB Row/arm": "chainsaw-dumbbell-row",
   "Chest to Bar Kipping Pull Ups": "chest-to-bar-kipping-pull-up",
   "Close Grip Lat Pulldown or Neutral Grip Pull up": "close-grip-lat-pulldown",
-  "Cluster Sets": "cluster-set",
+  "Cluster Sets": null,
   "Cross Body KB Carry": "cross-body-kettlebell-carry",
   "Cross Body Kettlebell Carry": "cross-body-kettlebell-carry",
   "Crush Grip Dumbbell Hollow Hold": "crush-grip-dumbbell-hollow-hold",
@@ -17649,10 +17304,10 @@
   "Dumbbell Suitcase Walking Lunge (50/35)": "dumbbell-suitcase-walking-lunge",
   "Dumbbell Swings": "dumbbell-swing",
   "Dumbbell Waiter Curl Pulses": "dumbbell-waiter-curl-pulse",
-  "Easy Pedal (or rest)": "easy-pedal",
+  "Easy Pedal (or rest)": null,
   "Extended Plank": "extended-plank",
   "Farmer's Walk": "farmers-walk",
-  "Fatigued Abdominals": "fatigued-abdominal",
+  "Fatigued Abdominals": null,
   "Flat Bench Fly Press": "flat-bench-fly-press",
   "Full Clean": "full-clean",
   "Glute Bridge Alternating Dumbbell Floor Press": "glute-bridge-alternating-dumbbell-floor-press",
@@ -17678,7 +17333,7 @@
   "Incline Alternating DB Bicep Curl": "incline-alternating-dumbbell-bicep-curl",
   "Incline DB Tricep Kickback": "incline-dumbbell-tricep-kickback",
   "Incline Dumbbell Tricep Kickback": "incline-dumbbell-tricep-kickback",
-  "Isometric Fatigue Shoulders": "isometric-fatigue-shoulder",
+  "Isometric Fatigue Shoulders": null,
   "KB Front Raise": "kettlebell-front-raise",
   "KB Overhead Tricep Extension": "kettlebell-overhead-tricep-extension",
   "KB Split Snatch Left": "kettlebell-split-snatch",
@@ -17840,7 +17495,7 @@
   "Back Squat Progression": "back-squat-progression",
   "Bar Facing Burpee": "bar-facing-burpee",
   "Barbell Push Jerk": "barbell-push-jerk",
-  "Barbell Reverse Cur": "barbell-reverse-cur",
+  "Barbell Reverse Cur": "barbell-reverse-curl",
   "Bike 600": null,
   "Bike as many Calories as Possible": "bike-as-many-calories-as-possible",
   "Bike Between Sets": "bike-between-set",
@@ -17956,12 +17611,12 @@
   "Dumbbell Thrusters": "dumbbell-thruster",
   "Dumbbell Turkish Sit Ups 10-25#": null,
   "E#ow to Tall Plank": "e-ow-to-tall-plank",
-  "Elevator Bar or Ring Dip": "elevator-bar",
+  "Elevator Bar or Ring Dip": "strict-bar-dip",
   "Explosive Pushup": "explosive-push-up",
   "Farmer's Carry": "farmers-carry",
   "Farmers Walk (50/35)": "farmers-walk",
   "Farmers Walk (70/50)": "farmers-walk",
-  "Feet Anchored or GHD Sit Up": "feet-anchored",
+  "Feet Anchored or GHD Sit Up": "feet-anchored-sit-up",
   "Feet Elevated Parallette Push-Ups": "feet-elevated-parallette-push-up",
   "Feet Farmers Carry or": "feet-farmers-carry-or",
   "Feet Goblet Carry": "feet-goblet-carry",
@@ -18109,7 +17764,7 @@
   "Quadruped KB Plank Row (53/35) (6/side)": "quadruped-kettlebell-plank-row",
   "QUALITY Sets NOT FOR TIME": null,
   "Renegade Rows": "renegade-row",
-  "reps.": "rep",
+  "reps.": null,
   "rest between sets": null,
   "Reverse Lunge": "reverse-lunge",
   "Reverse Lunge with Twist": "reverse-lunge-with-twist",
@@ -18125,7 +17780,7 @@
   "Row for Max Calories": null,
   "Rower Pike Up": "rower-pike-up",
   "Russian Box Step Up": "russian-box-step-up",
-  "Russian Twists s (10/side)": "russian-twists-s",
+  "Russian Twists s (10/side)": "russian-twist",
   "Saturday, April, 4th, 2026": null,
   "Seated Alternating DB Arnold Press": "seated-alternating-dumbbell-arnold-press",
   "Seated Alternating Dumbbell Arnold Press": "seated-alternating-dumbbell-arnold-press",
@@ -18140,7 +17795,7 @@
   "Shuttle Run (10m there and back)": "shuttle-run",
   "Shuttle Run (down+back=1)": null,
   "Single Arm Alternating Devils Press (6/side)": "single-arm-alternating-devils-press",
-  "Single Arm Alternating Russian KBS": "single-arm-alternating-russian-kettlebell",
+  "Single Arm Alternating Russian KBS": "russian-kettlebell-swing",
   "Single Arm DB Plank (30/20)": "single-arm-dumbbell-plank",
   "Single Arm Devils Press": "single-arm-devils-press",
   "Single Arm Devils Press (50/35) (10/side)": "single-arm-devils-press",
@@ -18174,7 +17829,7 @@
   "Split Stance DB RDL/side (light weight)": "split-stance-dumbbell-romanian-deadlift",
   "Split Stance DB Swing": "split-stance-dumbbell-swing",
   "Split Stance Isometric w/Pulse": "split-stance-isometric-w-pulse",
-  "Split Stance Single Arm Russian KBS": "split-stance-single-arm-russian-kettlebell",
+  "Split Stance Single Arm Russian KBS": "russian-kettlebell-swing",
   "Sprawl": "sprawl",
   "Strict Bar Dip Progression": "strict-bar-dip-progression",
   "Strict Bar Dip/Pushup": "strict-bar-dip-push-up",
@@ -18192,7 +17847,7 @@
   "Tall Kneeling Landmine Press R": "tall-kneeling-landmine-press",
   "Tall Plank KB Pull Through": "tall-plank-kettlebell-pull-through",
   "Tall Plank Knee to Elbow (8/side)": "tall-plank-knee-to-elbow",
-  "Tempo": "tempo",
+  "Tempo": null,
   "Thursday, April, 2nd, 2026": null,
   "Tripod DB Row": "tripod-dumbbell-row",
   "Tuck Up + V Up": null,
@@ -18200,7 +17855,7 @@
   "Walking Lunge (15/side)": "walking-lunge",
   "Wall Balls 20/14, 10'/9'": null,
   "Wall Facing Shoulder Taps": "wall-facing-shoulder-tap",
-  "Warm-up (8 min)": "warm-up",
+  "Warm-up (8 min)": null,
   "Wednesday, April, 1st, 2026": null,
   "Weight Plate Turkish Sit Ups #": "weight-plate-turkish-sit-up",
   "Weighted Feet Anchored Sit Up (25/10)": "weighted-feet-anchored-sit-up",
