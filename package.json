@@ -39,7 +39,8 @@
     "persist:report": "node scripts/persist/report.ts",
     "persist:seed": "npm run persist:catalog && npm run persist:report && void db seed --yes",
     "persist:analyze": "node scripts/persist/analysis/run.ts",
-    "persist:views": "node scripts/persist/views.ts"
+    "persist:views": "node scripts/persist/views.ts",
+    "persist:generate": "node scripts/persist/generate.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
