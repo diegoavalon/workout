@@ -1,0 +1,8 @@
+group,distinctSections,sectionWeekAppearances,inMoreThanOneWeek,inMoreThanOneBlock,repeatShare,maxWeeksOneSection
+recovery days (active recovery work),107,192,17,17,0.4427083333333333,35
+recovery mobility sessions,111,208,41,37,0.46634615384615385,10
+cooldowns,91,300,70,30,0.6966666666666667,9
+warmups,242,274,32,32,0.11678832116788321,2
+"conditioning, finishers, hot starts",931,990,37,7,0.0595959595959596,6
+strength balance,566,607,31,0,0.06754530477759473,4
+strength intensity 1 and 2,664,698,28,2,0.04871060171919771,3

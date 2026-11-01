@@ -1,0 +1,86 @@
+[
+ {
+  "title": "A week is seven days: training days, recovery days, and a Day 7 note",
+  "rule": "Each track has the same day-type layout every week (T = training, R = recovery, N = Marcus's note): minimalist 1:T 2:T 3:R 4:T 5:T 6:R 7:N; perform 1:T 2:T 3:T 4:R 5:T 6:T 7:N; pump-condition-3x 1:T 2:R 3:T 4:R 5:T 6:R 7:N; pump-condition-4x 1:T 2:T 3:R 4:T 5:T 6:R 7:N; pump-condition-5x 1:T 2:T 3:T 4:R 5:T 6:T 7:N; pump-lift-3x 1:T 2:R 3:T 4:R 5:T 6:R 7:N; pump-lift-4x 1:T 2:T 3:R 4:T 5:T 6:R 7:N; pump-lift-5x 1:T 2:T 3:T 4:R 5:T 6:T 7:N. Day 7 carries a written note in every track.",
+  "evidence": "2179 of 2184 track-days (99.8%) match their track's usual day type, over 39 observed weeks and 8 blocks.",
+  "exceptions": "5 track-days differ from the usual type."
+ },
+ {
+  "title": "Every training session follows its family's skeleton",
+  "rule": "Pump Lift: warmup, strength intensity 1, strength intensity 2, strength balance, finisher, cooldown. Pump Condition and Minimalist: warmup, strength intensity 1, strength balance, conditioning, cooldown. Perform: the same with a hot start or speed-strength section before the main lift. A daily focus note leads every session (present in all but a few).",
+  "evidence": "1253 of 1287 training sessions (97.4%) match; Pump Lift 3x/4x and Pump Condition 3x/4x match 100%.",
+  "exceptions": "34 sessions deviate: 24 are Day 6 sessions (a shortened session that drops strength intensity 2 or, in Perform, the hot start or strength balance) and 19 are Perform sessions in total. See q01-skeleton-deviations.csv."
+ },
+ {
+  "title": "Pump Lift 5x covers squat, hinge and both presses in nearly every week; pulls and single-leg work less consistently",
+  "rule": "Weekly strength slots (strength intensity 1 and 2) of Pump Lift 5x include squat, hinge, horizontal-press, vertical-press in at least 90% of weeks, and usually more than once. lunge-single-leg (32/39), horizontal-pull (35/39), vertical-pull (19/39) appear less reliably. Pump Lift 3x covers squat, horizontal-press, vertical-press exactly once in at least 85% of weeks. Pattern is not tied to a day number: the pattern on a given day changes from block to block.",
+  "evidence": "squat 39/39, hinge 38/39, lunge-single-leg 32/39, horizontal-press 39/39, vertical-press 39/39, horizontal-pull 35/39, vertical-pull 19/39 weeks covered at least once (Pump Lift 5x); exactly-once counts are in q02-pattern-coverage.csv.",
+  "exceptions": "Coverage counts exercises with a resolved pattern only. Dips and chest flies are counted as horizontal presses (a judgment call: the pattern list has no chest-isolation category), and burpees as plyometric. Still unresolved: Tuck Up, Russian Babymaker, Dumbbell Full Raise, Wall Sit, Front Rack Hold."
+ },
+ {
+  "title": "Within a block the main lift alternates between two variations on odd and even weeks",
+  "rule": "Each main-lift slot has two variations (A on odd weeks, B on even weeks), for example sumo deadlift on odd weeks and deficit deadlift on even weeks. The pair is chosen per block and day.",
+  "evidence": "29 of 35 Pump Lift 5x strength-intensity-1 slots (82.9%) alternate exactly; the other slots are fixed (2) or rotate (4). The first strength-balance movement alternates in 60.0% of slots.",
+  "exceptions": "Strength intensity 2 alternates in 64.7% of slots and finishers in 14.3% (they rotate nearly every week)."
+ },
+ {
+  "title": "A new block brings new main lifts, but the exercise pool is reused over time",
+  "rule": "The main lift in a given day and role almost never repeats in the next block. Exercises do return after a gap: by the sixth block about two thirds of the Pump Lift 5x strength exercises had been used before.",
+  "evidence": "The same day and role kept the same main lift in 4 of 139 block-to-block comparisons (2.9%); 4-15% of each block's strength exercises also appeared in the previous block.",
+  "exceptions": "Exercise identity is by catalog id, so equipment variants (dumbbell vs barbell) count as different exercises."
+ },
+ {
+  "title": "Strength slots use 3 or 4 working sets ramping RPE 7/8/9, with reps falling across the block",
+  "rule": "Working sets ramp RPE 7, 8, 9 (a fourth set is a max-reps set at RPE 10 at the Set 1 weight, or a set at RPE 9). Tempo and set count stay constant across a block. The opening reps for a slot fall by about two between same-parity weeks (for example 10, 8, 6), and the reps within a session are either flat or step down by about two.",
+  "evidence": "RPE starts 7/8/9 in 87.8% of weeks; set count constant in 82.1% of slot sequences; at most two tempos in 90.6%; opening reps never rise within a parity in 83.9%; 608 of 737 two-week steps lower the opening reps.",
+  "exceptions": "Odd and even weeks form a clean heavy/light pair in only 33.5% of slots, and the heavier parity is odd in 41 and even in 34 slots, so \"even weeks are heavier\" is not a rule. The week-by-week scheme is in data/design/progression.json."
+ },
+ {
+  "title": "Pump Condition 5x and Perform reuse the Pump Lift 5x main lift on the same day",
+  "rule": "Pump Condition 5x and Perform take the strength-intensity-1 lift of the Pump Lift 5x session with the same day number. Their other sections (balance, conditioning) are different.",
+  "evidence": "Same lift on the same day: Pump Condition 5x 190/195 (97.4%), Perform 190/195 (97.4%). Strength-intensity-1 sections are identical in 161/193 and 156/193 matched days.",
+  "exceptions": "Strength balance is identical in only about a third of matched days; conditioning is its own piece."
+ },
+ {
+  "title": "The 4x and 3x tracks use 5x sessions but choose a different subset in every block",
+  "rule": "Pump Lift 4x and 3x (and Pump Condition 4x and 3x) contain the main lifts of four or three of the 5x days, in an order picked per block. Strength intensity 2, balance and finisher are often changed too. There is no single drop rule; keep a per-block day mapping (data/design/track-derivation.json).",
+  "evidence": "Same lift on some 5x day: Pump Lift 4x 99.4%, 3x 99.1%; but on the same day number only 23.1% and 41.0%. The mapping stays constant across the block's weeks in 7 of 8 blocks (4x) and 7 of 8 (3x).",
+  "exceptions": "The 3x track is not the 5x session with strength intensity 2 removed: it keeps a strength intensity 2 and nearly always replaces it (identical to the 5x counterpart in 4/117 matched days, versus 73/156 for 4x)."
+ },
+ {
+  "title": "Minimalist keeps the pattern, not the lift",
+  "rule": "Minimalist days have the same movement pattern as a Pump Lift 5x day in the same week but use a dumbbell or bodyweight variation.",
+  "evidence": "Same pattern as a Pump Lift 5x day: 80.8% of Minimalist days; the same exact lift only 4.5%.",
+  "exceptions": "The day-to-day mapping is not constant within a block, so the pattern order cannot be copied by day number alone."
+ },
+ {
+  "title": "Cooldowns and recovery content are recycled; training content is not",
+  "rule": "Training sessions never repeat in a later week, and conditioning, strength balance and strength intensity sections are almost always new. Cooldowns are drawn from a small set and repeat across weeks. Recovery sessions are partly reused (the same mobility or active-recovery work returns), within a block and across blocks, and are shared across tracks.",
+  "evidence": "Cooldowns: 91 distinct sections across 300 week appearances (69.7% are repeats). Mobility sessions 46.6% repeats; active recovery 44.3%; conditioning/finishers/hot starts 6.0%. Training sessions repeated in a second week: 0 (0.0%).",
+  "exceptions": "Recovery days are not copied verbatim between blocks as a rule: 15.9% of active-recovery sections and 33.3% of mobility sessions appear in more than one block."
+ },
+ {
+  "title": "Strength-balance supersets are chosen around the day's main lift, not as push/pull pairs",
+  "rule": "The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (38); core + hip (27); knee + knee (25); hinge day pull + pull (39); knee + knee (33); hip + knee (21); vertical-press day push + shoulders (38); arms + push (28); push + push (24).",
+  "evidence": "Top pair types among 944 resolved supersets: same group (push) 12.3%, hip + knee 10.7%, arms + push 9.9%. Push-with-pull pairs are only 2.0% of them.",
+  "exceptions": "247 of 1191 supersets have a movement whose pattern is unresolved (for example Tuck Up, Russian Babymaker, Dumbbell Full Raise), so these shares may shift once those patterns are resolved."
+ },
+ {
+  "title": "Conditioning pieces come in a few formats with 9-30 minute time domains",
+  "rule": "Conditioning sections are AMRAP, every-N-seconds, for-time, interval or ladder pieces, built from rowing, biking, running, kettlebell and dumbbell work. Finishers (Pump Lift) are short supersets. Perform adds hot starts and speed-strength sections before the main lift.",
+  "evidence": "Distinct conditioning sections by format: unclassified 156, amrap 116, every-n-sec 109, for-time 102, intervals 50, ladder 16, emom 4, chipper 2. Finishers: superset 193, straight-sets 19, every-n-sec 6, amrap 2, run-the-rack 2, giant-set 1, unclassified 1.",
+  "exceptions": "28.1% of conditioning sections name no format in their text (for example continuous-clock or \"for quality\" pieces), so they are left unclassified rather than guessed."
+ },
+ {
+  "title": "Pump Lift hard-set volume per pattern drops with frequency, but not proportionally",
+  "rule": "Averaged over squat, hinge, horizontal press and horizontal pull, Pump Lift 4x carries 84% and 3x 70% of the 5x hard sets. Hinge volume is nearly unchanged from 5x to 4x while horizontal pull falls the most.",
+  "evidence": "Average weekly hard sets, Pump Lift 5x: squat 5.5, hinge 6.2-6.3, horizontal-press 12.7-12.9, horizontal-pull 4.8-4.8; 4x: squat 4.6, hinge 6.2-6.3, horizontal-press 11.5-11.7, horizontal-pull 2.8-2.9; 3x: squat 4.3, hinge 4.9, horizontal-press 7.6, horizontal-pull 3.1-3.1.",
+  "exceptions": "Hard sets are working sets of strength intensity 1-2 plus the prescribed sets of each balance and finisher movement; conditioning is not counted. Volume on exercises with an unresolved pattern is excluded from the pattern rows (9.1 sets a week for Pump Lift 5x), so every number is a lower bound."
+ },
+ {
+  "title": "What the data cannot yet support",
+  "rule": "Rules above describe the program as published in these weeks. Gaps: four whole weeks are missing inside blocks (May 18/25 and Jun 22/29), the first block starts at Week 3, and the current block is only at Week 5.",
+  "evidence": "39 weeks observed, 4 missing, 8 blocks. 8.5% of exercise uses still have no resolved pattern (data/reports/unmapped_exercises.json).",
+  "exceptions": "Resolving the pattern for the top unresolved exercises (Tuck Up, Russian Babymaker, Dumbbell Full Raise, Wall Sit, Front Rack Hold) would tighten the coverage, pairing and volume numbers."
+ }
+]

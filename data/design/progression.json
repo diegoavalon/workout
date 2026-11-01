@@ -1,0 +1,1378 @@
+{
+ "note": "Generated from the seeded database. 'reps' lists the reps of each working set in order; 'max' is a max-reps set. Rules measured over all strength-intensity-1 sequences are in data/reports/analysis.md section 4.",
+ "rules": [
+  "Working sets are ranked by RPE, usually starting 7/8/9 (88% of weeks).",
+  "Within a block the working-set count is constant in 82% of slot sequences and at most two tempos are used in 91%.",
+  "Opening reps fall between same-parity weeks (two weeks apart) in 608 of 737 steps, usually by one or two reps.",
+  "Odd and even weeks do not reliably form a heavy/light pair: opening reps separate cleanly by parity in 33% of slots, and the heavier parity is odd in 41 and even in 34."
+ ],
+ "families": {
+  "pump-lift": {
+   "strength-intensity-1": {
+    "observed": 436,
+    "byWeek": {
+     "1": {
+      "observed": 70,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "flat": 20,
+       "max-ending": 20,
+       "ramp-then-max": 14,
+       "ramp-down": 16
+      },
+      "schemes": [
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 11
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 9
+       },
+       {
+        "reps": "12/10/8",
+        "rpe": "7/8/9",
+        "slots": 7
+       },
+       {
+        "reps": "12/10/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 6
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 4
+       }
+      ]
+     },
+     "2": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "ramp-down": 17,
+       "ramp-then-max": 15,
+       "flat": 27,
+       "max-ending": 12
+      },
+      "schemes": [
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 9
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 8
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 7
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 7
+       },
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "12/10/8",
+        "rpe": "7/8/9",
+        "slots": 4
+       }
+      ]
+     },
+     "3": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 20,
+       "flat": 24,
+       "ramp-then-max": 10,
+       "ramp-down": 15,
+       "other": 2
+      },
+      "schemes": [
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 7
+       },
+       {
+        "reps": "3/3/3",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "10/8/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 6
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "7/7/7/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       }
+      ]
+     },
+     "4": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 17,
+       "flat": 24,
+       "ramp-down": 18,
+       "ramp-then-max": 12
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 8
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "9/7/5",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "10/10/max",
+        "rpe": "7/8/9",
+        "slots": 3
+       }
+      ]
+     },
+     "5": {
+      "observed": 82,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 23,
+       "flat": 29,
+       "ramp-then-max": 12,
+       "ramp-down": 18
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 11
+       },
+       {
+        "reps": "6/4/2",
+        "rpe": "7/8/9",
+        "slots": 9
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 6
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "3/3/3",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "6/6/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       }
+      ]
+     },
+     "6": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 15,
+       "flat": 27,
+       "ramp-down": 14,
+       "ramp-then-max": 13,
+       "other": 2
+      },
+      "schemes": [
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 4
+       },
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 4
+       }
+      ]
+     }
+    }
+   },
+   "strength-intensity-2": {
+    "observed": 378,
+    "byWeek": {
+     "1": {
+      "observed": 63,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 12,
+       "flat": 25,
+       "ramp-down": 8,
+       "ramp-then-max": 16,
+       "other": 2
+      },
+      "schemes": [
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 9
+       },
+       {
+        "reps": "15/12/max",
+        "rpe": "7/8/10",
+        "slots": 6
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "8/9/10",
+        "slots": 6
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 4
+       }
+      ]
+     },
+     "2": {
+      "observed": 55,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 14,
+       "flat": 20,
+       "other": 5,
+       "ramp-then-max": 10,
+       "ramp-down": 6
+      },
+      "schemes": [
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 8
+       },
+       {
+        "reps": "5/3/2/5/3/2",
+        "rpe": "8/8/8/9/9/9",
+        "slots": 5
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "8/9/10",
+        "slots": 4
+       },
+       {
+        "reps": "8/8/max",
+        "rpe": "7/8/10",
+        "slots": 3
+       },
+       {
+        "reps": "15/12/max",
+        "rpe": "7/8/10",
+        "slots": 3
+       }
+      ]
+     },
+     "3": {
+      "observed": 66,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 16,
+       "flat": 26,
+       "ramp-down": 11,
+       "ramp-then-max": 11,
+       "other": 2
+      },
+      "schemes": [
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 7
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "8/9/10",
+        "slots": 6
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "8/8/max",
+        "rpe": "7/8/10",
+        "slots": 5
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "7/7/7",
+        "rpe": "7/8/9",
+        "slots": 4
+       }
+      ]
+     },
+     "4": {
+      "observed": 64,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 17,
+       "flat": 23,
+       "ramp-then-max": 11,
+       "ramp-down": 8,
+       "other": 5
+      },
+      "schemes": [
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 7
+       },
+       {
+        "reps": "5/3/2/5/3/2",
+        "rpe": "8/8/8/9/9/9",
+        "slots": 5
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "8/9/10",
+        "slots": 4
+       },
+       {
+        "reps": "10/10/max",
+        "rpe": "9/9/9",
+        "slots": 3
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 3
+       }
+      ]
+     },
+     "5": {
+      "observed": 75,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 16,
+       "flat": 30,
+       "ramp-down": 12,
+       "ramp-then-max": 15,
+       "other": 2
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 12
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 7
+       },
+       {
+        "reps": "6/6/6",
+        "rpe": "8/9/10",
+        "slots": 7
+       },
+       {
+        "reps": "6/6/max",
+        "rpe": "7/8/10",
+        "slots": 6
+       },
+       {
+        "reps": "10/8/max",
+        "rpe": "7/8/10",
+        "slots": 6
+       },
+       {
+        "reps": "10/8/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 4
+       }
+      ]
+     },
+     "6": {
+      "observed": 55,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 12,
+       "flat": 22,
+       "ramp-then-max": 11,
+       "ramp-down": 7,
+       "other": 3
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 8
+       },
+       {
+        "reps": "6/6/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 4
+       },
+       {
+        "reps": "6/6/6",
+        "rpe": "8/9/10",
+        "slots": 4
+       },
+       {
+        "reps": "12/12/max",
+        "rpe": "9/9/9",
+        "slots": 3
+       },
+       {
+        "reps": "12/12/12",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "5/3/2/5/3/2",
+        "rpe": "8/8/8/9/9/9",
+        "slots": 3
+       }
+      ]
+     }
+    }
+   }
+  },
+  "pump-condition": {
+   "strength-intensity-1": {
+    "observed": 436,
+    "byWeek": {
+     "1": {
+      "observed": 70,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "flat": 22,
+       "max-ending": 20,
+       "ramp-then-max": 14,
+       "ramp-down": 14
+      },
+      "schemes": [
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 12
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 9
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "12/10/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       },
+       {
+        "reps": "12/10/8",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 4
+       }
+      ]
+     },
+     "2": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "ramp-down": 17,
+       "ramp-then-max": 16,
+       "flat": 26,
+       "max-ending": 12
+      },
+      "schemes": [
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 9
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 8
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 7
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 7
+       },
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "8/7/6",
+        "rpe": "7/8/9",
+        "slots": 3
+       }
+      ]
+     },
+     "3": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 20,
+       "flat": 26,
+       "ramp-then-max": 10,
+       "ramp-down": 13,
+       "other": 2
+      },
+      "schemes": [
+       {
+        "reps": "3/3/3",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "10/8/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 5
+       }
+      ]
+     },
+     "4": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 17,
+       "flat": 24,
+       "ramp-down": 17,
+       "ramp-then-max": 13
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 8
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "9/7/5",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "10/10/max",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "7/6/5",
+        "rpe": "7/8/9",
+        "slots": 3
+       }
+      ]
+     },
+     "5": {
+      "observed": 82,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 23,
+       "flat": 31,
+       "ramp-then-max": 12,
+       "ramp-down": 16
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 11
+       },
+       {
+        "reps": "6/4/2",
+        "rpe": "7/8/9",
+        "slots": 9
+       },
+       {
+        "reps": "3/3/3",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       },
+       {
+        "reps": "7/5/3/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       }
+      ]
+     },
+     "6": {
+      "observed": 71,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 15,
+       "flat": 27,
+       "ramp-down": 13,
+       "ramp-then-max": 14,
+       "other": 2
+      },
+      "schemes": [
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 6
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 5
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 5
+       },
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 4
+       }
+      ]
+     }
+    }
+   }
+  },
+  "perform": {
+   "strength-intensity-1": {
+    "observed": 177,
+    "byWeek": {
+     "1": {
+      "observed": 28,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "flat": 8,
+       "max-ending": 8,
+       "ramp-then-max": 6,
+       "ramp-down": 6
+      },
+      "schemes": [
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 4
+       },
+       {
+        "reps": "12/10/8",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "12/10/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 2
+       }
+      ]
+     },
+     "2": {
+      "observed": 29,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "ramp-down": 7,
+       "max-ending": 5,
+       "flat": 10,
+       "ramp-then-max": 7
+      },
+      "schemes": [
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "12/10/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       }
+      ]
+     },
+     "3": {
+      "observed": 29,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "flat": 10,
+       "max-ending": 8,
+       "ramp-then-max": 4,
+       "ramp-down": 6,
+       "other": 1
+      },
+      "schemes": [
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "3/3/3",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "10/8/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 2
+       }
+      ]
+     },
+     "4": {
+      "observed": 29,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "flat": 9,
+       "max-ending": 7,
+       "ramp-down": 8,
+       "ramp-then-max": 5
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "9/7/5",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "10/10/max",
+        "rpe": "7/8/9",
+        "slots": 1
+       }
+      ]
+     },
+     "5": {
+      "observed": 33,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "flat": 12,
+       "max-ending": 9,
+       "ramp-then-max": 5,
+       "ramp-down": 7
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 5
+       },
+       {
+        "reps": "6/4/2",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "7/5/3/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "3/3/3",
+        "rpe": "7/8/9",
+        "slots": 2
+       }
+      ]
+     },
+     "6": {
+      "observed": 29,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "flat": 10,
+       "max-ending": 6,
+       "ramp-down": 6,
+       "ramp-then-max": 6,
+       "other": 1
+      },
+      "schemes": [
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "4/4/4",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 2
+       }
+      ]
+     }
+    }
+   }
+  },
+  "minimalist": {
+   "strength-intensity-1": {
+    "observed": 142,
+    "byWeek": {
+     "1": {
+      "observed": 23,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 6,
+       "flat": 10,
+       "ramp-then-max": 6,
+       "ramp-down": 1
+      },
+      "schemes": [
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "12/10/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/max",
+        "rpe": "7/8/10",
+        "slots": 1
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 1
+       }
+      ]
+     },
+     "2": {
+      "observed": 23,
+      "workingSetsMode": 3,
+      "tempoMode": "20X0",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 4,
+       "ramp-down": 5,
+       "ramp-then-max": 5,
+       "flat": 8,
+       "other": 1
+      },
+      "schemes": [
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 4
+       },
+       {
+        "reps": "10/8/6",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "8/7/6",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "12/10/8/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "8/8/max",
+        "rpe": "7/8/10",
+        "slots": 1
+       }
+      ]
+     },
+     "3": {
+      "observed": 23,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 7,
+       "flat": 10,
+       "ramp-then-max": 5,
+       "ramp-down": 1
+      },
+      "schemes": [
+       {
+        "reps": "10/8/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "7/7/7",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "7/7/7/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       }
+      ]
+     },
+     "4": {
+      "observed": 23,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 5,
+       "flat": 8,
+       "ramp-down": 4,
+       "ramp-then-max": 5,
+       "other": 1
+      },
+      "schemes": [
+       {
+        "reps": "7/7/7",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "8/8/8/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "7/6/5",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "8/8/8",
+        "rpe": "7/8/9",
+        "slots": 2
+       },
+       {
+        "reps": "10/8/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "10/10/max",
+        "rpe": "7/8/9",
+        "slots": 1
+       }
+      ]
+     },
+     "5": {
+      "observed": 27,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 8,
+       "flat": 12,
+       "ramp-then-max": 6,
+       "ramp-down": 1
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 8
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 4
+       },
+       {
+        "reps": "6/6/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "10/10/10",
+        "rpe": "7/8/9",
+        "slots": 1
+       },
+       {
+        "reps": "6/6/max",
+        "rpe": "7/8/10",
+        "slots": 1
+       }
+      ]
+     },
+     "6": {
+      "observed": 23,
+      "workingSetsMode": 3,
+      "tempoMode": "20X1",
+      "restMode": "120-180s",
+      "shapes": {
+       "max-ending": 6,
+       "flat": 9,
+       "ramp-down": 3,
+       "ramp-then-max": 5
+      },
+      "schemes": [
+       {
+        "reps": "6/6/6",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "5/5/5",
+        "rpe": "7/8/9",
+        "slots": 3
+       },
+       {
+        "reps": "8/6/4/max",
+        "rpe": "7/8/9/10",
+        "slots": 3
+       },
+       {
+        "reps": "10/10/10/max",
+        "rpe": "7/8/9/-",
+        "slots": 2
+       },
+       {
+        "reps": "6/6/6/max",
+        "rpe": "7/8/9/10",
+        "slots": 2
+       },
+       {
+        "reps": "8/6/4",
+        "rpe": "7/8/9",
+        "slots": 2
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}
