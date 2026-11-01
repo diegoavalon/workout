@@ -1,9 +1,18 @@
 import { describe, expect, it } from "vitest";
-import { equipmentOk, generate, renderStrength, rng } from "./generate.ts";
+import { coverageProblems, equipmentOk, generate, renderStrength, rng, validateBlock } from "./generate.ts";
 import { TRACK_IDS } from "./schema.ts";
 import type { ViewIndex, WeekView } from "./views.ts";
 
 describe("helpers", () => {
+  it("requires squat every week for 3x but tolerates one other missing pattern", () => {
+    const four = new Set(["squat", "hinge", "horizontal-press"]);
+    expect(coverageProblems("pump-lift", 3, four)).toEqual([]);
+    expect(coverageProblems("pump-lift", 3, new Set(["hinge", "horizontal-press", "vertical-press"]))).toContain("squat");
+    expect(coverageProblems("pump-lift", 3, new Set(["squat", "hinge"]))).toEqual(["horizontal-press", "vertical-press"]);
+    expect(coverageProblems("pump-lift", 5, new Set(["squat"]))).toContain("hinge");
+    expect(coverageProblems("perform", 5, new Set())).toEqual([]);
+  });
+
   it("rng is deterministic per seed and differs between seeds", () => {
     const a = rng(7), b = rng(7), c = rng(8);
     const xs = [a(), a(), a()];
@@ -127,6 +136,25 @@ describe.skipIf(!haveViews)("generate (real corpus)", () => {
   it("does not repeat section letters in copied text", () => {
     const g = generate(corpus, { track: "pump-lift-4x", seed: 12, startDate: start });
     for (const wk of g.weeks) for (const d of wk.days) for (const sec of d.sections) expect(sec.raw).not.toMatch(/^[A-H]\)/);
+  });
+
+  it("reports passing checks for a normal block and catches a broken one", () => {
+    const g = generate(corpus, { track: "pump-lift-5x", seed: 14, startDate: start });
+    expect(g.checks.filter((c) => c.status === "warn")).toEqual([]);
+    expect(g.checks.map((c) => c.name)).toEqual(expect.arrayContaining(["Week layout", "Session skeleton", "A/B variation", "RPE ramps up", "Pattern coverage", "Fresh lifts"]));
+
+    // Replace week 3's day-1 main lift: odd weeks no longer share one lift.
+    const broken = JSON.parse(JSON.stringify(g.weeks)) as typeof g.weeks;
+    const sec = broken[2].days[0].sections.find((x) => x.role === "strength-intensity-1")!;
+    sec.items[0].exercise = { id: "something-else", name: "Something Else", pattern: "squat", equipment: [], unilateral: false };
+    const checks = validateBlock(broken, { family: "pump-lift", freq: 5, recent: new Set(), avoidRecent: true, covered: new Set(["squat", "hinge", "horizontal-press", "vertical-press", "horizontal-pull"]) });
+    expect(checks.find((c) => c.name === "A/B variation")?.status).toBe("warn");
+
+    // Drop the finisher: the skeleton check fails.
+    const noFinisher = JSON.parse(JSON.stringify(g.weeks)) as typeof g.weeks;
+    noFinisher[0].days[0].sections = noFinisher[0].days[0].sections.filter((x) => x.role !== "finisher");
+    const c2 = validateBlock(noFinisher, { family: "pump-lift", freq: 5, recent: new Set(), avoidRecent: true, covered: new Set() });
+    expect(c2.find((c) => c.name === "Session skeleton")?.status).toBe("warn");
   });
 
   it("rejects an unknown track", () => {

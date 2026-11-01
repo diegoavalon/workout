@@ -41,3 +41,5 @@ for (const p of result.plan.filter((x) => x.day !== null)) {
   console.log(`day ${p.day} (from 5x day ${p.baseDay}): ${p.main.pattern}  ${p.main.a} / ${p.main.b}${p.secondary ? `  +  ${p.secondary.pattern}  ${p.secondary.a} / ${p.secondary.b}` : ""}`);
 }
 for (const w of result.warnings) console.log(`warning: ${w}`);
+console.log("\nChecks:");
+for (const c of result.checks) console.log(`  ${c.status === "pass" ? "PASS" : c.status === "warn" ? "WARN" : "info"}  ${c.name}: ${c.detail}`);

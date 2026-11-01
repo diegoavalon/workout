@@ -32,9 +32,18 @@ export interface GenerateOptions {
   weeks?: number;
 }
 
+export interface Check {
+  name: string;
+  /** pass: the rule holds. warn: it does not and a person should look. info: a measurement, not a rule. */
+  status: "pass" | "warn" | "info";
+  detail: string;
+}
+
 export interface Generated {
   options: GenerateOptions;
   weeks: WeekView[];
+  /** Automatic checks of the finished block against the rules the program follows. */
+  checks: Check[];
   /** What was chosen and where it came from, for review. */
   plan: PlanDay[];
   warnings: string[];
@@ -87,6 +96,20 @@ const addDays = (iso: string, n: number) => {
   return d.toISOString().slice(0, 10);
 };
 const LETTERS = "ABCDEFGH";
+
+/**
+ * Pattern coverage the published program shows for a Pump Lift week: 5x and 4x cover squat, hinge, both presses and a
+ * horizontal pull; 3x covers squat every week and three of squat, hinge and the two presses (the other patterns are
+ * missed in 10-25% of published 3x weeks).
+ */
+export function coverageProblems(family: string, freq: number, covered: Set<string>): string[] {
+  if (family !== "pump-lift") return [];
+  if (freq === 3) {
+    const four = ["squat", "hinge", "horizontal-press", "vertical-press"].filter((p) => !covered.has(p));
+    return !covered.has("squat") || four.length > 1 ? four : [];
+  }
+  return ["squat", "hinge", "horizontal-press", "vertical-press", "horizontal-pull"].filter((p) => !covered.has(p));
+}
 
 // ---------------------------------------------------------------------------
 // Corpus index
@@ -266,7 +289,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
   const usedEx = new Set<string>();
   // Own-kit equipment for the fallback pool when Minimalist has no lift for a pattern.
   const minimalKit = new Set(["dumbbell", "kettlebell", "bodyweight", "pull-up-bar", "rings", "band", "dumbbell-or-kettlebell"]);
-  const tryChoose = (pl: Pools, role: "strength-intensity-1" | "strength-intensity-2", pattern: string, allow: Set<string> | undefined, report: boolean, quiet: boolean): PairPool | null => {
+  const tryChoose = (pl: Pools, role: "strength-intensity-1" | "strength-intensity-2", pattern: string, allow: Set<string> | undefined, report: boolean, quiet: boolean, tierLimit = 99): PairPool | null => {
     const observed = pl.pairs[role].filter((p) => p.pattern === pattern);
     const mixed = remixed(pl.bank, pattern);
     const equipOk = (p: PairPool) => [p.a, p.b].every((i) => !i.exercise || equipmentOk(i.exercise.equipment, allow));
@@ -278,7 +301,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
       { label: `${role} ${pattern}: reused an exercise already in this block`, test: equipOk },
       ...(report ? [{ label: `${role} ${pattern}: nothing matches your equipment; ignored it for this slot`, test: () => true }] : []),
     ];
-    for (const t of tiers) {
+    for (const t of tiers.slice(0, tierLimit)) {
       const o = observed.filter(t.test), m = mixed.filter(t.test);
       if (!o.length && !m.length) continue;
       if (t.label && !quiet) warnings.push(t.label);
@@ -291,13 +314,20 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
   const choosePair = (role: "strength-intensity-1" | "strength-intensity-2", pattern: string): { pair: PairPool; pools: Pools } => {
     // The second strength slot is drawn for every family to keep the random stream aligned, but only Pump Lift uses it.
     const quiet = role === "strength-intensity-2" && family !== "pump-lift";
-    const hit = tryChoose(primary, role, pattern, allowed, !fallback, quiet);
-    if (hit) return { pair: hit, pools: primary };
-    if (fallback) {
-      const kit = allowed ? new Set([...allowed].filter((e) => minimalKit.has(e))) : minimalKit;
-      if (!quiet) warnings.push(`${role} ${pattern}: no ${liftTrack} lift matched, borrowed a Pump Lift one`);
-      const borrowed = tryChoose(fallback, role, pattern, kit, true, quiet);
-      if (borrowed) return { pair: borrowed, pools: fallback };
+    const kit = allowed ? new Set([...allowed].filter((e) => minimalKit.has(e))) : minimalKit;
+    // Order of preference: a fresh lift of the track's own, then (Minimalist only) a fresh Pump Lift lift that fits
+    // its kit, then progressively looser matches from each pool.
+    const steps: { pools: Pools; allow: Set<string> | undefined; limit: number; borrowed: boolean }[] = [
+      { pools: primary, allow: allowed, limit: 1, borrowed: false },
+      ...(fallback ? [{ pools: fallback, allow: kit, limit: 1, borrowed: true }] : []),
+      { pools: primary, allow: allowed, limit: 99, borrowed: false },
+      ...(fallback ? [{ pools: fallback, allow: kit, limit: 99, borrowed: true }] : []),
+    ];
+    for (const st of steps) {
+      const hit = tryChoose(st.pools, role, pattern, st.allow, !fallback || st.borrowed, quiet, st.limit);
+      if (!hit) continue;
+      if (st.borrowed && !quiet) warnings.push(`${role} ${pattern}: borrowed a Pump Lift lift that fits the ${family} kit`);
+      return { pair: hit, pools: st.pools };
     }
     throw new Error(`no ${role} pair for pattern ${pattern}`);
   };
@@ -327,7 +357,9 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
 
   // 5. Subset of base days for 4x / 3x: the combination covering the most core patterns, then base order.
   const choose = <T>(xs: T[], k: number): T[][] => (k === 0 ? [[]] : xs.flatMap((x, i) => choose(xs.slice(i + 1), k - 1).map((rest) => [x, ...rest])));
-  const keep = freq >= 5 ? baseSlots : choose(baseSlots, freq).map((c) => ({ c, score: coverage(c.flatMap((x) => [x.p1, x.p2])) + r() * 0.5 })).sort((a, b) => b.score - a.score)[0].c;
+  // The published 3x tracks cover squat in every week, so a missing squat costs more than any other pattern.
+  const subsetScore = (c: typeof baseSlots) => coverage(c.flatMap((x) => [x.p1, x.p2])) + (c.some((x) => x.p1 === "squat" || x.p2 === "squat") ? 10 : 0);
+  const keep = freq >= 5 ? baseSlots : choose(baseSlots, freq).map((c) => ({ c, score: subsetScore(c) + r() * 0.5 })).sort((a, b) => b.score - a.score)[0].c;
   const dayOf = new Map(trainingDays.map((d, i) => [d, keep[i]] as const));
   const hasSecond = family === "pump-lift";
 
@@ -435,8 +467,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
   for (const wv of weeks) weekView.parse(wv);
   const covered = new Set(keep.flatMap((x) => (hasSecond ? [x.p1, x.p2] : [x.p1])));
   // Only what the track covers reliably in the published program is worth a warning.
-  const required = family === "pump-lift" ? (freq === 3 ? ["squat", "hinge", "horizontal-press", "vertical-press"] : CORE.slice(0, 5)) : [];
-  const missing = required.filter((p) => !covered.has(p));
+  const missing = coverageProblems(family, freq, covered);
   if (missing.length) warnings.push(`this ${freq}-day week does not cover: ${missing.join(", ")}`);
   if (family !== "pump-lift" && covered.size < Math.min(freq, 4)) warnings.push(`only ${covered.size} distinct main-lift patterns this week`);
   for (const [i, x] of baseSlots.entries()) {
@@ -446,5 +477,88 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
       secondary: hasSecond ? { pattern: x.p2, a: x.sec.a.exercise?.name ?? "?", b: x.sec.b.exercise?.name ?? "?", schemeFrom: x.secScheme[0].from } : null,
     });
   }
-  return { options: opts, weeks, plan, warnings };
+  const checks = validateBlock(weeks, { family, freq, equipment: allowed, recent, avoidRecent: opts.avoidRecent !== false, covered });
+  return { options: opts, weeks, checks, plan, warnings };
+}
+
+const SKELETON: Record<string, string[]> = {
+  "pump-lift": ["focus-note", "warmup", "strength-intensity-1", "strength-intensity-2", "strength-balance", "finisher", "cooldown"],
+  "pump-condition": ["focus-note", "warmup", "strength-intensity-1", "strength-balance", "conditioning", "cooldown"],
+  minimalist: ["focus-note", "warmup", "strength-intensity-1", "strength-balance", "conditioning", "cooldown"],
+  perform: ["focus-note", "warmup", "PRE", "strength-intensity-1", "strength-balance", "conditioning", "cooldown"],
+};
+
+/** Checks a finished block against the rules in data/reports/analysis.md. Pure, so it can run anywhere. */
+export function validateBlock(
+  weeks: WeekView[],
+  ctx: { family: string; freq: number; equipment?: Set<string>; recent: Set<string>; avoidRecent: boolean; covered: Set<string> },
+): Check[] {
+  const checks: Check[] = [];
+  const add = (name: string, ok: boolean | null, detail: string) => checks.push({ name, status: ok === null ? "info" : ok ? "pass" : "warn", detail });
+  const training = (w: WeekView) => w.days.filter((d) => d.type === "training");
+  const slots = (w: WeekView) => training(w).flatMap((d) => d.sections.filter((s) => s.role.startsWith("strength-intensity")).map((s) => ({ day: d.day, sec: s })));
+
+  const layoutOk = weeks.every((w) => w.days.length === 7 && training(w).length === ctx.freq && w.days[6].type === "note");
+  const mondays = weeks.every((w, i) => new Date(`${w.weekStart}T00:00:00Z`).getUTCDay() === 1 && (i === 0 || Date.parse(w.weekStart) - Date.parse(weeks[i - 1].weekStart) === 7 * 86400000));
+  add("Week layout", layoutOk && mondays, `${weeks.length} weeks of 7 days, ${ctx.freq} training days each, Day 7 a note, weeks on consecutive Mondays`);
+
+  const expected = SKELETON[ctx.family];
+  const bad: string[] = [];
+  for (const w of weeks) for (const d of training(w)) {
+    const roles = d.sections.map((s) => s.role);
+    const want = expected.map((r) => (r === "PRE" ? roles.find((x) => x === "hot-start" || x === "speed-strength") ?? "hot-start" : r));
+    if (JSON.stringify(roles) !== JSON.stringify(want)) bad.push(`week ${w.block.weekNumber} day ${d.day}`);
+  }
+  add("Session skeleton", bad.length === 0, bad.length ? `wrong section order on ${bad.slice(0, 4).join(", ")}` : `every training day has ${expected.map((r) => (r === "PRE" ? "hot start or speed strength" : r)).join(" > ")}`);
+
+  // A/B: the same lift on odd weeks, the same on even weeks, and (unless fixed) different between them.
+  const byDay = new Map<string, string[]>();
+  for (const w of weeks) for (const { day, sec } of slots(w)) {
+    const k = `${day}|${sec.role}`;
+    (byDay.get(k) ?? byDay.set(k, []).get(k)!).push(sec.items[0].exercise?.id ?? "?");
+  }
+  let alternating = 0, fixed = 0;
+  const broken: string[] = [];
+  for (const [k, ex] of byDay) {
+    const odd = new Set(ex.filter((_, i) => i % 2 === 0)), even = new Set(ex.filter((_, i) => i % 2 === 1));
+    if (odd.size !== 1 || even.size !== 1) broken.push(k);
+    else if ([...odd][0] === [...even][0]) fixed++;
+    else alternating++;
+  }
+  add("A/B variation", broken.length === 0, broken.length ? `lifts change within a week parity in ${broken.join(", ")}` : `${alternating} strength slots alternate between two variations on odd and even weeks, ${fixed} stay fixed (the published program alternates in about 83% of main-lift slots)`);
+
+  const weak: string[] = [], unramped: string[] = [];
+  let setCounts = 0, setSlots = 0;
+  for (const w of weeks) for (const { day, sec } of slots(w)) {
+    const working = sec.items[0].sets.filter((x) => x.kind === "working");
+    if (working.length < 2) weak.push(`week ${w.block.weekNumber} day ${day}`);
+    const rpes = working.map((x) => x.rpeMin).filter((x): x is number => x != null);
+    if (rpes.some((v, i) => i > 0 && v < rpes[i - 1])) unramped.push(`week ${w.block.weekNumber} day ${day}`);
+  }
+  for (const [k] of byDay) {
+    const [day, role] = k.split("|");
+    const counts = weeks.map((w) => slots(w).find((x) => String(x.day) === day && x.sec.role === role)?.sec.items[0].sets.filter((s) => s.kind === "working").length);
+    setSlots++;
+    if (new Set(counts).size === 1) setCounts++;
+  }
+  add("Working sets", weak.length === 0, weak.length ? `fewer than 2 working sets on ${weak.slice(0, 4).join(", ")}` : "every strength slot has at least 2 working sets every week");
+  add("RPE ramps up", unramped.length === 0, unramped.length ? `RPE falls inside a slot on ${unramped.slice(0, 4).join(", ")}` : "within each slot RPE never goes down from one working set to the next (7, 8, 9, then 10 for a max set)");
+  add("Set count stable", null, `${setCounts} of ${setSlots} strength slots keep the same number of working sets all block (82% in the published program)`);
+
+  const missing = coverageProblems(ctx.family, ctx.freq, ctx.covered);
+  add("Pattern coverage", missing.length === 0, missing.length ? `no main or secondary lift for ${missing.join(", ")}` : `covers ${[...ctx.covered].sort().join(", ")}`);
+
+  const w1 = training(weeks[0]).map((d) => d.headline.mainLift?.id ?? "?");
+  const repeated = w1.filter((x, i) => w1.indexOf(x) !== i);
+  add("Variety within a week", repeated.length === 0, repeated.length ? `the same main lift appears on two days: ${[...new Set(repeated)].join(", ")}` : "each training day has a different main lift");
+
+  const reused = [...new Set(weeks.flatMap((w) => slots(w).map((x) => x.sec.items[0].exercise?.id ?? "")))].filter((id) => ctx.recent.has(id));
+  add("Fresh lifts", ctx.avoidRecent ? reused.length === 0 : null, ctx.avoidRecent ? (reused.length ? `reuses ${reused.join(", ")} from the latest published block` : "no strength lift comes from the latest published block (the program almost never repeats a main lift in the next block: 3%)") : `${reused.length} lifts also appear in the latest published block (allowed by request)`);
+
+  if (ctx.equipment) {
+    const off = [...new Set(weeks.flatMap((w) => slots(w).flatMap((x) => x.sec.items.filter((i) => i.exercise && !equipmentOk(i.exercise.equipment, ctx.equipment)).map((i) => i.exercise!.name))))];
+    add("Equipment", off.length === 0, off.length ? `strength lifts outside your equipment: ${off.join(", ")}` : "every strength lift fits the equipment you listed (supporting sections are filtered the same way where a match exists)");
+  }
+  add("Prose", null, "focus notes name the lifts only and the Day 7 note is empty; the program's coaching text is not generated");
+  return checks;
 }
