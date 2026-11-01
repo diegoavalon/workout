@@ -124,6 +124,11 @@ describe.skipIf(!haveViews)("generate (real corpus)", () => {
     expect(lifts.every((l) => !l.equipment.includes("barbell") || g.warnings.some((w) => w.includes("borrowed")))).toBe(true);
   });
 
+  it("does not repeat section letters in copied text", () => {
+    const g = generate(corpus, { track: "pump-lift-4x", seed: 12, startDate: start });
+    for (const wk of g.weeks) for (const d of wk.days) for (const sec of d.sections) expect(sec.raw).not.toMatch(/^[A-H]\)/);
+  });
+
   it("rejects an unknown track", () => {
     expect(() => generate(corpus, { track: "nope" as never, seed: 1, startDate: start })).toThrow(/unknown track/);
   });

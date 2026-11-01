@@ -419,7 +419,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
       }
       if (type === "recovery") {
         const rec = recoveryOrder.length ? recoveryOrder[(w + day) % recoveryOrder.length].day : null;
-        const secs = rec ? rec.sections.map((x, i) => ({ ...x, label: LETTERS[i] })) : [];
+        const secs = rec ? rec.sections.map((x, i) => ({ ...x, label: LETTERS[i], raw: x.raw.replace(/^[A-H]\)\s*/, "") })) : [];
         return { ...dayBase, type: "recovery" as const, headline: { mainLift: null, focusTopic: null, roles: secs.map((x) => x.role) }, focus: { topic: null, body: null, shortOnTime: [] }, sections: secs };
       }
       return { ...dayBase, type: "note" as const, headline: { mainLift: null, focusTopic: null, roles: [] }, focus: { topic: null, body: null, shortOnTime: [] }, sections: [] };
