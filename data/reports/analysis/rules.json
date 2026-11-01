@@ -61,7 +61,7 @@
  },
  {
   "title": "Strength-balance supersets are chosen around the day's main lift, not as push/pull pairs",
-  "rule": "The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); knee + knee (38); core + hip (29); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).",
+  "rule": "The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); hip + legs (39); knee + knee (38); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).",
   "evidence": "Top pair types among 1182 resolved supersets: push + shoulders 12.4%, hip + knee 11.6%, same group (push) 10.4%. Push-with-pull pairs are only 1.9% of them.",
   "exceptions": "9 of 1191 supersets have a movement kept out of the catalog (a name the parser could not read as one exercise), so they are not in these shares."
  },

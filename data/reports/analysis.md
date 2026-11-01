@@ -225,20 +225,20 @@ Which base day each derived day copies, by block (`derived day = base day`):
 | arms + push | 99 | 8.4% |
 | pull + shoulders | 80 | 6.8% |
 | core + knee | 58 | 4.9% |
+| knee + legs | 56 | 4.7% |
 | same group (arms) | 44 | 3.7% |
-| knee + legs | 35 | 3.0% |
-| arms + core | 32 | 2.7% |
-| core + hip | 29 | 2.5% |
+| hip + legs | 39 | 3.3% |
+| core + legs | 32 | 2.7% |
 
 What the superset trains, by the pattern of the same session's main lift (`analysis/q07-pairings-vs-main-lift.csv`):
 
 | Main lift pattern | Sessions | Top balance pairings |
 |---|---|---|
-| squat | 313 | hip + knee (49)<br>knee + knee (38)<br>core + hip (29) |
+| squat | 313 | hip + knee (49)<br>hip + legs (39)<br>knee + knee (38) |
 | horizontal-press | 304 | push + push (67)<br>arms + push (48)<br>push + shoulders (43) |
 | hinge | 251 | pull + pull (46)<br>knee + knee (42)<br>hip + knee (36) |
 | vertical-press | 183 | push + shoulders (59)<br>arms + push (31)<br>push + push (24) |
-| lunge-single-leg | 67 | knee + knee (25)<br>hip + knee (24)<br>arms + knee (12) |
+| lunge-single-leg | 67 | knee + knee (25)<br>hip + knee (24)<br>knee + legs (12) |
 | vertical-pull | 59 | pull + shoulders (16)<br>push + shoulders (13)<br>carry + pull (10) |
 | olympic | 13 | hip + knee (9)<br>push + push (2)<br>push + shoulders (2) |
 
@@ -261,30 +261,30 @@ Most repeated exercise pairs (`analysis/q07-pairings-exercises.csv`):
 
 | Role | Format | Distinct sections | Minutes | Equipment (sections) | Top movements (sections) |
 |---|---|---|---|---|---|
-| finisher | superset | 193 | 4-12 | dumbbell (106), bodyweight (71), cable (23), kettlebell (23) | Weighted Hanging Knee Tuck (8), Cuban Press (6), Dumbbell Skullcrusher (6), Heel Tap (6), Russian Twist (6) |
-| conditioning | intervals | 138 | 12-25 | dumbbell (62), kettlebell (55), box (29), bike (28) | Row (44), Run (36), Bike (28), Box Jump Over (13), Russian Kettlebell Swing (12) |
-| conditioning | amrap | 116 | 10-20 | dumbbell (79), bodyweight (40), bike (35), kettlebell (30) | Bike (24), Row (17), Run (17), Bike Buy In (9), Push Up (9) |
-| conditioning | every-n-sec | 109 | 9-28 | dumbbell (41), bodyweight (39), kettlebell (21), bike (16) | Row (37), Run (10), Burpee (9), Shuttle Run (8), Double Under (7) |
-| conditioning | for-time | 102 | 12-30 | dumbbell (36), bike (21), bodyweight (18), kettlebell (10) | Row (33), Double Under (16), Bike (13), Jump Lunge (10), Run (8) |
-| conditioning | steady-state | 46 | 12-15 | bodyweight (28), dumbbell (11), kettlebell (9), bike (8) | Shuttle Run (9), Bike (8), Row (8), Farmers Walk (7), Goblet Carry (7) |
-| speed-strength | every-n-sec | 40 | 15-18 |  | Overhead Squat (26), Overhead Squat Hold (26), Snatch Grip Overhead Hold (26), Snatch Grip Romanian Deadlift (26), Squatting Quad Snatch Grip Hold (26) |
-| hot-start | every-n-sec | 35 | 5-15 | bike (16), rings (6), bodyweight (6), dumbbell (2) | Bike (16), Row (10), Bar Or Ring Muscle Up (3), Strict Muscle Up (3), Handstand Walk (2) |
-| hot-start | intervals | 35 | 8-15 | kettlebell (24), bike (8), dumbbell (5), bodyweight (4) | Row (12), Bike (8), Strict Bar Dip (4), Plyo Push Up (3), Single Arm Kettlebell Snatch (3) |
-| conditioning | unclassified | 22 | 12-15 | dumbbell (10), bodyweight (10), bike (4), plate (2) | Run (10), Row (7), Pronated Body Row (5), Bike (4), Dumbbell Burpee (2) |
-| finisher | straight-sets | 19 | 6-10 | barbell (6), dumbbell (4), bodyweight (3), kettlebell (2) | 1 1/4 Barbell Curl (3), Hanging Knee Tuck (2), Alternating Dumbbell Bicep Curl Drop Set (1), Barbell Curl (1), Barbell Reverse Curl (1) |
-| conditioning | ladder | 16 | 10-15 | dumbbell (11), kettlebell (5), bodyweight (4), bike (2) | Weighted Or Bodyweight Hanging Knee Tuck (3), Alternating Dumbbell Glute Bridge Floor Press (2), Dumbbell Burpee (2), Power Snatch (2), Alternating Dumbbell Snatch (1) |
-| hot-start | unclassified | 14 | 10-12 | bodyweight (12), bike (6), rings (3), kettlebell (2) | Bike (6), Row (3), Yoga Push Up (3), Arnold Z Press (2), Ring Muscle Up (2) |
-| speed-strength | straight-sets | 12 | 15-15 |  | Front Rack Hold (12), Front Squat (12), Front Squat Hold (12), Romanian Deadlift (12), Squatting Quad Clean Grip Hold (12) |
+| finisher | superset | 193 | 4-12 | dumbbell (121), bodyweight (71), barbell (26), dumbbell-or-kettlebell (25) | Weighted Hanging Knee Tuck (8), Cuban Press (6), Dumbbell Skullcrusher (6), Heel Tap (6), Russian Twist (6) |
+| conditioning | intervals | 138 | 12-25 | dumbbell (63), kettlebell (55), rower (45), dumbbell-or-kettlebell (34) | Row (44), Run (36), Bike (28), Box Jump Over (13), Russian Kettlebell Swing (12) |
+| conditioning | amrap | 116 | 10-20 | dumbbell (79), bodyweight (40), rower (37), bike (35) | Bike (24), Row (17), Run (17), Bike Buy In (9), Push Up (9) |
+| conditioning | every-n-sec | 109 | 9-28 | rower (45), dumbbell (42), bodyweight (39), kettlebell (21) | Row (37), Run (10), Burpee (9), Shuttle Run (8), Double Under (7) |
+| conditioning | for-time | 102 | 12-30 | rower (36), dumbbell (36), bike (21), bodyweight (18) | Row (33), Double Under (16), Bike (13), Jump Lunge (10), Run (8) |
+| conditioning | steady-state | 46 | 12-15 | dumbbell-or-kettlebell (28), bodyweight (28), dumbbell (11), pull-up-bar (9) | Shuttle Run (9), Bike (8), Row (8), Farmers Walk (7), Goblet Carry (7) |
+| speed-strength | every-n-sec | 40 | 15-18 | barbell (145) | Overhead Squat (26), Overhead Squat Hold (26), Snatch Grip Overhead Hold (26), Snatch Grip Romanian Deadlift (26), Squatting Quad Snatch Grip Hold (26) |
+| hot-start | every-n-sec | 35 | 5-15 | bike (16), rower (10), pull-up-bar (10), rings (6) | Bike (16), Row (10), Bar Or Ring Muscle Up (3), Strict Muscle Up (3), Handstand Walk (2) |
+| hot-start | intervals | 35 | 8-15 | kettlebell (24), rower (12), bike (8), pull-up-bar (7) | Row (12), Bike (8), Strict Bar Dip (4), Plyo Push Up (3), Single Arm Kettlebell Snatch (3) |
+| conditioning | unclassified | 22 | 12-15 | dumbbell (10), bodyweight (10), rower (7), dumbbell-or-kettlebell (5) | Run (10), Row (7), Pronated Body Row (5), Bike (4), Dumbbell Burpee (2) |
+| finisher | straight-sets | 19 | 6-10 | dumbbell (8), barbell (6), pull-up-bar (4), bodyweight (3) | 1 1/4 Barbell Curl (3), Hanging Knee Tuck (2), Alternating Dumbbell Bicep Curl Drop Set (1), Barbell Curl (1), Barbell Reverse Curl (1) |
+| conditioning | ladder | 16 | 10-15 | dumbbell (11), kettlebell (5), bodyweight (4), pull-up-bar (3) | Weighted Or Bodyweight Hanging Knee Tuck (3), Alternating Dumbbell Glute Bridge Floor Press (2), Dumbbell Burpee (2), Power Snatch (2), Alternating Dumbbell Snatch (1) |
+| hot-start | unclassified | 14 | 10-12 | bodyweight (12), pull-up-bar (9), bike (6), rower (3) | Bike (6), Row (3), Yoga Push Up (3), Arnold Z Press (2), Ring Muscle Up (2) |
+| speed-strength | straight-sets | 12 | 15-15 | barbell (53) | Front Rack Hold (12), Front Squat (12), Front Squat Hold (12), Romanian Deadlift (12), Squatting Quad Clean Grip Hold (12) |
 | hot-start | straight-sets | 7 | 12-12 |  | Pause Split Jerk (2), Split Jerk (2), Power Jerk (1) |
 | finisher | every-n-sec | 6 | 8-8 | barbell (6) | Barbell Curl (3), Barbell Reverse Curl (3) |
 | conditioning | emom | 4 | 12-15 |  |  |
-| hot-start | steady-state | 3 | 9-12 | kettlebell (4), bike (1) | Row (2), Bike (1), Dual Kettlebell Clean (1), Dual Kettlebell Dl (1), Dual Kettlebell High Pull (1) |
+| hot-start | steady-state | 3 | 9-12 | kettlebell (4), rower (2), bike (1) | Row (2), Bike (1), Dual Kettlebell Clean (1), Dual Kettlebell Dl (1), Dual Kettlebell High Pull (1) |
 | conditioning | chipper | 2 | 20-20 | bike (2), bodyweight (2), dumbbell (1), rings (1) | Alternating Dumbbell Snatch (1), Bike (1), Cal Bike (1), Ghd Hip Extension (1), Ring Push Up (1) |
-| finisher | amrap | 2 | 8-8 | kettlebell (3), dumbbell (2) | Crush Grip Dumbbell Bicep Curl (1), Dumbbell Crush Grip Bicep Curl Carry (1), Farmers Walk (1), Kettlebell Horn Grip Bicep Curl (1), Kettlebell Horn Grip Carry (1) |
+| finisher | amrap | 2 | 8-8 | kettlebell (3), dumbbell (2), dumbbell-or-kettlebell (2) | Crush Grip Dumbbell Bicep Curl (1), Dumbbell Crush Grip Bicep Curl Carry (1), Farmers Walk (1), Kettlebell Horn Grip Bicep Curl (1), Kettlebell Horn Grip Carry (1) |
 | finisher | run-the-rack | 2 | 8-8 | dumbbell (4) | Dumbbell Curl Run The Rack (2), Alternating Dumbbell Curl (1), Dual Dumbbell Curl (1) |
-| hot-start | amrap | 2 | 12-12 |  | Row (1) |
+| hot-start | amrap | 2 | 12-12 | rower (1) | Row (1) |
 | hot-start | emom | 2 | 9-12 |  |  |
-| hot-start | for-time | 2 | 10-12 | rings (1), bike (1) | Bar Or Ring Muscle Up (1), Bike (1) |
+| hot-start | for-time | 2 | 10-12 | rings (1), pull-up-bar (1), bike (1) | Bar Or Ring Muscle Up (1), Bike (1) |
 | finisher | giant-set | 1 | 6-8 | dumbbell (3), bench (1) | Dumbbell Narrow Grip Bench Press (1), Dumbbell Rolling Skullcrusher (1), Dumbbell Skullcrusher (1) |
 | finisher | unclassified | 1 | 6-8 |  |  |
 
@@ -303,9 +303,9 @@ Average hard sets per movement pattern per observed week, by track (min-max wher
 | vertical-pull | 2.2-2.3 | 3.7-3.8 | 2.8-2.9 | 3.5-3.6 | 3.7-3.8 | 3.0 | 3.0 | 4.0-4.1 |
 | carry | 0.2 | 0.2 | 0.1 | 0.2 | 0.2 | 0.9-1.3 | 0.7-0.9 | 1.2-1.7 |
 | core | 1.7 | 1.7 | 0.3 | 1.7 | 1.7 | 6.8-9.3 | 8.4-11.2 | 9.3-12.3 |
-| isolation-arms | 2.2 | 3.6 | 2.2 | 3.0 | 3.6 | 5.9-7.0 | 6.9-8.2 | 9.5-11.7 |
+| isolation-arms | 1.8 | 2.3 | 2.2 | 1.8 | 2.4 | 5.4-6.5 | 5.6-6.9 | 8.0-10.2 |
 | isolation-shoulders | 2.8 | 3.5 | 2.8 | 2.2 | 3.6 | 3.4-4.1 | 5.9-6.8 | 7.2-8.2 |
-| isolation-legs | 0.6 | 0.6 | - | 0.6 | 0.6 | 0.8-1.2 | 2.9-3.7 | 3.4-4.2 |
+| isolation-legs | 1.1 | 1.9 | - | 1.9 | 1.9 | 1.2-1.6 | 4.2-4.9 | 4.8-5.6 |
 | olympic | - | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 |
 | plyometric | - | - | - | - | - | - | - | - |
 | (unresolved pattern) | 0.1 | 0.1 | 0.1 | 0.3 | 0.4 | 1.0 | 1.7 | 2.0 |
@@ -386,7 +386,7 @@ Training sessions never repeat in a later week, and conditioning, strength balan
 
 ### 11. Strength-balance supersets are chosen around the day's main lift, not as push/pull pairs
 
-The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); knee + knee (38); core + hip (29); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).
+The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); hip + legs (39); knee + knee (38); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).
 
 - **Evidence:** Top pair types among 1182 resolved supersets: push + shoulders 12.4%, hip + knee 11.6%, same group (push) 10.4%. Push-with-pull pairs are only 1.9% of them.
 - **Exceptions:** 9 of 1191 supersets have a movement kept out of the catalog (a name the parser could not read as one exercise), so they are not in these shares.

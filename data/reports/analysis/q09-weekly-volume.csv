@@ -16,8 +16,9 @@ perform,1,3,vertical-press,7,7
 perform,1,3,horizontal-pull,3,4
 perform,1,3,vertical-pull,3,4
 perform,1,3,core,5,5
-perform,1,3,isolation-arms,8,8
+perform,1,3,isolation-arms,3,3
 perform,1,3,isolation-shoulders,3,3
+perform,1,3,isolation-legs,5,5
 pump-condition-3x,1,3,squat,3,3
 pump-condition-3x,1,3,hinge,6,6
 pump-condition-3x,1,3,lunge-single-leg,3,3
@@ -34,8 +35,8 @@ pump-condition-4x,1,3,vertical-press,7,7
 pump-condition-4x,1,3,horizontal-pull,3,4
 pump-condition-4x,1,3,vertical-pull,3,4
 pump-condition-4x,1,3,core,5,5
-pump-condition-4x,1,3,isolation-arms,5,5
 pump-condition-4x,1,3,isolation-shoulders,3,3
+pump-condition-4x,1,3,isolation-legs,5,5
 pump-condition-4x,1,3,(unresolved pattern),,3
 pump-condition-5x,1,3,squat,6,6
 pump-condition-5x,1,3,hinge,6,6
@@ -45,8 +46,9 @@ pump-condition-5x,1,3,vertical-press,7,7
 pump-condition-5x,1,3,horizontal-pull,3,4
 pump-condition-5x,1,3,vertical-pull,3,4
 pump-condition-5x,1,3,core,5,5
-pump-condition-5x,1,3,isolation-arms,8,8
+pump-condition-5x,1,3,isolation-arms,3,3
 pump-condition-5x,1,3,isolation-shoulders,3,3
+pump-condition-5x,1,3,isolation-legs,5,5
 pump-condition-5x,1,3,(unresolved pattern),,3
 pump-lift-3x,1,3,squat,3,3
 pump-lift-3x,1,3,hinge,6,6
@@ -68,9 +70,9 @@ pump-lift-4x,1,3,vertical-press,4,4
 pump-lift-4x,1,3,horizontal-pull,6,6
 pump-lift-4x,1,3,vertical-pull,3,3
 pump-lift-4x,1,3,core,9,11
-pump-lift-4x,1,3,isolation-arms,11,13
+pump-lift-4x,1,3,isolation-arms,6,8
 pump-lift-4x,1,3,isolation-shoulders,3,3
-pump-lift-4x,1,3,isolation-legs,4,6
+pump-lift-4x,1,3,isolation-legs,9,11
 pump-lift-5x,1,3,squat,6,6
 pump-lift-5x,1,3,hinge,6,6
 pump-lift-5x,1,3,lunge-single-leg,9,9
@@ -79,9 +81,9 @@ pump-lift-5x,1,3,vertical-press,10,10
 pump-lift-5x,1,3,horizontal-pull,6,6
 pump-lift-5x,1,3,vertical-pull,3,3
 pump-lift-5x,1,3,core,9,11
-pump-lift-5x,1,3,isolation-arms,15,19
+pump-lift-5x,1,3,isolation-arms,10,14
 pump-lift-5x,1,3,isolation-shoulders,3,3
-pump-lift-5x,1,3,isolation-legs,4,6
+pump-lift-5x,1,3,isolation-legs,9,11
 pump-lift-5x,1,3,(unresolved pattern),,3
 minimalist,1,4,squat,3,3
 minimalist,1,4,hinge,11,11
@@ -97,7 +99,7 @@ perform,1,4,lunge-single-leg,3,3
 perform,1,4,horizontal-press,8,8
 perform,1,4,horizontal-pull,3,4
 perform,1,4,vertical-pull,3,4
-perform,1,4,isolation-arms,5,5
+perform,1,4,isolation-legs,5,5
 pump-condition-3x,1,4,squat,3,3
 pump-condition-3x,1,4,hinge,6,6
 pump-condition-3x,1,4,lunge-single-leg,3,3
@@ -113,8 +115,8 @@ pump-condition-4x,1,4,horizontal-press,11,11
 pump-condition-4x,1,4,vertical-press,3,3
 pump-condition-4x,1,4,horizontal-pull,3,4
 pump-condition-4x,1,4,vertical-pull,3,4
-pump-condition-4x,1,4,isolation-arms,5,5
 pump-condition-4x,1,4,isolation-shoulders,3,3
+pump-condition-4x,1,4,isolation-legs,5,5
 pump-condition-4x,1,4,(unresolved pattern),,3
 pump-condition-5x,1,4,squat,6,6
 pump-condition-5x,1,4,hinge,6,6
@@ -123,8 +125,9 @@ pump-condition-5x,1,4,horizontal-press,11,11
 pump-condition-5x,1,4,vertical-press,3,3
 pump-condition-5x,1,4,horizontal-pull,3,4
 pump-condition-5x,1,4,vertical-pull,3,4
-pump-condition-5x,1,4,isolation-arms,8,8
+pump-condition-5x,1,4,isolation-arms,3,3
 pump-condition-5x,1,4,isolation-shoulders,3,3
+pump-condition-5x,1,4,isolation-legs,5,5
 pump-condition-5x,1,4,(unresolved pattern),,3
 pump-lift-3x,1,4,squat,3,3
 pump-lift-3x,1,4,hinge,6,6
@@ -146,9 +149,9 @@ pump-lift-4x,1,4,horizontal-pull,3,3
 pump-lift-4x,1,4,vertical-pull,3,3
 pump-lift-4x,1,4,carry,2,3
 pump-lift-4x,1,4,core,4,6
-pump-lift-4x,1,4,isolation-arms,7,8
+pump-lift-4x,1,4,isolation-arms,2,3
 pump-lift-4x,1,4,isolation-shoulders,3,3
-pump-lift-4x,1,4,isolation-legs,4,6
+pump-lift-4x,1,4,isolation-legs,9,11
 pump-lift-4x,1,4,(unresolved pattern),,3
 pump-lift-5x,1,4,squat,6,6
 pump-lift-5x,1,4,hinge,6,6
@@ -159,9 +162,9 @@ pump-lift-5x,1,4,horizontal-pull,6,6
 pump-lift-5x,1,4,vertical-pull,6,6
 pump-lift-5x,1,4,carry,2,3
 pump-lift-5x,1,4,core,4,6
-pump-lift-5x,1,4,isolation-arms,11,14
+pump-lift-5x,1,4,isolation-arms,6,9
 pump-lift-5x,1,4,isolation-shoulders,3,3
-pump-lift-5x,1,4,isolation-legs,4,6
+pump-lift-5x,1,4,isolation-legs,9,11
 minimalist,1,5,squat,3,3
 minimalist,1,5,hinge,12,12
 minimalist,1,5,lunge-single-leg,3,3
@@ -179,8 +182,9 @@ perform,1,5,vertical-press,7,7
 perform,1,5,horizontal-pull,3,4
 perform,1,5,vertical-pull,3,4
 perform,1,5,core,6,6
-perform,1,5,isolation-arms,9,9
+perform,1,5,isolation-arms,3,3
 perform,1,5,isolation-shoulders,3,3
+perform,1,5,isolation-legs,6,6
 pump-condition-3x,1,5,squat,3,3
 pump-condition-3x,1,5,hinge,6,6
 pump-condition-3x,1,5,lunge-single-leg,3,3
@@ -197,8 +201,8 @@ pump-condition-4x,1,5,vertical-press,7,7
 pump-condition-4x,1,5,horizontal-pull,3,4
 pump-condition-4x,1,5,vertical-pull,3,4
 pump-condition-4x,1,5,core,6,6
-pump-condition-4x,1,5,isolation-arms,6,6
 pump-condition-4x,1,5,isolation-shoulders,3,3
+pump-condition-4x,1,5,isolation-legs,6,6
 pump-condition-4x,1,5,(unresolved pattern),,3
 pump-condition-5x,1,5,squat,6,6
 pump-condition-5x,1,5,hinge,6,6
@@ -208,8 +212,9 @@ pump-condition-5x,1,5,vertical-press,7,7
 pump-condition-5x,1,5,horizontal-pull,3,4
 pump-condition-5x,1,5,vertical-pull,3,4
 pump-condition-5x,1,5,core,6,6
-pump-condition-5x,1,5,isolation-arms,9,9
+pump-condition-5x,1,5,isolation-arms,3,3
 pump-condition-5x,1,5,isolation-shoulders,3,3
+pump-condition-5x,1,5,isolation-legs,6,6
 pump-condition-5x,1,5,(unresolved pattern),,3
 pump-lift-3x,1,5,squat,3,3
 pump-lift-3x,1,5,hinge,6,6
@@ -230,9 +235,9 @@ pump-lift-4x,1,5,vertical-press,4,4
 pump-lift-4x,1,5,horizontal-pull,6,6
 pump-lift-4x,1,5,vertical-pull,3,3
 pump-lift-4x,1,5,core,10,12
-pump-lift-4x,1,5,isolation-arms,12,14
+pump-lift-4x,1,5,isolation-arms,6,8
 pump-lift-4x,1,5,isolation-shoulders,3,3
-pump-lift-4x,1,5,isolation-legs,2,3
+pump-lift-4x,1,5,isolation-legs,8,9
 pump-lift-5x,1,5,squat,6,6
 pump-lift-5x,1,5,hinge,6,6
 pump-lift-5x,1,5,lunge-single-leg,9,9
@@ -241,9 +246,9 @@ pump-lift-5x,1,5,vertical-press,10,10
 pump-lift-5x,1,5,horizontal-pull,6,6
 pump-lift-5x,1,5,vertical-pull,3,3
 pump-lift-5x,1,5,core,10,12
-pump-lift-5x,1,5,isolation-arms,16,20
+pump-lift-5x,1,5,isolation-arms,10,14
 pump-lift-5x,1,5,isolation-shoulders,6,6
-pump-lift-5x,1,5,isolation-legs,2,3
+pump-lift-5x,1,5,isolation-legs,8,9
 minimalist,1,6,squat,3,3
 minimalist,1,6,hinge,12,12
 minimalist,1,6,lunge-single-leg,3,3
@@ -261,8 +266,9 @@ perform,1,6,vertical-press,3,3
 perform,1,6,horizontal-pull,3,4
 perform,1,6,vertical-pull,3,4
 perform,1,6,core,6,6
-perform,1,6,isolation-arms,9,9
+perform,1,6,isolation-arms,3,3
 perform,1,6,isolation-shoulders,3,3
+perform,1,6,isolation-legs,6,6
 pump-condition-3x,1,6,squat,3,3
 pump-condition-3x,1,6,hinge,6,6
 pump-condition-3x,1,6,lunge-single-leg,3,3
@@ -279,8 +285,8 @@ pump-condition-4x,1,6,vertical-press,3,3
 pump-condition-4x,1,6,horizontal-pull,3,4
 pump-condition-4x,1,6,vertical-pull,3,4
 pump-condition-4x,1,6,core,6,6
-pump-condition-4x,1,6,isolation-arms,6,6
 pump-condition-4x,1,6,isolation-shoulders,3,3
+pump-condition-4x,1,6,isolation-legs,6,6
 pump-condition-4x,1,6,(unresolved pattern),,3
 pump-condition-5x,1,6,squat,6,6
 pump-condition-5x,1,6,hinge,9,9
@@ -290,8 +296,9 @@ pump-condition-5x,1,6,vertical-press,3,3
 pump-condition-5x,1,6,horizontal-pull,3,4
 pump-condition-5x,1,6,vertical-pull,3,4
 pump-condition-5x,1,6,core,6,6
-pump-condition-5x,1,6,isolation-arms,9,9
+pump-condition-5x,1,6,isolation-arms,3,3
 pump-condition-5x,1,6,isolation-shoulders,3,3
+pump-condition-5x,1,6,isolation-legs,6,6
 pump-condition-5x,1,6,(unresolved pattern),,3
 pump-lift-3x,1,6,squat,3,3
 pump-lift-3x,1,6,hinge,6,6
@@ -312,9 +319,9 @@ pump-lift-4x,1,6,vertical-press,3,3
 pump-lift-4x,1,6,horizontal-pull,3,3
 pump-lift-4x,1,6,vertical-pull,3,3
 pump-lift-4x,1,6,core,12,15
-pump-lift-4x,1,6,isolation-arms,10,12
+pump-lift-4x,1,6,isolation-arms,4,6
 pump-lift-4x,1,6,isolation-shoulders,6,6
-pump-lift-4x,1,6,isolation-legs,2,3
+pump-lift-4x,1,6,isolation-legs,8,9
 pump-lift-5x,1,6,squat,6,6
 pump-lift-5x,1,6,hinge,6,6
 pump-lift-5x,1,6,lunge-single-leg,8,8
@@ -323,9 +330,9 @@ pump-lift-5x,1,6,vertical-press,6,6
 pump-lift-5x,1,6,horizontal-pull,6,6
 pump-lift-5x,1,6,vertical-pull,6,6
 pump-lift-5x,1,6,core,12,15
-pump-lift-5x,1,6,isolation-arms,14,18
+pump-lift-5x,1,6,isolation-arms,8,12
 pump-lift-5x,1,6,isolation-shoulders,3,3
-pump-lift-5x,1,6,isolation-legs,2,3
+pump-lift-5x,1,6,isolation-legs,8,9
 minimalist,2,1,squat,6,6
 minimalist,2,1,hinge,6,6
 minimalist,2,1,lunge-single-leg,3,3
@@ -395,9 +402,9 @@ pump-lift-5x,2,1,vertical-press,3,3
 pump-lift-5x,2,1,horizontal-pull,3,3
 pump-lift-5x,2,1,vertical-pull,3,3
 pump-lift-5x,2,1,core,10,15
-pump-lift-5x,2,1,isolation-arms,11,12
+pump-lift-5x,2,1,isolation-arms,8,9
 pump-lift-5x,2,1,isolation-shoulders,7,9
-pump-lift-5x,2,1,isolation-legs,3,3
+pump-lift-5x,2,1,isolation-legs,6,6
 minimalist,2,2,squat,6,6
 minimalist,2,2,hinge,6,6
 minimalist,2,2,lunge-single-leg,3,3
@@ -543,9 +550,9 @@ pump-lift-5x,2,3,horizontal-pull,3,3
 pump-lift-5x,2,3,vertical-pull,3,3
 pump-lift-5x,2,3,carry,2,3
 pump-lift-5x,2,3,core,10,15
-pump-lift-5x,2,3,isolation-arms,11,12
+pump-lift-5x,2,3,isolation-arms,8,9
 pump-lift-5x,2,3,isolation-shoulders,7,9
-pump-lift-5x,2,3,isolation-legs,3,3
+pump-lift-5x,2,3,isolation-legs,6,6
 minimalist,2,4,squat,9,9
 minimalist,2,4,hinge,6,6
 minimalist,2,4,lunge-single-leg,3,3
@@ -689,9 +696,9 @@ pump-lift-5x,2,5,vertical-press,3,3
 pump-lift-5x,2,5,horizontal-pull,3,3
 pump-lift-5x,2,5,vertical-pull,3,3
 pump-lift-5x,2,5,core,14,17
-pump-lift-5x,2,5,isolation-arms,9,9
+pump-lift-5x,2,5,isolation-arms,6,6
 pump-lift-5x,2,5,isolation-shoulders,7,9
-pump-lift-5x,2,5,isolation-legs,3,3
+pump-lift-5x,2,5,isolation-legs,6,6
 pump-lift-5x,2,5,(unresolved pattern),,8
 minimalist,2,6,squat,9,9
 minimalist,2,6,hinge,6,6
@@ -775,8 +782,8 @@ minimalist,3,1,vertical-press,4,4
 minimalist,3,1,horizontal-pull,6,6
 minimalist,3,1,vertical-pull,3,3
 minimalist,3,1,core,3,3
-minimalist,3,1,isolation-arms,3,3
 minimalist,3,1,isolation-shoulders,3,3
+minimalist,3,1,isolation-legs,3,3
 perform,3,1,squat,6,6
 perform,3,1,hinge,3,3
 perform,3,1,lunge-single-leg,3,3
@@ -785,8 +792,9 @@ perform,3,1,vertical-press,4,4
 perform,3,1,horizontal-pull,6,6
 perform,3,1,vertical-pull,7,7
 perform,3,1,core,3,3
-perform,3,1,isolation-arms,6,6
+perform,3,1,isolation-arms,3,3
 perform,3,1,isolation-shoulders,3,3
+perform,3,1,isolation-legs,3,3
 pump-condition-3x,3,1,squat,3,3
 pump-condition-3x,3,1,hinge,3,3
 pump-condition-3x,3,1,horizontal-press,3,3
@@ -802,8 +810,8 @@ pump-condition-4x,3,1,horizontal-press,4,4
 pump-condition-4x,3,1,horizontal-pull,6,6
 pump-condition-4x,3,1,vertical-pull,7,7
 pump-condition-4x,3,1,core,3,3
-pump-condition-4x,3,1,isolation-arms,3,3
 pump-condition-4x,3,1,isolation-shoulders,3,3
+pump-condition-4x,3,1,isolation-legs,3,3
 pump-condition-5x,3,1,squat,6,6
 pump-condition-5x,3,1,hinge,3,3
 pump-condition-5x,3,1,lunge-single-leg,3,3
@@ -812,8 +820,9 @@ pump-condition-5x,3,1,vertical-press,4,4
 pump-condition-5x,3,1,horizontal-pull,6,6
 pump-condition-5x,3,1,vertical-pull,7,7
 pump-condition-5x,3,1,core,3,3
-pump-condition-5x,3,1,isolation-arms,6,6
+pump-condition-5x,3,1,isolation-arms,3,3
 pump-condition-5x,3,1,isolation-shoulders,3,3
+pump-condition-5x,3,1,isolation-legs,3,3
 pump-lift-3x,3,1,squat,6,6
 pump-lift-3x,3,1,hinge,3,3
 pump-lift-3x,3,1,lunge-single-leg,3,3
@@ -823,7 +832,8 @@ pump-lift-3x,3,1,horizontal-pull,3,3
 pump-lift-3x,3,1,vertical-pull,4,4
 pump-lift-3x,3,1,carry,2,3
 pump-lift-3x,3,1,core,9,12
-pump-lift-3x,3,1,isolation-arms,8,8
+pump-lift-3x,3,1,isolation-arms,5,5
+pump-lift-3x,3,1,isolation-legs,3,3
 pump-lift-3x,3,1,(unresolved pattern),,2
 pump-lift-4x,3,1,squat,6,6
 pump-lift-4x,3,1,hinge,6,6
@@ -833,9 +843,9 @@ pump-lift-4x,3,1,vertical-press,4,4
 pump-lift-4x,3,1,horizontal-pull,3,3
 pump-lift-4x,3,1,vertical-pull,7,7
 pump-lift-4x,3,1,core,7,9
-pump-lift-4x,3,1,isolation-arms,8,8
+pump-lift-4x,3,1,isolation-arms,5,5
 pump-lift-4x,3,1,isolation-shoulders,5,5
-pump-lift-4x,3,1,isolation-legs,4,6
+pump-lift-4x,3,1,isolation-legs,7,9
 pump-lift-4x,3,1,(unresolved pattern),,5
 pump-lift-5x,3,1,squat,6,6
 pump-lift-5x,3,1,hinge,6,6
@@ -846,9 +856,9 @@ pump-lift-5x,3,1,horizontal-pull,6,6
 pump-lift-5x,3,1,vertical-pull,7,7
 pump-lift-5x,3,1,carry,2,3
 pump-lift-5x,3,1,core,9,12
-pump-lift-5x,3,1,isolation-arms,8,8
+pump-lift-5x,3,1,isolation-arms,5,5
 pump-lift-5x,3,1,isolation-shoulders,8,8
-pump-lift-5x,3,1,isolation-legs,4,6
+pump-lift-5x,3,1,isolation-legs,7,9
 pump-lift-5x,3,1,(unresolved pattern),,5
 minimalist,3,2,squat,6,6
 minimalist,3,2,hinge,3,3
@@ -933,8 +943,8 @@ minimalist,3,3,vertical-press,4,4
 minimalist,3,3,horizontal-pull,6,6
 minimalist,3,3,carry,3,3
 minimalist,3,3,core,3,3
-minimalist,3,3,isolation-arms,3,3
 minimalist,3,3,isolation-shoulders,3,3
+minimalist,3,3,isolation-legs,3,3
 perform,3,3,squat,3,3
 perform,3,3,hinge,3,3
 perform,3,3,lunge-single-leg,6,6
@@ -944,8 +954,9 @@ perform,3,3,horizontal-pull,6,6
 perform,3,3,vertical-pull,4,4
 perform,3,3,carry,3,3
 perform,3,3,core,3,3
-perform,3,3,isolation-arms,9,9
+perform,3,3,isolation-arms,6,6
 perform,3,3,isolation-shoulders,3,3
+perform,3,3,isolation-legs,3,3
 pump-condition-3x,3,3,squat,3,3
 pump-condition-3x,3,3,hinge,3,3
 pump-condition-3x,3,3,horizontal-press,3,3
@@ -962,8 +973,8 @@ pump-condition-4x,3,3,horizontal-pull,6,6
 pump-condition-4x,3,3,vertical-pull,4,4
 pump-condition-4x,3,3,carry,3,3
 pump-condition-4x,3,3,core,3,3
-pump-condition-4x,3,3,isolation-arms,3,3
 pump-condition-4x,3,3,isolation-shoulders,3,3
+pump-condition-4x,3,3,isolation-legs,3,3
 pump-condition-5x,3,3,squat,3,3
 pump-condition-5x,3,3,hinge,3,3
 pump-condition-5x,3,3,lunge-single-leg,6,6
@@ -973,8 +984,9 @@ pump-condition-5x,3,3,horizontal-pull,6,6
 pump-condition-5x,3,3,vertical-pull,4,4
 pump-condition-5x,3,3,carry,3,3
 pump-condition-5x,3,3,core,3,3
-pump-condition-5x,3,3,isolation-arms,9,9
+pump-condition-5x,3,3,isolation-arms,6,6
 pump-condition-5x,3,3,isolation-shoulders,3,3
+pump-condition-5x,3,3,isolation-legs,3,3
 pump-lift-3x,3,3,squat,3,3
 pump-lift-3x,3,3,hinge,3,3
 pump-lift-3x,3,3,lunge-single-leg,6,6
@@ -984,7 +996,8 @@ pump-lift-3x,3,3,horizontal-pull,3,3
 pump-lift-3x,3,3,vertical-pull,4,4
 pump-lift-3x,3,3,carry,4,6
 pump-lift-3x,3,3,core,9,12
-pump-lift-3x,3,3,isolation-arms,11,12
+pump-lift-3x,3,3,isolation-arms,8,9
+pump-lift-3x,3,3,isolation-legs,3,3
 pump-lift-4x,3,3,squat,3,3
 pump-lift-4x,3,3,hinge,6,6
 pump-lift-4x,3,3,lunge-single-leg,9,9
@@ -994,9 +1007,9 @@ pump-lift-4x,3,3,horizontal-pull,6,6
 pump-lift-4x,3,3,vertical-pull,4,4
 pump-lift-4x,3,3,carry,5,6
 pump-lift-4x,3,3,core,7,9
-pump-lift-4x,3,3,isolation-arms,11,12
+pump-lift-4x,3,3,isolation-arms,8,9
 pump-lift-4x,3,3,isolation-shoulders,6,6
-pump-lift-4x,3,3,isolation-legs,4,6
+pump-lift-4x,3,3,isolation-legs,7,9
 pump-lift-4x,3,3,(unresolved pattern),,3
 pump-lift-5x,3,3,squat,3,3
 pump-lift-5x,3,3,hinge,6,6
@@ -1007,9 +1020,9 @@ pump-lift-5x,3,3,horizontal-pull,9,9
 pump-lift-5x,3,3,vertical-pull,4,4
 pump-lift-5x,3,3,carry,7,9
 pump-lift-5x,3,3,core,9,12
-pump-lift-5x,3,3,isolation-arms,11,12
+pump-lift-5x,3,3,isolation-arms,8,9
 pump-lift-5x,3,3,isolation-shoulders,9,9
-pump-lift-5x,3,3,isolation-legs,4,6
+pump-lift-5x,3,3,isolation-legs,7,9
 pump-lift-5x,3,3,(unresolved pattern),,3
 minimalist,3,4,squat,6,6
 minimalist,3,4,hinge,3,3
@@ -1097,8 +1110,8 @@ minimalist,3,5,horizontal-press,4,4
 minimalist,3,5,vertical-press,4,4
 minimalist,3,5,horizontal-pull,6,6
 minimalist,3,5,core,3,3
-minimalist,3,5,isolation-arms,3,3
 minimalist,3,5,isolation-shoulders,6,6
+minimalist,3,5,isolation-legs,3,3
 perform,3,5,squat,6,6
 perform,3,5,hinge,3,3
 perform,3,5,lunge-single-leg,3,3
@@ -1107,8 +1120,9 @@ perform,3,5,vertical-press,4,4
 perform,3,5,horizontal-pull,6,6
 perform,3,5,vertical-pull,4,4
 perform,3,5,core,3,3
-perform,3,5,isolation-arms,6,6
+perform,3,5,isolation-arms,3,3
 perform,3,5,isolation-shoulders,6,6
+perform,3,5,isolation-legs,3,3
 pump-condition-3x,3,5,squat,3,3
 pump-condition-3x,3,5,hinge,3,3
 pump-condition-3x,3,5,horizontal-press,6,6
@@ -1123,8 +1137,8 @@ pump-condition-4x,3,5,horizontal-press,4,4
 pump-condition-4x,3,5,horizontal-pull,6,6
 pump-condition-4x,3,5,vertical-pull,4,4
 pump-condition-4x,3,5,core,3,3
-pump-condition-4x,3,5,isolation-arms,3,3
 pump-condition-4x,3,5,isolation-shoulders,6,6
+pump-condition-4x,3,5,isolation-legs,3,3
 pump-condition-5x,3,5,squat,6,6
 pump-condition-5x,3,5,hinge,3,3
 pump-condition-5x,3,5,lunge-single-leg,3,3
@@ -1133,8 +1147,9 @@ pump-condition-5x,3,5,vertical-press,4,4
 pump-condition-5x,3,5,horizontal-pull,6,6
 pump-condition-5x,3,5,vertical-pull,4,4
 pump-condition-5x,3,5,core,3,3
-pump-condition-5x,3,5,isolation-arms,6,6
+pump-condition-5x,3,5,isolation-arms,3,3
 pump-condition-5x,3,5,isolation-shoulders,6,6
+pump-condition-5x,3,5,isolation-legs,3,3
 pump-lift-3x,3,5,squat,6,6
 pump-lift-3x,3,5,hinge,3,3
 pump-lift-3x,3,5,lunge-single-leg,3,3
@@ -1144,7 +1159,8 @@ pump-lift-3x,3,5,horizontal-pull,3,3
 pump-lift-3x,3,5,vertical-pull,4,4
 pump-lift-3x,3,5,carry,2,3
 pump-lift-3x,3,5,core,9,12
-pump-lift-3x,3,5,isolation-arms,10,12
+pump-lift-3x,3,5,isolation-arms,7,9
+pump-lift-3x,3,5,isolation-legs,3,3
 pump-lift-4x,3,5,squat,6,6
 pump-lift-4x,3,5,hinge,6,6
 pump-lift-4x,3,5,lunge-single-leg,6,6
@@ -1153,9 +1169,9 @@ pump-lift-4x,3,5,vertical-press,4,4
 pump-lift-4x,3,5,horizontal-pull,3,3
 pump-lift-4x,3,5,vertical-pull,4,4
 pump-lift-4x,3,5,core,7,9
-pump-lift-4x,3,5,isolation-arms,10,12
+pump-lift-4x,3,5,isolation-arms,7,9
 pump-lift-4x,3,5,isolation-shoulders,10,10
-pump-lift-4x,3,5,isolation-legs,2,3
+pump-lift-4x,3,5,isolation-legs,5,6
 pump-lift-4x,3,5,(unresolved pattern),,3
 pump-lift-5x,3,5,squat,6,6
 pump-lift-5x,3,5,hinge,6,6
@@ -1166,9 +1182,9 @@ pump-lift-5x,3,5,horizontal-pull,6,6
 pump-lift-5x,3,5,vertical-pull,4,4
 pump-lift-5x,3,5,carry,2,3
 pump-lift-5x,3,5,core,9,12
-pump-lift-5x,3,5,isolation-arms,10,12
+pump-lift-5x,3,5,isolation-arms,7,9
 pump-lift-5x,3,5,isolation-shoulders,13,13
-pump-lift-5x,3,5,isolation-legs,2,3
+pump-lift-5x,3,5,isolation-legs,5,6
 pump-lift-5x,3,5,(unresolved pattern),,3
 minimalist,3,6,squat,6,6
 minimalist,3,6,hinge,3,3
@@ -1675,8 +1691,9 @@ perform,6,1,horizontal-press,7,7
 perform,6,1,vertical-press,4,4
 perform,6,1,horizontal-pull,6,6
 perform,6,1,vertical-pull,3,3
-perform,6,1,isolation-arms,6,6
+perform,6,1,isolation-arms,3,3
 perform,6,1,isolation-shoulders,3,3
+perform,6,1,isolation-legs,3,3
 pump-condition-3x,6,1,squat,3,3
 pump-condition-3x,6,1,hinge,6,6
 pump-condition-3x,6,1,horizontal-press,4,4
@@ -1692,7 +1709,8 @@ pump-condition-4x,6,1,horizontal-press,7,7
 pump-condition-4x,6,1,vertical-press,4,4
 pump-condition-4x,6,1,horizontal-pull,3,3
 pump-condition-4x,6,1,vertical-pull,3,3
-pump-condition-4x,6,1,isolation-arms,6,6
+pump-condition-4x,6,1,isolation-arms,3,3
+pump-condition-4x,6,1,isolation-legs,3,3
 pump-condition-5x,6,1,squat,3,3
 pump-condition-5x,6,1,hinge,6,6
 pump-condition-5x,6,1,lunge-single-leg,9,9
@@ -1700,8 +1718,9 @@ pump-condition-5x,6,1,horizontal-press,7,7
 pump-condition-5x,6,1,vertical-press,4,4
 pump-condition-5x,6,1,horizontal-pull,6,6
 pump-condition-5x,6,1,vertical-pull,3,3
-pump-condition-5x,6,1,isolation-arms,6,6
+pump-condition-5x,6,1,isolation-arms,3,3
 pump-condition-5x,6,1,isolation-shoulders,3,3
+pump-condition-5x,6,1,isolation-legs,3,3
 pump-lift-3x,6,1,squat,3,3
 pump-lift-3x,6,1,hinge,6,6
 pump-lift-3x,6,1,lunge-single-leg,6,6
@@ -1710,8 +1729,9 @@ pump-lift-3x,6,1,vertical-press,4,4
 pump-lift-3x,6,1,horizontal-pull,4,4
 pump-lift-3x,6,1,vertical-pull,6,6
 pump-lift-3x,6,1,core,4,6
-pump-lift-3x,6,1,isolation-arms,12,12
+pump-lift-3x,6,1,isolation-arms,9,9
 pump-lift-3x,6,1,isolation-shoulders,4,6
+pump-lift-3x,6,1,isolation-legs,3,3
 pump-lift-4x,6,1,squat,3,3
 pump-lift-4x,6,1,hinge,6,6
 pump-lift-4x,6,1,lunge-single-leg,9,9
@@ -1720,9 +1740,9 @@ pump-lift-4x,6,1,vertical-press,4,4
 pump-lift-4x,6,1,horizontal-pull,4,4
 pump-lift-4x,6,1,vertical-pull,6,6
 pump-lift-4x,6,1,core,8,12
-pump-lift-4x,6,1,isolation-arms,10,12
+pump-lift-4x,6,1,isolation-arms,7,9
 pump-lift-4x,6,1,isolation-shoulders,7,9
-pump-lift-4x,6,1,isolation-legs,3,3
+pump-lift-4x,6,1,isolation-legs,6,6
 pump-lift-5x,6,1,squat,6,6
 pump-lift-5x,6,1,hinge,6,6
 pump-lift-5x,6,1,lunge-single-leg,9,9
@@ -1731,9 +1751,9 @@ pump-lift-5x,6,1,vertical-press,7,7
 pump-lift-5x,6,1,horizontal-pull,7,7
 pump-lift-5x,6,1,vertical-pull,6,6
 pump-lift-5x,6,1,core,8,12
-pump-lift-5x,6,1,isolation-arms,16,18
+pump-lift-5x,6,1,isolation-arms,13,15
 pump-lift-5x,6,1,isolation-shoulders,7,9
-pump-lift-5x,6,1,isolation-legs,3,3
+pump-lift-5x,6,1,isolation-legs,6,6
 minimalist,6,2,squat,6,6
 minimalist,6,2,hinge,9,9
 minimalist,6,2,lunge-single-leg,3,3
@@ -1823,8 +1843,9 @@ perform,6,3,horizontal-press,7,7
 perform,6,3,vertical-press,4,4
 perform,6,3,horizontal-pull,6,6
 perform,6,3,vertical-pull,3,3
-perform,6,3,isolation-arms,6,6
+perform,6,3,isolation-arms,3,3
 perform,6,3,isolation-shoulders,3,3
+perform,6,3,isolation-legs,3,3
 pump-condition-3x,6,3,squat,3,3
 pump-condition-3x,6,3,hinge,6,6
 pump-condition-3x,6,3,horizontal-press,4,4
@@ -1840,7 +1861,8 @@ pump-condition-4x,6,3,horizontal-press,7,7
 pump-condition-4x,6,3,vertical-press,4,4
 pump-condition-4x,6,3,horizontal-pull,3,3
 pump-condition-4x,6,3,vertical-pull,3,3
-pump-condition-4x,6,3,isolation-arms,6,6
+pump-condition-4x,6,3,isolation-arms,3,3
+pump-condition-4x,6,3,isolation-legs,3,3
 pump-condition-5x,6,3,squat,3,3
 pump-condition-5x,6,3,hinge,6,6
 pump-condition-5x,6,3,lunge-single-leg,9,9
@@ -1848,8 +1870,9 @@ pump-condition-5x,6,3,horizontal-press,7,7
 pump-condition-5x,6,3,vertical-press,4,4
 pump-condition-5x,6,3,horizontal-pull,6,6
 pump-condition-5x,6,3,vertical-pull,3,3
-pump-condition-5x,6,3,isolation-arms,6,6
+pump-condition-5x,6,3,isolation-arms,3,3
 pump-condition-5x,6,3,isolation-shoulders,3,3
+pump-condition-5x,6,3,isolation-legs,3,3
 pump-lift-3x,6,3,squat,3,3
 pump-lift-3x,6,3,hinge,6,6
 pump-lift-3x,6,3,lunge-single-leg,6,6
@@ -1858,8 +1881,9 @@ pump-lift-3x,6,3,vertical-press,4,4
 pump-lift-3x,6,3,horizontal-pull,6,7
 pump-lift-3x,6,3,vertical-pull,6,6
 pump-lift-3x,6,3,core,4,6
-pump-lift-3x,6,3,isolation-arms,12,12
+pump-lift-3x,6,3,isolation-arms,9,9
 pump-lift-3x,6,3,isolation-shoulders,2,3
+pump-lift-3x,6,3,isolation-legs,3,3
 pump-lift-4x,6,3,squat,3,3
 pump-lift-4x,6,3,hinge,6,6
 pump-lift-4x,6,3,lunge-single-leg,9,9
@@ -1868,9 +1892,9 @@ pump-lift-4x,6,3,vertical-press,4,4
 pump-lift-4x,6,3,horizontal-pull,6,7
 pump-lift-4x,6,3,vertical-pull,6,6
 pump-lift-4x,6,3,core,8,12
-pump-lift-4x,6,3,isolation-arms,10,12
+pump-lift-4x,6,3,isolation-arms,7,9
 pump-lift-4x,6,3,isolation-shoulders,5,6
-pump-lift-4x,6,3,isolation-legs,3,3
+pump-lift-4x,6,3,isolation-legs,6,6
 pump-lift-5x,6,3,squat,6,6
 pump-lift-5x,6,3,hinge,6,6
 pump-lift-5x,6,3,lunge-single-leg,9,9
@@ -1879,9 +1903,9 @@ pump-lift-5x,6,3,vertical-press,7,7
 pump-lift-5x,6,3,horizontal-pull,9,10
 pump-lift-5x,6,3,vertical-pull,6,6
 pump-lift-5x,6,3,core,8,12
-pump-lift-5x,6,3,isolation-arms,16,18
+pump-lift-5x,6,3,isolation-arms,13,15
 pump-lift-5x,6,3,isolation-shoulders,5,6
-pump-lift-5x,6,3,isolation-legs,3,3
+pump-lift-5x,6,3,isolation-legs,6,6
 minimalist,6,4,squat,6,6
 minimalist,6,4,hinge,9,9
 minimalist,6,4,lunge-single-leg,3,3
@@ -1971,8 +1995,9 @@ perform,6,5,horizontal-press,7,7
 perform,6,5,vertical-press,4,4
 perform,6,5,horizontal-pull,6,6
 perform,6,5,vertical-pull,3,3
-perform,6,5,isolation-arms,6,6
+perform,6,5,isolation-arms,3,3
 perform,6,5,isolation-shoulders,3,3
+perform,6,5,isolation-legs,3,3
 pump-condition-3x,6,5,squat,3,3
 pump-condition-3x,6,5,hinge,6,6
 pump-condition-3x,6,5,horizontal-press,4,4
@@ -1988,7 +2013,8 @@ pump-condition-4x,6,5,horizontal-press,7,7
 pump-condition-4x,6,5,vertical-press,4,4
 pump-condition-4x,6,5,horizontal-pull,3,3
 pump-condition-4x,6,5,vertical-pull,3,3
-pump-condition-4x,6,5,isolation-arms,6,6
+pump-condition-4x,6,5,isolation-arms,3,3
+pump-condition-4x,6,5,isolation-legs,3,3
 pump-condition-5x,6,5,squat,3,3
 pump-condition-5x,6,5,hinge,6,6
 pump-condition-5x,6,5,lunge-single-leg,9,9
@@ -1996,8 +2022,9 @@ pump-condition-5x,6,5,horizontal-press,7,7
 pump-condition-5x,6,5,vertical-press,4,4
 pump-condition-5x,6,5,horizontal-pull,6,6
 pump-condition-5x,6,5,vertical-pull,3,3
-pump-condition-5x,6,5,isolation-arms,6,6
+pump-condition-5x,6,5,isolation-arms,3,3
 pump-condition-5x,6,5,isolation-shoulders,3,3
+pump-condition-5x,6,5,isolation-legs,3,3
 pump-lift-3x,6,5,squat,3,3
 pump-lift-3x,6,5,hinge,6,6
 pump-lift-3x,6,5,lunge-single-leg,6,6
@@ -2006,8 +2033,9 @@ pump-lift-3x,6,5,vertical-press,4,4
 pump-lift-3x,6,5,horizontal-pull,6,7
 pump-lift-3x,6,5,vertical-pull,6,6
 pump-lift-3x,6,5,core,4,6
-pump-lift-3x,6,5,isolation-arms,10,12
+pump-lift-3x,6,5,isolation-arms,7,9
 pump-lift-3x,6,5,isolation-shoulders,2,3
+pump-lift-3x,6,5,isolation-legs,3,3
 pump-lift-4x,6,5,squat,3,3
 pump-lift-4x,6,5,hinge,6,6
 pump-lift-4x,6,5,lunge-single-leg,9,9
@@ -2016,9 +2044,9 @@ pump-lift-4x,6,5,vertical-press,4,4
 pump-lift-4x,6,5,horizontal-pull,6,7
 pump-lift-4x,6,5,vertical-pull,6,6
 pump-lift-4x,6,5,core,8,12
-pump-lift-4x,6,5,isolation-arms,10,12
+pump-lift-4x,6,5,isolation-arms,7,9
 pump-lift-4x,6,5,isolation-shoulders,5,6
-pump-lift-4x,6,5,isolation-legs,3,3
+pump-lift-4x,6,5,isolation-legs,6,6
 pump-lift-5x,6,5,squat,6,6
 pump-lift-5x,6,5,hinge,6,6
 pump-lift-5x,6,5,lunge-single-leg,9,9
@@ -2027,9 +2055,9 @@ pump-lift-5x,6,5,vertical-press,7,7
 pump-lift-5x,6,5,horizontal-pull,9,10
 pump-lift-5x,6,5,vertical-pull,6,6
 pump-lift-5x,6,5,core,8,12
-pump-lift-5x,6,5,isolation-arms,14,18
+pump-lift-5x,6,5,isolation-arms,11,15
 pump-lift-5x,6,5,isolation-shoulders,5,6
-pump-lift-5x,6,5,isolation-legs,3,3
+pump-lift-5x,6,5,isolation-legs,6,6
 minimalist,6,6,squat,6,6
 minimalist,6,6,hinge,9,9
 minimalist,6,6,lunge-single-leg,3,3
@@ -2517,16 +2545,18 @@ minimalist,8,1,lunge-single-leg,6,6
 minimalist,8,1,horizontal-press,6,6
 minimalist,8,1,vertical-press,4,4
 minimalist,8,1,vertical-pull,6,6
-minimalist,8,1,isolation-arms,6,6
+minimalist,8,1,isolation-arms,3,3
 minimalist,8,1,isolation-shoulders,3,3
+minimalist,8,1,isolation-legs,3,3
 perform,8,1,squat,3,3
 perform,8,1,hinge,6,6
 perform,8,1,lunge-single-leg,9,9
 perform,8,1,horizontal-press,10,10
 perform,8,1,vertical-press,4,4
 perform,8,1,vertical-pull,6,6
-perform,8,1,isolation-arms,6,6
+perform,8,1,isolation-arms,3,3
 perform,8,1,isolation-shoulders,3,3
+perform,8,1,isolation-legs,3,3
 pump-condition-3x,8,1,squat,3,3
 pump-condition-3x,8,1,hinge,3,3
 pump-condition-3x,8,1,horizontal-press,7,7
@@ -2540,15 +2570,17 @@ pump-condition-4x,8,1,lunge-single-leg,6,6
 pump-condition-4x,8,1,horizontal-press,7,7
 pump-condition-4x,8,1,vertical-press,4,4
 pump-condition-4x,8,1,vertical-pull,6,6
-pump-condition-4x,8,1,isolation-arms,6,6
+pump-condition-4x,8,1,isolation-arms,3,3
+pump-condition-4x,8,1,isolation-legs,3,3
 pump-condition-5x,8,1,squat,3,3
 pump-condition-5x,8,1,hinge,6,6
 pump-condition-5x,8,1,lunge-single-leg,9,9
 pump-condition-5x,8,1,horizontal-press,10,10
 pump-condition-5x,8,1,vertical-press,4,4
 pump-condition-5x,8,1,vertical-pull,6,6
-pump-condition-5x,8,1,isolation-arms,6,6
+pump-condition-5x,8,1,isolation-arms,3,3
 pump-condition-5x,8,1,isolation-shoulders,3,3
+pump-condition-5x,8,1,isolation-legs,3,3
 pump-lift-3x,8,1,squat,3,3
 pump-lift-3x,8,1,hinge,6,6
 pump-lift-3x,8,1,lunge-single-leg,3,3
@@ -2568,9 +2600,9 @@ pump-lift-4x,8,1,vertical-press,4,4
 pump-lift-4x,8,1,horizontal-pull,4,4
 pump-lift-4x,8,1,vertical-pull,6,6
 pump-lift-4x,8,1,core,8,12
-pump-lift-4x,8,1,isolation-arms,10,10
+pump-lift-4x,8,1,isolation-arms,7,7
 pump-lift-4x,8,1,isolation-shoulders,5,6
-pump-lift-4x,8,1,isolation-legs,2,3
+pump-lift-4x,8,1,isolation-legs,5,6
 pump-lift-5x,8,1,squat,6,6
 pump-lift-5x,8,1,hinge,6,6
 pump-lift-5x,8,1,lunge-single-leg,12,12
@@ -2579,9 +2611,9 @@ pump-lift-5x,8,1,vertical-press,7,7
 pump-lift-5x,8,1,horizontal-pull,4,4
 pump-lift-5x,8,1,vertical-pull,8,9
 pump-lift-5x,8,1,core,8,12
-pump-lift-5x,8,1,isolation-arms,12,13
+pump-lift-5x,8,1,isolation-arms,9,10
 pump-lift-5x,8,1,isolation-shoulders,5,6
-pump-lift-5x,8,1,isolation-legs,2,3
+pump-lift-5x,8,1,isolation-legs,5,6
 minimalist,8,2,squat,3,3
 minimalist,8,2,hinge,6,6
 minimalist,8,2,lunge-single-leg,6,6
@@ -2662,7 +2694,8 @@ minimalist,8,3,lunge-single-leg,6,6
 minimalist,8,3,horizontal-press,3,3
 minimalist,8,3,vertical-press,7,7
 minimalist,8,3,vertical-pull,6,6
-minimalist,8,3,isolation-arms,6,6
+minimalist,8,3,isolation-arms,3,3
+minimalist,8,3,isolation-legs,3,3
 minimalist,8,3,(unresolved pattern),,3
 perform,8,3,squat,3,3
 perform,8,3,hinge,6,6
@@ -2670,7 +2703,8 @@ perform,8,3,lunge-single-leg,9,9
 perform,8,3,horizontal-press,7,7
 perform,8,3,vertical-press,7,7
 perform,8,3,vertical-pull,6,6
-perform,8,3,isolation-arms,6,6
+perform,8,3,isolation-arms,3,3
+perform,8,3,isolation-legs,3,3
 perform,8,3,(unresolved pattern),,3
 pump-condition-3x,8,3,squat,3,3
 pump-condition-3x,8,3,hinge,3,3
@@ -2685,14 +2719,16 @@ pump-condition-4x,8,3,lunge-single-leg,6,6
 pump-condition-4x,8,3,horizontal-press,7,7
 pump-condition-4x,8,3,vertical-press,4,4
 pump-condition-4x,8,3,vertical-pull,6,6
-pump-condition-4x,8,3,isolation-arms,6,6
+pump-condition-4x,8,3,isolation-arms,3,3
+pump-condition-4x,8,3,isolation-legs,3,3
 pump-condition-5x,8,3,squat,3,3
 pump-condition-5x,8,3,hinge,6,6
 pump-condition-5x,8,3,lunge-single-leg,9,9
 pump-condition-5x,8,3,horizontal-press,7,7
 pump-condition-5x,8,3,vertical-press,7,7
 pump-condition-5x,8,3,vertical-pull,6,6
-pump-condition-5x,8,3,isolation-arms,6,6
+pump-condition-5x,8,3,isolation-arms,3,3
+pump-condition-5x,8,3,isolation-legs,3,3
 pump-condition-5x,8,3,(unresolved pattern),,3
 pump-lift-3x,8,3,squat,3,3
 pump-lift-3x,8,3,hinge,6,6
@@ -2715,9 +2751,9 @@ pump-lift-4x,8,3,horizontal-pull,4,4
 pump-lift-4x,8,3,vertical-pull,6,6
 pump-lift-4x,8,3,carry,2,3
 pump-lift-4x,8,3,core,8,12
-pump-lift-4x,8,3,isolation-arms,8,9
+pump-lift-4x,8,3,isolation-arms,5,6
 pump-lift-4x,8,3,isolation-shoulders,2,3
-pump-lift-4x,8,3,isolation-legs,2,3
+pump-lift-4x,8,3,isolation-legs,5,6
 pump-lift-4x,8,3,(unresolved pattern),,3
 pump-lift-5x,8,3,squat,6,6
 pump-lift-5x,8,3,hinge,6,6
@@ -2728,9 +2764,9 @@ pump-lift-5x,8,3,horizontal-pull,4,4
 pump-lift-5x,8,3,vertical-pull,8,9
 pump-lift-5x,8,3,carry,2,3
 pump-lift-5x,8,3,core,8,12
-pump-lift-5x,8,3,isolation-arms,10,12
+pump-lift-5x,8,3,isolation-arms,7,9
 pump-lift-5x,8,3,isolation-shoulders,2,3
-pump-lift-5x,8,3,isolation-legs,2,3
+pump-lift-5x,8,3,isolation-legs,5,6
 pump-lift-5x,8,3,(unresolved pattern),,3
 minimalist,8,4,squat,3,3
 minimalist,8,4,hinge,6,6
@@ -2812,16 +2848,18 @@ minimalist,8,5,lunge-single-leg,6,6
 minimalist,8,5,horizontal-press,6,6
 minimalist,8,5,vertical-press,4,4
 minimalist,8,5,vertical-pull,6,6
-minimalist,8,5,isolation-arms,6,6
+minimalist,8,5,isolation-arms,3,3
 minimalist,8,5,isolation-shoulders,3,3
+minimalist,8,5,isolation-legs,3,3
 perform,8,5,squat,3,3
 perform,8,5,hinge,6,6
 perform,8,5,lunge-single-leg,9,9
 perform,8,5,horizontal-press,10,10
 perform,8,5,vertical-press,4,4
 perform,8,5,vertical-pull,6,6
-perform,8,5,isolation-arms,6,6
+perform,8,5,isolation-arms,3,3
 perform,8,5,isolation-shoulders,3,3
+perform,8,5,isolation-legs,3,3
 pump-condition-3x,8,5,squat,3,3
 pump-condition-3x,8,5,hinge,3,3
 pump-condition-3x,8,5,horizontal-press,7,7
@@ -2835,15 +2873,17 @@ pump-condition-4x,8,5,lunge-single-leg,6,6
 pump-condition-4x,8,5,horizontal-press,7,7
 pump-condition-4x,8,5,vertical-press,4,4
 pump-condition-4x,8,5,vertical-pull,6,6
-pump-condition-4x,8,5,isolation-arms,6,6
+pump-condition-4x,8,5,isolation-arms,3,3
+pump-condition-4x,8,5,isolation-legs,3,3
 pump-condition-5x,8,5,squat,3,3
 pump-condition-5x,8,5,hinge,6,6
 pump-condition-5x,8,5,lunge-single-leg,9,9
 pump-condition-5x,8,5,horizontal-press,10,10
 pump-condition-5x,8,5,vertical-press,4,4
 pump-condition-5x,8,5,vertical-pull,6,6
-pump-condition-5x,8,5,isolation-arms,6,6
+pump-condition-5x,8,5,isolation-arms,3,3
 pump-condition-5x,8,5,isolation-shoulders,3,3
+pump-condition-5x,8,5,isolation-legs,3,3
 pump-lift-3x,8,5,squat,3,3
 pump-lift-3x,8,5,hinge,6,6
 pump-lift-3x,8,5,lunge-single-leg,3,3
@@ -2863,9 +2903,9 @@ pump-lift-4x,8,5,vertical-press,4,4
 pump-lift-4x,8,5,horizontal-pull,4,4
 pump-lift-4x,8,5,vertical-pull,6,6
 pump-lift-4x,8,5,core,8,12
-pump-lift-4x,8,5,isolation-arms,10,12
+pump-lift-4x,8,5,isolation-arms,7,9
 pump-lift-4x,8,5,isolation-shoulders,5,6
-pump-lift-4x,8,5,isolation-legs,2,3
+pump-lift-4x,8,5,isolation-legs,5,6
 pump-lift-5x,8,5,squat,6,6
 pump-lift-5x,8,5,hinge,6,6
 pump-lift-5x,8,5,lunge-single-leg,12,12
@@ -2874,6 +2914,6 @@ pump-lift-5x,8,5,vertical-press,7,7
 pump-lift-5x,8,5,horizontal-pull,4,4
 pump-lift-5x,8,5,vertical-pull,8,9
 pump-lift-5x,8,5,core,8,12
-pump-lift-5x,8,5,isolation-arms,12,15
+pump-lift-5x,8,5,isolation-arms,9,12
 pump-lift-5x,8,5,isolation-shoulders,5,6
-pump-lift-5x,8,5,isolation-legs,2,3
+pump-lift-5x,8,5,isolation-legs,5,6

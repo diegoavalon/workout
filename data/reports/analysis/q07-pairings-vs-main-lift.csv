@@ -19,9 +19,9 @@ vertical-press,horizontal-press,horizontal-press,18
 horizontal-press,vertical-pull,horizontal-pull,17
 hinge,vertical-pull,horizontal-pull,16
 squat,core,hinge,15
-squat,isolation-arms,core,15
-squat,isolation-arms,hinge,15
-hinge,isolation-arms,core,14
+squat,isolation-legs,core,15
+squat,isolation-legs,hinge,15
+hinge,isolation-legs,core,14
 hinge,lunge-single-leg,hinge,14
 horizontal-press,horizontal-pull,vertical-pull,14
 squat,hinge,core,14
@@ -34,7 +34,7 @@ horizontal-press,isolation-shoulders,horizontal-press,12
 horizontal-press,isolation-shoulders,vertical-press,12
 horizontal-press,lunge-single-leg,hinge,12
 lunge-single-leg,hinge,squat,12
-lunge-single-leg,isolation-arms,lunge-single-leg,12
+lunge-single-leg,isolation-legs,lunge-single-leg,12
 lunge-single-leg,squat,hinge,12
 squat,horizontal-press,isolation-arms,12
 hinge,horizontal-pull,horizontal-pull,11
@@ -58,7 +58,7 @@ hinge,hinge,lunge-single-leg,7
 squat,hinge,hinge,7
 vertical-press,isolation-shoulders,horizontal-press,7
 hinge,hinge,hinge,6
-hinge,isolation-arms,lunge-single-leg,6
+hinge,isolation-legs,lunge-single-leg,6
 hinge,mobility,vertical-pull,6
 hinge,squat,hinge,6
 hinge,vertical-pull,vertical-press,6
@@ -76,7 +76,7 @@ vertical-pull,isolation-shoulders,horizontal-pull,6
 vertical-pull,vertical-pull,horizontal-pull,6
 hinge,lunge-single-leg,squat,5
 squat,core,squat,5
-squat,isolation-arms,mobility,5
+squat,isolation-legs,mobility,5
 squat,vertical-pull,horizontal-pull,5
 vertical-press,lunge-single-leg,core,5
 hinge,horizontal-press,isolation-shoulders,4
@@ -97,9 +97,9 @@ hinge,mobility,horizontal-pull,3
 horizontal-press,horizontal-press,vertical-pull,3
 horizontal-press,vertical-pull,vertical-pull,3
 squat,horizontal-press,horizontal-pull,3
-squat,isolation-arms,lunge-single-leg,3
+squat,isolation-legs,lunge-single-leg,3
 squat,vertical-pull,vertical-pull,3
-vertical-press,isolation-arms,core,3
+vertical-press,isolation-legs,core,3
 vertical-press,lunge-single-leg,hinge,3
 vertical-pull,horizontal-press,horizontal-press,3
 hinge,horizontal-press,horizontal-press,2

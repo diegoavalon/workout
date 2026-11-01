@@ -17,8 +17,13 @@ export interface PatternGuess {
 // Strong rules: wording that only means one thing. First match wins.
 const STRONG: [Pattern, RegExp][] = [
   ["cardio", /^(cardio of choice|cardio sprint|row|bike|run|walk|jog|ski|swim|shuttle run|double under|single under|jump rope)(\b|$)|^(run|row|bike|ski|jog|walk)[/ ,]+(run|row|bike|ski|jog|walk|swim)/],
+  // Positions and stretches that borrow a lift's or muscle's name.
+  ["mobility", /\bstretch\b|\b(wrist|ankle) circle\b|\b(thoracic|hip) rotation\b|\bbottom of squat\b|\b(half|middle) split hip hinge\b/],
+  ["vertical-press", /\b(handstand push up|hspu)\b/],
+  ["isolation-legs", /\b(nordic|hamstring curl|leg curl)\b/],
+  ["horizontal-pull", /\bring row\b/],
   ["olympic", /\b(clean|snatch|jerk)\b/],
-  ["plyometric", /\b(slam ball|med ball slam|bench hops?|skater jump|box jump|broad jump|jump squat|tuck jump|jump lunge|lateral hop|hop|bound|depth jump|jumping jack)\b/],
+  ["plyometric", /\b(squat jump|slam ball|med ball slam|bench hops?|skater jump|box jump|broad jump|jump squat|tuck jump|jump lunge|lateral hop|hop|bound|depth jump|jumping jack)\b/],
   ["cardio", /\b(cal(orie)?s? (row|bike)|cal row|cal bike|calorie row|single under|\d+m run)\b/],
   ["isolation-legs", /\b(band(ed)? walk|monster walk|band(ed)? (abduction|adduction)|cable abduction)\b/],
   ["carry", /\b(rack march|carry|farmers walk|suitcase walk|rack walk|waiter walk)\b/],
@@ -68,7 +73,8 @@ export function guessPattern(key: string): PatternGuess {
 
 const EQUIPMENT: [string, RegExp][] = [
   ["barbell", /\b(barbell|trap bar|ez bar|safety bar|zercher)\b/],
-  ["dumbbell", /\bdumbbell\b/],
+  ["dumbbell", /\bdumbbell\b|\b(hammer curl|powell raise|lateral raise|front raise|renegade row)\b/],
+  ["dumbbell-or-kettlebell", /\b(goblet|suitcase|farmers)\b/],
   ["kettlebell", /\bkettlebell\b/],
   ["cable", /\bcable\b/],
   ["band", /\b(banded|band|resistance band)\b/],
@@ -84,10 +90,22 @@ const EQUIPMENT: [string, RegExp][] = [
   ["bike", /\b(bike|echo bike|assault bike)\b/],
   ["rower", /\b(rower|row erg)\b/],
   ["bodyweight", /\b(bodyweight|push up|pull up|chin up|plank)\b/],
+  ["pull-up-bar", /\b(pull up|chin up|toes to bar|hanging|passive hang|muscle up|bar dip)\b/],
+  ["jump-rope", /\b(double|single) under\b/],
+  ["rower", /^(row|row (calorie|buy in|or jog))\b|\brow (calorie|buy in)\b/],
+  ["ski-erg", /\bski\b/],
 ];
 
+// Lifts that are barbell lifts unless the name says otherwise.
+const BARBELL_BY_DEFAULT =
+  /\b(back squat|front squat|bench press|deadlift|strict press|z press|push press|behind the neck press|pendlay row|hip thrust|good morning|power snatch|power clean|hang clean|overhead squat|thruster)\b/;
+
+/** Equipment needed beyond the floor; an empty list means bodyweight or nothing at all. */
 export function guessEquipment(key: string): string[] {
-  return EQUIPMENT.filter(([, re]) => re.test(key)).map(([name]) => name);
+  const found = EQUIPMENT.filter(([, re]) => re.test(key)).map(([name]) => name);
+  const implement = found.some((e) => !["bodyweight", "pull-up-bar", "box", "bench"].includes(e));
+  if (!implement && BARBELL_BY_DEFAULT.test(key)) found.unshift("barbell");
+  return found;
 }
 
 export const UNILATERAL_RE = /\b(single arm|single leg|one arm|one leg|alternating|split squat|lunge|step up|step down|kickstand|bulgarian|pistol|cossack|curtsy|skater|rear foot elevated)\b/;

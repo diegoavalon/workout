@@ -235,7 +235,7 @@
         "hinge": 5,
         "core": 4,
         "mobility": 3,
-        "isolation-arms": 3
+        "isolation-legs": 3
        },
        "exercisePool": [
         {
@@ -289,7 +289,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -1771,7 +1771,7 @@
         "lunge-single-leg": 18,
         "vertical-pull": 7,
         "horizontal-pull": 6,
-        "isolation-arms": 4,
+        "isolation-legs": 4,
         "isolation-shoulders": 2,
         "hinge": 2
        },
@@ -1779,7 +1779,7 @@
         {
          "exerciseId": "nordic-hamstring-curl",
          "name": "Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 6
         },
         {
@@ -2328,9 +2328,8 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 27,
-        "hinge": 4,
-        "isolation-legs": 2
+        "mobility": 31,
+        "hinge": 2
        },
        "observedSections": 34
       }
@@ -2610,10 +2609,11 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "lunge-single-leg": 12,
-        "isolation-arms": 9,
         "vertical-press": 6,
+        "isolation-arms": 6,
         "horizontal-press": 5,
         "isolation-shoulders": 4,
+        "isolation-legs": 3,
         "horizontal-pull": 3
        },
        "exercisePool": [
@@ -2626,7 +2626,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -3128,8 +3128,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 35,
-        "isolation-legs": 4
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -3392,7 +3391,7 @@
         "lunge-single-leg": 4,
         "isolation-shoulders": 4,
         "horizontal-press": 4,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "vertical-press": 1
        },
        "exercisePool": [
@@ -3423,7 +3422,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -3882,9 +3881,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 25,
-        "isolation-legs": 5,
-        "hinge": 3
+        "mobility": 33
        },
        "observedSections": 33
       }
@@ -4165,9 +4162,10 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "horizontal-press": 11,
-        "isolation-arms": 8,
         "lunge-single-leg": 6,
+        "isolation-arms": 5,
         "core": 4,
+        "isolation-legs": 3,
         "horizontal-pull": 2,
         "hinge": 2,
         "isolation-shoulders": 1
@@ -4224,7 +4222,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -4981,15 +4979,16 @@
        "patternDistribution": {
         "horizontal-press": 14,
         "lunge-single-leg": 11,
-        "isolation-arms": 5,
+        "isolation-legs": 4,
         "squat": 2,
-        "hinge": 2
+        "hinge": 2,
+        "isolation-arms": 1
        },
        "exercisePool": [
         {
          "exerciseId": "nordic-hamstring-curl",
          "name": "Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 6
         },
         {
@@ -5496,8 +5495,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 33,
-        "hinge": 1
+        "mobility": 34
        },
        "observedSections": 34
       }
@@ -5533,8 +5531,7 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 31,
-        "isolation-legs": 2,
+        "mobility": 33,
         "hinge": 2
        },
        "observedSections": 39
@@ -5805,13 +5802,14 @@
         "lunge-single-leg": 14,
         "horizontal-press": 11,
         "vertical-press": 5,
-        "isolation-arms": 5
+        "isolation-legs": 3,
+        "isolation-arms": 2
        },
        "exercisePool": [
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -6319,8 +6317,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 31,
-        "isolation-legs": 4
+        "mobility": 35
        },
        "observedSections": 35
       }
@@ -6609,7 +6606,7 @@
         "isolation-shoulders": 7,
         "lunge-single-leg": 4,
         "horizontal-press": 4,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "vertical-pull": 2,
         "horizontal-pull": 2,
         "vertical-press": 2
@@ -6630,7 +6627,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -7125,9 +7122,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 27,
-        "isolation-legs": 5,
-        "hinge": 3
+        "mobility": 35
        },
        "observedSections": 35
       }
@@ -7169,8 +7164,7 @@
        ],
        "itemsPerSection": 8,
        "patternDistribution": {
-        "mobility": 28,
-        "hinge": 4
+        "mobility": 32
        },
        "observedSections": 34
       }
@@ -7998,8 +7992,7 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 33,
-        "isolation-legs": 2
+        "mobility": 35
        },
        "observedSections": 39
       }
@@ -8289,11 +8282,12 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "isolation-arms": 15,
+        "isolation-arms": 12,
         "horizontal-press": 6,
         "horizontal-pull": 6,
         "core": 4,
         "vertical-press": 3,
+        "isolation-legs": 3,
         "lunge-single-leg": 3,
         "vertical-pull": 2
        },
@@ -8319,7 +8313,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -8809,8 +8803,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 35,
-        "isolation-legs": 4
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -8846,8 +8839,7 @@
        ],
        "itemsPerSection": 8,
        "patternDistribution": {
-        "mobility": 32,
-        "hinge": 4
+        "mobility": 36
        },
        "observedSections": 39
       }
@@ -9096,9 +9088,10 @@
         "lunge-single-leg": 17,
         "horizontal-press": 4,
         "isolation-shoulders": 4,
-        "isolation-arms": 4,
+        "isolation-legs": 3,
         "hinge": 3,
-        "core": 1
+        "core": 1,
+        "isolation-arms": 1
        },
        "exercisePool": [
         {
@@ -9110,7 +9103,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -9612,8 +9605,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 37,
-        "isolation-legs": 2
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -9654,8 +9646,7 @@
        ],
        "itemsPerSection": 8,
        "patternDistribution": {
-        "mobility": 34,
-        "hinge": 5
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -9810,7 +9801,7 @@
         "lunge-single-leg": 5,
         "core": 4,
         "mobility": 3,
-        "isolation-arms": 3
+        "isolation-legs": 3
        },
        "exercisePool": [
         {
@@ -9858,7 +9849,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -11536,9 +11527,8 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 25,
-        "isolation-legs": 2,
-        "hinge": 2
+        "mobility": 28,
+        "hinge": 1
        },
        "observedSections": 30
       }
@@ -11684,8 +11674,9 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "lunge-single-leg": 12,
-        "isolation-arms": 9,
+        "isolation-arms": 6,
         "vertical-press": 4,
+        "isolation-legs": 3,
         "horizontal-pull": 3,
         "isolation-shoulders": 3,
         "horizontal-press": 3
@@ -11700,7 +11691,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -11944,12 +11935,12 @@
        "itemsPerSection": 3,
        "patternDistribution": {
         "cardio": 13,
-        "plyometric": 2,
-        "squat": 2,
+        "plyometric": 3,
         "vertical-press": 1,
-        "lunge-single-leg": 1,
+        "horizontal-pull": 1,
         "isolation-shoulders": 1,
-        "core": 1
+        "core": 1,
+        "squat": 1
        },
        "exercisePool": [
         {
@@ -12027,7 +12018,7 @@
         {
          "exerciseId": "bulgarian-ring-row",
          "name": "Bulgarian Ring Row",
-         "pattern": "lunge-single-leg",
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -12081,7 +12072,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -12123,7 +12114,7 @@
         {
          "exerciseId": "pike-strict-handstand-push-up",
          "name": "Pike Strict Handstand Push Up",
-         "pattern": "horizontal-press",
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -12171,7 +12162,7 @@
         {
          "exerciseId": "dumbbell-suitcase-squat-jump",
          "name": "Dumbbell Suitcase Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -12192,8 +12183,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 30,
-        "isolation-legs": 4
+        "mobility": 34
        },
        "observedSections": 34
       }
@@ -12334,7 +12324,7 @@
         "squat": 6,
         "isolation-shoulders": 4,
         "horizontal-press": 4,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "hinge": 3,
         "lunge-single-leg": 2,
         "vertical-press": 1
@@ -12367,7 +12357,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -12620,7 +12610,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -12767,9 +12757,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 23,
-        "hinge": 3,
-        "isolation-legs": 3
+        "mobility": 29
        },
        "observedSections": 29
       }
@@ -12952,7 +12940,7 @@
         "lunge-single-leg": 6,
         "vertical-press": 6,
         "core": 4,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "hinge": 2
        },
        "exercisePool": [
@@ -13025,7 +13013,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -13463,8 +13451,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 38,
-        "hinge": 1
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -13621,7 +13608,7 @@
         "horizontal-press": 7,
         "squat": 6,
         "horizontal-pull": 6,
-        "isolation-arms": 4,
+        "isolation-legs": 4,
         "vertical-pull": 2,
         "isolation-shoulders": 2
        },
@@ -13629,7 +13616,7 @@
         {
          "exerciseId": "nordic-hamstring-curl",
          "name": "Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 6
         },
         {
@@ -13979,7 +13966,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -14174,8 +14161,7 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 31,
-        "isolation-legs": 2,
+        "mobility": 33,
         "hinge": 2
        },
        "observedSections": 39
@@ -14328,10 +14314,11 @@
        ],
        "itemsPerSection": 2,
        "patternDistribution": {
-        "isolation-arms": 12,
         "lunge-single-leg": 12,
+        "isolation-arms": 9,
         "vertical-pull": 6,
         "horizontal-press": 5,
+        "isolation-legs": 3,
         "vertical-press": 2,
         "hinge": 2
        },
@@ -14357,7 +14344,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -14589,12 +14576,11 @@
        "itemsPerSection": 3,
        "patternDistribution": {
         "cardio": 17,
-        "plyometric": 3,
-        "squat": 2,
-        "horizontal-pull": 1,
+        "plyometric": 4,
+        "horizontal-pull": 2,
         "vertical-press": 1,
-        "lunge-single-leg": 1,
-        "isolation-shoulders": 1
+        "isolation-shoulders": 1,
+        "squat": 1
        },
        "exercisePool": [
         {
@@ -14690,7 +14676,7 @@
         {
          "exerciseId": "bulgarian-ring-row",
          "name": "Bulgarian Ring Row",
-         "pattern": "lunge-single-leg",
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -14738,7 +14724,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -14798,7 +14784,7 @@
         {
          "exerciseId": "pike-strict-handstand-push-up",
          "name": "Pike Strict Handstand Push Up",
-         "pattern": "horizontal-press",
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -14849,8 +14835,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 35,
-        "isolation-legs": 4
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -15020,7 +15005,7 @@
         "lunge-single-leg": 5,
         "vertical-pull": 5,
         "isolation-shoulders": 4,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "squat": 3,
         "vertical-press": 2
        },
@@ -15052,7 +15037,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -15538,9 +15523,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 28,
-        "hinge": 6,
-        "isolation-legs": 5
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -15580,8 +15563,7 @@
        ],
        "itemsPerSection": 8,
        "patternDistribution": {
-        "mobility": 31,
-        "hinge": 4
+        "mobility": 35
        },
        "observedSections": 38
       }
@@ -16056,7 +16038,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -16263,8 +16245,7 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 33,
-        "isolation-legs": 2
+        "mobility": 35
        },
        "observedSections": 39
       }
@@ -16677,12 +16658,11 @@
        "itemsPerSection": 3,
        "patternDistribution": {
         "cardio": 21,
-        "horizontal-pull": 5,
+        "horizontal-pull": 6,
         "olympic": 3,
         "plyometric": 2,
         "isolation-arms": 2,
         "vertical-press": 1,
-        "lunge-single-leg": 1,
         "hinge": 1,
         "horizontal-press": 1,
         "carry": 1
@@ -16751,7 +16731,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 2
         },
         {
@@ -16889,7 +16869,7 @@
         {
          "exerciseId": "bulgarian-ring-row",
          "name": "Bulgarian Ring Row",
-         "pattern": "lunge-single-leg",
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -16940,8 +16920,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 35,
-        "isolation-legs": 4
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -16977,8 +16956,7 @@
        ],
        "itemsPerSection": 4,
        "patternDistribution": {
-        "mobility": 32,
-        "hinge": 4
+        "mobility": 36
        },
        "observedSections": 39
       }
@@ -17592,9 +17570,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 34,
-        "hinge": 3,
-        "isolation-legs": 2
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -17635,8 +17611,7 @@
        ],
        "itemsPerSection": 8,
        "patternDistribution": {
-        "mobility": 34,
-        "hinge": 5
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -17824,7 +17799,7 @@
         "lunge-single-leg": 6,
         "core": 4,
         "horizontal-pull": 3,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "hinge": 2
        },
        "exercisePool": [
@@ -17873,7 +17848,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -19148,13 +19123,13 @@
         "lunge-single-leg": 12,
         "hinge": 8,
         "vertical-pull": 5,
-        "isolation-arms": 4
+        "isolation-legs": 4
        },
        "exercisePool": [
         {
          "exerciseId": "nordic-hamstring-curl",
          "name": "Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 6
         },
         {
@@ -19466,7 +19441,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -19625,10 +19600,8 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 32,
-        "hinge": 3,
-        "isolation-legs": 2,
-        "isolation-arms": 1
+        "mobility": 37,
+        "hinge": 1
        },
        "observedSections": 39
       }
@@ -19684,9 +19657,8 @@
        "patternDistribution": {
         "cardio": 11,
         "olympic": 5,
-        "vertical-press": 3,
+        "vertical-press": 4,
         "horizontal-pull": 1,
-        "horizontal-press": 1,
         "lunge-single-leg": 1,
         "squat": 1
        },
@@ -19724,7 +19696,7 @@
         {
          "exerciseId": "strict-handstand-push-up",
          "name": "Strict Handstand Push Up",
-         "pattern": "horizontal-press",
+         "pattern": "vertical-press",
          "n": 2
         },
         {
@@ -20392,8 +20364,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 26,
-        "isolation-legs": 2
+        "mobility": 28
        },
        "observedSections": 28
       }
@@ -20450,9 +20421,8 @@
         "vertical-pull": 6,
         "cardio": 4,
         "vertical-press": 2,
-        "core": 1,
-        "horizontal-pull": 1,
-        "lunge-single-leg": 1
+        "horizontal-pull": 2,
+        "core": 1
        },
        "exercisePool": [
         {
@@ -20542,7 +20512,7 @@
         {
          "exerciseId": "bulgarian-ring-row",
          "name": "Bulgarian Ring Row",
-         "pattern": "lunge-single-leg",
+         "pattern": "horizontal-pull",
          "n": 1
         },
         {
@@ -20649,7 +20619,7 @@
         "horizontal-pull": 6,
         "isolation-shoulders": 4,
         "horizontal-press": 4,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "hinge": 3,
         "vertical-press": 1
        },
@@ -20681,7 +20651,7 @@
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -20949,8 +20919,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 18,
-        "hinge": 3
+        "mobility": 21
        },
        "observedSections": 21
       }
@@ -21134,7 +21103,7 @@
         "lunge-single-leg": 6,
         "vertical-press": 6,
         "core": 4,
-        "isolation-arms": 3,
+        "isolation-legs": 3,
         "hinge": 2
        },
        "exercisePool": [
@@ -21201,7 +21170,7 @@
         {
          "exerciseId": "slide-hamstring-curl",
          "name": "Slide Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -21373,15 +21342,14 @@
        "itemsPerSection": 4,
        "patternDistribution": {
         "cardio": 9,
+        "plyometric": 4,
         "carry": 3,
         "horizontal-press": 3,
-        "plyometric": 3,
         "hinge": 3,
         "olympic": 3,
         "vertical-press": 2,
         "core": 2,
-        "lunge-single-leg": 1,
-        "squat": 1
+        "lunge-single-leg": 1
        },
        "exercisePool": [
         {
@@ -21591,7 +21559,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -21636,8 +21604,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 36,
-        "hinge": 3
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -22114,7 +22081,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 2
         },
         {
@@ -22363,8 +22330,7 @@
        ],
        "itemsPerSection": 5,
        "patternDistribution": {
-        "mobility": 31,
-        "isolation-legs": 2,
+        "mobility": 33,
         "hinge": 2
        },
        "observedSections": 39
@@ -22513,15 +22479,16 @@
        "itemsPerSection": 2,
        "patternDistribution": {
         "lunge-single-leg": 14,
-        "isolation-arms": 12,
         "horizontal-press": 10,
+        "isolation-arms": 9,
+        "isolation-legs": 3,
         "vertical-press": 3
        },
        "exercisePool": [
         {
          "exerciseId": "assisted-nordic-hamstring-curl",
          "name": "Assisted Nordic Hamstring Curl",
-         "pattern": "isolation-arms",
+         "pattern": "isolation-legs",
          "n": 3
         },
         {
@@ -22771,9 +22738,9 @@
        "itemsPerSection": 3,
        "patternDistribution": {
         "cardio": 10,
-        "squat": 6,
-        "lunge-single-leg": 2,
-        "plyometric": 2
+        "squat": 4,
+        "plyometric": 4,
+        "lunge-single-leg": 2
        },
        "exercisePool": [
         {
@@ -22791,7 +22758,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 3
         },
         {
@@ -22977,7 +22944,7 @@
         {
          "exerciseId": "pike-strict-handstand-push-up",
          "name": "Pike Strict Handstand Push Up",
-         "pattern": "horizontal-press",
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -22995,7 +22962,7 @@
         {
          "exerciseId": "dumbbell-suitcase-squat-jump",
          "name": "Dumbbell Suitcase Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -23028,8 +22995,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 35,
-        "isolation-legs": 4
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -23581,7 +23547,7 @@
         {
          "exerciseId": "squat-jump",
          "name": "Squat Jump",
-         "pattern": "squat",
+         "pattern": "plyometric",
          "n": 1
         },
         {
@@ -23692,9 +23658,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "mobility": 28,
-        "hinge": 6,
-        "isolation-legs": 5
+        "mobility": 39
        },
        "observedSections": 39
       }
@@ -23734,8 +23698,7 @@
        ],
        "itemsPerSection": 8,
        "patternDistribution": {
-        "mobility": 32,
-        "hinge": 4
+        "mobility": 36
        },
        "observedSections": 39
       }

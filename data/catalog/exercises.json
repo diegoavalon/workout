@@ -27,7 +27,9 @@
    "id": "row",
    "name": "Row",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row"
@@ -38,7 +40,9 @@
    "id": "passive-hang",
    "name": "Passive Hang",
    "pattern": "mobility",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Passive Hang"
@@ -153,7 +157,9 @@
    "id": "back-squat",
    "name": "Back Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Back Squat"
@@ -187,7 +193,9 @@
    "id": "strict-bar-dip",
    "name": "Strict Bar Dip",
    "pattern": "horizontal-press",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Elevator Bar or Ring Dip",
@@ -236,7 +244,8 @@
    "name": "Supinated Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -253,7 +262,8 @@
    "name": "Pronated Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -269,7 +279,7 @@
   {
    "id": "wrist-extension-stretch",
    "name": "Wrist Extension Stretch",
-   "pattern": "isolation-arms",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -280,7 +290,7 @@
   {
    "id": "wrist-flexion-stretch",
    "name": "Wrist Flexion Stretch",
-   "pattern": "isolation-arms",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -291,7 +301,7 @@
   {
    "id": "bottom-of-squat-hold",
    "name": "Bottom Of Squat Hold",
-   "pattern": "squat",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -348,7 +358,9 @@
    "id": "romanian-deadlift",
    "name": "Romanian Deadlift",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Romanian Deadlift"
@@ -372,7 +384,9 @@
    "id": "supinated-passive-hang",
    "name": "Supinated Passive Hang",
    "pattern": "mobility",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Supinated Passive Hang"
@@ -489,7 +503,7 @@
   {
    "id": "dynamic-adductor-stretch",
    "name": "Dynamic Adductor Stretch",
-   "pattern": "isolation-legs",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -522,7 +536,7 @@
   {
    "id": "half-split-hip-hinge",
    "name": "Half Split Hip Hinge",
-   "pattern": "hinge",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -566,7 +580,7 @@
   {
    "id": "squat-hip-rotation",
    "name": "Squat Hip Rotation",
-   "pattern": "squat",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -596,7 +610,9 @@
    "id": "row-or-jog",
    "name": "Row Or Jog",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row or Jog"
@@ -618,7 +634,9 @@
    "id": "goblet-heel-sit",
    "name": "Goblet Heel Sit",
    "pattern": "mobility",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Heel Sits"
@@ -655,7 +673,9 @@
    "id": "conventional-deadlift",
    "name": "Conventional Deadlift",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Conventional Deadlift"
@@ -676,7 +696,7 @@
   {
    "id": "squat-thoracic-rotation",
    "name": "Squat Thoracic Rotation",
-   "pattern": "squat",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": true,
    "aliases": [
@@ -688,7 +708,9 @@
    "id": "front-squat",
    "name": "Front Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Front Squat"
@@ -818,7 +840,9 @@
    "id": "sumo-deadlift",
    "name": "Sumo Deadlift",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Sumo Deadlift"
@@ -894,7 +918,7 @@
   {
    "id": "assisted-nordic-hamstring-curl",
    "name": "Assisted Nordic Hamstring Curl",
-   "pattern": "isolation-arms",
+   "pattern": "isolation-legs",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -960,7 +984,9 @@
    "id": "snatch-grip-romanian-deadlift",
    "name": "Snatch Grip Romanian Deadlift",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Snatch Grip Romanian Deadlift"
@@ -1015,7 +1041,9 @@
    "id": "strict-press",
    "name": "Strict Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Strict Press"
@@ -1039,7 +1067,9 @@
    "id": "double-under",
    "name": "Double Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [
     "Double Unders",
@@ -1147,6 +1177,7 @@
    "name": "Close Grip Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -1207,7 +1238,9 @@
    "id": "goblet-cossack-squat",
    "name": "Goblet Cossack Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Cossack Squat"
@@ -1310,7 +1343,9 @@
    "id": "cyclist-back-squat",
    "name": "Cyclist Back Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Cyclist Back Squat"
@@ -1378,7 +1413,9 @@
    "id": "overhead-squat",
    "name": "Overhead Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Overhead Squat"
@@ -1503,7 +1540,9 @@
    "id": "front-squat-hold",
    "name": "Front Squat Hold",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Front Squat Hold"
@@ -1514,7 +1553,9 @@
    "id": "overhead-squat-hold",
    "name": "Overhead Squat Hold",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Overhead Squat Hold"
@@ -1602,7 +1643,9 @@
    "id": "cyclist-front-squat",
    "name": "Cyclist Front Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Cyclist Front Squat"
@@ -1613,7 +1656,9 @@
    "id": "goblet-squat",
    "name": "Goblet Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Squat",
@@ -1626,7 +1671,7 @@
   {
    "id": "quadruped-wrist-circle",
    "name": "Quadruped Wrist Circle",
-   "pattern": "isolation-arms",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -1770,7 +1815,7 @@
   {
    "id": "bulgarian-ring-row",
    "name": "Bulgarian Ring Row",
-   "pattern": "lunge-single-leg",
+   "pattern": "horizontal-pull",
    "equipment": [
     "rings"
    ],
@@ -1785,7 +1830,9 @@
    "id": "farmers-walk",
    "name": "Farmers Walk",
    "pattern": "carry",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Farmer's Walk",
@@ -1836,7 +1883,7 @@
   {
    "id": "middle-split-hip-hinge",
    "name": "Middle Split Hip Hinge",
-   "pattern": "hinge",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -2002,7 +2049,9 @@
    "id": "pendlay-row",
    "name": "Pendlay Row",
    "pattern": "horizontal-pull",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Pendlay Row"
@@ -2083,7 +2132,9 @@
    "id": "suitcase-rear-foot-elevated-split-squat",
    "name": "Suitcase Rear Foot Elevated Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Rear Foot Elevated Split Squat"
@@ -2190,6 +2241,7 @@
    "name": "Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -2255,7 +2307,7 @@
   {
    "id": "nordic-hamstring-curl",
    "name": "Nordic Hamstring Curl",
-   "pattern": "isolation-arms",
+   "pattern": "isolation-legs",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -2282,7 +2334,9 @@
    "id": "prone-behind-the-neck-press",
    "name": "Prone Behind The Neck Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Prone BTN Press",
@@ -2295,7 +2349,8 @@
    "name": "Run Bike Ski Or Row",
    "pattern": "cardio",
    "equipment": [
-    "bike"
+    "bike",
+    "ski-erg"
    ],
    "unilateral": false,
    "aliases": [
@@ -2363,7 +2418,8 @@
    "name": "Dumbbell Suitcase Walking Lunge",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -2442,6 +2498,7 @@
    "name": "Bodyweight Romanian Deadlift",
    "pattern": "hinge",
    "equipment": [
+    "barbell",
     "bodyweight"
    ],
    "unilateral": false,
@@ -2481,7 +2538,9 @@
    "id": "hammer-curl",
    "name": "Hammer Curl",
    "pattern": "isolation-arms",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hammer Curl",
@@ -2494,6 +2553,7 @@
    "name": "Incline Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -2506,7 +2566,9 @@
    "id": "poliquin-lateral-raise",
    "name": "Poliquin Lateral Raise",
    "pattern": "isolation-shoulders",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Poliquin Lateral Raise",
@@ -2569,7 +2631,9 @@
    "id": "b-stance-hip-thrust",
    "name": "B Stance Hip Thrust",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": true,
    "aliases": [
     "B Stance Hip Thrust",
@@ -2595,7 +2659,9 @@
    "id": "goblet-curtsy-squat",
    "name": "Goblet Curtsy Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Curtsy Squat"
@@ -2746,7 +2812,9 @@
    "id": "hanging-knee-tuck",
    "name": "Hanging Knee Tuck",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Hanging Knee Tuck",
@@ -2799,7 +2867,8 @@
    "name": "Supinated Pull Up Isometric",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -2891,7 +2960,9 @@
    "id": "crush-grip-rotational-deadlift",
    "name": "Crush Grip Rotational Deadlift",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Crush Grip Rotational Deadlift"
@@ -2902,7 +2973,9 @@
    "id": "deficit-deadlift",
    "name": "Deficit Deadlift",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Deficit Deadlift"
@@ -2965,7 +3038,9 @@
    "id": "goblet-good-morning",
    "name": "Goblet Good Morning",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Good Morning",
@@ -3015,7 +3090,9 @@
    "id": "row-calorie",
    "name": "Row Calorie",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row Calories"
@@ -3026,7 +3103,9 @@
    "id": "single-arm-suitcase-rear-foot-elevated-split-squat",
    "name": "Single Arm Suitcase Rear Foot Elevated Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Left Side Single Arm Suitcase Rear Foot Elevated Split Squat",
@@ -3053,7 +3132,9 @@
    "id": "weighted-hanging-knee-tuck",
    "name": "Weighted Hanging Knee Tuck",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Weighted Hanging Knee Tuck"
@@ -3180,7 +3261,9 @@
    "id": "seated-strict-press",
    "name": "Seated Strict Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Seated Strict Press"
@@ -3190,7 +3273,7 @@
   {
    "id": "wrist-circle",
    "name": "Wrist Circle",
-   "pattern": "isolation-arms",
+   "pattern": "mobility",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -3308,7 +3391,9 @@
    "id": "1-1-4-back-squat",
    "name": "1 1/4 Back Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "1 1/4 Back Squat"
@@ -3320,6 +3405,7 @@
    "name": "1 1/4 Close Grip Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -3332,7 +3418,9 @@
    "id": "1-1-4-cyclist-back-squat",
    "name": "1 1/4 Cyclist Back Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "1 1/4 Cyclist Back Squat"
@@ -3410,7 +3498,9 @@
    "id": "hand-supported-ipsilateral-suitcase-step-down",
    "name": "Hand Supported Ipsilateral Suitcase Step Down",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Hand Supported Ipsilateral Suitcase Step Down"
@@ -3435,7 +3525,9 @@
    "id": "split-stance-deadlift",
    "name": "Split Stance Deadlift",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Split Stance Deadlift"
@@ -3445,7 +3537,7 @@
   {
    "id": "squat-jump",
    "name": "Squat Jump",
-   "pattern": "squat",
+   "pattern": "plyometric",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -3458,7 +3550,9 @@
    "id": "stiff-leg-deadlift",
    "name": "Stiff Leg Deadlift",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Stiff Leg Deadlift"
@@ -3630,7 +3724,9 @@
    "id": "renegade-row",
    "name": "Renegade Row",
    "pattern": "horizontal-pull",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Renegade Row",
@@ -3668,7 +3764,9 @@
    "id": "suitcase-curtsy-squat",
    "name": "Suitcase Curtsy Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Curtsy Squat"
@@ -3811,7 +3909,8 @@
    "name": "Dumbbell Suitcase Cyclist Squat",
    "pattern": "squat",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": false,
    "aliases": [
@@ -3835,7 +3934,9 @@
    "id": "goblet-rear-foot-elevated-split-squat",
    "name": "Goblet Rear Foot Elevated Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Rear Foot Elevated Split Squat"
@@ -3846,7 +3947,9 @@
    "id": "goblet-wall-sit",
    "name": "Goblet Wall Sit",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Wall Sit",
@@ -3921,7 +4024,9 @@
    "id": "powell-raise",
    "name": "Powell Raise",
    "pattern": "isolation-shoulders",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Powell Raise"
@@ -3932,7 +4037,9 @@
    "id": "push-press",
    "name": "Push Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Push Press"
@@ -3994,6 +4101,7 @@
    "name": "Bodyweight Side Plank Powell Raise",
    "pattern": "core",
    "equipment": [
+    "dumbbell",
     "bodyweight"
    ],
    "unilateral": true,
@@ -4180,6 +4288,7 @@
    "name": "Clamshell Side Plank Hip Thrust",
    "pattern": "hinge",
    "equipment": [
+    "barbell",
     "bodyweight"
    ],
    "unilateral": true,
@@ -4251,7 +4360,8 @@
    "name": "Dumbbell Suitcase Russian Step Up",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -4264,7 +4374,9 @@
    "id": "farmers-press",
    "name": "Farmers Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Farmers Press"
@@ -4275,7 +4387,9 @@
    "id": "goblet-cyclist-squat",
    "name": "Goblet Cyclist Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Cyclist Squat"
@@ -4363,7 +4477,9 @@
    "id": "1-1-4-goblet-cyclist-squat",
    "name": "1 1/4 Goblet Cyclist Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "1 1/4 Goblet Cyclist Squat"
@@ -4439,7 +4555,9 @@
    "id": "hand-support-suitcase-calf-raise",
    "name": "Hand Support Suitcase Calf Raise",
    "pattern": "isolation-legs",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hand Support Suitcase Calf Raise"
@@ -4450,7 +4568,9 @@
    "id": "hand-support-suitcase-single-leg-calf-raise",
    "name": "Hand Support Suitcase Single Leg Calf Raise",
    "pattern": "isolation-legs",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Hand Support Suitcase Single Leg Calf Raise"
@@ -4461,7 +4581,9 @@
    "id": "hanging-oblique-raise",
    "name": "Hanging Oblique Raise",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": true,
    "aliases": [
     "Hanging Oblique Raises/side"
@@ -4499,7 +4621,9 @@
    "id": "power-snatch",
    "name": "Power Snatch",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Power Snatch",
@@ -4561,6 +4685,7 @@
    "name": "Side Plank Powell Raise",
    "pattern": "core",
    "equipment": [
+    "dumbbell",
     "bodyweight"
    ],
    "unilateral": true,
@@ -4586,7 +4711,9 @@
    "id": "single-arm-farmers-walk",
    "name": "Single Arm Farmers Walk",
    "pattern": "carry",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Single Arm Farmer's Walk",
@@ -4598,7 +4725,9 @@
    "id": "single-leg-hip-thrust",
    "name": "Single Leg Hip Thrust",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Single Leg Hip Thrust"
@@ -4954,7 +5083,9 @@
    "id": "seated-behind-the-neck-press",
    "name": "Seated Behind The Neck Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Seated Behind the Neck Press"
@@ -5023,7 +5154,9 @@
    "id": "theraband-hip-thrust",
    "name": "Theraband Hip Thrust",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Theraband Hip Thrust"
@@ -5034,7 +5167,9 @@
    "id": "toes-to-bar",
    "name": "Toes To Bar",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Toes to Bar",
@@ -5061,6 +5196,7 @@
    "name": "Wide Grip Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -5113,7 +5249,8 @@
    "name": "Dumbbell Suitcase Drop Lunge",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -5127,7 +5264,8 @@
    "name": "Dumbbell Suitcase Reverse Lunge",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -5154,7 +5292,9 @@
    "id": "goblet-tall-kneel-to-stand",
    "name": "Goblet Tall Kneel To Stand",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Tall Kneel to Stand",
@@ -5538,7 +5678,9 @@
    "id": "single-arm-passive-hang",
    "name": "Single Arm Passive Hang",
    "pattern": "mobility",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": true,
    "aliases": [
     "Single Arm Passive Hang L",
@@ -5588,7 +5730,9 @@
    "id": "suitcase-walking-lunge",
    "name": "Suitcase Walking Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Walking Lunge"
@@ -5695,7 +5839,9 @@
    "id": "goblet-carry",
    "name": "Goblet Carry",
    "pattern": "carry",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Carry",
@@ -5720,7 +5866,9 @@
    "id": "hanging-leg-raise",
    "name": "Hanging Leg Raise",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Hanging Leg Raise",
@@ -5733,6 +5881,7 @@
    "name": "Incline Bench Lateral Raise",
    "pattern": "isolation-shoulders",
    "equipment": [
+    "dumbbell",
     "bench"
    ],
    "unilateral": false,
@@ -5947,7 +6096,8 @@
    "name": "Dumbbell Suitcase Standing Calf Raise",
    "pattern": "isolation-legs",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": false,
    "aliases": [
@@ -6101,7 +6251,9 @@
    "id": "single-leg-hip-thrust-isometric",
    "name": "Single Leg Hip Thrust Isometric",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Single Leg Hip Thrust Isometric L",
@@ -6125,7 +6277,9 @@
    "id": "suitcase-short-step-walking-lunge",
    "name": "Suitcase Short Step Walking Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Short Step Walking Lunge"
@@ -6136,7 +6290,9 @@
    "id": "suitcase-single-leg-standing-calf-raise",
    "name": "Suitcase Single Leg Standing Calf Raise",
    "pattern": "isolation-legs",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Single Leg Standing Calf Raise"
@@ -6270,7 +6426,9 @@
    "id": "cross-body-hammer-curl",
    "name": "Cross Body Hammer Curl",
    "pattern": "isolation-arms",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Cross Body Hammer Curl"
@@ -6349,6 +6507,7 @@
    "name": "Incline Narrow Grip Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -6398,7 +6557,7 @@
   {
    "id": "pike-strict-handstand-push-up",
    "name": "Pike Strict Handstand Push Up",
-   "pattern": "horizontal-press",
+   "pattern": "vertical-press",
    "equipment": [
     "bodyweight"
    ],
@@ -6436,7 +6595,9 @@
    "id": "row-buy-in",
    "name": "Row Buy In",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row Buy In"
@@ -6476,7 +6637,9 @@
    "id": "suitcase-russian-step-up",
    "name": "Suitcase Russian Step Up",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Russian Step Up"
@@ -6537,7 +6700,9 @@
    "id": "1-1-4-hip-thrust",
    "name": "1 1/4 Hip Thrust",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "1 1/4 Hip Thrust"
@@ -6770,7 +6935,9 @@
    "id": "front-foot-elevated-kot-suitcase-split-squat",
    "name": "Front Foot Elevated Kot Suitcase Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Front Foot Elevated KOT Suitcase Split Squat"
@@ -6830,6 +6997,7 @@
    "name": "Kettlebell Farmers Carry",
    "pattern": "carry",
    "equipment": [
+    "dumbbell-or-kettlebell",
     "kettlebell"
    ],
    "unilateral": false,
@@ -6941,7 +7109,8 @@
    "name": "Single Arm Dumbbell Suitcase Drop Lunge",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -6953,7 +7122,9 @@
    "id": "single-arm-suitcase-reverse-lunge",
    "name": "Single Arm Suitcase Reverse Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Single Arm Suitcase Reverse Lunge"
@@ -7021,7 +7192,9 @@
    "id": "suitcase-half-squat-pulse",
    "name": "Suitcase Half Squat Pulse",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Suitcase Half Squat Pulses"
@@ -7032,7 +7205,9 @@
    "id": "suitcase-kot-split-squat",
    "name": "Suitcase Kot Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase KOT Split Squat"
@@ -7095,6 +7270,7 @@
    "name": "1 1/4 Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -7281,7 +7457,9 @@
    "id": "goblet-kickstand-squat",
    "name": "Goblet Kickstand Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Kickstand Squat"
@@ -7396,7 +7574,9 @@
    "id": "leg-behind-goblet-squat",
    "name": "Leg Behind Goblet Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Leg Behind Goblet Squat"
@@ -7448,7 +7628,8 @@
    "name": "Pronated Pull Up Isometric",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -7560,7 +7741,8 @@
    "name": "Wide Grip Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -7962,7 +8144,9 @@
    "id": "hand-supported-suitcase-calf-raise",
    "name": "Hand Supported Suitcase Calf Raise",
    "pattern": "isolation-legs",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hand Supported Suitcase Calf Raise or Machine Calf Raise"
@@ -7973,7 +8157,9 @@
    "id": "hip-thrust",
    "name": "Hip Thrust",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hip Thrust"
@@ -7995,7 +8181,9 @@
    "id": "horn-grip-goblet-carry",
    "name": "Horn Grip Goblet Carry",
    "pattern": "carry",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Horn Grip Goblet Carry"
@@ -8249,7 +8437,9 @@
    "id": "power-clean",
    "name": "Power Clean",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Power Clean"
@@ -8298,7 +8488,9 @@
    "id": "row-cal",
    "name": "Row Cal",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row Cals"
@@ -8408,7 +8600,8 @@
    "name": "Single Leg Dumbbell Suitcase Calf Raise",
    "pattern": "isolation-legs",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -8453,7 +8646,9 @@
    "id": "strict-muscle-up",
    "name": "Strict Muscle Up",
    "pattern": "vertical-pull",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Strict Muscle Up"
@@ -8465,7 +8660,8 @@
    "name": "Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -8576,7 +8772,9 @@
    "id": "1-1-4-goblet-squat",
    "name": "1 1/4 Goblet Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "1 1/4 Goblet Squat",
@@ -8871,7 +9069,8 @@
    "name": "Dumbbell Suitcase Squat",
    "pattern": "squat",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": false,
    "aliases": [
@@ -8910,7 +9109,9 @@
    "id": "front-foot-elevated-hand-support-suitcase-kot-split-squat",
    "name": "Front Foot Elevated Hand Support Suitcase Kot Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Front Foot Elevated Hand Support Suitcase KOT Split Squat"
@@ -8921,7 +9122,9 @@
    "id": "goblet-walking-lunge",
    "name": "Goblet Walking Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Walking Lunge (10/side) (53/35)",
@@ -8957,7 +9160,9 @@
    "id": "hang-power-clean",
    "name": "Hang Power Clean",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hang Power Clean",
@@ -9022,6 +9227,7 @@
    "name": "Kettlebell Farmers Carry Or",
    "pattern": "carry",
    "equipment": [
+    "dumbbell-or-kettlebell",
     "kettlebell"
    ],
    "unilateral": false,
@@ -9080,7 +9286,8 @@
    "name": "Neutral Grip Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -9154,7 +9361,8 @@
    "name": "Ring Muscle Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "rings"
+    "rings",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -9180,7 +9388,9 @@
    "id": "row-sprint",
    "name": "Row Sprint",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row SPRINT"
@@ -9338,7 +9548,9 @@
    "id": "alternating-suitcase-kot-forward-elevated-lunge",
    "name": "Alternating Suitcase Kot Forward Elevated Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Alternating Suitcase KOT Forward Elevated Lunge"
@@ -9349,7 +9561,9 @@
    "id": "arnold-z-press",
    "name": "Arnold Z Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Arnold Z Press L",
@@ -9374,7 +9588,9 @@
    "id": "bar-muscle-up",
    "name": "Bar Muscle Up",
    "pattern": "vertical-pull",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Bar Muscle Up"
@@ -9386,7 +9602,8 @@
    "name": "Bar Or Ring Muscle Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "rings"
+    "rings",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -9571,7 +9788,8 @@
    "name": "Dumbbell Suitcase Kot Split Squat",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -9611,7 +9829,9 @@
    "id": "farmers-carry",
    "name": "Farmers Carry",
    "pattern": "carry",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Farmer's Carry",
@@ -9687,7 +9907,9 @@
    "id": "hand-supported-suitcase-kot-split-squat",
    "name": "Hand Supported Suitcase Kot Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Hand Supported Suitcase KOT Split Squat"
@@ -9726,7 +9948,9 @@
    "id": "hang-power-snatch",
    "name": "Hang Power Snatch",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hang Power Snatch"
@@ -9788,6 +10012,7 @@
    "name": "Kettlebell Front Raise",
    "pattern": "isolation-shoulders",
    "equipment": [
+    "dumbbell",
     "kettlebell"
    ],
    "unilateral": false,
@@ -9802,6 +10027,7 @@
    "name": "Kettlebell Goblet Carry",
    "pattern": "carry",
    "equipment": [
+    "dumbbell-or-kettlebell",
     "kettlebell"
    ],
    "unilateral": false,
@@ -9917,7 +10143,9 @@
    "id": "left-leg-goblet-cossack-lunge",
    "name": "Left Leg Goblet Cossack Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Left Leg Goblet Cossack Lunge"
@@ -9968,7 +10196,8 @@
    "name": "Pronated Pull Up Negative",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -9992,7 +10221,9 @@
    "id": "right-leg-goblet-cossack-lunge",
    "name": "Right Leg Goblet Cossack Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Right Leg Goblet Cossack Lunge"
@@ -10066,6 +10297,7 @@
    "name": "Single Leg Bodyweight Hip Thrust",
    "pattern": "hinge",
    "equipment": [
+    "barbell",
     "bodyweight"
    ],
    "unilateral": true,
@@ -10126,7 +10358,9 @@
    "id": "suitcase-front-foot-elevated-kot-split-squat",
    "name": "Suitcase Front Foot Elevated Kot Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Front Foot Elevated KOT Split Squat"
@@ -10137,7 +10371,9 @@
    "id": "suitcase-knee-over-toe-split-squat",
    "name": "Suitcase Knee Over Toe Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Suitcase Knee Over Toe Split Squat"
@@ -10160,7 +10396,8 @@
    "name": "Weighted Or Bodyweight Hanging Knee Tuck",
    "pattern": "core",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -10198,7 +10435,9 @@
    "id": "1-1-4-cyclist-goblet-squat",
    "name": "1 1/4 Cyclist Goblet Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "1 1/4 Cyclist Goblet Squat"
@@ -10472,7 +10711,8 @@
    "name": "Burpee Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -10913,7 +11153,8 @@
    "name": "Dumbbell Suitcase Split Squat",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -10924,9 +11165,10 @@
   {
    "id": "dumbbell-suitcase-squat-jump",
    "name": "Dumbbell Suitcase Squat Jump",
-   "pattern": "squat",
+   "pattern": "plyometric",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": false,
    "aliases": [
@@ -11000,7 +11242,9 @@
    "id": "front-foot-elevated-hand-support-kot-suitcase-split-squat",
    "name": "Front Foot Elevated Hand Support Kot Suitcase Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Front Foot Elevated Hand Support KOT Suitcase Split Squat"
@@ -11010,7 +11254,7 @@
   {
    "id": "gliding-hamstring-curl",
    "name": "Gliding Hamstring Curl",
-   "pattern": "isolation-arms",
+   "pattern": "isolation-legs",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -11033,7 +11277,9 @@
    "id": "goblet-front-foot-elevated-split-squat",
    "name": "Goblet Front Foot Elevated Split Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Front Foot Elevated Split Squat"
@@ -11068,7 +11314,9 @@
    "id": "hang-clean",
    "name": "Hang Clean",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hang Clean"
@@ -11226,7 +11474,9 @@
    "id": "left-leg-goblet-kickstand-squat",
    "name": "Left Leg Goblet Kickstand Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Left Leg Goblet Kickstand Squat"
@@ -11382,7 +11632,9 @@
    "id": "right-leg-goblet-kickstand-squat",
    "name": "Right Leg Goblet Kickstand Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Right Leg Goblet Kickstand Squat"
@@ -11393,7 +11645,9 @@
    "id": "right-leg-goblet-step-up",
    "name": "Right Leg Goblet Step Up",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Right Leg Goblet Step Up"
@@ -11405,7 +11659,8 @@
    "name": "Ring Or Bar Dip Support",
    "pattern": "core",
    "equipment": [
-    "rings"
+    "rings",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -11428,7 +11683,9 @@
    "id": "row-max-meters-in-time-remaining",
    "name": "Row Max Meters In Time Remaining",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row Max Meters in Time Remaining"
@@ -11466,6 +11723,7 @@
    "name": "Sidelying Powell Raise On Bench",
    "pattern": "isolation-shoulders",
    "equipment": [
+    "dumbbell",
     "bench"
    ],
    "unilateral": false,
@@ -11622,7 +11880,7 @@
   {
    "id": "slide-hamstring-curl",
    "name": "Slide Hamstring Curl",
-   "pattern": "isolation-arms",
+   "pattern": "isolation-legs",
    "equipment": [],
    "unilateral": false,
    "aliases": [
@@ -11681,7 +11939,7 @@
   {
    "id": "strict-handstand-push-up",
    "name": "Strict Handstand Push Up",
-   "pattern": "horizontal-press",
+   "pattern": "vertical-press",
    "equipment": [
     "bodyweight"
    ],
@@ -11696,7 +11954,8 @@
    "name": "Strict Ring Muscle Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "rings"
+    "rings",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -11748,7 +12007,8 @@
    "name": "Supinated Pull Up Negative",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -11832,7 +12092,9 @@
    "id": "weighted-hanging-leg-tuck",
    "name": "Weighted Hanging Leg Tuck",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Weighted Hanging Leg Tuck"
@@ -11844,7 +12106,8 @@
    "name": "Wide Grip Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -11882,7 +12145,9 @@
    "id": "alternating-cross-body-hammer-curl",
    "name": "Alternating Cross Body Hammer Curl",
    "pattern": "isolation-arms",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Alternating Cross Body Hammer Curl"
@@ -12197,7 +12462,8 @@
    "name": "Chest To Bar Kipping Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -12209,7 +12475,9 @@
    "id": "crush-grip-hammer-curl",
    "name": "Crush Grip Hammer Curl",
    "pattern": "isolation-arms",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Crush Grip Hammer Curls"
@@ -12220,7 +12488,9 @@
    "id": "cyclist-goblet-squat",
    "name": "Cyclist Goblet Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Cyclist Goblet Squat"
@@ -12411,7 +12681,8 @@
    "name": "Dumbbell Farmers Carry",
    "pattern": "carry",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": false,
    "aliases": [
@@ -12452,7 +12723,8 @@
    "name": "Dumbbell Goblet Cossack Squat",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -12584,7 +12856,8 @@
    "name": "Dumbbell Suitcase Rear Foot Elevated Split Squat",
    "pattern": "lunge-single-leg",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -12661,6 +12934,7 @@
    "name": "Goblet Lateral Box Step Up",
    "pattern": "lunge-single-leg",
    "equipment": [
+    "dumbbell-or-kettlebell",
     "box"
    ],
    "unilateral": true,
@@ -12673,7 +12947,9 @@
    "id": "goblet-pulse-squat",
    "name": "Goblet Pulse Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Pulse Squat"
@@ -12684,7 +12960,9 @@
    "id": "goblet-reverse-lunge",
    "name": "Goblet Reverse Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Reverse Lunge"
@@ -12774,7 +13052,9 @@
    "id": "hammer-curl-drop-set",
    "name": "Hammer Curl Drop Set",
    "pattern": "isolation-arms",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hammer Curl Drop Sets"
@@ -12801,6 +13081,7 @@
    "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell",
+    "dumbbell-or-kettlebell",
     "box"
    ],
    "unilateral": true,
@@ -12824,7 +13105,9 @@
    "id": "hip-thrust-march",
    "name": "Hip Thrust March",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Hip Thrust March"
@@ -12977,7 +13260,7 @@
   {
    "id": "kipping-handstand-push-up",
    "name": "Kipping Handstand Push Up",
-   "pattern": "horizontal-press",
+   "pattern": "vertical-press",
    "equipment": [
     "bodyweight"
    ],
@@ -12992,7 +13275,8 @@
    "name": "Kipping Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -13113,6 +13397,7 @@
    "name": "Narrow Grip Bench Press",
    "pattern": "horizontal-press",
    "equipment": [
+    "barbell",
     "bench"
    ],
    "unilateral": false,
@@ -13273,7 +13558,9 @@
    "id": "row-as-many-calories-as-possible",
    "name": "Row As Many Calories As Possible",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "rower"
+   ],
    "unilateral": false,
    "aliases": [
     "Row as many Calories as Possible"
@@ -13285,6 +13572,7 @@
    "name": "Russian Kettlebell To Goblet Squat",
    "pattern": "squat",
    "equipment": [
+    "dumbbell-or-kettlebell",
     "kettlebell"
    ],
    "unilateral": false,
@@ -13297,7 +13585,9 @@
    "id": "russian-swing-to-goblet-squat",
    "name": "Russian Swing To Goblet Squat",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Russian Swing to Goblet Squat"
@@ -13407,7 +13697,9 @@
    "id": "single-arm-arnold-z-press",
    "name": "Single Arm Arnold Z Press",
    "pattern": "vertical-press",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": true,
    "aliases": [
     "Single Arm Arnold Z Press"
@@ -13524,6 +13816,7 @@
    "name": "Straddle Weight Plate Front Raise",
    "pattern": "isolation-shoulders",
    "equipment": [
+    "dumbbell",
     "plate"
    ],
    "unilateral": false,
@@ -13536,7 +13829,9 @@
    "id": "suitcase-standing-calf-raise",
    "name": "Suitcase Standing Calf Raise",
    "pattern": "isolation-legs",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Suitcase Standing Calf Raise"
@@ -13548,7 +13843,8 @@
    "name": "Supinated Chest To Bar Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -13740,6 +14036,7 @@
    "name": "Alternating Kettlebell Goblet Forward Lunge",
    "pattern": "lunge-single-leg",
    "equipment": [
+    "dumbbell-or-kettlebell",
     "kettlebell"
    ],
    "unilateral": true,
@@ -13818,7 +14115,9 @@
    "id": "back-squat-progression",
    "name": "Back Squat Progression",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Back Squat Progression"
@@ -13901,7 +14200,9 @@
    "id": "burpee-bar-muscle-up",
    "name": "Burpee Bar Muscle Up",
    "pattern": "vertical-pull",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Burpee Bar Muscle Up"
@@ -13974,7 +14275,8 @@
    "name": "Burpee Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -14045,7 +14347,9 @@
    "id": "deficit-deadlift-progression",
    "name": "Deficit Deadlift Progression",
    "pattern": "hinge",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Deficit Deadlift Progression"
@@ -14056,7 +14360,9 @@
    "id": "deficit-goblet-cossack-squat",
    "name": "Deficit Goblet Cossack Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Deficit Goblet Cossack Squat"
@@ -14332,7 +14638,8 @@
    "name": "Dumbbell Goblet Squat",
    "pattern": "squat",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": false,
    "aliases": [
@@ -14438,7 +14745,8 @@
    "name": "Dumbbell Suitcase Jump Lunge",
    "pattern": "plyometric",
    "equipment": [
-    "dumbbell"
+    "dumbbell",
+    "dumbbell-or-kettlebell"
    ],
    "unilateral": true,
    "aliases": [
@@ -14489,7 +14797,9 @@
    "id": "feet-farmers-carry-or",
    "name": "Feet Farmers Carry Or",
    "pattern": "carry",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Feet Farmers Carry or"
@@ -14500,7 +14810,9 @@
    "id": "feet-goblet-carry",
    "name": "Feet Goblet Carry",
    "pattern": "carry",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Feet Goblet Carry"
@@ -14511,7 +14823,9 @@
    "id": "front-raise",
    "name": "Front Raise",
    "pattern": "isolation-shoulders",
-   "equipment": [],
+   "equipment": [
+    "dumbbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Front Raise"
@@ -14533,7 +14847,9 @@
    "id": "goblet-lateral-lunge",
    "name": "Goblet Lateral Lunge",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Lateral Lunge"
@@ -14544,7 +14860,9 @@
    "id": "goblet-pistol-squat-negative",
    "name": "Goblet Pistol Squat Negative",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Goblet Pistol Squat Negative"
@@ -14554,8 +14872,10 @@
   {
    "id": "goblet-squat-jump",
    "name": "Goblet Squat Jump",
-   "pattern": "squat",
-   "equipment": [],
+   "pattern": "plyometric",
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Squat Jump"
@@ -14566,7 +14886,9 @@
    "id": "goblet-squat-progression",
    "name": "Goblet Squat Progression",
    "pattern": "squat",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": false,
    "aliases": [
     "Goblet Squat Progression"
@@ -14623,7 +14945,9 @@
    "id": "hanging-knee-raise",
    "name": "Hanging Knee Raise",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Hanging Knee Raise"
@@ -14634,7 +14958,9 @@
    "id": "hanging-leg-raise-hanging-knee-tuck",
    "name": "Hanging Leg Raise Hanging Knee Tuck",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Hanging Leg Raise Hanging Knee Tucks"
@@ -14848,7 +15174,8 @@
    "name": "Kipping Chest To Bar Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -14906,7 +15233,9 @@
    "id": "left-leg-goblet-cossack-squat",
    "name": "Left Leg Goblet Cossack Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Left Leg Goblet Cossack Squat"
@@ -14917,7 +15246,9 @@
    "id": "leg-behind-goblet-pistol",
    "name": "Leg Behind Goblet Pistol",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Leg Behind Goblet Pistol"
@@ -14939,7 +15270,9 @@
    "id": "low-hang-clean",
    "name": "Low Hang Clean",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Low Hang Clean"
@@ -14950,7 +15283,9 @@
    "id": "low-hang-power-clean",
    "name": "Low Hang Power Clean",
    "pattern": "olympic",
-   "equipment": [],
+   "equipment": [
+    "barbell"
+   ],
    "unilateral": false,
    "aliases": [
     "Low Hang Power Clean"
@@ -14986,7 +15321,9 @@
    "id": "low-switch-goblet-cossack-squat",
    "name": "Low Switch Goblet Cossack Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Low Switch Goblet Cossack Squat"
@@ -14998,7 +15335,8 @@
    "name": "Mixed Grip Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -15035,7 +15373,8 @@
    "name": "Narrow Grip Strict Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -15121,7 +15460,8 @@
    "name": "Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -15243,7 +15583,9 @@
    "id": "right-leg-goblet-cossack-squat",
    "name": "Right Leg Goblet Cossack Squat",
    "pattern": "lunge-single-leg",
-   "equipment": [],
+   "equipment": [
+    "dumbbell-or-kettlebell"
+   ],
    "unilateral": true,
    "aliases": [
     "Right Leg Goblet Cossack Squat"
@@ -15356,6 +15698,7 @@
    "name": "Single Arm Kettlebell Farmers Walk",
    "pattern": "carry",
    "equipment": [
+    "dumbbell-or-kettlebell",
     "kettlebell"
    ],
    "unilateral": true,
@@ -15416,7 +15759,9 @@
    "id": "single-leg-hanging-l-sit",
    "name": "Single Leg Hanging L Sit",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": true,
    "aliases": [
     "Single Leg Hanging L Sit"
@@ -15478,7 +15823,9 @@
    "id": "strict-bar-dip-progression",
    "name": "Strict Bar Dip Progression",
    "pattern": "horizontal-press",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Strict Bar Dip Progression"
@@ -15490,7 +15837,8 @@
    "name": "Strict Bar Dip/Push Up",
    "pattern": "horizontal-press",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -15541,7 +15889,8 @@
    "pattern": "vertical-pull",
    "equipment": [
     "rings",
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [
@@ -15553,7 +15902,9 @@
    "id": "strict-toes-to-bar",
    "name": "Strict Toes To Bar",
    "pattern": "core",
-   "equipment": [],
+   "equipment": [
+    "pull-up-bar"
+   ],
    "unilateral": false,
    "aliases": [
     "Strict Toes to Bar"
@@ -15633,7 +15984,9 @@
    "id": "140-single-under",
    "name": "140 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15662,7 +16015,9 @@
    "id": "40-50-single-under",
    "name": "40 50 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15671,7 +16026,9 @@
    "id": "40-single-under",
    "name": "40 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15698,7 +16055,9 @@
    "id": "48-single-under",
    "name": "48 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15707,7 +16066,9 @@
    "id": "50-single-under",
    "name": "50 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15725,7 +16086,9 @@
    "id": "60-75-single-under",
    "name": "60 75 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15734,7 +16097,9 @@
    "id": "60-single-under",
    "name": "60 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15743,7 +16108,9 @@
    "id": "75-single-under",
    "name": "75 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15752,7 +16119,9 @@
    "id": "80-single-under",
    "name": "80 Single Under",
    "pattern": "cardio",
-   "equipment": [],
+   "equipment": [
+    "jump-rope"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -15815,7 +16184,7 @@
   {
    "id": "bc-gliding-hamstring-curl",
    "name": "Bc Gliding Hamstring Curl",
-   "pattern": "isolation-arms",
+   "pattern": "isolation-legs",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15837,6 +16206,7 @@
    "name": "Cable Lean Away Lateral Raise",
    "pattern": "isolation-shoulders",
    "equipment": [
+    "dumbbell",
     "cable"
    ],
    "unilateral": false,
@@ -15941,7 +16311,7 @@
   {
    "id": "physioball-hamstring-curl",
    "name": "Physioball Hamstring Curl",
-   "pattern": "isolation-arms",
+   "pattern": "isolation-legs",
    "equipment": [],
    "unilateral": false,
    "aliases": [],
@@ -15970,7 +16340,8 @@
    "name": "Pronated Pull Up",
    "pattern": "vertical-pull",
    "equipment": [
-    "bodyweight"
+    "bodyweight",
+    "pull-up-bar"
    ],
    "unilateral": false,
    "aliases": [],
@@ -15979,7 +16350,7 @@
   {
    "id": "prone-hamstring-curl-machine",
    "name": "Prone Hamstring Curl Machine",
-   "pattern": "isolation-arms",
+   "pattern": "isolation-legs",
    "equipment": [
     "machine"
    ],

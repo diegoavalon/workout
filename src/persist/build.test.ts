@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { buildDataset } from "./build.ts";
 import { buildCatalog } from "./catalog.ts";
-import { classifyFormat, classifyRole, guessPattern } from "./classify.ts";
+import { classifyFormat, classifyRole, guessEquipment, guessPattern } from "./classify.ts";
 import { contentHash } from "./hash.ts";
 import { normalizeName } from "./normalize.ts";
 import type { Day, Section, WeekFile } from "./schema.ts";
@@ -47,6 +47,13 @@ describe("classification", () => {
     expect(guessPattern("side plank powell raise").pattern).toBe("core");
     expect(guessPattern("lateral banded walk").pattern).toBe("isolation-legs");
     expect(guessPattern("devils press").pattern).toBe("olympic");
+    expect(guessPattern("wrist extension stretch").pattern).toBe("mobility");
+    expect(guessPattern("dynamic adductor stretch").pattern).toBe("mobility");
+    expect(guessPattern("assisted nordic hamstring curl").pattern).toBe("isolation-legs");
+    expect(guessPattern("squat thoracic rotation").pattern).toBe("mobility");
+    expect(guessPattern("bulgarian ring row").pattern).toBe("horizontal-pull");
+    expect(guessPattern("pike strict handstand push up").pattern).toBe("vertical-press");
+    expect(guessPattern("squat jump").pattern).toBe("plyometric");
     expect(guessPattern("something unheard of")).toMatchObject({ pattern: null, suggested: null });
   });
 
@@ -68,6 +75,16 @@ describe("classification", () => {
     expect(f("For Time")).toBe("for-time");
     expect(f("20-15-10-5")).toBe("ladder");
     expect(f("Just some movements")).toBeNull();
+  });
+});
+
+describe("guessEquipment", () => {
+  it("assumes a barbell for barbell lifts unless another implement is named", () => {
+    expect(guessEquipment("back squat")).toEqual(["barbell"]);
+    expect(guessEquipment("dumbbell romanian deadlift")).toEqual(["dumbbell"]);
+    expect(guessEquipment("kettlebell swing")).toEqual(["kettlebell"]);
+    expect(guessEquipment("supinated strict pull up")).toContain("pull-up-bar");
+    expect(guessEquipment("pancake stretch")).toEqual([]);
   });
 });
 
