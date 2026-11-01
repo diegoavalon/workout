@@ -1,0 +1,1570 @@
+block,week,track,day,role,exercise,workingSets,reps,rpe,tempo,shape,firstReps,warmups,rest
+1,3,minimalist,1,strength-intensity-1,Dumbbell Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,minimalist,2,strength-intensity-1,Dual Dumbbell Sumo Squat,3,10/10/10,7/8/9,20X1,flat,10,1,120-180s
+1,3,minimalist,4,strength-intensity-1,Dumbbell Z Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,perform,1,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,perform,2,strength-intensity-1,Close Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,22X1,max-ending,8,1,120-120s
+1,3,perform,3,strength-intensity-1,Back Squat,3,9/9/9,7/8/9,20X1,flat,9,1,180-180s
+1,3,perform,5,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,perform,6,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,3,pump-condition-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,22X1,max-ending,8,1,120-120s
+1,3,pump-condition-3x,3,strength-intensity-1,Back Squat,3,9/9/9,7/8/9,20X1,flat,9,1,180-180s
+1,3,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,pump-condition-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,22X1,max-ending,8,1,120-120s
+1,3,pump-condition-4x,2,strength-intensity-1,Back Squat,3,9/9/9,7/8/9,20X1,flat,9,1,180-180s
+1,3,pump-condition-4x,4,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,pump-condition-4x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,pump-condition-5x,1,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,pump-condition-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,22X1,max-ending,8,1,120-120s
+1,3,pump-condition-5x,3,strength-intensity-1,Back Squat,3,9/9/9,7/8/9,20X1,flat,9,1,180-180s
+1,3,pump-condition-5x,5,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,pump-condition-5x,6,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,3,pump-lift-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,22X1,max-ending,8,1,120-120s
+1,3,pump-lift-3x,1,strength-intensity-2,Wide Grip Strict Pull Up,3,10/10/max,9/9/9,30X0,max-ending,10,1,120-120s
+1,3,pump-lift-3x,3,strength-intensity-1,Back Squat,3,8/8/8,7/8/9,20X1,flat,8,1,180-180s
+1,3,pump-lift-3x,3,strength-intensity-2,Incline Prone Dumbbell Row,3,10/10/10,7/8/9,20X1,flat,10,1,120-120s
+1,3,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,pump-lift-3x,5,strength-intensity-2,Barbell Z Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,pump-lift-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,22X1,max-ending,8,1,120-120s
+1,3,pump-lift-4x,1,strength-intensity-2,Incline Prone Dumbbell Row,3,10/10/10,7/8/9,20X1,flat,10,1,120-120s
+1,3,pump-lift-4x,2,strength-intensity-1,Back Squat,3,8/8/8,7/8/9,20X1,flat,8,1,180-180s
+1,3,pump-lift-4x,2,strength-intensity-2,Suitcase Knee Over Toe Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,60-60s
+1,3,pump-lift-4x,4,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,pump-lift-4x,4,strength-intensity-2,Wide Grip Strict Pull Up,3,10/10/max,9/9/9,30X0,max-ending,10,1,120-120s
+1,3,pump-lift-4x,5,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,3,pump-lift-4x,5,strength-intensity-2,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,pump-lift-5x,1,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,3,pump-lift-5x,1,strength-intensity-2,Incline Prone Dumbbell Row,3,10/10/10,7/8/9,20X1,flat,10,1,120-120s
+1,3,pump-lift-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,22X1,max-ending,8,1,120-120s
+1,3,pump-lift-5x,2,strength-intensity-2,Back Support Dumbbell Arnold Press,3,12/10/8,7/8/9,20X1,ramp-down,12,1,180-180s
+1,3,pump-lift-5x,3,strength-intensity-1,Back Squat,3,9/9/9,7/8/9,20X1,flat,9,1,180-180s
+1,3,pump-lift-5x,3,strength-intensity-2,Suitcase Knee Over Toe Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,60-60s
+1,3,pump-lift-5x,5,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,3,pump-lift-5x,5,strength-intensity-2,Wide Grip Strict Pull Up,3,10/10/max,9/9/9,30X0,max-ending,10,1,120-120s
+1,3,pump-lift-5x,6,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,3,pump-lift-5x,6,strength-intensity-2,Hand Supported Dumbbell Suitcase Box Step Up,3,8/8/8,7/8/9,20X1,flat,8,1,60-60s
+1,4,minimalist,1,strength-intensity-1,Supinated Grip Dumbbell Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,minimalist,2,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,120-180s
+1,4,minimalist,4,strength-intensity-1,Incline Dumbbell Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,4,perform,1,strength-intensity-1,Conventional Deadlift,3,6/6/6,7/8/9,21X1,flat,6,2,180-180s
+1,4,perform,2,strength-intensity-1,Wide Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,30X1,max-ending,8,1,120-120s
+1,4,perform,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,4,perform,5,strength-intensity-1,Incline Dumbbell Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,perform,6,strength-intensity-1,Frankenstein Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,1,180-180s
+1,4,pump-condition-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,30X1,max-ending,8,1,120-120s
+1,4,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,4,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,6/6/6,7/8/9,21X1,flat,6,2,180-180s
+1,4,pump-condition-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,30X1,max-ending,8,1,120-120s
+1,4,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,4,pump-condition-4x,4,strength-intensity-1,Incline Dumbbell Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,3,6/6/6,7/8/9,21X1,flat,6,2,180-180s
+1,4,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,3,6/6/6,7/8/9,21X1,flat,6,2,180-180s
+1,4,pump-condition-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,30X1,max-ending,8,1,120-120s
+1,4,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,4,pump-condition-5x,5,strength-intensity-1,Incline Dumbbell Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,pump-condition-5x,6,strength-intensity-1,Frankenstein Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,1,180-180s
+1,4,pump-lift-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,30X1,max-ending,8,1,120-120s
+1,4,pump-lift-3x,1,strength-intensity-2,Supinated Strict Pull Up,3,10/10/max,9/9/9,30X0,max-ending,10,1,120-120s
+1,4,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,4,pump-lift-3x,3,strength-intensity-2,Supinated Bent Over Row,3,10/10/10,7/8/9,20X1,flat,10,1,120-120s
+1,4,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,6/6/6,7/8/9,21X1,flat,6,2,180-180s
+1,4,pump-lift-3x,5,strength-intensity-2,Incline Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,pump-lift-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,30X1,max-ending,8,1,120-120s
+1,4,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,3,10/10/10,7/8/9,20X1,flat,10,1,120-120s
+1,4,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,4,pump-lift-4x,2,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,2,8/max,8/9,20X1,ramp-then-max,8,1,60-60s
+1,4,pump-lift-4x,4,strength-intensity-1,Incline Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,3,10/10/max,9/9/9,30X0,max-ending,10,1,120-120s
+1,4,pump-lift-4x,5,strength-intensity-1,Frankenstein Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,1,180-180s
+1,4,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,3,6/6/6,7/8/9,21X1,flat,6,2,180-180s
+1,4,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,3,6/6/6,7/8/9,21X1,flat,6,2,180-180s
+1,4,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,3,10/10/10,7/8/9,20X1,flat,10,1,120-120s
+1,4,pump-lift-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,4,8/8/8/max,7/8/9/-,30X1,max-ending,8,1,120-120s
+1,4,pump-lift-5x,2,strength-intensity-2,Half Kneeling Single Arm Dumbbell Strict Press,3,10/8/6,7/8/9,20X1,ramp-down,10,1,60-60s
+1,4,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,4,pump-lift-5x,3,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,2,8/max,8/9,20X1,ramp-then-max,8,1,60-60s
+1,4,pump-lift-5x,5,strength-intensity-1,Incline Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+1,4,pump-lift-5x,5,strength-intensity-2,Supinated Strict Pull Up,3,10/10/max,9/9/9,30X0,max-ending,10,1,120-120s
+1,4,pump-lift-5x,6,strength-intensity-1,Frankenstein Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,1,180-180s
+1,4,pump-lift-5x,6,strength-intensity-2,Goblet Lateral Box Step Up,3,8/8/8,7/8/9,20X1,flat,8,1,60-60s
+1,5,minimalist,1,strength-intensity-1,Dumbbell Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,minimalist,2,strength-intensity-1,Dual Dumbbell Sumo Squat,3,6/6/6,7/8/9,20X1,flat,6,1,120-180s
+1,5,minimalist,4,strength-intensity-1,Dumbbell Z Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,perform,1,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,perform,2,strength-intensity-1,Close Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,22X1,max-ending,10,1,120-120s
+1,5,perform,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,perform,5,strength-intensity-1,Barbell Z Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,perform,6,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-condition-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,22X1,max-ending,10,1,120-120s
+1,5,pump-condition-3x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,pump-condition-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,22X1,max-ending,10,1,120-120s
+1,5,pump-condition-4x,2,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-condition-4x,4,strength-intensity-1,Barbell Z Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,pump-condition-4x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,pump-condition-5x,1,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,pump-condition-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,22X1,max-ending,10,1,120-120s
+1,5,pump-condition-5x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-condition-5x,5,strength-intensity-1,Barbell Z Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,pump-condition-5x,6,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-lift-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,22X1,max-ending,10,1,120-120s
+1,5,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,3,12/12/max,9/9/9,20X0,max-ending,12,1,120-120s
+1,5,pump-lift-3x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-lift-3x,3,strength-intensity-2,Incline Prone Dumbbell Row,3,12/12/12,7/8/9,20X1,flat,12,1,120-120s
+1,5,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,pump-lift-3x,5,strength-intensity-2,Barbell Z Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,pump-lift-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,22X1,max-ending,10,1,120-120s
+1,5,pump-lift-4x,1,strength-intensity-2,Incline Prone Dumbbell Row,3,12/12/12,7/8/9,20X1,flat,12,1,120-120s
+1,5,pump-lift-4x,2,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-lift-4x,2,strength-intensity-2,Suitcase Knee Over Toe Split Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,1,60-60s
+1,5,pump-lift-4x,4,strength-intensity-1,Barbell Z Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,3,12/12/max,9/9/9,20X0,max-ending,12,1,120-120s
+1,5,pump-lift-4x,5,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-lift-4x,5,strength-intensity-2,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,pump-lift-5x,1,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X1,flat,10,1,180-180s
+1,5,pump-lift-5x,1,strength-intensity-2,Incline Prone Dumbbell Row,3,12/12/12,7/8/9,20X1,flat,12,1,120-120s
+1,5,pump-lift-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,22X1,max-ending,10,1,120-120s
+1,5,pump-lift-5x,2,strength-intensity-2,Back Support Dumbbell Arnold Press,3,12/10/8,7/8/9,20X1,ramp-down,12,1,180-180s
+1,5,pump-lift-5x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-lift-5x,3,strength-intensity-2,Suitcase Knee Over Toe Split Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,1,60-60s
+1,5,pump-lift-5x,5,strength-intensity-1,Barbell Z Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,5,pump-lift-5x,5,strength-intensity-2,Pronated Strict Pull Up,3,12/12/max,9/9/9,20X0,max-ending,12,1,120-120s
+1,5,pump-lift-5x,6,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,180-180s
+1,5,pump-lift-5x,6,strength-intensity-2,Hand Supported Dumbbell Suitcase Box Step Up,3,10/10/10,7/8/9,20X1,flat,10,1,60-60s
+1,6,minimalist,1,strength-intensity-1,Supinated Grip Dumbbell Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,minimalist,2,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,120-180s
+1,6,minimalist,4,strength-intensity-1,Incline Dumbbell Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,3,12/12/12,7/8/9,20X1,flat,12,1,180-180s
+1,6,perform,1,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,21X1,flat,4,2,180-180s
+1,6,perform,2,strength-intensity-1,Wide Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,30X1,max-ending,10,1,120-120s
+1,6,perform,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,6,perform,5,strength-intensity-1,Incline Dumbbell Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,perform,6,strength-intensity-1,Frankenstein Squat,3,7/5/3,7/8/9,20X1,ramp-down,7,1,180-180s
+1,6,pump-condition-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,30X1,max-ending,10,1,120-120s
+1,6,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,6,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,21X1,flat,4,2,180-180s
+1,6,pump-condition-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,30X1,max-ending,10,1,120-120s
+1,6,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,6,pump-condition-4x,4,strength-intensity-1,Incline Dumbbell Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,21X1,flat,4,2,180-180s
+1,6,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,21X1,flat,4,2,180-180s
+1,6,pump-condition-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,30X1,max-ending,10,1,120-120s
+1,6,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,6,pump-condition-5x,5,strength-intensity-1,Incline Dumbbell Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,pump-condition-5x,6,strength-intensity-1,Frankenstein Squat,3,7/5/3,7/8/9,20X1,ramp-down,7,1,180-180s
+1,6,pump-lift-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,30X1,max-ending,10,1,120-120s
+1,6,pump-lift-3x,1,strength-intensity-2,Wide Grip Strict Pull Up,3,12/12/max,9/9/9,20X0,max-ending,12,1,120-120s
+1,6,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,6,pump-lift-3x,3,strength-intensity-2,Supinated Bent Over Row,3,12/12/12,7/8/9,20X1,flat,12,1,120-120s
+1,6,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,21X1,flat,4,2,180-180s
+1,6,pump-lift-3x,5,strength-intensity-2,Incline Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,pump-lift-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,30X1,max-ending,10,1,120-120s
+1,6,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,3,12/12/12,7/8/9,20X1,flat,12,1,120-120s
+1,6,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,6,pump-lift-4x,2,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,2,6/max,8/9,20X1,ramp-then-max,6,1,60-60s
+1,6,pump-lift-4x,4,strength-intensity-1,Incline Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,pump-lift-4x,4,strength-intensity-2,Wide Grip Strict Pull Up,3,12/12/max,9/9/9,20X0,max-ending,12,1,120-120s
+1,6,pump-lift-4x,5,strength-intensity-1,Frankenstein Squat,3,7/5/3,7/8/9,20X1,ramp-down,7,1,180-180s
+1,6,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,3,4/4/4,7/8/9,21X1,flat,4,2,180-180s
+1,6,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,21X1,flat,4,2,180-180s
+1,6,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,3,12/12/12,7/8/9,20X1,flat,12,1,120-120s
+1,6,pump-lift-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,4,10/10/10/max,7/8/9/-,30X1,max-ending,10,1,120-120s
+1,6,pump-lift-5x,2,strength-intensity-2,Half Kneeling Single Arm Dumbbell Strict Press,3,10/8/6,7/8/9,20X1,ramp-down,10,1,60-60s
+1,6,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,3,10/10/max,7/8/9,20X1,max-ending,10,1,180-180s
+1,6,pump-lift-5x,3,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,2,6/max,8/9,20X1,ramp-then-max,6,1,60-60s
+1,6,pump-lift-5x,5,strength-intensity-1,Incline Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+1,6,pump-lift-5x,5,strength-intensity-2,Wide Grip Strict Pull Up,3,12/12/max,9/9/9,20X0,max-ending,12,1,120-120s
+1,6,pump-lift-5x,6,strength-intensity-1,Frankenstein Squat,3,7/5/3,7/8/9,20X1,ramp-down,7,1,180-180s
+1,6,pump-lift-5x,6,strength-intensity-2,Goblet Lateral Box Step Up,3,10/10/10,7/8/9,20X1,flat,10,1,60-60s
+2,1,minimalist,1,strength-intensity-1,Half Kneeling Dumbbell Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,1,minimalist,2,strength-intensity-1,Dumbbell Sumo Deadlift,3,10/10/10,7/8/9,21X1,flat,10,1,120-180s
+2,1,minimalist,4,strength-intensity-1,Dumbbell Narrow Grip Bench Press,4,8/8/8/max,7/8/9/-,20X1,max-ending,8,1,120-120s
+2,1,minimalist,5,strength-intensity-1,Dumbbell Front Squat,3,8/8/8,7/8/9,22X1,flat,8,1,120-180s
+2,1,perform,1,strength-intensity-1,Sumo Deadlift,1,5,6,21X1,flat,5,3,75-90s
+2,1,perform,2,strength-intensity-1,Half Kneeling Landmine Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,1,perform,3,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,22X1,flat,5,2,120-180s
+2,1,perform,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,6/6/6/max,7/8/9/-,20X1,max-ending,6,1,120-120s
+2,1,pump-condition-3x,1,strength-intensity-1,Sumo Deadlift,1,5,6,21X1,flat,5,3,75-90s
+2,1,pump-condition-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,4,6/6/6/max,7/8/9/-,20X1,max-ending,6,1,120-120s
+2,1,pump-condition-3x,5,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,22X1,flat,5,2,120-180s
+2,1,pump-condition-4x,1,strength-intensity-1,Half Kneeling Landmine Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,1,pump-condition-4x,2,strength-intensity-1,Sumo Deadlift,1,5,6,21X1,flat,5,3,75-90s
+2,1,pump-condition-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,4,6/6/6/max,7/8/9/-,20X1,max-ending,6,1,120-120s
+2,1,pump-condition-4x,5,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,22X1,flat,5,2,120-180s
+2,1,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,1,5,6,21X1,flat,5,3,75-90s
+2,1,pump-condition-5x,2,strength-intensity-1,Half Kneeling Landmine Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,1,pump-condition-5x,3,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,22X1,flat,5,2,120-180s
+2,1,pump-condition-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,6/6/6/max,7/8/9/-,20X1,max-ending,6,1,120-120s
+2,1,pump-lift-3x,1,strength-intensity-1,Sumo Deadlift,1,5,6,21X1,flat,5,3,75-90s
+2,1,pump-lift-3x,1,strength-intensity-2,Half Kneeling Landmine Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,1,pump-lift-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,4,6/6/6/max,7/8/9/-,20X1,max-ending,6,1,120-120s
+2,1,pump-lift-3x,3,strength-intensity-2,1 1/4 Hip Thrust,3,8/8/8,7/8/9,20X0,flat,8,1,120-120s
+2,1,pump-lift-3x,5,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,22X1,flat,5,2,120-180s
+2,1,pump-lift-3x,5,strength-intensity-2,Pendlay Row,3,10/8/6,7/8/9,21X1,ramp-down,10,1,120-120s
+2,1,pump-lift-4x,1,strength-intensity-1,Half Kneeling Landmine Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,1,pump-lift-4x,1,strength-intensity-2,1 1/4 Dumbbell Bench Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,90-90s
+2,1,pump-lift-4x,2,strength-intensity-1,Sumo Deadlift,1,5,6,21X1,flat,5,3,75-90s
+2,1,pump-lift-4x,2,strength-intensity-2,Pendlay Row,3,10/8/6,7/8/9,21X1,ramp-down,10,1,120-120s
+2,1,pump-lift-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,4,6/6/6/max,7/8/9/-,20X1,max-ending,6,1,120-120s
+2,1,pump-lift-4x,5,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,22X1,flat,5,2,120-180s
+2,1,pump-lift-4x,5,strength-intensity-2,1 1/4 Hip Thrust,3,8/8/8,7/8/9,20X0,flat,8,1,120-120s
+2,1,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,1,5,6,21X1,flat,5,3,75-90s
+2,1,pump-lift-5x,1,strength-intensity-2,Pendlay Row,3,10/8/6,7/8/9,21X1,ramp-down,10,1,120-120s
+2,1,pump-lift-5x,2,strength-intensity-1,Half Kneeling Landmine Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,1,pump-lift-5x,2,strength-intensity-2,1 1/4 Dumbbell Bench Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,90-90s
+2,1,pump-lift-5x,3,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,22X1,flat,5,2,120-180s
+2,1,pump-lift-5x,3,strength-intensity-2,1 1/4 Barbell Hip Thrust,3,8/8/8,7/8/9,20X0,flat,8,1,120-120s
+2,1,pump-lift-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,6/6/6/max,7/8/9/-,20X1,max-ending,6,1,120-120s
+2,2,minimalist,1,strength-intensity-1,Seated Dumbbell Filly Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,minimalist,2,strength-intensity-1,Dumbbell Split Stance Romanian Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,minimalist,4,strength-intensity-1,Dumbbell Floor Press,4,8/10/12/max,8/-/-/-,20X1,ramp-then-max,8,2,120-120s
+2,2,minimalist,5,strength-intensity-1,1 1/4 Goblet Squat,3,10/10/10,7/8/9,20X1,flat,10,1,120-180s
+2,2,perform,1,strength-intensity-1,Split Stance Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,perform,2,strength-intensity-1,Seated Filly Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,perform,3,strength-intensity-1,1 1/4 Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+2,2,perform,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,2,pump-condition-3x,1,strength-intensity-1,Split Stance Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,pump-condition-3x,3,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,2,pump-condition-3x,5,strength-intensity-1,1 1/4 Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+2,2,pump-condition-4x,1,strength-intensity-1,Seated Filly Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,pump-condition-4x,2,strength-intensity-1,Split Stance Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,pump-condition-4x,4,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,2,pump-condition-4x,5,strength-intensity-1,1 1/4 Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+2,2,pump-condition-5x,1,strength-intensity-1,Split Stance Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,pump-condition-5x,2,strength-intensity-1,Seated Filly Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,pump-condition-5x,3,strength-intensity-1,1 1/4 Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+2,2,pump-condition-5x,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,2,pump-lift-3x,1,strength-intensity-1,Split Stance Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,pump-lift-3x,1,strength-intensity-2,Seated Filly Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,pump-lift-3x,3,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,2,pump-lift-3x,3,strength-intensity-2,B Stance Hip Thrust,3,8/8/8,7/8/9,20X0,flat,8,1,120-120s
+2,2,pump-lift-3x,5,strength-intensity-1,1 1/4 Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+2,2,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,2,pump-lift-4x,1,strength-intensity-1,Seated Filly Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,pump-lift-4x,1,strength-intensity-2,Alternating Dumbbell Bench Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,pump-lift-4x,2,strength-intensity-1,Split Stance Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,pump-lift-4x,2,strength-intensity-2,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,2,pump-lift-4x,4,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,2,pump-lift-4x,5,strength-intensity-1,1 1/4 Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+2,2,pump-lift-4x,5,strength-intensity-2,B Stance Hip Thrust,3,8/8/8,7/8/9,20X0,flat,8,1,120-120s
+2,2,pump-lift-5x,1,strength-intensity-1,Split Stance Deadlift,3,8/7/6,7/8/9,21X1,ramp-down,8,1,180-180s
+2,2,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,2,pump-lift-5x,2,strength-intensity-1,Seated Filly Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,2,pump-lift-5x,3,strength-intensity-1,1 1/4 Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+2,2,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,3,8/8/8,7/8/9,20X0,flat,8,1,120-120s
+2,2,pump-lift-5x,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,3,minimalist,1,strength-intensity-1,Dumbbell Push Press,4,8/8/8/max,7/8/9/10,21X1,max-ending,8,1,90-90s
+2,3,minimalist,2,strength-intensity-1,Dumbbell Sumo Deadlift,3,8/8/8,7/8/9,21X1,flat,8,1,120-180s
+2,3,minimalist,4,strength-intensity-1,Dumbbell Narrow Grip Bench Press,4,10/10/10/max,7/8/9/-,20X1,max-ending,10,1,120-120s
+2,3,minimalist,5,strength-intensity-1,Dumbbell Front Squat,3,6/6/6,7/8/9,33X1,flat,6,1,120-180s
+2,3,perform,1,strength-intensity-1,Sumo Deadlift,1,3,6,21X1,flat,3,4,60-75s
+2,3,perform,2,strength-intensity-1,Strict Press,4,8/8/8/max,7/8/9/10,21X1,max-ending,8,1,90-90s
+2,3,perform,3,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,2,120-180s
+2,3,perform,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,5/5/5/max,7/8/9/-,20X1,max-ending,5,2,120-120s
+2,3,pump-condition-3x,1,strength-intensity-1,Sumo Deadlift,1,3,6,21X1,flat,3,4,60-75s
+2,3,pump-condition-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,4,5/5/5/max,7/8/9/-,20X1,max-ending,5,2,120-120s
+2,3,pump-condition-3x,5,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,2,120-180s
+2,3,pump-condition-4x,1,strength-intensity-1,Strict Press,4,8/8/8/max,7/8/9/10,21X1,max-ending,8,1,90-90s
+2,3,pump-condition-4x,2,strength-intensity-1,Sumo Deadlift,1,3,6,21X1,flat,3,4,60-75s
+2,3,pump-condition-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,4,5/5/5/max,7/8/9/-,20X1,max-ending,5,2,120-120s
+2,3,pump-condition-4x,5,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,2,120-180s
+2,3,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,1,3,6,21X1,flat,3,4,60-75s
+2,3,pump-condition-5x,2,strength-intensity-1,Strict Press,4,8/8/8/max,7/8/9/10,21X1,max-ending,8,1,90-90s
+2,3,pump-condition-5x,3,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,2,120-180s
+2,3,pump-condition-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,5/5/5/max,7/8/9/-,20X1,max-ending,5,2,120-120s
+2,3,pump-lift-3x,1,strength-intensity-1,Sumo Deadlift,1,3,6,21X1,flat,3,4,60-75s
+2,3,pump-lift-3x,1,strength-intensity-2,Strict Press,4,8/8/8/max,7/8/9/10,21X1,max-ending,8,1,90-90s
+2,3,pump-lift-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,4,5/5/5/max,7/8/9/-,20X1,max-ending,5,2,120-120s
+2,3,pump-lift-3x,3,strength-intensity-2,1 1/4 Hip Thrust,3,7/7/7,7/8/9,20X0,flat,7,1,120-120s
+2,3,pump-lift-3x,5,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,2,120-180s
+2,3,pump-lift-3x,5,strength-intensity-2,Pendlay Row,3,9/7/5,7/8/9,21X1,ramp-down,9,1,120-120s
+2,3,pump-lift-4x,1,strength-intensity-1,Strict Press,4,8/8/8/max,7/8/9/10,21X1,max-ending,8,1,90-90s
+2,3,pump-lift-4x,1,strength-intensity-2,Single Arm Dumbbell Bench Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,3,pump-lift-4x,2,strength-intensity-1,Sumo Deadlift,1,3,6,21X1,flat,3,4,60-75s
+2,3,pump-lift-4x,2,strength-intensity-2,Pendlay Row,3,9/7/5,7/8/9,21X1,ramp-down,9,1,120-120s
+2,3,pump-lift-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,4,5/5/5/max,7/8/9/-,20X1,max-ending,5,2,120-120s
+2,3,pump-lift-4x,5,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,2,120-180s
+2,3,pump-lift-4x,5,strength-intensity-2,1 1/4 Hip Thrust,3,7/7/7,7/8/9,20X0,flat,7,1,120-120s
+2,3,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,1,3,6,21X1,flat,3,4,60-75s
+2,3,pump-lift-5x,1,strength-intensity-2,Pendlay Row,3,9/7/5,7/8/9,21X1,ramp-down,9,1,120-120s
+2,3,pump-lift-5x,2,strength-intensity-1,Strict Press,4,8/8/8/max,7/8/9/10,21X1,max-ending,8,1,90-90s
+2,3,pump-lift-5x,2,strength-intensity-2,Single Arm Dumbbell Bench Press,3,8/8/max,7/8/10,21X1,max-ending,8,1,90-90s
+2,3,pump-lift-5x,3,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,2,120-180s
+2,3,pump-lift-5x,3,strength-intensity-2,1 1/4 Hip Thrust,3,7/7/7,7/8/9,20X0,flat,7,1,120-120s
+2,3,pump-lift-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,5/5/5/max,7/8/9/-,20X1,max-ending,5,2,120-120s
+2,4,minimalist,1,strength-intensity-1,Half Kneeling Dumbbell Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,4,minimalist,2,strength-intensity-1,Dumbbell Split Stance Romanian Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,minimalist,4,strength-intensity-1,Dumbbell Floor Press,4,8/10/12/max,8/-/-/-,20X1,ramp-then-max,8,2,120-120s
+2,4,minimalist,5,strength-intensity-1,1 1/4 Goblet Squat,3,8/8/8,7/8/9,20X1,flat,8,1,120-180s
+2,4,perform,1,strength-intensity-1,Split Stance Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,perform,2,strength-intensity-1,Half Kneeling Landmine Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,4,perform,3,strength-intensity-1,1 1/4 Back Squat,3,3/3/3,7/8/9,20X1,flat,3,2,120-180s
+2,4,perform,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,4,pump-condition-3x,1,strength-intensity-1,Split Stance Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,pump-condition-3x,3,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,4,pump-condition-3x,5,strength-intensity-1,1 1/4 Back Squat,3,3/3/3,7/8/9,20X1,flat,3,2,120-180s
+2,4,pump-condition-4x,1,strength-intensity-1,Half Kneeling Landmine Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,4,pump-condition-4x,2,strength-intensity-1,Split Stance Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,pump-condition-4x,4,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,4,pump-condition-4x,5,strength-intensity-1,1 1/4 Back Squat,3,3/3/3,7/8/9,20X1,flat,3,2,120-180s
+2,4,pump-condition-5x,1,strength-intensity-1,Split Stance Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,pump-condition-5x,2,strength-intensity-1,Half Kneeling Landmine Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,4,pump-condition-5x,3,strength-intensity-1,1 1/4 Back Squat,3,3/3/3,7/8/9,20X1,flat,3,2,120-180s
+2,4,pump-condition-5x,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,4,pump-lift-3x,1,strength-intensity-1,Split Stance Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,pump-lift-3x,1,strength-intensity-2,Half Kneeling Landmine Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,4,pump-lift-3x,3,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,4,pump-lift-3x,3,strength-intensity-2,B Stance Hip Thrust,3,7/7/7,7/8/9,20X0,flat,7,1,120-120s
+2,4,pump-lift-3x,5,strength-intensity-1,1 1/4 Back Squat,3,3/3/3,7/8/9,20X1,flat,3,2,120-180s
+2,4,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,4,pump-lift-4x,1,strength-intensity-1,Half Kneeling Landmine Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,4,pump-lift-4x,1,strength-intensity-2,1 1/4 Dumbbell Bench Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,90-90s
+2,4,pump-lift-4x,2,strength-intensity-1,Split Stance Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,pump-lift-4x,2,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,4,pump-lift-4x,4,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,4,pump-lift-4x,5,strength-intensity-1,1 1/4 Back Squat,3,3/3/3,7/8/9,20X1,flat,3,2,120-180s
+2,4,pump-lift-4x,5,strength-intensity-2,B Stance Hip Thrust,3,7/7/7,7/8/9,20X0,flat,7,1,120-120s
+2,4,pump-lift-5x,1,strength-intensity-1,Split Stance Deadlift,3,7/6/5,7/8/9,21X1,ramp-down,7,1,180-180s
+2,4,pump-lift-5x,1,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,4,pump-lift-5x,2,strength-intensity-1,Half Kneeling Landmine Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,4,pump-lift-5x,2,strength-intensity-2,1 1/4 Dumbbell Bench Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,90-90s
+2,4,pump-lift-5x,3,strength-intensity-1,1 1/4 Back Squat,3,3/3/3,7/8/9,20X1,flat,3,2,120-180s
+2,4,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,3,7/7/7,7/8/9,20X0,flat,7,1,120-120s
+2,4,pump-lift-5x,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,5,minimalist,1,strength-intensity-1,Seated Dumbbell Filly Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,minimalist,2,strength-intensity-1,Dumbbell Sumo Deadlift,3,6/6/6,7/8/9,21X1,flat,6,1,120-180s
+2,5,minimalist,4,strength-intensity-1,Dumbbell Narrow Grip Bench Press,4,12/12/12/max,7/8/9/-,20X1,max-ending,12,1,120-120s
+2,5,minimalist,5,strength-intensity-1,Dumbbell Front Squat,3,5/5/5,7/8/9,44X1,flat,5,1,120-180s
+2,5,perform,1,strength-intensity-1,Sumo Deadlift,1,2,6,21X1,flat,2,4,45-60s
+2,5,perform,2,strength-intensity-1,Seated Filly Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,perform,3,strength-intensity-1,Back Squat,4,2/2/2/2,7/8/9/9,44X1,flat,2,3,90-120s
+2,5,perform,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,4/4/4/max,7/8/9/-,20X1,max-ending,4,2,120-120s
+2,5,pump-condition-3x,1,strength-intensity-1,Sumo Deadlift,1,2,6,21X1,flat,2,4,45-60s
+2,5,pump-condition-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,4,4/4/4/max,7/8/9/-,20X1,max-ending,4,2,120-120s
+2,5,pump-condition-3x,5,strength-intensity-1,Back Squat,4,2/2/2/2,7/8/9/9,44X1,flat,2,3,90-120s
+2,5,pump-condition-4x,1,strength-intensity-1,Seated Filly Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,pump-condition-4x,2,strength-intensity-1,Sumo Deadlift,1,2,6,21X1,flat,2,4,45-60s
+2,5,pump-condition-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,4,4/4/4/max,7/8/9/-,20X1,max-ending,4,2,120-120s
+2,5,pump-condition-4x,5,strength-intensity-1,Back Squat,4,2/2/2/2,7/8/9/9,44X1,flat,2,3,90-120s
+2,5,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,1,2,6,21X1,flat,2,4,45-60s
+2,5,pump-condition-5x,2,strength-intensity-1,Seated Filly Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,pump-condition-5x,3,strength-intensity-1,Back Squat,4,2/2/2/2,7/8/9/9,44X1,flat,2,3,90-120s
+2,5,pump-condition-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,4/4/4/max,7/8/9/-,20X1,max-ending,4,2,120-120s
+2,5,pump-lift-3x,1,strength-intensity-1,Sumo Deadlift,1,2,6,21X1,flat,2,4,45-60s
+2,5,pump-lift-3x,1,strength-intensity-2,Seated Filly Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,pump-lift-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,4,4/4/4/max,7/8/9/-,20X1,max-ending,4,2,120-120s
+2,5,pump-lift-3x,3,strength-intensity-2,1 1/4 Hip Thrust,3,6/6/6,7/8/9,20X0,flat,6,1,120-120s
+2,5,pump-lift-3x,5,strength-intensity-1,Back Squat,4,2/2/2/2,7/8/9/9,44X1,flat,2,3,90-120s
+2,5,pump-lift-3x,5,strength-intensity-2,Pendlay Row,3,8/6/4,7/8/9,21X1,ramp-down,8,1,120-120s
+2,5,pump-lift-4x,1,strength-intensity-1,Seated Filly Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,pump-lift-4x,1,strength-intensity-2,Alternating Dumbbell Bench Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,pump-lift-4x,2,strength-intensity-1,Sumo Deadlift,1,2,6,21X1,flat,2,4,45-60s
+2,5,pump-lift-4x,2,strength-intensity-2,Pendlay Row,3,8/6/4,7/8/9,21X1,ramp-down,8,1,120-120s
+2,5,pump-lift-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,4,4/4/4/max,7/8/9/-,20X1,max-ending,4,2,120-120s
+2,5,pump-lift-4x,5,strength-intensity-1,Back Squat,4,2/2/2/2,7/8/9/9,44X1,flat,2,3,90-120s
+2,5,pump-lift-4x,5,strength-intensity-2,1 1/4 Hip Thrust,3,6/6/6,7/8/9,20X0,flat,6,1,120-120s
+2,5,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,1,2,6,21X1,flat,2,4,45-60s
+2,5,pump-lift-5x,1,strength-intensity-2,Pendlay Row,3,8/6/4,7/8/9,21X1,ramp-down,8,1,120-120s
+2,5,pump-lift-5x,2,strength-intensity-1,Seated Filly Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,5,pump-lift-5x,3,strength-intensity-1,Back Squat,4,2/2/2/2,7/8/9/9,44X1,flat,2,3,90-120s
+2,5,pump-lift-5x,3,strength-intensity-2,1 1/4 Hip Thrust,3,6/6/6,7/8/9,20X0,flat,6,1,120-120s
+2,5,pump-lift-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,4,4/4/4/max,7/8/9/-,20X1,max-ending,4,2,120-120s
+2,6,minimalist,1,strength-intensity-1,Dumbbell Push Press,4,6/6/6/max,7/8/9/10,21X1,max-ending,6,1,90-90s
+2,6,minimalist,2,strength-intensity-1,Dumbbell Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,minimalist,4,strength-intensity-1,Dumbbell Floor Press,4,8/10/12/max,8/-/-/-,20X1,ramp-then-max,8,2,120-120s
+2,6,minimalist,5,strength-intensity-1,1 1/4 Goblet Squat,3,6/6/6,7/8/9,20X1,flat,6,1,120-180s
+2,6,perform,1,strength-intensity-1,Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,perform,2,strength-intensity-1,Strict Press,4,6/6/6/max,7/8/9/10,21X1,max-ending,6,1,90-90s
+2,6,perform,3,strength-intensity-1,1 1/4 Back Squat,4,2/2/2/2,7/8/9/9,20X1,flat,2,2,90-120s
+2,6,perform,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,6,pump-condition-3x,1,strength-intensity-1,Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,pump-condition-3x,3,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,6,pump-condition-3x,5,strength-intensity-1,1 1/4 Back Squat,4,2/2/2/2,7/8/9/9,20X1,flat,2,2,90-120s
+2,6,pump-condition-4x,1,strength-intensity-1,Strict Press,4,6/6/6/max,7/8/9/10,21X1,max-ending,6,1,90-90s
+2,6,pump-condition-4x,2,strength-intensity-1,Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,pump-condition-4x,4,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,6,pump-condition-4x,5,strength-intensity-1,1 1/4 Back Squat,4,2/2/2/2,7/8/9/9,20X1,flat,2,2,90-120s
+2,6,pump-condition-5x,1,strength-intensity-1,Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,pump-condition-5x,2,strength-intensity-1,Strict Press,4,6/6/6/max,7/8/9/10,21X1,max-ending,6,1,90-90s
+2,6,pump-condition-5x,3,strength-intensity-1,1 1/4 Back Squat,4,2/2/2/2,7/8/9/9,20X1,flat,2,2,90-120s
+2,6,pump-condition-5x,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,6,pump-lift-3x,1,strength-intensity-1,Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,pump-lift-3x,1,strength-intensity-2,Strict Press,4,6/6/6/max,7/8/9/10,21X1,max-ending,6,1,90-90s
+2,6,pump-lift-3x,3,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,6,pump-lift-3x,3,strength-intensity-2,B Stance Hip Thrust,3,6/6/6,7/8/9,20X0,flat,6,1,120-120s
+2,6,pump-lift-3x,5,strength-intensity-1,1 1/4 Back Squat,4,2/2/2/2,7/8/9/9,20X1,flat,2,2,90-120s
+2,6,pump-lift-3x,5,strength-intensity-2,Neutral Grip Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,6,pump-lift-4x,1,strength-intensity-1,Strict Press,4,6/6/6/max,7/8/9/10,21X1,max-ending,6,1,90-90s
+2,6,pump-lift-4x,1,strength-intensity-2,Single Arm Dumbbell Bench Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,6,pump-lift-4x,2,strength-intensity-1,Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,pump-lift-4x,2,strength-intensity-2,Neutral Grip Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,6,pump-lift-4x,4,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+2,6,pump-lift-4x,5,strength-intensity-1,1 1/4 Back Squat,4,2/2/2/2,7/8/9/9,20X1,flat,2,2,90-120s
+2,6,pump-lift-4x,5,strength-intensity-2,B Stance Hip Thrust,3,6/6/6,7/8/9,20X0,flat,6,1,120-120s
+2,6,pump-lift-5x,1,strength-intensity-1,Split Stance Deadlift,3,6/5/4,7/8/9,21X1,ramp-down,6,1,180-180s
+2,6,pump-lift-5x,1,strength-intensity-2,Neutral Grip Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+2,6,pump-lift-5x,2,strength-intensity-1,Strict Press,4,6/6/6/max,7/8/9/10,21X1,max-ending,6,1,90-90s
+2,6,pump-lift-5x,2,strength-intensity-2,Single Arm Dumbbell Bench Press,3,6/6/max,7/8/10,21X1,max-ending,6,1,90-90s
+2,6,pump-lift-5x,3,strength-intensity-1,1 1/4 Back Squat,4,2/2/2/2,7/8/9/9,20X1,flat,2,2,90-120s
+2,6,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,3,6/6/6,7/8/9,20X0,flat,6,1,120-120s
+2,6,pump-lift-5x,5,strength-intensity-1,Floor Press,4,3/6/9/max,8/-/-/-,20X1,ramp-then-max,3,3,120-120s
+3,1,minimalist,1,strength-intensity-1,Dumbbell Suitcase Split Squat,3,10/10/max,8/9/10,20X0,max-ending,10,1,120-180s
+3,1,minimalist,2,strength-intensity-1,Dumbbell Alternating Z Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,1,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+3,1,minimalist,5,strength-intensity-1,Dumbbell Incline Bench Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+3,1,perform,1,strength-intensity-1,Front Squat,3,5/5/max,8/9/10,20X0,max-ending,5,2,120-180s
+3,1,perform,2,strength-intensity-1,Barbell Z Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+3,1,perform,3,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,1,perform,5,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,1,perform,6,strength-intensity-1,Barbell Incline Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,1,pump-condition-3x,1,strength-intensity-1,Front Squat,3,5/5/max,8/9/10,20X0,max-ending,5,2,120-180s
+3,1,pump-condition-3x,3,strength-intensity-1,Barbell Z Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+3,1,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,1,pump-condition-4x,1,strength-intensity-1,Front Squat,3,5/5/max,8/9/10,20X0,max-ending,5,2,120-180s
+3,1,pump-condition-4x,2,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,1,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,1,pump-condition-4x,5,strength-intensity-1,Barbell Incline Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,1,pump-condition-5x,1,strength-intensity-1,Front Squat,3,5/5/max,8/9/10,20X0,max-ending,5,2,120-180s
+3,1,pump-condition-5x,2,strength-intensity-1,Barbell Z Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+3,1,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,1,pump-condition-5x,5,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,1,pump-condition-5x,6,strength-intensity-1,Barbell Incline Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,1,pump-lift-3x,1,strength-intensity-1,Front Squat,3,5/5/max,8/9/10,20X0,max-ending,5,2,120-180s
+3,1,pump-lift-3x,1,strength-intensity-2,Supinated Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,1,pump-lift-3x,3,strength-intensity-1,Barbell Z Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+3,1,pump-lift-3x,3,strength-intensity-2,Wide Grip Barbell Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,1,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,1,pump-lift-3x,5,strength-intensity-2,Barbell Incline Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,1,pump-lift-4x,1,strength-intensity-1,Front Squat,3,5/5/max,8/9/10,20X0,max-ending,5,2,120-180s
+3,1,pump-lift-4x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,1,pump-lift-4x,2,strength-intensity-1,Barbell Z Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+3,1,pump-lift-4x,2,strength-intensity-2,Wide Grip Barbell Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,1,pump-lift-4x,4,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,1,pump-lift-4x,4,strength-intensity-2,Back Rack Reverse Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+3,1,pump-lift-4x,5,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,1,pump-lift-4x,5,strength-intensity-2,Barbell Incline Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,1,pump-lift-5x,1,strength-intensity-1,Front Squat,3,5/5/max,8/9/10,20X0,max-ending,5,2,120-180s
+3,1,pump-lift-5x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,1,pump-lift-5x,2,strength-intensity-1,Barbell Z Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+3,1,pump-lift-5x,2,strength-intensity-2,Dumbbell Bench Press,3,10/8/6,7/8/9,21X1,ramp-down,10,1,120-180s
+3,1,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,1,pump-lift-5x,3,strength-intensity-2,Wide Grip Barbell Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,1,pump-lift-5x,5,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,1,pump-lift-5x,5,strength-intensity-2,Back Rack Reverse Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+3,1,pump-lift-5x,6,strength-intensity-1,Barbell Incline Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,1,pump-lift-5x,6,strength-intensity-2,Half Kneeling Single Arm Arnold Press,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,minimalist,2,strength-intensity-1,Dumbbell Push Press,3,8/8/8,7/8/9,30X1,flat,8,1,120-180s
+3,2,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,minimalist,5,strength-intensity-1,Single Arm Dumbbell Bench Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,2,perform,1,strength-intensity-1,Cyclist Front Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,perform,2,strength-intensity-1,Push Press,3,8/8/8,7/8/9,30X1,flat,8,1,120-180s
+3,2,perform,3,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,2,perform,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,perform,6,strength-intensity-1,Low Incline Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,2,pump-condition-3x,1,strength-intensity-1,Cyclist Front Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,pump-condition-3x,3,strength-intensity-1,Push Press,3,8/8/8,7/8/9,30X1,flat,8,1,120-180s
+3,2,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,pump-condition-4x,1,strength-intensity-1,Cyclist Front Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,pump-condition-4x,2,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,2,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,pump-condition-4x,5,strength-intensity-1,Low Incline Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,2,pump-condition-5x,1,strength-intensity-1,Cyclist Front Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,pump-condition-5x,2,strength-intensity-1,Push Press,3,8/8/8,7/8/9,30X1,flat,8,1,120-180s
+3,2,pump-condition-5x,3,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,2,pump-condition-5x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,pump-condition-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,2,pump-lift-3x,1,strength-intensity-1,Cyclist Front Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,pump-lift-3x,1,strength-intensity-2,Close Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,2,pump-lift-3x,3,strength-intensity-1,Push Press,3,8/8/8,7/8/9,30X1,flat,8,1,120-180s
+3,2,pump-lift-3x,3,strength-intensity-2,Supinated Barbell Bent Over Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,2,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,pump-lift-3x,5,strength-intensity-2,Low Incline Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,2,pump-lift-4x,1,strength-intensity-1,Cyclist Front Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,pump-lift-4x,2,strength-intensity-1,Push Press,3,8/8/8,7/8/9,30X1,flat,8,1,120-180s
+3,2,pump-lift-4x,2,strength-intensity-2,Supinated Barbell Bent Over Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,2,pump-lift-4x,4,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,pump-lift-4x,4,strength-intensity-2,Front Rack Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+3,2,pump-lift-4x,5,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,2,pump-lift-4x,5,strength-intensity-2,Low Incline Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,2,pump-lift-5x,1,strength-intensity-1,Cyclist Front Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,2,pump-lift-5x,2,strength-intensity-1,Push Press,3,8/8/8,7/8/9,30X1,flat,8,1,120-180s
+3,2,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+3,2,pump-lift-5x,3,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+3,2,pump-lift-5x,3,strength-intensity-2,Supinated Barbell Bent Over Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,2,pump-lift-5x,5,strength-intensity-1,Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+3,2,pump-lift-5x,5,strength-intensity-2,Front Rack Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+3,2,pump-lift-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,2,pump-lift-5x,6,strength-intensity-2,Single Arm Arnold Z Press,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,3,minimalist,1,strength-intensity-1,Dumbbell Suitcase Split Squat,3,8/8/max,8/9/10,20X0,max-ending,8,1,120-180s
+3,3,minimalist,2,strength-intensity-1,Dumbbell Alternating Z Press,4,9/7/5/max,7/8/9/10,20X0,ramp-then-max,9,1,120-180s
+3,3,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+3,3,minimalist,5,strength-intensity-1,Dumbbell Incline Bench Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,3,perform,1,strength-intensity-1,Front Squat,3,3/3/max,8/9/10,20X0,max-ending,3,2,120-180s
+3,3,perform,2,strength-intensity-1,Barbell Z Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,3,perform,3,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,3,perform,5,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,20X0,ramp-down,7,2,120-180s
+3,3,perform,6,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,3,pump-condition-3x,1,strength-intensity-1,Front Squat,3,3/3/max,8/9/10,20X0,max-ending,3,2,120-180s
+3,3,pump-condition-3x,3,strength-intensity-1,Barbell Z Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,3,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,20X0,ramp-down,7,2,120-180s
+3,3,pump-condition-4x,1,strength-intensity-1,Front Squat,3,3/3/max,8/9/10,20X0,max-ending,3,2,120-180s
+3,3,pump-condition-4x,2,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,3,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,20X0,ramp-down,7,2,120-180s
+3,3,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,3,pump-condition-5x,1,strength-intensity-1,Front Squat,3,3/3/max,8/9/10,20X0,max-ending,3,2,120-180s
+3,3,pump-condition-5x,2,strength-intensity-1,Barbell Z Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,3,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,3,pump-condition-5x,5,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,20X0,ramp-down,7,2,120-180s
+3,3,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,3,pump-lift-3x,1,strength-intensity-1,Front Squat,3,3/3/max,8/9/10,20X0,max-ending,3,2,120-180s
+3,3,pump-lift-3x,1,strength-intensity-2,Supinated Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,3,pump-lift-3x,3,strength-intensity-1,Barbell Z Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,3,pump-lift-3x,3,strength-intensity-2,Barbell Bent Over Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,3,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,20X0,ramp-down,7,2,120-180s
+3,3,pump-lift-3x,5,strength-intensity-2,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,3,pump-lift-4x,1,strength-intensity-1,Front Squat,3,3/3/max,8/9/10,20X0,max-ending,3,2,120-180s
+3,3,pump-lift-4x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,3,pump-lift-4x,2,strength-intensity-1,Barbell Z Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,3,pump-lift-4x,2,strength-intensity-2,Barbell Bent Over Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,3,pump-lift-4x,4,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,20X0,ramp-down,7,2,120-180s
+3,3,pump-lift-4x,4,strength-intensity-2,Back Rack Reverse Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+3,3,pump-lift-4x,5,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,3,pump-lift-4x,5,strength-intensity-2,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,3,pump-lift-5x,1,strength-intensity-1,Front Squat,3,3/3/max,8/9/10,20X0,max-ending,3,2,120-180s
+3,3,pump-lift-5x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,3,pump-lift-5x,2,strength-intensity-1,Barbell Z Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+3,3,pump-lift-5x,2,strength-intensity-2,Low Incline Dumbbell Bench Press,3,10/8/6,7/8/9,22X1,ramp-down,10,1,120-180s
+3,3,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,3,pump-lift-5x,3,strength-intensity-2,Barbell Bent Over Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+3,3,pump-lift-5x,5,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,20X0,ramp-down,7,2,120-180s
+3,3,pump-lift-5x,5,strength-intensity-2,Back Rack Reverse Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+3,3,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,3,pump-lift-5x,6,strength-intensity-2,Back Supported Single Arm Arnold Press,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,4,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+3,4,minimalist,2,strength-intensity-1,Dumbbell Push Press,3,6/6/6,7/8/9,30X1,flat,6,1,120-180s
+3,4,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,minimalist,5,strength-intensity-1,Single Arm Dumbbell Bench Press,4,9/7/5/max,7/8/9/10,20X0,ramp-then-max,9,1,120-180s
+3,4,perform,1,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,4,perform,2,strength-intensity-1,Push Press,3,6/6/6,7/8/9,30X1,flat,6,1,120-180s
+3,4,perform,3,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,4,perform,5,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,perform,6,strength-intensity-1,Barbell Incline Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,4,pump-condition-3x,1,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,4,pump-condition-3x,3,strength-intensity-1,Push Press,3,6/6/6,7/8/9,30X1,flat,6,1,120-180s
+3,4,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,pump-condition-4x,1,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,4,pump-condition-4x,2,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,4,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,pump-condition-4x,5,strength-intensity-1,Barbell Incline Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,4,pump-condition-5x,1,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,4,pump-condition-5x,2,strength-intensity-1,Push Press,3,6/6/6,7/8/9,30X1,flat,6,1,120-180s
+3,4,pump-condition-5x,3,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,4,pump-condition-5x,5,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,pump-condition-5x,6,strength-intensity-1,Barbell Incline Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,4,pump-lift-3x,1,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,4,pump-lift-3x,1,strength-intensity-2,Close Grip Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,4,pump-lift-3x,3,strength-intensity-1,Push Press,3,6/6/6,7/8/9,30X1,flat,6,1,120-180s
+3,4,pump-lift-3x,3,strength-intensity-2,Wide Grip Barbell Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,4,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,pump-lift-3x,5,strength-intensity-2,Barbell Incline Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,4,pump-lift-4x,1,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,4,pump-lift-4x,2,strength-intensity-1,Push Press,3,6/6/6,7/8/9,30X1,flat,6,1,120-180s
+3,4,pump-lift-4x,2,strength-intensity-2,Wide Grip Barbell Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,4,pump-lift-4x,4,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,pump-lift-4x,4,strength-intensity-2,Front Rack Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+3,4,pump-lift-4x,5,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,4,pump-lift-4x,5,strength-intensity-2,Barbell Incline Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,4,pump-lift-5x,1,strength-intensity-1,Cyclist Front Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,4,pump-lift-5x,2,strength-intensity-1,Push Press,3,6/6/6,7/8/9,30X1,flat,6,1,120-180s
+3,4,pump-lift-5x,2,strength-intensity-2,Dumbbell Bench Press,3,9/7/5,7/8/9,21X1,ramp-down,9,1,120-180s
+3,4,pump-lift-5x,3,strength-intensity-1,Close Grip Lat Pulldown,4,12/10/8/6,7/8/9/9,20X1,ramp-down,12,1,
+3,4,pump-lift-5x,3,strength-intensity-2,Wide Grip Barbell Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,4,pump-lift-5x,5,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+3,4,pump-lift-5x,5,strength-intensity-2,Front Rack Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+3,4,pump-lift-5x,6,strength-intensity-1,Barbell Incline Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,4,pump-lift-5x,6,strength-intensity-2,Half Kneeling Single Arm Arnold Press,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,5,minimalist,1,strength-intensity-1,Dumbbell Suitcase Split Squat,3,6/6/max,8/9/10,20X0,max-ending,6,1,120-180s
+3,5,minimalist,2,strength-intensity-1,Dumbbell Alternating Z Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,5,minimalist,5,strength-intensity-1,Dumbbell Incline Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,perform,1,strength-intensity-1,Front Squat,3,2/2/max,8/9/10,20X0,max-ending,2,3,120-180s
+3,5,perform,2,strength-intensity-1,Barbell Z Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,perform,3,strength-intensity-1,Supinated Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,5,perform,5,strength-intensity-1,Conventional Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+3,5,perform,6,strength-intensity-1,Low Incline Barbell Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,5,pump-condition-3x,1,strength-intensity-1,Front Squat,3,2/2/max,8/9/10,20X0,max-ending,2,3,120-180s
+3,5,pump-condition-3x,3,strength-intensity-1,Barbell Z Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+3,5,pump-condition-4x,1,strength-intensity-1,Front Squat,3,2/2/max,8/9/10,20X0,max-ending,2,3,120-180s
+3,5,pump-condition-4x,2,strength-intensity-1,Supinated Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,5,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+3,5,pump-condition-4x,5,strength-intensity-1,Low Incline Barbell Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,5,pump-condition-5x,1,strength-intensity-1,Front Squat,3,2/2/max,8/9/10,20X0,max-ending,2,3,120-180s
+3,5,pump-condition-5x,2,strength-intensity-1,Barbell Z Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,5,pump-condition-5x,5,strength-intensity-1,Conventional Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+3,5,pump-condition-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,5,pump-lift-3x,1,strength-intensity-1,Front Squat,3,2/2/max,8/9/-,20X0,max-ending,2,3,120-180s
+3,5,pump-lift-3x,1,strength-intensity-2,Supinated Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,5,pump-lift-3x,3,strength-intensity-1,Barbell Z Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,pump-lift-3x,3,strength-intensity-2,Supinated Barbell Bent Over Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,5,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+3,5,pump-lift-3x,5,strength-intensity-2,Low Incline Barbell Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,5,pump-lift-4x,1,strength-intensity-1,Front Squat,3,2/2/max,8/9/10,20X0,max-ending,2,3,120-180s
+3,5,pump-lift-4x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,5,pump-lift-4x,2,strength-intensity-1,Barbell Z Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,pump-lift-4x,2,strength-intensity-2,Supinated Barbell Bent Over Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,5,pump-lift-4x,4,strength-intensity-1,Conventional Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+3,5,pump-lift-4x,4,strength-intensity-2,Back Rack Reverse Lunge,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,5,pump-lift-4x,5,strength-intensity-1,Supinated Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,5,pump-lift-4x,5,strength-intensity-2,Low Incline Barbell Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,5,pump-lift-5x,1,strength-intensity-1,Front Squat,3,2/2/max,8/9/10,20X0,max-ending,2,3,120-180s
+3,5,pump-lift-5x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,5,pump-lift-5x,2,strength-intensity-1,Barbell Z Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,5,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+3,5,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,5,pump-lift-5x,3,strength-intensity-2,Supinated Barbell Bent Over Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,5,pump-lift-5x,5,strength-intensity-1,Conventional Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+3,5,pump-lift-5x,5,strength-intensity-2,Back Rack Reverse Lunge,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,5,pump-lift-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,4,7/5/3/max,7/8/9/10,20X0,ramp-then-max,7,1,120-180s
+3,5,pump-lift-5x,6,strength-intensity-2,Single Arm Arnold Z Press,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,6,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+3,6,minimalist,2,strength-intensity-1,Dumbbell Push Press,3,5/5/5,7/8/9,30X1,flat,5,2,120-180s
+3,6,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,minimalist,5,strength-intensity-1,Single Arm Dumbbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,6,perform,1,strength-intensity-1,Cyclist Front Squat,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+3,6,perform,2,strength-intensity-1,Push Press,3,4/4/4,7/8/9,30X1,flat,4,1,120-180s
+3,6,perform,3,strength-intensity-1,Close Grip Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,6,perform,5,strength-intensity-1,Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,perform,6,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,6,pump-condition-3x,1,strength-intensity-1,Cyclist Front Squat,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+3,6,pump-condition-3x,3,strength-intensity-1,Push Press,3,4/4/4,7/8/9,30X1,flat,4,1,120-180s
+3,6,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,pump-condition-4x,1,strength-intensity-1,Cyclist Front Squat,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+3,6,pump-condition-4x,2,strength-intensity-1,Close Grip Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,6,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,6,pump-condition-5x,1,strength-intensity-1,Cyclist Front Squat,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+3,6,pump-condition-5x,2,strength-intensity-1,Push Press,3,4/4/4,7/8/9,30X1,flat,4,1,120-180s
+3,6,pump-condition-5x,3,strength-intensity-1,Close Grip Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,6,pump-condition-5x,5,strength-intensity-1,Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,6,pump-lift-3x,1,strength-intensity-1,Cyclist Front Squat,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+3,6,pump-lift-3x,1,strength-intensity-2,Close Grip Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,6,pump-lift-3x,3,strength-intensity-1,Push Press,3,4/4/4,7/8/9,30X1,flat,4,1,120-180s
+3,6,pump-lift-3x,3,strength-intensity-2,Barbell Bent Over Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,6,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,pump-lift-3x,5,strength-intensity-2,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,6,pump-lift-4x,1,strength-intensity-1,Cyclist Front Squat,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+3,6,pump-lift-4x,2,strength-intensity-1,Push Press,3,4/4/4,7/8/9,30X1,flat,4,1,120-180s
+3,6,pump-lift-4x,2,strength-intensity-2,Barbell Bent Over Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,6,pump-lift-4x,4,strength-intensity-1,Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,pump-lift-4x,4,strength-intensity-2,Front Rack Split Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,6,pump-lift-4x,5,strength-intensity-1,Close Grip Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,6,pump-lift-4x,5,strength-intensity-2,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,6,pump-lift-5x,1,strength-intensity-1,Cyclist Front Squat,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+3,6,pump-lift-5x,2,strength-intensity-1,Push Press,3,4/4/4,7/8/9,30X1,flat,4,1,120-180s
+3,6,pump-lift-5x,2,strength-intensity-2,Low Incline Dumbbell Bench Press,3,9/7/5,7/8/9,22X1,ramp-down,9,1,120-180s
+3,6,pump-lift-5x,3,strength-intensity-1,Close Grip Lat Pulldown,4,10/8/6/4,7/8/9/9,20X1,ramp-down,10,1,
+3,6,pump-lift-5x,3,strength-intensity-2,Barbell Bent Over Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+3,6,pump-lift-5x,5,strength-intensity-1,Romanian Deadlift,3,5/5/5,7/8/9,40X0,flat,5,1,120-180s
+3,6,pump-lift-5x,5,strength-intensity-2,Front Rack Split Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+3,6,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+3,6,pump-lift-5x,6,strength-intensity-2,Back Supported Single Arm Arnold Press,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,1,minimalist,1,strength-intensity-1,Dumbbell Goblet Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,minimalist,2,strength-intensity-1,Dumbbell Strict Press,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+4,1,minimalist,4,strength-intensity-1,Dumbbell Sumo Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,1,minimalist,5,strength-intensity-1,Supinated Grip Dumbbell Bench Press,4,8/8/8/max,7/8/9/10,22X1,max-ending,8,1,120-180s
+4,1,perform,1,strength-intensity-1,Box Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,perform,2,strength-intensity-1,Dumbbell Strict Press,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+4,1,perform,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+4,1,perform,6,strength-intensity-1,Spoto Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,1,pump-condition-3x,1,strength-intensity-1,Box Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,pump-condition-3x,3,strength-intensity-1,Spoto Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,1,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+4,1,pump-condition-4x,1,strength-intensity-1,Box Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,pump-condition-4x,2,strength-intensity-1,Dumbbell Strict Press,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-condition-4x,4,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+4,1,pump-condition-4x,5,strength-intensity-1,Spoto Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,1,pump-condition-5x,1,strength-intensity-1,Box Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,pump-condition-5x,2,strength-intensity-1,Dumbbell Strict Press,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-condition-5x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+4,1,pump-condition-5x,6,strength-intensity-1,Spoto Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,1,pump-lift-3x,1,strength-intensity-1,Box Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,pump-lift-3x,1,strength-intensity-2,Dumbbell Strict Press,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-lift-3x,3,strength-intensity-1,Spoto Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,1,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+4,1,pump-lift-3x,5,strength-intensity-2,Incline Prone Dumbbell Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-lift-4x,1,strength-intensity-1,Box Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,pump-lift-4x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,1,pump-lift-4x,2,strength-intensity-1,Dumbbell Strict Press,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-lift-4x,2,strength-intensity-2,Incline Prone Dumbbell Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-lift-4x,4,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+4,1,pump-lift-4x,4,strength-intensity-2,Goblet Rear Foot Elevated Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,1,pump-lift-4x,5,strength-intensity-1,Spoto Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,1,pump-lift-5x,1,strength-intensity-1,Box Squat,3,10/10/10,7/8/9,21X1,flat,10,2,120-180s
+4,1,pump-lift-5x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,1,pump-lift-5x,2,strength-intensity-1,Dumbbell Strict Press,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-lift-5x,2,strength-intensity-2,Strict Bar Dip,3,12/10/8,8/9/10,30X0,ramp-down,12,1,120-180s
+4,1,pump-lift-5x,3,strength-intensity-2,Incline Prone Dumbbell Row,3,15/12/max,7/8/10,20X0,ramp-then-max,15,1,120-180s
+4,1,pump-lift-5x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+4,1,pump-lift-5x,5,strength-intensity-2,Goblet Rear Foot Elevated Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,1,pump-lift-5x,6,strength-intensity-1,Spoto Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,2,minimalist,1,strength-intensity-1,1 1/4 Goblet Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Arnold Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+4,2,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,2,minimalist,5,strength-intensity-1,Dumbbell Bench Press,4,8/8/8/max,7/8/9/10,22X1,max-ending,8,1,120-180s
+4,2,perform,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,perform,2,strength-intensity-1,Back Supported Barbell Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+4,2,perform,3,strength-intensity-1,Wide Grip Lat Pulldown,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,
+4,2,perform,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,2,perform,6,strength-intensity-1,Barbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,2,pump-condition-3x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,pump-condition-3x,3,strength-intensity-1,Barbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,2,pump-condition-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,2,pump-condition-4x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,pump-condition-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+4,2,pump-condition-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,2,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,2,pump-condition-5x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,pump-condition-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+4,2,pump-condition-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+4,2,pump-condition-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,2,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,2,pump-lift-3x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,pump-lift-3x,1,strength-intensity-2,Back Supported Barbell Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+4,2,pump-lift-3x,3,strength-intensity-1,Barbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,2,pump-lift-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,2,pump-lift-4x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,pump-lift-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+4,2,pump-lift-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,2,pump-lift-4x,4,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,2,pump-lift-4x,5,strength-intensity-1,Barbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,2,pump-lift-5x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,2,120-180s
+4,2,pump-lift-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+4,2,pump-lift-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+4,2,pump-lift-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,2,pump-lift-5x,5,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+4,2,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,5,minimalist,1,strength-intensity-1,Goblet Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,minimalist,2,strength-intensity-1,Dumbbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+4,5,minimalist,4,strength-intensity-1,Dumbbell Sumo Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,5,minimalist,5,strength-intensity-1,Supinated Grip Dumbbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,5,perform,1,strength-intensity-1,Box Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,perform,2,strength-intensity-1,Dumbbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+4,5,perform,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,1,120-180s
+4,5,perform,6,strength-intensity-1,Spoto Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,5,pump-condition-3x,1,strength-intensity-1,Box Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,pump-condition-3x,3,strength-intensity-1,Spoto Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,5,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,1,120-180s
+4,5,pump-condition-4x,1,strength-intensity-1,Box Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,pump-condition-4x,2,strength-intensity-1,Dumbbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-condition-4x,4,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,1,120-180s
+4,5,pump-condition-4x,5,strength-intensity-1,Spoto Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,5,pump-condition-5x,1,strength-intensity-1,Box Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,pump-condition-5x,2,strength-intensity-1,Dumbbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-condition-5x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,1,120-180s
+4,5,pump-condition-5x,6,strength-intensity-1,Spoto Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,5,pump-lift-3x,1,strength-intensity-1,Box Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,pump-lift-3x,1,strength-intensity-2,Dumbbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-lift-3x,3,strength-intensity-1,Spoto Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,5,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,1,120-180s
+4,5,pump-lift-3x,5,strength-intensity-2,Incline Prone Dumbbell Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-lift-4x,1,strength-intensity-1,Box Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,pump-lift-4x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,5,pump-lift-4x,2,strength-intensity-1,Dumbbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-lift-4x,2,strength-intensity-2,Incline Prone Dumbbell Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-lift-4x,4,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,1,120-180s
+4,5,pump-lift-4x,4,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,5,pump-lift-4x,5,strength-intensity-1,Spoto Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,5,pump-lift-5x,1,strength-intensity-1,Box Squat,3,6/6/6,7/8/9,21X1,flat,6,2,120-180s
+4,5,pump-lift-5x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,5,pump-lift-5x,2,strength-intensity-1,Dumbbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-lift-5x,2,strength-intensity-2,Strict Bar Dip,3,8/6/4,8/9/10,30X0,ramp-down,8,1,120-180s
+4,5,pump-lift-5x,3,strength-intensity-2,Incline Prone Dumbbell Row,3,10/8/max,7/8/10,20X0,ramp-then-max,10,1,120-180s
+4,5,pump-lift-5x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,1,120-180s
+4,5,pump-lift-5x,5,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,5,pump-lift-5x,6,strength-intensity-1,Spoto Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,6,minimalist,1,strength-intensity-1,1 1/4 Goblet Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Arnold Press,4,4/4/4/max,7/8/9/10,20X0,max-ending,4,1,120-180s
+4,6,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,minimalist,5,strength-intensity-1,Dumbbell Bench Press,4,6/6/6/max,7/8/9/10,22X1,max-ending,6,1,120-180s
+4,6,perform,1,strength-intensity-1,Back Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,perform,2,strength-intensity-1,Back Supported Barbell Strict Press,4,4/4/4/max,7/8/9/10,20X0,max-ending,4,2,120-180s
+4,6,perform,3,strength-intensity-1,Wide Grip Lat Pulldown,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,
+4,6,perform,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,perform,6,strength-intensity-1,Barbell Bench Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,6,pump-condition-3x,1,strength-intensity-1,Back Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,pump-condition-3x,3,strength-intensity-1,Barbell Bench Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,6,pump-condition-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,pump-condition-4x,1,strength-intensity-1,Back Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,pump-condition-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,4/4/4/max,7/8/9/10,20X0,max-ending,4,2,120-180s
+4,6,pump-condition-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,6,pump-condition-5x,1,strength-intensity-1,Back Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,pump-condition-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,4/4/4/max,7/8/9/10,20X0,max-ending,4,2,120-180s
+4,6,pump-condition-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,4,8/6/4/max,7/8/9/-,20X1,ramp-then-max,8,1,
+4,6,pump-condition-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,6,pump-lift-3x,1,strength-intensity-1,Back Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,pump-lift-3x,1,strength-intensity-2,Back Supported Barbell Strict Press,4,4/4/4/max,7/8/9/10,20X0,max-ending,4,2,120-180s
+4,6,pump-lift-3x,3,strength-intensity-1,Barbell Bench Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,6,pump-lift-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,pump-lift-4x,1,strength-intensity-1,Back Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,pump-lift-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,4/4/4/max,7/8/9/10,20X0,max-ending,4,2,120-180s
+4,6,pump-lift-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,pump-lift-4x,4,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,6,pump-lift-4x,5,strength-intensity-1,Barbell Bench Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+4,6,pump-lift-5x,1,strength-intensity-1,Back Squat,3,8/6/4,7/8/9,20X0,ramp-down,8,2,120-180s
+4,6,pump-lift-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,4,4/4/4/max,7/8/9/10,20X0,max-ending,4,2,120-180s
+4,6,pump-lift-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,4,8/6/4/max,7/8/9/-,20X1,ramp-then-max,8,1,
+4,6,pump-lift-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+4,6,pump-lift-5x,5,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+4,6,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,4,3/3/3/max,7/8/9/10,22X1,max-ending,3,2,120-180s
+6,1,minimalist,1,strength-intensity-1,Incline Dumbbell Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,minimalist,2,strength-intensity-1,Cyclist Goblet Squat,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-120s
+6,1,minimalist,4,strength-intensity-1,Seated Dumbbell Filly Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+6,1,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+6,1,perform,1,strength-intensity-1,Conventional Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+6,1,perform,2,strength-intensity-1,Incline Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,perform,3,strength-intensity-1,Cyclist Back Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,2,120-180s
+6,1,perform,5,strength-intensity-1,Seated Filly Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+6,1,perform,6,strength-intensity-1,Zercher Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,1,pump-condition-3x,1,strength-intensity-1,Incline Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,2,120-180s
+6,1,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+6,1,pump-condition-4x,1,strength-intensity-1,Incline Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,2,120-180s
+6,1,pump-condition-4x,4,strength-intensity-1,Seated Filly Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+6,1,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+6,1,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+6,1,pump-condition-5x,2,strength-intensity-1,Incline Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,2,120-180s
+6,1,pump-condition-5x,5,strength-intensity-1,Seated Filly Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+6,1,pump-condition-5x,6,strength-intensity-1,Zercher Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,1,pump-lift-3x,1,strength-intensity-1,Incline Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,pump-lift-3x,1,strength-intensity-2,Pendlay Row,4,10/8/6/max,7/8/9/-,20X1,ramp-then-max,10,1,
+6,1,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,2,120-180s
+6,1,pump-lift-3x,3,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+6,1,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+6,1,pump-lift-3x,5,strength-intensity-2,Seated Filly Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+6,1,pump-lift-4x,1,strength-intensity-1,Incline Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,pump-lift-4x,1,strength-intensity-2,Pendlay Row,4,10/8/6/max,7/8/9/-,20X1,ramp-then-max,10,1,
+6,1,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,2,120-180s
+6,1,pump-lift-4x,2,strength-intensity-2,Barbell Hip Thrust,3,10/10/10,8/9/10,20X1,flat,10,1,120-180s
+6,1,pump-lift-4x,4,strength-intensity-1,Seated Filly Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+6,1,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+6,1,pump-lift-4x,5,strength-intensity-1,Zercher Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,1,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+6,1,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+6,1,pump-lift-5x,1,strength-intensity-2,Pendlay Row,4,10/8/6/max,7/8/9/-,20X1,ramp-then-max,10,1,
+6,1,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,1,pump-lift-5x,2,strength-intensity-2,Narrow Grip Dumbbell Bench Press,3,10/10/10,8/9/10,30X0,flat,10,1,120-180s
+6,1,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,2,120-180s
+6,1,pump-lift-5x,3,strength-intensity-2,Barbell Hip Thrust,3,10/10/10,8/9/10,20X1,flat,10,1,120-180s
+6,1,pump-lift-5x,5,strength-intensity-1,Seated Filly Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+6,1,pump-lift-5x,5,strength-intensity-2,Half Kneeling Landmine Press,3,8/8/8,8/9/10,30X0,flat,8,1,120-180s
+6,1,pump-lift-5x,6,strength-intensity-1,Zercher Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,1,pump-lift-5x,6,strength-intensity-2,Goblet Squat,3,12/12/max,8/9/10,20X1,max-ending,12,1,120-180s
+6,2,minimalist,1,strength-intensity-1,Dumbbell Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,minimalist,2,strength-intensity-1,Dumbbell Front Squat,3,9/9/9,7/8/9,22X1,flat,9,1,120-120s
+6,2,minimalist,4,strength-intensity-1,Dumbbell Push Press,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+6,2,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,3,10/8/6,7/8/9,31X1,ramp-down,10,1,120-180s
+6,2,perform,1,strength-intensity-1,Stiff Leg Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,2,perform,2,strength-intensity-1,Close Grip Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,perform,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,22X1,flat,6,2,120-180s
+6,2,perform,5,strength-intensity-1,Barbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+6,2,perform,6,strength-intensity-1,Back Rack Reverse Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,2,pump-condition-3x,1,strength-intensity-1,Close Grip Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,pump-condition-3x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,22X1,flat,6,2,120-180s
+6,2,pump-condition-3x,5,strength-intensity-1,Stiff Leg Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,2,pump-condition-4x,1,strength-intensity-1,Close Grip Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,pump-condition-4x,2,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,22X1,flat,6,2,120-180s
+6,2,pump-condition-4x,4,strength-intensity-1,Barbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+6,2,pump-condition-4x,5,strength-intensity-1,Stiff Leg Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,2,pump-condition-5x,1,strength-intensity-1,Stiff Leg Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,2,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,pump-condition-5x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,22X1,flat,6,2,120-180s
+6,2,pump-condition-5x,5,strength-intensity-1,Barbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+6,2,pump-condition-5x,6,strength-intensity-1,Back Rack Reverse Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,2,pump-lift-3x,1,strength-intensity-1,Close Grip Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,pump-lift-3x,1,strength-intensity-2,Supinated Bent Over Row,4,10/8/6/max,7/8/9/-,20X1,ramp-then-max,10,1,
+6,2,pump-lift-3x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,22X1,flat,6,2,120-180s
+6,2,pump-lift-3x,3,strength-intensity-2,Lat Pulldown,3,10/10/10,7/8/9,20X1,flat,10,1,
+6,2,pump-lift-3x,5,strength-intensity-1,Stiff Leg Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,2,pump-lift-3x,5,strength-intensity-2,Barbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+6,2,pump-lift-4x,1,strength-intensity-1,Close Grip Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,4,10/8/6/max,7/8/9/-,20X1,ramp-then-max,10,1,
+6,2,pump-lift-4x,2,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,22X1,flat,6,2,120-180s
+6,2,pump-lift-4x,2,strength-intensity-2,B Stance Hip Thrust,3,6/6/6,8/9/10,20X1,flat,6,1,120-180s
+6,2,pump-lift-4x,4,strength-intensity-1,Barbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+6,2,pump-lift-4x,4,strength-intensity-2,Lat Pulldown,3,10/10/10,7/8/9,20X1,flat,10,1,
+6,2,pump-lift-4x,5,strength-intensity-1,Back Rack Reverse Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,2,pump-lift-4x,5,strength-intensity-2,Stiff Leg Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,2,pump-lift-5x,1,strength-intensity-1,Stiff Leg Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,2,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,4,10/8/6/max,7/8/9/-,20X1,ramp-then-max,10,1,
+6,2,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,4,12/10/8/max,7/8/9/10,20X1,ramp-then-max,12,1,120-180s
+6,2,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,3,8/8/8,8/9/10,30X0,flat,8,1,120-180s
+6,2,pump-lift-5x,3,strength-intensity-1,Back Squat,3,6/6/6,7/8/9,22X1,flat,6,2,120-180s
+6,2,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,3,6/6/6,8/9/10,20X1,flat,6,1,120-180s
+6,2,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+6,2,pump-lift-5x,5,strength-intensity-2,Back Supported Arnold Press,3,10/10/10,8/9/10,30X0,flat,10,1,120-180s
+6,2,pump-lift-5x,6,strength-intensity-1,Back Rack Reverse Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+6,2,pump-lift-5x,6,strength-intensity-2,Landmine Hack Squat,3,12/12/max,8/9/10,20X1,max-ending,12,1,120-180s
+6,3,minimalist,1,strength-intensity-1,Incline Dumbbell Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,minimalist,2,strength-intensity-1,Cyclist Goblet Squat,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-120s
+6,3,minimalist,4,strength-intensity-1,Seated Dumbbell Filly Press,4,7/7/7/max,7/8/9/10,20X0,max-ending,7,1,120-180s
+6,3,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,3,5/5/5,7/8/9,20X0,flat,5,1,120-180s
+6,3,perform,1,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,20X0,flat,4,3,120-180s
+6,3,perform,2,strength-intensity-1,Incline Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,perform,3,strength-intensity-1,Cyclist Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,2,120-180s
+6,3,perform,5,strength-intensity-1,Seated Filly Press,4,7/7/7/max,7/8/9/10,20X0,max-ending,7,1,120-180s
+6,3,perform,6,strength-intensity-1,Zercher Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,3,pump-condition-3x,1,strength-intensity-1,Incline Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,2,120-180s
+6,3,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,20X0,flat,4,3,120-180s
+6,3,pump-condition-4x,1,strength-intensity-1,Incline Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,2,120-180s
+6,3,pump-condition-4x,4,strength-intensity-1,Seated Filly Press,4,7/7/7/max,7/8/9/10,20X0,max-ending,7,1,120-180s
+6,3,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,20X0,flat,4,3,120-180s
+6,3,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,20X0,flat,4,3,120-180s
+6,3,pump-condition-5x,2,strength-intensity-1,Incline Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,2,120-180s
+6,3,pump-condition-5x,5,strength-intensity-1,Seated Filly Press,4,7/7/7/max,7/8/9/10,20X0,max-ending,7,1,120-180s
+6,3,pump-condition-5x,6,strength-intensity-1,Zercher Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,3,pump-lift-3x,1,strength-intensity-1,Incline Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,pump-lift-3x,1,strength-intensity-2,Pendlay Row,4,9/7/5/max,7/8/9/-,20X1,ramp-then-max,9,1,
+6,3,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,2,120-180s
+6,3,pump-lift-3x,3,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+6,3,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,20X0,flat,4,3,120-180s
+6,3,pump-lift-3x,5,strength-intensity-2,Seated Filly Press,4,7/7/7/max,7/8/9/10,20X0,max-ending,7,1,120-180s
+6,3,pump-lift-4x,1,strength-intensity-1,Incline Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,pump-lift-4x,1,strength-intensity-2,Pendlay Row,4,9/7/5/max,7/8/9/-,20X1,ramp-then-max,9,1,
+6,3,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,2,120-180s
+6,3,pump-lift-4x,2,strength-intensity-2,Barbell Hip Thrust,3,8/8/8,8/9/10,20X1,flat,8,1,120-180s
+6,3,pump-lift-4x,4,strength-intensity-1,Seated Filly Press,4,7/7/7/max,7/8/9/10,20X0,max-ending,7,1,120-180s
+6,3,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+6,3,pump-lift-4x,5,strength-intensity-1,Zercher Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,3,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,3,4/4/4,7/8/9,20X0,flat,4,3,120-180s
+6,3,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,3,4/4/4,7/8/9,20X0,flat,4,3,120-180s
+6,3,pump-lift-5x,1,strength-intensity-2,Pendlay Row,4,9/7/5/max,7/8/9/-,20X1,ramp-then-max,9,1,
+6,3,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,3,pump-lift-5x,2,strength-intensity-2,Narrow Grip Dumbbell Bench Press,3,8/8/8,8/9/10,30X0,flat,8,1,120-180s
+6,3,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,2,120-180s
+6,3,pump-lift-5x,3,strength-intensity-2,Barbell Hip Thrust,3,8/8/8,8/9/10,20X1,flat,8,1,120-180s
+6,3,pump-lift-5x,5,strength-intensity-1,Seated Filly Press,4,7/7/7/max,7/8/9/10,20X0,max-ending,7,1,120-180s
+6,3,pump-lift-5x,5,strength-intensity-2,Half Kneeling Landmine Press,3,7/7/7,8/9/10,30X0,flat,7,1,120-180s
+6,3,pump-lift-5x,6,strength-intensity-1,Zercher Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,3,pump-lift-5x,6,strength-intensity-2,Goblet Squat,3,10/10/max,8/9/10,20X1,max-ending,10,1,120-180s
+6,4,minimalist,1,strength-intensity-1,Dumbbell Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,minimalist,2,strength-intensity-1,Dumbbell Front Squat,3,7/7/7,7/8/9,22X1,flat,7,1,120-180s
+6,4,minimalist,4,strength-intensity-1,Dumbbell Push Press,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+6,4,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,3,9/7/5,7/8/9,31X1,ramp-down,9,1,120-180s
+6,4,perform,1,strength-intensity-1,Stiff Leg Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,4,perform,2,strength-intensity-1,Close Grip Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,perform,3,strength-intensity-1,Back Squat,3,4/4/4,7/8/9,22X1,flat,4,2,120-180s
+6,4,perform,5,strength-intensity-1,Barbell Strict Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+6,4,perform,6,strength-intensity-1,Back Rack Reverse Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,4,pump-condition-3x,1,strength-intensity-1,Close Grip Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,pump-condition-3x,3,strength-intensity-1,Back Squat,3,4/4/4,7/8/9,22X1,flat,4,2,120-180s
+6,4,pump-condition-3x,5,strength-intensity-1,Stiff Leg Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,4,pump-condition-4x,1,strength-intensity-1,Close Grip Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,pump-condition-4x,2,strength-intensity-1,Back Squat,3,4/4/4,7/8/9,22X1,flat,4,2,120-180s
+6,4,pump-condition-4x,4,strength-intensity-1,Barbell Strict Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+6,4,pump-condition-4x,5,strength-intensity-1,Stiff Leg Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,4,pump-condition-5x,1,strength-intensity-1,Stiff Leg Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,4,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,pump-condition-5x,3,strength-intensity-1,Back Squat,3,4/4/4,7/8/9,22X1,flat,4,2,120-180s
+6,4,pump-condition-5x,5,strength-intensity-1,Barbell Strict Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+6,4,pump-condition-5x,6,strength-intensity-1,Back Rack Reverse Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,4,pump-lift-3x,1,strength-intensity-1,Close Grip Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,pump-lift-3x,1,strength-intensity-2,Supinated Bent Over Row,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+6,4,pump-lift-3x,3,strength-intensity-1,Back Squat,3,4/4/4,7/8/9,22X1,flat,4,2,120-180s
+6,4,pump-lift-3x,3,strength-intensity-2,Lat Pulldown,3,8/8/8,7/8/9,20X1,flat,8,1,
+6,4,pump-lift-3x,5,strength-intensity-1,Stiff Leg Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,4,pump-lift-3x,5,strength-intensity-2,Barbell Strict Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+6,4,pump-lift-4x,1,strength-intensity-1,Close Grip Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+6,4,pump-lift-4x,2,strength-intensity-1,Back Squat,3,4/4/4,7/8/9,22X1,flat,4,2,120-180s
+6,4,pump-lift-4x,2,strength-intensity-2,B Stance Hip Thrust,3,7/7/7,8/9/10,20X1,flat,7,1,120-180s
+6,4,pump-lift-4x,4,strength-intensity-1,Barbell Strict Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+6,4,pump-lift-4x,4,strength-intensity-2,Lat Pulldown,3,8/8/8,7/8/9,20X1,flat,8,1,
+6,4,pump-lift-4x,5,strength-intensity-1,Back Rack Reverse Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,4,pump-lift-4x,5,strength-intensity-2,Stiff Leg Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,4,pump-lift-5x,1,strength-intensity-1,Stiff Leg Deadlift,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,4,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,4,12/10/8/max,7/8/9/-,20X1,ramp-then-max,12,1,
+6,4,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+6,4,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,3,6/6/6,8/9/10,30X0,flat,6,1,120-180s
+6,4,pump-lift-5x,3,strength-intensity-1,Back Squat,3,4/4/4,7/8/9,22X1,flat,4,2,120-180s
+6,4,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,3,7/7/7,8/9/10,20X1,flat,7,1,120-180s
+6,4,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+6,4,pump-lift-5x,5,strength-intensity-2,Back Supported Arnold Press,3,8/8/8,8/9/10,30X0,flat,8,1,120-180s
+6,4,pump-lift-5x,6,strength-intensity-1,Back Rack Reverse Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+6,4,pump-lift-5x,6,strength-intensity-2,Landmine Hack Squat,3,10/10/max,8/9/10,20X1,max-ending,10,1,120-180s
+6,5,minimalist,1,strength-intensity-1,Incline Dumbbell Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,minimalist,2,strength-intensity-1,Cyclist Back Squat,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-120s
+6,5,minimalist,4,strength-intensity-1,Seated Dumbbell Filly Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+6,5,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,3,4/4/4,7/8/9,20X0,flat,4,1,120-180s
+6,5,perform,1,strength-intensity-1,Conventional Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+6,5,perform,2,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,perform,3,strength-intensity-1,Cyclist Back Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,2,120-180s
+6,5,perform,5,strength-intensity-1,Seated Filly Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+6,5,perform,6,strength-intensity-1,Zercher Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,5,pump-condition-3x,1,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,2,120-180s
+6,5,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+6,5,pump-condition-4x,1,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,2,120-180s
+6,5,pump-condition-4x,4,strength-intensity-1,Seated Filly Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+6,5,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+6,5,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+6,5,pump-condition-5x,2,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,2,120-180s
+6,5,pump-condition-5x,5,strength-intensity-1,Seated Filly Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+6,5,pump-condition-5x,6,strength-intensity-1,Zercher Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,5,pump-lift-3x,1,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,pump-lift-3x,1,strength-intensity-2,Pendlay Row,4,8/6/4/max,7/8/9/-,20X1,ramp-then-max,8,1,
+6,5,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,2,120-180s
+6,5,pump-lift-3x,3,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+6,5,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+6,5,pump-lift-3x,5,strength-intensity-2,Seated Filly Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+6,5,pump-lift-4x,1,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,pump-lift-4x,1,strength-intensity-2,Pendlay Row,4,8/6/4/max,7/8/9/-,20X1,ramp-then-max,8,1,
+6,5,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,2,120-180s
+6,5,pump-lift-4x,2,strength-intensity-2,Barbell Hip Thrust,3,6/6/6,8/9/10,20X1,flat,6,1,120-180s
+6,5,pump-lift-4x,4,strength-intensity-1,Seated Filly Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+6,5,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+6,5,pump-lift-4x,5,strength-intensity-1,Zercher Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,5,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+6,5,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+6,5,pump-lift-5x,1,strength-intensity-2,Pendlay Row,4,8/6/4/max,7/8/9/-,20X1,ramp-then-max,8,1,
+6,5,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,5,pump-lift-5x,2,strength-intensity-2,Narrow Grip Dumbbell Bench Press,3,6/6/6,8/9/10,30X0,flat,6,1,120-180s
+6,5,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,3,8/6/4,7/8/9,20X1,ramp-down,8,2,120-180s
+6,5,pump-lift-5x,3,strength-intensity-2,Barbell Hip Thrust,3,6/6/6,8/9/10,20X1,flat,6,1,120-180s
+6,5,pump-lift-5x,5,strength-intensity-1,Seated Filly Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+6,5,pump-lift-5x,5,strength-intensity-2,Half Kneeling Landmine Press,3,6/6/6,8/9/10,30X0,flat,6,1,120-180s
+6,5,pump-lift-5x,6,strength-intensity-1,Zercher Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,5,pump-lift-5x,6,strength-intensity-2,Goblet Squat,3,8/8/max,8/9/10,20X1,max-ending,8,1,120-180s
+6,6,minimalist,1,strength-intensity-1,Dumbbell Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,minimalist,2,strength-intensity-1,Dumbbell Front Squat,3,5/5/5,7/8/9,22X1,flat,5,1,120-120s
+6,6,minimalist,4,strength-intensity-1,Dumbbell Push Press,4,8/6/4/max,7/8/9/10,20X0,ramp-then-max,8,1,120-180s
+6,6,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,3,8/6/4,7/8/9,31X1,ramp-down,8,1,120-180s
+6,6,perform,1,strength-intensity-1,Stiff Leg Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+6,6,perform,2,strength-intensity-1,Close Grip Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,perform,3,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,22X1,flat,2,3,120-180s
+6,6,perform,5,strength-intensity-1,Barbell Strict Press,4,6/4/2/max,7/8/9/10,20X0,ramp-then-max,6,1,120-180s
+6,6,perform,6,strength-intensity-1,Back Rack Reverse Lunge,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,6,pump-condition-3x,1,strength-intensity-1,Close Grip Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,pump-condition-3x,3,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,22X1,flat,2,3,120-180s
+6,6,pump-condition-3x,5,strength-intensity-1,Stiff Leg Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+6,6,pump-condition-4x,1,strength-intensity-1,Close Grip Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,pump-condition-4x,2,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,22X1,flat,2,3,120-180s
+6,6,pump-condition-4x,4,strength-intensity-1,Barbell Strict Press,4,6/4/2/max,7/8/9/10,20X0,ramp-then-max,6,1,120-180s
+6,6,pump-condition-4x,5,strength-intensity-1,Stiff Leg Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+6,6,pump-condition-5x,1,strength-intensity-1,Stiff Leg Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+6,6,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,pump-condition-5x,3,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,22X1,flat,2,3,120-180s
+6,6,pump-condition-5x,5,strength-intensity-1,Barbell Strict Press,4,6/4/2/max,7/8/9/10,20X0,ramp-then-max,6,1,120-180s
+6,6,pump-condition-5x,6,strength-intensity-1,Back Rack Reverse Lunge,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,6,pump-lift-3x,1,strength-intensity-1,Close Grip Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,pump-lift-3x,1,strength-intensity-2,Supinated Bent Over Row,4,15/12/10/max,7/8/9/-,20X1,ramp-then-max,15,1,
+6,6,pump-lift-3x,3,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,22X1,flat,2,3,120-180s
+6,6,pump-lift-3x,3,strength-intensity-2,Lat Pulldown,3,6/6/6,7/8/9,20X1,flat,6,1,
+6,6,pump-lift-3x,5,strength-intensity-1,Stiff Leg Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+6,6,pump-lift-3x,5,strength-intensity-2,Barbell Strict Press,4,6/4/2/max,7/8/9/10,20X0,ramp-then-max,6,1,120-180s
+6,6,pump-lift-4x,1,strength-intensity-1,Close Grip Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,4,15/12/10/max,7/8/9/-,20X1,ramp-then-max,15,1,
+6,6,pump-lift-4x,2,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,22X1,flat,2,3,120-180s
+6,6,pump-lift-4x,2,strength-intensity-2,B Stance Hip Thrust,3,8/8/8,8/9/10,20X1,flat,8,1,120-180s
+6,6,pump-lift-4x,4,strength-intensity-1,Barbell Strict Press,4,6/4/2/max,7/8/9/10,20X0,ramp-then-max,6,1,120-180s
+6,6,pump-lift-4x,4,strength-intensity-2,Lat Pulldown,3,6/6/6,7/8/9,20X1,flat,6,1,
+6,6,pump-lift-4x,5,strength-intensity-1,Back Rack Reverse Lunge,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,6,pump-lift-4x,5,strength-intensity-2,Stiff Leg Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+6,6,pump-lift-5x,1,strength-intensity-1,Stiff Leg Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+6,6,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,4,15/12/10/max,7/8/9/-,20X1,ramp-then-max,15,1,
+6,6,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+6,6,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,3,5/5/5,8/9/10,30X0,flat,5,2,120-180s
+6,6,pump-lift-5x,3,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,22X1,flat,2,3,120-180s
+6,6,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,3,8/8/8,8/9/10,20X1,flat,8,1,120-180s
+6,6,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,4,6/4/2/max,7/8/9/10,20X0,ramp-then-max,6,1,120-180s
+6,6,pump-lift-5x,5,strength-intensity-2,Back Supported Arnold Press,3,6/6/6,8/9/10,30X0,flat,6,1,120-180s
+6,6,pump-lift-5x,6,strength-intensity-1,Back Rack Reverse Lunge,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+6,6,pump-lift-5x,6,strength-intensity-2,Landmine Hack Squat,3,8/8/max,8/9/10,20X1,max-ending,8,1,120-180s
+7,1,minimalist,1,strength-intensity-1,Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,1,minimalist,2,strength-intensity-1,1 1/4 Cyclist Goblet Squat,3,8/8/8,7/8/9,20X1,flat,8,1,120-180s
+7,1,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,1,perform,1,strength-intensity-1,Sumo Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+7,1,perform,2,strength-intensity-1,Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+7,1,perform,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+7,1,perform,5,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,1,perform,6,strength-intensity-1,Front Rack Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,1,pump-condition-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+7,1,pump-condition-3x,3,strength-intensity-1,Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+7,1,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+7,1,pump-condition-4x,1,strength-intensity-1,Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+7,1,pump-condition-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+7,1,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,1,pump-condition-4x,5,strength-intensity-1,Sumo Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+7,1,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+7,1,pump-condition-5x,2,strength-intensity-1,Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+7,1,pump-condition-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+7,1,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,1,pump-condition-5x,6,strength-intensity-1,Front Rack Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,1,pump-lift-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+7,1,pump-lift-3x,3,strength-intensity-1,Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+7,1,pump-lift-3x,3,strength-intensity-2,Dumbbell Suitcase Rear Foot Elevated Split Squat,3,10/10/10,8/9/10,30X0,flat,10,1,120-180s
+7,1,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+7,1,pump-lift-3x,5,strength-intensity-2,Seated Dumbbell Press,3,10/10/max,7/8/10,20X0,max-ending,10,1,120-180s
+7,1,pump-lift-4x,1,strength-intensity-1,Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+7,1,pump-lift-4x,1,strength-intensity-2,Seated Dumbbell Press,3,10/10/max,7/8/10,20X0,max-ending,10,1,120-180s
+7,1,pump-lift-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+7,1,pump-lift-4x,2,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,3,10/10/10,8/9/10,30X0,flat,10,1,120-180s
+7,1,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,1,pump-lift-4x,5,strength-intensity-1,Sumo Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+7,1,pump-lift-4x,5,strength-intensity-2,Front Rack Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,1,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+7,1,pump-lift-5x,2,strength-intensity-1,Bench Press,4,10/8/6/max,7/8/9/10,20X1,ramp-then-max,10,1,120-180s
+7,1,pump-lift-5x,2,strength-intensity-2,Seated Dumbbell Press,3,10/10/max,7/8/10,20X0,max-ending,10,1,120-180s
+7,1,pump-lift-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,5/5/5,7/8/9,20X1,flat,5,2,120-180s
+7,1,pump-lift-5x,3,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,3,10/10/10,8/9/10,30X0,flat,10,1,120-180s
+7,1,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,1,pump-lift-5x,5,strength-intensity-2,Barbell Bent Over Row,3,15/12/10,7/8/9,20X1,ramp-down,15,1,
+7,1,pump-lift-5x,6,strength-intensity-1,Front Rack Split Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,1,pump-lift-5x,6,strength-intensity-2,1 1/4 Goblet Cyclist Squat,3,10/10/max,8/9/10,20X1,max-ending,10,1,120-180s
+7,2,minimalist,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,minimalist,2,strength-intensity-1,Goblet Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,2,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,2,perform,1,strength-intensity-1,Deficit Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+7,2,perform,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,perform,3,strength-intensity-1,Back Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,perform,5,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,2,perform,6,strength-intensity-1,Suitcase Walking Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-condition-3x,1,strength-intensity-1,Back Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-condition-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,pump-condition-3x,5,strength-intensity-1,Deficit Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+7,2,pump-condition-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,pump-condition-4x,2,strength-intensity-1,Back Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,2,pump-condition-4x,5,strength-intensity-1,Deficit Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+7,2,pump-condition-5x,1,strength-intensity-1,Deficit Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+7,2,pump-condition-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,pump-condition-5x,3,strength-intensity-1,Back Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,2,pump-condition-5x,6,strength-intensity-1,Suitcase Walking Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-lift-3x,1,strength-intensity-1,Back Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-lift-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,pump-lift-3x,3,strength-intensity-2,Goblet Front Foot Elevated Split Squat,3,10/10/10,8/9/10,20X1,flat,10,1,120-180s
+7,2,pump-lift-3x,5,strength-intensity-1,Deficit Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+7,2,pump-lift-3x,5,strength-intensity-2,Seated Strict Press,4,10/10/10/max,7/8/9/10,20X0,max-ending,10,1,120-180s
+7,2,pump-lift-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,pump-lift-4x,1,strength-intensity-2,Seated Strict Press,4,10/10/10/max,7/8/9/10,20X0,max-ending,10,1,120-180s
+7,2,pump-lift-4x,2,strength-intensity-1,Back Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-lift-4x,2,strength-intensity-2,Goblet Front Foot Elevated Split Squat,3,10/10/10,8/9/10,20X1,flat,10,1,120-180s
+7,2,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,2,pump-lift-4x,5,strength-intensity-1,Deficit Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+7,2,pump-lift-4x,5,strength-intensity-2,Suitcase Walking Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-lift-5x,1,strength-intensity-1,Deficit Deadlift,3,5/5/5,7/8/9,20X0,flat,5,2,120-180s
+7,2,pump-lift-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,15/12/max,7/8/10,20X1,ramp-then-max,15,1,120-180s
+7,2,pump-lift-5x,2,strength-intensity-2,Seated Strict Press,4,10/10/10/max,7/8/9/10,20X0,max-ending,10,1,120-180s
+7,2,pump-lift-5x,3,strength-intensity-1,Back Squat,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-lift-5x,3,strength-intensity-2,Goblet Front Foot Elevated Split Squat,3,10/10/10,8/9/10,20X1,flat,10,1,120-180s
+7,2,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,2,pump-lift-5x,5,strength-intensity-2,Single Arm Dumbbell Row,3,15/12/10,7/8/9,20X1,ramp-down,15,1,
+7,2,pump-lift-5x,6,strength-intensity-1,Suitcase Walking Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,120-180s
+7,2,pump-lift-5x,6,strength-intensity-2,Cyclist Front Squat,3,10/10/10,7/8/9,20X1,flat,10,1,120-180s
+7,3,minimalist,1,strength-intensity-1,Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,3,minimalist,2,strength-intensity-1,1 1/4 Cyclist Goblet Squat,3,7/7/7,7/8/9,20X1,flat,7,1,120-180s
+7,3,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,3,perform,1,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+7,3,perform,2,strength-intensity-1,Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+7,3,perform,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,4/4/4,7/8/9,20X1,flat,4,2,120-180s
+7,3,perform,5,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,3,perform,6,strength-intensity-1,Front Rack Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,3,pump-condition-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,3,4/4/4,7/8/9,20X1,flat,4,2,120-180s
+7,3,pump-condition-3x,3,strength-intensity-1,Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+7,3,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+7,3,pump-condition-4x,1,strength-intensity-1,Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+7,3,pump-condition-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,3,4/4/4,7/8/9,20X1,flat,4,2,120-180s
+7,3,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,3,pump-condition-4x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+7,3,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+7,3,pump-condition-5x,2,strength-intensity-1,Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+7,3,pump-condition-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,4/4/4,7/8/9,20X1,flat,4,2,120-180s
+7,3,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,3,pump-condition-5x,6,strength-intensity-1,Front Rack Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,3,pump-lift-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,3,4/4/4,7/8/9,20X1,flat,4,2,120-180s
+7,3,pump-lift-3x,3,strength-intensity-1,Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+7,3,pump-lift-3x,3,strength-intensity-2,Dumbbell Suitcase Rear Foot Elevated Split Squat,3,8/8/8,8/9/10,30X0,flat,8,1,120-180s
+7,3,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+7,3,pump-lift-3x,5,strength-intensity-2,Seated Dumbbell Press,3,8/8/max,7/8/10,20X0,max-ending,8,1,120-180s
+7,3,pump-lift-4x,1,strength-intensity-1,Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+7,3,pump-lift-4x,1,strength-intensity-2,Seated Dumbbell Press,3,8/8/max,7/8/10,20X0,max-ending,8,1,120-180s
+7,3,pump-lift-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,3,4/4/4,7/8/9,20X1,flat,4,2,120-180s
+7,3,pump-lift-4x,2,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,3,8/8/8,8/9/10,30X0,flat,8,1,120-180s
+7,3,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,3,pump-lift-4x,5,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+7,3,pump-lift-4x,5,strength-intensity-2,Front Rack Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,3,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,3,8/6/4,7/8/9,20X0,ramp-down,8,1,120-180s
+7,3,pump-lift-5x,2,strength-intensity-1,Bench Press,4,8/6/4/max,7/8/9/10,20X1,ramp-then-max,8,1,120-180s
+7,3,pump-lift-5x,2,strength-intensity-2,Seated Dumbbell Press,3,8/8/max,7/8/10,20X0,max-ending,8,1,120-180s
+7,3,pump-lift-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,4/4/4,7/8/9,20X1,flat,4,2,120-180s
+7,3,pump-lift-5x,3,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,3,8/8/8,8/9/10,30X0,flat,8,1,120-180s
+7,3,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,3,pump-lift-5x,5,strength-intensity-2,Barbell Bent Over Row,3,12/10/8,7/8/9,20X1,ramp-down,12,1,
+7,3,pump-lift-5x,6,strength-intensity-1,Front Rack Split Squat,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,3,pump-lift-5x,6,strength-intensity-2,1 1/4 Goblet Cyclist Squat,3,8/8/max,8/9/10,20X1,max-ending,8,1,120-180s
+7,4,minimalist,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,minimalist,2,strength-intensity-1,Goblet Squat,3,18/18/18,7/8/9,20X0,flat,18,1,120-180s
+7,4,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,3,7/7/7,7/8/9,20X0,flat,7,1,120-180s
+7,4,perform,1,strength-intensity-1,Deficit Deadlift,3,4/4/4,7/8/9,20X0,flat,4,2,120-180s
+7,4,perform,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,perform,3,strength-intensity-1,Back Squat,3,12/12/12,7/8/9,20X0,flat,12,1,120-180s
+7,4,perform,5,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,4,perform,6,strength-intensity-1,Suitcase Walking Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,4,pump-condition-3x,1,strength-intensity-1,Back Squat,3,12/12/12,7/8/9,20X0,flat,12,1,120-180s
+7,4,pump-condition-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,pump-condition-3x,5,strength-intensity-1,Deficit Deadlift,3,4/4/4,7/8/9,20X0,flat,4,2,120-180s
+7,4,pump-condition-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,pump-condition-4x,2,strength-intensity-1,Back Squat,3,12/12/12,7/8/9,20X0,flat,12,1,120-180s
+7,4,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,4,pump-condition-4x,5,strength-intensity-1,Deficit Deadlift,3,4/4/4,7/8/9,20X0,flat,4,2,120-180s
+7,4,pump-condition-5x,1,strength-intensity-1,Deficit Deadlift,3,4/4/4,7/8/9,20X0,flat,4,2,120-180s
+7,4,pump-condition-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,pump-condition-5x,3,strength-intensity-1,Back Squat,3,12/12/12,7/8/9,20X0,flat,12,1,120-180s
+7,4,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,4,pump-condition-5x,6,strength-intensity-1,Suitcase Walking Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,4,pump-lift-3x,1,strength-intensity-1,Back Squat,3,12/12/12,7/8/9,20X0,flat,12,1,120-180s
+7,4,pump-lift-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,pump-lift-3x,3,strength-intensity-2,Dumbbell Front Foot Elevated Split Squat,3,8/8/8,8/9/10,20X1,flat,8,1,120-180s
+7,4,pump-lift-3x,5,strength-intensity-1,Deficit Deadlift,3,4/4/4,7/8/9,20X0,flat,4,2,120-180s
+7,4,pump-lift-3x,5,strength-intensity-2,Seated Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+7,4,pump-lift-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,pump-lift-4x,1,strength-intensity-2,Seated Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+7,4,pump-lift-4x,2,strength-intensity-1,Back Squat,3,12/12/12,7/8/9,20X0,flat,12,1,120-180s
+7,4,pump-lift-4x,2,strength-intensity-2,Dumbbell Front Foot Elevated Split Squat,3,8/8/8,8/9/10,20X1,flat,8,1,120-180s
+7,4,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,4,pump-lift-4x,5,strength-intensity-1,Deficit Deadlift,3,4/4/4,7/8/9,20X0,flat,4,2,120-180s
+7,4,pump-lift-4x,5,strength-intensity-2,Suitcase Walking Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,4,pump-lift-5x,1,strength-intensity-1,Deficit Deadlift,3,4/4/4,7/8/9,20X0,flat,4,2,120-180s
+7,4,pump-lift-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,12/10/max,7/8/10,20X1,ramp-then-max,12,1,120-180s
+7,4,pump-lift-5x,2,strength-intensity-2,Seated Strict Press,4,8/8/8/max,7/8/9/10,20X0,max-ending,8,1,120-180s
+7,4,pump-lift-5x,3,strength-intensity-1,Back Squat,3,12/12/12,7/8/9,20X0,flat,12,1,120-180s
+7,4,pump-lift-5x,3,strength-intensity-2,Dumbbell Front Foot Elevated Split Squat,3,8/8/8,8/9/10,20X1,flat,8,1,120-180s
+7,4,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,4,8/8/8/max,7/8/9/10,31X1,max-ending,8,1,120-180s
+7,4,pump-lift-5x,5,strength-intensity-2,Single Arm Dumbbell Row,3,12/10/8,7/8/9,20X1,ramp-down,12,1,
+7,4,pump-lift-5x,6,strength-intensity-1,Suitcase Walking Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,4,pump-lift-5x,6,strength-intensity-2,Cyclist Front Squat,3,8/8/8,7/8/9,20X1,flat,8,1,120-180s
+7,5,minimalist,1,strength-intensity-1,Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,5,minimalist,2,strength-intensity-1,1 1/4 Cyclist Goblet Squat,3,6/6/6,7/8/9,20X1,flat,6,1,120-180s
+7,5,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,5,perform,1,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+7,5,perform,2,strength-intensity-1,Bench Press,4,7/5/3/max,7/8/9/10,20X1,ramp-then-max,7,2,120-180s
+7,5,perform,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,3/3/3,7/8/9,20X1,flat,3,3,120-180s
+7,5,perform,5,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,5,perform,6,strength-intensity-1,Front Rack Split Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,5,pump-condition-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,3,3/3/3,7/8/9,20X1,flat,3,3,120-180s
+7,5,pump-condition-3x,3,strength-intensity-1,Bench Press,4,7/5/3/max,7/8/9/10,20X1,ramp-then-max,7,2,120-180s
+7,5,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+7,5,pump-condition-4x,1,strength-intensity-1,Bench Press,4,7/5/3/max,7/8/9/10,20X1,ramp-then-max,7,2,120-180s
+7,5,pump-condition-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,3,3/3/3,7/8/9,20X1,flat,3,3,120-180s
+7,5,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,5,pump-condition-4x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+7,5,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+7,5,pump-condition-5x,2,strength-intensity-1,Bench Press,4,7/5/3/max,7/8/9/10,20X1,ramp-then-max,7,2,120-180s
+7,5,pump-condition-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,3/3/3,7/8/9,20X1,flat,3,3,120-180s
+7,5,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,5,pump-condition-5x,6,strength-intensity-1,Front Rack Split Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,5,pump-lift-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,3,3/3/3,7/8/9,20X1,flat,3,3,120-180s
+7,5,pump-lift-3x,3,strength-intensity-1,Bench Press,4,7/5/3/max,7/8/9/10,20X1,ramp-then-max,7,2,120-180s
+7,5,pump-lift-3x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Rear Foot Elevated Split Squat,3,6/6/6,8/9/10,30X0,flat,6,1,120-180s
+7,5,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+7,5,pump-lift-3x,5,strength-intensity-2,Seated Dumbbell Press,3,6/6/max,7/8/10,20X0,max-ending,6,1,120-180s
+7,5,pump-lift-4x,1,strength-intensity-1,Bench Press,4,7/5/3/max,7/8/9/10,20X1,ramp-then-max,7,2,120-180s
+7,5,pump-lift-4x,1,strength-intensity-2,Seated Dumbbell Press,3,6/6/max,7/8/10,20X0,max-ending,6,1,120-180s
+7,5,pump-lift-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,3,3/3/3,7/8/9,20X1,flat,3,3,120-180s
+7,5,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Front Rack Rear Foot Elevated Split Squat,3,6/6/6,8/9/10,30X0,flat,6,1,120-180s
+7,5,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,5,pump-lift-4x,5,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+7,5,pump-lift-4x,5,strength-intensity-2,Front Rack Split Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,5,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,3,6/4/2,7/8/9,20X0,ramp-down,6,2,120-180s
+7,5,pump-lift-5x,2,strength-intensity-1,Bench Press,4,7/5/3/max,7/8/9/10,20X1,ramp-then-max,7,2,120-180s
+7,5,pump-lift-5x,2,strength-intensity-2,Seated Dumbbell Press,3,6/6/max,7/8/10,20X0,max-ending,6,1,120-180s
+7,5,pump-lift-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,3,3/3/3,7/8/9,20X1,flat,3,3,120-180s
+7,5,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Rear Foot Elevated Split Squat,3,6/6/6,8/9/10,30X0,flat,6,1,120-180s
+7,5,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+7,5,pump-lift-5x,5,strength-intensity-2,Barbell Bent Over Row,3,10/8/6,7/8/9,20X1,ramp-down,10,1,
+7,5,pump-lift-5x,6,strength-intensity-1,Front Rack Split Squat,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,5,pump-lift-5x,6,strength-intensity-2,1 1/4 Goblet Cyclist Squat,3,6/6/max,8/9/10,20X1,max-ending,6,1,120-180s
+7,6,minimalist,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,minimalist,2,strength-intensity-1,Goblet Squat,3,20/20/20,7/8/9,20X0,flat,20,1,120-180s
+7,6,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,3,8/8/8,7/8/9,20X0,flat,8,1,120-180s
+7,6,perform,1,strength-intensity-1,Deficit Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+7,6,perform,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,perform,3,strength-intensity-1,Back Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,6,perform,5,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,6,perform,6,strength-intensity-1,Suitcase Walking Lunge,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,6,pump-condition-3x,1,strength-intensity-1,Back Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,6,pump-condition-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,pump-condition-3x,5,strength-intensity-1,Deficit Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+7,6,pump-condition-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,pump-condition-4x,2,strength-intensity-1,Back Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,6,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,6,pump-condition-4x,5,strength-intensity-1,Deficit Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+7,6,pump-condition-5x,1,strength-intensity-1,Deficit Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+7,6,pump-condition-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,pump-condition-5x,3,strength-intensity-1,Back Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,6,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,6,pump-condition-5x,6,strength-intensity-1,Suitcase Walking Lunge,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,6,pump-lift-3x,1,strength-intensity-1,Back Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,6,pump-lift-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,pump-lift-3x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Front Foot Elevated Split Squat,3,6/6/6,8/9/10,20X1,flat,6,1,120-180s
+7,6,pump-lift-3x,5,strength-intensity-1,Deficit Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+7,6,pump-lift-3x,5,strength-intensity-2,Seated Strict Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+7,6,pump-lift-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,pump-lift-4x,1,strength-intensity-2,Seated Strict Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+7,6,pump-lift-4x,2,strength-intensity-1,Back Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,6,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Front Rack Front Foot Elevated Split Squat,3,6/6/6,8/9/10,20X1,flat,6,1,120-180s
+7,6,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,6,pump-lift-4x,5,strength-intensity-1,Deficit Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+7,6,pump-lift-4x,5,strength-intensity-2,Suitcase Walking Lunge,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,6,pump-lift-5x,1,strength-intensity-1,Deficit Deadlift,3,3/3/3,7/8/9,20X0,flat,3,3,120-180s
+7,6,pump-lift-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,3,10/8/max,7/8/10,20X1,ramp-then-max,10,1,120-180s
+7,6,pump-lift-5x,2,strength-intensity-2,Seated Strict Press,4,6/6/6/max,7/8/9/10,20X0,max-ending,6,1,120-180s
+7,6,pump-lift-5x,3,strength-intensity-1,Back Squat,3,15/15/15,7/8/9,20X0,flat,15,1,120-180s
+7,6,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Front Foot Elevated Split Squat,3,6/6/6,8/9/10,20X1,flat,6,1,120-180s
+7,6,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+7,6,pump-lift-5x,5,strength-intensity-2,Single Arm Dumbbell Row,3,10/8/6,7/8/9,20X1,ramp-down,10,1,
+7,6,pump-lift-5x,6,strength-intensity-1,Suitcase Walking Lunge,3,6/6/6,7/8/9,20X0,flat,6,1,120-180s
+7,6,pump-lift-5x,6,strength-intensity-2,Cyclist Front Squat,3,6/6/6,7/8/9,20X1,flat,6,1,120-180s
+8,1,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,8/8/8,7/8/9,33X1,flat,8,1,120-180s
+8,1,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,minimalist,5,strength-intensity-1,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,1,perform,1,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,33X1,flat,5,2,120-180s
+8,1,perform,2,strength-intensity-1,Close Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,perform,3,strength-intensity-1,Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,perform,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,1,perform,6,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-condition-3x,1,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,33X1,flat,5,2,120-180s
+8,1,pump-condition-3x,3,strength-intensity-1,Close Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,pump-condition-4x,1,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,33X1,flat,5,2,120-180s
+8,1,pump-condition-4x,2,strength-intensity-1,Close Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,pump-condition-4x,5,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-condition-5x,1,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,33X1,flat,5,2,120-180s
+8,1,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-condition-5x,3,strength-intensity-1,Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,pump-condition-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,1,pump-condition-5x,6,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-lift-3x,1,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,33X1,flat,5,2,120-180s
+8,1,pump-lift-3x,1,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+8,1,pump-lift-3x,3,strength-intensity-1,Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,pump-lift-3x,3,strength-intensity-2,Close Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-lift-3x,5,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,1,pump-lift-4x,1,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,33X1,flat,5,2,120-180s
+8,1,pump-lift-4x,1,strength-intensity-2,Back Rack Reverse Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,75-90s
+8,1,pump-lift-4x,2,strength-intensity-1,Close Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-lift-4x,2,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+8,1,pump-lift-4x,4,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,1,pump-lift-4x,4,strength-intensity-2,Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,pump-lift-4x,5,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-lift-4x,5,strength-intensity-2,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,1,pump-lift-5x,1,strength-intensity-1,Back Squat,3,5/5/5,7/8/9,33X1,flat,5,2,120-180s
+8,1,pump-lift-5x,1,strength-intensity-2,Back Rack Reverse Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,75-90s
+8,1,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,3,10/10/max,8/9/10,21X1,max-ending,10,1,75-90s
+8,1,pump-lift-5x,3,strength-intensity-1,Romanian Deadlift,3,8/8/8,7/8/9,30X0,flat,8,1,120-180s
+8,1,pump-lift-5x,3,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,15/12/10/max,7/8/9/10,20X0,ramp-then-max,15,1,120-180s
+8,1,pump-lift-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,1,pump-lift-5x,5,strength-intensity-2,Landmine Kot Squat,3,12/12/12,8/9/10,30X0,flat,12,2,120-180s
+8,1,pump-lift-5x,6,strength-intensity-1,Barbell Z Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,1,pump-lift-5x,6,strength-intensity-2,Back Supported Dumbbell Arnold Press,3,10/10/max,8/9/10,21X1,max-ending,10,1,120-120s
+8,2,minimalist,1,strength-intensity-1,Dual Dumbbell Front Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,minimalist,2,strength-intensity-1,Dual Dumbbell Arnold Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,3,8/7/6,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,minimalist,5,strength-intensity-1,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+8,2,perform,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,perform,2,strength-intensity-1,Wide Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,perform,3,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,perform,5,strength-intensity-1,Suitcase Short Step Walking Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,2,perform,6,strength-intensity-1,Seated Behind The Neck Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-condition-3x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,pump-condition-3x,3,strength-intensity-1,Wide Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,pump-condition-4x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,pump-condition-4x,2,strength-intensity-1,Wide Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,pump-condition-4x,5,strength-intensity-1,Seated Behind The Neck Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-condition-5x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,pump-condition-5x,2,strength-intensity-1,Wide Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-condition-5x,3,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,pump-condition-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,2,pump-condition-5x,6,strength-intensity-1,Seated Behind The Neck Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-lift-3x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,pump-lift-3x,1,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,4,12/12/12/max,7/8/9/10,20X0,max-ending,12,1,120-180s
+8,2,pump-lift-3x,3,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,pump-lift-3x,3,strength-intensity-2,Wide Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-lift-3x,5,strength-intensity-1,Seated Behind The Neck Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+8,2,pump-lift-4x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,pump-lift-4x,1,strength-intensity-2,Zercher Drop Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,75-90s
+8,2,pump-lift-4x,2,strength-intensity-1,Wide Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,4,12/12/12/max,7/8/9/10,20X0,max-ending,12,1,120-180s
+8,2,pump-lift-4x,4,strength-intensity-1,Suitcase Short Step Walking Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,2,pump-lift-4x,4,strength-intensity-2,Conventional Deadlift,3,8/6/4,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,pump-lift-4x,5,strength-intensity-1,Seated Behind The Neck Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-lift-4x,5,strength-intensity-2,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+8,2,pump-lift-5x,1,strength-intensity-1,Back Squat,3,10/8/6,7/8/9,20X1,ramp-down,10,1,120-180s
+8,2,pump-lift-5x,1,strength-intensity-2,Zercher Drop Lunge,3,10/10/10,7/8/9,20X0,flat,10,1,75-90s
+8,2,pump-lift-5x,2,strength-intensity-1,Wide Grip Bench Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-lift-5x,2,strength-intensity-2,Glute Bridge Alternating Dumbbell Floor Press,3,10/10/max,8/9/10,20X0,max-ending,10,1,75-90s
+8,2,pump-lift-5x,3,strength-intensity-1,Conventional Deadlift,3,8/6/4,7/8/9,30X0,ramp-down,8,1,120-180s
+8,2,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,4,12/12/12/max,7/8/9/10,20X0,max-ending,12,1,120-180s
+8,2,pump-lift-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,3,12/10/8,7/8/9,20X0,ramp-down,12,1,120-180s
+8,2,pump-lift-5x,5,strength-intensity-2,Landmine Hack Squat,2,8/8,9/10,30X0,flat,8,2,120-180s
+8,2,pump-lift-5x,6,strength-intensity-1,Seated Behind The Neck Press,4,8/8/8/max,7/8/9/10,20X1,max-ending,8,1,120-120s
+8,2,pump-lift-5x,6,strength-intensity-2,Half Kneeling Dumbbell/Kettlebell See Saw Press,3,10/10/max,8/9/10,20X0,max-ending,10,1,120-120s
+8,3,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,7/7/7,7/8/9,33X1,flat,7,1,120-180s
+8,3,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,3,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,minimalist,5,strength-intensity-1,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,3,perform,1,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,3,120-180s
+8,3,perform,2,strength-intensity-1,Close Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,3,perform,3,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,perform,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,3,perform,6,strength-intensity-1,Barbell Z Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,3,pump-condition-3x,1,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,3,120-180s
+8,3,pump-condition-3x,3,strength-intensity-1,Close Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,3,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,pump-condition-4x,1,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,3,120-180s
+8,3,pump-condition-4x,2,strength-intensity-1,Close Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,3,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,pump-condition-4x,5,strength-intensity-1,Barbell Z Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,3,pump-condition-5x,1,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,3,120-180s
+8,3,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,3,pump-condition-5x,3,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,pump-condition-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,3,pump-condition-5x,6,strength-intensity-1,Barbell Z Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,3,pump-lift-3x,1,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,3,120-180s
+8,3,pump-lift-3x,1,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+8,3,pump-lift-3x,3,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,pump-lift-3x,3,strength-intensity-2,Close Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,3,pump-lift-3x,5,strength-intensity-1,Barbell Z Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,3,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,3,pump-lift-4x,1,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,3,120-180s
+8,3,pump-lift-4x,1,strength-intensity-2,Back Rack Reverse Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,75-90s
+8,3,pump-lift-4x,2,strength-intensity-1,Close Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,3,pump-lift-4x,2,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+8,3,pump-lift-4x,4,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,3,pump-lift-4x,4,strength-intensity-2,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,pump-lift-4x,5,strength-intensity-1,Barbell Z Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,3,pump-lift-4x,5,strength-intensity-2,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,3,pump-lift-5x,1,strength-intensity-1,Back Squat,3,3/3/3,7/8/9,33X1,flat,3,3,120-180s
+8,3,pump-lift-5x,1,strength-intensity-2,Back Rack Reverse Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,75-90s
+8,3,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,3,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,3,8/8/max,8/9/10,21X1,max-ending,8,1,75-90s
+8,3,pump-lift-5x,3,strength-intensity-1,Romanian Deadlift,3,7/7/7,7/8/9,30X0,flat,7,1,120-180s
+8,3,pump-lift-5x,3,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,12/10/8/max,7/8/9/10,20X0,ramp-then-max,12,1,120-180s
+8,3,pump-lift-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,3,pump-lift-5x,5,strength-intensity-2,Landmine Kot Squat,3,15/15/15,8/9/10,30X0,flat,15,2,120-180s
+8,3,pump-lift-5x,6,strength-intensity-1,Barbell Z Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,3,pump-lift-5x,6,strength-intensity-2,Back Supported Dumbbell Arnold Press,3,8/8/max,8/9/10,21X1,max-ending,8,1,120-120s
+8,4,minimalist,1,strength-intensity-1,Dual Dumbbell Front Squat,3,12/10/8,7/8/9,20X1,ramp-down,12,1,120-180s
+8,4,minimalist,2,strength-intensity-1,Dual Dumbbell Arnold Press,4,10/10/10/max,7/8/9/10,20X1,max-ending,10,1,120-120s
+8,4,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,3,7/6/5,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,minimalist,5,strength-intensity-1,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+8,4,perform,1,strength-intensity-1,Back Squat,3,9/7/5,7/8/9,20X1,ramp-down,9,1,120-180s
+8,4,perform,2,strength-intensity-1,Wide Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,4,perform,3,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,perform,5,strength-intensity-1,Suitcase Short Step Walking Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,4,perform,6,strength-intensity-1,Seated Behind The Neck Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,4,pump-condition-3x,1,strength-intensity-1,Back Squat,3,9/7/5,7/8/9,20X1,ramp-down,9,1,120-180s
+8,4,pump-condition-3x,3,strength-intensity-1,Wide Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,4,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,pump-condition-4x,1,strength-intensity-1,Back Squat,3,9/7/5,7/8/9,20X1,ramp-down,9,1,120-180s
+8,4,pump-condition-4x,2,strength-intensity-1,Wide Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,4,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,pump-condition-4x,5,strength-intensity-1,Seated Behind The Neck Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,4,pump-condition-5x,1,strength-intensity-1,Back Squat,3,9/7/5,7/8/9,20X1,ramp-down,9,1,120-180s
+8,4,pump-condition-5x,2,strength-intensity-1,Wide Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,4,pump-condition-5x,3,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,pump-condition-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,4,pump-condition-5x,6,strength-intensity-1,Seated Behind The Neck Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,4,pump-lift-3x,1,strength-intensity-1,Back Squat,3,9/7/5,7/8/9,20X1,ramp-down,9,1,120-180s
+8,4,pump-lift-3x,1,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,4,10/10/10/max,7/8/9/10,20X0,max-ending,10,1,120-180s
+8,4,pump-lift-3x,3,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,pump-lift-3x,3,strength-intensity-2,Wide Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,4,pump-lift-3x,5,strength-intensity-1,Seated Behind The Neck Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,4,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+8,4,pump-lift-4x,1,strength-intensity-1,Back Squat,3,9/7/5,7/8/9,20X1,ramp-down,9,1,120-180s
+8,4,pump-lift-4x,1,strength-intensity-2,Zercher Drop Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,75-90s
+8,4,pump-lift-4x,2,strength-intensity-1,Wide Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,4,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,4,10/10/10/max,7/8/9/10,20X0,max-ending,10,1,120-180s
+8,4,pump-lift-4x,4,strength-intensity-1,Suitcase Short Step Walking Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,4,pump-lift-4x,4,strength-intensity-2,Conventional Deadlift,3,7/5/3,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,pump-lift-4x,5,strength-intensity-1,Seated Behind The Neck Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,4,pump-lift-4x,5,strength-intensity-2,Pronated Strict Pull Up,6,5/3/2/5/3/2,8/8/8/9/9/9,21X0,other,5,0,
+8,4,pump-lift-5x,1,strength-intensity-1,Back Squat,3,9/7/5,7/8/9,20X1,ramp-down,9,1,120-180s
+8,4,pump-lift-5x,1,strength-intensity-2,Zercher Drop Lunge,3,8/8/8,7/8/9,20X0,flat,8,1,75-90s
+8,4,pump-lift-5x,2,strength-intensity-1,Wide Grip Bench Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,4,pump-lift-5x,2,strength-intensity-2,Glute Bridge Alternating Dumbbell Floor Press,3,8/8/max,8/9/10,20X0,max-ending,8,1,75-90s
+8,4,pump-lift-5x,3,strength-intensity-1,Conventional Deadlift,3,7/5/3,7/8/9,30X0,ramp-down,7,1,120-180s
+8,4,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,4,10/10/10/max,7/8/9/10,20X0,max-ending,10,1,120-180s
+8,4,pump-lift-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,3,10/8/6,7/8/9,20X0,ramp-down,10,1,120-180s
+8,4,pump-lift-5x,5,strength-intensity-2,Landmine Hack Squat,2,10/10,9/10,30X0,flat,10,2,120-180s
+8,4,pump-lift-5x,6,strength-intensity-1,Seated Behind The Neck Press,4,7/7/7/max,7/8/9/10,20X1,max-ending,7,1,120-120s
+8,4,pump-lift-5x,6,strength-intensity-2,Half Kneeling Dumbbell/Kettlebell See Saw Press,3,8/8/max,8/9/10,20X0,max-ending,8,1,120-120s
+8,5,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,3,6/6/6,7/8/9,33X1,flat,6,1,120-180s
+8,5,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,5,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,minimalist,5,strength-intensity-1,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,5,perform,1,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,33X1,flat,2,3,120-180s
+8,5,perform,2,strength-intensity-1,Close Grip Bench Press,4,4/4/4/max,7/8/9/10,20X1,max-ending,4,2,120-120s
+8,5,perform,3,strength-intensity-1,Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,perform,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+8,5,perform,6,strength-intensity-1,Barbell Z Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,5,pump-condition-3x,1,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,33X1,flat,2,3,120-180s
+8,5,pump-condition-3x,3,strength-intensity-1,Close Grip Bench Press,4,4/4/4/max,7/8/9/10,20X1,max-ending,4,2,120-120s
+8,5,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,pump-condition-4x,1,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,33X1,flat,2,3,120-180s
+8,5,pump-condition-4x,2,strength-intensity-1,Close Grip Bench Press,4,4/4/4/max,7/8/9/10,20X1,max-ending,4,2,120-120s
+8,5,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,pump-condition-4x,5,strength-intensity-1,Barbell Z Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,5,pump-condition-5x,1,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,33X1,flat,2,3,120-180s
+8,5,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,4,4/4/4/max,7/8/9/10,20X1,max-ending,4,2,120-120s
+8,5,pump-condition-5x,3,strength-intensity-1,Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,pump-condition-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+8,5,pump-condition-5x,6,strength-intensity-1,Barbell Z Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,5,pump-lift-3x,1,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,33X1,flat,2,3,120-180s
+8,5,pump-lift-3x,1,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+8,5,pump-lift-3x,3,strength-intensity-1,Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,pump-lift-3x,3,strength-intensity-2,Close Grip Bench Press,4,4/4/4/max,7/8/9/10,20X1,max-ending,4,2,120-120s
+8,5,pump-lift-3x,5,strength-intensity-1,Barbell Z Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,5,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,5,pump-lift-4x,1,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,33X1,flat,2,3,120-180s
+8,5,pump-lift-4x,1,strength-intensity-2,Back Rack Reverse Lunge,3,6/6/6,7/8/9,20X0,flat,6,1,75-90s
+8,5,pump-lift-4x,2,strength-intensity-1,Close Grip Bench Press,4,4/4/4/max,7/8/9/10,20X1,max-ending,4,2,120-120s
+8,5,pump-lift-4x,2,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+8,5,pump-lift-4x,4,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+8,5,pump-lift-4x,4,strength-intensity-2,Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,pump-lift-4x,5,strength-intensity-1,Barbell Z Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,5,pump-lift-4x,5,strength-intensity-2,Supinated Strict Pull Up,6,6/6/6/6/6/6,7/7/8/8/9/9,20X0,flat,6,0,
+8,5,pump-lift-5x,1,strength-intensity-1,Back Squat,3,2/2/2,7/8/9,33X1,flat,2,3,120-180s
+8,5,pump-lift-5x,1,strength-intensity-2,Back Rack Reverse Lunge,3,6/6/6,7/8/9,20X0,flat,6,1,75-90s
+8,5,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,4,4/4/4/max,7/8/9/10,20X1,max-ending,4,2,120-120s
+8,5,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,3,6/6/max,8/9/10,21X1,max-ending,6,1,75-90s
+8,5,pump-lift-5x,3,strength-intensity-1,Romanian Deadlift,3,6/6/6,7/8/9,30X0,flat,6,1,120-180s
+8,5,pump-lift-5x,3,strength-intensity-2,Wide Grip Bent Over Barbell Row,4,10/8/6/max,7/8/9/10,20X0,ramp-then-max,10,1,120-180s
+8,5,pump-lift-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,3,9/7/5,7/8/9,20X0,ramp-down,9,1,120-180s
+8,5,pump-lift-5x,5,strength-intensity-2,Landmine Kot Squat,3,20/20/20,8/9/10,30X0,flat,20,2,120-180s
+8,5,pump-lift-5x,6,strength-intensity-1,Barbell Z Press,4,6/6/6/max,7/8/9/10,20X1,max-ending,6,1,120-120s
+8,5,pump-lift-5x,6,strength-intensity-2,Back Supported Dumbbell Arnold Press,3,6/6/max,8/9/10,21X1,max-ending,6,1,120-120s

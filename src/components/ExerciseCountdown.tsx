@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { PauseIcon, PlayIcon, RotateCcwIcon } from "lucide-react";
-import { fmtSeconds } from "../domain/workout";
+import { fmtSeconds } from "../lib/format";
 import { cn } from "../lib/utils";
 import { Button } from "./ui/button";
 

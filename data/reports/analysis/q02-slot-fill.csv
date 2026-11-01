@@ -1,0 +1,1753 @@
+block,week,weekStart,track,day,role,exercise,pattern
+1,3,2026-01-12,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+1,3,2026-01-12,minimalist,2,strength-intensity-1,Dual Dumbbell Sumo Squat,squat
+1,3,2026-01-12,minimalist,4,strength-intensity-1,Dumbbell Z Press,vertical-press
+1,3,2026-01-12,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+1,3,2026-01-12,perform,1,strength-intensity-1,Romanian Deadlift,hinge
+1,3,2026-01-12,perform,2,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,3,2026-01-12,perform,3,strength-intensity-1,Back Squat,squat
+1,3,2026-01-12,perform,5,strength-intensity-1,Barbell Z Press,vertical-press
+1,3,2026-01-12,perform,6,strength-intensity-1,Cyclist Front Squat,squat
+1,3,2026-01-12,pump-condition-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,3,2026-01-12,pump-condition-3x,3,strength-intensity-1,Back Squat,squat
+1,3,2026-01-12,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+1,3,2026-01-12,pump-condition-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,3,2026-01-12,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+1,3,2026-01-12,pump-condition-4x,4,strength-intensity-1,Barbell Z Press,vertical-press
+1,3,2026-01-12,pump-condition-4x,5,strength-intensity-1,Romanian Deadlift,hinge
+1,3,2026-01-12,pump-condition-5x,1,strength-intensity-1,Romanian Deadlift,hinge
+1,3,2026-01-12,pump-condition-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,3,2026-01-12,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+1,3,2026-01-12,pump-condition-5x,5,strength-intensity-1,Barbell Z Press,vertical-press
+1,3,2026-01-12,pump-condition-5x,6,strength-intensity-1,Cyclist Front Squat,squat
+1,3,2026-01-12,pump-lift-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,3,2026-01-12,pump-lift-3x,1,strength-intensity-2,Wide Grip Strict Pull Up,vertical-pull
+1,3,2026-01-12,pump-lift-3x,3,strength-intensity-1,Back Squat,squat
+1,3,2026-01-12,pump-lift-3x,3,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+1,3,2026-01-12,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+1,3,2026-01-12,pump-lift-3x,5,strength-intensity-2,Barbell Z Press,vertical-press
+1,3,2026-01-12,pump-lift-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,3,2026-01-12,pump-lift-4x,1,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+1,3,2026-01-12,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+1,3,2026-01-12,pump-lift-4x,2,strength-intensity-2,Suitcase Knee Over Toe Split Squat,lunge-single-leg
+1,3,2026-01-12,pump-lift-4x,4,strength-intensity-1,Barbell Z Press,vertical-press
+1,3,2026-01-12,pump-lift-4x,4,strength-intensity-2,Wide Grip Strict Pull Up,vertical-pull
+1,3,2026-01-12,pump-lift-4x,5,strength-intensity-1,Cyclist Front Squat,squat
+1,3,2026-01-12,pump-lift-4x,5,strength-intensity-2,Romanian Deadlift,hinge
+1,3,2026-01-12,pump-lift-5x,1,strength-intensity-1,Romanian Deadlift,hinge
+1,3,2026-01-12,pump-lift-5x,1,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+1,3,2026-01-12,pump-lift-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,3,2026-01-12,pump-lift-5x,2,strength-intensity-2,Back Support Dumbbell Arnold Press,vertical-press
+1,3,2026-01-12,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+1,3,2026-01-12,pump-lift-5x,3,strength-intensity-2,Suitcase Knee Over Toe Split Squat,lunge-single-leg
+1,3,2026-01-12,pump-lift-5x,5,strength-intensity-1,Barbell Z Press,vertical-press
+1,3,2026-01-12,pump-lift-5x,5,strength-intensity-2,Wide Grip Strict Pull Up,vertical-pull
+1,3,2026-01-12,pump-lift-5x,6,strength-intensity-1,Cyclist Front Squat,squat
+1,3,2026-01-12,pump-lift-5x,6,strength-intensity-2,Hand Supported Dumbbell Suitcase Box Step Up,lunge-single-leg
+1,4,2026-01-19,minimalist,1,strength-intensity-1,Supinated Grip Dumbbell Bench Press,horizontal-press
+1,4,2026-01-19,minimalist,2,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+1,4,2026-01-19,minimalist,4,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,4,2026-01-19,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,hinge
+1,4,2026-01-19,perform,1,strength-intensity-1,Conventional Deadlift,hinge
+1,4,2026-01-19,perform,2,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,4,2026-01-19,perform,3,strength-intensity-1,Cyclist Back Squat,squat
+1,4,2026-01-19,perform,5,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,4,2026-01-19,perform,5,strength-intensity-2,,
+1,4,2026-01-19,perform,6,strength-intensity-1,Frankenstein Squat,squat
+1,4,2026-01-19,pump-condition-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,4,2026-01-19,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+1,4,2026-01-19,pump-condition-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+1,4,2026-01-19,pump-condition-4x,4,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,hinge
+1,4,2026-01-19,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+1,4,2026-01-19,pump-condition-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,4,2026-01-19,pump-condition-5x,5,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-condition-5x,6,strength-intensity-1,Frankenstein Squat,squat
+1,4,2026-01-19,pump-lift-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-lift-3x,1,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+1,4,2026-01-19,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,4,2026-01-19,pump-lift-3x,3,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+1,4,2026-01-19,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+1,4,2026-01-19,pump-lift-3x,5,strength-intensity-2,Incline Bench Press,horizontal-press
+1,4,2026-01-19,pump-lift-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+1,4,2026-01-19,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+1,4,2026-01-19,pump-lift-4x,2,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,lunge-single-leg
+1,4,2026-01-19,pump-lift-4x,4,strength-intensity-1,Incline Bench Press,horizontal-press
+1,4,2026-01-19,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+1,4,2026-01-19,pump-lift-4x,5,strength-intensity-1,Frankenstein Squat,squat
+1,4,2026-01-19,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,hinge
+1,4,2026-01-19,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+1,4,2026-01-19,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+1,4,2026-01-19,pump-lift-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,4,2026-01-19,pump-lift-5x,2,strength-intensity-2,Half Kneeling Single Arm Dumbbell Strict Press,vertical-press
+1,4,2026-01-19,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,4,2026-01-19,pump-lift-5x,3,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,lunge-single-leg
+1,4,2026-01-19,pump-lift-5x,5,strength-intensity-1,Incline Bench Press,horizontal-press
+1,4,2026-01-19,pump-lift-5x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+1,4,2026-01-19,pump-lift-5x,6,strength-intensity-1,Frankenstein Squat,squat
+1,4,2026-01-19,pump-lift-5x,6,strength-intensity-2,Goblet Lateral Box Step Up,lunge-single-leg
+1,5,2026-01-26,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+1,5,2026-01-26,minimalist,2,strength-intensity-1,Dual Dumbbell Sumo Squat,squat
+1,5,2026-01-26,minimalist,4,strength-intensity-1,Dumbbell Z Press,vertical-press
+1,5,2026-01-26,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+1,5,2026-01-26,perform,1,strength-intensity-1,Romanian Deadlift,hinge
+1,5,2026-01-26,perform,2,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,5,2026-01-26,perform,3,strength-intensity-1,Back Squat,squat
+1,5,2026-01-26,perform,5,strength-intensity-1,Barbell Z Press,vertical-press
+1,5,2026-01-26,perform,6,strength-intensity-1,Cyclist Front Squat,squat
+1,5,2026-01-26,pump-condition-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,5,2026-01-26,pump-condition-3x,3,strength-intensity-1,Back Squat,squat
+1,5,2026-01-26,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+1,5,2026-01-26,pump-condition-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,5,2026-01-26,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+1,5,2026-01-26,pump-condition-4x,4,strength-intensity-1,Barbell Z Press,vertical-press
+1,5,2026-01-26,pump-condition-4x,5,strength-intensity-1,Romanian Deadlift,hinge
+1,5,2026-01-26,pump-condition-5x,1,strength-intensity-1,Romanian Deadlift,hinge
+1,5,2026-01-26,pump-condition-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,5,2026-01-26,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+1,5,2026-01-26,pump-condition-5x,5,strength-intensity-1,Barbell Z Press,vertical-press
+1,5,2026-01-26,pump-condition-5x,6,strength-intensity-1,Cyclist Front Squat,squat
+1,5,2026-01-26,pump-lift-3x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,5,2026-01-26,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+1,5,2026-01-26,pump-lift-3x,3,strength-intensity-1,Back Squat,squat
+1,5,2026-01-26,pump-lift-3x,3,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+1,5,2026-01-26,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+1,5,2026-01-26,pump-lift-3x,5,strength-intensity-2,Barbell Z Press,vertical-press
+1,5,2026-01-26,pump-lift-4x,1,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,5,2026-01-26,pump-lift-4x,1,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+1,5,2026-01-26,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+1,5,2026-01-26,pump-lift-4x,2,strength-intensity-2,Suitcase Knee Over Toe Split Squat,lunge-single-leg
+1,5,2026-01-26,pump-lift-4x,4,strength-intensity-1,Barbell Z Press,vertical-press
+1,5,2026-01-26,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+1,5,2026-01-26,pump-lift-4x,5,strength-intensity-1,Cyclist Front Squat,squat
+1,5,2026-01-26,pump-lift-4x,5,strength-intensity-2,Romanian Deadlift,hinge
+1,5,2026-01-26,pump-lift-5x,1,strength-intensity-1,Romanian Deadlift,hinge
+1,5,2026-01-26,pump-lift-5x,1,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+1,5,2026-01-26,pump-lift-5x,2,strength-intensity-1,Close Grip Barbell Bench Press,horizontal-press
+1,5,2026-01-26,pump-lift-5x,2,strength-intensity-2,Back Support Dumbbell Arnold Press,vertical-press
+1,5,2026-01-26,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+1,5,2026-01-26,pump-lift-5x,3,strength-intensity-2,Suitcase Knee Over Toe Split Squat,lunge-single-leg
+1,5,2026-01-26,pump-lift-5x,5,strength-intensity-1,Barbell Z Press,vertical-press
+1,5,2026-01-26,pump-lift-5x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+1,5,2026-01-26,pump-lift-5x,6,strength-intensity-1,Cyclist Front Squat,squat
+1,5,2026-01-26,pump-lift-5x,6,strength-intensity-2,Hand Supported Dumbbell Suitcase Box Step Up,lunge-single-leg
+1,6,2026-02-02,minimalist,1,strength-intensity-1,Supinated Grip Dumbbell Bench Press,horizontal-press
+1,6,2026-02-02,minimalist,2,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+1,6,2026-02-02,minimalist,4,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,6,2026-02-02,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,hinge
+1,6,2026-02-02,perform,1,strength-intensity-1,Conventional Deadlift,hinge
+1,6,2026-02-02,perform,2,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,6,2026-02-02,perform,3,strength-intensity-1,Cyclist Back Squat,squat
+1,6,2026-02-02,perform,5,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,6,2026-02-02,perform,6,strength-intensity-1,Frankenstein Squat,squat
+1,6,2026-02-02,pump-condition-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,6,2026-02-02,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+1,6,2026-02-02,pump-condition-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+1,6,2026-02-02,pump-condition-4x,4,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,hinge
+1,6,2026-02-02,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+1,6,2026-02-02,pump-condition-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,6,2026-02-02,pump-condition-5x,5,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-condition-5x,6,strength-intensity-1,Frankenstein Squat,squat
+1,6,2026-02-02,pump-lift-3x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-lift-3x,1,strength-intensity-2,Wide Grip Strict Pull Up,vertical-pull
+1,6,2026-02-02,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,6,2026-02-02,pump-lift-3x,3,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+1,6,2026-02-02,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+1,6,2026-02-02,pump-lift-3x,5,strength-intensity-2,Incline Bench Press,horizontal-press
+1,6,2026-02-02,pump-lift-4x,1,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+1,6,2026-02-02,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+1,6,2026-02-02,pump-lift-4x,2,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,lunge-single-leg
+1,6,2026-02-02,pump-lift-4x,4,strength-intensity-1,Incline Bench Press,horizontal-press
+1,6,2026-02-02,pump-lift-4x,4,strength-intensity-2,Wide Grip Strict Pull Up,vertical-pull
+1,6,2026-02-02,pump-lift-4x,5,strength-intensity-1,Frankenstein Squat,squat
+1,6,2026-02-02,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,hinge
+1,6,2026-02-02,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+1,6,2026-02-02,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+1,6,2026-02-02,pump-lift-5x,2,strength-intensity-1,Wide Grip Barbell Bench Press,horizontal-press
+1,6,2026-02-02,pump-lift-5x,2,strength-intensity-2,Half Kneeling Single Arm Dumbbell Strict Press,vertical-press
+1,6,2026-02-02,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+1,6,2026-02-02,pump-lift-5x,3,strength-intensity-2,Kettlebell Front Rack Rear Foot Elevated Split Squat,lunge-single-leg
+1,6,2026-02-02,pump-lift-5x,5,strength-intensity-1,Incline Bench Press,horizontal-press
+1,6,2026-02-02,pump-lift-5x,5,strength-intensity-2,Wide Grip Strict Pull Up,vertical-pull
+1,6,2026-02-02,pump-lift-5x,6,strength-intensity-1,Frankenstein Squat,squat
+1,6,2026-02-02,pump-lift-5x,6,strength-intensity-2,Goblet Lateral Box Step Up,lunge-single-leg
+2,1,2026-02-09,minimalist,1,strength-intensity-1,Half Kneeling Dumbbell Press,vertical-press
+2,1,2026-02-09,minimalist,2,strength-intensity-1,Dumbbell Sumo Deadlift,hinge
+2,1,2026-02-09,minimalist,4,strength-intensity-1,Dumbbell Narrow Grip Bench Press,horizontal-press
+2,1,2026-02-09,minimalist,5,strength-intensity-1,Dumbbell Front Squat,squat
+2,1,2026-02-09,perform,1,strength-intensity-1,Sumo Deadlift,hinge
+2,1,2026-02-09,perform,2,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,1,2026-02-09,perform,3,strength-intensity-1,Back Squat,squat
+2,1,2026-02-09,perform,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,1,2026-02-09,perform,6,strength-intensity-1,Goblet Squat,squat
+2,1,2026-02-09,pump-condition-3x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,1,2026-02-09,pump-condition-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,1,2026-02-09,pump-condition-3x,5,strength-intensity-1,Back Squat,squat
+2,1,2026-02-09,pump-condition-4x,1,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,1,2026-02-09,pump-condition-4x,2,strength-intensity-1,Sumo Deadlift,hinge
+2,1,2026-02-09,pump-condition-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,1,2026-02-09,pump-condition-4x,5,strength-intensity-1,Back Squat,squat
+2,1,2026-02-09,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,1,2026-02-09,pump-condition-5x,2,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,1,2026-02-09,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+2,1,2026-02-09,pump-condition-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,1,2026-02-09,pump-condition-5x,6,strength-intensity-1,Goblet Squat,squat
+2,1,2026-02-09,pump-lift-3x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,1,2026-02-09,pump-lift-3x,1,strength-intensity-2,Half Kneeling Landmine Press,vertical-press
+2,1,2026-02-09,pump-lift-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,1,2026-02-09,pump-lift-3x,3,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,1,2026-02-09,pump-lift-3x,5,strength-intensity-1,Back Squat,squat
+2,1,2026-02-09,pump-lift-3x,5,strength-intensity-2,Pendlay Row,horizontal-pull
+2,1,2026-02-09,pump-lift-4x,1,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,1,2026-02-09,pump-lift-4x,1,strength-intensity-2,1 1/4 Dumbbell Bench Press,horizontal-press
+2,1,2026-02-09,pump-lift-4x,2,strength-intensity-1,Sumo Deadlift,hinge
+2,1,2026-02-09,pump-lift-4x,2,strength-intensity-2,Pendlay Row,horizontal-pull
+2,1,2026-02-09,pump-lift-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,1,2026-02-09,pump-lift-4x,4,strength-intensity-2,,
+2,1,2026-02-09,pump-lift-4x,5,strength-intensity-1,Back Squat,squat
+2,1,2026-02-09,pump-lift-4x,5,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,1,2026-02-09,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,1,2026-02-09,pump-lift-5x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+2,1,2026-02-09,pump-lift-5x,2,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,1,2026-02-09,pump-lift-5x,2,strength-intensity-2,1 1/4 Dumbbell Bench Press,horizontal-press
+2,1,2026-02-09,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+2,1,2026-02-09,pump-lift-5x,3,strength-intensity-2,1 1/4 Barbell Hip Thrust,hinge
+2,1,2026-02-09,pump-lift-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,1,2026-02-09,pump-lift-5x,5,strength-intensity-2,,
+2,1,2026-02-09,pump-lift-5x,6,strength-intensity-1,Goblet Squat,squat
+2,2,2026-02-16,minimalist,1,strength-intensity-1,Seated Dumbbell Filly Press,vertical-press
+2,2,2026-02-16,minimalist,2,strength-intensity-1,Dumbbell Split Stance Romanian Deadlift,hinge
+2,2,2026-02-16,minimalist,4,strength-intensity-1,Dumbbell Floor Press,horizontal-press
+2,2,2026-02-16,minimalist,5,strength-intensity-1,1 1/4 Goblet Squat,squat
+2,2,2026-02-16,perform,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,2,2026-02-16,perform,2,strength-intensity-1,Seated Filly Press,vertical-press
+2,2,2026-02-16,perform,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,2,2026-02-16,perform,5,strength-intensity-1,Floor Press,horizontal-press
+2,2,2026-02-16,perform,6,strength-intensity-1,Dumbbell Zercher Good Morning,hinge
+2,2,2026-02-16,pump-condition-3x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,2,2026-02-16,pump-condition-3x,3,strength-intensity-1,Floor Press,horizontal-press
+2,2,2026-02-16,pump-condition-3x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,2,2026-02-16,pump-condition-4x,1,strength-intensity-1,Seated Filly Press,vertical-press
+2,2,2026-02-16,pump-condition-4x,2,strength-intensity-1,Split Stance Deadlift,hinge
+2,2,2026-02-16,pump-condition-4x,4,strength-intensity-1,Floor Press,horizontal-press
+2,2,2026-02-16,pump-condition-4x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,2,2026-02-16,pump-condition-5x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,2,2026-02-16,pump-condition-5x,2,strength-intensity-1,Seated Filly Press,vertical-press
+2,2,2026-02-16,pump-condition-5x,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,2,2026-02-16,pump-condition-5x,5,strength-intensity-1,Floor Press,horizontal-press
+2,2,2026-02-16,pump-condition-5x,6,strength-intensity-1,Dumbbell Zercher Good Morning,hinge
+2,2,2026-02-16,pump-lift-3x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,2,2026-02-16,pump-lift-3x,1,strength-intensity-2,Seated Filly Press,vertical-press
+2,2,2026-02-16,pump-lift-3x,3,strength-intensity-1,Floor Press,horizontal-press
+2,2,2026-02-16,pump-lift-3x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+2,2,2026-02-16,pump-lift-3x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,2,2026-02-16,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+2,2,2026-02-16,pump-lift-4x,1,strength-intensity-1,Seated Filly Press,vertical-press
+2,2,2026-02-16,pump-lift-4x,1,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+2,2,2026-02-16,pump-lift-4x,2,strength-intensity-1,Split Stance Deadlift,hinge
+2,2,2026-02-16,pump-lift-4x,2,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+2,2,2026-02-16,pump-lift-4x,4,strength-intensity-1,Floor Press,horizontal-press
+2,2,2026-02-16,pump-lift-4x,4,strength-intensity-2,Strict Bar Dip,horizontal-press
+2,2,2026-02-16,pump-lift-4x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,2,2026-02-16,pump-lift-4x,5,strength-intensity-2,B Stance Hip Thrust,hinge
+2,2,2026-02-16,pump-lift-5x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,2,2026-02-16,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+2,2,2026-02-16,pump-lift-5x,2,strength-intensity-1,Seated Filly Press,vertical-press
+2,2,2026-02-16,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+2,2,2026-02-16,pump-lift-5x,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,2,2026-02-16,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+2,2,2026-02-16,pump-lift-5x,5,strength-intensity-1,Floor Press,horizontal-press
+2,2,2026-02-16,pump-lift-5x,5,strength-intensity-2,Strict Bar Dip,horizontal-press
+2,2,2026-02-16,pump-lift-5x,6,strength-intensity-1,Dumbbell Zercher Good Morning,hinge
+2,3,2026-02-23,minimalist,1,strength-intensity-1,Dumbbell Push Press,vertical-press
+2,3,2026-02-23,minimalist,2,strength-intensity-1,Dumbbell Sumo Deadlift,hinge
+2,3,2026-02-23,minimalist,4,strength-intensity-1,Dumbbell Narrow Grip Bench Press,horizontal-press
+2,3,2026-02-23,minimalist,5,strength-intensity-1,Dumbbell Front Squat,squat
+2,3,2026-02-23,perform,1,strength-intensity-1,Sumo Deadlift,hinge
+2,3,2026-02-23,perform,2,strength-intensity-1,Strict Press,vertical-press
+2,3,2026-02-23,perform,3,strength-intensity-1,Back Squat,squat
+2,3,2026-02-23,perform,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,3,2026-02-23,perform,6,strength-intensity-1,Goblet Cyclist Squat,squat
+2,3,2026-02-23,pump-condition-3x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,3,2026-02-23,pump-condition-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,3,2026-02-23,pump-condition-3x,5,strength-intensity-1,Back Squat,squat
+2,3,2026-02-23,pump-condition-4x,1,strength-intensity-1,Strict Press,vertical-press
+2,3,2026-02-23,pump-condition-4x,2,strength-intensity-1,Sumo Deadlift,hinge
+2,3,2026-02-23,pump-condition-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,3,2026-02-23,pump-condition-4x,5,strength-intensity-1,Back Squat,squat
+2,3,2026-02-23,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,3,2026-02-23,pump-condition-5x,2,strength-intensity-1,Strict Press,vertical-press
+2,3,2026-02-23,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+2,3,2026-02-23,pump-condition-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,3,2026-02-23,pump-condition-5x,6,strength-intensity-1,Goblet Cyclist Squat,squat
+2,3,2026-02-23,pump-lift-3x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,3,2026-02-23,pump-lift-3x,1,strength-intensity-2,Strict Press,vertical-press
+2,3,2026-02-23,pump-lift-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,3,2026-02-23,pump-lift-3x,3,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,3,2026-02-23,pump-lift-3x,5,strength-intensity-1,Back Squat,squat
+2,3,2026-02-23,pump-lift-3x,5,strength-intensity-2,Pendlay Row,horizontal-pull
+2,3,2026-02-23,pump-lift-4x,1,strength-intensity-1,Strict Press,vertical-press
+2,3,2026-02-23,pump-lift-4x,1,strength-intensity-2,Single Arm Dumbbell Bench Press,horizontal-press
+2,3,2026-02-23,pump-lift-4x,2,strength-intensity-1,Sumo Deadlift,hinge
+2,3,2026-02-23,pump-lift-4x,2,strength-intensity-2,Pendlay Row,horizontal-pull
+2,3,2026-02-23,pump-lift-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,3,2026-02-23,pump-lift-4x,4,strength-intensity-2,,
+2,3,2026-02-23,pump-lift-4x,5,strength-intensity-1,Back Squat,squat
+2,3,2026-02-23,pump-lift-4x,5,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,3,2026-02-23,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,3,2026-02-23,pump-lift-5x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+2,3,2026-02-23,pump-lift-5x,2,strength-intensity-1,Strict Press,vertical-press
+2,3,2026-02-23,pump-lift-5x,2,strength-intensity-2,Single Arm Dumbbell Bench Press,horizontal-press
+2,3,2026-02-23,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+2,3,2026-02-23,pump-lift-5x,3,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,3,2026-02-23,pump-lift-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,3,2026-02-23,pump-lift-5x,5,strength-intensity-2,,
+2,3,2026-02-23,pump-lift-5x,6,strength-intensity-1,Goblet Cyclist Squat,squat
+2,4,2026-03-02,minimalist,1,strength-intensity-1,Half Kneeling Dumbbell Press,vertical-press
+2,4,2026-03-02,minimalist,2,strength-intensity-1,Dumbbell Split Stance Romanian Deadlift,hinge
+2,4,2026-03-02,minimalist,4,strength-intensity-1,Dumbbell Floor Press,horizontal-press
+2,4,2026-03-02,minimalist,5,strength-intensity-1,1 1/4 Goblet Squat,squat
+2,4,2026-03-02,perform,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,4,2026-03-02,perform,2,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,4,2026-03-02,perform,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,4,2026-03-02,perform,5,strength-intensity-1,Floor Press,horizontal-press
+2,4,2026-03-02,perform,6,strength-intensity-1,Dumbbell Front Squat,squat
+2,4,2026-03-02,pump-condition-3x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,4,2026-03-02,pump-condition-3x,3,strength-intensity-1,Floor Press,horizontal-press
+2,4,2026-03-02,pump-condition-3x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,4,2026-03-02,pump-condition-4x,1,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,4,2026-03-02,pump-condition-4x,2,strength-intensity-1,Split Stance Deadlift,hinge
+2,4,2026-03-02,pump-condition-4x,4,strength-intensity-1,Floor Press,horizontal-press
+2,4,2026-03-02,pump-condition-4x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,4,2026-03-02,pump-condition-5x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,4,2026-03-02,pump-condition-5x,2,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,4,2026-03-02,pump-condition-5x,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,4,2026-03-02,pump-condition-5x,5,strength-intensity-1,Floor Press,horizontal-press
+2,4,2026-03-02,pump-condition-5x,6,strength-intensity-1,Dumbbell Front Squat,squat
+2,4,2026-03-02,pump-lift-3x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,4,2026-03-02,pump-lift-3x,1,strength-intensity-2,Half Kneeling Landmine Press,vertical-press
+2,4,2026-03-02,pump-lift-3x,3,strength-intensity-1,Floor Press,horizontal-press
+2,4,2026-03-02,pump-lift-3x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+2,4,2026-03-02,pump-lift-3x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,4,2026-03-02,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+2,4,2026-03-02,pump-lift-4x,1,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,4,2026-03-02,pump-lift-4x,1,strength-intensity-2,1 1/4 Dumbbell Bench Press,horizontal-press
+2,4,2026-03-02,pump-lift-4x,2,strength-intensity-1,Split Stance Deadlift,hinge
+2,4,2026-03-02,pump-lift-4x,2,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+2,4,2026-03-02,pump-lift-4x,4,strength-intensity-1,Floor Press,horizontal-press
+2,4,2026-03-02,pump-lift-4x,4,strength-intensity-2,Strict Bar Dip,horizontal-press
+2,4,2026-03-02,pump-lift-4x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,4,2026-03-02,pump-lift-4x,5,strength-intensity-2,B Stance Hip Thrust,hinge
+2,4,2026-03-02,pump-lift-5x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,4,2026-03-02,pump-lift-5x,1,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+2,4,2026-03-02,pump-lift-5x,2,strength-intensity-1,Half Kneeling Landmine Press,vertical-press
+2,4,2026-03-02,pump-lift-5x,2,strength-intensity-2,1 1/4 Dumbbell Bench Press,horizontal-press
+2,4,2026-03-02,pump-lift-5x,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,4,2026-03-02,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+2,4,2026-03-02,pump-lift-5x,5,strength-intensity-1,Floor Press,horizontal-press
+2,4,2026-03-02,pump-lift-5x,5,strength-intensity-2,Strict Bar Dip,horizontal-press
+2,4,2026-03-02,pump-lift-5x,6,strength-intensity-1,Dumbbell Front Squat,squat
+2,5,2026-03-09,minimalist,1,strength-intensity-1,Seated Dumbbell Filly Press,vertical-press
+2,5,2026-03-09,minimalist,2,strength-intensity-1,Dumbbell Sumo Deadlift,hinge
+2,5,2026-03-09,minimalist,4,strength-intensity-1,Dumbbell Narrow Grip Bench Press,horizontal-press
+2,5,2026-03-09,minimalist,5,strength-intensity-1,Dumbbell Front Squat,squat
+2,5,2026-03-09,perform,1,strength-intensity-1,Sumo Deadlift,hinge
+2,5,2026-03-09,perform,2,strength-intensity-1,Seated Filly Press,vertical-press
+2,5,2026-03-09,perform,3,strength-intensity-1,Back Squat,squat
+2,5,2026-03-09,perform,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,5,2026-03-09,perform,6,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+2,5,2026-03-09,pump-condition-3x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,5,2026-03-09,pump-condition-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,5,2026-03-09,pump-condition-3x,5,strength-intensity-1,Back Squat,squat
+2,5,2026-03-09,pump-condition-4x,1,strength-intensity-1,Seated Filly Press,vertical-press
+2,5,2026-03-09,pump-condition-4x,2,strength-intensity-1,Sumo Deadlift,hinge
+2,5,2026-03-09,pump-condition-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,5,2026-03-09,pump-condition-4x,5,strength-intensity-1,Back Squat,squat
+2,5,2026-03-09,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,5,2026-03-09,pump-condition-5x,2,strength-intensity-1,Seated Filly Press,vertical-press
+2,5,2026-03-09,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+2,5,2026-03-09,pump-condition-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,5,2026-03-09,pump-condition-5x,6,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+2,5,2026-03-09,pump-lift-3x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,5,2026-03-09,pump-lift-3x,1,strength-intensity-2,Seated Filly Press,vertical-press
+2,5,2026-03-09,pump-lift-3x,3,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,5,2026-03-09,pump-lift-3x,3,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,5,2026-03-09,pump-lift-3x,5,strength-intensity-1,Back Squat,squat
+2,5,2026-03-09,pump-lift-3x,5,strength-intensity-2,Pendlay Row,horizontal-pull
+2,5,2026-03-09,pump-lift-4x,1,strength-intensity-1,Seated Filly Press,vertical-press
+2,5,2026-03-09,pump-lift-4x,1,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+2,5,2026-03-09,pump-lift-4x,2,strength-intensity-1,Sumo Deadlift,hinge
+2,5,2026-03-09,pump-lift-4x,2,strength-intensity-2,Pendlay Row,horizontal-pull
+2,5,2026-03-09,pump-lift-4x,4,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,5,2026-03-09,pump-lift-4x,4,strength-intensity-2,,
+2,5,2026-03-09,pump-lift-4x,5,strength-intensity-1,Back Squat,squat
+2,5,2026-03-09,pump-lift-4x,5,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,5,2026-03-09,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+2,5,2026-03-09,pump-lift-5x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+2,5,2026-03-09,pump-lift-5x,2,strength-intensity-1,Seated Filly Press,vertical-press
+2,5,2026-03-09,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+2,5,2026-03-09,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+2,5,2026-03-09,pump-lift-5x,3,strength-intensity-2,1 1/4 Hip Thrust,hinge
+2,5,2026-03-09,pump-lift-5x,5,strength-intensity-1,1 1/4 Close Grip Bench Press,horizontal-press
+2,5,2026-03-09,pump-lift-5x,5,strength-intensity-2,,
+2,5,2026-03-09,pump-lift-5x,6,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+2,6,2026-03-16,minimalist,1,strength-intensity-1,Dumbbell Push Press,vertical-press
+2,6,2026-03-16,minimalist,2,strength-intensity-1,Dumbbell Split Stance Deadlift,hinge
+2,6,2026-03-16,minimalist,4,strength-intensity-1,Dumbbell Floor Press,horizontal-press
+2,6,2026-03-16,minimalist,5,strength-intensity-1,1 1/4 Goblet Squat,squat
+2,6,2026-03-16,perform,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,6,2026-03-16,perform,2,strength-intensity-1,Strict Press,vertical-press
+2,6,2026-03-16,perform,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,6,2026-03-16,perform,5,strength-intensity-1,Floor Press,horizontal-press
+2,6,2026-03-16,perform,6,strength-intensity-1,Dumbbell Cyclist Front Squat,squat
+2,6,2026-03-16,pump-condition-3x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,6,2026-03-16,pump-condition-3x,3,strength-intensity-1,Floor Press,horizontal-press
+2,6,2026-03-16,pump-condition-3x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,6,2026-03-16,pump-condition-4x,1,strength-intensity-1,Strict Press,vertical-press
+2,6,2026-03-16,pump-condition-4x,2,strength-intensity-1,Split Stance Deadlift,hinge
+2,6,2026-03-16,pump-condition-4x,4,strength-intensity-1,Floor Press,horizontal-press
+2,6,2026-03-16,pump-condition-4x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,6,2026-03-16,pump-condition-5x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,6,2026-03-16,pump-condition-5x,2,strength-intensity-1,Strict Press,vertical-press
+2,6,2026-03-16,pump-condition-5x,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,6,2026-03-16,pump-condition-5x,5,strength-intensity-1,Floor Press,horizontal-press
+2,6,2026-03-16,pump-condition-5x,6,strength-intensity-1,Dumbbell Cyclist Front Squat,squat
+2,6,2026-03-16,pump-lift-3x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,6,2026-03-16,pump-lift-3x,1,strength-intensity-2,Strict Press,vertical-press
+2,6,2026-03-16,pump-lift-3x,3,strength-intensity-1,Floor Press,horizontal-press
+2,6,2026-03-16,pump-lift-3x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+2,6,2026-03-16,pump-lift-3x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,6,2026-03-16,pump-lift-3x,5,strength-intensity-2,Neutral Grip Pull Up,vertical-pull
+2,6,2026-03-16,pump-lift-4x,1,strength-intensity-1,Strict Press,vertical-press
+2,6,2026-03-16,pump-lift-4x,1,strength-intensity-2,Single Arm Dumbbell Bench Press,horizontal-press
+2,6,2026-03-16,pump-lift-4x,2,strength-intensity-1,Split Stance Deadlift,hinge
+2,6,2026-03-16,pump-lift-4x,2,strength-intensity-2,Neutral Grip Pull Up,vertical-pull
+2,6,2026-03-16,pump-lift-4x,4,strength-intensity-1,Floor Press,horizontal-press
+2,6,2026-03-16,pump-lift-4x,4,strength-intensity-2,Strict Bar Dip,horizontal-press
+2,6,2026-03-16,pump-lift-4x,5,strength-intensity-1,1 1/4 Back Squat,squat
+2,6,2026-03-16,pump-lift-4x,5,strength-intensity-2,B Stance Hip Thrust,hinge
+2,6,2026-03-16,pump-lift-5x,1,strength-intensity-1,Split Stance Deadlift,hinge
+2,6,2026-03-16,pump-lift-5x,1,strength-intensity-2,Neutral Grip Pull Up,vertical-pull
+2,6,2026-03-16,pump-lift-5x,2,strength-intensity-1,Strict Press,vertical-press
+2,6,2026-03-16,pump-lift-5x,2,strength-intensity-2,Single Arm Dumbbell Bench Press,horizontal-press
+2,6,2026-03-16,pump-lift-5x,3,strength-intensity-1,1 1/4 Back Squat,squat
+2,6,2026-03-16,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+2,6,2026-03-16,pump-lift-5x,5,strength-intensity-1,Floor Press,horizontal-press
+2,6,2026-03-16,pump-lift-5x,5,strength-intensity-2,Strict Bar Dip,horizontal-press
+2,6,2026-03-16,pump-lift-5x,6,strength-intensity-1,Dumbbell Cyclist Front Squat,squat
+3,1,2026-03-23,minimalist,1,strength-intensity-1,Dumbbell Suitcase Split Squat,lunge-single-leg
+3,1,2026-03-23,minimalist,2,strength-intensity-1,Dumbbell Alternating Z Press,vertical-press
+3,1,2026-03-23,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,1,2026-03-23,minimalist,5,strength-intensity-1,Dumbbell Incline Bench Press,horizontal-press
+3,1,2026-03-23,perform,1,strength-intensity-1,Front Squat,squat
+3,1,2026-03-23,perform,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,1,2026-03-23,perform,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,1,2026-03-23,perform,5,strength-intensity-1,Conventional Deadlift,hinge
+3,1,2026-03-23,perform,6,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,1,2026-03-23,pump-condition-3x,1,strength-intensity-1,Front Squat,squat
+3,1,2026-03-23,pump-condition-3x,3,strength-intensity-1,Barbell Z Press,vertical-press
+3,1,2026-03-23,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,1,2026-03-23,pump-condition-4x,1,strength-intensity-1,Front Squat,squat
+3,1,2026-03-23,pump-condition-4x,2,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,1,2026-03-23,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+3,1,2026-03-23,pump-condition-4x,5,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,1,2026-03-23,pump-condition-5x,1,strength-intensity-1,Front Squat,squat
+3,1,2026-03-23,pump-condition-5x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,1,2026-03-23,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,1,2026-03-23,pump-condition-5x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,1,2026-03-23,pump-condition-5x,6,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,1,2026-03-23,pump-lift-3x,1,strength-intensity-1,Front Squat,squat
+3,1,2026-03-23,pump-lift-3x,1,strength-intensity-2,Supinated Lat Pulldown,vertical-pull
+3,1,2026-03-23,pump-lift-3x,3,strength-intensity-1,Barbell Z Press,vertical-press
+3,1,2026-03-23,pump-lift-3x,3,strength-intensity-2,Wide Grip Barbell Row,horizontal-pull
+3,1,2026-03-23,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,1,2026-03-23,pump-lift-3x,5,strength-intensity-2,Barbell Incline Bench Press,horizontal-press
+3,1,2026-03-23,pump-lift-4x,1,strength-intensity-1,Front Squat,squat
+3,1,2026-03-23,pump-lift-4x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,hinge
+3,1,2026-03-23,pump-lift-4x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,1,2026-03-23,pump-lift-4x,2,strength-intensity-2,Wide Grip Barbell Row,horizontal-pull
+3,1,2026-03-23,pump-lift-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+3,1,2026-03-23,pump-lift-4x,4,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+3,1,2026-03-23,pump-lift-4x,5,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,1,2026-03-23,pump-lift-4x,5,strength-intensity-2,Barbell Incline Bench Press,horizontal-press
+3,1,2026-03-23,pump-lift-5x,1,strength-intensity-1,Front Squat,squat
+3,1,2026-03-23,pump-lift-5x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,hinge
+3,1,2026-03-23,pump-lift-5x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,1,2026-03-23,pump-lift-5x,2,strength-intensity-2,Dumbbell Bench Press,horizontal-press
+3,1,2026-03-23,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,1,2026-03-23,pump-lift-5x,3,strength-intensity-2,Wide Grip Barbell Row,horizontal-pull
+3,1,2026-03-23,pump-lift-5x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,1,2026-03-23,pump-lift-5x,5,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+3,1,2026-03-23,pump-lift-5x,6,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,1,2026-03-23,pump-lift-5x,6,strength-intensity-2,Half Kneeling Single Arm Arnold Press,vertical-press
+3,2,2026-03-30,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+3,2,2026-03-30,minimalist,2,strength-intensity-1,Dumbbell Push Press,vertical-press
+3,2,2026-03-30,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+3,2,2026-03-30,minimalist,5,strength-intensity-1,Single Arm Dumbbell Bench Press,horizontal-press
+3,2,2026-03-30,perform,1,strength-intensity-1,Cyclist Front Squat,squat
+3,2,2026-03-30,perform,2,strength-intensity-1,Push Press,vertical-press
+3,2,2026-03-30,perform,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,2,2026-03-30,perform,5,strength-intensity-1,Romanian Deadlift,hinge
+3,2,2026-03-30,perform,6,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,2,2026-03-30,pump-condition-3x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,2,2026-03-30,pump-condition-3x,3,strength-intensity-1,Push Press,vertical-press
+3,2,2026-03-30,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,2,2026-03-30,pump-condition-4x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,2,2026-03-30,pump-condition-4x,2,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,2,2026-03-30,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+3,2,2026-03-30,pump-condition-4x,5,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,2,2026-03-30,pump-condition-5x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,2,2026-03-30,pump-condition-5x,2,strength-intensity-1,Push Press,vertical-press
+3,2,2026-03-30,pump-condition-5x,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,2,2026-03-30,pump-condition-5x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,2,2026-03-30,pump-condition-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,2,2026-03-30,pump-lift-3x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,2,2026-03-30,pump-lift-3x,1,strength-intensity-2,Close Grip Lat Pulldown,vertical-pull
+3,2,2026-03-30,pump-lift-3x,3,strength-intensity-1,Push Press,vertical-press
+3,2,2026-03-30,pump-lift-3x,3,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+3,2,2026-03-30,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,2,2026-03-30,pump-lift-3x,5,strength-intensity-2,Low Incline Barbell Bench Press,horizontal-press
+3,2,2026-03-30,pump-lift-4x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,2,2026-03-30,pump-lift-4x,1,strength-intensity-2,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,2,2026-03-30,pump-lift-4x,2,strength-intensity-1,Push Press,vertical-press
+3,2,2026-03-30,pump-lift-4x,2,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+3,2,2026-03-30,pump-lift-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+3,2,2026-03-30,pump-lift-4x,4,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+3,2,2026-03-30,pump-lift-4x,5,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,2,2026-03-30,pump-lift-4x,5,strength-intensity-2,Low Incline Barbell Bench Press,horizontal-press
+3,2,2026-03-30,pump-lift-5x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,2,2026-03-30,pump-lift-5x,1,strength-intensity-2,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,2,2026-03-30,pump-lift-5x,2,strength-intensity-1,Push Press,vertical-press
+3,2,2026-03-30,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+3,2,2026-03-30,pump-lift-5x,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,2,2026-03-30,pump-lift-5x,3,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+3,2,2026-03-30,pump-lift-5x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,2,2026-03-30,pump-lift-5x,5,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+3,2,2026-03-30,pump-lift-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,2,2026-03-30,pump-lift-5x,6,strength-intensity-2,Single Arm Arnold Z Press,vertical-press
+3,3,2026-04-06,minimalist,1,strength-intensity-1,Dumbbell Suitcase Split Squat,lunge-single-leg
+3,3,2026-04-06,minimalist,2,strength-intensity-1,Dumbbell Alternating Z Press,vertical-press
+3,3,2026-04-06,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,3,2026-04-06,minimalist,5,strength-intensity-1,Dumbbell Incline Bench Press,horizontal-press
+3,3,2026-04-06,perform,1,strength-intensity-1,Front Squat,squat
+3,3,2026-04-06,perform,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,3,2026-04-06,perform,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,3,2026-04-06,perform,5,strength-intensity-1,Conventional Deadlift,hinge
+3,3,2026-04-06,perform,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,3,2026-04-06,pump-condition-3x,1,strength-intensity-1,Front Squat,squat
+3,3,2026-04-06,pump-condition-3x,3,strength-intensity-1,Barbell Z Press,vertical-press
+3,3,2026-04-06,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,3,2026-04-06,pump-condition-4x,1,strength-intensity-1,Front Squat,squat
+3,3,2026-04-06,pump-condition-4x,2,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,3,2026-04-06,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+3,3,2026-04-06,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,3,2026-04-06,pump-condition-5x,1,strength-intensity-1,Front Squat,squat
+3,3,2026-04-06,pump-condition-5x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,3,2026-04-06,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,3,2026-04-06,pump-condition-5x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,3,2026-04-06,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,3,2026-04-06,pump-lift-3x,1,strength-intensity-1,Front Squat,squat
+3,3,2026-04-06,pump-lift-3x,1,strength-intensity-2,Supinated Lat Pulldown,vertical-pull
+3,3,2026-04-06,pump-lift-3x,3,strength-intensity-1,Barbell Z Press,vertical-press
+3,3,2026-04-06,pump-lift-3x,3,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+3,3,2026-04-06,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,3,2026-04-06,pump-lift-3x,5,strength-intensity-2,Barbell Bench Press,horizontal-press
+3,3,2026-04-06,pump-lift-4x,1,strength-intensity-1,Front Squat,squat
+3,3,2026-04-06,pump-lift-4x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,hinge
+3,3,2026-04-06,pump-lift-4x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,3,2026-04-06,pump-lift-4x,2,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+3,3,2026-04-06,pump-lift-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+3,3,2026-04-06,pump-lift-4x,4,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+3,3,2026-04-06,pump-lift-4x,5,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,3,2026-04-06,pump-lift-4x,5,strength-intensity-2,Barbell Bench Press,horizontal-press
+3,3,2026-04-06,pump-lift-5x,1,strength-intensity-1,Front Squat,squat
+3,3,2026-04-06,pump-lift-5x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,hinge
+3,3,2026-04-06,pump-lift-5x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,3,2026-04-06,pump-lift-5x,2,strength-intensity-2,Low Incline Dumbbell Bench Press,horizontal-press
+3,3,2026-04-06,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,3,2026-04-06,pump-lift-5x,3,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+3,3,2026-04-06,pump-lift-5x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,3,2026-04-06,pump-lift-5x,5,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+3,3,2026-04-06,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,3,2026-04-06,pump-lift-5x,6,strength-intensity-2,Back Supported Single Arm Arnold Press,vertical-press
+3,4,2026-04-13,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+3,4,2026-04-13,minimalist,2,strength-intensity-1,Dumbbell Push Press,vertical-press
+3,4,2026-04-13,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+3,4,2026-04-13,minimalist,5,strength-intensity-1,Single Arm Dumbbell Bench Press,horizontal-press
+3,4,2026-04-13,perform,1,strength-intensity-1,Cyclist Front Squat,squat
+3,4,2026-04-13,perform,2,strength-intensity-1,Push Press,vertical-press
+3,4,2026-04-13,perform,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,4,2026-04-13,perform,5,strength-intensity-1,Romanian Deadlift,hinge
+3,4,2026-04-13,perform,6,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,4,2026-04-13,pump-condition-3x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,4,2026-04-13,pump-condition-3x,3,strength-intensity-1,Push Press,vertical-press
+3,4,2026-04-13,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,4,2026-04-13,pump-condition-4x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,4,2026-04-13,pump-condition-4x,2,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,4,2026-04-13,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+3,4,2026-04-13,pump-condition-4x,5,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,4,2026-04-13,pump-condition-5x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,4,2026-04-13,pump-condition-5x,2,strength-intensity-1,Push Press,vertical-press
+3,4,2026-04-13,pump-condition-5x,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,4,2026-04-13,pump-condition-5x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,4,2026-04-13,pump-condition-5x,6,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,4,2026-04-13,pump-lift-3x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,4,2026-04-13,pump-lift-3x,1,strength-intensity-2,Close Grip Lat Pulldown,vertical-pull
+3,4,2026-04-13,pump-lift-3x,3,strength-intensity-1,Push Press,vertical-press
+3,4,2026-04-13,pump-lift-3x,3,strength-intensity-2,Wide Grip Barbell Row,horizontal-pull
+3,4,2026-04-13,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,4,2026-04-13,pump-lift-3x,5,strength-intensity-2,Barbell Incline Bench Press,horizontal-press
+3,4,2026-04-13,pump-lift-4x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,4,2026-04-13,pump-lift-4x,1,strength-intensity-2,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,4,2026-04-13,pump-lift-4x,2,strength-intensity-1,Push Press,vertical-press
+3,4,2026-04-13,pump-lift-4x,2,strength-intensity-2,Wide Grip Barbell Row,horizontal-pull
+3,4,2026-04-13,pump-lift-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+3,4,2026-04-13,pump-lift-4x,4,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+3,4,2026-04-13,pump-lift-4x,5,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,4,2026-04-13,pump-lift-4x,5,strength-intensity-2,Barbell Incline Bench Press,horizontal-press
+3,4,2026-04-13,pump-lift-5x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,4,2026-04-13,pump-lift-5x,1,strength-intensity-2,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,4,2026-04-13,pump-lift-5x,2,strength-intensity-1,Push Press,vertical-press
+3,4,2026-04-13,pump-lift-5x,2,strength-intensity-2,Dumbbell Bench Press,horizontal-press
+3,4,2026-04-13,pump-lift-5x,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,4,2026-04-13,pump-lift-5x,3,strength-intensity-2,Wide Grip Barbell Row,horizontal-pull
+3,4,2026-04-13,pump-lift-5x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,4,2026-04-13,pump-lift-5x,5,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+3,4,2026-04-13,pump-lift-5x,6,strength-intensity-1,Barbell Incline Bench Press,horizontal-press
+3,4,2026-04-13,pump-lift-5x,6,strength-intensity-2,Half Kneeling Single Arm Arnold Press,vertical-press
+3,5,2026-04-20,minimalist,1,strength-intensity-1,Dumbbell Suitcase Split Squat,lunge-single-leg
+3,5,2026-04-20,minimalist,2,strength-intensity-1,Dumbbell Alternating Z Press,vertical-press
+3,5,2026-04-20,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,5,2026-04-20,minimalist,5,strength-intensity-1,Dumbbell Incline Bench Press,horizontal-press
+3,5,2026-04-20,perform,1,strength-intensity-1,Front Squat,squat
+3,5,2026-04-20,perform,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,5,2026-04-20,perform,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,5,2026-04-20,perform,5,strength-intensity-1,Conventional Deadlift,hinge
+3,5,2026-04-20,perform,6,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,5,2026-04-20,pump-condition-3x,1,strength-intensity-1,Front Squat,squat
+3,5,2026-04-20,pump-condition-3x,3,strength-intensity-1,Barbell Z Press,vertical-press
+3,5,2026-04-20,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,5,2026-04-20,pump-condition-4x,1,strength-intensity-1,Front Squat,squat
+3,5,2026-04-20,pump-condition-4x,2,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,5,2026-04-20,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+3,5,2026-04-20,pump-condition-4x,5,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,5,2026-04-20,pump-condition-5x,1,strength-intensity-1,Front Squat,squat
+3,5,2026-04-20,pump-condition-5x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,5,2026-04-20,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,5,2026-04-20,pump-condition-5x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,5,2026-04-20,pump-condition-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,5,2026-04-20,pump-lift-3x,1,strength-intensity-1,Front Squat,squat
+3,5,2026-04-20,pump-lift-3x,1,strength-intensity-2,Supinated Lat Pulldown,vertical-pull
+3,5,2026-04-20,pump-lift-3x,3,strength-intensity-1,Barbell Z Press,vertical-press
+3,5,2026-04-20,pump-lift-3x,3,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+3,5,2026-04-20,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,5,2026-04-20,pump-lift-3x,5,strength-intensity-2,Low Incline Barbell Bench Press,horizontal-press
+3,5,2026-04-20,pump-lift-4x,1,strength-intensity-1,Front Squat,squat
+3,5,2026-04-20,pump-lift-4x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,hinge
+3,5,2026-04-20,pump-lift-4x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,5,2026-04-20,pump-lift-4x,2,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+3,5,2026-04-20,pump-lift-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+3,5,2026-04-20,pump-lift-4x,4,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+3,5,2026-04-20,pump-lift-4x,5,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,5,2026-04-20,pump-lift-4x,5,strength-intensity-2,Low Incline Barbell Bench Press,horizontal-press
+3,5,2026-04-20,pump-lift-5x,1,strength-intensity-1,Front Squat,squat
+3,5,2026-04-20,pump-lift-5x,1,strength-intensity-2,Sumo Dumbbell Romanian Deadlift,hinge
+3,5,2026-04-20,pump-lift-5x,2,strength-intensity-1,Barbell Z Press,vertical-press
+3,5,2026-04-20,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+3,5,2026-04-20,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+3,5,2026-04-20,pump-lift-5x,3,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+3,5,2026-04-20,pump-lift-5x,5,strength-intensity-1,Conventional Deadlift,hinge
+3,5,2026-04-20,pump-lift-5x,5,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+3,5,2026-04-20,pump-lift-5x,6,strength-intensity-1,Low Incline Barbell Bench Press,horizontal-press
+3,5,2026-04-20,pump-lift-5x,6,strength-intensity-2,Single Arm Arnold Z Press,vertical-press
+3,6,2026-04-27,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+3,6,2026-04-27,minimalist,2,strength-intensity-1,Dumbbell Push Press,vertical-press
+3,6,2026-04-27,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+3,6,2026-04-27,minimalist,5,strength-intensity-1,Single Arm Dumbbell Bench Press,horizontal-press
+3,6,2026-04-27,perform,1,strength-intensity-1,Cyclist Front Squat,squat
+3,6,2026-04-27,perform,2,strength-intensity-1,Push Press,vertical-press
+3,6,2026-04-27,perform,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,6,2026-04-27,perform,5,strength-intensity-1,Romanian Deadlift,hinge
+3,6,2026-04-27,perform,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,6,2026-04-27,pump-condition-3x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,6,2026-04-27,pump-condition-3x,3,strength-intensity-1,Push Press,vertical-press
+3,6,2026-04-27,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,6,2026-04-27,pump-condition-4x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,6,2026-04-27,pump-condition-4x,2,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,6,2026-04-27,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+3,6,2026-04-27,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,6,2026-04-27,pump-condition-5x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,6,2026-04-27,pump-condition-5x,2,strength-intensity-1,Push Press,vertical-press
+3,6,2026-04-27,pump-condition-5x,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,6,2026-04-27,pump-condition-5x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,6,2026-04-27,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,6,2026-04-27,pump-lift-3x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,6,2026-04-27,pump-lift-3x,1,strength-intensity-2,Close Grip Lat Pulldown,vertical-pull
+3,6,2026-04-27,pump-lift-3x,3,strength-intensity-1,Push Press,vertical-press
+3,6,2026-04-27,pump-lift-3x,3,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+3,6,2026-04-27,pump-lift-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,6,2026-04-27,pump-lift-3x,5,strength-intensity-2,Barbell Bench Press,horizontal-press
+3,6,2026-04-27,pump-lift-4x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,6,2026-04-27,pump-lift-4x,1,strength-intensity-2,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,6,2026-04-27,pump-lift-4x,2,strength-intensity-1,Push Press,vertical-press
+3,6,2026-04-27,pump-lift-4x,2,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+3,6,2026-04-27,pump-lift-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+3,6,2026-04-27,pump-lift-4x,4,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+3,6,2026-04-27,pump-lift-4x,5,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,6,2026-04-27,pump-lift-4x,5,strength-intensity-2,Barbell Bench Press,horizontal-press
+3,6,2026-04-27,pump-lift-5x,1,strength-intensity-1,Cyclist Front Squat,squat
+3,6,2026-04-27,pump-lift-5x,1,strength-intensity-2,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+3,6,2026-04-27,pump-lift-5x,2,strength-intensity-1,Push Press,vertical-press
+3,6,2026-04-27,pump-lift-5x,2,strength-intensity-2,Low Incline Dumbbell Bench Press,horizontal-press
+3,6,2026-04-27,pump-lift-5x,3,strength-intensity-1,Close Grip Lat Pulldown,vertical-pull
+3,6,2026-04-27,pump-lift-5x,3,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+3,6,2026-04-27,pump-lift-5x,5,strength-intensity-1,Romanian Deadlift,hinge
+3,6,2026-04-27,pump-lift-5x,5,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+3,6,2026-04-27,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+3,6,2026-04-27,pump-lift-5x,6,strength-intensity-2,Back Supported Single Arm Arnold Press,vertical-press
+4,1,2026-05-04,minimalist,1,strength-intensity-1,Dumbbell Goblet Squat,squat
+4,1,2026-05-04,minimalist,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,1,2026-05-04,minimalist,4,strength-intensity-1,Dumbbell Sumo Deadlift,hinge
+4,1,2026-05-04,minimalist,5,strength-intensity-1,Supinated Grip Dumbbell Bench Press,horizontal-press
+4,1,2026-05-04,perform,1,strength-intensity-1,Box Squat,squat
+4,1,2026-05-04,perform,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,1,2026-05-04,perform,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+4,1,2026-05-04,perform,5,strength-intensity-1,Sumo Deadlift,hinge
+4,1,2026-05-04,perform,6,strength-intensity-1,Spoto Press,horizontal-press
+4,1,2026-05-04,pump-condition-3x,1,strength-intensity-1,Box Squat,squat
+4,1,2026-05-04,pump-condition-3x,3,strength-intensity-1,Spoto Press,horizontal-press
+4,1,2026-05-04,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,1,2026-05-04,pump-condition-4x,1,strength-intensity-1,Box Squat,squat
+4,1,2026-05-04,pump-condition-4x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,1,2026-05-04,pump-condition-4x,4,strength-intensity-1,Sumo Deadlift,hinge
+4,1,2026-05-04,pump-condition-4x,5,strength-intensity-1,Spoto Press,horizontal-press
+4,1,2026-05-04,pump-condition-5x,1,strength-intensity-1,Box Squat,squat
+4,1,2026-05-04,pump-condition-5x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,1,2026-05-04,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+4,1,2026-05-04,pump-condition-5x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,1,2026-05-04,pump-condition-5x,6,strength-intensity-1,Spoto Press,horizontal-press
+4,1,2026-05-04,pump-lift-3x,1,strength-intensity-1,Box Squat,squat
+4,1,2026-05-04,pump-lift-3x,1,strength-intensity-2,Dumbbell Strict Press,vertical-press
+4,1,2026-05-04,pump-lift-3x,3,strength-intensity-1,Spoto Press,horizontal-press
+4,1,2026-05-04,pump-lift-3x,3,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
+4,1,2026-05-04,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,1,2026-05-04,pump-lift-3x,5,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+4,1,2026-05-04,pump-lift-4x,1,strength-intensity-1,Box Squat,squat
+4,1,2026-05-04,pump-lift-4x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,hinge
+4,1,2026-05-04,pump-lift-4x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,1,2026-05-04,pump-lift-4x,2,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+4,1,2026-05-04,pump-lift-4x,4,strength-intensity-1,Sumo Deadlift,hinge
+4,1,2026-05-04,pump-lift-4x,4,strength-intensity-2,Goblet Rear Foot Elevated Split Squat,lunge-single-leg
+4,1,2026-05-04,pump-lift-4x,5,strength-intensity-1,Spoto Press,horizontal-press
+4,1,2026-05-04,pump-lift-4x,5,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
+4,1,2026-05-04,pump-lift-5x,1,strength-intensity-1,Box Squat,squat
+4,1,2026-05-04,pump-lift-5x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,hinge
+4,1,2026-05-04,pump-lift-5x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,1,2026-05-04,pump-lift-5x,2,strength-intensity-2,Strict Bar Dip,horizontal-press
+4,1,2026-05-04,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+4,1,2026-05-04,pump-lift-5x,3,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+4,1,2026-05-04,pump-lift-5x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,1,2026-05-04,pump-lift-5x,5,strength-intensity-2,Goblet Rear Foot Elevated Split Squat,lunge-single-leg
+4,1,2026-05-04,pump-lift-5x,6,strength-intensity-1,Spoto Press,horizontal-press
+4,1,2026-05-04,pump-lift-5x,6,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
+4,2,2026-05-11,minimalist,1,strength-intensity-1,1 1/4 Goblet Squat,squat
+4,2,2026-05-11,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Arnold Press,vertical-press
+4,2,2026-05-11,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+4,2,2026-05-11,minimalist,5,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+4,2,2026-05-11,perform,1,strength-intensity-1,Back Squat,squat
+4,2,2026-05-11,perform,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,2,2026-05-11,perform,3,strength-intensity-1,Wide Grip Lat Pulldown,vertical-pull
+4,2,2026-05-11,perform,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,2,2026-05-11,perform,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,2,2026-05-11,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+4,2,2026-05-11,pump-condition-3x,3,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,2,2026-05-11,pump-condition-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,2,2026-05-11,pump-condition-4x,1,strength-intensity-1,Back Squat,squat
+4,2,2026-05-11,pump-condition-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,2,2026-05-11,pump-condition-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,2,2026-05-11,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,2,2026-05-11,pump-condition-5x,1,strength-intensity-1,Back Squat,squat
+4,2,2026-05-11,pump-condition-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,2,2026-05-11,pump-condition-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,vertical-pull
+4,2,2026-05-11,pump-condition-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,2,2026-05-11,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,2,2026-05-11,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+4,2,2026-05-11,pump-lift-3x,1,strength-intensity-2,Back Supported Barbell Strict Press,vertical-press
+4,2,2026-05-11,pump-lift-3x,3,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,2,2026-05-11,pump-lift-3x,3,strength-intensity-2,Supinated Pull Up Isometric,vertical-pull
+4,2,2026-05-11,pump-lift-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,2,2026-05-11,pump-lift-3x,5,strength-intensity-2,T Bar Row,horizontal-pull
+4,2,2026-05-11,pump-lift-4x,1,strength-intensity-1,Back Squat,squat
+4,2,2026-05-11,pump-lift-4x,1,strength-intensity-2,Single Leg Wall Press Dumbbell Romanian Deadlift,hinge
+4,2,2026-05-11,pump-lift-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,2,2026-05-11,pump-lift-4x,2,strength-intensity-2,T Bar Row,horizontal-pull
+4,2,2026-05-11,pump-lift-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,2,2026-05-11,pump-lift-4x,4,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+4,2,2026-05-11,pump-lift-4x,5,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,2,2026-05-11,pump-lift-4x,5,strength-intensity-2,Supinated Pull Up Isometric,vertical-pull
+4,2,2026-05-11,pump-lift-5x,1,strength-intensity-1,Back Squat,squat
+4,2,2026-05-11,pump-lift-5x,1,strength-intensity-2,Single Leg Wall Press Dumbbell Romanian Deadlift,hinge
+4,2,2026-05-11,pump-lift-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,2,2026-05-11,pump-lift-5x,2,strength-intensity-2,Wide Push Up,horizontal-press
+4,2,2026-05-11,pump-lift-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,vertical-pull
+4,2,2026-05-11,pump-lift-5x,3,strength-intensity-2,T Bar Row,horizontal-pull
+4,2,2026-05-11,pump-lift-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,2,2026-05-11,pump-lift-5x,5,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+4,2,2026-05-11,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,2,2026-05-11,pump-lift-5x,6,strength-intensity-2,Supinated Pull Up Isometric,vertical-pull
+4,5,2026-06-01,minimalist,1,strength-intensity-1,Goblet Squat,squat
+4,5,2026-06-01,minimalist,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,5,2026-06-01,minimalist,4,strength-intensity-1,Dumbbell Sumo Deadlift,hinge
+4,5,2026-06-01,minimalist,5,strength-intensity-1,Supinated Grip Dumbbell Bench Press,horizontal-press
+4,5,2026-06-01,perform,1,strength-intensity-1,Box Squat,squat
+4,5,2026-06-01,perform,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,5,2026-06-01,perform,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+4,5,2026-06-01,perform,5,strength-intensity-1,Sumo Deadlift,hinge
+4,5,2026-06-01,perform,6,strength-intensity-1,Spoto Press,horizontal-press
+4,5,2026-06-01,pump-condition-3x,1,strength-intensity-1,Box Squat,squat
+4,5,2026-06-01,pump-condition-3x,3,strength-intensity-1,Spoto Press,horizontal-press
+4,5,2026-06-01,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,5,2026-06-01,pump-condition-4x,1,strength-intensity-1,Box Squat,squat
+4,5,2026-06-01,pump-condition-4x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,5,2026-06-01,pump-condition-4x,4,strength-intensity-1,Sumo Deadlift,hinge
+4,5,2026-06-01,pump-condition-4x,5,strength-intensity-1,Spoto Press,horizontal-press
+4,5,2026-06-01,pump-condition-5x,1,strength-intensity-1,Box Squat,squat
+4,5,2026-06-01,pump-condition-5x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,5,2026-06-01,pump-condition-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+4,5,2026-06-01,pump-condition-5x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,5,2026-06-01,pump-condition-5x,6,strength-intensity-1,Spoto Press,horizontal-press
+4,5,2026-06-01,pump-lift-3x,1,strength-intensity-1,Box Squat,squat
+4,5,2026-06-01,pump-lift-3x,1,strength-intensity-2,Dumbbell Strict Press,vertical-press
+4,5,2026-06-01,pump-lift-3x,3,strength-intensity-1,Spoto Press,horizontal-press
+4,5,2026-06-01,pump-lift-3x,3,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
+4,5,2026-06-01,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,5,2026-06-01,pump-lift-3x,5,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+4,5,2026-06-01,pump-lift-4x,1,strength-intensity-1,Box Squat,squat
+4,5,2026-06-01,pump-lift-4x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,hinge
+4,5,2026-06-01,pump-lift-4x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,5,2026-06-01,pump-lift-4x,2,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+4,5,2026-06-01,pump-lift-4x,4,strength-intensity-1,Sumo Deadlift,hinge
+4,5,2026-06-01,pump-lift-4x,4,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+4,5,2026-06-01,pump-lift-4x,5,strength-intensity-1,Spoto Press,horizontal-press
+4,5,2026-06-01,pump-lift-4x,5,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
+4,5,2026-06-01,pump-lift-5x,1,strength-intensity-1,Box Squat,squat
+4,5,2026-06-01,pump-lift-5x,1,strength-intensity-2,Toes Elevated Dumbbell Romanian Deadlift,hinge
+4,5,2026-06-01,pump-lift-5x,2,strength-intensity-1,Dumbbell Strict Press,vertical-press
+4,5,2026-06-01,pump-lift-5x,2,strength-intensity-2,Strict Bar Dip,horizontal-press
+4,5,2026-06-01,pump-lift-5x,3,strength-intensity-1,Supinated Lat Pulldown,vertical-pull
+4,5,2026-06-01,pump-lift-5x,3,strength-intensity-2,Incline Prone Dumbbell Row,horizontal-pull
+4,5,2026-06-01,pump-lift-5x,5,strength-intensity-1,Sumo Deadlift,hinge
+4,5,2026-06-01,pump-lift-5x,5,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+4,5,2026-06-01,pump-lift-5x,6,strength-intensity-1,Spoto Press,horizontal-press
+4,5,2026-06-01,pump-lift-5x,6,strength-intensity-2,Pronated Pull Up Isometric,vertical-pull
+4,6,2026-06-08,minimalist,1,strength-intensity-1,1 1/4 Goblet Squat,squat
+4,6,2026-06-08,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Arnold Press,vertical-press
+4,6,2026-06-08,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+4,6,2026-06-08,minimalist,5,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+4,6,2026-06-08,perform,1,strength-intensity-1,Back Squat,squat
+4,6,2026-06-08,perform,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,6,2026-06-08,perform,3,strength-intensity-1,Wide Grip Lat Pulldown,vertical-pull
+4,6,2026-06-08,perform,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,6,2026-06-08,perform,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,6,2026-06-08,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+4,6,2026-06-08,pump-condition-3x,3,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,6,2026-06-08,pump-condition-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,6,2026-06-08,pump-condition-4x,1,strength-intensity-1,Back Squat,squat
+4,6,2026-06-08,pump-condition-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,6,2026-06-08,pump-condition-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,6,2026-06-08,pump-condition-4x,5,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,6,2026-06-08,pump-condition-5x,1,strength-intensity-1,Back Squat,squat
+4,6,2026-06-08,pump-condition-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,6,2026-06-08,pump-condition-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,vertical-pull
+4,6,2026-06-08,pump-condition-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,6,2026-06-08,pump-condition-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,6,2026-06-08,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+4,6,2026-06-08,pump-lift-3x,1,strength-intensity-2,Back Supported Barbell Strict Press,vertical-press
+4,6,2026-06-08,pump-lift-3x,3,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,6,2026-06-08,pump-lift-3x,3,strength-intensity-2,Supinated Pull Up Isometric,vertical-pull
+4,6,2026-06-08,pump-lift-3x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,6,2026-06-08,pump-lift-3x,5,strength-intensity-2,T Bar Row,horizontal-pull
+4,6,2026-06-08,pump-lift-4x,1,strength-intensity-1,Back Squat,squat
+4,6,2026-06-08,pump-lift-4x,1,strength-intensity-2,Single Leg Wall Press Dumbbell Romanian Deadlift,hinge
+4,6,2026-06-08,pump-lift-4x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,6,2026-06-08,pump-lift-4x,2,strength-intensity-2,T Bar Row,horizontal-pull
+4,6,2026-06-08,pump-lift-4x,4,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,6,2026-06-08,pump-lift-4x,4,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+4,6,2026-06-08,pump-lift-4x,5,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,6,2026-06-08,pump-lift-4x,5,strength-intensity-2,Supinated Pull Up Isometric,vertical-pull
+4,6,2026-06-08,pump-lift-5x,1,strength-intensity-1,Back Squat,squat
+4,6,2026-06-08,pump-lift-5x,1,strength-intensity-2,Single Leg Wall Press Dumbbell Romanian Deadlift,hinge
+4,6,2026-06-08,pump-lift-5x,2,strength-intensity-1,Back Supported Barbell Strict Press,vertical-press
+4,6,2026-06-08,pump-lift-5x,2,strength-intensity-2,Wide Push Up,horizontal-press
+4,6,2026-06-08,pump-lift-5x,3,strength-intensity-1,Wide Grip Lat Pulldown,vertical-pull
+4,6,2026-06-08,pump-lift-5x,3,strength-intensity-2,T Bar Row,horizontal-pull
+4,6,2026-06-08,pump-lift-5x,5,strength-intensity-1,Snatch Grip Romanian Deadlift,olympic
+4,6,2026-06-08,pump-lift-5x,5,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+4,6,2026-06-08,pump-lift-5x,6,strength-intensity-1,Barbell Bench Press,horizontal-press
+4,6,2026-06-08,pump-lift-5x,6,strength-intensity-2,Supinated Pull Up Isometric,vertical-pull
+5,1,2026-06-15,minimalist,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,minimalist,2,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+5,1,2026-06-15,minimalist,2,strength-intensity-2,Dumbbell Pullover,vertical-pull
+5,1,2026-06-15,minimalist,4,strength-intensity-1,Dumbbell Suitcase Kot Split Squat,lunge-single-leg
+5,1,2026-06-15,minimalist,5,strength-intensity-1,Supinated Strict Pull Up,vertical-pull
+5,1,2026-06-15,perform,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,perform,2,strength-intensity-1,Bench Press,horizontal-press
+5,1,2026-06-15,perform,3,strength-intensity-1,Cyclist Back Squat,squat
+5,1,2026-06-15,perform,5,strength-intensity-1,Supinated Strict Pull Up,vertical-pull
+5,1,2026-06-15,perform,6,strength-intensity-1,Front Squat,squat
+5,1,2026-06-15,pump-condition-3x,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,pump-condition-3x,3,strength-intensity-1,Bench Press,horizontal-press
+5,1,2026-06-15,pump-condition-3x,5,strength-intensity-1,Cyclist Back Squat,squat
+5,1,2026-06-15,pump-condition-4x,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,pump-condition-4x,2,strength-intensity-1,Bench Press,horizontal-press
+5,1,2026-06-15,pump-condition-4x,4,strength-intensity-1,Cyclist Back Squat,squat
+5,1,2026-06-15,pump-condition-4x,5,strength-intensity-1,Supinated Strict Pull Up,vertical-pull
+5,1,2026-06-15,pump-condition-5x,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,pump-condition-5x,2,strength-intensity-1,Bench Press,horizontal-press
+5,1,2026-06-15,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+5,1,2026-06-15,pump-condition-5x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+5,1,2026-06-15,pump-condition-5x,6,strength-intensity-1,Front Squat,squat
+5,1,2026-06-15,pump-lift-3x,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,pump-lift-3x,1,strength-intensity-2,Seated Dumbbell Strict Press,vertical-press
+5,1,2026-06-15,pump-lift-3x,3,strength-intensity-1,Bench Press,horizontal-press
+5,1,2026-06-15,pump-lift-3x,3,strength-intensity-2,Dumbbell Suitcase Squat,squat
+5,1,2026-06-15,pump-lift-3x,5,strength-intensity-1,Cyclist Back Squat,squat
+5,1,2026-06-15,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+5,1,2026-06-15,pump-lift-4x,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,pump-lift-4x,1,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+5,1,2026-06-15,pump-lift-4x,2,strength-intensity-1,Bench Press,horizontal-press
+5,1,2026-06-15,pump-lift-4x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+5,1,2026-06-15,pump-lift-4x,4,strength-intensity-1,Cyclist Back Squat,squat
+5,1,2026-06-15,pump-lift-4x,4,strength-intensity-2,Front Squat,squat
+5,1,2026-06-15,pump-lift-4x,5,strength-intensity-1,Seated Dumbbell Strict Press,vertical-press
+5,1,2026-06-15,pump-lift-4x,5,strength-intensity-2,Lat Pulldown,vertical-pull
+5,1,2026-06-15,pump-lift-5x,1,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+5,1,2026-06-15,pump-lift-5x,1,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+5,1,2026-06-15,pump-lift-5x,2,strength-intensity-1,Bench Press,horizontal-press
+5,1,2026-06-15,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+5,1,2026-06-15,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+5,1,2026-06-15,pump-lift-5x,3,strength-intensity-2,Dumbbell Suitcase Squat,squat
+5,1,2026-06-15,pump-lift-5x,5,strength-intensity-1,Seated Dumbbell Strict Press,vertical-press
+5,1,2026-06-15,pump-lift-5x,5,strength-intensity-2,Lat Pulldown,vertical-pull
+5,1,2026-06-15,pump-lift-5x,6,strength-intensity-1,Front Squat,squat
+5,1,2026-06-15,pump-lift-5x,6,strength-intensity-2,Goblet Tall Kneel To Stand,lunge-single-leg
+5,4,2026-07-06,minimalist,1,strength-intensity-1,Dumbbell Deadlift,hinge
+5,4,2026-07-06,minimalist,2,strength-intensity-1,1 1/4 Dumbbell Bench Press,horizontal-press
+5,4,2026-07-06,minimalist,2,strength-intensity-2,Incline Dumbbell Fly,horizontal-press
+5,4,2026-07-06,minimalist,4,strength-intensity-1,Patrick Step,lunge-single-leg
+5,4,2026-07-06,minimalist,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+5,4,2026-07-06,perform,1,strength-intensity-1,Rack Pull,hinge
+5,4,2026-07-06,perform,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
+5,4,2026-07-06,perform,3,strength-intensity-1,Back Squat,squat
+5,4,2026-07-06,perform,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+5,4,2026-07-06,perform,6,strength-intensity-1,Front Squat,squat
+5,4,2026-07-06,pump-condition-3x,1,strength-intensity-1,Rack Pull,hinge
+5,4,2026-07-06,pump-condition-3x,3,strength-intensity-1,1 1/4 Bench Press,horizontal-press
+5,4,2026-07-06,pump-condition-3x,5,strength-intensity-1,Back Squat,squat
+5,4,2026-07-06,pump-condition-4x,1,strength-intensity-1,Rack Pull,hinge
+5,4,2026-07-06,pump-condition-4x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
+5,4,2026-07-06,pump-condition-4x,4,strength-intensity-1,Back Squat,squat
+5,4,2026-07-06,pump-condition-4x,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+5,4,2026-07-06,pump-condition-5x,1,strength-intensity-1,Rack Pull,hinge
+5,4,2026-07-06,pump-condition-5x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
+5,4,2026-07-06,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+5,4,2026-07-06,pump-condition-5x,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+5,4,2026-07-06,pump-condition-5x,6,strength-intensity-1,Front Squat,squat
+5,4,2026-07-06,pump-lift-3x,1,strength-intensity-1,Rack Pull,hinge
+5,4,2026-07-06,pump-lift-3x,1,strength-intensity-2,Barbell Strict Press,vertical-press
+5,4,2026-07-06,pump-lift-3x,3,strength-intensity-1,1 1/4 Bench Press,horizontal-press
+5,4,2026-07-06,pump-lift-3x,3,strength-intensity-2,Dumbbell Suitcase Walking Lunge,lunge-single-leg
+5,4,2026-07-06,pump-lift-3x,5,strength-intensity-1,Back Squat,squat
+5,4,2026-07-06,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+5,4,2026-07-06,pump-lift-4x,1,strength-intensity-1,Rack Pull,hinge
+5,4,2026-07-06,pump-lift-4x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+5,4,2026-07-06,pump-lift-4x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
+5,4,2026-07-06,pump-lift-4x,2,strength-intensity-2,Incline Dumbbell Bench Press,horizontal-press
+5,4,2026-07-06,pump-lift-4x,4,strength-intensity-1,Back Squat,squat
+5,4,2026-07-06,pump-lift-4x,4,strength-intensity-2,Dumbbell Alternating Drop Lunge,lunge-single-leg
+5,4,2026-07-06,pump-lift-4x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+5,4,2026-07-06,pump-lift-4x,5,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+5,4,2026-07-06,pump-lift-5x,1,strength-intensity-1,Rack Pull,hinge
+5,4,2026-07-06,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+5,4,2026-07-06,pump-lift-5x,2,strength-intensity-1,1 1/4 Bench Press,horizontal-press
+5,4,2026-07-06,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,horizontal-press
+5,4,2026-07-06,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+5,4,2026-07-06,pump-lift-5x,3,strength-intensity-2,Dumbbell Suitcase Walking Lunge,lunge-single-leg
+5,4,2026-07-06,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+5,4,2026-07-06,pump-lift-5x,5,strength-intensity-2,Supinated Barbell Bent Over Row,horizontal-pull
+5,4,2026-07-06,pump-lift-5x,6,strength-intensity-1,Front Squat,squat
+5,4,2026-07-06,pump-lift-5x,6,strength-intensity-2,Dumbbell Rack Tall Kneel To Stand,lunge-single-leg
+6,1,2026-07-13,minimalist,1,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+6,1,2026-07-13,minimalist,2,strength-intensity-1,Cyclist Goblet Squat,squat
+6,1,2026-07-13,minimalist,4,strength-intensity-1,Seated Dumbbell Filly Press,vertical-press
+6,1,2026-07-13,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,hinge
+6,1,2026-07-13,perform,1,strength-intensity-1,Conventional Deadlift,hinge
+6,1,2026-07-13,perform,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,1,2026-07-13,perform,3,strength-intensity-1,Cyclist Back Squat,squat
+6,1,2026-07-13,perform,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,1,2026-07-13,perform,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,1,2026-07-13,pump-condition-3x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,1,2026-07-13,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,1,2026-07-13,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,1,2026-07-13,pump-condition-4x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,1,2026-07-13,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+6,1,2026-07-13,pump-condition-4x,4,strength-intensity-1,Seated Filly Press,vertical-press
+6,1,2026-07-13,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,1,2026-07-13,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+6,1,2026-07-13,pump-condition-5x,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,1,2026-07-13,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,1,2026-07-13,pump-condition-5x,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,1,2026-07-13,pump-condition-5x,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,1,2026-07-13,pump-lift-3x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,1,2026-07-13,pump-lift-3x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,1,2026-07-13,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,1,2026-07-13,pump-lift-3x,3,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+6,1,2026-07-13,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,1,2026-07-13,pump-lift-3x,5,strength-intensity-2,Seated Filly Press,vertical-press
+6,1,2026-07-13,pump-lift-4x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,1,2026-07-13,pump-lift-4x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,1,2026-07-13,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+6,1,2026-07-13,pump-lift-4x,2,strength-intensity-2,Barbell Hip Thrust,hinge
+6,1,2026-07-13,pump-lift-4x,4,strength-intensity-1,Seated Filly Press,vertical-press
+6,1,2026-07-13,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+6,1,2026-07-13,pump-lift-4x,5,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,1,2026-07-13,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,hinge
+6,1,2026-07-13,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+6,1,2026-07-13,pump-lift-5x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,1,2026-07-13,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,1,2026-07-13,pump-lift-5x,2,strength-intensity-2,Narrow Grip Dumbbell Bench Press,horizontal-press
+6,1,2026-07-13,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,1,2026-07-13,pump-lift-5x,3,strength-intensity-2,Barbell Hip Thrust,hinge
+6,1,2026-07-13,pump-lift-5x,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,1,2026-07-13,pump-lift-5x,5,strength-intensity-2,Half Kneeling Landmine Press,vertical-press
+6,1,2026-07-13,pump-lift-5x,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,1,2026-07-13,pump-lift-5x,6,strength-intensity-2,Goblet Squat,squat
+6,2,2026-07-20,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+6,2,2026-07-20,minimalist,2,strength-intensity-1,Dumbbell Front Squat,squat
+6,2,2026-07-20,minimalist,4,strength-intensity-1,Dumbbell Push Press,vertical-press
+6,2,2026-07-20,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+6,2,2026-07-20,perform,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,2,2026-07-20,perform,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,2,2026-07-20,perform,3,strength-intensity-1,Back Squat,squat
+6,2,2026-07-20,perform,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,2,2026-07-20,perform,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,2,2026-07-20,pump-condition-3x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,2,2026-07-20,pump-condition-3x,3,strength-intensity-1,Back Squat,squat
+6,2,2026-07-20,pump-condition-3x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,2,2026-07-20,pump-condition-4x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,2,2026-07-20,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+6,2,2026-07-20,pump-condition-4x,4,strength-intensity-1,Barbell Strict Press,vertical-press
+6,2,2026-07-20,pump-condition-4x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,2,2026-07-20,pump-condition-5x,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,2,2026-07-20,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,2,2026-07-20,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+6,2,2026-07-20,pump-condition-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,2,2026-07-20,pump-condition-5x,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,2,2026-07-20,pump-lift-3x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,2,2026-07-20,pump-lift-3x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,2,2026-07-20,pump-lift-3x,3,strength-intensity-1,Back Squat,squat
+6,2,2026-07-20,pump-lift-3x,3,strength-intensity-2,Lat Pulldown,vertical-pull
+6,2,2026-07-20,pump-lift-3x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,2,2026-07-20,pump-lift-3x,5,strength-intensity-2,Barbell Strict Press,vertical-press
+6,2,2026-07-20,pump-lift-4x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,2,2026-07-20,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,2,2026-07-20,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+6,2,2026-07-20,pump-lift-4x,2,strength-intensity-2,B Stance Hip Thrust,hinge
+6,2,2026-07-20,pump-lift-4x,4,strength-intensity-1,Barbell Strict Press,vertical-press
+6,2,2026-07-20,pump-lift-4x,4,strength-intensity-2,Lat Pulldown,vertical-pull
+6,2,2026-07-20,pump-lift-4x,5,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,2,2026-07-20,pump-lift-4x,5,strength-intensity-2,Stiff Leg Deadlift,hinge
+6,2,2026-07-20,pump-lift-5x,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,2,2026-07-20,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,2,2026-07-20,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,2,2026-07-20,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+6,2,2026-07-20,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+6,2,2026-07-20,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+6,2,2026-07-20,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,2,2026-07-20,pump-lift-5x,5,strength-intensity-2,Back Supported Arnold Press,vertical-press
+6,2,2026-07-20,pump-lift-5x,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,2,2026-07-20,pump-lift-5x,6,strength-intensity-2,Landmine Hack Squat,squat
+6,3,2026-07-27,minimalist,1,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+6,3,2026-07-27,minimalist,2,strength-intensity-1,Cyclist Goblet Squat,squat
+6,3,2026-07-27,minimalist,4,strength-intensity-1,Seated Dumbbell Filly Press,vertical-press
+6,3,2026-07-27,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,hinge
+6,3,2026-07-27,perform,1,strength-intensity-1,Conventional Deadlift,hinge
+6,3,2026-07-27,perform,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,3,2026-07-27,perform,3,strength-intensity-1,Cyclist Back Squat,squat
+6,3,2026-07-27,perform,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,3,2026-07-27,perform,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,3,2026-07-27,pump-condition-3x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,3,2026-07-27,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,3,2026-07-27,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,3,2026-07-27,pump-condition-4x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,3,2026-07-27,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+6,3,2026-07-27,pump-condition-4x,4,strength-intensity-1,Seated Filly Press,vertical-press
+6,3,2026-07-27,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,3,2026-07-27,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+6,3,2026-07-27,pump-condition-5x,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,3,2026-07-27,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,3,2026-07-27,pump-condition-5x,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,3,2026-07-27,pump-condition-5x,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,3,2026-07-27,pump-lift-3x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,3,2026-07-27,pump-lift-3x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,3,2026-07-27,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,3,2026-07-27,pump-lift-3x,3,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+6,3,2026-07-27,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,3,2026-07-27,pump-lift-3x,5,strength-intensity-2,Seated Filly Press,vertical-press
+6,3,2026-07-27,pump-lift-4x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,3,2026-07-27,pump-lift-4x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,3,2026-07-27,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+6,3,2026-07-27,pump-lift-4x,2,strength-intensity-2,Barbell Hip Thrust,hinge
+6,3,2026-07-27,pump-lift-4x,4,strength-intensity-1,Seated Filly Press,vertical-press
+6,3,2026-07-27,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+6,3,2026-07-27,pump-lift-4x,5,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,3,2026-07-27,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,hinge
+6,3,2026-07-27,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+6,3,2026-07-27,pump-lift-5x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,3,2026-07-27,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,3,2026-07-27,pump-lift-5x,2,strength-intensity-2,Narrow Grip Dumbbell Bench Press,horizontal-press
+6,3,2026-07-27,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,3,2026-07-27,pump-lift-5x,3,strength-intensity-2,Barbell Hip Thrust,hinge
+6,3,2026-07-27,pump-lift-5x,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,3,2026-07-27,pump-lift-5x,5,strength-intensity-2,Half Kneeling Landmine Press,vertical-press
+6,3,2026-07-27,pump-lift-5x,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,3,2026-07-27,pump-lift-5x,6,strength-intensity-2,Goblet Squat,squat
+6,4,2026-08-03,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+6,4,2026-08-03,minimalist,2,strength-intensity-1,Dumbbell Front Squat,squat
+6,4,2026-08-03,minimalist,4,strength-intensity-1,Dumbbell Push Press,vertical-press
+6,4,2026-08-03,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+6,4,2026-08-03,perform,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,4,2026-08-03,perform,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,4,2026-08-03,perform,3,strength-intensity-1,Back Squat,squat
+6,4,2026-08-03,perform,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,4,2026-08-03,perform,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,4,2026-08-03,pump-condition-3x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,4,2026-08-03,pump-condition-3x,3,strength-intensity-1,Back Squat,squat
+6,4,2026-08-03,pump-condition-3x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,4,2026-08-03,pump-condition-4x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,4,2026-08-03,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+6,4,2026-08-03,pump-condition-4x,4,strength-intensity-1,Barbell Strict Press,vertical-press
+6,4,2026-08-03,pump-condition-4x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,4,2026-08-03,pump-condition-5x,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,4,2026-08-03,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,4,2026-08-03,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+6,4,2026-08-03,pump-condition-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,4,2026-08-03,pump-condition-5x,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,4,2026-08-03,pump-lift-3x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,4,2026-08-03,pump-lift-3x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,4,2026-08-03,pump-lift-3x,3,strength-intensity-1,Back Squat,squat
+6,4,2026-08-03,pump-lift-3x,3,strength-intensity-2,Lat Pulldown,vertical-pull
+6,4,2026-08-03,pump-lift-3x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,4,2026-08-03,pump-lift-3x,5,strength-intensity-2,Barbell Strict Press,vertical-press
+6,4,2026-08-03,pump-lift-4x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,4,2026-08-03,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,4,2026-08-03,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+6,4,2026-08-03,pump-lift-4x,2,strength-intensity-2,B Stance Hip Thrust,hinge
+6,4,2026-08-03,pump-lift-4x,4,strength-intensity-1,Barbell Strict Press,vertical-press
+6,4,2026-08-03,pump-lift-4x,4,strength-intensity-2,Lat Pulldown,vertical-pull
+6,4,2026-08-03,pump-lift-4x,5,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,4,2026-08-03,pump-lift-4x,5,strength-intensity-2,Stiff Leg Deadlift,hinge
+6,4,2026-08-03,pump-lift-5x,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,4,2026-08-03,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,4,2026-08-03,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,4,2026-08-03,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+6,4,2026-08-03,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+6,4,2026-08-03,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+6,4,2026-08-03,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,4,2026-08-03,pump-lift-5x,5,strength-intensity-2,Back Supported Arnold Press,vertical-press
+6,4,2026-08-03,pump-lift-5x,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,4,2026-08-03,pump-lift-5x,6,strength-intensity-2,Landmine Hack Squat,squat
+6,5,2026-08-10,minimalist,1,strength-intensity-1,Incline Dumbbell Bench Press,horizontal-press
+6,5,2026-08-10,minimalist,2,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,minimalist,4,strength-intensity-1,Seated Dumbbell Filly Press,vertical-press
+6,5,2026-08-10,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,hinge
+6,5,2026-08-10,perform,1,strength-intensity-1,Conventional Deadlift,hinge
+6,5,2026-08-10,perform,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,5,2026-08-10,perform,3,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,perform,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,5,2026-08-10,perform,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,5,2026-08-10,pump-condition-3x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,5,2026-08-10,pump-condition-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,5,2026-08-10,pump-condition-4x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,5,2026-08-10,pump-condition-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,pump-condition-4x,4,strength-intensity-1,Seated Filly Press,vertical-press
+6,5,2026-08-10,pump-condition-4x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,5,2026-08-10,pump-condition-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+6,5,2026-08-10,pump-condition-5x,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,5,2026-08-10,pump-condition-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,pump-condition-5x,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,5,2026-08-10,pump-condition-5x,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,5,2026-08-10,pump-lift-3x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,5,2026-08-10,pump-lift-3x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,5,2026-08-10,pump-lift-3x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,pump-lift-3x,3,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+6,5,2026-08-10,pump-lift-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+6,5,2026-08-10,pump-lift-3x,5,strength-intensity-2,Seated Filly Press,vertical-press
+6,5,2026-08-10,pump-lift-4x,1,strength-intensity-1,Incline Bench Press,horizontal-press
+6,5,2026-08-10,pump-lift-4x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,5,2026-08-10,pump-lift-4x,2,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,pump-lift-4x,2,strength-intensity-2,Barbell Hip Thrust,hinge
+6,5,2026-08-10,pump-lift-4x,4,strength-intensity-1,Seated Filly Press,vertical-press
+6,5,2026-08-10,pump-lift-4x,4,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+6,5,2026-08-10,pump-lift-4x,5,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,5,2026-08-10,pump-lift-4x,5,strength-intensity-2,Conventional Deadlift,hinge
+6,5,2026-08-10,pump-lift-5x,1,strength-intensity-1,Conventional Deadlift,hinge
+6,5,2026-08-10,pump-lift-5x,1,strength-intensity-2,Pendlay Row,horizontal-pull
+6,5,2026-08-10,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,5,2026-08-10,pump-lift-5x,2,strength-intensity-2,Narrow Grip Dumbbell Bench Press,horizontal-press
+6,5,2026-08-10,pump-lift-5x,3,strength-intensity-1,Cyclist Back Squat,squat
+6,5,2026-08-10,pump-lift-5x,3,strength-intensity-2,Barbell Hip Thrust,hinge
+6,5,2026-08-10,pump-lift-5x,5,strength-intensity-1,Seated Filly Press,vertical-press
+6,5,2026-08-10,pump-lift-5x,5,strength-intensity-2,Half Kneeling Landmine Press,vertical-press
+6,5,2026-08-10,pump-lift-5x,6,strength-intensity-1,Zercher Split Squat,lunge-single-leg
+6,5,2026-08-10,pump-lift-5x,6,strength-intensity-2,Goblet Squat,squat
+6,6,2026-08-17,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+6,6,2026-08-17,minimalist,2,strength-intensity-1,Dumbbell Front Squat,squat
+6,6,2026-08-17,minimalist,4,strength-intensity-1,Dumbbell Push Press,vertical-press
+6,6,2026-08-17,minimalist,5,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+6,6,2026-08-17,perform,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,6,2026-08-17,perform,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,6,2026-08-17,perform,3,strength-intensity-1,Back Squat,squat
+6,6,2026-08-17,perform,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,6,2026-08-17,perform,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,6,2026-08-17,pump-condition-3x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,6,2026-08-17,pump-condition-3x,3,strength-intensity-1,Back Squat,squat
+6,6,2026-08-17,pump-condition-3x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,6,2026-08-17,pump-condition-4x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,6,2026-08-17,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+6,6,2026-08-17,pump-condition-4x,4,strength-intensity-1,Barbell Strict Press,vertical-press
+6,6,2026-08-17,pump-condition-4x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,6,2026-08-17,pump-condition-5x,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,6,2026-08-17,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,6,2026-08-17,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+6,6,2026-08-17,pump-condition-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,6,2026-08-17,pump-condition-5x,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,6,2026-08-17,pump-lift-3x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,6,2026-08-17,pump-lift-3x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,6,2026-08-17,pump-lift-3x,3,strength-intensity-1,Back Squat,squat
+6,6,2026-08-17,pump-lift-3x,3,strength-intensity-2,Lat Pulldown,vertical-pull
+6,6,2026-08-17,pump-lift-3x,5,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,6,2026-08-17,pump-lift-3x,5,strength-intensity-2,Barbell Strict Press,vertical-press
+6,6,2026-08-17,pump-lift-4x,1,strength-intensity-1,Close Grip Bench Press,horizontal-press
+6,6,2026-08-17,pump-lift-4x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,6,2026-08-17,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+6,6,2026-08-17,pump-lift-4x,2,strength-intensity-2,B Stance Hip Thrust,hinge
+6,6,2026-08-17,pump-lift-4x,4,strength-intensity-1,Barbell Strict Press,vertical-press
+6,6,2026-08-17,pump-lift-4x,4,strength-intensity-2,Lat Pulldown,vertical-pull
+6,6,2026-08-17,pump-lift-4x,5,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,6,2026-08-17,pump-lift-4x,5,strength-intensity-2,Stiff Leg Deadlift,hinge
+6,6,2026-08-17,pump-lift-5x,1,strength-intensity-1,Stiff Leg Deadlift,hinge
+6,6,2026-08-17,pump-lift-5x,1,strength-intensity-2,Supinated Bent Over Row,horizontal-pull
+6,6,2026-08-17,pump-lift-5x,2,strength-intensity-1,Incline Bench Press,horizontal-press
+6,6,2026-08-17,pump-lift-5x,2,strength-intensity-2,Alternating Dumbbell Bench Press,horizontal-press
+6,6,2026-08-17,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+6,6,2026-08-17,pump-lift-5x,3,strength-intensity-2,B Stance Hip Thrust,hinge
+6,6,2026-08-17,pump-lift-5x,5,strength-intensity-1,Barbell Strict Press,vertical-press
+6,6,2026-08-17,pump-lift-5x,5,strength-intensity-2,Back Supported Arnold Press,vertical-press
+6,6,2026-08-17,pump-lift-5x,6,strength-intensity-1,Back Rack Reverse Lunge,lunge-single-leg
+6,6,2026-08-17,pump-lift-5x,6,strength-intensity-2,Landmine Hack Squat,squat
+7,1,2026-08-24,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+7,1,2026-08-24,minimalist,2,strength-intensity-1,1 1/4 Cyclist Goblet Squat,squat
+7,1,2026-08-24,minimalist,4,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+7,1,2026-08-24,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,hinge
+7,1,2026-08-24,perform,1,strength-intensity-1,Sumo Deadlift,hinge
+7,1,2026-08-24,perform,2,strength-intensity-1,Bench Press,horizontal-press
+7,1,2026-08-24,perform,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,1,2026-08-24,perform,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,1,2026-08-24,perform,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,1,2026-08-24,pump-condition-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,1,2026-08-24,pump-condition-3x,3,strength-intensity-1,Bench Press,horizontal-press
+7,1,2026-08-24,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,1,2026-08-24,pump-condition-4x,1,strength-intensity-1,Bench Press,horizontal-press
+7,1,2026-08-24,pump-condition-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,1,2026-08-24,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,1,2026-08-24,pump-condition-4x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,1,2026-08-24,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+7,1,2026-08-24,pump-condition-5x,2,strength-intensity-1,Bench Press,horizontal-press
+7,1,2026-08-24,pump-condition-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,1,2026-08-24,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,1,2026-08-24,pump-condition-5x,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,1,2026-08-24,pump-lift-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,1,2026-08-24,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,1,2026-08-24,pump-lift-3x,3,strength-intensity-1,Bench Press,horizontal-press
+7,1,2026-08-24,pump-lift-3x,3,strength-intensity-2,Dumbbell Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+7,1,2026-08-24,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,1,2026-08-24,pump-lift-3x,5,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,1,2026-08-24,pump-lift-4x,1,strength-intensity-1,Bench Press,horizontal-press
+7,1,2026-08-24,pump-lift-4x,1,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,1,2026-08-24,pump-lift-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,1,2026-08-24,pump-lift-4x,2,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+7,1,2026-08-24,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,1,2026-08-24,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,1,2026-08-24,pump-lift-4x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,1,2026-08-24,pump-lift-4x,5,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+7,1,2026-08-24,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+7,1,2026-08-24,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,1,2026-08-24,pump-lift-5x,2,strength-intensity-1,Bench Press,horizontal-press
+7,1,2026-08-24,pump-lift-5x,2,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,1,2026-08-24,pump-lift-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,1,2026-08-24,pump-lift-5x,3,strength-intensity-2,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+7,1,2026-08-24,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,1,2026-08-24,pump-lift-5x,5,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+7,1,2026-08-24,pump-lift-5x,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,1,2026-08-24,pump-lift-5x,6,strength-intensity-2,1 1/4 Goblet Cyclist Squat,squat
+7,2,2026-08-31,minimalist,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,minimalist,2,strength-intensity-1,Goblet Squat,squat
+7,2,2026-08-31,minimalist,4,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+7,2,2026-08-31,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,hinge
+7,2,2026-08-31,perform,1,strength-intensity-1,Deficit Deadlift,hinge
+7,2,2026-08-31,perform,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,perform,3,strength-intensity-1,Back Squat,squat
+7,2,2026-08-31,perform,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,2,2026-08-31,perform,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,2,2026-08-31,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+7,2,2026-08-31,pump-condition-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,pump-condition-3x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,2,2026-08-31,pump-condition-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+7,2,2026-08-31,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,2,2026-08-31,pump-condition-4x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,2,2026-08-31,pump-condition-5x,1,strength-intensity-1,Deficit Deadlift,hinge
+7,2,2026-08-31,pump-condition-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+7,2,2026-08-31,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,2,2026-08-31,pump-condition-5x,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,2,2026-08-31,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+7,2,2026-08-31,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,2,2026-08-31,pump-lift-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,pump-lift-3x,3,strength-intensity-2,Goblet Front Foot Elevated Split Squat,lunge-single-leg
+7,2,2026-08-31,pump-lift-3x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,2,2026-08-31,pump-lift-3x,5,strength-intensity-2,Seated Strict Press,vertical-press
+7,2,2026-08-31,pump-lift-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,pump-lift-4x,1,strength-intensity-2,Seated Strict Press,vertical-press
+7,2,2026-08-31,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+7,2,2026-08-31,pump-lift-4x,2,strength-intensity-2,Goblet Front Foot Elevated Split Squat,lunge-single-leg
+7,2,2026-08-31,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,2,2026-08-31,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,2,2026-08-31,pump-lift-4x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,2,2026-08-31,pump-lift-4x,5,strength-intensity-2,Suitcase Walking Lunge,lunge-single-leg
+7,2,2026-08-31,pump-lift-5x,1,strength-intensity-1,Deficit Deadlift,hinge
+7,2,2026-08-31,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,2,2026-08-31,pump-lift-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,2,2026-08-31,pump-lift-5x,2,strength-intensity-2,Seated Strict Press,vertical-press
+7,2,2026-08-31,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+7,2,2026-08-31,pump-lift-5x,3,strength-intensity-2,Goblet Front Foot Elevated Split Squat,lunge-single-leg
+7,2,2026-08-31,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,2,2026-08-31,pump-lift-5x,5,strength-intensity-2,Single Arm Dumbbell Row,horizontal-pull
+7,2,2026-08-31,pump-lift-5x,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,2,2026-08-31,pump-lift-5x,6,strength-intensity-2,Cyclist Front Squat,squat
+7,3,2026-09-07,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+7,3,2026-09-07,minimalist,2,strength-intensity-1,1 1/4 Cyclist Goblet Squat,squat
+7,3,2026-09-07,minimalist,4,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+7,3,2026-09-07,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,hinge
+7,3,2026-09-07,perform,1,strength-intensity-1,Sumo Deadlift,hinge
+7,3,2026-09-07,perform,2,strength-intensity-1,Bench Press,horizontal-press
+7,3,2026-09-07,perform,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,3,2026-09-07,perform,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,3,2026-09-07,perform,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,3,2026-09-07,pump-condition-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,3,2026-09-07,pump-condition-3x,3,strength-intensity-1,Bench Press,horizontal-press
+7,3,2026-09-07,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,3,2026-09-07,pump-condition-4x,1,strength-intensity-1,Bench Press,horizontal-press
+7,3,2026-09-07,pump-condition-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,3,2026-09-07,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,3,2026-09-07,pump-condition-4x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,3,2026-09-07,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+7,3,2026-09-07,pump-condition-5x,2,strength-intensity-1,Bench Press,horizontal-press
+7,3,2026-09-07,pump-condition-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,3,2026-09-07,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,3,2026-09-07,pump-condition-5x,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,3,2026-09-07,pump-lift-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,3,2026-09-07,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,3,2026-09-07,pump-lift-3x,3,strength-intensity-1,Bench Press,horizontal-press
+7,3,2026-09-07,pump-lift-3x,3,strength-intensity-2,Dumbbell Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+7,3,2026-09-07,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,3,2026-09-07,pump-lift-3x,5,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,3,2026-09-07,pump-lift-4x,1,strength-intensity-1,Bench Press,horizontal-press
+7,3,2026-09-07,pump-lift-4x,1,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,3,2026-09-07,pump-lift-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,3,2026-09-07,pump-lift-4x,2,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+7,3,2026-09-07,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,3,2026-09-07,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,3,2026-09-07,pump-lift-4x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,3,2026-09-07,pump-lift-4x,5,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+7,3,2026-09-07,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+7,3,2026-09-07,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,3,2026-09-07,pump-lift-5x,2,strength-intensity-1,Bench Press,horizontal-press
+7,3,2026-09-07,pump-lift-5x,2,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,3,2026-09-07,pump-lift-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,3,2026-09-07,pump-lift-5x,3,strength-intensity-2,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+7,3,2026-09-07,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,3,2026-09-07,pump-lift-5x,5,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+7,3,2026-09-07,pump-lift-5x,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,3,2026-09-07,pump-lift-5x,6,strength-intensity-2,1 1/4 Goblet Cyclist Squat,squat
+7,4,2026-09-14,minimalist,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,minimalist,2,strength-intensity-1,Goblet Squat,squat
+7,4,2026-09-14,minimalist,4,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+7,4,2026-09-14,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,hinge
+7,4,2026-09-14,perform,1,strength-intensity-1,Deficit Deadlift,hinge
+7,4,2026-09-14,perform,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,perform,3,strength-intensity-1,Back Squat,squat
+7,4,2026-09-14,perform,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,4,2026-09-14,perform,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,4,2026-09-14,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+7,4,2026-09-14,pump-condition-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,pump-condition-3x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,4,2026-09-14,pump-condition-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+7,4,2026-09-14,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,4,2026-09-14,pump-condition-4x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,4,2026-09-14,pump-condition-5x,1,strength-intensity-1,Deficit Deadlift,hinge
+7,4,2026-09-14,pump-condition-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+7,4,2026-09-14,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,4,2026-09-14,pump-condition-5x,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,4,2026-09-14,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+7,4,2026-09-14,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,4,2026-09-14,pump-lift-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,pump-lift-3x,3,strength-intensity-2,Dumbbell Front Foot Elevated Split Squat,lunge-single-leg
+7,4,2026-09-14,pump-lift-3x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,4,2026-09-14,pump-lift-3x,5,strength-intensity-2,Seated Strict Press,vertical-press
+7,4,2026-09-14,pump-lift-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,pump-lift-4x,1,strength-intensity-2,Seated Strict Press,vertical-press
+7,4,2026-09-14,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+7,4,2026-09-14,pump-lift-4x,2,strength-intensity-2,Dumbbell Front Foot Elevated Split Squat,lunge-single-leg
+7,4,2026-09-14,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,4,2026-09-14,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,4,2026-09-14,pump-lift-4x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,4,2026-09-14,pump-lift-4x,5,strength-intensity-2,Suitcase Walking Lunge,lunge-single-leg
+7,4,2026-09-14,pump-lift-5x,1,strength-intensity-1,Deficit Deadlift,hinge
+7,4,2026-09-14,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,4,2026-09-14,pump-lift-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,4,2026-09-14,pump-lift-5x,2,strength-intensity-2,Seated Strict Press,vertical-press
+7,4,2026-09-14,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+7,4,2026-09-14,pump-lift-5x,3,strength-intensity-2,Dumbbell Front Foot Elevated Split Squat,lunge-single-leg
+7,4,2026-09-14,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,4,2026-09-14,pump-lift-5x,5,strength-intensity-2,Single Arm Dumbbell Row,horizontal-pull
+7,4,2026-09-14,pump-lift-5x,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,4,2026-09-14,pump-lift-5x,6,strength-intensity-2,Cyclist Front Squat,squat
+7,5,2026-09-21,minimalist,1,strength-intensity-1,Dumbbell Bench Press,horizontal-press
+7,5,2026-09-21,minimalist,2,strength-intensity-1,1 1/4 Cyclist Goblet Squat,squat
+7,5,2026-09-21,minimalist,4,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+7,5,2026-09-21,minimalist,5,strength-intensity-1,Dumbbell Sumo Romanian Deadlift,hinge
+7,5,2026-09-21,perform,1,strength-intensity-1,Sumo Deadlift,hinge
+7,5,2026-09-21,perform,2,strength-intensity-1,Bench Press,horizontal-press
+7,5,2026-09-21,perform,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,5,2026-09-21,perform,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,5,2026-09-21,perform,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,5,2026-09-21,pump-condition-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,5,2026-09-21,pump-condition-3x,3,strength-intensity-1,Bench Press,horizontal-press
+7,5,2026-09-21,pump-condition-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,5,2026-09-21,pump-condition-4x,1,strength-intensity-1,Bench Press,horizontal-press
+7,5,2026-09-21,pump-condition-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,5,2026-09-21,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,5,2026-09-21,pump-condition-4x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,5,2026-09-21,pump-condition-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+7,5,2026-09-21,pump-condition-5x,2,strength-intensity-1,Bench Press,horizontal-press
+7,5,2026-09-21,pump-condition-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,5,2026-09-21,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,5,2026-09-21,pump-condition-5x,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,5,2026-09-21,pump-lift-3x,1,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,5,2026-09-21,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,5,2026-09-21,pump-lift-3x,3,strength-intensity-1,Bench Press,horizontal-press
+7,5,2026-09-21,pump-lift-3x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Rear Foot Elevated Split Squat,lunge-single-leg
+7,5,2026-09-21,pump-lift-3x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,5,2026-09-21,pump-lift-3x,5,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,5,2026-09-21,pump-lift-4x,1,strength-intensity-1,Bench Press,horizontal-press
+7,5,2026-09-21,pump-lift-4x,1,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,5,2026-09-21,pump-lift-4x,2,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,5,2026-09-21,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Front Rack Rear Foot Elevated Split Squat,lunge-single-leg
+7,5,2026-09-21,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,5,2026-09-21,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,5,2026-09-21,pump-lift-4x,5,strength-intensity-1,Sumo Deadlift,hinge
+7,5,2026-09-21,pump-lift-4x,5,strength-intensity-2,Front Rack Split Squat,lunge-single-leg
+7,5,2026-09-21,pump-lift-5x,1,strength-intensity-1,Sumo Deadlift,hinge
+7,5,2026-09-21,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,5,2026-09-21,pump-lift-5x,2,strength-intensity-1,Bench Press,horizontal-press
+7,5,2026-09-21,pump-lift-5x,2,strength-intensity-2,Seated Dumbbell Press,vertical-press
+7,5,2026-09-21,pump-lift-5x,3,strength-intensity-1,1 1/4 Cyclist Back Squat,squat
+7,5,2026-09-21,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Rear Foot Elevated Split Squat,lunge-single-leg
+7,5,2026-09-21,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,5,2026-09-21,pump-lift-5x,5,strength-intensity-2,Barbell Bent Over Row,horizontal-pull
+7,5,2026-09-21,pump-lift-5x,6,strength-intensity-1,Front Rack Split Squat,lunge-single-leg
+7,5,2026-09-21,pump-lift-5x,6,strength-intensity-2,1 1/4 Goblet Cyclist Squat,squat
+7,6,2026-09-28,minimalist,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,minimalist,2,strength-intensity-1,Goblet Squat,squat
+7,6,2026-09-28,minimalist,4,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+7,6,2026-09-28,minimalist,5,strength-intensity-1,Split Stance Dumbbell Romanian Deadlift,hinge
+7,6,2026-09-28,perform,1,strength-intensity-1,Deficit Deadlift,hinge
+7,6,2026-09-28,perform,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,perform,3,strength-intensity-1,Back Squat,squat
+7,6,2026-09-28,perform,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,6,2026-09-28,perform,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,6,2026-09-28,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+7,6,2026-09-28,pump-condition-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,pump-condition-3x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,6,2026-09-28,pump-condition-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,pump-condition-4x,2,strength-intensity-1,Back Squat,squat
+7,6,2026-09-28,pump-condition-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,6,2026-09-28,pump-condition-4x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,6,2026-09-28,pump-condition-5x,1,strength-intensity-1,Deficit Deadlift,hinge
+7,6,2026-09-28,pump-condition-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,pump-condition-5x,3,strength-intensity-1,Back Squat,squat
+7,6,2026-09-28,pump-condition-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,6,2026-09-28,pump-condition-5x,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,6,2026-09-28,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+7,6,2026-09-28,pump-lift-3x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,6,2026-09-28,pump-lift-3x,3,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,pump-lift-3x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Front Foot Elevated Split Squat,lunge-single-leg
+7,6,2026-09-28,pump-lift-3x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,6,2026-09-28,pump-lift-3x,5,strength-intensity-2,Seated Strict Press,vertical-press
+7,6,2026-09-28,pump-lift-4x,1,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,pump-lift-4x,1,strength-intensity-2,Seated Strict Press,vertical-press
+7,6,2026-09-28,pump-lift-4x,2,strength-intensity-1,Back Squat,squat
+7,6,2026-09-28,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Front Rack Front Foot Elevated Split Squat,lunge-single-leg
+7,6,2026-09-28,pump-lift-4x,4,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,6,2026-09-28,pump-lift-4x,4,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,6,2026-09-28,pump-lift-4x,5,strength-intensity-1,Deficit Deadlift,hinge
+7,6,2026-09-28,pump-lift-4x,5,strength-intensity-2,Suitcase Walking Lunge,lunge-single-leg
+7,6,2026-09-28,pump-lift-5x,1,strength-intensity-1,Deficit Deadlift,hinge
+7,6,2026-09-28,pump-lift-5x,1,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+7,6,2026-09-28,pump-lift-5x,2,strength-intensity-1,Low Incline Dumbbell Bench Press,horizontal-press
+7,6,2026-09-28,pump-lift-5x,2,strength-intensity-2,Seated Strict Press,vertical-press
+7,6,2026-09-28,pump-lift-5x,3,strength-intensity-1,Back Squat,squat
+7,6,2026-09-28,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Front Rack Front Foot Elevated Split Squat,lunge-single-leg
+7,6,2026-09-28,pump-lift-5x,5,strength-intensity-1,Strict Bar Dip,horizontal-press
+7,6,2026-09-28,pump-lift-5x,5,strength-intensity-2,Single Arm Dumbbell Row,horizontal-pull
+7,6,2026-09-28,pump-lift-5x,6,strength-intensity-1,Suitcase Walking Lunge,lunge-single-leg
+7,6,2026-09-28,pump-lift-5x,6,strength-intensity-2,Cyclist Front Squat,squat
+8,1,2026-10-05,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+8,1,2026-10-05,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Press,vertical-press
+8,1,2026-10-05,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+8,1,2026-10-05,minimalist,5,strength-intensity-1,Supinated Strict Pull Up,vertical-pull
+8,1,2026-10-05,perform,1,strength-intensity-1,Back Squat,squat
+8,1,2026-10-05,perform,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,1,2026-10-05,perform,3,strength-intensity-1,Romanian Deadlift,hinge
+8,1,2026-10-05,perform,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,1,2026-10-05,perform,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,1,2026-10-05,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+8,1,2026-10-05,pump-condition-3x,3,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,1,2026-10-05,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+8,1,2026-10-05,pump-condition-4x,1,strength-intensity-1,Back Squat,squat
+8,1,2026-10-05,pump-condition-4x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,1,2026-10-05,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+8,1,2026-10-05,pump-condition-4x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,1,2026-10-05,pump-condition-5x,1,strength-intensity-1,Back Squat,squat
+8,1,2026-10-05,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,1,2026-10-05,pump-condition-5x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,1,2026-10-05,pump-condition-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,1,2026-10-05,pump-condition-5x,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,1,2026-10-05,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+8,1,2026-10-05,pump-lift-3x,1,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,1,2026-10-05,pump-lift-3x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,1,2026-10-05,pump-lift-3x,3,strength-intensity-2,Close Grip Bench Press,horizontal-press
+8,1,2026-10-05,pump-lift-3x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,1,2026-10-05,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+8,1,2026-10-05,pump-lift-4x,1,strength-intensity-1,Back Squat,squat
+8,1,2026-10-05,pump-lift-4x,1,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+8,1,2026-10-05,pump-lift-4x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,1,2026-10-05,pump-lift-4x,2,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,1,2026-10-05,pump-lift-4x,4,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,1,2026-10-05,pump-lift-4x,4,strength-intensity-2,Romanian Deadlift,hinge
+8,1,2026-10-05,pump-lift-4x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,1,2026-10-05,pump-lift-4x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+8,1,2026-10-05,pump-lift-5x,1,strength-intensity-1,Back Squat,squat
+8,1,2026-10-05,pump-lift-5x,1,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+8,1,2026-10-05,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,1,2026-10-05,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,horizontal-press
+8,1,2026-10-05,pump-lift-5x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,1,2026-10-05,pump-lift-5x,3,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,1,2026-10-05,pump-lift-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,1,2026-10-05,pump-lift-5x,5,strength-intensity-2,Landmine Kot Squat,squat
+8,1,2026-10-05,pump-lift-5x,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,1,2026-10-05,pump-lift-5x,6,strength-intensity-2,Back Supported Dumbbell Arnold Press,vertical-press
+8,2,2026-10-12,minimalist,1,strength-intensity-1,Dual Dumbbell Front Squat,squat
+8,2,2026-10-12,minimalist,2,strength-intensity-1,Dual Dumbbell Arnold Press,vertical-press
+8,2,2026-10-12,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+8,2,2026-10-12,minimalist,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+8,2,2026-10-12,perform,1,strength-intensity-1,Back Squat,squat
+8,2,2026-10-12,perform,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,2,2026-10-12,perform,3,strength-intensity-1,Conventional Deadlift,hinge
+8,2,2026-10-12,perform,5,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,2,2026-10-12,perform,6,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,2,2026-10-12,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+8,2,2026-10-12,pump-condition-3x,3,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,2,2026-10-12,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+8,2,2026-10-12,pump-condition-4x,1,strength-intensity-1,Back Squat,squat
+8,2,2026-10-12,pump-condition-4x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,2,2026-10-12,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+8,2,2026-10-12,pump-condition-4x,5,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,2,2026-10-12,pump-condition-5x,1,strength-intensity-1,Back Squat,squat
+8,2,2026-10-12,pump-condition-5x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,2,2026-10-12,pump-condition-5x,3,strength-intensity-1,Conventional Deadlift,hinge
+8,2,2026-10-12,pump-condition-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,2,2026-10-12,pump-condition-5x,6,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,2,2026-10-12,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+8,2,2026-10-12,pump-lift-3x,1,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,horizontal-pull
+8,2,2026-10-12,pump-lift-3x,3,strength-intensity-1,Conventional Deadlift,hinge
+8,2,2026-10-12,pump-lift-3x,3,strength-intensity-2,Wide Grip Bench Press,horizontal-press
+8,2,2026-10-12,pump-lift-3x,5,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,2,2026-10-12,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+8,2,2026-10-12,pump-lift-4x,1,strength-intensity-1,Back Squat,squat
+8,2,2026-10-12,pump-lift-4x,1,strength-intensity-2,Zercher Drop Lunge,lunge-single-leg
+8,2,2026-10-12,pump-lift-4x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,2,2026-10-12,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,horizontal-pull
+8,2,2026-10-12,pump-lift-4x,4,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,2,2026-10-12,pump-lift-4x,4,strength-intensity-2,Conventional Deadlift,hinge
+8,2,2026-10-12,pump-lift-4x,5,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,2,2026-10-12,pump-lift-4x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+8,2,2026-10-12,pump-lift-5x,1,strength-intensity-1,Back Squat,squat
+8,2,2026-10-12,pump-lift-5x,1,strength-intensity-2,Zercher Drop Lunge,lunge-single-leg
+8,2,2026-10-12,pump-lift-5x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,2,2026-10-12,pump-lift-5x,2,strength-intensity-2,Glute Bridge Alternating Dumbbell Floor Press,hinge
+8,2,2026-10-12,pump-lift-5x,3,strength-intensity-1,Conventional Deadlift,hinge
+8,2,2026-10-12,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,horizontal-pull
+8,2,2026-10-12,pump-lift-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,2,2026-10-12,pump-lift-5x,5,strength-intensity-2,Landmine Hack Squat,squat
+8,2,2026-10-12,pump-lift-5x,6,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,2,2026-10-12,pump-lift-5x,6,strength-intensity-2,Half Kneeling Dumbbell/Kettlebell See Saw Press,vertical-press
+8,3,2026-10-19,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+8,3,2026-10-19,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Press,vertical-press
+8,3,2026-10-19,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+8,3,2026-10-19,minimalist,5,strength-intensity-1,Supinated Strict Pull Up,vertical-pull
+8,3,2026-10-19,perform,1,strength-intensity-1,Back Squat,squat
+8,3,2026-10-19,perform,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,3,2026-10-19,perform,3,strength-intensity-1,Romanian Deadlift,hinge
+8,3,2026-10-19,perform,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,3,2026-10-19,perform,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,3,2026-10-19,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+8,3,2026-10-19,pump-condition-3x,3,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,3,2026-10-19,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+8,3,2026-10-19,pump-condition-4x,1,strength-intensity-1,Back Squat,squat
+8,3,2026-10-19,pump-condition-4x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,3,2026-10-19,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+8,3,2026-10-19,pump-condition-4x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,3,2026-10-19,pump-condition-5x,1,strength-intensity-1,Back Squat,squat
+8,3,2026-10-19,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,3,2026-10-19,pump-condition-5x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,3,2026-10-19,pump-condition-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,3,2026-10-19,pump-condition-5x,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,3,2026-10-19,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+8,3,2026-10-19,pump-lift-3x,1,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,3,2026-10-19,pump-lift-3x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,3,2026-10-19,pump-lift-3x,3,strength-intensity-2,Close Grip Bench Press,horizontal-press
+8,3,2026-10-19,pump-lift-3x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,3,2026-10-19,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+8,3,2026-10-19,pump-lift-4x,1,strength-intensity-1,Back Squat,squat
+8,3,2026-10-19,pump-lift-4x,1,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+8,3,2026-10-19,pump-lift-4x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,3,2026-10-19,pump-lift-4x,2,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,3,2026-10-19,pump-lift-4x,4,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,3,2026-10-19,pump-lift-4x,4,strength-intensity-2,Romanian Deadlift,hinge
+8,3,2026-10-19,pump-lift-4x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,3,2026-10-19,pump-lift-4x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+8,3,2026-10-19,pump-lift-5x,1,strength-intensity-1,Back Squat,squat
+8,3,2026-10-19,pump-lift-5x,1,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+8,3,2026-10-19,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,3,2026-10-19,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,horizontal-press
+8,3,2026-10-19,pump-lift-5x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,3,2026-10-19,pump-lift-5x,3,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,3,2026-10-19,pump-lift-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,3,2026-10-19,pump-lift-5x,5,strength-intensity-2,Landmine Kot Squat,squat
+8,3,2026-10-19,pump-lift-5x,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,3,2026-10-19,pump-lift-5x,6,strength-intensity-2,Back Supported Dumbbell Arnold Press,vertical-press
+8,4,2026-10-26,minimalist,1,strength-intensity-1,Dual Dumbbell Front Squat,squat
+8,4,2026-10-26,minimalist,2,strength-intensity-1,Dual Dumbbell Arnold Press,vertical-press
+8,4,2026-10-26,minimalist,4,strength-intensity-1,Single Leg Hand Support Dumbbell Romanian Deadlift,hinge
+8,4,2026-10-26,minimalist,5,strength-intensity-1,Pronated Strict Pull Up,vertical-pull
+8,4,2026-10-26,perform,1,strength-intensity-1,Back Squat,squat
+8,4,2026-10-26,perform,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,4,2026-10-26,perform,3,strength-intensity-1,Conventional Deadlift,hinge
+8,4,2026-10-26,perform,5,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,4,2026-10-26,perform,6,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,4,2026-10-26,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+8,4,2026-10-26,pump-condition-3x,3,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,4,2026-10-26,pump-condition-3x,5,strength-intensity-1,Conventional Deadlift,hinge
+8,4,2026-10-26,pump-condition-4x,1,strength-intensity-1,Back Squat,squat
+8,4,2026-10-26,pump-condition-4x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,4,2026-10-26,pump-condition-4x,4,strength-intensity-1,Conventional Deadlift,hinge
+8,4,2026-10-26,pump-condition-4x,5,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,4,2026-10-26,pump-condition-5x,1,strength-intensity-1,Back Squat,squat
+8,4,2026-10-26,pump-condition-5x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,4,2026-10-26,pump-condition-5x,3,strength-intensity-1,Conventional Deadlift,hinge
+8,4,2026-10-26,pump-condition-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,4,2026-10-26,pump-condition-5x,6,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,4,2026-10-26,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+8,4,2026-10-26,pump-lift-3x,1,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,horizontal-pull
+8,4,2026-10-26,pump-lift-3x,3,strength-intensity-1,Conventional Deadlift,hinge
+8,4,2026-10-26,pump-lift-3x,3,strength-intensity-2,Wide Grip Bench Press,horizontal-press
+8,4,2026-10-26,pump-lift-3x,5,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,4,2026-10-26,pump-lift-3x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+8,4,2026-10-26,pump-lift-4x,1,strength-intensity-1,Back Squat,squat
+8,4,2026-10-26,pump-lift-4x,1,strength-intensity-2,Zercher Drop Lunge,lunge-single-leg
+8,4,2026-10-26,pump-lift-4x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,4,2026-10-26,pump-lift-4x,2,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,horizontal-pull
+8,4,2026-10-26,pump-lift-4x,4,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,4,2026-10-26,pump-lift-4x,4,strength-intensity-2,Conventional Deadlift,hinge
+8,4,2026-10-26,pump-lift-4x,5,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,4,2026-10-26,pump-lift-4x,5,strength-intensity-2,Pronated Strict Pull Up,vertical-pull
+8,4,2026-10-26,pump-lift-5x,1,strength-intensity-1,Back Squat,squat
+8,4,2026-10-26,pump-lift-5x,1,strength-intensity-2,Zercher Drop Lunge,lunge-single-leg
+8,4,2026-10-26,pump-lift-5x,2,strength-intensity-1,Wide Grip Bench Press,horizontal-press
+8,4,2026-10-26,pump-lift-5x,2,strength-intensity-2,Glute Bridge Alternating Dumbbell Floor Press,hinge
+8,4,2026-10-26,pump-lift-5x,3,strength-intensity-1,Conventional Deadlift,hinge
+8,4,2026-10-26,pump-lift-5x,3,strength-intensity-2,Dumbbell/Kettlebell Gorilla Row,horizontal-pull
+8,4,2026-10-26,pump-lift-5x,5,strength-intensity-1,Suitcase Short Step Walking Lunge,lunge-single-leg
+8,4,2026-10-26,pump-lift-5x,5,strength-intensity-2,Landmine Hack Squat,squat
+8,4,2026-10-26,pump-lift-5x,6,strength-intensity-1,Seated Behind The Neck Press,vertical-press
+8,4,2026-10-26,pump-lift-5x,6,strength-intensity-2,Half Kneeling Dumbbell/Kettlebell See Saw Press,vertical-press
+8,5,2026-11-02,minimalist,1,strength-intensity-1,Dumbbell Suitcase Cyclist Squat,squat
+8,5,2026-11-02,minimalist,2,strength-intensity-1,Seated Alternating Dumbbell Press,vertical-press
+8,5,2026-11-02,minimalist,4,strength-intensity-1,Dumbbell Romanian Deadlift,hinge
+8,5,2026-11-02,minimalist,5,strength-intensity-1,Supinated Strict Pull Up,vertical-pull
+8,5,2026-11-02,perform,1,strength-intensity-1,Back Squat,squat
+8,5,2026-11-02,perform,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,5,2026-11-02,perform,3,strength-intensity-1,Romanian Deadlift,hinge
+8,5,2026-11-02,perform,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,5,2026-11-02,perform,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,5,2026-11-02,pump-condition-3x,1,strength-intensity-1,Back Squat,squat
+8,5,2026-11-02,pump-condition-3x,3,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,5,2026-11-02,pump-condition-3x,5,strength-intensity-1,Romanian Deadlift,hinge
+8,5,2026-11-02,pump-condition-4x,1,strength-intensity-1,Back Squat,squat
+8,5,2026-11-02,pump-condition-4x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,5,2026-11-02,pump-condition-4x,4,strength-intensity-1,Romanian Deadlift,hinge
+8,5,2026-11-02,pump-condition-4x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,5,2026-11-02,pump-condition-5x,1,strength-intensity-1,Back Squat,squat
+8,5,2026-11-02,pump-condition-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,5,2026-11-02,pump-condition-5x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,5,2026-11-02,pump-condition-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,5,2026-11-02,pump-condition-5x,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,5,2026-11-02,pump-lift-3x,1,strength-intensity-1,Back Squat,squat
+8,5,2026-11-02,pump-lift-3x,1,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,5,2026-11-02,pump-lift-3x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,5,2026-11-02,pump-lift-3x,3,strength-intensity-2,Close Grip Bench Press,horizontal-press
+8,5,2026-11-02,pump-lift-3x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,5,2026-11-02,pump-lift-3x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+8,5,2026-11-02,pump-lift-4x,1,strength-intensity-1,Back Squat,squat
+8,5,2026-11-02,pump-lift-4x,1,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+8,5,2026-11-02,pump-lift-4x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,5,2026-11-02,pump-lift-4x,2,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,5,2026-11-02,pump-lift-4x,4,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,5,2026-11-02,pump-lift-4x,4,strength-intensity-2,Romanian Deadlift,hinge
+8,5,2026-11-02,pump-lift-4x,5,strength-intensity-1,Barbell Z Press,vertical-press
+8,5,2026-11-02,pump-lift-4x,5,strength-intensity-2,Supinated Strict Pull Up,vertical-pull
+8,5,2026-11-02,pump-lift-5x,1,strength-intensity-1,Back Squat,squat
+8,5,2026-11-02,pump-lift-5x,1,strength-intensity-2,Back Rack Reverse Lunge,lunge-single-leg
+8,5,2026-11-02,pump-lift-5x,2,strength-intensity-1,Close Grip Bench Press,horizontal-press
+8,5,2026-11-02,pump-lift-5x,2,strength-intensity-2,Incline Dumbbell Bench Press,horizontal-press
+8,5,2026-11-02,pump-lift-5x,3,strength-intensity-1,Romanian Deadlift,hinge
+8,5,2026-11-02,pump-lift-5x,3,strength-intensity-2,Wide Grip Bent Over Barbell Row,horizontal-pull
+8,5,2026-11-02,pump-lift-5x,5,strength-intensity-1,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg
+8,5,2026-11-02,pump-lift-5x,5,strength-intensity-2,Landmine Kot Squat,squat
+8,5,2026-11-02,pump-lift-5x,6,strength-intensity-1,Barbell Z Press,vertical-press
+8,5,2026-11-02,pump-lift-5x,6,strength-intensity-2,Back Supported Dumbbell Arnold Press,vertical-press

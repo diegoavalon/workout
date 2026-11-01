@@ -1,0 +1,207 @@
+{
+ "full-body": {
+  "exclude": true,
+  "note": "topic line of a recovery mobility session, not an exercise"
+ },
+ "full-body-mobility": {
+  "exclude": true,
+  "note": "topic line of a recovery mobility session, not an exercise"
+ },
+ "mobility": {
+  "exclude": true,
+  "note": "topic line of a recovery mobility session, not an exercise"
+ },
+ "aerobic-push-pull": {
+  "exclude": true,
+  "note": "title of a Coach Notes block, not an exercise"
+ },
+ "fatigued-abdominal": {
+  "exclude": true,
+  "note": "title of a Coach Notes block, not an exercise"
+ },
+ "isolation-fatigue-shoulder": {
+  "exclude": true,
+  "note": "title of a Coach Notes block, not an exercise"
+ },
+ "isometric-fatigue-shoulder": {
+  "exclude": true,
+  "note": "title of a Coach Notes block, not an exercise"
+ },
+ "even": {
+  "exclude": true,
+  "note": "week-parity prefix ('Odd - 15sec ...'); the movement after it is lost to the parser"
+ },
+ "odd": {
+  "exclude": true,
+  "note": "week-parity prefix ('Odd - 15sec ...'); the movement after it is lost to the parser"
+ },
+ "pauses-at-bottom": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "bottom": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "rep": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "tempo": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "sec": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "warm-up": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "extension": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "mechanical-drop-set": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "cluster-set": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "move-immediately-into-the-next-couplet": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "sustained-pace": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "easy-pedal": {
+  "exclude": true,
+  "note": "instruction or heading text, not an exercise"
+ },
+ "half-kneeling-cable": {
+  "mergeInto": "half-kneeling-cable-row",
+  "name": "Half Kneeling Cable Row",
+  "note": "from 'Half Kneeling Cable or Band Row'"
+ },
+ "half-kneeling-cable-row": {
+  "pattern": "horizontal-pull"
+ },
+ "standing-kettlebell": {
+  "mergeInto": "standing-kettlebell-windmill",
+  "name": "Standing Kettlebell Windmill",
+  "note": "from 'Standing KB or Bodyweight Windmill'"
+ },
+ "standing-kettlebell-windmill": {
+  "pattern": "mobility"
+ },
+ "single-arm-dumbbell": {
+  "mergeInto": "single-arm-dumbbell-lean-away-lateral-raise",
+  "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+  "note": "from 'Single Arm DB or Cable Lean Away Lateral Raise'"
+ },
+ "single-arm-dumbbell-lean-away-lateral-raise": {
+  "pattern": "isolation-shoulders"
+ },
+ "strict-bar": {
+  "mergeInto": "strict-bar-dip",
+  "name": "Strict Bar Dip",
+  "note": "from 'Strict Bar or Ring Dip'"
+ },
+ "strict-bar-dip": {
+  "pattern": "horizontal-press"
+ },
+ "elevator-bar": {
+  "mergeInto": "strict-bar-dip",
+  "name": "Strict Bar Dip",
+  "note": "from 'Elevator Bar or Ring Dip'"
+ },
+ "ring-slider": {
+  "mergeInto": "ring-body-saw",
+  "name": "Ring Body Saw",
+  "note": "from 'Ring, Slider, or Rower Body Saw'"
+ },
+ "ring-body-saw": {
+  "pattern": "core"
+ },
+ "rower-ring": {
+  "mergeInto": "rower-hamstring-curl",
+  "name": "Rower Hamstring Curl",
+  "note": "from 'Rower, Ring, or Physioball Hamstring Curl'"
+ },
+ "rower-hamstring-curl": {
+  "pattern": "isolation-legs"
+ },
+ "feet-anchored": {
+  "mergeInto": "feet-anchored-sit-up",
+  "name": "Feet Anchored Sit Up",
+  "note": "from 'Feet Anchored or GHD Sit Up'"
+ },
+ "feet-anchored-sit-up": {
+  "pattern": "core"
+ },
+ "russian-kettlebell": {
+  "mergeInto": "russian-kettlebell-swing",
+  "name": "Russian Kettlebell Swing",
+  "note": "'KBS' in the PDF means kettlebell swing"
+ },
+ "russian-kettlebell-swing": {
+  "pattern": "hinge"
+ },
+ "russian-kettlebell-or": {
+  "mergeInto": "russian-kettlebell-swing",
+  "name": "Russian Kettlebell Swing",
+  "note": "'KBS' in the PDF means kettlebell swing"
+ },
+ "american-kettlebell": {
+  "mergeInto": "american-kettlebell-swing",
+  "name": "American Kettlebell Swing",
+  "note": "'KBS' in the PDF means kettlebell swing"
+ },
+ "american-kettlebell-swing": {
+  "pattern": "hinge"
+ },
+ "single-arm-alternating-russian-kettlebell": {
+  "mergeInto": "russian-kettlebell-swing",
+  "name": "Russian Kettlebell Swing",
+  "note": "'KBS' in the PDF means kettlebell swing"
+ },
+ "split-stance-single-arm-russian-kettlebell": {
+  "mergeInto": "russian-kettlebell-swing",
+  "name": "Russian Kettlebell Swing",
+  "note": "'KBS' in the PDF means kettlebell swing"
+ },
+ "kettlebell-russian-twists-or": {
+  "mergeInto": "russian-twist",
+  "name": "Russian Twist",
+  "note": "fragment of 'Kettlebell Russian Twists or ...'"
+ },
+ "russian-twist": {
+  "pattern": "core"
+ },
+ "russian-twists-s": {
+  "mergeInto": "russian-twist",
+  "name": "Russian Twist",
+  "note": "fragment of 'Russian Twists'"
+ },
+ "barbell-reverse-cur": {
+  "mergeInto": "barbell-reverse-curl",
+  "name": "Barbell Reverse Curl",
+  "note": "typo in the PDF"
+ },
+ "barbell-reverse-curl": {
+  "pattern": "isolation-arms"
+ },
+ "shinbox hip extension + switch": {
+  "mergeInto": "shinbox-hip-extension-switch",
+  "name": "Shinbox Hip Extension Switch",
+  "note": "one movement written with a plus sign"
+ },
+ "shinbox-hip-extension-switch": {
+  "pattern": "mobility"
+ }
+}

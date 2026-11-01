@@ -1,0 +1,384 @@
+{
+ "summary": [
+  {
+   "track": "minimalist",
+   "sessions": 156,
+   "matchHypothesis": 154,
+   "pct": "98.7%",
+   "modalSkeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "modalCount": 154,
+   "withFocusNote": 156
+  },
+  {
+   "track": "perform",
+   "sessions": 195,
+   "matchHypothesis": 176,
+   "pct": "90.3%",
+   "modalSkeleton": "warmup>hot-start>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "modalCount": 104,
+   "withFocusNote": 195
+  },
+  {
+   "track": "pump-condition-3x",
+   "sessions": 117,
+   "matchHypothesis": 117,
+   "pct": "100.0%",
+   "modalSkeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "modalCount": 117,
+   "withFocusNote": 117
+  },
+  {
+   "track": "pump-condition-4x",
+   "sessions": 156,
+   "matchHypothesis": 156,
+   "pct": "100.0%",
+   "modalSkeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "modalCount": 156,
+   "withFocusNote": 156
+  },
+  {
+   "track": "pump-condition-5x",
+   "sessions": 195,
+   "matchHypothesis": 188,
+   "pct": "96.4%",
+   "modalSkeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "modalCount": 188,
+   "withFocusNote": 174
+  },
+  {
+   "track": "pump-lift-3x",
+   "sessions": 117,
+   "matchHypothesis": 117,
+   "pct": "100.0%",
+   "modalSkeleton": "warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown",
+   "modalCount": 117,
+   "withFocusNote": 116
+  },
+  {
+   "track": "pump-lift-4x",
+   "sessions": 156,
+   "matchHypothesis": 156,
+   "pct": "100.0%",
+   "modalSkeleton": "warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown",
+   "modalCount": 156,
+   "withFocusNote": 138
+  },
+  {
+   "track": "pump-lift-5x",
+   "sessions": 195,
+   "matchHypothesis": 189,
+   "pct": "96.9%",
+   "modalSkeleton": "warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown",
+   "modalCount": 189,
+   "withFocusNote": 195
+  }
+ ],
+ "deviations": [
+  {
+   "track": "minimalist",
+   "block": 5,
+   "week": 1,
+   "day": 2,
+   "date": "2026-06-16",
+   "skeleton": "warmup>strength-intensity-1>strength-intensity-2>conditioning>cooldown",
+   "focus": "DB Bench Press"
+  },
+  {
+   "track": "minimalist",
+   "block": 5,
+   "week": 4,
+   "day": 2,
+   "date": "2026-07-07",
+   "skeleton": "warmup>strength-intensity-1>strength-intensity-2>conditioning>cooldown",
+   "focus": "Bench Press + Fly"
+  },
+  {
+   "track": "perform",
+   "block": 1,
+   "week": 4,
+   "day": 5,
+   "date": "2026-01-23",
+   "skeleton": "warmup>hot-start>strength-intensity-1>strength-intensity-2>conditioning>cooldown",
+   "focus": "Today’s piece is a balanced push-pull workout that tests endurance, control, and smart pacing. The"
+  },
+  {
+   "track": "perform",
+   "block": 2,
+   "week": 1,
+   "day": 6,
+   "date": "2026-02-14",
+   "skeleton": "warmup>speed-strength>strength-intensity-1>conditioning>cooldown",
+   "focus": "Today’s giant set is a combination of lower body exercises that are each manageable on their own."
+  },
+  {
+   "track": "perform",
+   "block": 2,
+   "week": 2,
+   "day": 6,
+   "date": "2026-02-21",
+   "skeleton": "warmup>speed-strength>strength-intensity-1>conditioning>cooldown",
+   "focus": "Every time you change your dumbbell position for a squat, lunge, or hinge, you impact the muscles"
+  },
+  {
+   "track": "perform",
+   "block": 2,
+   "week": 3,
+   "day": 6,
+   "date": "2026-02-28",
+   "skeleton": "warmup>speed-strength>strength-intensity-1>conditioning>cooldown",
+   "focus": "This conditioning section is a fan favorite, and for good reason. The simple movements and unique"
+  },
+  {
+   "track": "perform",
+   "block": 2,
+   "week": 4,
+   "day": 6,
+   "date": "2026-03-07",
+   "skeleton": "warmup>speed-strength>strength-intensity-1>conditioning>cooldown",
+   "focus": "A wall sit in the middle of today’s conditioning is intentionally challenging. This brief hold will"
+  },
+  {
+   "track": "perform",
+   "block": 2,
+   "week": 5,
+   "day": 6,
+   "date": "2026-03-14",
+   "skeleton": "warmup>speed-strength>strength-intensity-1>conditioning>cooldown",
+   "focus": "Changing the order of movements can be a subtle way to keep getting stronger in different ways."
+  },
+  {
+   "track": "perform",
+   "block": 2,
+   "week": 6,
+   "day": 6,
+   "date": "2026-03-21",
+   "skeleton": "warmup>speed-strength>strength-intensity-1>conditioning>cooldown",
+   "focus": "The Strength Intensity and Conditioning sections are both longer than the 12-15 minute time"
+  },
+  {
+   "track": "perform",
+   "block": 4,
+   "week": 1,
+   "day": 3,
+   "date": "2026-05-06",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Density Sets"
+  },
+  {
+   "track": "perform",
+   "block": 4,
+   "week": 2,
+   "day": 3,
+   "date": "2026-05-13",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Descending Rep Scheme for Pull Ups"
+  },
+  {
+   "track": "perform",
+   "block": 4,
+   "week": 5,
+   "day": 3,
+   "date": "2026-06-03",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Incline Prone Row and Reverse Fly"
+  },
+  {
+   "track": "perform",
+   "block": 4,
+   "week": 6,
+   "day": 3,
+   "date": "2026-06-10",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Density Set Progression"
+  },
+  {
+   "track": "perform",
+   "block": 5,
+   "week": 1,
+   "day": 2,
+   "date": "2026-06-16",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Bench Press"
+  },
+  {
+   "track": "perform",
+   "block": 5,
+   "week": 4,
+   "day": 2,
+   "date": "2026-07-07",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Incline DB Bench + Incline DB Fly"
+  },
+  {
+   "track": "perform",
+   "block": 7,
+   "week": 1,
+   "day": 6,
+   "date": "2026-08-29",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Front Rack Split Squat"
+  },
+  {
+   "track": "perform",
+   "block": 7,
+   "week": 2,
+   "day": 6,
+   "date": "2026-09-05",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "1 1/4 Goblet Cyclist Squat + Single Leg Hand Support DB RDL"
+  },
+  {
+   "track": "perform",
+   "block": 7,
+   "week": 3,
+   "day": 6,
+   "date": "2026-09-12",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Power 30"
+  },
+  {
+   "track": "perform",
+   "block": 7,
+   "week": 4,
+   "day": 6,
+   "date": "2026-09-19",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Suitcase Walking Lunge"
+  },
+  {
+   "track": "perform",
+   "block": 7,
+   "week": 5,
+   "day": 6,
+   "date": "2026-09-26",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Cyclist Front Squat + Hamstring Walkout"
+  },
+  {
+   "track": "perform",
+   "block": 7,
+   "week": 6,
+   "day": 6,
+   "date": "2026-10-03",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>conditioning>cooldown",
+   "focus": "Suitcase Walking Lunge Progression"
+  },
+  {
+   "track": "pump-condition-5x",
+   "block": 2,
+   "week": 1,
+   "day": 6,
+   "date": "2026-02-14",
+   "skeleton": "warmup>strength-intensity-1>conditioning>cooldown",
+   "focus": "Today’s giant set is a combination of lower body exercises that are each manageable on their own."
+  },
+  {
+   "track": "pump-condition-5x",
+   "block": 2,
+   "week": 2,
+   "day": 6,
+   "date": "2026-02-21",
+   "skeleton": "warmup>strength-intensity-1>conditioning>cooldown",
+   "focus": "Every time you change your dumbbell position for a squat, lunge, or hinge, you impact the muscles"
+  },
+  {
+   "track": "pump-condition-5x",
+   "block": 2,
+   "week": 3,
+   "day": 6,
+   "date": "2026-02-28",
+   "skeleton": "warmup>strength-intensity-1>conditioning>cooldown",
+   "focus": "The high volume of bodyweight movements in today’s conditioning section will get your blood"
+  },
+  {
+   "track": "pump-condition-5x",
+   "block": 2,
+   "week": 4,
+   "day": 6,
+   "date": "2026-03-07",
+   "skeleton": "warmup>strength-intensity-1>conditioning>cooldown",
+   "focus": "A wall sit is intentionally challenging. This brief hold within the conditioning will make you dig"
+  },
+  {
+   "track": "pump-condition-5x",
+   "block": 2,
+   "week": 5,
+   "day": 6,
+   "date": "2026-03-14",
+   "skeleton": "warmup>strength-intensity-1>conditioning>cooldown",
+   "focus": "Changing the order of movements can be a subtle way to keep getting stronger in different ways."
+  },
+  {
+   "track": "pump-condition-5x",
+   "block": 2,
+   "week": 6,
+   "day": 6,
+   "date": "2026-03-21",
+   "skeleton": "warmup>strength-intensity-1>conditioning>cooldown",
+   "focus": "For the conditioning today, reduce the hanging leg raise to 8 reps, or change the movement to a"
+  },
+  {
+   "track": "pump-condition-5x",
+   "block": 5,
+   "week": 1,
+   "day": 5,
+   "date": "2026-06-19",
+   "skeleton": "warmup>strength-intensity-2>strength-balance>conditioning>cooldown",
+   "focus": "Supinated Pull Up"
+  },
+  {
+   "track": "pump-lift-5x",
+   "block": 2,
+   "week": 1,
+   "day": 6,
+   "date": "2026-02-14",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>finisher>cooldown",
+   "focus": "Today’s giant set is a combination of lower body exercises that are each manageable on their own."
+  },
+  {
+   "track": "pump-lift-5x",
+   "block": 2,
+   "week": 2,
+   "day": 6,
+   "date": "2026-02-21",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>finisher>cooldown",
+   "focus": "Every time you change your dumbbell position for a squat, lunge, or hinge, you impact the muscles"
+  },
+  {
+   "track": "pump-lift-5x",
+   "block": 2,
+   "week": 3,
+   "day": 6,
+   "date": "2026-02-28",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>finisher>cooldown",
+   "focus": "The hamstrings help us in a lot of ways, but one of them is to support how your knees bend and"
+  },
+  {
+   "track": "pump-lift-5x",
+   "block": 2,
+   "week": 4,
+   "day": 6,
+   "date": "2026-03-07",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>finisher>cooldown",
+   "focus": "The hip flexors and adductors are the rotator cuff of the lower body. Many people are familiar with"
+  },
+  {
+   "track": "pump-lift-5x",
+   "block": 2,
+   "week": 5,
+   "day": 6,
+   "date": "2026-03-14",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>finisher>cooldown",
+   "focus": "Changing the order of movements can be a subtle way to keep getting stronger in different ways."
+  },
+  {
+   "track": "pump-lift-5x",
+   "block": 2,
+   "week": 6,
+   "day": 6,
+   "date": "2026-03-21",
+   "skeleton": "warmup>strength-intensity-1>strength-balance>finisher>cooldown",
+   "focus": "For the finisher today, only perform the 40 leg raises if you can confidently complete 10 quality"
+  }
+ ]
+}

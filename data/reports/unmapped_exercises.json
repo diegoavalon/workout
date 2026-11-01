@@ -1,0 +1,898 @@
+[
+ {
+  "id": null,
+  "name": "Loading Note",
+  "uses": 45,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Continuous Clock",
+  "uses": 36,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Same weight as Set 2)",
+  "uses": 27,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Continuous Effort",
+  "uses": 25,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "minutes @ GRINDER pace",
+  "uses": 20,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "For Quality",
+  "uses": 18,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "As Many Reps As Possible (AMRAP)",
+  "uses": 16,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Full Body",
+  "uses": 14,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Full Body Mobility",
+  "uses": 14,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "rest-",
+  "uses": 12,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "As Many Reps As Possible AMRAP",
+  "uses": 11,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Mobility",
+  "uses": 11,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Pauses at Bottom)",
+  "uses": 10,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Move immediately into the next couplet",
+  "uses": 8,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "20 sec on",
+  "uses": 6,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "As Many Reps As Possible",
+  "uses": 6,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Effort Note",
+  "uses": 6,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Odd Minutes - Weighted Strict Bar Dip x 4-6 reps @ 20X0",
+  "uses": 6,
+  "aliases": [],
+  "reason": "too-long-for-an-exercise-name",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Round 1 - Moderate",
+  "uses": 6,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Round 2 - Hard",
+  "uses": 6,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Round 3-4 - Very Tough Pace",
+  "uses": 6,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Tempo (Aim for 8+ reps)",
+  "uses": 6,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "rest",
+  "uses": 5,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 3 - CDEAB",
+  "uses": 5,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 4 - BAEDC",
+  "uses": 5,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "AMRAP Switch Lunge",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Bottom)",
+  "uses": 4,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Dumbbell Front Raise + Dumbbell Lateral Raise",
+  "uses": 4,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Mechanical Drop Sets",
+  "uses": 4,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Run or 5 Shuttle Runs",
+  "uses": 4,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "sec",
+  "uses": 4,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 1 - ABCDE",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 1 - Easy to Moderate",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 1)",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 2 - EDCBA",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 2 - Moderate",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 3 - Moderate to Hard",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 4 - Hard",
+  "uses": 4,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Aerobic Push Pull",
+  "uses": 3,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "AMRAP Double Unders",
+  "uses": 3,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "As Many Reps as Possible",
+  "uses": 3,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Cobra 5",
+  "uses": 3,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "DB Front Raise + DB Lateral Raise",
+  "uses": 3,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "EMOM Format",
+  "uses": 3,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Extension",
+  "uses": 3,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "SUSTAINED PACE",
+  "uses": 3,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "15 sec hard",
+  "uses": 2,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "30 sec hard",
+  "uses": 2,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "45 sec hard",
+  "uses": 2,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "60 sec hard",
+  "uses": 2,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Cluster Sets",
+  "uses": 2,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Easy Pedal (or rest)",
+  "uses": 2,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Fatigued Abdominals",
+  "uses": 2,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Isometric Fatigue Shoulders",
+  "uses": 2,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 1)",
+  "uses": 2,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Power Snatch + 2 Full Snatch",
+  "uses": 2,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Pronated Pull Up + Ring Row",
+  "uses": 2,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Pronated Pull Up + Supinated Pull Up",
+  "uses": 2,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Push Press + 2 Split Jerk",
+  "uses": 2,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Row + Ring Dip",
+  "uses": 2,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 1 - Moderate",
+  "uses": 2,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 2 - Moderate to Hard",
+  "uses": 2,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 3 - Hard",
+  "uses": 2,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Single Arm Trap 3 Raise",
+  "uses": 2,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Wrist Stretch Extension Stretch + Wrist Isometrics",
+  "uses": 2,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "AMRAP Bar Muscle Up",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "AMRAP Kettlebell Russian Twist",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "AMRAP V Ups",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "As Many Reps as Possible AMRAP",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Bike 600",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "DU or 75 Single Unders",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Filly Press + Push Ups",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Full Clean + 2 Front Squats",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Full Snatch @ about 75-80%",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Full Snatch @ about 80-85%",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Full Snatch @ about 85-90%",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Glute Bridge Barbell Floor Press 8-10 reps @21X1",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Incline Trap 3 Raise",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "KB Clean + Push Press Left",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "KB Clean + Push Press Right",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "KB Gorilla Rows (53/35) R+L=1",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "KB Gorilla Rows R+L=1",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "KB Upright Rows 20X0",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Kettlebell Switch Snatch 8/arm",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 1-1st exercise only",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 2-2nd exercise only",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 2) 10-15 Russian KB Swings",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 3-3rd exercise only",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 3) 10 Diagonal Skater Jump (5/side)",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 3) 10-15 Tuck Ups",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 3) 12-16 Alternating DB Snatch",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 3) 5 Box Jump Step Down",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 3) 5 Continuous Broad Jump",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Minute 3) 5 Continuous Vertical Jump",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Muscle Snatch + 2 Overhead Squat",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Odd - 10 Side Plank Hip Taps/side",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Pancake 3 way",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Power Clean + 3 Broad Jumps",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "QUALITY Sets NOT FOR TIME",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "reps.",
+  "uses": 1,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "rest between sets",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Row for Max Calories",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Seated DB Press + Deficit Push Ups",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Seated DB Press + Push Ups",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Seated Strict Press + Strict Bar Dip",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 2 - Hard Pace",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Set 3 - Tough Pace",
+  "uses": 1,
+  "aliases": [],
+  "reason": "instruction-text",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Shuttle Run (down+back=1)",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Tempo",
+  "uses": 1,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Tuck Up + V Up",
+  "uses": 1,
+  "aliases": [],
+  "reason": "compound-of-several-movements",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Wall Balls 20/14, 10'/9'",
+  "uses": 1,
+  "aliases": [],
+  "reason": "contains-numbers",
+  "suggestedPattern": null
+ },
+ {
+  "id": null,
+  "name": "Warm-up (8 min)",
+  "uses": 1,
+  "aliases": [],
+  "reason": "excluded-by-override",
+  "suggestedPattern": null
+ }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "persist-020926",
+    "location": "pump-lift-4x week 1 day 4",
+    "section": "Strength Intensity 2 (10 min)",
+    "text": "RPE 9/10.",
+    "reason": "unclassified-line-in-strength"
+  },
+  {
+    "file": "persist-031626",
+    "location": "pump-condition-4x week 6 day 1",
+    "section": "Upper Body Grinder (15 min time cap)",
+    "text": "Press and Burpees.",
+    "reason": "unclassified-line-in-freeform"
+  },
+  {
+    "file": "persist-031626",
+    "location": "minimalist week 6 day 1",
+    "section": "Upper Body Grinder (15 min time cap)",
+    "text": "Press and Burpees.",
+    "reason": "unclassified-line-in-freeform"
+  },
+  {
+    "file": "persist-041326",
+    "location": "pump-condition-3x week 4 day 4",
+    "section": "PERSIST RECOVERY MOBILITY SESSION (10 min)",
+    "text": "Friday. April 17th, 2026",
+    "reason": "unclassified-line-in-list"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x week 4 day 1",
+    "section": "Strength Balance (12 min)",
+    "text": "2.",
+    "reason": "unclassified-line-in-list"
+  },
+  {
+    "file": "persist-080326",
+    "location": "perform week 4 day 6",
+    "section": "Couple of Couplets (12-15 min)",
+    "text": "Cal Bike (Female Rx Cals = 7-7-6-6-5-5)",
+    "reason": "unclassified-line-in-freeform"
+  },
+  {
+    "file": "persist-080326",
+    "location": "perform week 4 day 6",
+    "section": "Couple of Couplets (12-15 min)",
+    "text": "Cal Bike (Female Rx Cals = 7-7-6-6-5-5)",
+    "reason": "unclassified-line-in-freeform"
+  },
+  {
+    "file": "persist-081726",
+    "location": "perform week 6 day 6",
+    "section": "Couple of Couplets (12-15 min)",
+    "text": "Cal Row (Female Rx Cals = 7-7-6-6-5-5-4-3-2-1)",
+    "reason": "unclassified-line-in-freeform"
+  }
+]

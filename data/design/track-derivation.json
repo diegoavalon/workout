@@ -1,0 +1,675 @@
+{
+ "note": "No single rule derives the lower-frequency tracks. Same-day copies are common only for Pump Condition 5x and Perform (copy the Pump Lift 5x main lift on the same day number). Pump Lift 4x/3x and Pump Condition 4x/3x reuse Pump Lift 5x / Pump Condition 5x sessions but pick a different subset and order of days in each block, so a template is needed per block (the mapping below), not a global rule. Minimalist keeps the movement pattern but changes the lift.",
+ "relations": [
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "days": 156,
+   "sameDay": 36,
+   "sameLiftAnyDay": 155,
+   "samePatternOnly": 1,
+   "blocksWithConstantMapping": 7,
+   "blocks": 8,
+   "eq_warmup": "128/156",
+   "eq_strength-intensity-1": "134/156",
+   "eq_strength-intensity-2": "73/156",
+   "eq_strength-balance": "93/156",
+   "eq_finisher": "92/156",
+   "eq_conditioning": "0/0",
+   "eq_cooldown": "128/156"
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "days": 117,
+   "sameDay": 48,
+   "sameLiftAnyDay": 116,
+   "samePatternOnly": 1,
+   "blocksWithConstantMapping": 7,
+   "blocks": 8,
+   "eq_warmup": "91/117",
+   "eq_strength-intensity-1": "105/117",
+   "eq_strength-intensity-2": "4/117",
+   "eq_strength-balance": "6/117",
+   "eq_finisher": "12/117",
+   "eq_conditioning": "0/0",
+   "eq_cooldown": "23/117"
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "days": 195,
+   "sameDay": 190,
+   "sameLiftAnyDay": 190,
+   "samePatternOnly": 3,
+   "blocksWithConstantMapping": 6,
+   "blocks": 8,
+   "eq_warmup": "168/193",
+   "eq_strength-intensity-1": "161/193",
+   "eq_strength-intensity-2": "0/0",
+   "eq_strength-balance": "67/187",
+   "eq_finisher": "0/0",
+   "eq_conditioning": "0/0",
+   "eq_cooldown": "181/193"
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "days": 156,
+   "sameDay": 29,
+   "sameLiftAnyDay": 155,
+   "samePatternOnly": 0,
+   "blocksWithConstantMapping": 7,
+   "blocks": 8,
+   "eq_warmup": "115/155",
+   "eq_strength-intensity-1": "140/155",
+   "eq_strength-intensity-2": "0/0",
+   "eq_strength-balance": "61/155",
+   "eq_finisher": "0/0",
+   "eq_conditioning": "88/155",
+   "eq_cooldown": "113/155"
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "days": 117,
+   "sameDay": 43,
+   "sameLiftAnyDay": 117,
+   "samePatternOnly": 0,
+   "blocksWithConstantMapping": 8,
+   "blocks": 8,
+   "eq_warmup": "96/117",
+   "eq_strength-intensity-1": "109/117",
+   "eq_strength-intensity-2": "0/0",
+   "eq_strength-balance": "0/117",
+   "eq_finisher": "0/0",
+   "eq_conditioning": "18/117",
+   "eq_cooldown": "18/117"
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "days": 195,
+   "sameDay": 190,
+   "sameLiftAnyDay": 190,
+   "samePatternOnly": 3,
+   "blocksWithConstantMapping": 6,
+   "blocks": 8,
+   "eq_warmup": "174/193",
+   "eq_strength-intensity-1": "156/193",
+   "eq_strength-intensity-2": "0/1",
+   "eq_strength-balance": "69/186",
+   "eq_finisher": "0/0",
+   "eq_conditioning": "0/0",
+   "eq_cooldown": "182/193"
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "days": 156,
+   "sameDay": 3,
+   "sameLiftAnyDay": 7,
+   "samePatternOnly": 129,
+   "blocksWithConstantMapping": 2,
+   "blocks": 8,
+   "eq_warmup": "77/136",
+   "eq_strength-intensity-1": "3/136",
+   "eq_strength-intensity-2": "0/2",
+   "eq_strength-balance": "6/134",
+   "eq_finisher": "0/0",
+   "eq_conditioning": "0/0",
+   "eq_cooldown": "88/136"
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "days": 156,
+   "sameDay": 4,
+   "sameLiftAnyDay": 10,
+   "samePatternOnly": 127,
+   "blocksWithConstantMapping": 2,
+   "blocks": 8,
+   "eq_warmup": "82/137",
+   "eq_strength-intensity-1": "9/137",
+   "eq_strength-intensity-2": "0/0",
+   "eq_strength-balance": "12/135",
+   "eq_finisher": "0/0",
+   "eq_conditioning": "20/137",
+   "eq_cooldown": "91/137"
+  }
+ ],
+ "perBlockMappings": [
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 1,
+   "mappings": [
+    "1=2 2=3 4=5 5=6"
+   ]
+  },
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 2,
+   "mappings": [
+    "1=2 2=1 4=5 5=3"
+   ]
+  },
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 3,
+   "mappings": [
+    "1=1 2=2 4=5 5=3"
+   ]
+  },
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 4,
+   "mappings": [
+    "1=1 2=2 4=5 5=6"
+   ]
+  },
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 2=2 4=3 5=5"
+   ]
+  },
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 6,
+   "mappings": [
+    "1=2 2=3 4=5 5=6",
+    "1=2~ 2=3 4=5 5=6"
+   ]
+  },
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 7,
+   "mappings": [
+    "1=2 2=3 4=5 5=1"
+   ]
+  },
+  {
+   "derived": "pump-lift-4x",
+   "base": "pump-lift-5x",
+   "block": 8,
+   "mappings": [
+    "1=1 2=2 4=5 5=6"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 1,
+   "mappings": [
+    "1=2 3=3 5=1"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 2,
+   "mappings": [
+    "1=1 3=5 5=3"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 3,
+   "mappings": [
+    "1=1 3=2 5=5"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 4,
+   "mappings": [
+    "1=1 3=6 5=5"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 3=2 5=3"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 6,
+   "mappings": [
+    "1=2 3=3 5=1",
+    "1=2~ 3=3 5=1"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 7,
+   "mappings": [
+    "1=3 3=2 5=1"
+   ]
+  },
+  {
+   "derived": "pump-lift-3x",
+   "base": "pump-lift-5x",
+   "block": 8,
+   "mappings": [
+    "1=1 3=3 5=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 1,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6",
+    "1=1 2=2 3=3 5=2~ 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 2,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 3,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 4,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 2=2 3=3 5=- 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 6,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6",
+    "1=1 2=2~ 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 7,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-5x",
+   "base": "pump-lift-5x",
+   "block": 8,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 1,
+   "mappings": [
+    "1=2 2=3 4=5 5=1"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 2,
+   "mappings": [
+    "1=2 2=1 4=5 5=3"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 3,
+   "mappings": [
+    "1=1 2=3 4=5 5=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 4,
+   "mappings": [
+    "1=1 2=2 4=5 5=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 2=2 4=3 5=-",
+    "1=1 2=2 4=3 5=5"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 6,
+   "mappings": [
+    "1=2 2=3 4=5 5=1"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 7,
+   "mappings": [
+    "1=2 2=3 4=5 5=1"
+   ]
+  },
+  {
+   "derived": "pump-condition-4x",
+   "base": "pump-condition-5x",
+   "block": 8,
+   "mappings": [
+    "1=1 2=2 4=3 5=6"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 1,
+   "mappings": [
+    "1=2 3=3 5=1"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 2,
+   "mappings": [
+    "1=1 3=5 5=3"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 3,
+   "mappings": [
+    "1=1 3=2 5=5"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 4,
+   "mappings": [
+    "1=1 3=6 5=5"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 3=2 5=3"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 6,
+   "mappings": [
+    "1=2 3=3 5=1"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 7,
+   "mappings": [
+    "1=3 3=2 5=1"
+   ]
+  },
+  {
+   "derived": "pump-condition-3x",
+   "base": "pump-condition-5x",
+   "block": 8,
+   "mappings": [
+    "1=1 3=2 5=3"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 1,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6",
+    "1=1 2=2 3=3 5=2~ 6=6"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 2,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 3,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 4,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 2=2 3=3 5=- 6=6"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 6,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6",
+    "1=1 2=2~ 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 7,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "perform",
+   "base": "pump-lift-5x",
+   "block": 8,
+   "mappings": [
+    "1=1 2=2 3=3 5=5 6=6"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 1,
+   "mappings": [
+    "1=2~ 2=3~ 4=5~ 5=1~",
+    "1=2~ 2=3~ 4=2~ 5=1~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 2,
+   "mappings": [
+    "1=2~ 2=1~ 4=5~ 5=3~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 3,
+   "mappings": [
+    "1=- 2=2~ 4=5~ 5=6~",
+    "1=1~ 2=2~ 4=5~ 5=6~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 4,
+   "mappings": [
+    "1=1~ 2=2 4=5~ 5=6~",
+    "1=1~ 2=2~ 4=- 5=6~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 2=2~ 4=- 5=-",
+    "1=1~ 2=2~ 4=- 5=-"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 6,
+   "mappings": [
+    "1=2~ 2=3~ 4=5~ 5=1~",
+    "1=2~ 2=3 4=5~ 5=1~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 7,
+   "mappings": [
+    "1=2~ 2=3~ 4=- 5=1~",
+    "1=2 2=3~ 4=- 5=1~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-lift-5x",
+   "block": 8,
+   "mappings": [
+    "1=1~ 2=6~ 4=3~ 5=-"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 1,
+   "mappings": [
+    "1=2~ 2=3~ 4=5~ 5=1~",
+    "1=2~ 2=3~ 4=5 5=1~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 2,
+   "mappings": [
+    "1=2~ 2=1~ 4=5~ 5=3~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 3,
+   "mappings": [
+    "1=- 2=2~ 4=5~ 5=6~",
+    "1=1~ 2=2~ 4=5~ 5=6~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 4,
+   "mappings": [
+    "1=1~ 2=2 4=5~ 5=6~",
+    "1=1~ 2=2~ 4=- 5=6~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 5,
+   "mappings": [
+    "1=1 2=2~ 4=- 5=-",
+    "1=1~ 2=2~ 4=- 5=5"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 6,
+   "mappings": [
+    "1=2~ 2=3~ 4=5~ 5=1~",
+    "1=2~ 2=3 4=5~ 5=1~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 7,
+   "mappings": [
+    "1=2~ 2=3~ 4=- 5=1~",
+    "1=2 2=3~ 4=- 5=1~"
+   ]
+  },
+  {
+   "derived": "minimalist",
+   "base": "pump-condition-5x",
+   "block": 8,
+   "mappings": [
+    "1=1~ 2=6~ 4=3~ 5=-"
+   ]
+  }
+ ],
+ "mappingNotation": "'derived day = base day'; a trailing ~ means matched by pattern only; - means no match"
+}

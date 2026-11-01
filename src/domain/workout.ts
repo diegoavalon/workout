@@ -1,4 +1,7 @@
+import { fmtSeconds } from "../lib/format";
 import type { Exercise } from "./types";
+
+export { fmtSeconds } from "../lib/format";
 
 export type RawItem = Record<string, unknown> & { order?: number; type?: string; itemId?: string };
 
@@ -54,7 +57,6 @@ export function allAssignments(items: readonly RawItem[]): RawItem[] {
   return out;
 }
 
-export const fmtSeconds = (s: number) => (s < 60 ? `${s} s` : `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`);
 function fmtVal(v: unknown): string | null {
   if (v === null || v === undefined || v === "") return null;
   if (Array.isArray(v)) return v.map((x) => fmtVal(x)).filter(Boolean).join(", ");

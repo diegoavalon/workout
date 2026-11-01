@@ -12,3 +12,9 @@ dist
 /raw-export/**/*.json
 # Browser profile used by capture:raw (holds the source-app login session)
 /.auth/
+
+# Parsed program content (derived from licensed PDFs); rebuild with npm run persist:all
+/data/text/
+/data/source/
+/data/views/
+/data/generated/

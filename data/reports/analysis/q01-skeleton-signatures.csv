@@ -1,0 +1,17 @@
+track,skeleton,sessions,matchesHypothesis
+minimalist,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,154,true
+minimalist,warmup>strength-intensity-1>strength-intensity-2>conditioning>cooldown,2,false
+perform,warmup>hot-start>strength-intensity-1>strength-balance>conditioning>cooldown,104,true
+perform,warmup>speed-strength>strength-intensity-1>strength-balance>conditioning>cooldown,72,true
+perform,warmup>hot-start>strength-intensity-1>strength-intensity-2>conditioning>cooldown,1,false
+perform,warmup>speed-strength>strength-intensity-1>conditioning>cooldown,6,false
+perform,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,12,false
+pump-condition-3x,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,117,true
+pump-condition-4x,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,156,true
+pump-condition-5x,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,188,true
+pump-condition-5x,warmup>strength-intensity-1>conditioning>cooldown,6,false
+pump-condition-5x,warmup>strength-intensity-2>strength-balance>conditioning>cooldown,1,false
+pump-lift-3x,warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown,117,true
+pump-lift-4x,warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown,156,true
+pump-lift-5x,warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown,189,true
+pump-lift-5x,warmup>strength-intensity-1>strength-balance>finisher>cooldown,6,false

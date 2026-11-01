@@ -1,0 +1,392 @@
+[
+  {
+    "file": "persist-011226",
+    "weekStart": "2026-01-12",
+    "week": 3,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 239,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-011926",
+    "weekStart": "2026-01-19",
+    "week": 4,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 239,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-012626",
+    "weekStart": "2026-01-26",
+    "week": 5,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 239,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-020226",
+    "weekStart": "2026-02-02",
+    "week": 6,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 239,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-020926",
+    "weekStart": "2026-02-09",
+    "week": 1,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 236,
+    "unparsed": 1
+  },
+  {
+    "file": "persist-021626",
+    "weekStart": "2026-02-16",
+    "week": 2,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 236,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-022326",
+    "weekStart": "2026-02-23",
+    "week": 3,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 236,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-030226",
+    "weekStart": "2026-03-02",
+    "week": 4,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 238,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-030926",
+    "weekStart": "2026-03-09",
+    "week": 5,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 240,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-031626",
+    "weekStart": "2026-03-16",
+    "week": 6,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 240,
+    "unparsed": 2
+  },
+  {
+    "file": "persist-032326",
+    "weekStart": "2026-03-23",
+    "week": 1,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 247,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-033026",
+    "weekStart": "2026-03-30",
+    "week": 2,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 247,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-040626",
+    "weekStart": "2026-04-06",
+    "week": 3,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-041326",
+    "weekStart": "2026-04-13",
+    "week": 4,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 247,
+    "unparsed": 1
+  },
+  {
+    "file": "persist-042026",
+    "weekStart": "2026-04-20",
+    "week": 5,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-042726",
+    "weekStart": "2026-04-27",
+    "week": 6,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 247,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-050426",
+    "weekStart": "2026-05-04",
+    "week": 1,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-051126",
+    "weekStart": "2026-05-11",
+    "week": 2,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-060126",
+    "weekStart": "2026-06-01",
+    "week": 5,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-060826",
+    "weekStart": "2026-06-08",
+    "week": 6,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 243,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-061526",
+    "weekStart": "2026-06-15",
+    "week": 1,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-070626",
+    "weekStart": "2026-07-06",
+    "week": 4,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 1
+  },
+  {
+    "file": "persist-071326",
+    "weekStart": "2026-07-13",
+    "week": 1,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-072026",
+    "weekStart": "2026-07-20",
+    "week": 2,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-072726",
+    "weekStart": "2026-07-27",
+    "week": 3,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-080326",
+    "weekStart": "2026-08-03",
+    "week": 4,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 2
+  },
+  {
+    "file": "persist-081026",
+    "weekStart": "2026-08-10",
+    "week": 5,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-081726",
+    "weekStart": "2026-08-17",
+    "week": 6,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 1
+  },
+  {
+    "file": "persist-082426",
+    "weekStart": "2026-08-24",
+    "week": 1,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-083126",
+    "weekStart": "2026-08-31",
+    "week": 2,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-090726",
+    "weekStart": "2026-09-07",
+    "week": 3,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-091726",
+    "weekStart": "2026-09-14",
+    "week": 4,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-092126",
+    "weekStart": "2026-09-21",
+    "week": 5,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-092826",
+    "weekStart": "2026-09-28",
+    "week": 6,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 244,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-100326",
+    "weekStart": "2026-10-05",
+    "week": 1,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-101226",
+    "weekStart": "2026-10-12",
+    "week": 2,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-101926",
+    "weekStart": "2026-10-19",
+    "week": 3,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-102626",
+    "weekStart": "2026-10-26",
+    "week": 4,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  },
+  {
+    "file": "persist-110226",
+    "weekStart": "2026-11-02",
+    "week": 5,
+    "tracks": 8,
+    "days": 56,
+    "training": 33,
+    "sections": 245,
+    "unparsed": 0
+  }
+]

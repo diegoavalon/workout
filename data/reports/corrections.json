@@ -1,0 +1,667 @@
+[
+  {
+    "file": "persist-011226",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-011226",
+    "location": "page header",
+    "type": "header-week-mismatch",
+    "original": "Persist Week of 2025-01-12",
+    "corrected": "content is dated week of 2026-01-12; content trusted"
+  },
+  {
+    "file": "persist-011926",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-011926",
+    "location": "page header",
+    "type": "header-week-mismatch",
+    "original": "Persist Week of 2025-01-19",
+    "corrected": "content is dated week of 2026-01-19; content trusted"
+  },
+  {
+    "file": "persist-012626",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-012626",
+    "location": "page header",
+    "type": "header-week-mismatch",
+    "original": "Persist Week of 2025-01-26",
+    "corrected": "content is dated week of 2026-01-26; content trusted"
+  },
+  {
+    "file": "persist-020226",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-020226",
+    "location": "pump-lift-5x block 1 of 7",
+    "type": "day-header-missing",
+    "original": "(no day header)",
+    "corrected": "Day 1 (position in track)"
+  },
+  {
+    "file": "persist-020926",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "6 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-021626",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-022326",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "7 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-030226",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "4 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-030926",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-031626",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-032326",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-032326",
+    "location": "pump-lift-4x Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "corrected": "assigned to pump-lift-4x from the track heading"
+  },
+  {
+    "file": "persist-032326",
+    "location": "pump-lift-3x Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "corrected": "assigned to pump-lift-3x from the track heading"
+  },
+  {
+    "file": "persist-032326",
+    "location": "pump-condition-5x Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "corrected": "assigned to pump-condition-5x from the track heading"
+  },
+  {
+    "file": "persist-032326",
+    "location": "pump-condition-4x Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "corrected": "assigned to pump-condition-4x from the track heading"
+  },
+  {
+    "file": "persist-032326",
+    "location": "pump-condition-3x Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "corrected": "assigned to pump-condition-3x from the track heading"
+  },
+  {
+    "file": "persist-032326",
+    "location": "perform Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "corrected": "assigned to perform from the track heading"
+  },
+  {
+    "file": "persist-032326",
+    "location": "minimalist Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 1 Day 7 - Persist PUMP LIFT 5x",
+    "corrected": "assigned to minimalist from the track heading"
+  },
+  {
+    "file": "persist-033026",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1519",
+    "type": "duplicate-day-header",
+    "original": "Week 2 Day 2 - Persist PUMP CONDITION 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1584",
+    "type": "duplicate-day-header",
+    "original": "Week 2 Day 3 - Persist PUMP CONDITION 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1599",
+    "type": "duplicate-day-header",
+    "original": "Week 2 Day 4 - Persist PUMP CONDITION 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1660",
+    "type": "duplicate-day-header",
+    "original": "Week 2 Day 5 - Persist PUMP CONDITION 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1717",
+    "type": "duplicate-day-header",
+    "original": "Week 2 Day 6 - Persist PUMP CONDITION 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1516",
+    "type": "stray-day-header-in-body",
+    "original": "Week 2 Day 2 - Persist PUMP CONDITION 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1580",
+    "type": "stray-day-header-in-body",
+    "original": "Week 2 Day 3 - Persist PUMP CONDITION 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1596",
+    "type": "stray-day-header-in-body",
+    "original": "Week 2 Day 4 - Persist PUMP CONDITION 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1656",
+    "type": "stray-day-header-in-body",
+    "original": "Week 2 Day 5 - Persist PUMP CONDITION 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-033026",
+    "location": "line 1714",
+    "type": "stray-day-header-in-body",
+    "original": "Week 2 Day 6 - Persist PUMP CONDITION 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-040626",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-040626",
+    "location": "pump-lift-5x day 4",
+    "type": "printed-date-mismatch",
+    "original": "1016-04-09",
+    "corrected": "2026-04-09"
+  },
+  {
+    "file": "persist-041326",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "9 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-041326",
+    "location": "line 808",
+    "type": "duplicate-day-header",
+    "original": "Week 4 Day 7 - Persist PUMP LIFT 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-041326",
+    "location": "line 805",
+    "type": "stray-day-header-in-body",
+    "original": "Week 4 Day 7 - Persist PUMP LIFT 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-042026",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "3 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-042726",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "3 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-042726",
+    "location": "line 1494",
+    "type": "duplicate-day-header",
+    "original": "Week 6 Day 7 - Persist PUMP CONDITION 5x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-042726",
+    "location": "line 1491",
+    "type": "stray-day-header-in-body",
+    "original": "Week 6 Day 7 - Persist PUMP CONDITION 5x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-042726",
+    "location": "perform Week 6 Day 7 - Persist PERFORM",
+    "type": "duplicate-day-block",
+    "original": "Week 6 Day 7 - Persist PERFORM",
+    "corrected": "empty first copy dropped"
+  },
+  {
+    "file": "persist-050426",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-051126",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "3 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x day 1",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-07",
+    "corrected": "2026-07-06"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x day 2",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-08",
+    "corrected": "2026-07-07"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x day 3",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-09",
+    "corrected": "2026-07-08"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x day 4",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-10",
+    "corrected": "2026-07-09"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x day 5",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-11",
+    "corrected": "2026-07-10"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x day 6",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-12",
+    "corrected": "2026-07-11"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-lift-3x day 7",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-13",
+    "corrected": "2026-07-12"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-condition-3x day 1",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-07",
+    "corrected": "2026-07-06"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-condition-3x day 2",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-08",
+    "corrected": "2026-07-07"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-condition-3x day 3",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-09",
+    "corrected": "2026-07-08"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-condition-3x day 4",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-10",
+    "corrected": "2026-07-09"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-condition-3x day 5",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-11",
+    "corrected": "2026-07-10"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-condition-3x day 6",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-12",
+    "corrected": "2026-07-11"
+  },
+  {
+    "file": "persist-070626",
+    "location": "pump-condition-3x day 7",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-13",
+    "corrected": "2026-07-12"
+  },
+  {
+    "file": "persist-070626",
+    "location": "minimalist day 1",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-07",
+    "corrected": "2026-07-06"
+  },
+  {
+    "file": "persist-070626",
+    "location": "minimalist day 2",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-08",
+    "corrected": "2026-07-07"
+  },
+  {
+    "file": "persist-070626",
+    "location": "minimalist day 3",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-09",
+    "corrected": "2026-07-08"
+  },
+  {
+    "file": "persist-070626",
+    "location": "minimalist day 4",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-10",
+    "corrected": "2026-07-09"
+  },
+  {
+    "file": "persist-070626",
+    "location": "minimalist day 5",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-11",
+    "corrected": "2026-07-10"
+  },
+  {
+    "file": "persist-070626",
+    "location": "minimalist day 6",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-12",
+    "corrected": "2026-07-11"
+  },
+  {
+    "file": "persist-070626",
+    "location": "minimalist day 7",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-13",
+    "corrected": "2026-07-12"
+  },
+  {
+    "file": "persist-071326",
+    "location": "line 1051",
+    "type": "duplicate-day-header",
+    "original": "Week 1 Day 6 - Persist PUMP LIFT 3x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-071326",
+    "location": "line 1048",
+    "type": "stray-day-header-in-body",
+    "original": "Week 1 Day 6 - Persist PUMP LIFT 3x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-072026",
+    "location": "pump-lift-5x day 3",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-23",
+    "corrected": "2026-07-22"
+  },
+  {
+    "file": "persist-072026",
+    "location": "pump-lift-5x day 4",
+    "type": "printed-date-mismatch",
+    "original": "2026-07-22",
+    "corrected": "2026-07-23"
+  },
+  {
+    "file": "persist-072726",
+    "location": "line 751",
+    "type": "duplicate-day-header",
+    "original": "Week 3 Day 6 - Persist PUMP LIFT 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-072726",
+    "location": "line 1587",
+    "type": "duplicate-day-header",
+    "original": "Week 3 Day 3 - Persist PUMP COND 4x",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-072726",
+    "location": "line 2200",
+    "type": "duplicate-day-header",
+    "original": "Week 3 Day 3 - Persist PERFORM",
+    "corrected": "repeated copy dropped"
+  },
+  {
+    "file": "persist-072726",
+    "location": "line 748",
+    "type": "stray-day-header-in-body",
+    "original": "Week 3 Day 6 - Persist PUMP LIFT 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-072726",
+    "location": "line 1586",
+    "type": "stray-day-header-in-body",
+    "original": "Week 3 Day 3 - Persist PUMP COND 4x",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-072726",
+    "location": "line 2197",
+    "type": "stray-day-header-in-body",
+    "original": "Week 3 Day 3 - Persist PERFORM",
+    "corrected": "line dropped from body"
+  },
+  {
+    "file": "persist-072726",
+    "location": "pump-condition-5x block 6 of 7",
+    "type": "day-number-corrected",
+    "original": "Week 3 Day 5 - Persist PUMP COND 5x",
+    "corrected": "Day 6 (position in track)"
+  },
+  {
+    "file": "persist-072726",
+    "location": "pump-condition-5x block 7 of 7",
+    "type": "day-number-corrected",
+    "original": "Week 3 Day 6 - Persist PUMP COND 5x",
+    "corrected": "Day 7 (position in track)"
+  },
+  {
+    "file": "persist-072726",
+    "location": "pump-condition-4x block 7 of 7",
+    "type": "day-number-corrected",
+    "original": "Week 3 Day 6 - Persist PUMP COND 4x",
+    "corrected": "Day 7 (position in track)"
+  },
+  {
+    "file": "persist-072726",
+    "location": "pump-condition-3x block 7 of 7",
+    "type": "day-header-missing",
+    "original": "(no day header)",
+    "corrected": "Day 7 (position in track)"
+  },
+  {
+    "file": "persist-072726",
+    "location": "perform block 4 of 7",
+    "type": "day-header-missing",
+    "original": "(no day header)",
+    "corrected": "Day 4 (position in track)"
+  },
+  {
+    "file": "persist-072726",
+    "location": "pump-lift-4x day 7",
+    "type": "printed-date-mismatch",
+    "original": "2026-08-09",
+    "corrected": "2026-08-02"
+  },
+  {
+    "file": "persist-080326",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "1 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-081026",
+    "location": "line 517",
+    "type": "extra-date-line",
+    "original": "Tuesday, August 11th, 2026",
+    "corrected": "second date next to a day header ignored"
+  },
+  {
+    "file": "persist-081026",
+    "location": "pump-lift-4x day 2",
+    "type": "printed-date-mismatch",
+    "original": "2026-08-04",
+    "corrected": "2026-08-11"
+  },
+  {
+    "file": "persist-081726",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "1 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-082426",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "1 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-091726",
+    "location": "perform Week 4 Day 7 - Persist PUMP COND 3x",
+    "type": "day-header-track-mismatch",
+    "original": "Week 4 Day 7 - Persist PUMP COND 3x",
+    "corrected": "assigned to perform from the track heading"
+  },
+  {
+    "file": "persist-091726",
+    "location": "filename",
+    "type": "filename-week-mismatch",
+    "original": "persist-091726",
+    "corrected": "content is week of 2026-09-14"
+  },
+  {
+    "file": "persist-092126",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "2 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-100326",
+    "location": "whole file",
+    "type": "invisible-chars-replaced",
+    "original": "1 zero-width/nbsp characters",
+    "corrected": "replaced with spaces for parsing"
+  },
+  {
+    "file": "persist-100326",
+    "location": "page header",
+    "type": "header-week-mismatch",
+    "original": "Persist Week of 2026-10-03",
+    "corrected": "content is dated week of 2026-10-05; content trusted"
+  },
+  {
+    "file": "persist-100326",
+    "location": "filename",
+    "type": "filename-week-mismatch",
+    "original": "persist-100326",
+    "corrected": "content is week of 2026-10-05"
+  },
+  {
+    "file": "persist-102626",
+    "location": "page header",
+    "type": "header-week-mismatch",
+    "original": "Persist Week of 2026-10-12",
+    "corrected": "content is dated week of 2026-10-26; content trusted"
+  },
+  {
+    "file": "persist-102626",
+    "location": "pump-lift-5x week 4 day 6",
+    "type": "duplicate-header",
+    "original": "C) Strength Intensity (12 min):",
+    "corrected": "first (empty) copy dropped"
+  }
+]

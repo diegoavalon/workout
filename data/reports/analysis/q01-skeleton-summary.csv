@@ -1,0 +1,9 @@
+track,sessions,matchHypothesis,pct,modalSkeleton,modalCount,withFocusNote
+minimalist,156,154,98.7%,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,154,156
+perform,195,176,90.3%,warmup>hot-start>strength-intensity-1>strength-balance>conditioning>cooldown,104,195
+pump-condition-3x,117,117,100.0%,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,117,117
+pump-condition-4x,156,156,100.0%,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,156,156
+pump-condition-5x,195,188,96.4%,warmup>strength-intensity-1>strength-balance>conditioning>cooldown,188,174
+pump-lift-3x,117,117,100.0%,warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown,117,116
+pump-lift-4x,156,156,100.0%,warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown,156,138
+pump-lift-5x,195,189,96.9%,warmup>strength-intensity-1>strength-intensity-2>strength-balance>finisher>cooldown,189,195

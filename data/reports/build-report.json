@@ -1,0 +1,119 @@
+{
+ "counts": {
+  "tracks": 8,
+  "blocks": 8,
+  "weeks": 43,
+  "sessions": 1582,
+  "sections": 8665,
+  "items": 19439,
+  "sets": 24231,
+  "schedule": 2184,
+  "exercises": 1282,
+  "exercise_aliases": 1730
+ },
+ "totalSessions": 2184,
+ "uniqueSessions": 1582,
+ "totalSections": 9797,
+ "uniqueSections": 3215,
+ "weeks": {
+  "observed": 39,
+  "missing": 4
+ },
+ "warnings": [],
+ "proseVariants": [],
+ "unknownFormats": {
+  "Shoulder Pre Fatigue": 4,
+  "Strength Balance (12 min)": 2,
+  "Couple of Couplets (15 min)": 3,
+  "Couple of Couplets (15min)": 1,
+  "Couple of Couplets": 1,
+  "Finisher (6-8 min)": 11,
+  "Upper Body Grinder (12-15 min)": 6,
+  "Fatigued Shoulders (15 min)": 17,
+  "Cyclical Hot Start (10 min)": 1,
+  "Couple of Couplets (12-15 min)": 2,
+  "Cyclical Hot Start": 1,
+  "Gymnastics HOT START (12 min)": 3,
+  "Upper HOT START (10 min)": 5
+ },
+ "blocks": [
+  {
+   "id": 1,
+   "startDate": "2025-12-29",
+   "endDate": "2026-02-08",
+   "weekCount": 6,
+   "startInferred": true
+  },
+  {
+   "id": 2,
+   "startDate": "2026-02-09",
+   "endDate": "2026-03-22",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 3,
+   "startDate": "2026-03-23",
+   "endDate": "2026-05-03",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 4,
+   "startDate": "2026-05-04",
+   "endDate": "2026-06-14",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 5,
+   "startDate": "2026-06-15",
+   "endDate": "2026-07-12",
+   "weekCount": 4,
+   "startInferred": false
+  },
+  {
+   "id": 6,
+   "startDate": "2026-07-13",
+   "endDate": "2026-08-23",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 7,
+   "startDate": "2026-08-24",
+   "endDate": "2026-10-04",
+   "weekCount": 6,
+   "startInferred": false
+  },
+  {
+   "id": 8,
+   "startDate": "2026-10-05",
+   "endDate": "2026-11-08",
+   "weekCount": 5,
+   "startInferred": false
+  }
+ ],
+ "missingWeeks": [
+  {
+   "block": 4,
+   "week": 3,
+   "start": "2026-05-18"
+  },
+  {
+   "block": 4,
+   "week": 4,
+   "start": "2026-05-25"
+  },
+  {
+   "block": 5,
+   "week": 2,
+   "start": "2026-06-22"
+  },
+  {
+   "block": 5,
+   "week": 3,
+   "start": "2026-06-29"
+  }
+ ]
+}
