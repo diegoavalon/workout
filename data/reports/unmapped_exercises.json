@@ -17,14 +17,6 @@
  },
  {
   "id": null,
-  "name": "Shinbox Hip Extension + Switch",
-  "uses": 32,
-  "aliases": [],
-  "reason": "compound-of-several-movements",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Same weight as Set 2)",
   "uses": 27,
   "aliases": [],
@@ -45,14 +37,6 @@
   "uses": 20,
   "aliases": [],
   "reason": "instruction-text",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Pronated Strict Pull Up or Lat Pulldown",
-  "uses": 18,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -89,14 +73,6 @@
  },
  {
   "id": null,
-  "name": "Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up",
-  "uses": 12,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "rest-",
   "uses": 12,
   "aliases": [],
@@ -121,14 +97,6 @@
  },
  {
   "id": null,
-  "name": "Even -",
-  "uses": 10,
-  "aliases": [],
-  "reason": "excluded-by-override",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Pauses at Bottom)",
   "uses": 10,
   "aliases": [],
@@ -141,22 +109,6 @@
   "uses": 8,
   "aliases": [],
   "reason": "excluded-by-override",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Odd -",
-  "uses": 7,
-  "aliases": [],
-  "reason": "excluded-by-override",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Pronated Strict Pull Up",
-  "uses": 6,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -273,34 +225,10 @@
  },
  {
   "id": null,
-  "name": "Left Side Single Arm Suitcase Rear Foot Elevated Split Squat",
-  "uses": 4,
-  "aliases": [],
-  "reason": "too-long-for-an-exercise-name",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Mechanical Drop Sets",
   "uses": 4,
   "aliases": [],
   "reason": "excluded-by-override",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Odd - 20-30sec Half Push Up Isometric",
-  "uses": 4,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Right Side Single Arm Suitcase Rear Foot Elevated Split Squat",
-  "uses": 4,
-  "aliases": [],
-  "reason": "too-long-for-an-exercise-name",
   "suggestedPattern": null
  },
  {
@@ -377,30 +305,6 @@
  },
  {
   "id": null,
-  "name": "Weight Plate Turkish Sit Ups 10-25#",
-  "uses": 4,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Pronated Pull Up Isometric",
-  "uses": 3,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Supinated Pull Up Isometric",
-  "uses": 3,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Aerobic Push Pull",
   "uses": 3,
   "aliases": [],
@@ -421,14 +325,6 @@
   "uses": 3,
   "aliases": [],
   "reason": "instruction-text",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Bike 85%",
-  "uses": 3,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -465,50 +361,10 @@
  },
  {
   "id": null,
-  "name": "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up",
-  "uses": 3,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "SUSTAINED PACE",
   "uses": 3,
   "aliases": [],
   "reason": "excluded-by-override",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Wall Balls to 10'",
-  "uses": 3,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Alternating Dumbbell Bench Press (Top Down)",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Dumbbell Suitcase Squat",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Lat Pulldown or Pronated Pull Up",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -545,50 +401,10 @@
  },
  {
   "id": null,
-  "name": "Bike 1k/900m",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Cluster Sets",
   "uses": 2,
   "aliases": [],
   "reason": "excluded-by-override",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "DB Turkish Sit Ups 10-25#",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Dual KB Clean x 8",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Dual KB Gunslinger x 8",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Dumbbell Bent Over Reverse Fly 30/20",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -621,14 +437,6 @@
   "uses": 2,
   "aliases": [],
   "reason": "instruction-text",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Patrick Step Level 1-3",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -705,90 +513,10 @@
  },
  {
   "id": null,
-  "name": "Wall Ball to 10/9' Target",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Wall Balls to 10/9' Target",
-  "uses": 2,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Wrist Stretch Extension Stretch + Wrist Isometrics",
   "uses": 2,
   "aliases": [],
   "reason": "compound-of-several-movements",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Dumbbell Pullover",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Dumbbell Suitcase KOT Split Squat",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Front Squat",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Glute Bridge Barbell Floor Press 8-10 reps @21X1",
-  "uses": 1,
-  "aliases": [],
-  "reason": "too-long-for-an-exercise-name",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Goblet Tall Kneel to Stand",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Seated Dumbbell Strict Press",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "1. Wide Push Up",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "American Kettlebell Swings 53/35",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -841,34 +569,10 @@
  },
  {
   "id": null,
-  "name": "Dual DB Sumo Squat 50/35",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Dumbbell Turkish Sit Ups 10-25#",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Filly Press + Push Ups",
   "uses": 1,
   "aliases": [],
   "reason": "compound-of-several-movements",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Friday, April, 3rd, 2026",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -905,15 +609,7 @@
  },
  {
   "id": null,
-  "name": "Goblet Squat 53/35",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Goblet Tall Kneel to Stand 53/35",
+  "name": "Glute Bridge Barbell Floor Press 8-10 reps @21X1",
   "uses": 1,
   "aliases": [],
   "reason": "contains-numbers",
@@ -1081,14 +777,6 @@
  },
  {
   "id": null,
-  "name": "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up (HSPU)",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Power Clean + 3 Broad Jumps",
   "uses": 1,
   "aliases": [],
@@ -1125,14 +813,6 @@
   "uses": 1,
   "aliases": [],
   "reason": "instruction-text",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Saturday, April, 4th, 2026",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -1185,14 +865,6 @@
  },
  {
   "id": null,
-  "name": "Sunday, , March 29th, 2026",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Tempo",
   "uses": 1,
   "aliases": [],
@@ -1201,26 +873,10 @@
  },
  {
   "id": null,
-  "name": "Thursday, April, 2nd, 2026",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
-  "suggestedPattern": null
- },
- {
-  "id": null,
   "name": "Tuck Up + V Up",
   "uses": 1,
   "aliases": [],
   "reason": "compound-of-several-movements",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Tuesday, March, 31st, 2026",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  },
  {
@@ -1237,14 +893,6 @@
   "uses": 1,
   "aliases": [],
   "reason": "excluded-by-override",
-  "suggestedPattern": null
- },
- {
-  "id": null,
-  "name": "Wednesday, April, 1st, 2026",
-  "uses": 1,
-  "aliases": [],
-  "reason": "contains-numbers",
   "suggestedPattern": null
  }
 ]

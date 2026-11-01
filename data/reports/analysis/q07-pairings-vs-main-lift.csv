@@ -2,8 +2,8 @@ main_lift_pattern,balance_1,balance_2,sessions
 vertical-press,horizontal-press,isolation-shoulders,50
 squat,lunge-single-leg,hinge,41
 horizontal-press,isolation-arms,isolation-arms,38
+squat,lunge-single-leg,squat,32
 horizontal-press,horizontal-press,horizontal-press,31
-squat,lunge-single-leg,squat,31
 horizontal-press,horizontal-pull,isolation-shoulders,30
 horizontal-press,horizontal-press,isolation-arms,29
 horizontal-press,vertical-press,horizontal-press,28
@@ -11,7 +11,7 @@ vertical-press,horizontal-press,isolation-arms,25
 hinge,squat,lunge-single-leg,24
 squat,hinge,isolation-legs,24
 squat,lunge-single-leg,isolation-legs,24
-lunge-single-leg,lunge-single-leg,lunge-single-leg,21
+lunge-single-leg,lunge-single-leg,lunge-single-leg,23
 squat,lunge-single-leg,core,21
 hinge,lunge-single-leg,core,19
 horizontal-press,isolation-arms,horizontal-press,19
@@ -31,7 +31,7 @@ horizontal-press,vertical-press,isolation-shoulders,13
 vertical-press,horizontal-pull,isolation-shoulders,13
 hinge,vertical-press,isolation-shoulders,12
 horizontal-press,isolation-shoulders,horizontal-press,12
-horizontal-press,isolation-shoulders,unresolved,12
+horizontal-press,isolation-shoulders,vertical-press,12
 horizontal-press,lunge-single-leg,hinge,12
 lunge-single-leg,hinge,squat,12
 lunge-single-leg,isolation-arms,lunge-single-leg,12
@@ -48,6 +48,7 @@ hinge,horizontal-pull,isolation-shoulders,9
 olympic,lunge-single-leg,hinge,9
 squat,horizontal-press,horizontal-press,9
 squat,horizontal-press,isolation-shoulders,9
+vertical-pull,vertical-press,isolation-shoulders,9
 hinge,vertical-press,horizontal-press,8
 horizontal-press,horizontal-press,vertical-press,8
 squat,hinge,lunge-single-leg,8
@@ -72,7 +73,6 @@ vertical-press,isolation-arms,horizontal-press,6
 vertical-press,isolation-shoulders,horizontal-pull,6
 vertical-pull,horizontal-pull,isolation-shoulders,6
 vertical-pull,isolation-shoulders,horizontal-pull,6
-vertical-pull,vertical-press,isolation-shoulders,6
 vertical-pull,vertical-pull,horizontal-pull,6
 hinge,lunge-single-leg,squat,5
 squat,core,squat,5
@@ -99,10 +99,9 @@ horizontal-press,vertical-pull,vertical-pull,3
 squat,horizontal-press,horizontal-pull,3
 squat,isolation-arms,lunge-single-leg,3
 squat,vertical-pull,vertical-pull,3
-unresolved,horizontal-press,horizontal-press,3
-unresolved,vertical-press,isolation-shoulders,3
 vertical-press,isolation-arms,core,3
 vertical-press,lunge-single-leg,hinge,3
+vertical-pull,horizontal-press,horizontal-press,3
 hinge,horizontal-press,horizontal-press,2
 hinge,horizontal-press,vertical-press,2
 hinge,horizontal-pull,isolation-arms,2
@@ -115,8 +114,7 @@ squat,horizontal-pull,vertical-pull,2
 squat,isolation-legs,isolation-legs,2
 squat,isolation-shoulders,vertical-press,2
 squat,vertical-press,horizontal-press,2
-squat,vertical-press,unresolved,2
-unresolved,lunge-single-leg,lunge-single-leg,2
+squat,vertical-press,vertical-press,2
 vertical-press,horizontal-press,horizontal-pull,2
 vertical-press,horizontal-pull,horizontal-pull,2
 vertical-press,vertical-press,horizontal-press,2
@@ -125,10 +123,9 @@ vertical-pull,horizontal-pull,core,2
 hinge,horizontal-pull,unresolved,1
 hinge,isolation-legs,isolation-legs,1
 hinge,isolation-shoulders,horizontal-press,1
-hinge,isolation-shoulders,unresolved,1
+hinge,isolation-shoulders,vertical-press,1
 horizontal-press,vertical-press,unresolved,1
 olympic,isolation-shoulders,horizontal-press,1
-olympic,isolation-shoulders,unresolved,1
+olympic,isolation-shoulders,vertical-press,1
 squat,hinge,mobility,1
-squat,unresolved,squat,1
 vertical-pull,vertical-press,unresolved,1

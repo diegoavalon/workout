@@ -23,9 +23,9 @@ const STRONG: [Pattern, RegExp][] = [
   ["isolation-legs", /\b(band(ed)? walk|monster walk|band(ed)? (abduction|adduction)|cable abduction)\b/],
   ["carry", /\b(rack march|carry|farmers walk|suitcase walk|rack walk|waiter walk)\b/],
   ["mobility", /\bjefferson curl\b/],
-  ["lunge-single-leg", /\b(tall kneel to stand|poliquin step|box step over|lunge|split squat|step up|step down|cossack|pistol|skater|kickstand|bulgarian|curtsy|single leg squat|rear foot elevated)\b/],
+  ["lunge-single-leg", /\b(patrick step|tall kneel to stand|poliquin step|box step over|lunge|split squat|step up|step down|cossack|pistol|skater|kickstand|bulgarian|curtsy|single leg squat|rear foot elevated)\b/],
   ["hinge", /^(?!.*(squat|delt)).*\b(swing)\b|\b(hip bridge|straight leg bridge|hamstring (march|walk ?out)|rack pull|hyper|ghd hip extension|goodmoring|dl high pull|dual kettlebell dl|kettlebell high pull|deadstop hike)\b|\b(deadlift|good morning|hip thrust|glute bridge|kettlebell swing|back extension|pull through|hip hinge)\b|^single leg hip thrust/],
-  ["squat", /\b(squat|leg press|hack squat|thruster|wall sit)\b/],
+  ["squat", /\b(squat|leg press|hack squat|thruster|wall sit|wall ball)\b/],
   ["horizontal-press", /\b(bench press|push up|floor press|chest press|1 1\/4 push up)\b/],
   ["vertical-press", /\b(overhead press|shoulder press|military press|z press|push press|strict press|behind the neck press|seated press|handstand push up|landmine press|arnold press|see saw press)\b/],
   ["vertical-pull", /\b(pull up|chin up|pulldown|muscle up)\b/],
@@ -142,7 +142,12 @@ export function classifyFormat(s: Section, role: Role): Format | null {
   if (/^\s*\d+(?:-\d+){2,}/m.test(text)) return "ladder";
   if (/^every\s+\d/im.test(text)) return "every-n-sec";
   if (/\binterval|\bwork\b.*\brest\b|\d+\s*sec @|\d+:\d\d @/i.test(text)) return "intervals";
-  if (/steady|zone 2/i.test(text)) return "steady-state";
+  if (/steady|zone 2|continuous (clock|effort)|grinder pace|sustained pace/i.test(text)) return "steady-state";
+  // Prescribed sets or rounds with rest between them: work/rest intervals in the conditioning sense,
+  // plain sets for speed-strength and similar barbell pieces.
+  const setsHeader = /^\s*\d+(?:-\d+)?\s+(?:working\s+)?(?:sets?|rounds?)\b/im.test(text);
+  const restLine = /\brest\b/i.test(text);
+  if (setsHeader && restLine && ["conditioning", "hot-start", "speed-strength"].includes(role)) return role === "speed-strength" || /jerk|snatch|clean|squat/i.test(s.title) ? "straight-sets" : "intervals";
   if (role === "strength-balance" || role === "finisher") {
     if (items >= 4) return "giant-set";
     if (items >= 2) return "superset";

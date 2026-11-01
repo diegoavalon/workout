@@ -140,11 +140,17 @@
        "itemsPerSection": 1,
        "patternDistribution": {
         "horizontal-pull": 13,
+        "vertical-pull": 11,
         "hinge": 10,
-        "vertical-pull": 5,
         "lunge-single-leg": 5
        },
        "exercisePool": [
+        {
+         "exerciseId": "pronated-strict-pull-up",
+         "name": "Pronated Strict Pull Up",
+         "pattern": "vertical-pull",
+         "n": 8
+        },
         {
          "exerciseId": "pendlay-row",
          "name": "Pendlay Row",
@@ -179,12 +185,6 @@
          "exerciseId": "incline-prone-dumbbell-row",
          "name": "Incline Prone Dumbbell Row",
          "pattern": "horizontal-pull",
-         "n": 2
-        },
-        {
-         "exerciseId": "pronated-strict-pull-up",
-         "name": "Pronated Strict Pull Up",
-         "pattern": "vertical-pull",
          "n": 2
         },
         {
@@ -890,7 +890,7 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
-        "horizontal-press": 25,
+        "horizontal-press": 27,
         "vertical-press": 10,
         "hinge": 2
        },
@@ -899,7 +899,7 @@
          "exerciseId": "alternating-dumbbell-bench-press",
          "name": "Alternating Dumbbell Bench Press",
          "pattern": "horizontal-press",
-         "n": 7
+         "n": 8
         },
         {
          "exerciseId": "incline-dumbbell-bench-press",
@@ -968,16 +968,16 @@
          "n": 2
         },
         {
+         "exerciseId": "wide-push-up",
+         "name": "Wide Push Up",
+         "pattern": "horizontal-press",
+         "n": 2
+        },
+        {
          "exerciseId": "glute-bridge-alternating-dumbbell-floor-press",
          "name": "Glute Bridge Alternating Dumbbell Floor Press",
          "pattern": "hinge",
          "n": 2
-        },
-        {
-         "exerciseId": "wide-push-up",
-         "name": "Wide Push Up",
-         "pattern": "horizontal-press",
-         "n": 1
         }
        ],
        "observedSections": 39
@@ -1626,7 +1626,8 @@
        "patternDistribution": {
         "horizontal-pull": 15,
         "hinge": 12,
-        "lunge-single-leg": 11
+        "lunge-single-leg": 11,
+        "squat": 1
        },
        "exercisePool": [
         {
@@ -1705,6 +1706,12 @@
          "exerciseId": "1-1-4-barbell-hip-thrust",
          "name": "1 1/4 Barbell Hip Thrust",
          "pattern": "hinge",
+         "n": 1
+        },
+        {
+         "exerciseId": "dumbbell-suitcase-squat",
+         "name": "Dumbbell Suitcase Squat",
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -2483,8 +2490,8 @@
         "lunge-single-leg": 10,
         "horizontal-pull": 7,
         "vertical-press": 6,
+        "vertical-pull": 5,
         "squat": 5,
-        "vertical-pull": 4,
         "horizontal-press": 3
        },
        "exercisePool": [
@@ -2576,6 +2583,12 @@
          "exerciseId": "suitcase-rear-foot-elevated-split-squat",
          "name": "Suitcase Rear Foot Elevated Split Squat",
          "pattern": "lunge-single-leg",
+         "n": 1
+        },
+        {
+         "exerciseId": "lat-pulldown",
+         "name": "Lat Pulldown",
+         "pattern": "vertical-pull",
          "n": 1
         },
         {
@@ -3268,8 +3281,8 @@
        "patternDistribution": {
         "squat": 12,
         "vertical-press": 11,
-        "lunge-single-leg": 5,
-        "vertical-pull": 2
+        "lunge-single-leg": 6,
+        "vertical-pull": 4
        },
        "exercisePool": [
         {
@@ -3333,21 +3346,27 @@
          "n": 2
         },
         {
+         "exerciseId": "pronated-pull-up-isometric",
+         "name": "Pronated Pull Up Isometric",
+         "pattern": "vertical-pull",
+         "n": 2
+        },
+        {
+         "exerciseId": "supinated-pull-up-isometric",
+         "name": "Supinated Pull Up Isometric",
+         "pattern": "vertical-pull",
+         "n": 2
+        },
+        {
          "exerciseId": "half-kneeling-dumbbell-kettlebell-see-saw-press",
          "name": "Half Kneeling Dumbbell/Kettlebell See Saw Press",
          "pattern": "vertical-press",
          "n": 2
         },
         {
-         "exerciseId": "pronated-pull-up-isometric",
-         "name": "Pronated Pull Up Isometric",
-         "pattern": "vertical-pull",
-         "n": 1
-        },
-        {
-         "exerciseId": "supinated-pull-up-isometric",
-         "name": "Supinated Pull Up Isometric",
-         "pattern": "vertical-pull",
+         "exerciseId": "goblet-tall-kneel-to-stand",
+         "name": "Goblet Tall Kneel To Stand",
+         "pattern": "lunge-single-leg",
          "n": 1
         },
         {
@@ -3370,9 +3389,9 @@
        "patternDistribution": {
         "hinge": 11,
         "horizontal-pull": 6,
+        "lunge-single-leg": 4,
         "isolation-shoulders": 4,
         "horizontal-press": 4,
-        "lunge-single-leg": 3,
         "isolation-arms": 3,
         "vertical-press": 1
        },
@@ -3462,6 +3481,12 @@
          "n": 2
         },
         {
+         "exerciseId": "pike-handstand-hold",
+         "name": "Pike Handstand Hold",
+         "pattern": "vertical-press",
+         "n": 2
+        },
+        {
          "exerciseId": "assisted-kot-squat",
          "name": "Assisted Kot Squat",
          "pattern": "squat",
@@ -3524,6 +3549,12 @@
         {
          "exerciseId": "dumbbell-suitcase-kot-split-squat",
          "name": "Dumbbell Suitcase Kot Split Squat",
+         "pattern": "lunge-single-leg",
+         "n": 1
+        },
+        {
+         "exerciseId": "patrick-step",
+         "name": "Patrick Step",
          "pattern": "lunge-single-leg",
          "n": 1
         },
@@ -4806,8 +4837,8 @@
         "horizontal-pull": 16,
         "lunge-single-leg": 10,
         "hinge": 5,
-        "vertical-pull": 1,
-        "horizontal-press": 1
+        "horizontal-press": 2,
+        "vertical-pull": 1
        },
        "exercisePool": [
         {
@@ -4886,6 +4917,12 @@
          "exerciseId": "neutral-grip-pull-up",
          "name": "Neutral Grip Pull Up",
          "pattern": "vertical-pull",
+         "n": 1
+        },
+        {
+         "exerciseId": "alternating-dumbbell-bench-press",
+         "name": "Alternating Dumbbell Bench Press",
+         "pattern": "horizontal-press",
          "n": 1
         },
         {
@@ -5662,12 +5699,19 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
+        "vertical-pull": 16,
         "lunge-single-leg": 11,
-        "vertical-pull": 10,
         "hinge": 5,
-        "horizontal-press": 1
+        "horizontal-press": 1,
+        "squat": 1
        },
        "exercisePool": [
+        {
+         "exerciseId": "pronated-strict-pull-up",
+         "name": "Pronated Strict Pull Up",
+         "pattern": "vertical-pull",
+         "n": 7
+        },
         {
          "exerciseId": "supinated-strict-pull-up",
          "name": "Supinated Strict Pull Up",
@@ -5717,12 +5761,6 @@
          "n": 2
         },
         {
-         "exerciseId": "pronated-strict-pull-up",
-         "name": "Pronated Strict Pull Up",
-         "pattern": "vertical-pull",
-         "n": 1
-        },
-        {
          "exerciseId": "strict-bar-dip",
          "name": "Strict Bar Dip",
          "pattern": "horizontal-press",
@@ -5738,6 +5776,12 @@
          "exerciseId": "suitcase-rear-foot-elevated-split-squat",
          "name": "Suitcase Rear Foot Elevated Split Squat",
          "pattern": "lunge-single-leg",
+         "n": 1
+        },
+        {
+         "exerciseId": "front-squat",
+         "name": "Front Squat",
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -6447,7 +6491,7 @@
        "itemsPerSection": 1,
        "patternDistribution": {
         "hinge": 12,
-        "vertical-pull": 7,
+        "vertical-pull": 10,
         "horizontal-press": 6,
         "lunge-single-leg": 6,
         "horizontal-pull": 1
@@ -6508,6 +6552,18 @@
          "n": 2
         },
         {
+         "exerciseId": "pronated-pull-up-isometric",
+         "name": "Pronated Pull Up Isometric",
+         "pattern": "vertical-pull",
+         "n": 2
+        },
+        {
+         "exerciseId": "supinated-pull-up-isometric",
+         "name": "Supinated Pull Up Isometric",
+         "pattern": "vertical-pull",
+         "n": 2
+        },
+        {
          "exerciseId": "pronated-strict-pull-up",
          "name": "Pronated Strict Pull Up",
          "pattern": "vertical-pull",
@@ -6526,14 +6582,8 @@
          "n": 1
         },
         {
-         "exerciseId": "pronated-pull-up-isometric",
-         "name": "Pronated Pull Up Isometric",
-         "pattern": "vertical-pull",
-         "n": 1
-        },
-        {
-         "exerciseId": "supinated-pull-up-isometric",
-         "name": "Supinated Pull Up Isometric",
+         "exerciseId": "lat-pulldown",
+         "name": "Lat Pulldown",
          "pattern": "vertical-pull",
          "n": 1
         },
@@ -6758,6 +6808,18 @@
          "n": 1
         },
         {
+         "exerciseId": "pike-hs-hold",
+         "name": "Pike Hs Hold",
+         "pattern": "vertical-press",
+         "n": 1
+        },
+        {
+         "exerciseId": "pike-handstand-hold",
+         "name": "Pike Handstand Hold",
+         "pattern": "vertical-press",
+         "n": 1
+        },
+        {
          "exerciseId": "strict-bar-dip",
          "name": "Strict Bar Dip",
          "pattern": "horizontal-press",
@@ -6790,18 +6852,6 @@
         {
          "exerciseId": "cobra-leg-behind-squat",
          "name": "Cobra Leg Behind Squat",
-         "pattern": "squat",
-         "n": 1
-        },
-        {
-         "exerciseId": "heel-elevated-pistol-negative",
-         "name": "Heel Elevated Pistol Negative",
-         "pattern": "lunge-single-leg",
-         "n": 1
-        },
-        {
-         "exerciseId": "plate-loaded-leg-behind-squat",
-         "name": "Plate Loaded Leg Behind Squat",
          "pattern": "squat",
          "n": 1
         }
@@ -7105,6 +7155,7 @@
         "cardio": 9,
         "core": 3,
         "isolation-arms": 2,
+        "mobility": 1,
         "vertical-press": 1
        },
        "observedSections": 34
@@ -7282,11 +7333,17 @@
        ],
        "itemsPerSection": 1,
        "patternDistribution": {
-        "vertical-press": 11,
-        "horizontal-pull": 11,
-        "vertical-pull": 9
+        "vertical-pull": 15,
+        "vertical-press": 12,
+        "horizontal-pull": 11
        },
        "exercisePool": [
+        {
+         "exerciseId": "pronated-strict-pull-up",
+         "name": "Pronated Strict Pull Up",
+         "pattern": "vertical-pull",
+         "n": 7
+        },
         {
          "exerciseId": "close-grip-lat-pulldown",
          "name": "Close Grip Lat Pulldown",
@@ -7366,9 +7423,9 @@
          "n": 1
         },
         {
-         "exerciseId": "pronated-strict-pull-up",
-         "name": "Pronated Strict Pull Up",
-         "pattern": "vertical-pull",
+         "exerciseId": "seated-dumbbell-strict-press",
+         "name": "Seated Dumbbell Strict Press",
+         "pattern": "vertical-press",
          "n": 1
         },
         {
@@ -8093,10 +8150,11 @@
        "itemsPerSection": 1,
        "patternDistribution": {
         "horizontal-pull": 10,
-        "vertical-pull": 8,
+        "vertical-pull": 10,
         "lunge-single-leg": 7,
         "hinge": 6,
-        "horizontal-press": 5
+        "horizontal-press": 5,
+        "squat": 1
        },
        "exercisePool": [
         {
@@ -8160,6 +8218,18 @@
          "n": 2
         },
         {
+         "exerciseId": "pronated-pull-up-isometric",
+         "name": "Pronated Pull Up Isometric",
+         "pattern": "vertical-pull",
+         "n": 2
+        },
+        {
+         "exerciseId": "supinated-pull-up-isometric",
+         "name": "Supinated Pull Up Isometric",
+         "pattern": "vertical-pull",
+         "n": 2
+        },
+        {
          "exerciseId": "dumbbell-suitcase-rear-foot-elevated-split-squat",
          "name": "Dumbbell Suitcase Rear Foot Elevated Split Squat",
          "pattern": "lunge-single-leg",
@@ -8172,15 +8242,9 @@
          "n": 2
         },
         {
-         "exerciseId": "pronated-pull-up-isometric",
-         "name": "Pronated Pull Up Isometric",
-         "pattern": "vertical-pull",
-         "n": 1
-        },
-        {
-         "exerciseId": "supinated-pull-up-isometric",
-         "name": "Supinated Pull Up Isometric",
-         "pattern": "vertical-pull",
+         "exerciseId": "dumbbell-suitcase-squat",
+         "name": "Dumbbell Suitcase Squat",
+         "pattern": "squat",
          "n": 1
         },
         {
@@ -9104,6 +9168,12 @@
          "n": 2
         },
         {
+         "exerciseId": "pike-hs-hold",
+         "name": "Pike Hs Hold",
+         "pattern": "vertical-press",
+         "n": 2
+        },
+        {
          "exerciseId": "bent-knee-copenhagen-plank",
          "name": "Bent Knee Copenhagen Plank",
          "pattern": "core",
@@ -9928,14 +9998,14 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         15,
         15
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "cardio": 17,
+        "cardio": 18,
         "olympic": 3,
         "hinge": 2,
         "isolation-arms": 2,
@@ -9954,7 +10024,7 @@
          "exerciseId": "bike",
          "name": "Bike",
          "pattern": "cardio",
-         "n": 8
+         "n": 9
         },
         {
          "exerciseId": "dumbbell-power-clean",
@@ -11155,7 +11225,7 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         12,
         15
@@ -11866,7 +11936,7 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         12,
         15
@@ -11922,6 +11992,12 @@
          "exerciseId": "goblet-squat",
          "name": "Goblet Squat",
          "pattern": "squat",
+         "n": 2
+        },
+        {
+         "exerciseId": "single-arm-suitcase-rear-foot-elevated-split-squat",
+         "name": "Single Arm Suitcase Rear Foot Elevated Split Squat",
+         "pattern": "lunge-single-leg",
          "n": 2
         },
         {
@@ -12349,6 +12425,12 @@
          "n": 2
         },
         {
+         "exerciseId": "pike-handstand-hold",
+         "name": "Pike Handstand Hold",
+         "pattern": "vertical-press",
+         "n": 2
+        },
+        {
          "exerciseId": "assisted-kot-squat",
          "name": "Assisted Kot Squat",
          "pattern": "squat",
@@ -12431,7 +12513,7 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         12,
         12
@@ -13120,7 +13202,7 @@
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "cardio": 16,
+        "cardio": 17,
         "hinge": 4,
         "olympic": 4,
         "carry": 3,
@@ -13139,7 +13221,7 @@
          "exerciseId": "bike",
          "name": "Bike",
          "pattern": "cardio",
-         "n": 6
+         "n": 7
         },
         {
          "exerciseId": "row-calorie",
@@ -14499,7 +14581,7 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         15,
         15
@@ -14573,6 +14655,12 @@
          "exerciseId": "goblet-squat",
          "name": "Goblet Squat",
          "pattern": "squat",
+         "n": 2
+        },
+        {
+         "exerciseId": "single-arm-suitcase-rear-foot-elevated-split-squat",
+         "name": "Single Arm Suitcase Rear Foot Elevated Split Squat",
+         "pattern": "lunge-single-leg",
          "n": 2
         },
         {
@@ -14747,12 +14835,6 @@
          "exerciseId": "hand-release-t-push-up",
          "name": "Hand Release T Push Up",
          "pattern": "horizontal-press",
-         "n": 1
-        },
-        {
-         "exerciseId": "box-jump-step-down",
-         "name": "Box Jump Step Down",
-         "pattern": "plyometric",
          "n": 1
         }
        ],
@@ -15118,6 +15200,18 @@
          "n": 1
         },
         {
+         "exerciseId": "pike-hs-hold",
+         "name": "Pike Hs Hold",
+         "pattern": "vertical-press",
+         "n": 1
+        },
+        {
+         "exerciseId": "pike-handstand-hold",
+         "name": "Pike Handstand Hold",
+         "pattern": "vertical-press",
+         "n": 1
+        },
+        {
          "exerciseId": "strict-bar-dip",
          "name": "Strict Bar Dip",
          "pattern": "horizontal-press",
@@ -15170,25 +15264,13 @@
          "name": "Plate Loaded Leg Behind Squat",
          "pattern": "squat",
          "n": 1
-        },
-        {
-         "exerciseId": "hand-supported-box-pistol",
-         "name": "Hand Supported Box Pistol",
-         "pattern": "lunge-single-leg",
-         "n": 1
-        },
-        {
-         "exerciseId": "leg-behind-goblet-squat",
-         "name": "Leg Behind Goblet Squat",
-         "pattern": "squat",
-         "n": 1
         }
        ],
        "observedSections": 39
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         12,
         15
@@ -15485,7 +15567,7 @@
        "patternDistribution": {
         "cardio": 13,
         "core": 2,
-        "mobility": 1
+        "mobility": 2
        },
        "observedSections": 38
       },
@@ -15777,6 +15859,12 @@
         {
          "exerciseId": "back-support-barbell-strict-press",
          "name": "Back Support Barbell Strict Press",
+         "pattern": "vertical-press",
+         "n": 2
+        },
+        {
+         "exerciseId": "pike-handstand-hold",
+         "name": "Pike Handstand Hold",
          "pattern": "vertical-press",
          "n": 2
         },
@@ -16581,14 +16669,14 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         15,
         15
        ],
        "itemsPerSection": 3,
        "patternDistribution": {
-        "cardio": 20,
+        "cardio": 21,
         "horizontal-pull": 5,
         "olympic": 3,
         "plyometric": 2,
@@ -16607,6 +16695,12 @@
          "n": 8
         },
         {
+         "exerciseId": "bike",
+         "name": "Bike",
+         "pattern": "cardio",
+         "n": 6
+        },
+        {
          "exerciseId": "row",
          "name": "Row",
          "pattern": "cardio",
@@ -16617,12 +16711,6 @@
          "name": "Bike Calorie",
          "pattern": "cardio",
          "n": 6
-        },
-        {
-         "exerciseId": "bike",
-         "name": "Bike",
-         "pattern": "cardio",
-         "n": 5
         },
         {
          "exerciseId": "run",
@@ -17237,7 +17325,7 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         12,
         15
@@ -17286,6 +17374,12 @@
          "exerciseId": "bike-buy-in",
          "name": "Bike Buy In",
          "pattern": "cardio",
+         "n": 2
+        },
+        {
+         "exerciseId": "single-arm-suitcase-rear-foot-elevated-split-squat",
+         "name": "Single Arm Suitcase Rear Foot Elevated Split Squat",
+         "pattern": "lunge-single-leg",
          "n": 2
         },
         {
@@ -17484,12 +17578,6 @@
          "exerciseId": "burpee-plate-jump",
          "name": "Burpee Plate Jump",
          "pattern": "plyometric",
-         "n": 1
-        },
-        {
-         "exerciseId": "shuttle-run",
-         "name": "Shuttle Run",
-         "pattern": "cardio",
          "n": 1
         }
        ],
@@ -17925,6 +18013,12 @@
          "n": 3
         },
         {
+         "exerciseId": "wall-ball",
+         "name": "Wall Ball",
+         "pattern": "squat",
+         "n": 2
+        },
+        {
          "exerciseId": "lateral-arc-med-ball-slam",
          "name": "Lateral Arc Med Ball Slam",
          "pattern": "plyometric",
@@ -18079,7 +18173,7 @@
       },
       {
        "role": "hot-start",
-       "format": null,
+       "format": "every-n-sec",
        "minutes": [
         12,
         12
@@ -19581,7 +19675,7 @@
       },
       {
        "role": "hot-start",
-       "format": null,
+       "format": "every-n-sec",
        "minutes": [
         10,
         12
@@ -20085,7 +20179,7 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "for-time",
        "minutes": [
         12,
         12
@@ -20346,7 +20440,7 @@
       },
       {
        "role": "hot-start",
-       "format": null,
+       "format": "every-n-sec",
        "minutes": [
         9,
         12
@@ -20618,6 +20712,12 @@
          "exerciseId": "seated-dumbbell-lateral-raise",
          "name": "Seated Dumbbell Lateral Raise",
          "pattern": "isolation-shoulders",
+         "n": 2
+        },
+        {
+         "exerciseId": "pike-handstand-hold",
+         "name": "Pike Handstand Hold",
+         "pattern": "vertical-press",
          "n": 2
         },
         {
@@ -21411,6 +21511,12 @@
          "n": 1
         },
         {
+         "exerciseId": "dual-dumbbell-sumo-squat",
+         "name": "Dual Dumbbell Sumo Squat",
+         "pattern": "squat",
+         "n": 1
+        },
+        {
          "exerciseId": "switch-lunge",
          "name": "Switch Lunge",
          "pattern": "lunge-single-leg",
@@ -21516,12 +21622,6 @@
          "exerciseId": "wide-grip-push-up",
          "name": "Wide Grip Push Up",
          "pattern": "horizontal-press",
-         "n": 1
-        },
-        {
-         "exerciseId": "tall-plank-knee-to-elbow",
-         "name": "Tall Plank Knee To Elbow",
-         "pattern": "core",
          "n": 1
         }
        ],
@@ -22323,7 +22423,9 @@
        "patternDistribution": {
         "hinge": 15,
         "vertical-press": 8,
-        "horizontal-press": 8
+        "horizontal-press": 8,
+        "vertical-pull": 6,
+        "lunge-single-leg": 2
        },
        "exercisePool": [
         {
@@ -22331,6 +22433,12 @@
          "name": "Dumbbell Romanian Deadlift",
          "pattern": "hinge",
          "n": 8
+        },
+        {
+         "exerciseId": "pronated-strict-pull-up",
+         "name": "Pronated Strict Pull Up",
+         "pattern": "vertical-pull",
+         "n": 6
         },
         {
          "exerciseId": "single-leg-hand-support-dumbbell-romanian-deadlift",
@@ -22379,6 +22487,18 @@
          "name": "Dumbbell Sumo Deadlift",
          "pattern": "hinge",
          "n": 2
+        },
+        {
+         "exerciseId": "dumbbell-suitcase-kot-split-squat",
+         "name": "Dumbbell Suitcase Kot Split Squat",
+         "pattern": "lunge-single-leg",
+         "n": 1
+        },
+        {
+         "exerciseId": "patrick-step",
+         "name": "Patrick Step",
+         "pattern": "lunge-single-leg",
+         "n": 1
         }
        ],
        "observedSections": 39
@@ -22643,7 +22763,7 @@
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         15,
         15
@@ -22652,8 +22772,8 @@
        "patternDistribution": {
         "cardio": 10,
         "squat": 6,
-        "plyometric": 2,
-        "lunge-single-leg": 1
+        "lunge-single-leg": 2,
+        "plyometric": 2
        },
        "exercisePool": [
         {
@@ -22743,6 +22863,12 @@
         {
          "exerciseId": "dumbbell-suitcase-walking-lunge",
          "name": "Dumbbell Suitcase Walking Lunge",
+         "pattern": "lunge-single-leg",
+         "n": 2
+        },
+        {
+         "exerciseId": "single-arm-suitcase-rear-foot-elevated-split-squat",
+         "name": "Single Arm Suitcase Rear Foot Elevated Split Squat",
          "pattern": "lunge-single-leg",
          "n": 2
         },
@@ -22888,12 +23014,6 @@
          "exerciseId": "jump-lunge",
          "name": "Jump Lunge",
          "pattern": "plyometric",
-         "n": 1
-        },
-        {
-         "exerciseId": "dual-dumbbell-power-clean",
-         "name": "Dual Dumbbell Power Clean",
-         "pattern": "olympic",
          "n": 1
         }
        ],
@@ -23173,6 +23293,12 @@
          "n": 2
         },
         {
+         "exerciseId": "pike-handstand-hold",
+         "name": "Pike Handstand Hold",
+         "pattern": "vertical-press",
+         "n": 2
+        },
+        {
          "exerciseId": "inchworm-push-up",
          "name": "Inchworm Push Up",
          "pattern": "horizontal-press",
@@ -23291,19 +23417,13 @@
          "name": "Hand Supported Box Pistol",
          "pattern": "lunge-single-leg",
          "n": 1
-        },
-        {
-         "exerciseId": "leg-behind-goblet-squat",
-         "name": "Leg Behind Goblet Squat",
-         "pattern": "squat",
-         "n": 1
         }
        ],
        "observedSections": 39
       },
       {
        "role": "conditioning",
-       "format": null,
+       "format": "intervals",
        "minutes": [
         12,
         12

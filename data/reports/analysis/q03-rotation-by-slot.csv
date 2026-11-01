@@ -141,7 +141,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 1,pump-lift-5x,6,strength-balance,2,4,rotating,3,3:dumbbell-rack-tall-kneel-to-stand 4:landmine-single-leg-hip-thrust 5:dual-kettlebell-rack-tall-kneel-to-stand 6:landmine-single-leg-hip-thrust
 1,pump-lift-5x,6,finisher,1,4,rotating,3,3:plank-or-ring-body-saw 4:ab-wheel 5:weight-plate-turkish-sit-up 6:plank-or-ring-body-saw
 1,pump-lift-5x,6,finisher,2,4,rotating,3,3:dumbbell-side-bend 4:dumbbell-side-plank 5:dumbbell-star-plank 6:dumbbell-side-bend
-1,perform,5,strength-intensity-2,1,1,too-few-weeks,1,4:1. Glute Bridge Barbell Floor Press 8-10 reps @21X1
+1,perform,5,strength-intensity-2,1,1,too-few-weeks,1,4:Glute Bridge Barbell Floor Press 8-10 reps @21X1
 1,pump-lift-4x,1,finisher,2,2,too-few-weeks,2,4:crush-grip-dumbbell-bicep-curl-carry 6:weight-plate-bicep-curl-isometric
 1,pump-lift-5x,1,finisher,2,2,too-few-weeks,2,4:crush-grip-dumbbell-bicep-curl-carry 6:weight-plate-bicep-curl-isometric
 1,minimalist,2,strength-balance,3,2,too-few-weeks,2,5:dumbbell-hamstring-march 6:split-stance-dumbbell-romanian-deadlift
@@ -461,7 +461,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,minimalist,4,strength-balance,2,4,alternating-AB,2,1:band-assisted-reverse-nordic 2:kas-glute-bridge 5:band-assisted-reverse-nordic 6:kas-glute-bridge
 4,minimalist,5,strength-intensity-1,1,4,alternating-AB,2,1:supinated-grip-dumbbell-bench-press 2:dumbbell-bench-press 5:supinated-grip-dumbbell-bench-press 6:dumbbell-bench-press
 4,minimalist,5,strength-balance,1,4,rotating,3,1:dumbbell-lateral-raise 2:seated-dumbbell-lateral-raise 5:seated-dumbbell-lateral-raise 6:dumbbell-full-raise
-4,minimalist,5,strength-balance,2,4,rotating,3,1:yoga-push-up 2:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 5:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 6:strict-bar-dip
+4,minimalist,5,strength-balance,2,4,rotating,3,1:yoga-push-up 2:pike-handstand-hold 5:pike-handstand-hold 6:strict-bar-dip
 4,perform,1,strength-intensity-1,1,4,alternating-AB,2,1:box-squat 2:back-squat 5:box-squat 6:back-squat
 4,perform,1,strength-balance,1,4,alternating-AB,2,1:bent-knee-copenhagen-raise 2:side-plank-clam-thrust 5:bent-knee-copenhagen-raise 6:side-plank-clam-thrust
 4,perform,1,strength-balance,2,4,alternating-AB,2,1:toes-elevated-dumbbell-romanian-deadlift 2:single-leg-wall-press-dumbbell-romanian-deadlift 5:toes-elevated-dumbbell-romanian-deadlift 6:single-leg-wall-press-dumbbell-romanian-deadlift
@@ -477,10 +477,10 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,perform,5,strength-balance,2,4,alternating-AB,2,1:band-assisted-reverse-nordic 2:kas-glute-bridge 5:band-assisted-reverse-nordic 6:kas-glute-bridge
 4,perform,6,strength-intensity-1,1,4,alternating-AB,2,1:spoto-press 2:barbell-bench-press 5:spoto-press 6:barbell-bench-press
 4,perform,6,strength-balance,1,4,alternating-AB,2,1:dumbbell-lateral-raise 2:seated-dumbbell-lateral-raise 5:dumbbell-lateral-raise 6:seated-dumbbell-lateral-raise
-4,perform,6,strength-balance,2,4,alternating-AB,2,1:yoga-push-up 2:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 5:yoga-push-up 6:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up
+4,perform,6,strength-balance,2,4,alternating-AB,2,1:yoga-push-up 2:pike-handstand-hold 5:yoga-push-up 6:pike-handstand-hold
 4,pump-condition-3x,1,strength-intensity-1,1,4,alternating-AB,2,1:box-squat 2:back-squat 5:box-squat 6:back-squat
 4,pump-condition-3x,1,strength-balance,1,4,alternating-AB,2,1:dumbbell-lateral-raise 2:back-support-barbell-strict-press 5:dumbbell-lateral-raise 6:back-support-barbell-strict-press
-4,pump-condition-3x,1,strength-balance,2,4,alternating-AB,2,1:dumbbell-strict-press 2:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 5:dumbbell-strict-press 6:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up
+4,pump-condition-3x,1,strength-balance,2,4,alternating-AB,2,1:dumbbell-strict-press 2:pike-handstand-hold 5:dumbbell-strict-press 6:pike-handstand-hold
 4,pump-condition-3x,3,strength-intensity-1,1,4,alternating-AB,2,1:spoto-press 2:barbell-bench-press 5:spoto-press 6:barbell-bench-press
 4,pump-condition-3x,3,strength-balance,1,4,alternating-AB,2,1:incline-prone-dumbbell-row 2:t-bar-row 5:incline-prone-dumbbell-row 6:t-bar-row
 4,pump-condition-3x,3,strength-balance,2,4,alternating-AB,2,1:dumbbell-bent-over-reverse-fly 2:dumbbell-bent-over-elbowing-row 5:dumbbell-bent-over-reverse-fly 6:dumbbell-bent-over-elbowing-row
@@ -499,7 +499,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,pump-condition-4x,4,strength-balance,2,4,alternating-AB,2,1:band-assisted-reverse-nordic 2:kas-glute-bridge 5:band-assisted-reverse-nordic 6:kas-glute-bridge
 4,pump-condition-4x,5,strength-intensity-1,1,4,alternating-AB,2,1:spoto-press 2:barbell-bench-press 5:spoto-press 6:barbell-bench-press
 4,pump-condition-4x,5,strength-balance,1,4,rotating,3,1:dumbbell-lateral-raise 2:seated-dumbbell-lateral-raise 5:seated-dumbbell-lateral-raise 6:dumbbell-full-raise
-4,pump-condition-4x,5,strength-balance,2,4,rotating,4,1:yoga-push-up 2:Pike HS Hold 15-25sec or Pike Strict Handstand Push Up 5:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 6:strict-bar-dip
+4,pump-condition-4x,5,strength-balance,2,4,rotating,4,1:yoga-push-up 2:pike-hs-hold 5:pike-handstand-hold 6:strict-bar-dip
 4,pump-condition-5x,1,strength-intensity-1,1,4,alternating-AB,2,1:box-squat 2:back-squat 5:box-squat 6:back-squat
 4,pump-condition-5x,1,strength-balance,1,4,alternating-AB,2,1:bent-knee-copenhagen-raise 2:side-plank-clam-thrust 5:bent-knee-copenhagen-raise 6:side-plank-clam-thrust
 4,pump-condition-5x,1,strength-balance,2,4,alternating-AB,2,1:toes-elevated-dumbbell-romanian-deadlift 2:single-leg-wall-press-dumbbell-romanian-deadlift 5:toes-elevated-dumbbell-romanian-deadlift 6:single-leg-wall-press-dumbbell-romanian-deadlift
@@ -515,7 +515,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,pump-condition-5x,5,strength-balance,2,4,alternating-AB,2,1:band-assisted-reverse-nordic 2:kas-glute-bridge 5:band-assisted-reverse-nordic 6:kas-glute-bridge
 4,pump-condition-5x,6,strength-intensity-1,1,4,alternating-AB,2,1:spoto-press 2:barbell-bench-press 5:spoto-press 6:barbell-bench-press
 4,pump-condition-5x,6,strength-balance,1,4,alternating-AB,2,1:dumbbell-lateral-raise 2:seated-dumbbell-lateral-raise 5:dumbbell-lateral-raise 6:seated-dumbbell-lateral-raise
-4,pump-condition-5x,6,strength-balance,2,4,alternating-AB,2,1:yoga-push-up 2:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 5:yoga-push-up 6:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up
+4,pump-condition-5x,6,strength-balance,2,4,alternating-AB,2,1:yoga-push-up 2:pike-handstand-hold 5:yoga-push-up 6:pike-handstand-hold
 4,pump-lift-3x,1,strength-intensity-1,1,4,alternating-AB,2,1:box-squat 2:back-squat 5:box-squat 6:back-squat
 4,pump-lift-3x,1,strength-intensity-2,1,4,alternating-AB,2,1:dumbbell-strict-press 2:back-supported-barbell-strict-press 5:dumbbell-strict-press 6:back-supported-barbell-strict-press
 4,pump-lift-3x,1,strength-balance,1,4,rotating,3,1:incline-dumbbell-fly 2:low-incline-1-1-4-dumbbell-bench-press 5:low-incline-1-1-4-dumbbell-bench-press 6:wide-push-up
@@ -524,7 +524,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,pump-lift-3x,1,finisher,1,4,rotating,3,1:concentration-curl 2:cross-body-hammer-curl 5:cross-body-hammer-curl 6:incline-alternating-dumbbell-curl
 4,pump-lift-3x,1,finisher,2,4,rotating,3,1:barbell-reverse-curl 2:barbell-curl 5:barbell-curl 6:waiter-curl
 4,pump-lift-3x,3,strength-intensity-1,1,4,alternating-AB,2,1:spoto-press 2:barbell-bench-press 5:spoto-press 6:barbell-bench-press
-4,pump-lift-3x,3,strength-intensity-2,1,4,rotating,4,1:pronated-pull-up-isometric 2:supinated-pull-up-isometric 5:1. Pronated Pull Up Isometric 6:1. Supinated Pull Up Isometric
+4,pump-lift-3x,3,strength-intensity-2,1,4,alternating-AB,2,1:pronated-pull-up-isometric 2:supinated-pull-up-isometric 5:pronated-pull-up-isometric 6:supinated-pull-up-isometric
 4,pump-lift-3x,3,strength-balance,1,4,alternating-AB,2,1:bent-knee-copenhagen-raise 2:side-plank-clam-thrust 5:bent-knee-copenhagen-raise 6:side-plank-clam-thrust
 4,pump-lift-3x,3,strength-balance,2,4,alternating-AB,2,1:goblet-cyclist-squat 2:zercher-squat 5:goblet-cyclist-squat 6:zercher-squat
 4,pump-lift-3x,3,finisher,1,4,alternating-AB,2,1:wall-leaning-double-calf-raise 2:bodyweight-donkey-calf-raise 5:wall-leaning-double-calf-raise 6:bodyweight-donkey-calf-raise
@@ -533,7 +533,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,pump-lift-3x,5,strength-intensity-1,1,4,alternating-AB,2,1:sumo-deadlift 2:snatch-grip-romanian-deadlift 5:sumo-deadlift 6:snatch-grip-romanian-deadlift
 4,pump-lift-3x,5,strength-intensity-2,1,4,alternating-AB,2,1:incline-prone-dumbbell-row 2:t-bar-row 5:incline-prone-dumbbell-row 6:t-bar-row
 4,pump-lift-3x,5,strength-balance,1,4,rotating,3,1:dumbbell-lateral-raise 2:seated-dumbbell-lateral-raise 5:seated-dumbbell-lateral-raise 6:dumbbell-full-raise
-4,pump-lift-3x,5,strength-balance,2,4,rotating,3,1:yoga-push-up 2:Pike HS Hold 15-25sec or Pike Strict Handstand Push Up 5:Pike HS Hold 15-25sec or Pike Strict Handstand Push Up 6:strict-bar-dip
+4,pump-lift-3x,5,strength-balance,2,4,rotating,3,1:yoga-push-up 2:pike-hs-hold 5:pike-hs-hold 6:strict-bar-dip
 4,pump-lift-3x,5,finisher,1,4,rotating,4,1:wall-sit 2:wall-sit-single-leg-march 5:dual-kettlebell-rack-wall-sit 6:dual-kettlebell-rack-single-leg-wall-sit
 4,pump-lift-3x,5,finisher,2,4,rotating,3,1:hanging-knee-tuck 2:weighted-hanging-knee-tuck 5:weighted-hanging-knee-tuck 6:hanging-leg-raise
 4,pump-lift-4x,1,strength-intensity-1,1,4,alternating-AB,2,1:box-squat 2:back-squat 5:box-squat 6:back-squat
@@ -557,9 +557,9 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,pump-lift-4x,4,finisher,1,4,rotating,4,1:wall-sit 2:wall-sit-single-leg-march 5:dual-kettlebell-rack-wall-sit 6:dual-kettlebell-rack-single-leg-wall-sit
 4,pump-lift-4x,4,finisher,2,4,rotating,3,1:hanging-knee-tuck 2:weighted-hanging-knee-tuck 5:weighted-hanging-knee-tuck 6:hanging-leg-raise
 4,pump-lift-4x,5,strength-intensity-1,1,4,alternating-AB,2,1:spoto-press 2:barbell-bench-press 5:spoto-press 6:barbell-bench-press
-4,pump-lift-4x,5,strength-intensity-2,1,4,rotating,4,1:pronated-pull-up-isometric 2:supinated-pull-up-isometric 5:1. Pronated Pull Up Isometric 6:1. Supinated Pull Up Isometric
+4,pump-lift-4x,5,strength-intensity-2,1,4,alternating-AB,2,1:pronated-pull-up-isometric 2:supinated-pull-up-isometric 5:pronated-pull-up-isometric 6:supinated-pull-up-isometric
 4,pump-lift-4x,5,strength-balance,1,4,rotating,3,1:dumbbell-lateral-raise 2:seated-dumbbell-lateral-raise 5:seated-dumbbell-lateral-raise 6:dumbbell-full-raise
-4,pump-lift-4x,5,strength-balance,2,4,rotating,4,1:yoga-push-up 2:Pike HS Hold 15-25sec or Pike Strict Handstand Push Up (HSPU) 5:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 6:strict-bar-dip
+4,pump-lift-4x,5,strength-balance,2,4,rotating,4,1:yoga-push-up 2:pike-hs-hold 5:pike-handstand-hold 6:strict-bar-dip
 4,pump-lift-4x,5,finisher,1,4,rotating,3,1:straddle-weight-plate-front-raise 2:kettlebell-front-raise 5:kettlebell-front-raise 6:incline-y-raise
 4,pump-lift-4x,5,finisher,2,4,rotating,3,1:weight-plate-russian-twist 2:half-kneeling-kettlebell-chop-and-lift 5:half-kneeling-kettlebell-chop-and-lift 6:dumbbell-side-bend
 4,pump-lift-4x,5,finisher,3,4,fixed,1,1:Loading Note 2:Loading Note 5:Loading Note 6:Loading Note
@@ -571,7 +571,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,pump-lift-5x,1,finisher,2,4,rotating,4,1:bent-hollow-hold 2:hollow-hold 5:crush-grip-dumbbell-hollow-hold 6:dual-dumbbell-hollow-hold
 4,pump-lift-5x,1,finisher,3,4,fixed,1,1:Loading Note 2:Loading Note 5:Loading Note 6:Loading Note
 4,pump-lift-5x,2,strength-intensity-1,1,4,alternating-AB,2,1:dumbbell-strict-press 2:back-supported-barbell-strict-press 5:dumbbell-strict-press 6:back-supported-barbell-strict-press
-4,pump-lift-5x,2,strength-intensity-2,1,4,rotating,3,1:strict-bar-dip 2:wide-push-up 5:strict-bar-dip 6:1. Wide Push Up
+4,pump-lift-5x,2,strength-intensity-2,1,4,alternating-AB,2,1:strict-bar-dip 2:wide-push-up 5:strict-bar-dip 6:wide-push-up
 4,pump-lift-5x,2,strength-balance,1,4,alternating-AB,2,1:incline-dumbbell-fly 2:low-incline-1-1-4-dumbbell-bench-press 5:incline-dumbbell-fly 6:low-incline-1-1-4-dumbbell-bench-press
 4,pump-lift-5x,2,strength-balance,2,4,alternating-AB,2,1:incline-dumbbell-bench-press 2:dumbbell-fly-on-floor 5:incline-dumbbell-bench-press 6:dumbbell-fly-on-floor
 4,pump-lift-5x,2,strength-balance,3,2,too-few-weeks,1,1:incline-narrow-grip-bench-press 5:incline-narrow-grip-bench-press
@@ -590,9 +590,9 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 4,pump-lift-5x,5,finisher,1,4,rotating,4,1:wall-sit 2:wall-sit-single-leg-march 5:dual-kettlebell-rack-wall-sit 6:dual-kettlebell-rack-single-leg-wall-sit
 4,pump-lift-5x,5,finisher,2,4,rotating,3,1:hanging-knee-tuck 2:weighted-hanging-knee-tuck 5:weighted-hanging-knee-tuck 6:hanging-leg-raise
 4,pump-lift-5x,6,strength-intensity-1,1,4,alternating-AB,2,1:spoto-press 2:barbell-bench-press 5:spoto-press 6:barbell-bench-press
-4,pump-lift-5x,6,strength-intensity-2,1,4,rotating,4,1:pronated-pull-up-isometric 2:supinated-pull-up-isometric 5:1. Pronated Pull Up Isometric 6:1. Supinated Pull Up Isometric
+4,pump-lift-5x,6,strength-intensity-2,1,4,alternating-AB,2,1:pronated-pull-up-isometric 2:supinated-pull-up-isometric 5:pronated-pull-up-isometric 6:supinated-pull-up-isometric
 4,pump-lift-5x,6,strength-balance,1,4,alternating-AB,2,1:dumbbell-lateral-raise 2:seated-dumbbell-lateral-raise 5:dumbbell-lateral-raise 6:seated-dumbbell-lateral-raise
-4,pump-lift-5x,6,strength-balance,2,4,alternating-AB,2,1:yoga-push-up 2:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up 5:yoga-push-up 6:Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up
+4,pump-lift-5x,6,strength-balance,2,4,alternating-AB,2,1:yoga-push-up 2:pike-handstand-hold 5:yoga-push-up 6:pike-handstand-hold
 4,pump-lift-5x,6,finisher,1,4,rotating,3,1:straddle-weight-plate-front-raise 2:kettlebell-front-raise 5:kettlebell-front-raise 6:incline-y-raise
 4,pump-lift-5x,6,finisher,2,4,rotating,3,1:weight-plate-russian-twist 2:half-kneeling-kettlebell-chop-and-lift 5:half-kneeling-kettlebell-chop-and-lift 6:dumbbell-side-bend
 4,pump-lift-5x,6,finisher,3,4,fixed,1,1:Loading Note 2:Loading Note 5:Loading Note 6:Loading Note
@@ -600,8 +600,8 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 5,minimalist,1,strength-balance,1,2,too-few-weeks,2,1:dumbbell-bent-over-row 4:tripod-dumbbell-row
 5,minimalist,1,strength-balance,2,2,too-few-weeks,2,1:alternating-dumbbell-curl 4:alternating-dumbbell-hammer-curl
 5,minimalist,2,strength-intensity-1,1,2,too-few-weeks,2,1:dumbbell-bench-press 4:1-1-4-dumbbell-bench-press
-5,minimalist,2,strength-intensity-2,1,2,too-few-weeks,2,1:1. Dumbbell Pullover 4:incline-dumbbell-fly
-5,minimalist,4,strength-intensity-1,1,2,too-few-weeks,2,1:1. Dumbbell Suitcase KOT Split Squat 4:Patrick Step Level 1-3
+5,minimalist,2,strength-intensity-2,1,2,too-few-weeks,2,1:dumbbell-pullover 4:incline-dumbbell-fly
+5,minimalist,4,strength-intensity-1,1,2,too-few-weeks,2,1:dumbbell-suitcase-kot-split-squat 4:patrick-step
 5,minimalist,4,strength-balance,1,2,too-few-weeks,2,1:goblet-tall-kneel-to-stand 4:dumbbell-rack-tall-kneel-to-stand
 5,minimalist,4,strength-balance,2,2,too-few-weeks,2,1:goblet-cossack-squat 4:dumbbell-rack-curtsy-squat
 5,minimalist,5,strength-intensity-1,1,2,too-few-weeks,2,1:supinated-strict-pull-up 4:pronated-strict-pull-up
@@ -667,13 +667,13 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 5,pump-condition-5x,6,strength-balance,1,2,too-few-weeks,2,1:dumbbell-suitcase-kot-split-squat 4:dumbbell-rack-tall-kneel-to-stand
 5,pump-condition-5x,6,strength-balance,2,2,too-few-weeks,1,1:assisted-kot-squat 4:assisted-kot-squat
 5,pump-lift-3x,1,strength-intensity-1,1,2,too-few-weeks,2,1:dumbbell-romanian-deadlift 4:rack-pull
-5,pump-lift-3x,1,strength-intensity-2,1,2,too-few-weeks,2,1:1. Seated Dumbbell Strict Press 4:barbell-strict-press
+5,pump-lift-3x,1,strength-intensity-2,1,2,too-few-weeks,2,1:seated-dumbbell-strict-press 4:barbell-strict-press
 5,pump-lift-3x,1,strength-balance,1,2,too-few-weeks,2,1:goblet-tall-kneel-to-stand 4:dumbbell-rack-tall-kneel-to-stand
 5,pump-lift-3x,1,strength-balance,2,2,too-few-weeks,2,1:goblet-cossack-squat 4:dumbbell-rack-curtsy-squat
 5,pump-lift-3x,1,finisher,1,2,too-few-weeks,2,1:hanging-knee-tuck 4:hanging-leg-raise
 5,pump-lift-3x,1,finisher,2,2,too-few-weeks,2,1:feet-anchored-sit-up 4:decline-or-weighted-feet-anchored-sit-up
 5,pump-lift-3x,3,strength-intensity-1,1,2,too-few-weeks,2,1:bench-press 4:1-1-4-bench-press
-5,pump-lift-3x,3,strength-intensity-2,1,2,too-few-weeks,2,1:1. Dumbbell Suitcase Squat 4:dumbbell-suitcase-walking-lunge
+5,pump-lift-3x,3,strength-intensity-2,1,2,too-few-weeks,2,1:dumbbell-suitcase-squat 4:dumbbell-suitcase-walking-lunge
 5,pump-lift-3x,3,strength-balance,1,2,too-few-weeks,2,1:dumbbell-bent-over-row 4:bench-support-landmine-meadow
 5,pump-lift-3x,3,strength-balance,2,2,too-few-weeks,2,1:ring-row 4:single-arm-landmine-row
 5,pump-lift-3x,3,finisher,1,2,too-few-weeks,2,1:b-stance-hip-thrust 4:barbell-b-stance-hip-thrust
@@ -694,21 +694,21 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 5,pump-lift-4x,1,finisher,2,2,too-few-weeks,2,1:b-stance-hip-thrust 4:barbell-b-stance-hip-thrust
 5,pump-lift-4x,1,finisher,3,2,too-few-weeks,2,1:hip-thrust 4:alternating-single-arm-kettlebell-split-stance-swing
 5,pump-lift-4x,2,strength-intensity-1,1,2,too-few-weeks,2,1:bench-press 4:1-1-4-bench-press
-5,pump-lift-4x,2,strength-intensity-2,1,2,too-few-weeks,2,1:1. Alternating Dumbbell Bench Press (Top Down) 4:incline-dumbbell-bench-press
+5,pump-lift-4x,2,strength-intensity-2,1,2,too-few-weeks,2,1:alternating-dumbbell-bench-press 4:incline-dumbbell-bench-press
 5,pump-lift-4x,2,strength-balance,1,2,too-few-weeks,2,1:jm-press 4:strict-bar-dip
 5,pump-lift-4x,2,strength-balance,2,2,too-few-weeks,2,1:hands-on-bench-push-up 4:deficit-or-parallette-push-up
 5,pump-lift-4x,2,finisher,1,2,too-few-weeks,2,1:barbell-skullcrusher 4:narrow-grip-bench-press
 5,pump-lift-4x,2,finisher,2,2,too-few-weeks,2,1:weight-plate-turkish-sit-up 4:tall-plank-kettlebell-pass-through
 5,pump-lift-4x,2,finisher,3,2,too-few-weeks,2,1:hollow-body-flutter-kick 4:leg-lower-to-windshield
 5,pump-lift-4x,4,strength-intensity-1,1,2,too-few-weeks,2,1:cyclist-back-squat 4:back-squat
-5,pump-lift-4x,4,strength-intensity-2,1,2,too-few-weeks,2,1:1. Front Squat 4:dumbbell-alternating-drop-lunge
+5,pump-lift-4x,4,strength-intensity-2,1,2,too-few-weeks,2,1:front-squat 4:dumbbell-alternating-drop-lunge
 5,pump-lift-4x,4,strength-balance,1,2,too-few-weeks,2,1:goblet-tall-kneel-to-stand 4:dumbbell-rack-tall-kneel-to-stand
 5,pump-lift-4x,4,strength-balance,2,2,too-few-weeks,2,1:goblet-cossack-squat 4:dumbbell-rack-curtsy-squat
 5,pump-lift-4x,4,finisher,1,2,too-few-weeks,2,1:bent-knee-copenhagen-raise 4:side-plank-hip-tap
 5,pump-lift-4x,4,finisher,2,2,too-few-weeks,2,1:lateral-banded-walk 4:copenhagen-plank
 5,pump-lift-4x,4,finisher,3,2,too-few-weeks,2,1:suitcase-standing-calf-raise 4:suitcase-single-leg-standing-calf-raise
 5,pump-lift-4x,5,strength-intensity-1,1,2,too-few-weeks,2,1:seated-dumbbell-strict-press 4:barbell-strict-press
-5,pump-lift-4x,5,strength-intensity-2,1,2,too-few-weeks,2,1:1. Lat Pulldown or Pronated Pull Up 4:supinated-barbell-bent-over-row
+5,pump-lift-4x,5,strength-intensity-2,1,2,too-few-weeks,2,1:lat-pulldown 4:supinated-barbell-bent-over-row
 5,pump-lift-4x,5,strength-balance,1,2,too-few-weeks,2,1:dumbbell-lateral-raise 4:dumbbell-arnold-press
 5,pump-lift-4x,5,strength-balance,2,2,too-few-weeks,2,1:dumbbell-front-raise 4:dumbbell-full-raise
 5,pump-lift-4x,5,strength-balance,3,2,too-few-weeks,2,1:dumbbell-bent-over-reverse-fly 4:cable-or-banded-face-pull
@@ -722,14 +722,14 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 5,pump-lift-5x,1,finisher,2,2,too-few-weeks,2,1:waiter-curl 4:dumbbell-hammer-curl
 5,pump-lift-5x,1,finisher,3,2,too-few-weeks,2,1:farmers-walk 4:single-arm-farmers-walk
 5,pump-lift-5x,2,strength-intensity-1,1,2,too-few-weeks,2,1:bench-press 4:1-1-4-bench-press
-5,pump-lift-5x,2,strength-intensity-2,1,2,too-few-weeks,2,1:1. Alternating Dumbbell Bench Press (Top Down) 4:incline-dumbbell-bench-press
+5,pump-lift-5x,2,strength-intensity-2,1,2,too-few-weeks,2,1:alternating-dumbbell-bench-press 4:incline-dumbbell-bench-press
 5,pump-lift-5x,2,strength-balance,1,2,too-few-weeks,2,1:jm-press 4:strict-bar-dip
 5,pump-lift-5x,2,strength-balance,2,2,too-few-weeks,2,1:hands-on-bench-push-up 4:deficit-or-parallette-push-up
 5,pump-lift-5x,2,finisher,1,2,too-few-weeks,2,1:barbell-skullcrusher 4:narrow-grip-bench-press
 5,pump-lift-5x,2,finisher,2,2,too-few-weeks,2,1:weight-plate-turkish-sit-up 4:tall-plank-kettlebell-pass-through
 5,pump-lift-5x,2,finisher,3,2,too-few-weeks,2,1:hollow-body-flutter-kick 4:leg-lower-to-windshield
 5,pump-lift-5x,3,strength-intensity-1,1,2,too-few-weeks,2,1:cyclist-back-squat 4:back-squat
-5,pump-lift-5x,3,strength-intensity-2,1,2,too-few-weeks,2,1:1. Dumbbell Suitcase Squat 4:dumbbell-suitcase-walking-lunge
+5,pump-lift-5x,3,strength-intensity-2,1,2,too-few-weeks,2,1:dumbbell-suitcase-squat 4:dumbbell-suitcase-walking-lunge
 5,pump-lift-5x,3,strength-balance,1,2,too-few-weeks,2,1:b-stance-hip-thrust 4:barbell-b-stance-hip-thrust
 5,pump-lift-5x,3,strength-balance,2,2,too-few-weeks,2,1:b-stance-hip-thrust 4:barbell-b-stance-hip-thrust
 5,pump-lift-5x,3,strength-balance,3,1,too-few-weeks,1,1:hip-thrust
@@ -737,15 +737,15 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 5,pump-lift-5x,3,finisher,2,2,too-few-weeks,2,1:lateral-banded-walk 4:copenhagen-plank
 5,pump-lift-5x,3,finisher,3,2,too-few-weeks,2,1:suitcase-standing-calf-raise 4:suitcase-single-leg-standing-calf-raise
 5,pump-lift-5x,5,strength-intensity-1,1,2,too-few-weeks,2,1:seated-dumbbell-strict-press 4:barbell-strict-press
-5,pump-lift-5x,5,strength-intensity-2,1,2,too-few-weeks,2,1:1. Lat Pulldown or Pronated Pull Up 4:supinated-barbell-bent-over-row
+5,pump-lift-5x,5,strength-intensity-2,1,2,too-few-weeks,2,1:lat-pulldown 4:supinated-barbell-bent-over-row
 5,pump-lift-5x,5,strength-balance,1,2,too-few-weeks,2,1:dumbbell-lateral-raise 4:dumbbell-arnold-press
 5,pump-lift-5x,5,strength-balance,2,2,too-few-weeks,2,1:dumbbell-front-raise 4:dumbbell-full-raise
 5,pump-lift-5x,5,strength-balance,3,2,too-few-weeks,2,1:dumbbell-bent-over-reverse-fly 4:cable-or-banded-face-pull
 5,pump-lift-5x,5,finisher,1,2,too-few-weeks,2,1:incline-dumbbell-bicep-curl 4:barbell-overhead-tricep-extension
 5,pump-lift-5x,5,finisher,2,2,too-few-weeks,2,1:cable-tricep-push-down 4:barbell-preacher-curl
 5,pump-lift-5x,6,strength-intensity-1,1,2,too-few-weeks,1,1:front-squat 4:front-squat
-5,pump-lift-5x,6,strength-intensity-2,1,2,too-few-weeks,2,1:1. Goblet Tall Kneel to Stand 4:dumbbell-rack-tall-kneel-to-stand
-5,pump-lift-5x,6,strength-balance,1,2,too-few-weeks,2,1:dumbbell-suitcase-kot-split-squat 4:Patrick Step Level 1-3
+5,pump-lift-5x,6,strength-intensity-2,1,2,too-few-weeks,2,1:goblet-tall-kneel-to-stand 4:dumbbell-rack-tall-kneel-to-stand
+5,pump-lift-5x,6,strength-balance,1,2,too-few-weeks,2,1:dumbbell-suitcase-kot-split-squat 4:patrick-step
 5,pump-lift-5x,6,strength-balance,2,2,too-few-weeks,1,1:assisted-kot-squat 4:assisted-kot-squat
 5,pump-lift-5x,6,finisher,1,2,too-few-weeks,2,1:hanging-knee-tuck 4:hanging-leg-raise
 5,pump-lift-5x,6,finisher,2,2,too-few-weeks,2,1:feet-anchored-sit-up 4:decline-or-weighted-feet-anchored-sit-up
@@ -890,7 +890,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 7,minimalist,2,strength-intensity-1,1,6,alternating-AB,2,1:1-1-4-cyclist-goblet-squat 2:goblet-squat 3:1-1-4-cyclist-goblet-squat 4:goblet-squat 5:1-1-4-cyclist-goblet-squat 6:goblet-squat
 7,minimalist,2,strength-balance,1,6,rotating,3,1:single-arm-suitcase-rear-foot-elevated-split-squat 2:goblet-rear-foot-elevated-split-squat 3:suitcase-rear-foot-elevated-split-squat 4:single-arm-suitcase-rear-foot-elevated-split-squat 5:goblet-rear-foot-elevated-split-squat 6:suitcase-rear-foot-elevated-split-squat
 7,minimalist,2,strength-balance,2,6,rotating,5,1:bent-knee-copenhagen-plank 2:clamshell-side-plank-hip-thrust 3:bent-knee-copenhagen-raise 4:elevated-side-plank-hip-tap 5:copenhagen-plank 6:clamshell-side-plank-hip-thrust
-7,minimalist,4,strength-intensity-1,1,6,fixed,1,1:1. Pronated Strict Pull Up 2:1. Pronated Strict Pull Up 3:1. Pronated Strict Pull Up 4:1. Pronated Strict Pull Up 5:1. Pronated Strict Pull Up 6:1. Pronated Strict Pull Up
+7,minimalist,4,strength-intensity-1,1,6,fixed,1,1:pronated-strict-pull-up 2:pronated-strict-pull-up 3:pronated-strict-pull-up 4:pronated-strict-pull-up 5:pronated-strict-pull-up 6:pronated-strict-pull-up
 7,minimalist,4,strength-balance,1,6,alternating-AB,2,1:1-1-4-dumbbell-bench-press 2:farmers-press 3:1-1-4-dumbbell-bench-press 4:farmers-press 5:1-1-4-dumbbell-bench-press 6:farmers-press
 7,minimalist,4,strength-balance,2,6,rotating,4,1:flat-bench-dumbbell-fly 2:lean-away-dumbbell-lateral-raise 3:dumbbell-fly-on-floor 4:lean-in-dumbbell-lateral-raise 5:flat-bench-dumbbell-fly 6:lean-away-dumbbell-lateral-raise
 7,minimalist,5,strength-intensity-1,1,6,alternating-AB,2,1:dumbbell-sumo-romanian-deadlift 2:split-stance-dumbbell-romanian-deadlift 3:dumbbell-sumo-romanian-deadlift 4:split-stance-dumbbell-romanian-deadlift 5:dumbbell-sumo-romanian-deadlift 6:split-stance-dumbbell-romanian-deadlift
@@ -948,7 +948,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 7,pump-condition-5x,6,strength-balance,1,6,alternating-AB,2,1:cyclist-front-squat 2:1-1-4-goblet-cyclist-squat 3:cyclist-front-squat 4:1-1-4-goblet-cyclist-squat 5:cyclist-front-squat 6:1-1-4-goblet-cyclist-squat
 7,pump-condition-5x,6,strength-balance,2,6,alternating-AB,2,1:hamstring-walkout 2:single-leg-hand-support-dumbbell-romanian-deadlift 3:hamstring-walkout 4:single-leg-hand-support-dumbbell-romanian-deadlift 5:hamstring-walkout 6:single-leg-hand-support-dumbbell-romanian-deadlift
 7,pump-lift-3x,1,strength-intensity-1,1,6,alternating-AB,2,1:1-1-4-cyclist-back-squat 2:back-squat 3:1-1-4-cyclist-back-squat 4:back-squat 5:1-1-4-cyclist-back-squat 6:back-squat
-7,pump-lift-3x,1,strength-intensity-2,1,6,fixed,1,1:1. Pronated Strict Pull Up or Lat Pulldown 2:1. Pronated Strict Pull Up or Lat Pulldown 3:1. Pronated Strict Pull Up or Lat Pulldown 4:1. Pronated Strict Pull Up or Lat Pulldown 5:1. Pronated Strict Pull Up or Lat Pulldown 6:1. Pronated Strict Pull Up or Lat Pulldown
+7,pump-lift-3x,1,strength-intensity-2,1,6,fixed,1,1:pronated-strict-pull-up 2:pronated-strict-pull-up 3:pronated-strict-pull-up 4:pronated-strict-pull-up 5:pronated-strict-pull-up 6:pronated-strict-pull-up
 7,pump-lift-3x,1,strength-balance,1,6,alternating-AB,2,1:push-up 2:deficit-wide-push-up 3:push-up 4:deficit-wide-push-up 5:push-up 6:deficit-wide-push-up
 7,pump-lift-3x,1,strength-balance,2,6,rotating,4,1:dumbbell-lateral-raise 2:narrow-push-up 3:internal-dumbbell-lateral-raise 4:narrow-push-up 5:external-dumbbell-lateral-raise 6:narrow-push-up
 7,pump-lift-3x,1,finisher,1,6,rotating,3,1:dumbbell-shrug 2:kelso-shrug 3:single-arm-lean-away-dumbbell-shrug 4:dumbbell-shrug 5:kelso-shrug 6:single-arm-lean-away-dumbbell-shrug
@@ -978,7 +978,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 7,pump-lift-4x,2,finisher,1,3,rotating,2,1:forearm-plank 3:forearm-plank 5:forearm-plank-knee-to-elbow
 7,pump-lift-4x,2,finisher,2,3,rotating,2,1:hanging-knee-tuck 3:weighted-hanging-knee-tuck 5:weighted-hanging-knee-tuck
 7,pump-lift-4x,4,strength-intensity-1,1,6,fixed,1,1:strict-bar-dip 2:strict-bar-dip 3:strict-bar-dip 4:strict-bar-dip 5:strict-bar-dip 6:strict-bar-dip
-7,pump-lift-4x,4,strength-intensity-2,1,6,fixed,1,1:1. Pronated Strict Pull Up or Lat Pulldown 2:1. Pronated Strict Pull Up or Lat Pulldown 3:1. Pronated Strict Pull Up or Lat Pulldown 4:1. Pronated Strict Pull Up or Lat Pulldown 5:1. Pronated Strict Pull Up or Lat Pulldown 6:1. Pronated Strict Pull Up or Lat Pulldown
+7,pump-lift-4x,4,strength-intensity-2,1,6,fixed,1,1:pronated-strict-pull-up 2:pronated-strict-pull-up 3:pronated-strict-pull-up 4:pronated-strict-pull-up 5:pronated-strict-pull-up 6:pronated-strict-pull-up
 7,pump-lift-4x,4,strength-balance,1,6,alternating-AB,2,1:1-1-4-dumbbell-bench-press 2:farmers-press 3:1-1-4-dumbbell-bench-press 4:farmers-press 5:1-1-4-dumbbell-bench-press 6:farmers-press
 7,pump-lift-4x,4,strength-balance,2,6,rotating,4,1:flat-bench-dumbbell-fly 2:lean-away-dumbbell-lateral-raise 3:dumbbell-fly-on-floor 4:lean-in-dumbbell-lateral-raise 5:flat-bench-dumbbell-fly 6:lean-away-dumbbell-lateral-raise
 7,pump-lift-4x,4,finisher,1,6,alternating-AB,2,1:dumbbell-twist-curl 2:dumbbell-cross-body-hammer-curl 3:dumbbell-twist-curl 4:dumbbell-cross-body-hammer-curl 5:dumbbell-twist-curl 6:dumbbell-cross-body-hammer-curl
@@ -990,7 +990,7 @@ block,track,day,role,item,weeks,kind,distinct,sequence
 7,pump-lift-4x,5,finisher,1,6,rotating,5,1:plank-body-saw 2:extended-plank 3:ring-body-saw 4:single-arm-plank 5:ring-body-saw 6:single-arm-extended-plank
 7,pump-lift-4x,5,finisher,2,6,alternating-AB,2,1:donkey-calf-raise 2:suitcase-single-leg-standing-calf-raise 3:donkey-calf-raise 4:suitcase-single-leg-standing-calf-raise 5:donkey-calf-raise 6:suitcase-single-leg-standing-calf-raise
 7,pump-lift-5x,1,strength-intensity-1,1,6,alternating-AB,2,1:sumo-deadlift 2:deficit-deadlift 3:sumo-deadlift 4:deficit-deadlift 5:sumo-deadlift 6:deficit-deadlift
-7,pump-lift-5x,1,strength-intensity-2,1,6,fixed,1,1:1. Pronated Strict Pull Up or Lat Pulldown 2:1. Pronated Strict Pull Up or Lat Pulldown 3:1. Pronated Strict Pull Up or Lat Pulldown 4:1. Pronated Strict Pull Up or Lat Pulldown 5:1. Pronated Strict Pull Up or Lat Pulldown 6:1. Pronated Strict Pull Up or Lat Pulldown
+7,pump-lift-5x,1,strength-intensity-2,1,6,fixed,1,1:pronated-strict-pull-up 2:pronated-strict-pull-up 3:pronated-strict-pull-up 4:pronated-strict-pull-up 5:pronated-strict-pull-up 6:pronated-strict-pull-up
 7,pump-lift-5x,1,strength-balance,1,6,alternating-AB,2,1:dumbbell-pullover 2:head-support-bent-over-dumbbell-row 3:dumbbell-pullover 4:head-support-bent-over-dumbbell-row 5:dumbbell-pullover 6:head-support-bent-over-dumbbell-row
 7,pump-lift-5x,1,strength-balance,2,6,rotating,3,1:rear-delt-swing 2:bent-over-dumbbell-reverse-fly 3:dumbbell-bent-over-meadows-row 4:rear-delt-swing 5:bent-over-dumbbell-reverse-fly 6:dumbbell-bent-over-meadows-row
 7,pump-lift-5x,1,finisher,1,6,rotating,3,1:dumbbell-shrug 2:kelso-shrug 3:single-arm-lean-away-dumbbell-shrug 4:dumbbell-shrug 5:kelso-shrug 6:single-arm-lean-away-dumbbell-shrug

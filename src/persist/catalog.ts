@@ -99,7 +99,9 @@ export function buildCatalog(weeks: WeekFile[], overrides: Overrides = {}): Cata
   for (const [raw, u] of [...uses].sort((a, b) => b[1].n - a[1].n || a[0].localeCompare(b[0]))) {
     const norm = normalizeName(raw);
     if (!norm) { aliasToId[raw] = null; continue; }
-    const reason = overrides[norm.key]?.exclude || overrides[idOf(norm.key)]?.exclude ? "excluded-by-override" : suspectReason(raw, norm.key);
+    const ov = overrides[norm.key] ?? overrides[idOf(norm.key)];
+    // An override that names the exercise settles it; only unsettled names are tested for being non-exercises.
+    const reason = ov?.exclude ? "excluded-by-override" : ov ? null : suspectReason(raw, norm.key);
     if (reason) {
       aliasToId[raw] = null;
       unmapped.push({ id: null, name: raw, uses: u.n, aliases: [], reason, suggestedPattern: null });

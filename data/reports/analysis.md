@@ -45,28 +45,28 @@ Pattern coverage per week for the core patterns (strength-intensity 1 and 2 only
 |---|---|---|---|---|---|
 | pump-lift-5x | squat | 39/39 | 11/39 | 28.2% | 28 |
 | pump-lift-5x | hinge | 39/39 | 17/39 | 43.6% | 22 |
-| pump-lift-5x | lunge-single-leg | 32/39 | 16/39 | 41.0% | 16 |
-| pump-lift-5x | horizontal-press | 39/39 | 6/39 | 15.4% | 33 |
+| pump-lift-5x | lunge-single-leg | 33/39 | 17/39 | 43.6% | 16 |
+| pump-lift-5x | horizontal-press | 39/39 | 4/39 | 10.3% | 35 |
 | pump-lift-5x | vertical-press | 39/39 | 20/39 | 51.3% | 19 |
 | pump-lift-5x | horizontal-pull | 35/39 | 35/39 | 89.7% | 0 |
-| pump-lift-5x | vertical-pull | 19/39 | 17/39 | 43.6% | 2 |
-| pump-lift-3x | squat | 39/39 | 39/39 | 100.0% | 0 |
+| pump-lift-5x | vertical-pull | 25/39 | 20/39 | 51.3% | 5 |
+| pump-lift-3x | squat | 39/39 | 38/39 | 97.4% | 1 |
 | pump-lift-3x | hinge | 37/39 | 31/39 | 79.5% | 6 |
 | pump-lift-3x | lunge-single-leg | 7/39 | 7/39 | 17.9% | 0 |
 | pump-lift-3x | horizontal-press | 39/39 | 37/39 | 94.9% | 2 |
-| pump-lift-3x | vertical-press | 36/39 | 36/39 | 92.3% | 0 |
+| pump-lift-3x | vertical-press | 37/39 | 37/39 | 94.9% | 0 |
 | pump-lift-3x | horizontal-pull | 28/39 | 28/39 | 71.8% | 0 |
-| pump-lift-3x | vertical-pull | 28/39 | 28/39 | 71.8% | 0 |
+| pump-lift-3x | vertical-pull | 36/39 | 36/39 | 92.3% | 0 |
 
 Pump Lift 5x, what fills each training day (strength-intensity 1 + 2), across all weeks:
 
 | Day | Pattern layout (weeks) |
 |---|---|
-| day 1 | hinge + horizontal-pull (13)<br>squat + hinge (10)<br>hinge + unresolved (6)<br>hinge + vertical-pull (5)<br>squat + lunge-single-leg (5) |
-| day 2 | vertical-press + horizontal-press (15)<br>horizontal-press + vertical-press (10)<br>horizontal-press + horizontal-press (10)<br>horizontal-press + hinge (2)<br>vertical-press + unresolved (1)<br>horizontal-press + unresolved (1) |
-| day 3 | squat + hinge (12)<br>squat + lunge-single-leg (11)<br>vertical-pull + horizontal-pull (10)<br>hinge + horizontal-pull (5)<br>squat + unresolved (1) |
-| day 5 | hinge + lunge-single-leg (8)<br>vertical-press + vertical-press (6)<br>horizontal-press + horizontal-pull (6)<br>lunge-single-leg + squat (5)<br>horizontal-press + unresolved (3)<br>horizontal-press + horizontal-press (3)<br>vertical-press + vertical-pull (2)<br>horizontal-press + vertical-pull (2)<br>olympic + lunge-single-leg (2)<br>vertical-press + unresolved (1)<br>vertical-press + horizontal-pull (1) |
-| day 6 | lunge-single-leg + squat (12)<br>horizontal-press + vertical-press (6)<br>squat + lunge-single-leg (5)<br>squat (5)<br>vertical-press + vertical-press (5)<br>horizontal-press + vertical-pull (2)<br>horizontal-press + unresolved (2)<br>hinge (1)<br>squat + unresolved (1) |
+| day 1 | hinge + horizontal-pull (13)<br>hinge + vertical-pull (11)<br>squat + hinge (10)<br>squat + lunge-single-leg (5) |
+| day 2 | vertical-press + horizontal-press (16)<br>horizontal-press + horizontal-press (11)<br>horizontal-press + vertical-press (10)<br>horizontal-press + hinge (2) |
+| day 3 | squat + hinge (12)<br>squat + lunge-single-leg (11)<br>vertical-pull + horizontal-pull (10)<br>hinge + horizontal-pull (5)<br>squat + squat (1) |
+| day 5 | hinge + lunge-single-leg (8)<br>vertical-press + vertical-press (6)<br>horizontal-press + horizontal-pull (6)<br>lunge-single-leg + squat (5)<br>vertical-press + vertical-pull (3)<br>horizontal-press + unresolved (3)<br>horizontal-press + horizontal-press (3)<br>horizontal-press + vertical-pull (2)<br>olympic + lunge-single-leg (2)<br>vertical-press + horizontal-pull (1) |
+| day 6 | lunge-single-leg + squat (12)<br>squat + lunge-single-leg (6)<br>horizontal-press + vertical-press (6)<br>squat (5)<br>vertical-press + vertical-press (5)<br>horizontal-press + vertical-pull (4)<br>hinge (1) |
 
 ## 3. Variation rotation
 
@@ -75,7 +75,7 @@ For each slot (block, track, day, role) the exercise is followed week by week (`
 | Track | Role | Slots | Alternating AB | Fixed | Rotating |
 |---|---|---|---|---|---|
 | pump-lift-5x | S-intensity-1 | 35 | 29 (82.9%) | 2 (5.7%) | 4 (11.4%) |
-| pump-lift-5x | S-intensity-2 | 34 | 22 (64.7%) | 1 (2.9%) | 11 (32.4%) |
+| pump-lift-5x | S-intensity-2 | 34 | 24 (70.6%) | 1 (2.9%) | 9 (26.5%) |
 | pump-lift-5x | S-balance | 35 | 21 (60.0%) | 1 (2.9%) | 13 (37.1%) |
 | pump-lift-5x | finisher | 35 | 5 (14.3%) | 0 (0.0%) | 30 (85.7%) |
 | pump-condition-5x | S-intensity-1 | 35 | 30 (85.7%) | 2 (5.7%) | 3 (8.6%) |
@@ -93,9 +93,9 @@ Carry-over of Pump Lift 5x strength exercises between blocks:
 | 2 | 26 | 3 (11.5%) | 3 (11.5%) |
 | 3 | 24 | 1 (4.2%) | 5 (20.8%) |
 | 4 | 21 | 2 (9.5%) | 6 (28.6%) |
-| 5 | 15 | 1 (6.7%) | 6 (40.0%) |
-| 6 | 20 | 3 (15.0%) | 13 (65.0%) |
-| 7 | 21 | 1 (4.8%) | 10 (47.6%) |
+| 5 | 19 | 1 (5.3%) | 7 (36.8%) |
+| 6 | 20 | 4 (20.0%) | 13 (65.0%) |
+| 7 | 22 | 1 (4.5%) | 11 (50.0%) |
 | 8 | 19 | 2 (10.5%) | 9 (47.4%) |
 
 Same day and role, next block: the main lift was identical in 4 of 139 cases (2.9%).
@@ -139,20 +139,20 @@ Sections are compared by content hash (exercises, sets, reps, tempo, rest, forma
 | Group | Distinct sections | Week appearances | In 2+ weeks | In 2+ blocks | Share of appearances that repeat | Most weeks for one section |
 |---|---|---|---|---|---|---|
 | recovery days (active recovery work) | 107 | 192 | 17 (15.9%) | 17 (15.9%) | 44.3% | 35 |
-| recovery mobility sessions | 111 | 208 | 41 (36.9%) | 37 (33.3%) | 46.6% | 10 |
-| cooldowns | 91 | 300 | 70 (76.9%) | 30 (33.0%) | 69.7% | 9 |
+| recovery mobility sessions | 110 | 207 | 41 (37.3%) | 37 (33.6%) | 46.9% | 10 |
+| cooldowns | 90 | 299 | 70 (77.8%) | 30 (33.3%) | 69.9% | 9 |
 | warmups | 242 | 274 | 32 (13.2%) | 32 (13.2%) | 11.7% | 2 |
 | conditioning, finishers, hot starts | 931 | 990 | 37 (4.0%) | 7 (0.8%) | 6.0% | 6 |
 | strength balance | 566 | 607 | 31 (5.5%) | 0 (0.0%) | 6.8% | 4 |
-| strength intensity 1 and 2 | 664 | 698 | 28 (4.2%) | 2 (0.3%) | 4.9% | 3 |
+| strength intensity 1 and 2 | 661 | 698 | 31 (4.7%) | 2 (0.3%) | 5.3% | 3 |
 
 Whole sessions (a session is shared across tracks when its hash matches; prose such as the focus note counts only by topic):
 
 | Type | Distinct sessions | In 2+ weeks | In 2+ tracks | Most weeks |
 |---|---|---|---|---|
 | training | 1245 | 0 (0.0%) | 42 (3.4%) | 1 |
-| recovery | 285 | 41 (14.4%) | 109 (38.2%) | 7 |
-| note | 54 | 0 (0.0%) | 40 (74.1%) | 1 |
+| recovery | 284 | 41 (14.4%) | 110 (38.7%) | 7 |
+| note | 53 | 0 (0.0%) | 40 (75.5%) | 1 |
 
 ## 6. Track derivation
 
@@ -213,19 +213,19 @@ Which base day each derived day copies, by block (`derived day = base day`):
 
 ## 7. Accessory pairings
 
-1191 strength-balance supersets (unique sessions) with two or more movements; 1165 have both patterns resolved. Pair types by movement group (push = presses, pull = rows and pull-ups, knee = squats and lunges, hip = hinges):
+1191 strength-balance supersets (unique sessions) with two or more movements; 1182 have both patterns resolved. Pair types by movement group (push = presses, pull = rows and pull-ups, knee = squats and lunges, hip = hinges):
 
 | Pair type | Supersets | % of resolved |
 |---|---|---|
-| hip + knee | 137 | 11.8% |
-| push + shoulders | 133 | 11.4% |
-| same group (push) | 121 | 10.4% |
-| same group (pull) | 112 | 9.6% |
-| same group (knee) | 110 | 9.4% |
-| arms + push | 99 | 8.5% |
-| pull + shoulders | 80 | 6.9% |
-| core + knee | 58 | 5.0% |
-| same group (arms) | 44 | 3.8% |
+| push + shoulders | 147 | 12.4% |
+| hip + knee | 137 | 11.6% |
+| same group (push) | 123 | 10.4% |
+| same group (pull) | 112 | 9.5% |
+| same group (knee) | 111 | 9.4% |
+| arms + push | 99 | 8.4% |
+| pull + shoulders | 80 | 6.8% |
+| core + knee | 58 | 4.9% |
+| same group (arms) | 44 | 3.7% |
 | knee + legs | 35 | 3.0% |
 | arms + core | 32 | 2.7% |
 | core + hip | 29 | 2.5% |
@@ -234,14 +234,13 @@ What the superset trains, by the pattern of the same session's main lift (`analy
 
 | Main lift pattern | Sessions | Top balance pairings |
 |---|---|---|
-| squat | 313 | hip + knee (49)<br>knee + knee (37)<br>core + hip (29) |
-| horizontal-press | 304 | push + push (67)<br>arms + push (48)<br>pull + pull (40) |
+| squat | 313 | hip + knee (49)<br>knee + knee (38)<br>core + hip (29) |
+| horizontal-press | 304 | push + push (67)<br>arms + push (48)<br>push + shoulders (43) |
 | hinge | 251 | pull + pull (46)<br>knee + knee (42)<br>hip + knee (36) |
 | vertical-press | 183 | push + shoulders (59)<br>arms + push (31)<br>push + push (24) |
-| lunge-single-leg | 65 | hip + knee (24)<br>knee + knee (23)<br>arms + knee (12) |
-| vertical-pull | 53 | pull + shoulders (16)<br>carry + pull (10)<br>push + shoulders (10) |
-| olympic | 13 | hip + knee (9)<br>push + push (2)<br>push + shoulders (1) |
-| unresolved | 8 | push + push (3)<br>push + shoulders (3)<br>knee + knee (2) |
+| lunge-single-leg | 67 | knee + knee (25)<br>hip + knee (24)<br>arms + knee (12) |
+| vertical-pull | 59 | pull + shoulders (16)<br>push + shoulders (13)<br>carry + pull (10) |
+| olympic | 13 | hip + knee (9)<br>push + push (2)<br>push + shoulders (2) |
 
 Most repeated exercise pairs (`analysis/q07-pairings-exercises.csv`):
 
@@ -263,26 +262,29 @@ Most repeated exercise pairs (`analysis/q07-pairings-exercises.csv`):
 | Role | Format | Distinct sections | Minutes | Equipment (sections) | Top movements (sections) |
 |---|---|---|---|---|---|
 | finisher | superset | 193 | 4-12 | dumbbell (106), bodyweight (71), cable (23), kettlebell (23) | Weighted Hanging Knee Tuck (8), Cuban Press (6), Dumbbell Skullcrusher (6), Heel Tap (6), Russian Twist (6) |
-| conditioning | unclassified | 156 | 12-25 | dumbbell (69), bodyweight (51), kettlebell (48), bike (32) | Run (37), Row (35), Bike (32), Shuttle Run (11), Box Jump Over (8) |
+| conditioning | intervals | 138 | 12-25 | dumbbell (62), kettlebell (55), box (29), bike (28) | Row (44), Run (36), Bike (28), Box Jump Over (13), Russian Kettlebell Swing (12) |
 | conditioning | amrap | 116 | 10-20 | dumbbell (79), bodyweight (40), bike (35), kettlebell (30) | Bike (24), Row (17), Run (17), Bike Buy In (9), Push Up (9) |
-| conditioning | every-n-sec | 109 | 9-28 | dumbbell (40), bodyweight (39), kettlebell (21), bike (16) | Row (37), Run (10), Burpee (9), Shuttle Run (8), Double Under (7) |
-| conditioning | for-time | 102 | 12-30 | dumbbell (34), bike (21), bodyweight (18), kettlebell (10) | Row (33), Double Under (16), Bike (13), Jump Lunge (10), Run (8) |
-| hot-start | unclassified | 57 | 8-15 | kettlebell (30), bodyweight (16), bike (14), rings (6) | Row (16), Bike (14), Strict Bar Dip (4), Dual Kettlebell Clean (3), Dual Kettlebell Russian Swing (3) |
-| conditioning | intervals | 50 | 12-15 | kettlebell (16), box (13), dumbbell (13), bodyweight (8) | Row (24), Run (16), Russian Kettlebell Swing (8), Bike (6), Box Jump Over (5) |
+| conditioning | every-n-sec | 109 | 9-28 | dumbbell (41), bodyweight (39), kettlebell (21), bike (16) | Row (37), Run (10), Burpee (9), Shuttle Run (8), Double Under (7) |
+| conditioning | for-time | 102 | 12-30 | dumbbell (36), bike (21), bodyweight (18), kettlebell (10) | Row (33), Double Under (16), Bike (13), Jump Lunge (10), Run (8) |
+| conditioning | steady-state | 46 | 12-15 | bodyweight (28), dumbbell (11), kettlebell (9), bike (8) | Shuttle Run (9), Bike (8), Row (8), Farmers Walk (7), Goblet Carry (7) |
 | speed-strength | every-n-sec | 40 | 15-18 |  | Overhead Squat (26), Overhead Squat Hold (26), Snatch Grip Overhead Hold (26), Snatch Grip Romanian Deadlift (26), Squatting Quad Snatch Grip Hold (26) |
 | hot-start | every-n-sec | 35 | 5-15 | bike (16), rings (6), bodyweight (6), dumbbell (2) | Bike (16), Row (10), Bar Or Ring Muscle Up (3), Strict Muscle Up (3), Handstand Walk (2) |
+| hot-start | intervals | 35 | 8-15 | kettlebell (24), bike (8), dumbbell (5), bodyweight (4) | Row (12), Bike (8), Strict Bar Dip (4), Plyo Push Up (3), Single Arm Kettlebell Snatch (3) |
+| conditioning | unclassified | 22 | 12-15 | dumbbell (10), bodyweight (10), bike (4), plate (2) | Run (10), Row (7), Pronated Body Row (5), Bike (4), Dumbbell Burpee (2) |
 | finisher | straight-sets | 19 | 6-10 | barbell (6), dumbbell (4), bodyweight (3), kettlebell (2) | 1 1/4 Barbell Curl (3), Hanging Knee Tuck (2), Alternating Dumbbell Bicep Curl Drop Set (1), Barbell Curl (1), Barbell Reverse Curl (1) |
 | conditioning | ladder | 16 | 10-15 | dumbbell (11), kettlebell (5), bodyweight (4), bike (2) | Weighted Or Bodyweight Hanging Knee Tuck (3), Alternating Dumbbell Glute Bridge Floor Press (2), Dumbbell Burpee (2), Power Snatch (2), Alternating Dumbbell Snatch (1) |
-| speed-strength | unclassified | 12 | 15-15 |  | Front Rack Hold (12), Front Squat (12), Front Squat Hold (12), Romanian Deadlift (12), Squatting Quad Clean Grip Hold (12) |
+| hot-start | unclassified | 14 | 10-12 | bodyweight (12), bike (6), rings (3), kettlebell (2) | Bike (6), Row (3), Yoga Push Up (3), Arnold Z Press (2), Ring Muscle Up (2) |
+| speed-strength | straight-sets | 12 | 15-15 |  | Front Rack Hold (12), Front Squat (12), Front Squat Hold (12), Romanian Deadlift (12), Squatting Quad Clean Grip Hold (12) |
+| hot-start | straight-sets | 7 | 12-12 |  | Pause Split Jerk (2), Split Jerk (2), Power Jerk (1) |
 | finisher | every-n-sec | 6 | 8-8 | barbell (6) | Barbell Curl (3), Barbell Reverse Curl (3) |
 | conditioning | emom | 4 | 12-15 |  |  |
+| hot-start | steady-state | 3 | 9-12 | kettlebell (4), bike (1) | Row (2), Bike (1), Dual Kettlebell Clean (1), Dual Kettlebell Dl (1), Dual Kettlebell High Pull (1) |
 | conditioning | chipper | 2 | 20-20 | bike (2), bodyweight (2), dumbbell (1), rings (1) | Alternating Dumbbell Snatch (1), Bike (1), Cal Bike (1), Ghd Hip Extension (1), Ring Push Up (1) |
 | finisher | amrap | 2 | 8-8 | kettlebell (3), dumbbell (2) | Crush Grip Dumbbell Bicep Curl (1), Dumbbell Crush Grip Bicep Curl Carry (1), Farmers Walk (1), Kettlebell Horn Grip Bicep Curl (1), Kettlebell Horn Grip Carry (1) |
 | finisher | run-the-rack | 2 | 8-8 | dumbbell (4) | Dumbbell Curl Run The Rack (2), Alternating Dumbbell Curl (1), Dual Dumbbell Curl (1) |
 | hot-start | amrap | 2 | 12-12 |  | Row (1) |
 | hot-start | emom | 2 | 9-12 |  |  |
 | hot-start | for-time | 2 | 10-12 | rings (1), bike (1) | Bar Or Ring Muscle Up (1), Bike (1) |
-| hot-start | intervals | 2 | 9-9 | bike (1) | Bike (1), Row (1) |
 | finisher | giant-set | 1 | 6-8 | dumbbell (3), bench (1) | Dumbbell Narrow Grip Bench Press (1), Dumbbell Rolling Skullcrusher (1), Dumbbell Skullcrusher (1) |
 | finisher | unclassified | 1 | 6-8 |  |  |
 
@@ -296,7 +298,7 @@ Average hard sets per movement pattern per observed week, by track (min-max wher
 | hinge | 6.5-6.6 | 6.2 | 3.6 | 5.8-5.9 | 6.1-6.2 | 5.0 | 6.5-6.6 | 6.6-6.8 |
 | lunge-single-leg | 4.5-4.5 | 4.8 | 1.2 | 3.9-4.0 | 4.8 | 3.8 | 7.7 | 7.6 |
 | horizontal-press | 6.7 | 9.6 | 6.0 | 7.4 | 9.7 | 7.8 | 11.7-11.9 | 12.9-13.2 |
-| vertical-press | 4.0 | 3.9 | 3.1 | 3.2 | 4.0 | 3.7 | 3.9 | 5.6 |
+| vertical-press | 4.2 | 4.1 | 3.2 | 3.3 | 4.2 | 3.9 | 4.0 | 5.8 |
 | horizontal-pull | 2.2-2.3 | 2.9-3.0 | 2.6-2.7 | 2.7-2.8 | 2.9-3.0 | 3.4-3.4 | 3.0-3.1 | 5.2-5.3 |
 | vertical-pull | 2.2-2.3 | 3.7-3.8 | 2.8-2.9 | 3.5-3.6 | 3.7-3.8 | 3.0 | 3.0 | 4.0-4.1 |
 | carry | 0.2 | 0.2 | 0.1 | 0.2 | 0.2 | 0.9-1.3 | 0.7-0.9 | 1.2-1.7 |
@@ -306,7 +308,7 @@ Average hard sets per movement pattern per observed week, by track (min-max wher
 | isolation-legs | 0.6 | 0.6 | - | 0.6 | 0.6 | 0.8-1.2 | 2.9-3.7 | 3.4-4.2 |
 | olympic | - | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 |
 | plyometric | - | - | - | - | - | - | - | - |
-| (unresolved pattern) | 0.2 | 0.2 | 0.2 | 0.5 | 0.5 | 1.1 | 1.8 | 2.2 |
+| (unresolved pattern) | 0.1 | 0.1 | 0.1 | 0.3 | 0.4 | 1.0 | 1.7 | 2.0 |
 
 ## Rules a generator could follow
 
@@ -328,9 +330,9 @@ Pump Lift: warmup, strength intensity 1, strength intensity 2, strength balance,
 
 ### 3. Pump Lift 5x covers squat, hinge and both presses in nearly every week; pulls and single-leg work less consistently
 
-Weekly strength slots (strength intensity 1 and 2) of Pump Lift 5x include squat, hinge, horizontal-press, vertical-press in at least 90% of weeks, and usually more than once. lunge-single-leg (32/39), horizontal-pull (35/39), vertical-pull (19/39) appear less reliably. Pump Lift 3x covers squat, horizontal-press, vertical-press exactly once in at least 85% of weeks. Pattern is not tied to a day number: the pattern on a given day changes from block to block.
+Weekly strength slots (strength intensity 1 and 2) of Pump Lift 5x include squat, hinge, horizontal-press, vertical-press in at least 90% of weeks, and usually more than once. lunge-single-leg (33/39), horizontal-pull (35/39), vertical-pull (25/39) appear less reliably. Pump Lift 3x covers squat, horizontal-press, vertical-press, vertical-pull exactly once in at least 85% of weeks. Pattern is not tied to a day number: the pattern on a given day changes from block to block.
 
-- **Evidence:** squat 39/39, hinge 39/39, lunge-single-leg 32/39, horizontal-press 39/39, vertical-press 39/39, horizontal-pull 35/39, vertical-pull 19/39 weeks covered at least once (Pump Lift 5x); exactly-once counts are in q02-pattern-coverage.csv.
+- **Evidence:** squat 39/39, hinge 39/39, lunge-single-leg 33/39, horizontal-press 39/39, vertical-press 39/39, horizontal-pull 35/39, vertical-pull 25/39 weeks covered at least once (Pump Lift 5x); exactly-once counts are in q02-pattern-coverage.csv.
 - **Exceptions:** Coverage counts exercises with a resolved pattern only. Dips and chest flies are counted as horizontal presses (a judgment call: the pattern list has no chest-isolation category), and burpees as plyometric. Every exercise has a pattern; judgment calls (for example wall sits as squat, handstand work as vertical press, Turkish get-ups as core) are noted in data/catalog/overrides.json and src/persist/classify.ts.
 
 ### 4. Within a block the main lift alternates between two variations on odd and even weeks
@@ -338,7 +340,7 @@ Weekly strength slots (strength intensity 1 and 2) of Pump Lift 5x include squat
 Each main-lift slot has two variations (A on odd weeks, B on even weeks), for example sumo deadlift on odd weeks and deficit deadlift on even weeks. The pair is chosen per block and day.
 
 - **Evidence:** 29 of 35 Pump Lift 5x strength-intensity-1 slots (82.9%) alternate exactly; the other slots are fixed (2) or rotate (4). The first strength-balance movement alternates in 60.0% of slots.
-- **Exceptions:** Strength intensity 2 alternates in 64.7% of slots and finishers in 14.3% (they rotate nearly every week).
+- **Exceptions:** Strength intensity 2 alternates in 70.6% of slots and finishers in 14.3% (they rotate nearly every week).
 
 ### 5. A new block brings new main lifts, but the exercise pool is reused over time
 
@@ -379,34 +381,34 @@ Minimalist days have the same movement pattern as a Pump Lift 5x day in the same
 
 Training sessions never repeat in a later week, and conditioning, strength balance and strength intensity sections are almost always new. Cooldowns are drawn from a small set and repeat across weeks. Recovery sessions are partly reused (the same mobility or active-recovery work returns), within a block and across blocks, and are shared across tracks.
 
-- **Evidence:** Cooldowns: 91 distinct sections across 300 week appearances (69.7% are repeats). Mobility sessions 46.6% repeats; active recovery 44.3%; conditioning/finishers/hot starts 6.0%. Training sessions repeated in a second week: 0 (0.0%).
-- **Exceptions:** Recovery days are not copied verbatim between blocks as a rule: 15.9% of active-recovery sections and 33.3% of mobility sessions appear in more than one block.
+- **Evidence:** Cooldowns: 90 distinct sections across 299 week appearances (69.9% are repeats). Mobility sessions 46.9% repeats; active recovery 44.3%; conditioning/finishers/hot starts 6.0%. Training sessions repeated in a second week: 0 (0.0%).
+- **Exceptions:** Recovery days are not copied verbatim between blocks as a rule: 15.9% of active-recovery sections and 33.6% of mobility sessions appear in more than one block.
 
 ### 11. Strength-balance supersets are chosen around the day's main lift, not as push/pull pairs
 
-The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); knee + knee (37); core + hip (29); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).
+The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); knee + knee (38); core + hip (29); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).
 
-- **Evidence:** Top pair types among 1165 resolved supersets: hip + knee 11.8%, push + shoulders 11.4%, same group (push) 10.4%. Push-with-pull pairs are only 1.9% of them.
-- **Exceptions:** 26 of 1191 supersets have a movement kept out of the catalog (a name the parser could not read as one exercise), so they are not in these shares.
+- **Evidence:** Top pair types among 1182 resolved supersets: push + shoulders 12.4%, hip + knee 11.6%, same group (push) 10.4%. Push-with-pull pairs are only 1.9% of them.
+- **Exceptions:** 9 of 1191 supersets have a movement kept out of the catalog (a name the parser could not read as one exercise), so they are not in these shares.
 
 ### 12. Conditioning pieces come in a few formats with 9-30 minute time domains
 
 Conditioning sections are AMRAP, every-N-seconds, for-time, interval or ladder pieces, built from rowing, biking, running, kettlebell and dumbbell work. Finishers (Pump Lift) are short supersets. Perform adds hot starts and speed-strength sections before the main lift.
 
-- **Evidence:** Distinct conditioning sections by format: unclassified 156, amrap 116, every-n-sec 109, for-time 102, intervals 50, ladder 16, emom 4, chipper 2. Finishers: superset 193, straight-sets 19, every-n-sec 6, amrap 2, run-the-rack 2, giant-set 1, unclassified 1.
-- **Exceptions:** 28.1% of conditioning sections name no format in their text (for example continuous-clock or "for quality" pieces), so they are left unclassified rather than guessed.
+- **Evidence:** Distinct conditioning sections by format: intervals 138, amrap 116, every-n-sec 109, for-time 102, steady-state 46, unclassified 22, ladder 16, emom 4, chipper 2. Finishers: superset 193, straight-sets 19, every-n-sec 6, amrap 2, run-the-rack 2, giant-set 1, unclassified 1.
+- **Exceptions:** 4.0% of conditioning sections name no format in their text (for example continuous-clock or "for quality" pieces), so they are left unclassified rather than guessed.
 
 ### 13. Pump Lift hard-set volume per pattern drops with frequency, but not proportionally
 
 Averaged over squat, hinge, horizontal press and horizontal pull, Pump Lift 4x carries 83% and 3x 70% of the 5x hard sets. Hinge volume is nearly unchanged from 5x to 4x while horizontal pull falls the most.
 
 - **Evidence:** Average weekly hard sets, Pump Lift 5x: squat 5.7-5.8, hinge 6.6-6.8, horizontal-press 12.9-13.2, horizontal-pull 5.2-5.3; 4x: squat 5.0-5.1, hinge 6.5-6.6, horizontal-press 11.7-11.9, horizontal-pull 3.0-3.1; 3x: squat 4.7-4.8, hinge 5.0, horizontal-press 7.8, horizontal-pull 3.4-3.4.
-- **Exceptions:** Hard sets are working sets of strength intensity 1-2 plus the prescribed sets of each balance and finisher movement; conditioning is not counted. Volume on movements kept out of the catalog is excluded from the pattern rows (2.2 sets a week for Pump Lift 5x), so every number is a lower bound.
+- **Exceptions:** Hard sets are working sets of strength intensity 1-2 plus the prescribed sets of each balance and finisher movement; conditioning is not counted. Volume on movements kept out of the catalog is excluded from the pattern rows (2.0 sets a week for Pump Lift 5x), so every number is a lower bound.
 
 ### 14. What the data cannot yet support
 
 Rules above describe the program as published in these weeks. Gaps: four whole weeks are missing inside blocks (May 18/25 and Jun 22/29), the first block starts at Week 3, and the current block is only at Week 5.
 
-- **Evidence:** 39 weeks observed, 4 missing, 8 blocks. 0.0% of catalogued exercise uses have no pattern; 156 names are kept out of the catalog (data/reports/unmapped_exercises.json).
-- **Exceptions:** Every catalogued exercise now has a pattern, but 156 names (647 uses) are kept out of the catalog as headings or fragments the parser read as items; they have no exercise or pattern. Several patterns are judgment calls on movements the pattern list does not name.
+- **Evidence:** 39 weeks observed, 4 missing, 8 blocks. 0.0% of catalogued exercise uses have no pattern; 112 names are kept out of the catalog (data/reports/unmapped_exercises.json).
+- **Exceptions:** Every catalogued exercise now has a pattern, but 112 names (491 uses) are kept out of the catalog as headings or fragments the parser read as items; they have no exercise or pattern. Several patterns are judgment calls on movements the pattern list does not name.
 

@@ -54,9 +54,11 @@
    ],
    "unilateral": false,
    "aliases": [
-    "Bike"
+    "Bike",
+    "Bike 1k/900m",
+    "Bike 85%"
    ],
-   "uses": 226
+   "uses": 231
   },
   {
    "id": "shinbox-switch",
@@ -247,6 +249,24 @@
    "uses": 117
   },
   {
+   "id": "pronated-strict-pull-up",
+   "name": "Pronated Strict Pull Up",
+   "pattern": "vertical-pull",
+   "equipment": [
+    "bodyweight"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Pronated Strict Pull Up",
+    "Pronated Strict Pull Up or Lat Pulldown",
+    "Pronated Strict Pull Up or Pronated Grip Lat Pull Down",
+    "Pronated Strict Pullup",
+    "Pronated Strict Pullup or Pronated Grip Lat Pull Down",
+    "Pronated Strict pull up"
+   ],
+   "uses": 116
+  },
+  {
    "id": "wrist-extension-stretch",
    "name": "Wrist Extension Stretch",
    "pattern": "isolation-arms",
@@ -358,24 +378,6 @@
     "Supinated Passive Hang"
    ],
    "uses": 94
-  },
-  {
-   "id": "pronated-strict-pull-up",
-   "name": "Pronated Strict Pull Up",
-   "pattern": "vertical-pull",
-   "equipment": [
-    "bodyweight"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Pronated Strict Pull Up",
-    "Pronated Strict Pull Up or Lat Pulldown",
-    "Pronated Strict Pull Up or Pronated Grip Lat Pull Down",
-    "Pronated Strict Pullup",
-    "Pronated Strict Pullup or Pronated Grip Lat Pull Down",
-    "Pronated Strict pull up"
-   ],
-   "uses": 92
   },
   {
    "id": "prone-shoulder-swimmer",
@@ -683,6 +685,17 @@
    "uses": 69
   },
   {
+   "id": "front-squat",
+   "name": "Front Squat",
+   "pattern": "squat",
+   "equipment": [],
+   "unilateral": false,
+   "aliases": [
+    "Front Squat"
+   ],
+   "uses": 68
+  },
+  {
    "id": "russian-kettlebell-swing",
    "name": "Russian Kettlebell Swing",
    "pattern": "hinge",
@@ -701,17 +714,6 @@
     "Split Stance Single Arm Russian KBS"
    ],
    "uses": 68
-  },
-  {
-   "id": "front-squat",
-   "name": "Front Squat",
-   "pattern": "squat",
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Front Squat"
-   ],
-   "uses": 67
   },
   {
    "id": "yoga-push-up",
@@ -1608,6 +1610,20 @@
    "uses": 38
   },
   {
+   "id": "goblet-squat",
+   "name": "Goblet Squat",
+   "pattern": "squat",
+   "equipment": [],
+   "unilateral": false,
+   "aliases": [
+    "Goblet Squat",
+    "Goblet Squat (70/50)",
+    "Goblet Squat (70/53)",
+    "Goblet Squat 53/35"
+   ],
+   "uses": 38
+  },
+  {
    "id": "quadruped-wrist-circle",
    "name": "Quadruped Wrist Circle",
    "pattern": "isolation-arms",
@@ -1660,19 +1676,6 @@
     "Turkish Get Ups Right"
    ],
    "uses": 38
-  },
-  {
-   "id": "goblet-squat",
-   "name": "Goblet Squat",
-   "pattern": "squat",
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [
-    "Goblet Squat",
-    "Goblet Squat (70/50)",
-    "Goblet Squat (70/53)"
-   ],
-   "uses": 37
   },
   {
    "id": "half-kneeling-cable-row",
@@ -2049,6 +2052,23 @@
    "uses": 34
   },
   {
+   "id": "alternating-dumbbell-bench-press",
+   "name": "Alternating Dumbbell Bench Press",
+   "pattern": "horizontal-press",
+   "equipment": [
+    "dumbbell",
+    "bench"
+   ],
+   "unilateral": true,
+   "aliases": [
+    "Alternating DB Bench Press",
+    "Alternating DB Bench Press (8/side)",
+    "Alternating Dumbbell Bench Press",
+    "Alternating Dumbbell Bench Press (Top Down)"
+   ],
+   "uses": 33
+  },
+  {
    "id": "bent-knee-copenhagen-raise",
    "name": "Bent Knee Copenhagen Raise",
    "pattern": "core",
@@ -2119,6 +2139,17 @@
    "uses": 32
   },
   {
+   "id": "shinbox-hip-extension-switch",
+   "name": "Shinbox Hip Extension Switch",
+   "pattern": "mobility",
+   "equipment": [],
+   "unilateral": true,
+   "aliases": [
+    "Shinbox Hip Extension + Switch"
+   ],
+   "uses": 32
+  },
+  {
    "id": "slow-shoulder-circle",
    "name": "Slow Shoulder Circle",
    "pattern": "mobility",
@@ -2138,23 +2169,6 @@
    "aliases": [
     "Air Squat",
     "Air Squats"
-   ],
-   "uses": 31
-  },
-  {
-   "id": "alternating-dumbbell-bench-press",
-   "name": "Alternating Dumbbell Bench Press",
-   "pattern": "horizontal-press",
-   "equipment": [
-    "dumbbell",
-    "bench"
-   ],
-   "unilateral": true,
-   "aliases": [
-    "Alternating DB Bench Press",
-    "Alternating DB Bench Press (8/side)",
-    "Alternating Dumbbell Bench Press",
-    "Alternating Dumbbell Bench Press (Top Down)"
    ],
    "uses": 31
   },
@@ -2715,6 +2729,20 @@
    "uses": 25
   },
   {
+   "id": "dumbbell-pullover",
+   "name": "Dumbbell Pullover",
+   "pattern": "vertical-pull",
+   "equipment": [
+    "dumbbell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "DB Pullover",
+    "Dumbbell Pullover"
+   ],
+   "uses": 25
+  },
+  {
    "id": "hanging-knee-tuck",
    "name": "Hanging Knee Tuck",
    "pattern": "core",
@@ -2763,6 +2791,22 @@
    "unilateral": false,
    "aliases": [
     "Supinated Bent Over Row"
+   ],
+   "uses": 25
+  },
+  {
+   "id": "supinated-pull-up-isometric",
+   "name": "Supinated Pull Up Isometric",
+   "pattern": "vertical-pull",
+   "equipment": [
+    "bodyweight"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Supinated Pull Up Isometric",
+    "Supinated Pull Up Isometric or Ring Row Hold",
+    "Supinated Pullup Isometric",
+    "Supinated pull up Isometric"
    ],
    "uses": 25
   },
@@ -2879,20 +2923,6 @@
    "uses": 24
   },
   {
-   "id": "dumbbell-pullover",
-   "name": "Dumbbell Pullover",
-   "pattern": "vertical-pull",
-   "equipment": [
-    "dumbbell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "DB Pullover",
-    "Dumbbell Pullover"
-   ],
-   "uses": 24
-  },
-  {
    "id": "forearm-plank-to-dolphin-pose",
    "name": "Forearm Plank To Dolphin Pose",
    "pattern": "core",
@@ -2993,6 +3023,19 @@
    "uses": 24
   },
   {
+   "id": "single-arm-suitcase-rear-foot-elevated-split-squat",
+   "name": "Single Arm Suitcase Rear Foot Elevated Split Squat",
+   "pattern": "lunge-single-leg",
+   "equipment": [],
+   "unilateral": true,
+   "aliases": [
+    "Left Side Single Arm Suitcase Rear Foot Elevated Split Squat",
+    "Right Side Single Arm Suitcase Rear Foot Elevated Split Squat",
+    "Single Arm Suitcase Rear Foot Elevated Split Squat"
+   ],
+   "uses": 24
+  },
+  {
    "id": "supinated-lat-pulldown",
    "name": "Supinated Lat Pulldown",
    "pattern": "vertical-pull",
@@ -3060,6 +3103,22 @@
    "unilateral": true,
    "aliases": [
     "Crab Reach"
+   ],
+   "uses": 23
+  },
+  {
+   "id": "dumbbell-bent-over-reverse-fly",
+   "name": "Dumbbell Bent Over Reverse Fly",
+   "pattern": "isolation-shoulders",
+   "equipment": [
+    "dumbbell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "DB Bent Over Reverse Fly",
+    "Dumbbell Bent Over Reverse Fly",
+    "Dumbbell Bent Over Reverse Fly (30/20)",
+    "Dumbbell Bent Over Reverse Fly 30/20"
    ],
    "uses": 23
   },
@@ -3246,22 +3305,6 @@
    "uses": 22
   },
   {
-   "id": "supinated-pull-up-isometric",
-   "name": "Supinated Pull Up Isometric",
-   "pattern": "vertical-pull",
-   "equipment": [
-    "bodyweight"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Supinated Pull Up Isometric",
-    "Supinated Pull Up Isometric or Ring Row Hold",
-    "Supinated Pullup Isometric",
-    "Supinated pull up Isometric"
-   ],
-   "uses": 22
-  },
-  {
    "id": "1-1-4-back-squat",
    "name": "1 1/4 Back Squat",
    "pattern": "squat",
@@ -3307,21 +3350,6 @@
    "aliases": [
     "B Stance Barbell Hip Thrust",
     "B-Stance Barbell Hip Thrust"
-   ],
-   "uses": 21
-  },
-  {
-   "id": "dumbbell-bent-over-reverse-fly",
-   "name": "Dumbbell Bent Over Reverse Fly",
-   "pattern": "isolation-shoulders",
-   "equipment": [
-    "dumbbell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "DB Bent Over Reverse Fly",
-    "Dumbbell Bent Over Reverse Fly",
-    "Dumbbell Bent Over Reverse Fly (30/20)"
    ],
    "uses": 21
   },
@@ -3386,6 +3414,20 @@
    "unilateral": true,
    "aliases": [
     "Hand Supported Ipsilateral Suitcase Step Down"
+   ],
+   "uses": 21
+  },
+  {
+   "id": "lat-pulldown",
+   "name": "Lat Pulldown",
+   "pattern": "vertical-pull",
+   "equipment": [
+    "machine"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Lat Pulldown or Pronated Pull Up",
+    "Lat Pulldown or Pronated Strict Pull Up"
    ],
    "uses": 21
   },
@@ -3581,19 +3623,6 @@
     "Kettlebell Ballistic Row",
     "Kettlebell Ballistic Row (10/arm)",
     "Kettlebell Ballistic Row (10/side) (53/35)"
-   ],
-   "uses": 19
-  },
-  {
-   "id": "lat-pulldown",
-   "name": "Lat Pulldown",
-   "pattern": "vertical-pull",
-   "equipment": [
-    "machine"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Lat Pulldown or Pronated Strict Pull Up"
    ],
    "uses": 19
   },
@@ -4080,6 +4109,22 @@
    "uses": 17
   },
   {
+   "id": "weight-plate-turkish-sit-up",
+   "name": "Weight Plate Turkish Sit Up",
+   "pattern": "core",
+   "equipment": [
+    "plate"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Weight Plate Turkish Sit Up",
+    "Weight Plate Turkish Sit Ups",
+    "Weight Plate Turkish Sit Ups #",
+    "Weight Plate Turkish Sit Ups 10-25#"
+   ],
+   "uses": 17
+  },
+  {
    "id": "active-banded-shoulder-extension",
    "name": "Active Banded Shoulder Extension",
    "pattern": "mobility",
@@ -4166,6 +4211,22 @@
    "unilateral": false,
    "aliases": [
     "Diamond Plank"
+   ],
+   "uses": 16
+  },
+  {
+   "id": "dual-kettlebell-clean",
+   "name": "Dual Kettlebell Clean",
+   "pattern": "olympic",
+   "equipment": [
+    "kettlebell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Dual KB Clean",
+    "Dual KB Clean x 8",
+    "Dual KB Cleans",
+    "Dual Kettlebell Clean"
    ],
    "uses": 16
   },
@@ -4266,17 +4327,6 @@
    "unilateral": true,
    "aliases": [
     "Shinbox ER Thoracic Rotation"
-   ],
-   "uses": 16
-  },
-  {
-   "id": "single-arm-suitcase-rear-foot-elevated-split-squat",
-   "name": "Single Arm Suitcase Rear Foot Elevated Split Squat",
-   "pattern": "lunge-single-leg",
-   "equipment": [],
-   "unilateral": true,
-   "aliases": [
-    "Single Arm Suitcase Rear Foot Elevated Split Squat"
    ],
    "uses": 16
   },
@@ -4673,21 +4723,6 @@
    "unilateral": true,
    "aliases": [
     "Curtsy Step Down"
-   ],
-   "uses": 14
-  },
-  {
-   "id": "dual-kettlebell-clean",
-   "name": "Dual Kettlebell Clean",
-   "pattern": "olympic",
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Dual KB Clean",
-    "Dual KB Cleans",
-    "Dual Kettlebell Clean"
    ],
    "uses": 14
   },
@@ -5116,6 +5151,18 @@
    "uses": 13
   },
   {
+   "id": "goblet-tall-kneel-to-stand",
+   "name": "Goblet Tall Kneel To Stand",
+   "pattern": "lunge-single-leg",
+   "equipment": [],
+   "unilateral": true,
+   "aliases": [
+    "Goblet Tall Kneel to Stand",
+    "Goblet Tall Kneel to Stand 53/35"
+   ],
+   "uses": 13
+  },
+  {
    "id": "long-step-walking-lunge",
    "name": "Long Step Walking Lunge",
    "pattern": "lunge-single-leg",
@@ -5137,21 +5184,6 @@
    "unilateral": false,
    "aliases": [
     "Supinated Band Pull Apart"
-   ],
-   "uses": 13
-  },
-  {
-   "id": "weight-plate-turkish-sit-up",
-   "name": "Weight Plate Turkish Sit Up",
-   "pattern": "core",
-   "equipment": [
-    "plate"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Weight Plate Turkish Sit Up",
-    "Weight Plate Turkish Sit Ups",
-    "Weight Plate Turkish Sit Ups #"
    ],
    "uses": 13
   },
@@ -5443,6 +5475,17 @@
    "uses": 12
   },
   {
+   "id": "pike-handstand-hold",
+   "name": "Pike Handstand Hold",
+   "pattern": "vertical-press",
+   "equipment": [],
+   "unilateral": false,
+   "aliases": [
+    "Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up"
+   ],
+   "uses": 12
+  },
+  {
    "id": "plank-to-alternating-toe-touch",
    "name": "Plank To Alternating Toe Touch",
    "pattern": "core",
@@ -5662,17 +5705,6 @@
    "uses": 11
   },
   {
-   "id": "goblet-tall-kneel-to-stand",
-   "name": "Goblet Tall Kneel To Stand",
-   "pattern": "lunge-single-leg",
-   "equipment": [],
-   "unilateral": true,
-   "aliases": [
-    "Goblet Tall Kneel to Stand"
-   ],
-   "uses": 11
-  },
-  {
    "id": "hand-release-burpee",
    "name": "Hand Release Burpee",
    "pattern": "plyometric",
@@ -5829,6 +5861,23 @@
    "uses": 10
   },
   {
+   "id": "american-kettlebell-swing",
+   "name": "American Kettlebell Swing",
+   "pattern": "hinge",
+   "equipment": [
+    "kettlebell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "American KB Swings",
+    "American KBS",
+    "American KBS (70/53)",
+    "American Kettlebell Swing (70/53)",
+    "American Kettlebell Swings 53/35"
+   ],
+   "uses": 10
+  },
+  {
    "id": "back-support-dumbbell-arnold-press",
    "name": "Back Support Dumbbell Arnold Press",
    "pattern": "vertical-press",
@@ -5916,6 +5965,20 @@
    "aliases": [
     "GHD Hip Extension",
     "GHD Hip Extension or 45 Degree Hypers"
+   ],
+   "uses": 10
+  },
+  {
+   "id": "half-push-up-isometric",
+   "name": "Half Push Up Isometric",
+   "pattern": "horizontal-press",
+   "equipment": [
+    "bodyweight"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Half Push Up Isometric",
+    "Odd - 20-30sec Half Push Up Isometric"
    ],
    "uses": 10
   },
@@ -6116,6 +6179,19 @@
    "uses": 10
   },
   {
+   "id": "wide-push-up",
+   "name": "Wide Push Up",
+   "pattern": "horizontal-press",
+   "equipment": [
+    "bodyweight"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Wide Push Up"
+   ],
+   "uses": 10
+  },
+  {
    "id": "alternating-kettlebell-clean-to-rotational-press",
    "name": "Alternating Kettlebell Clean To Rotational Press",
    "pattern": "olympic",
@@ -6140,22 +6216,6 @@
     "Alternating KB Press",
     "Alternating KB Press (4/side)",
     "Alternating Kettlebell Press"
-   ],
-   "uses": 9
-  },
-  {
-   "id": "american-kettlebell-swing",
-   "name": "American Kettlebell Swing",
-   "pattern": "hinge",
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "American KB Swings",
-    "American KBS",
-    "American KBS (70/53)",
-    "American Kettlebell Swing (70/53)"
    ],
    "uses": 9
   },
@@ -6462,19 +6522,6 @@
    "uses": 9
   },
   {
-   "id": "wide-push-up",
-   "name": "Wide Push Up",
-   "pattern": "horizontal-press",
-   "equipment": [
-    "bodyweight"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Wide Push Up"
-   ],
-   "uses": 9
-  },
-  {
    "id": "zottman-curl",
    "name": "Zottman Curl",
    "pattern": "isolation-arms",
@@ -6573,6 +6620,21 @@
    "unilateral": false,
    "aliases": [
     "BW Cyclist Pulse Squat"
+   ],
+   "uses": 8
+  },
+  {
+   "id": "dual-kettlebell-gunslinger",
+   "name": "Dual Kettlebell Gunslinger",
+   "pattern": "mobility",
+   "equipment": [
+    "kettlebell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Dual KB Gunslinger",
+    "Dual KB Gunslinger x 8",
+    "Dual Kettlebell Gunslinger"
    ],
    "uses": 8
   },
@@ -7201,6 +7263,21 @@
    "uses": 7
   },
   {
+   "id": "dumbbell-turkish-sit-up",
+   "name": "Dumbbell Turkish Sit Up",
+   "pattern": "core",
+   "equipment": [
+    "dumbbell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "DB Turkish Sit Ups",
+    "DB Turkish Sit Ups 10-25#",
+    "Dumbbell Turkish Sit Ups 10-25#"
+   ],
+   "uses": 7
+  },
+  {
    "id": "goblet-kickstand-squat",
    "name": "Goblet Kickstand Squat",
    "pattern": "lunge-single-leg",
@@ -7367,6 +7444,20 @@
    "uses": 7
   },
   {
+   "id": "pronated-pull-up-isometric",
+   "name": "Pronated Pull Up Isometric",
+   "pattern": "vertical-pull",
+   "equipment": [
+    "bodyweight"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Pronated Pull Up Isometric",
+    "Pronated Pullup Isometric"
+   ],
+   "uses": 7
+  },
+  {
    "id": "rack-pull",
    "name": "Rack Pull",
    "pattern": "hinge",
@@ -7446,6 +7537,21 @@
    "unilateral": false,
    "aliases": [
     "Tuck L Sit on Parallettes"
+   ],
+   "uses": 7
+  },
+  {
+   "id": "wall-ball",
+   "name": "Wall Ball",
+   "pattern": "squat",
+   "equipment": [
+    "medicine-ball"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Wall Ball to 10/9' Target",
+    "Wall Balls to 10'",
+    "Wall Balls to 10/9' Target"
    ],
    "uses": 7
   },
@@ -7597,20 +7703,6 @@
    "unilateral": false,
    "aliases": [
     "Dual DB Rack Carry"
-   ],
-   "uses": 6
-  },
-  {
-   "id": "dual-kettlebell-gunslinger",
-   "name": "Dual Kettlebell Gunslinger",
-   "pattern": "mobility",
-   "equipment": [
-    "kettlebell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Dual KB Gunslinger",
-    "Dual Kettlebell Gunslinger"
    ],
    "uses": 6
   },
@@ -7863,19 +7955,6 @@
    "unilateral": false,
    "aliases": [
     "Full Snatch"
-   ],
-   "uses": 6
-  },
-  {
-   "id": "half-push-up-isometric",
-   "name": "Half Push Up Isometric",
-   "pattern": "horizontal-press",
-   "equipment": [
-    "bodyweight"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Half Push Up Isometric"
    ],
    "uses": 6
   },
@@ -8234,6 +8313,20 @@
    "unilateral": false,
    "aliases": [
     "Seated Calf Raise"
+   ],
+   "uses": 6
+  },
+  {
+   "id": "seated-dumbbell-strict-press",
+   "name": "Seated Dumbbell Strict Press",
+   "pattern": "vertical-press",
+   "equipment": [
+    "dumbbell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Seated DB Strict Press",
+    "Seated Dumbbell Strict Press"
    ],
    "uses": 6
   },
@@ -8774,6 +8867,20 @@
    "uses": 5
   },
   {
+   "id": "dumbbell-suitcase-squat",
+   "name": "Dumbbell Suitcase Squat",
+   "pattern": "squat",
+   "equipment": [
+    "dumbbell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "DB Suitcase Squat",
+    "Dumbbell Suitcase Squat"
+   ],
+   "uses": 5
+  },
+  {
    "id": "dumbbell-z-press",
    "name": "Dumbbell Z Press",
    "pattern": "vertical-press",
@@ -9121,20 +9228,6 @@
    "uses": 5
   },
   {
-   "id": "seated-dumbbell-strict-press",
-   "name": "Seated Dumbbell Strict Press",
-   "pattern": "vertical-press",
-   "equipment": [
-    "dumbbell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Seated DB Strict Press",
-    "Seated Dumbbell Strict Press"
-   ],
-   "uses": 5
-  },
-  {
    "id": "supinated-grip-dumbbell-bench-press",
    "name": "Supinated Grip Dumbbell Bench Press",
    "pattern": "horizontal-press",
@@ -9474,15 +9567,16 @@
    "uses": 4
   },
   {
-   "id": "dumbbell-turkish-sit-up",
-   "name": "Dumbbell Turkish Sit Up",
-   "pattern": "core",
+   "id": "dumbbell-suitcase-kot-split-squat",
+   "name": "Dumbbell Suitcase Kot Split Squat",
+   "pattern": "lunge-single-leg",
    "equipment": [
     "dumbbell"
    ],
-   "unilateral": false,
+   "unilateral": true,
    "aliases": [
-    "DB Turkish Sit Ups"
+    "DB Suitcase KOT Split Squat",
+    "Dumbbell Suitcase KOT Split Squat"
    ],
    "uses": 4
   },
@@ -9844,6 +9938,18 @@
    "uses": 4
   },
   {
+   "id": "pike-hs-hold",
+   "name": "Pike Hs Hold",
+   "pattern": "vertical-press",
+   "equipment": [],
+   "unilateral": false,
+   "aliases": [
+    "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up",
+    "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up (HSPU)"
+   ],
+   "uses": 4
+  },
+  {
    "id": "plank-dumbbell-pull-through",
    "name": "Plank Dumbbell Pull Through",
    "pattern": "hinge",
@@ -9854,20 +9960,6 @@
    "unilateral": false,
    "aliases": [
     "Plank DB Pull Through"
-   ],
-   "uses": 4
-  },
-  {
-   "id": "pronated-pull-up-isometric",
-   "name": "Pronated Pull Up Isometric",
-   "pattern": "vertical-pull",
-   "equipment": [
-    "bodyweight"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Pronated Pull Up Isometric",
-    "Pronated Pullup Isometric"
    ],
    "uses": 4
   },
@@ -10560,6 +10652,20 @@
    "uses": 3
   },
   {
+   "id": "dual-dumbbell-sumo-squat",
+   "name": "Dual Dumbbell Sumo Squat",
+   "pattern": "squat",
+   "equipment": [
+    "dumbbell"
+   ],
+   "unilateral": false,
+   "aliases": [
+    "Dual DB Sumo Squat 50/35",
+    "Dual Dumbbell Sumo Squat"
+   ],
+   "uses": 3
+  },
+  {
    "id": "dual-kettlebell-rack-single-leg-wall-sit",
    "name": "Dual Kettlebell Rack Single Leg Wall Sit",
    "pattern": "squat",
@@ -10803,19 +10909,6 @@
    "uses": 3
   },
   {
-   "id": "dumbbell-suitcase-kot-split-squat",
-   "name": "Dumbbell Suitcase Kot Split Squat",
-   "pattern": "lunge-single-leg",
-   "equipment": [
-    "dumbbell"
-   ],
-   "unilateral": true,
-   "aliases": [
-    "DB Suitcase KOT Split Squat"
-   ],
-   "uses": 3
-  },
-  {
    "id": "dumbbell-suitcase-split-squat",
    "name": "Dumbbell Suitcase Split Squat",
    "pattern": "lunge-single-leg",
@@ -10825,19 +10918,6 @@
    "unilateral": true,
    "aliases": [
     "DB Suitcase Split Squat"
-   ],
-   "uses": 3
-  },
-  {
-   "id": "dumbbell-suitcase-squat",
-   "name": "Dumbbell Suitcase Squat",
-   "pattern": "squat",
-   "equipment": [
-    "dumbbell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "DB Suitcase Squat"
    ],
    "uses": 3
   },
@@ -12262,19 +12342,6 @@
    "uses": 2
   },
   {
-   "id": "dual-dumbbell-sumo-squat",
-   "name": "Dual Dumbbell Sumo Squat",
-   "pattern": "squat",
-   "equipment": [
-    "dumbbell"
-   ],
-   "unilateral": false,
-   "aliases": [
-    "Dual Dumbbell Sumo Squat"
-   ],
-   "uses": 2
-  },
-  {
    "id": "dual-kettlebell-clean-from-floor",
    "name": "Dual Kettlebell Clean From Floor",
    "pattern": "olympic",
@@ -13088,6 +13155,17 @@
    "aliases": [
     "No Push Up KB Burpee",
     "No Push-Up KB Burpee"
+   ],
+   "uses": 2
+  },
+  {
+   "id": "patrick-step",
+   "name": "Patrick Step",
+   "pattern": "lunge-single-leg",
+   "equipment": [],
+   "unilateral": false,
+   "aliases": [
+    "Patrick Step Level 1-3"
    ],
    "uses": 2
   },
@@ -15870,15 +15948,6 @@
    "uses": 0
   },
   {
-   "id": "pike-hs-hold",
-   "name": "Pike Hs Hold",
-   "pattern": "vertical-press",
-   "equipment": [],
-   "unilateral": false,
-   "aliases": [],
-   "uses": 0
-  },
-  {
    "id": "pike-hspu",
    "name": "Pike Hspu",
    "pattern": "vertical-press",
@@ -15892,6 +15961,17 @@
    "name": "Pronated Grip Lat Pull Down",
    "pattern": "vertical-pull",
    "equipment": [],
+   "unilateral": false,
+   "aliases": [],
+   "uses": 0
+  },
+  {
+   "id": "pronated-pull-up",
+   "name": "Pronated Pull Up",
+   "pattern": "vertical-pull",
+   "equipment": [
+    "bodyweight"
+   ],
    "unilateral": false,
    "aliases": [],
    "uses": 0
@@ -16079,6 +16159,7 @@
   "Strict Press": "strict-press",
   "Banded YTW": "banded-ytw",
   "Kneeling Triceps Stretch": "kneeling-triceps-stretch",
+  "Pronated Strict Pull Up": "pronated-strict-pull-up",
   "Foot Elevated Hip Flexion Stretch": "foot-elevated-hip-flexion-stretch",
   "PVC Shoulder Extension Stretch": "pvc-shoulder-extension-stretch",
   "Theraband Around the World": "theraband-around-the-world",
@@ -16095,11 +16176,11 @@
   "Hollow Rocks": "hollow-rock",
   "PVC Prayer Stretch": "pvc-prayer-stretch",
   "Cyclist Back Squat": "cyclist-back-squat",
-  "Pronated Strict Pull Up": "pronated-strict-pull-up",
   "Seated DB Goodmorning": "seated-dumbbell-good-morning",
   "Supine Hamstring Stretch": "supine-hamstring-stretch",
   "Banded Single Arm Lat Stretch": "banded-single-arm-lat-stretch",
   "Front Foot Elevated Hip Flexion Stretch": "front-foot-elevated-hip-flexion-stretch",
+  "Pronated Strict Pull Up or Lat Pulldown": "pronated-strict-pull-up",
   "Shinbox ER Stretch": "shinbox-er-stretch",
   "Single Leg Hand Support DB RDL": "single-leg-hand-support-dumbbell-romanian-deadlift",
   "T Spine Can Opener": "t-spine-can-opener",
@@ -16156,7 +16237,7 @@
   "Long Split Pulse": "long-split-pulse",
   "PVC Alternating Shoulder Circles": "pvc-alternating-shoulder-circle",
   "Reverse Shoulder Wall Circles": "reverse-shoulder-wall-circle",
-  "Shinbox Hip Extension + Switch": null,
+  "Shinbox Hip Extension + Switch": "shinbox-hip-extension-switch",
   "Slow Shoulder Circles": "slow-shoulder-circle",
   "Supinated Strict Pullup": "supinated-strict-pull-up",
   "Bench Press": "bench-press",
@@ -16210,7 +16291,6 @@
   "Glute Bridge March": "glute-bridge-march",
   "Narrow Push Up": "narrow-push-up",
   "Poliquin Lateral Raise": "poliquin-lateral-raise",
-  "Pronated Strict Pull Up or Lat Pulldown": "pronated-strict-pull-up",
   "Quadruped Crawl Reverse": "quadruped-crawl-reverse",
   "Reverse Lunge to High Knee Left": "reverse-lunge-to-high-knee",
   "Reverse Lunge to High Knee Right": "reverse-lunge-to-high-knee",
@@ -16257,12 +16337,12 @@
   "Pronated Strict Pullup": "pronated-strict-pull-up",
   "Prone BTN Press": "prone-behind-the-neck-press",
   "Prone Shoulder Swimmers (Blackburns)": "prone-shoulder-swimmer",
+  "Supinated Pull Up Isometric": "supinated-pull-up-isometric",
   "Bent Knee Copenhagen Plank": "bent-knee-copenhagen-plank",
   "DB Overhead Tricep Extension": "dumbbell-overhead-tricep-extension",
   "Lat Pulldown or Pronated Strict Pull Up": "lat-pulldown",
   "Offset Push Up": "offset-push-up",
   "Suitcase Curtsy Squat": "suitcase-curtsy-squat",
-  "1. Pronated Strict Pull Up or Lat Pulldown": null,
   "45 Degree Back Extension or 45 Degree Back Extension Alternative": "45-degree-back-extension",
   "90/90 Alternating DB Floor Press": "90-90-alternating-dumbbell-floor-press",
   "Bent Hollow Hold": "bent-hollow-hold",
@@ -16297,7 +16377,6 @@
   "Squat Jumps": "squat-jump",
   "Standing Band Hip Abduction": "standing-band-hip-abduction",
   "Superman Hold": "superman-hold",
-  "Supinated Pull Up Isometric": "supinated-pull-up-isometric",
   "Active Banded Shoulder Extension": "active-banded-shoulder-extension",
   "As Many Reps As Possible (AMRAP)": null,
   "Banded Goodmorning": "banded-good-morning",
@@ -16434,6 +16513,7 @@
   "Dual DB Bent Over Elbowing Row": "dual-dumbbell-bent-over-elbowing-row",
   "Goblet Good Morning": "goblet-good-morning",
   "Goblet Goodmorning": "goblet-good-morning",
+  "Goblet Tall Kneel to Stand": "goblet-tall-kneel-to-stand",
   "Half Kneeling Single Arm DB Strict Press": "half-kneeling-single-arm-dumbbell-strict-press",
   "Hammer Curl": "hammer-curl",
   "Incline Dumbbell Chest Fly": "incline-dumbbell-chest-fly",
@@ -16444,7 +16524,7 @@
   "Low Handle Landmine Cossack Squat": "low-handle-landmine-cossack-squat",
   "Low Incline Barbell Bench Press": "low-incline-barbell-bench-press",
   "Narrow Grip Dumbbell Bench Press": "narrow-grip-dumbbell-bench-press",
-  "Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up": null,
+  "Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up": "pike-handstand-hold",
   "Plank to Alternating Toe Touch": "plank-to-alternating-toe-touch",
   "Plate Loaded Banded Spanish Squat": "plate-loaded-banded-spanish-squat",
   "Plyo Push Up": "plyo-push-up",
@@ -16458,8 +16538,8 @@
   "Suitcase Walking Lunge": "suitcase-walking-lunge",
   "Zercher Split Squat": "zercher-split-squat",
   "As Many Reps As Possible AMRAP": null,
+  "Dumbbell Pullover": "dumbbell-pullover",
   "Dumbbell Skullcrushers": "dumbbell-skullcrusher",
-  "Goblet Tall Kneel to Stand": "goblet-tall-kneel-to-stand",
   "Incline Dumbbell Fly": "incline-dumbbell-fly",
   "Mobility": null,
   "Seated Dumbbell Lateral Raise": "seated-dumbbell-lateral-raise",
@@ -16476,7 +16556,6 @@
   "Burpees": "burpee",
   "DB Suitcase Walking Lunge": "dumbbell-suitcase-walking-lunge",
   "Downward Dog Shoulder Taps": "downward-dog-shoulder-tap",
-  "Dumbbell Pullover": "dumbbell-pullover",
   "Even -": null,
   "KB Horn Grip Raise": "kettlebell-horn-grip-raise",
   "L Sit or Tuck L Sit on Parallettes": "l-sit",
@@ -16498,6 +16577,7 @@
   "Swimmer Kicks": "swimmer-kick",
   "Weight Plate Turkish Sit Up": "weight-plate-turkish-sit-up",
   "Wide Grip Barbell Row": "wide-grip-barbell-row",
+  "Wide Push Up": "wide-push-up",
   "Yoga Push Ups": "yoga-push-up",
   "Alternating Dumbbell Curl": "alternating-dumbbell-curl",
   "Alternating KB Clean to Rotational Press": "alternating-kettlebell-clean-to-rotational-press",
@@ -16542,7 +16622,6 @@
   "Toes to Bar": "toes-to-bar",
   "Wall Walks or 6 Inchworms": "wall-walk",
   "Wide Grip Bent Over Barbell Row": "wide-grip-bent-over-barbell-row",
-  "Wide Push Up": "wide-push-up",
   "1 1/4 Hip Thrust": "1-1-4-hip-thrust",
   "Alternating Single Arm Split Stance Kettlebell Swing": "alternating-single-arm-split-stance-kettlebell-swing",
   "Assisted KOT Squat": "assisted-kot-squat",
@@ -16649,7 +16728,6 @@
   "Towel KB Curl": "towel-kettlebell-curl",
   "Tuck L Sit on Parallettes": "tuck-l-sit-on-parallette",
   "Wall Walks or 2x Inchworm Push Ups": "wall-walk",
-  "1. Pronated Strict Pull Up": null,
   "20 sec on": null,
   "90/90 Alternating Dumbbell Floor Press": "90-90-alternating-dumbbell-floor-press",
   "Anchored Sit Ups": "anchored-sit-up",
@@ -16718,6 +16796,7 @@
   "Plate Loaded Heel Elevated Pistol Squat": "plate-loaded-heel-elevated-pistol-squat",
   "Plate Loaded Pistol Squat Negative": "plate-loaded-pistol-squat-negative",
   "Power Clean": "power-clean",
+  "Pronated Pull Up Isometric": "pronated-pull-up-isometric",
   "Reverse Plank Bridge": "reverse-plank-bridge",
   "Ring or Plank Body Saw": "ring-or-plank-body-saw",
   "Rolling Skullcrushers": "rolling-skullcrusher",
@@ -16759,6 +16838,7 @@
   "Wide Grip Lat Pulldown or Wide Grip Strict Pull Up": "wide-grip-lat-pulldown",
   "Zercher Squat": "zercher-squat",
   "Alternating DB Snatch": "alternating-dumbbell-snatch",
+  "Alternating Dumbbell Bench Press (Top Down)": "alternating-dumbbell-bench-press",
   "Alternating Squat with Reach (hold 2sec/side)": "alternating-squat-with-reach",
   "Band Behind the Back Stretch": "band-behind-the-back-stretch",
   "Bodyweight Side Plank Powell Raise": "bodyweight-side-plank-powell-raise",
@@ -16812,6 +16892,7 @@
   "Run, Row, or Bike": "run-row-or-bike",
   "Seated Barbell Shoulder Extension Stretch": "seated-barbell-shoulder-extension-stretch",
   "Seated DB Filly Press": "seated-dumbbell-filly-press",
+  "Seated Dumbbell Strict Press": "seated-dumbbell-strict-press",
   "Set 3 - CDEAB": null,
   "Set 4 - BAEDC": null,
   "Single Arm Dumbbell Press Left": "single-arm-dumbbell-press",
@@ -16908,7 +16989,7 @@
   "Lateral Burpee over Dumbbell": "lateral-burpee-over-dumbbell",
   "Lean Away Dumbbell Lateral Raise": "lean-away-dumbbell-lateral-raise",
   "Left Leg Goblet Cossack Lunge": "left-leg-goblet-cossack-lunge",
-  "Left Side Single Arm Suitcase Rear Foot Elevated Split Squat": null,
+  "Left Side Single Arm Suitcase Rear Foot Elevated Split Squat": "single-arm-suitcase-rear-foot-elevated-split-squat",
   "Long Step Bodyweight Walking Lunge (12/side)": "long-step-bodyweight-walking-lunge",
   "Low Incline 1-1/4 Dumbbell Bench Press": "low-incline-1-1-4-dumbbell-bench-press",
   "Low Incline Dumbbell Bench Press": "low-incline-dumbbell-bench-press",
@@ -16916,7 +16997,7 @@
   "Mixed Front Rack Overhead KB Carry": "mixed-front-rack-overhead-kettlebell-carry",
   "Mountain Climbers": "mountain-climber",
   "Neutral Grip Pull Up": "neutral-grip-pull-up",
-  "Odd - 20-30sec Half Push Up Isometric": null,
+  "Odd - 20-30sec Half Push Up Isometric": "half-push-up-isometric",
   "Overhead Carry (53/35)": "overhead-carry",
   "Parallette Push Ups": "parallette-push-up",
   "Plank DB Pull Through": "plank-dumbbell-pull-through",
@@ -16924,7 +17005,7 @@
   "Rear Delt Swings": "rear-delt-swing",
   "Reverse Lunge (10/side)": "reverse-lunge",
   "Right Leg Goblet Cossack Lunge": "right-leg-goblet-cossack-lunge",
-  "Right Side Single Arm Suitcase Rear Foot Elevated Split Squat": null,
+  "Right Side Single Arm Suitcase Rear Foot Elevated Split Squat": "single-arm-suitcase-rear-foot-elevated-split-squat",
   "Ring Plank or Tall Plank Seconds": "ring-plank",
   "Ring, Slider, or Rower Body Saw": "ring-body-saw",
   "RNT Single Arm Dumbbell Row": "rnt-single-arm-dumbbell-row",
@@ -16934,7 +17015,6 @@
   "Russian Kettlebell Swings": "russian-kettlebell-swing",
   "Russian Step Up (5/side)": "russian-step-up",
   "Seated DB Lateral Raises": "seated-dumbbell-lateral-raise",
-  "Seated Dumbbell Strict Press": "seated-dumbbell-strict-press",
   "sec": null,
   "Set 1 - ABCDE": null,
   "Set 1 - Easy to Moderate": null,
@@ -16962,7 +17042,7 @@
   "Tall Plank Knee to Elbow (10/side)": "tall-plank-knee-to-elbow",
   "Toes Elevated Dumbbell RDL": "toes-elevated-dumbbell-romanian-deadlift",
   "Tuck Up in Dip Support": "tuck-up-in-dip-support",
-  "Weight Plate Turkish Sit Ups 10-25#": null,
+  "Weight Plate Turkish Sit Ups 10-25#": "weight-plate-turkish-sit-up",
   "Wide Grip Push Ups Unbroken": "wide-grip-push-up",
   "Wide Grip Strict Pullup or Wide Grip Lat Pull Down": "wide-grip-strict-pull-up",
   "Wtd or BW Hanging Knee Tucks": "weighted-or-bodyweight-hanging-knee-tuck",
@@ -16971,13 +17051,10 @@
   "1 1/4 Barbell Curl": "1-1-4-barbell-curl",
   "1 1/4 Cyclist Goblet Squat": "1-1-4-cyclist-goblet-squat",
   "1 1/4 Goblet Squat": "1-1-4-goblet-squat",
-  "1. Pronated Pull Up Isometric": null,
-  "1. Supinated Pull Up Isometric": null,
   "Ab Wheel or Barbell Rollout": "ab-wheel",
   "Aerobic Push Pull": null,
   "Alternating DB Glute Bridge Floor Press": "alternating-dumbbell-glute-bridge-floor-press",
   "Alternating DB Power Clean": "alternating-dumbbell-power-clean",
-  "Alternating Dumbbell Bench Press (Top Down)": "alternating-dumbbell-bench-press",
   "Alternating KB Press (4/side)": "alternating-kettlebell-press",
   "Alternating Single Arm Dumbbell Devil Press": "alternating-single-arm-dumbbell-devil-press",
   "Alternating Single Arm KB Split Stance Swing": "alternating-single-arm-kettlebell-split-stance-swing",
@@ -16991,7 +17068,7 @@
   "Bench Dips": "bench-dip",
   "Bent Over Reverse Fly": "bent-over-reverse-fly",
   "Bicycle Crunch": "bicycle-crunch",
-  "Bike 85%": null,
+  "Bike 85%": "bike",
   "Bike Buy Out": "bike-buy-out",
   "Bike Max Calories in Time Remaining": "bike-max-calories-in-time-remaining",
   "Body Rows": "body-row",
@@ -17105,7 +17182,7 @@
   "Neutral Grip Ring Row": "neutral-grip-ring-row",
   "Parallette Push-Ups": "parallette-push-up",
   "Pause at Knee Clean": "pause-at-knee-clean",
-  "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up": null,
+  "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up": "pike-hs-hold",
   "Plank DB Row (15/side)": "plank-dumbbell-row",
   "Plank Knee to Elbow": "plank-knee-to-elbow",
   "Plank Press Up": "plank-press-up",
@@ -17114,7 +17191,6 @@
   "Plyo Pushup": "plyo-push-up",
   "Pronated Body Rows": "pronated-body-row",
   "Pronated Grip Ring Row": "pronated-grip-ring-row",
-  "Pronated Pull Up Isometric": "pronated-pull-up-isometric",
   "Pushups": "push-up",
   "Right Leg Goblet Kickstand Squat": "right-leg-goblet-kickstand-squat",
   "Right Leg Goblet Step Up": "right-leg-goblet-step-up",
@@ -17173,7 +17249,7 @@
   "Turkish Get Up Left": "turkish-get-up",
   "Turkish Get Up R": "turkish-get-up",
   "Turkish Get Up Right": "turkish-get-up",
-  "Wall Balls to 10'": null,
+  "Wall Balls to 10'": "wall-ball",
   "Wall Sit Single Leg March": "wall-sit-single-leg-march",
   "Wall Walks": "wall-walk",
   "Weight Plate Squat": "weight-plate-squat",
@@ -17185,9 +17261,6 @@
   "1 1/4 DB Hip Thrust": "1-1-4-dumbbell-hip-thrust",
   "1-1/4 Dumbbell Curl": "1-1-4-dumbbell-curl",
   "1-1/4 Goblet Squat": "1-1-4-goblet-squat",
-  "1. Alternating Dumbbell Bench Press (Top Down)": null,
-  "1. Dumbbell Suitcase Squat": null,
-  "1. Lat Pulldown or Pronated Pull Up": null,
   "15 sec hard": null,
   "30 sec hard": null,
   "45 sec hard": null,
@@ -17221,7 +17294,7 @@
   "Bent Over Cable Chest Fly or DB Flat Bench Chest Fly": "bent-over-cable-chest-fly",
   "Bent Over Reverse DB Fly": "bent-over-reverse-dumbbell-fly",
   "Bent Over Scap Retractions": "bent-over-scap-retraction",
-  "Bike 1k/900m": null,
+  "Bike 1k/900m": "bike",
   "Bike Cals": "bike-cal",
   "Box Jump": "box-jump",
   "Burpee Box Jump Over ( box)": "burpee-box-jump-over",
@@ -17258,7 +17331,7 @@
   "DB Split Stance Romanian Deadlift": "dumbbell-split-stance-romanian-deadlift",
   "DB Squat Cleans": "dumbbell-squat-clean",
   "DB Sumo Romanian Deadlift": "dumbbell-sumo-romanian-deadlift",
-  "DB Turkish Sit Ups 10-25#": null,
+  "DB Turkish Sit Ups 10-25#": "dumbbell-turkish-sit-up",
   "DB Twist Curl": "dumbbell-twist-curl",
   "DB Waiter Curl Pulses": "dumbbell-waiter-curl-pulse",
   "Decline or Weighted Feet Anchored Sit Up": "decline-or-weighted-feet-anchored-sit-up",
@@ -17277,16 +17350,16 @@
   "Dual Dumbbell Overhead Carry": "dual-dumbbell-overhead-carry",
   "Dual Dumbbell Sumo Squat": "dual-dumbbell-sumo-squat",
   "Dual KB Clean From Floor": "dual-kettlebell-clean-from-floor",
-  "Dual KB Clean x 8": null,
+  "Dual KB Clean x 8": "dual-kettlebell-clean",
   "Dual KB Front Rack Carry": "dual-kettlebell-front-rack-carry",
-  "Dual KB Gunslinger x 8": null,
+  "Dual KB Gunslinger x 8": "dual-kettlebell-gunslinger",
   "Dual KB Russian Swings": "dual-kettlebell-russian-swing",
   "Dual KB Snatch": "dual-kettlebell-snatch",
   "Dual KB/DB Rack Curtsy Squat": "dual-kettlebell-dumbbell-rack-curtsy-squat",
   "Dual KB/DB Rack Tall Kneel to Stand": "dual-kettlebell-dumbbell-rack-tall-kneel-to-stand",
   "Dual Kettlebell Front Rack Carry": "dual-kettlebell-front-rack-carry",
   "Dual Kettlebell Rack Wall Sit": "dual-kettlebell-rack-wall-sit",
-  "Dumbbell Bent Over Reverse Fly 30/20": null,
+  "Dumbbell Bent Over Reverse Fly 30/20": "dumbbell-bent-over-reverse-fly",
   "Dumbbell External Rotation Elbow on Knee": "dumbbell-external-rotation-elbow-on-knee",
   "Dumbbell Flat Bench Chest Fly": "dumbbell-flat-bench-chest-fly",
   "Dumbbell Hammer Curl": "dumbbell-hammer-curl",
@@ -17299,6 +17372,7 @@
   "Dumbbell Preacher Curl": "dumbbell-preacher-curl",
   "Dumbbell Single Leg Hip Thrust": "dumbbell-single-leg-hip-thrust",
   "Dumbbell Suitcase Rear Foot Elevated Split Squat": "dumbbell-suitcase-rear-foot-elevated-split-squat",
+  "Dumbbell Suitcase Squat": "dumbbell-suitcase-squat",
   "Dumbbell Suitcase Squat Jump": "dumbbell-suitcase-squat-jump",
   "Dumbbell Suitcase Standing Calf Raise": "dumbbell-suitcase-standing-calf-raise",
   "Dumbbell Suitcase Walking Lunge (50/35)": "dumbbell-suitcase-walking-lunge",
@@ -17353,6 +17427,7 @@
   "Kipping Handstand Push Up": "kipping-handstand-push-up",
   "Knees Over Toes Double Leg Calf Raise": "knees-over-toes-double-leg-calf-raise",
   "L Sit Up": "l-sit-up",
+  "Lat Pulldown or Pronated Pull Up": "lat-pulldown",
   "Lateral Arc Med Ball Slam": "lateral-arc-med-ball-slam",
   "Lateral Arc Slam Ball": "lateral-arc-slam-ball",
   "Lateral Banded Walks": "lateral-banded-walk",
@@ -17369,7 +17444,7 @@
   "No Feet Clean": "no-feet-clean",
   "No Jump Burpee": "no-jump-burpee",
   "Offset Kettlebell Push Up": "offset-kettlebell-push-up",
-  "Patrick Step Level 1-3": null,
+  "Patrick Step Level 1-3": "patrick-step",
   "Pike Leg Lift Over": "pike-leg-lift-over",
   "Plank Body Saw": "plank-body-saw",
   "Plank Walk Up or Elbow Plank Press Up": "plank-walk-up",
@@ -17441,8 +17516,8 @@
   "Top Down Incline Alternating DB Bicep Curl": "top-down-incline-alternating-dumbbell-bicep-curl",
   "Tripod DB Elbowing Row": "tripod-dumbbell-elbowing-row",
   "V Ups or Tuck Ups": "v-up",
-  "Wall Ball to 10/9' Target": null,
-  "Wall Balls to 10/9' Target": null,
+  "Wall Ball to 10/9' Target": "wall-ball",
+  "Wall Balls to 10/9' Target": "wall-ball",
   "Weight Plate Bicep Curl Isometric": "weight-plate-bicep-curl-isometric",
   "Weight Plate Russian Twist": "weight-plate-russian-twist",
   "Weight Plate Turkish Sit Ups": "weight-plate-turkish-sit-up",
@@ -17453,13 +17528,6 @@
   "Yoga Pushups": "yoga-push-up",
   "1 1/4 DB Bicep Curl": "1-1-4-dumbbell-bicep-curl",
   "1:1/4 DB Bench Press": "1-1-4-dumbbell-bench-press",
-  "1. Dumbbell Pullover": null,
-  "1. Dumbbell Suitcase KOT Split Squat": null,
-  "1. Front Squat": null,
-  "1. Glute Bridge Barbell Floor Press 8-10 reps @21X1": null,
-  "1. Goblet Tall Kneel to Stand": null,
-  "1. Seated Dumbbell Strict Press": null,
-  "1. Wide Push Up": null,
   "Alternating DB Bench Press (8/side)": "alternating-dumbbell-bench-press",
   "Alternating DB Clean": "alternating-dumbbell-clean",
   "Alternating DB Curls": "alternating-dumbbell-curl",
@@ -17487,7 +17555,7 @@
   "Alternating Single Arm DB Rack Kickstand Squat": "alternating-single-arm-dumbbell-rack-kickstand-squat",
   "Alternating Single Arm DB Rack Tall Kneel to Stand": "alternating-single-arm-dumbbell-rack-tall-kneel-to-stand",
   "American Kettlebell Swing (70/53)": "american-kettlebell-swing",
-  "American Kettlebell Swings 53/35": null,
+  "American Kettlebell Swings 53/35": "american-kettlebell-swing",
   "AMRAP Bar Muscle Up": null,
   "AMRAP Kettlebell Russian Twist": null,
   "AMRAP V Ups": null,
@@ -17572,7 +17640,7 @@
   "Dual DB Rack Squat": "dual-dumbbell-rack-squat",
   "Dual DB Rack Tall Kneel to Stand": "dual-dumbbell-rack-tall-kneel-to-stand",
   "Dual DB Sumo DL High Pull": "dual-dumbbell-sumo-dl-high-pull",
-  "Dual DB Sumo Squat 50/35": null,
+  "Dual DB Sumo Squat 50/35": "dual-dumbbell-sumo-squat",
   "Dual Dumbbell incline chest Supported Row": "dual-dumbbell-incline-chest-supported-row",
   "Dual Dumbbell Power Clean": "dual-dumbbell-power-clean",
   "Dual Dumbbell Rack Curtsy Squat": "dual-dumbbell-rack-curtsy-squat",
@@ -17605,11 +17673,12 @@
   "Dumbbell Side Bend": "dumbbell-side-bend",
   "Dumbbell SkullCrushers": "dumbbell-skullcrusher",
   "Dumbbell Strict Press (35/20)": "dumbbell-strict-press",
+  "Dumbbell Suitcase KOT Split Squat": "dumbbell-suitcase-kot-split-squat",
   "Dumbbell Suitcase Squat Jump (35/20)": "dumbbell-suitcase-squat-jump",
   "Dumbbell Suitcase Walking Lunge (10/side) (50/35)": "dumbbell-suitcase-walking-lunge",
   "Dumbbell Sumo Deadlift": "dumbbell-sumo-deadlift",
   "Dumbbell Thrusters": "dumbbell-thruster",
-  "Dumbbell Turkish Sit Ups 10-25#": null,
+  "Dumbbell Turkish Sit Ups 10-25#": "dumbbell-turkish-sit-up",
   "E#ow to Tall Plank": "e-ow-to-tall-plank",
   "Elevator Bar or Ring Dip": "strict-bar-dip",
   "Explosive Pushup": "explosive-push-up",
@@ -17621,7 +17690,6 @@
   "Feet Farmers Carry or": "feet-farmers-carry-or",
   "Feet Goblet Carry": "feet-goblet-carry",
   "Filly Press + Push Ups": null,
-  "Friday, April, 3rd, 2026": null,
   "Front Raise": "front-raise",
   "Full Clean + 2 Front Squats": null,
   "Full Snatch @ about 75-80%": null,
@@ -17630,14 +17698,15 @@
   "Full Squat Burpee": "full-squat-burpee",
   "GHD Hip Extension": "ghd-hip-extension",
   "GHD Sit Up or Anchored Sit Up": "ghd-sit-up",
+  "Glute Bridge Barbell Floor Press 8-10 reps @21X1": null,
   "Goblet Carry": "goblet-carry",
   "Goblet Lateral Lunge": "goblet-lateral-lunge",
   "Goblet Pistol Squat Negative": "goblet-pistol-squat-negative",
   "Goblet Squat (70/50)": "goblet-squat",
-  "Goblet Squat 53/35": null,
+  "Goblet Squat 53/35": "goblet-squat",
   "Goblet Squat Jump": "goblet-squat-jump",
   "Goblet Squat Progression": "goblet-squat-progression",
-  "Goblet Tall Kneel to Stand 53/35": null,
+  "Goblet Tall Kneel to Stand 53/35": "goblet-tall-kneel-to-stand",
   "Goblet Walking Lunge (10/side) (53/35)": "goblet-walking-lunge",
   "Gorilla DB Elbowing Row": "gorilla-dumbbell-elbowing-row",
   "Gorilla Dumbbell Elbowing Row": "gorilla-dumbbell-elbowing-row",
@@ -17747,7 +17816,7 @@
   "Overhead DB Carry": "overhead-dumbbell-carry",
   "Pancake 3 way": null,
   "Pause at Knee Snatch": "pause-at-knee-snatch",
-  "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up (HSPU)": null,
+  "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up (HSPU)": "pike-hs-hold",
   "Pike Leg Lift Over (6/side)": "pike-leg-lift-over",
   "Pike Strict HSPU": "pike-strict-hspu",
   "Pikes and Pancakes": "pikes-and-pancake",
@@ -17781,7 +17850,6 @@
   "Rower Pike Up": "rower-pike-up",
   "Russian Box Step Up": "russian-box-step-up",
   "Russian Twists s (10/side)": "russian-twist",
-  "Saturday, April, 4th, 2026": null,
   "Seated Alternating DB Arnold Press": "seated-alternating-dumbbell-arnold-press",
   "Seated Alternating Dumbbell Arnold Press": "seated-alternating-dumbbell-arnold-press",
   "Seated DB Press + Deficit Push Ups": null,
@@ -17838,7 +17906,6 @@
   "Strict Ring Dips": "strict-ring-dip",
   "Strict Ring Pull Ups": "strict-ring-pull-up",
   "Strict Toes to Bar": "strict-toes-to-bar",
-  "Sunday, , March 29th, 2026": null,
   "Supinated pull up Isometric": "supinated-pull-up-isometric",
   "Supinated Strict Pull Up or Supinated Grip Lat Pull Down": "supinated-strict-pull-up",
   "Switch Lunge (10/side)": "switch-lunge",
@@ -17848,15 +17915,12 @@
   "Tall Plank KB Pull Through": "tall-plank-kettlebell-pull-through",
   "Tall Plank Knee to Elbow (8/side)": "tall-plank-knee-to-elbow",
   "Tempo": null,
-  "Thursday, April, 2nd, 2026": null,
   "Tripod DB Row": "tripod-dumbbell-row",
   "Tuck Up + V Up": null,
-  "Tuesday, March, 31st, 2026": null,
   "Walking Lunge (15/side)": "walking-lunge",
   "Wall Balls 20/14, 10'/9'": null,
   "Wall Facing Shoulder Taps": "wall-facing-shoulder-tap",
   "Warm-up (8 min)": null,
-  "Wednesday, April, 1st, 2026": null,
   "Weight Plate Turkish Sit Ups #": "weight-plate-turkish-sit-up",
   "Weighted Feet Anchored Sit Up (25/10)": "weighted-feet-anchored-sit-up",
   "Wide Grip Push-Ups Unbroken": "wide-grip-push-up",
@@ -17867,15 +17931,15 @@
   "Assisted Nordic Hamstring Curl or BC Gliding Hamstring Curl": [
    "bc-gliding-hamstring-curl"
   ],
+  "Pronated Strict Pull Up or Lat Pulldown": [
+   "lat-pulldown"
+  ],
   "Half Kneeling Cable or Band Row": [
    "band-row"
   ],
   "Nordic Hamstring Curls or Prone Hamstring Curl Machine or BC Gliding Hamstring Curl": [
    "prone-hamstring-curl-machine",
    "bc-gliding-hamstring-curl"
-  ],
-  "Pronated Strict Pull Up or Lat Pulldown": [
-   "lat-pulldown"
   ],
   "Strict Bar Dip or Ring Dip": [
    "ring-dip"
@@ -17918,6 +17982,9 @@
   ],
   "Cable Forearm Curls or DB Wrist Curl": [
    "dumbbell-wrist-curl"
+  ],
+  "Pike Handstand Hold 15-25sec or Pike Strict Handstand Push Up": [
+   "pike-strict-handstand-push-up"
   ],
   "L Sit or Tuck L Sit on Parallettes": [
    "tuck-l-sit-on-parallette"
@@ -18009,6 +18076,9 @@
   "Landmine KOT Squat or Assisted KOT Squat": [
    "assisted-kot-squat"
   ],
+  "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up": [
+   "pike-strict-handstand-push-up"
+  ],
   "Ring Plank or Tall Plank": [
    "tall-plank"
   ],
@@ -18050,6 +18120,9 @@
   ],
   "Double Unders or 75 Single Unders": [
    "75-single-under"
+  ],
+  "Lat Pulldown or Pronated Pull Up": [
+   "pronated-pull-up"
   ],
   "Plank Walk Up or Elbow Plank Press Up": [
    "elbow-plank-press-up"
@@ -18095,6 +18168,9 @@
   ],
   "L-Sit Flutter or Tuck L-Sit Flutter": [
    "tuck-l-sit-flutter"
+  ],
+  "Pike HS Hold 15-25sec or Pike Strict Handstand Push Up (HSPU)": [
+   "pike-strict-handstand-push-up"
   ],
   "Pronated Strict Pull Up or Pronated Grip Lat Pull Down": [
    "pronated-grip-lat-pull-down"

@@ -13,15 +13,15 @@
  },
  {
   "title": "Pump Lift 5x covers squat, hinge and both presses in nearly every week; pulls and single-leg work less consistently",
-  "rule": "Weekly strength slots (strength intensity 1 and 2) of Pump Lift 5x include squat, hinge, horizontal-press, vertical-press in at least 90% of weeks, and usually more than once. lunge-single-leg (32/39), horizontal-pull (35/39), vertical-pull (19/39) appear less reliably. Pump Lift 3x covers squat, horizontal-press, vertical-press exactly once in at least 85% of weeks. Pattern is not tied to a day number: the pattern on a given day changes from block to block.",
-  "evidence": "squat 39/39, hinge 39/39, lunge-single-leg 32/39, horizontal-press 39/39, vertical-press 39/39, horizontal-pull 35/39, vertical-pull 19/39 weeks covered at least once (Pump Lift 5x); exactly-once counts are in q02-pattern-coverage.csv.",
+  "rule": "Weekly strength slots (strength intensity 1 and 2) of Pump Lift 5x include squat, hinge, horizontal-press, vertical-press in at least 90% of weeks, and usually more than once. lunge-single-leg (33/39), horizontal-pull (35/39), vertical-pull (25/39) appear less reliably. Pump Lift 3x covers squat, horizontal-press, vertical-press, vertical-pull exactly once in at least 85% of weeks. Pattern is not tied to a day number: the pattern on a given day changes from block to block.",
+  "evidence": "squat 39/39, hinge 39/39, lunge-single-leg 33/39, horizontal-press 39/39, vertical-press 39/39, horizontal-pull 35/39, vertical-pull 25/39 weeks covered at least once (Pump Lift 5x); exactly-once counts are in q02-pattern-coverage.csv.",
   "exceptions": "Coverage counts exercises with a resolved pattern only. Dips and chest flies are counted as horizontal presses (a judgment call: the pattern list has no chest-isolation category), and burpees as plyometric. Every exercise has a pattern; judgment calls (for example wall sits as squat, handstand work as vertical press, Turkish get-ups as core) are noted in data/catalog/overrides.json and src/persist/classify.ts."
  },
  {
   "title": "Within a block the main lift alternates between two variations on odd and even weeks",
   "rule": "Each main-lift slot has two variations (A on odd weeks, B on even weeks), for example sumo deadlift on odd weeks and deficit deadlift on even weeks. The pair is chosen per block and day.",
   "evidence": "29 of 35 Pump Lift 5x strength-intensity-1 slots (82.9%) alternate exactly; the other slots are fixed (2) or rotate (4). The first strength-balance movement alternates in 60.0% of slots.",
-  "exceptions": "Strength intensity 2 alternates in 64.7% of slots and finishers in 14.3% (they rotate nearly every week)."
+  "exceptions": "Strength intensity 2 alternates in 70.6% of slots and finishers in 14.3% (they rotate nearly every week)."
  },
  {
   "title": "A new block brings new main lifts, but the exercise pool is reused over time",
@@ -56,31 +56,31 @@
  {
   "title": "Cooldowns and recovery content are recycled; training content is not",
   "rule": "Training sessions never repeat in a later week, and conditioning, strength balance and strength intensity sections are almost always new. Cooldowns are drawn from a small set and repeat across weeks. Recovery sessions are partly reused (the same mobility or active-recovery work returns), within a block and across blocks, and are shared across tracks.",
-  "evidence": "Cooldowns: 91 distinct sections across 300 week appearances (69.7% are repeats). Mobility sessions 46.6% repeats; active recovery 44.3%; conditioning/finishers/hot starts 6.0%. Training sessions repeated in a second week: 0 (0.0%).",
-  "exceptions": "Recovery days are not copied verbatim between blocks as a rule: 15.9% of active-recovery sections and 33.3% of mobility sessions appear in more than one block."
+  "evidence": "Cooldowns: 90 distinct sections across 299 week appearances (69.9% are repeats). Mobility sessions 46.9% repeats; active recovery 44.3%; conditioning/finishers/hot starts 6.0%. Training sessions repeated in a second week: 0 (0.0%).",
+  "exceptions": "Recovery days are not copied verbatim between blocks as a rule: 15.9% of active-recovery sections and 33.6% of mobility sessions appear in more than one block."
  },
  {
   "title": "Strength-balance supersets are chosen around the day's main lift, not as push/pull pairs",
-  "rule": "The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); knee + knee (37); core + hip (29); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).",
-  "evidence": "Top pair types among 1165 resolved supersets: hip + knee 11.8%, push + shoulders 11.4%, same group (push) 10.4%. Push-with-pull pairs are only 1.9% of them.",
-  "exceptions": "26 of 1191 supersets have a movement kept out of the catalog (a name the parser could not read as one exercise), so they are not in these shares."
+  "rule": "The two movements of a strength-balance superset usually train neighbouring regions or the lift's complement. The top pairings by main-lift pattern: squat day hip + knee (49); knee + knee (38); core + hip (29); hinge day pull + pull (46); knee + knee (42); hip + knee (36); vertical-press day push + shoulders (59); arms + push (31); push + push (24).",
+  "evidence": "Top pair types among 1182 resolved supersets: push + shoulders 12.4%, hip + knee 11.6%, same group (push) 10.4%. Push-with-pull pairs are only 1.9% of them.",
+  "exceptions": "9 of 1191 supersets have a movement kept out of the catalog (a name the parser could not read as one exercise), so they are not in these shares."
  },
  {
   "title": "Conditioning pieces come in a few formats with 9-30 minute time domains",
   "rule": "Conditioning sections are AMRAP, every-N-seconds, for-time, interval or ladder pieces, built from rowing, biking, running, kettlebell and dumbbell work. Finishers (Pump Lift) are short supersets. Perform adds hot starts and speed-strength sections before the main lift.",
-  "evidence": "Distinct conditioning sections by format: unclassified 156, amrap 116, every-n-sec 109, for-time 102, intervals 50, ladder 16, emom 4, chipper 2. Finishers: superset 193, straight-sets 19, every-n-sec 6, amrap 2, run-the-rack 2, giant-set 1, unclassified 1.",
-  "exceptions": "28.1% of conditioning sections name no format in their text (for example continuous-clock or \"for quality\" pieces), so they are left unclassified rather than guessed."
+  "evidence": "Distinct conditioning sections by format: intervals 138, amrap 116, every-n-sec 109, for-time 102, steady-state 46, unclassified 22, ladder 16, emom 4, chipper 2. Finishers: superset 193, straight-sets 19, every-n-sec 6, amrap 2, run-the-rack 2, giant-set 1, unclassified 1.",
+  "exceptions": "4.0% of conditioning sections name no format in their text (for example continuous-clock or \"for quality\" pieces), so they are left unclassified rather than guessed."
  },
  {
   "title": "Pump Lift hard-set volume per pattern drops with frequency, but not proportionally",
   "rule": "Averaged over squat, hinge, horizontal press and horizontal pull, Pump Lift 4x carries 83% and 3x 70% of the 5x hard sets. Hinge volume is nearly unchanged from 5x to 4x while horizontal pull falls the most.",
   "evidence": "Average weekly hard sets, Pump Lift 5x: squat 5.7-5.8, hinge 6.6-6.8, horizontal-press 12.9-13.2, horizontal-pull 5.2-5.3; 4x: squat 5.0-5.1, hinge 6.5-6.6, horizontal-press 11.7-11.9, horizontal-pull 3.0-3.1; 3x: squat 4.7-4.8, hinge 5.0, horizontal-press 7.8, horizontal-pull 3.4-3.4.",
-  "exceptions": "Hard sets are working sets of strength intensity 1-2 plus the prescribed sets of each balance and finisher movement; conditioning is not counted. Volume on movements kept out of the catalog is excluded from the pattern rows (2.2 sets a week for Pump Lift 5x), so every number is a lower bound."
+  "exceptions": "Hard sets are working sets of strength intensity 1-2 plus the prescribed sets of each balance and finisher movement; conditioning is not counted. Volume on movements kept out of the catalog is excluded from the pattern rows (2.0 sets a week for Pump Lift 5x), so every number is a lower bound."
  },
  {
   "title": "What the data cannot yet support",
   "rule": "Rules above describe the program as published in these weeks. Gaps: four whole weeks are missing inside blocks (May 18/25 and Jun 22/29), the first block starts at Week 3, and the current block is only at Week 5.",
-  "evidence": "39 weeks observed, 4 missing, 8 blocks. 0.0% of catalogued exercise uses have no pattern; 156 names are kept out of the catalog (data/reports/unmapped_exercises.json).",
-  "exceptions": "Every catalogued exercise now has a pattern, but 156 names (647 uses) are kept out of the catalog as headings or fragments the parser read as items; they have no exercise or pattern. Several patterns are judgment calls on movements the pattern list does not name."
+  "evidence": "39 weeks observed, 4 missing, 8 blocks. 0.0% of catalogued exercise uses have no pattern; 112 names are kept out of the catalog (data/reports/unmapped_exercises.json).",
+  "exceptions": "Every catalogued exercise now has a pattern, but 112 names (491 uses) are kept out of the catalog as headings or fragments the parser read as items; they have no exercise or pattern. Several patterns are judgment calls on movements the pattern list does not name."
  }
 ]

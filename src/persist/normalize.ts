@@ -35,6 +35,14 @@ function singularLast(words: string[]): string[] {
 
 function keyOf(part: string): string {
   let s = part
+    .replace(/^\s*\d+[.)]\s+/, "")
+    .replace(/^\s*(odd|even)(\s+minutes?)?\s*-\s*(\d+(-\d+)?\s*sec\s*)?/i, "")
+    .replace(/^\s*(left|right)\s+side\s+/i, "")
+    .replace(/\bR\s*\+\s*L\s*=\s*\d+/gi, " ")
+    .replace(/\s+x\s*\d[\d\s-]*(reps?)?\s*$/i, "")
+    .replace(/\s+\d+(-\d+)?\s*#\s*$/, "")
+    .replace(/\s+to\s+\d+(\/\d+)?'.*$/i, "")
+    .replace(/\s+(level\s+\d+(-\d+)?|\d+%|\d+(-\d+)?\s*sec|\d+k?\/\d+m?)\s*$/i, "")
     .replace(/\([^)]*\)/g, " ")
     .replace(/["“”]/g, "")
     .replace(/[’']s\b/g, "s")

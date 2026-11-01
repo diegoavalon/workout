@@ -12,7 +12,7 @@ cooldown,0f810e7822f320048618906e0d27,Cooldown (5 min),7,3,42,2026-01-16,2026-11
 cooldown,160128ea88e6fa0ab54ff75e1571,Cooldown (5 min),7,3,44,2026-01-13,2026-11-02,"pump-lift-5x,pump-lift-4x,pump-lift-3x,pump-condition-4x,pump-condition-3x,perform,minimalist,pump-condition-5x"
 mobility,151524d14af32311a3bec0648119,PERSIST RECOVERY MOBILITY SESSION (10 min),6,5,27,2026-02-28,2026-11-07,"pump-lift-3x,pump-condition-3x,pump-lift-5x,pump-condition-5x,perform,minimalist,pump-lift-4x,pump-condition-4x"
 mobility,1f0a5ca326e49d14d38bccff3345,PERSIST RECOVERY MOBILITY SESSION (10 min),6,5,13,2026-03-07,2026-10-31,"pump-condition-3x,pump-lift-4x,pump-lift-3x,minimalist,pump-lift-5x,perform,pump-condition-5x"
-mobility,1ac354418218ae16f3ff37ffc762,PERSIST RECOVERY MOBILITY SESSION (10 min),6,4,18,2026-02-14,2026-10-24,"pump-condition-3x,pump-lift-3x,pump-condition-4x,minimalist,pump-lift-4x,pump-condition-5x"
+mobility,1ac354418218ae16f3ff37ffc762,PERSIST RECOVERY MOBILITY SESSION (10 min),6,4,19,2026-02-14,2026-10-24,"pump-condition-3x,pump-lift-4x,pump-lift-3x,pump-condition-4x,minimalist,pump-condition-5x"
 cooldown,0946759059e061020a3463b09d81,Cooldown (5 min),6,3,40,2026-01-20,2026-10-26,"pump-lift-5x,pump-lift-4x,pump-lift-3x,pump-condition-5x,pump-condition-4x,pump-condition-3x,perform,minimalist"
 cooldown,1501636b60b3dd17493a0d030540,Cooldown (5 min),6,3,36,2026-01-22,2026-10-31,"pump-lift-5x,pump-lift-4x,pump-condition-5x,pump-condition-4x,perform,minimalist"
 cooldown,00b6ed2a59d8b50d68af4a995a3a,Cooldown (5 min),6,2,32,2026-03-31,2026-09-29,"pump-lift-5x,pump-condition-5x,perform,minimalist,pump-condition-4x,pump-lift-4x"
@@ -35,7 +35,7 @@ cooldown,1c5bb2b270ca961b72b0957a54b3,Cooldown (5 min),6,2,36,2026-03-30,2026-09
 cooldown,1f3138b9b2824813ca8b57e325fb,Cooldown (5 min),6,2,36,2026-02-19,2026-08-21,"pump-lift-5x,pump-lift-4x,pump-condition-5x,pump-condition-4x,perform,minimalist"
 speed-strength,018eadf9e5c56b04196d09a8fe65,Speed Strength - Snatch (15 min),6,2,6,2026-02-11,2026-04-10,perform
 speed-strength,1a791b34a65c77011e60e4ade261,Speed Strength - Clean (15-18 min),6,2,6,2026-08-26,2026-10-26,perform
-speed-strength,1fbfbc348271fe15674098bd70d4,Speed Strength - Clean (15min),6,1,6,2026-03-23,2026-04-27,perform
+speed-strength,1b2b1617c90ebf1004fffc2abbd4,Speed Strength - Clean (15min),6,1,6,2026-03-23,2026-04-27,perform
 mobility,085584c4c490e5061d448467e2c9,PERSIST RECOVERY MOBILITY SESSION (10 min),5,5,27,2026-03-03,2026-10-21,"pump-lift-5x,pump-condition-5x,perform,pump-lift-4x,pump-lift-3x,pump-condition-4x,pump-condition-3x,minimalist"
 mobility,0a287e6451117a0cf7c1558da26e,PERSIST RECOVERY MOBILITY SESSION (10 min),5,5,28,2026-02-10,2026-09-15,"pump-lift-5x,pump-condition-5x,perform,pump-lift-4x,pump-lift-3x,pump-condition-4x,pump-condition-3x,minimalist"
 mobility,0d5d9c30411b41116dae556c33ea,PERSIST RECOVERY MOBILITY SESSION,5,4,9,2026-01-29,2026-10-08,"pump-lift-4x,pump-condition-4x,pump-condition-3x,pump-lift-3x,minimalist,perform"
@@ -50,7 +50,7 @@ mobility,05bd4cc1568a6d1714cd66345ec7,PERSIST RECOVERY MOBILITY SESSION,4,3,8,20
 active-recovery,0aabb8c12fbf83056cc3132b7b4f,Active Recovery Work (30-40 min),4,2,5,2026-03-28,2026-10-29,"pump-lift-4x,pump-lift-3x,perform"
 cooldown,18e6c26ec261e2154668f8665deb,Cooldown (5 min),4,2,24,2026-01-19,2026-06-13,"pump-lift-5x,pump-lift-4x,pump-condition-5x,pump-condition-4x,perform,minimalist"
 mobility,0aa4674b52fa550a8aea8bd7050c,PERSIST RECOVERY MOBILITY SESSION (10 min),4,2,14,2026-08-08,2026-10-01,"pump-lift-3x,pump-condition-3x,pump-lift-4x,pump-condition-4x,minimalist"
-speed-strength,08f0165e53213a1b1a8a19ff510f,Speed Strength - Clean (15 min),4,2,4,2026-01-21,2026-03-07,perform
+speed-strength,11c276259b4aa61e688a4e69cd39,Speed Strength - Clean (15 min),4,2,4,2026-01-21,2026-03-07,perform
 speed-strength,1fab28aed5c1951a3d737a862639,Speed Strength - Snatch (15-18 min),4,2,4,2026-08-24,2026-10-28,perform
 speed-strength,0f0ccea1576546156d43fc28b7f7,Speed Strength - Snatch (15-18 min),4,1,4,2026-07-20,2026-08-17,perform
 strength-balance,09273b0a2901b01227cedda1f18d,Strength Balance (10 min),4,1,10,2026-07-20,2026-08-17,"pump-condition-4x,perform,pump-condition-3x,pump-condition-5x"
@@ -60,7 +60,7 @@ mobility,1321bd34d945d11a245b5ee19252,PERSIST RECOVERY MOBILITY SESSION,3,3,4,20
 cooldown,063d3d4b1867bd0b411c4d6036e7,Cooldown (5 min),3,2,5,2026-01-19,2026-06-10,"pump-condition-5x,pump-lift-5x,perform"
 cooldown,1338ada2e839511f1e15875ce008,Cooldown (5 min),3,2,5,2026-01-12,2026-06-03,"pump-condition-5x,pump-lift-5x,perform"
 cooldown,16daeefb1ffbbf0b856a33113ad8,Cooldown (5 min),3,2,7,2026-01-12,2026-05-06,"pump-lift-5x,perform,pump-condition-5x"
-hot-start,00e731ddb859221182e3edcaaf50,Jerk Progression (12 min),3,2,3,2026-01-27,2026-08-07,perform
+hot-start,0de9c301679e57125ee3bdb79ef0,Jerk Progression (12 min),3,2,3,2026-01-27,2026-08-07,perform
 cooldown,0004d3111e6a7b1339db8b607b7b,Cooldown (5 min),3,1,6,2026-08-31,2026-09-28,"pump-lift-3x,pump-condition-3x"
 cooldown,006935612d4cdc1762f4aca47e98,Cooldown (5 min),3,1,5,2026-05-15,2026-06-12,"pump-lift-3x,pump-condition-3x"
 cooldown,01555dffef8dfa0b30d314adf834,Cooldown (5 min),3,1,6,2026-08-26,2026-09-23,"pump-lift-3x,pump-condition-3x"
@@ -75,7 +75,7 @@ cooldown,0be1190294b09f0e89e9ce95d13e,Cooldown (5 min),3,1,6,2026-10-05,2026-11-
 cooldown,0e1677f77dc07d1e58174a1f7a78,Cooldown (5 min),3,1,6,2026-03-23,2026-04-20,"pump-lift-3x,pump-condition-3x"
 cooldown,0e7e63d26679e9137a356748aff5,Cooldown (5 min),3,1,17,2026-03-24,2026-04-22,"pump-lift-5x,pump-lift-4x,pump-lift-3x,pump-condition-5x,pump-condition-3x,perform"
 cooldown,0f7331df6abb9a024a62dfdf22bf,Cooldown (5 min),3,1,17,2026-03-31,2026-04-29,"pump-lift-5x,pump-lift-4x,pump-condition-5x,pump-condition-3x,perform,pump-lift-3x"
-cooldown,1042cf04a546761c6135660d6bd1,Cooldown (5 min),3,1,5,2026-03-30,2026-04-27,"pump-condition-3x,pump-lift-3x"
+cooldown,1042cf04a546761c6135660d6bd1,Cooldown (5 min),3,1,6,2026-03-30,2026-04-27,"pump-lift-3x,pump-condition-3x"
 cooldown,11023819e91f6b13e54f3b494265,Cooldown (5 min),3,1,12,2026-08-28,2026-09-26,"pump-lift-5x,pump-condition-5x,pump-condition-4x,perform,minimalist"
 cooldown,11711bdccfca7014aace54e33440,Cooldown (5 min),3,1,6,2026-10-07,2026-11-04,"pump-lift-3x,pump-condition-3x"
 cooldown,14b00212095b9f15898db6985d53,Cooldown (5 min),3,1,3,2026-07-13,2026-08-10,pump-lift-3x
@@ -97,8 +97,8 @@ strength-intensity-1,0147857533fed616ae3e5c6dc468,Strength Intensity (15 min),3,
 strength-intensity-1,13f2f91c8d776e0a03aaa4e099fc,Strength Intensity (15 min),3,1,21,2026-02-18,2026-03-20,"pump-lift-5x,pump-lift-4x,pump-lift-3x,pump-condition-5x,pump-condition-4x,pump-condition-3x,perform"
 strength-intensity-1,19424da9396cfc0da77806789a7e,Strength Intensity (8 min),3,1,3,2026-10-09,2026-11-06,minimalist
 strength-intensity-2,0abe37577f8beb0b1ab10f903fc6,Strength Intensity 2 (8 min),3,1,6,2026-10-09,2026-11-06,"pump-lift-4x,pump-lift-3x"
+strength-intensity-2,0b85147c5b0b9c06c4030af60e3d,Strength Intensity 2 (12 min),3,1,5,2026-02-13,2026-03-13,"pump-lift-5x,pump-lift-4x"
 strength-intensity-2,149001fef38a7f09119714076325,Strength Intensity 2 (8 min),3,1,6,2026-07-15,2026-08-13,"pump-lift-4x,pump-lift-3x"
-strength-intensity-2,1f7dd76a0ea5210ea6f4134d5b5d,Strength Intensity 2 (12 min),3,1,5,2026-02-13,2026-03-13,"pump-lift-5x,pump-lift-4x"
 active-recovery,0179616ee109ec0060b8eaf7ddf2,Active Recovery Work (40 min),2,2,9,2026-02-21,2026-07-25,"pump-lift-3x,pump-lift-5x,pump-condition-5x,perform,pump-lift-4x,pump-condition-3x,pump-condition-4x,minimalist"
 active-recovery,04d3e6f2e1ea9312504af4087282,Active Recovery Work (40 min),2,2,10,2026-03-21,2026-08-22,"pump-lift-3x,minimalist,pump-lift-5x,pump-condition-5x,perform,pump-lift-4x,pump-condition-4x,pump-condition-3x"
 active-recovery,099ce8e9cbf8f00bacadd389d270,Active Recovery Work (40 min),2,2,2,2026-03-26,2026-08-27,"perform,pump-lift-5x"
@@ -110,7 +110,7 @@ active-recovery,17aecf2acf38181a05cbac8bc406,Active Recovery Work (40 min),2,2,9
 active-recovery,1e563cf129060e1c05bc576168fc,Active Recovery (40 min),2,2,3,2026-03-26,2026-08-27,"pump-lift-5x,pump-condition-5x"
 active-recovery,1e6e8a413fe6820aaa334bb23c1e,Active Recovery (40 min),2,2,3,2026-04-09,2026-09-10,"pump-lift-5x,pump-condition-5x"
 active-recovery,1ff5e4e067e1dc05c97a1795a84e,Active Recovery Work (40 min),2,2,3,2026-04-23,2026-09-24,"perform,pump-lift-5x,pump-condition-5x"
-conditioning,1159333eb88ec511cf0eb6ae768b,Aerobic Push Pull (12 min),2,2,2,2026-03-12,2026-09-24,minimalist
+conditioning,10b93faeba65d907bbc17a668b94,Aerobic Push Pull (12 min),2,2,2,2026-03-12,2026-09-24,minimalist
 mobility,035aec8da9365e004822b8c5ec97,PERSIST RECOVERY MOBILITY SESSION (10 min),2,2,4,2026-06-20,2026-07-18,"pump-lift-3x,pump-condition-3x"
 mobility,04f50d1dea4f6b0e232dc1b2049a,PERSIST RECOVERY MOBILITY SESSION (10-12 min),2,2,6,2026-04-15,2026-09-17,"pump-lift-5x,pump-condition-5x,pump-lift-4x,pump-condition-4x,perform"
 mobility,0646726a2e4d1b1451d4ce0f3563,PERSIST RECOVERY MOBILITY SESSION,2,2,7,2026-01-15,2026-02-14,"pump-lift-5x,pump-lift-3x,pump-condition-3x,perform,minimalist,pump-condition-5x"
@@ -165,7 +165,7 @@ warmup,1a2e34e85b27231e2718f7d821ba,Warmup (8 min),2,2,12,2026-05-05,2026-10-10,
 warmup,1b7e173b9b16e314718c567ce98e,Warm-up (8 min),2,2,14,2026-01-23,2026-10-30,"pump-lift-5x,pump-lift-4x,pump-lift-3x,pump-condition-5x,pump-condition-4x,pump-condition-3x,perform,minimalist"
 warmup,1cb7e2aaf4771d1b675741310ace,Warmup (8 min),2,2,5,2026-05-13,2026-10-14,"pump-lift-5x,perform,pump-condition-5x"
 warmup,1ea17a12ebe6e916bb2216088233,Warmup (8 min),2,2,14,2026-03-18,2026-08-21,"pump-lift-5x,pump-lift-4x,pump-lift-3x,pump-condition-5x,pump-condition-4x,pump-condition-3x,perform,minimalist"
-conditioning,01dbc1f92f0f4c07432b6411f00e,Push Pull Sprint (12 min),2,1,2,2026-02-26,2026-03-05,minimalist
+conditioning,028b97ce6c4cd71ce6bcc0e5e75a,Push Pull Sprint (12 min),2,1,2,2026-02-26,2026-03-05,minimalist
 conditioning,04df66747d0fe81fc6fcd8049e70,Interval Weight Training (15 min),2,1,2,2026-03-30,2026-04-27,perform
 conditioning,0a0041177121710dfd07e6029913,Lower Sprint (10 min),2,1,2,2026-08-26,2026-09-09,perform
 conditioning,137131418ec4bd1925c424902f3f,Interval Weight Training (15 min),2,1,2,2026-05-15,2026-06-12,perform
@@ -205,7 +205,7 @@ finisher,19e2367a1cfaed0d39eac5ccd144,Finisher (10 min),2,1,6,2026-10-15,2026-11
 finisher,1db4726878ecef0b09e308b544c5,Finisher (6-8 min),2,1,6,2026-01-14,2026-02-07,"pump-lift-5x,pump-lift-4x,pump-lift-3x"
 finisher,1ee81db18669020cc8c03080250b,Finisher (8 min),2,1,2,2026-02-16,2026-03-09,pump-lift-5x
 hot-start,001a746e744e3c0c714667b3a21f,Aerobic KB Skills (9-12 min),2,1,2,2026-07-25,2026-08-22,perform
-hot-start,0596cca7ede9c90b10d974a0eada,Jerk Progression (12 min),2,1,2,2026-01-13,2026-01-20,perform
+hot-start,083fff9f747b200b971551e6f767,Jerk Progression (12 min),2,1,2,2026-01-13,2026-01-20,perform
 hot-start,123d35ed9fbdb01af8326d1d1fed,Cyclical Hot Start (8 min),2,1,2,2026-07-14,2026-08-04,perform
 mobility,14c5b32fbb00fe14fffb251263b2,PERSIST RECOVERY MOBILITY SESSION (10 min),2,1,6,2026-09-03,2026-10-03,"pump-condition-3x,pump-lift-4x,pump-lift-3x,minimalist,pump-condition-4x"
 mobility,1c493e384f776f1f10cde4f3dd38,PERSIST RECOVERY MOBILITY SESSION (10 min),2,1,6,2026-07-23,2026-08-22,"pump-lift-3x,pump-condition-3x,pump-condition-4x,minimalist"
@@ -222,9 +222,9 @@ strength-balance,05f76ac795ffc61a18acc6aa5785,Strength Balance (10 min),2,1,2,20
 strength-balance,0961608f3abc520f07415cef8b6d,Strength Balance (10 min),2,1,2,2026-03-23,2026-04-20,minimalist
 strength-balance,0a445a8bbe3f9504a9c9c6172986,Strength Balance (12 min),2,1,4,2026-02-25,2026-03-20,"pump-lift-5x,pump-lift-4x"
 strength-balance,0aa5d32b1f6e6b1dc7e316b69713,Strength Balance (10 min),2,1,2,2026-08-26,2026-09-16,pump-lift-3x
-strength-balance,0bd340398b719d1d2cdf03ca2f91,Strength Balance (10-12 min),2,1,2,2026-05-11,2026-06-08,pump-condition-3x
 strength-balance,0d9aa674408bc30e96fb484e0715,Strength Balance (12 min),2,1,4,2026-08-28,2026-09-26,"pump-lift-5x,pump-lift-4x"
 strength-balance,0ecec4606ac4f002f23ce794f32a,Strength Balance (10-12 min),2,1,5,2026-08-31,2026-09-29,"pump-lift-4x,pump-lift-3x,pump-lift-5x"
+strength-balance,13bba5c84e0e491f5b5421e49864,Strength Balance (10-12 min),2,1,2,2026-05-11,2026-06-08,pump-condition-3x
 strength-balance,18fabafd129cd117b768a8c8b043,Strength Balance (10 min),2,1,2,2026-09-09,2026-09-30,pump-lift-3x
 strength-balance,1960182050eaa001820e094b9160,Strength Balance (12 min),2,1,4,2026-02-11,2026-03-06,"pump-lift-5x,pump-lift-4x"
 strength-balance,197e5f0574372c04cad4f7e7615b,Strength Balance (12 min),2,1,2,2026-10-12,2026-10-26,minimalist
@@ -251,7 +251,10 @@ strength-intensity-1,1a2cdf6dba2368033b05ab8d5cc1,Strength Intensity (12 min),2,
 strength-intensity-1,1a7c03e710ae0b0b823c2b1c9868,Strength Intensity 1 (15 min),2,1,2,2026-05-06,2026-06-03,pump-lift-5x
 strength-intensity-2,0aab59d23a1a0a118f09b5c43063,Strength Intensity 2 (12 min),2,1,2,2026-01-16,2026-01-30,pump-lift-4x
 strength-intensity-2,0cfde17419574a06a970c1af93e8,Strength Intensity 2 (8 min),2,1,4,2026-10-16,2026-10-30,"pump-lift-4x,pump-lift-3x"
+strength-intensity-2,0f0c0f944e6999034c45c599e2fb,Strength Intensity 2 (12-15 min),2,1,6,2026-05-13,2026-06-13,"pump-lift-5x,pump-lift-4x,pump-lift-3x"
 strength-intensity-2,130f23389fb9ab1752c41ab64412,Strength Intensity 2 (10 min),2,1,2,2026-01-13,2026-01-27,pump-lift-5x
 strength-intensity-2,1528f064326eb50474816e6abd15,Strength Intensity 2 (12-15 min),2,1,6,2026-05-12,2026-06-12,"pump-lift-5x,pump-lift-4x,pump-lift-3x"
+strength-intensity-2,1a2e16d7b590b91c0b11facd2f49,Strength Intensity 2 (12-15 min),2,1,2,2026-05-12,2026-06-09,pump-lift-5x
+strength-intensity-2,1a74af8b746d831016b19f511b81,Strength Intensity 2 (12-15 min),2,1,6,2026-05-06,2026-06-06,"pump-lift-5x,pump-lift-4x,pump-lift-3x"
 strength-intensity-2,1ae78881afa8c01fa6e10c2755a0,Strength Intensity 2 (15 min),2,1,4,2026-04-10,2026-05-01,"pump-lift-4x,pump-lift-3x"
 strength-intensity-2,1db076c8c080bd1922c41f44cb66,Strength Intensity 2 (10 min),2,1,2,2026-01-20,2026-02-03,pump-lift-5x

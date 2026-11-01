@@ -1,23 +1,19 @@
 role,format,movement,pattern,equipment,sections
+conditioning,intervals,Row,cardio,[],44
 conditioning,every-n-sec,Row,cardio,[],37
-conditioning,unclassified,Run,cardio,[],37
-conditioning,unclassified,Row,cardio,[],35
+conditioning,intervals,Run,cardio,[],36
 conditioning,for-time,Row,cardio,[],33
-conditioning,unclassified,Bike,cardio,"[""bike""]",32
+conditioning,intervals,Bike,cardio,"[""bike""]",28
 speed-strength,every-n-sec,Overhead Squat,squat,[],26
 speed-strength,every-n-sec,Overhead Squat Hold,squat,[],26
 speed-strength,every-n-sec,Snatch Grip Overhead Hold,olympic,[],26
 speed-strength,every-n-sec,Snatch Grip Romanian Deadlift,olympic,[],26
 speed-strength,every-n-sec,Squatting Quad Snatch Grip Hold,olympic,[],26
 conditioning,amrap,Bike,cardio,"[""bike""]",24
-conditioning,intervals,Row,cardio,[],24
 conditioning,amrap,Row,cardio,[],17
 conditioning,amrap,Run,cardio,[],17
 conditioning,for-time,Double Under,cardio,[],16
-conditioning,intervals,Run,cardio,[],16
 hot-start,every-n-sec,Bike,cardio,"[""bike""]",16
-hot-start,unclassified,Row,cardio,[],16
-hot-start,unclassified,Bike,cardio,"[""bike""]",14
 speed-strength,every-n-sec,Front Rack Hold,core,[],14
 speed-strength,every-n-sec,Front Squat,squat,[],14
 speed-strength,every-n-sec,Front Squat Hold,squat,[],14
@@ -25,30 +21,38 @@ speed-strength,every-n-sec,Romanian Deadlift,hinge,[],14
 speed-strength,every-n-sec,Squatting Quad Clean Grip Hold,olympic,[],14
 speed-strength,every-n-sec,Strict Press,vertical-press,[],14
 conditioning,for-time,Bike,cardio,"[""bike""]",13
-speed-strength,unclassified,Front Rack Hold,core,[],12
-speed-strength,unclassified,Front Squat,squat,[],12
-speed-strength,unclassified,Front Squat Hold,squat,[],12
-speed-strength,unclassified,Romanian Deadlift,hinge,[],12
-speed-strength,unclassified,Squatting Quad Clean Grip Hold,olympic,[],12
-speed-strength,unclassified,Strict Press,vertical-press,[],12
-conditioning,unclassified,Shuttle Run,cardio,[],11
+conditioning,intervals,Box Jump Over,plyometric,"[""box""]",13
+conditioning,intervals,Russian Kettlebell Swing,hinge,"[""kettlebell""]",12
+hot-start,intervals,Row,cardio,[],12
+speed-strength,straight-sets,Front Rack Hold,core,[],12
+speed-strength,straight-sets,Front Squat,squat,[],12
+speed-strength,straight-sets,Front Squat Hold,squat,[],12
+speed-strength,straight-sets,Romanian Deadlift,hinge,[],12
+speed-strength,straight-sets,Squatting Quad Clean Grip Hold,olympic,[],12
+speed-strength,straight-sets,Strict Press,vertical-press,[],12
 conditioning,every-n-sec,Run,cardio,[],10
 conditioning,for-time,Jump Lunge,plyometric,[],10
+conditioning,unclassified,Run,cardio,[],10
 hot-start,every-n-sec,Row,cardio,[],10
 conditioning,amrap,Bike Buy In,cardio,"[""bike""]",9
 conditioning,amrap,Push Up,horizontal-press,"[""bodyweight""]",9
 conditioning,every-n-sec,Burpee,plyometric,[],9
+conditioning,intervals,Box Jump Step Down,plyometric,"[""box""]",9
+conditioning,intervals,Double Under,cardio,[],9
+conditioning,steady-state,Shuttle Run,cardio,[],9
 conditioning,amrap,Row Buy In,cardio,[],8
 conditioning,every-n-sec,Shuttle Run,cardio,[],8
 conditioning,for-time,Run,cardio,[],8
-conditioning,intervals,Russian Kettlebell Swing,hinge,"[""kettlebell""]",8
-conditioning,unclassified,Box Jump Over,plyometric,"[""box""]",8
+conditioning,steady-state,Bike,cardio,"[""bike""]",8
+conditioning,steady-state,Row,cardio,[],8
 finisher,superset,Weighted Hanging Knee Tuck,core,[],8
+hot-start,intervals,Bike,cardio,"[""bike""]",8
 conditioning,every-n-sec,Double Under,cardio,[],7
-conditioning,unclassified,Dumbbell Burpee,plyometric,"[""dumbbell""]",7
-conditioning,unclassified,Farmers Walk,carry,[],7
-conditioning,unclassified,Goblet Carry,carry,[],7
-conditioning,unclassified,Goblet Wall Sit,squat,[],7
+conditioning,steady-state,Farmers Walk,carry,[],7
+conditioning,steady-state,Goblet Carry,carry,[],7
+conditioning,steady-state,Goblet Wall Sit,squat,[],7
+conditioning,steady-state,Run,cardio,[],7
+conditioning,unclassified,Row,cardio,[],7
 conditioning,amrap,Dumbbell Hang Power Clean,olympic,"[""dumbbell""]",6
 conditioning,amrap,Kettlebell Push Press,vertical-press,"[""kettlebell""]",6
 conditioning,every-n-sec,Bike,cardio,"[""bike""]",6
@@ -58,13 +62,14 @@ conditioning,for-time,Burpee,plyometric,[],6
 conditioning,for-time,Ghd Sit Up,core,[],6
 conditioning,for-time,Hanging Knee Tuck,core,[],6
 conditioning,for-time,Squat Jump,squat,[],6
-conditioning,intervals,Bike,cardio,"[""bike""]",6
-conditioning,unclassified,Double Under,cardio,[],6
+conditioning,intervals,Dumbbell Burpee,plyometric,"[""dumbbell""]",6
+conditioning,intervals,Goblet Squat,squat,[],6
 finisher,superset,Cuban Press,isolation-shoulders,[],6
 finisher,superset,Dumbbell Skullcrusher,isolation-arms,"[""dumbbell""]",6
 finisher,superset,Heel Tap,core,[],6
 finisher,superset,Russian Twist,core,[],6
 finisher,superset,Suitcase Single Leg Standing Calf Raise,isolation-legs,[],6
+hot-start,unclassified,Bike,cardio,"[""bike""]",6
 conditioning,amrap,Air Squat,squat,[],5
 conditioning,amrap,Double Under,cardio,[],5
 conditioning,amrap,Dual Dumbbell Hang Snatch,olympic,"[""dumbbell""]",5
@@ -79,15 +84,13 @@ conditioning,every-n-sec,Push Up,horizontal-press,"[""bodyweight""]",5
 conditioning,every-n-sec,Row Sprint,cardio,[],5
 conditioning,for-time,Dumbbell Bench Press,horizontal-press,"[""dumbbell"",""bench""]",5
 conditioning,for-time,Wall Walk,vertical-press,[],5
-conditioning,intervals,Box Jump Over,plyometric,"[""box""]",5
-conditioning,intervals,Box Jump Step Down,plyometric,"[""box""]",5
-conditioning,unclassified,American Kettlebell Swing,hinge,"[""kettlebell""]",5
-conditioning,unclassified,Burpee,plyometric,[],5
-conditioning,unclassified,Dumbbell Power Clean,olympic,"[""dumbbell""]",5
-conditioning,unclassified,Goblet Squat,squat,[],5
-conditioning,unclassified,Jump Lunge,plyometric,[],5
+conditioning,intervals,Burpee,plyometric,[],5
+conditioning,intervals,Dumbbell Power Clean,olympic,"[""dumbbell""]",5
+conditioning,intervals,Dumbbell Suitcase Walking Lunge,lunge-single-leg,"[""dumbbell""]",5
+conditioning,intervals,Mountain Climber,core,[],5
+conditioning,intervals,Ring Plank,core,"[""rings"",""bodyweight""]",5
+conditioning,intervals,Squat Jump,squat,[],5
 conditioning,unclassified,Pronated Body Row,horizontal-pull,[],5
-conditioning,unclassified,Ring Plank,core,"[""rings"",""bodyweight""]",5
 finisher,superset,Barbell Preacher Curl,isolation-arms,"[""barbell""]",5
 finisher,superset,Barbell Skullcrusher,isolation-arms,"[""barbell""]",5
 finisher,superset,Cross Body Hammer Curl,isolation-arms,[],5
@@ -111,6 +114,7 @@ conditioning,amrap,Row Calorie,cardio,[],4
 conditioning,amrap,Rower Pike Up,core,"[""rower""]",4
 conditioning,amrap,Strict Bar Dip,horizontal-press,[],4
 conditioning,amrap,Strict Kettlebell Press,vertical-press,"[""kettlebell""]",4
+conditioning,amrap,Wall Ball,squat,"[""medicine-ball""]",4
 conditioning,every-n-sec,Body Row,horizontal-pull,[],4
 conditioning,every-n-sec,Box Jump Over,plyometric,"[""box""]",4
 conditioning,every-n-sec,Devils Press,olympic,[],4
@@ -123,14 +127,15 @@ conditioning,for-time,Feet Anchored Sit Up,core,[],4
 conditioning,for-time,Hollow Rock,core,[],4
 conditioning,for-time,Mountain Climber,core,[],4
 conditioning,for-time,Toes To Bar,core,[],4
-conditioning,intervals,Dumbbell Suitcase Walking Lunge,lunge-single-leg,"[""dumbbell""]",4
+conditioning,intervals,American Kettlebell Swing,hinge,"[""kettlebell""]",4
+conditioning,intervals,Burpee Box Jump,plyometric,"[""box""]",4
+conditioning,intervals,Jump Lunge,plyometric,[],4
+conditioning,intervals,Kettlebell Overhead Carry,carry,"[""kettlebell""]",4
+conditioning,intervals,Power Snatch,olympic,[],4
 conditioning,intervals,Russian Step Up,lunge-single-leg,[],4
-conditioning,unclassified,Box Jump Step Down,plyometric,"[""box""]",4
-conditioning,unclassified,Deficit Push Up,horizontal-press,"[""bodyweight""]",4
-conditioning,unclassified,Devils Press,olympic,[],4
-conditioning,unclassified,Kettlebell Overhead Carry,carry,"[""kettlebell""]",4
-conditioning,unclassified,Power Snatch,olympic,[],4
-conditioning,unclassified,Russian Kettlebell Swing,hinge,"[""kettlebell""]",4
+conditioning,intervals,Switch Lunge,lunge-single-leg,[],4
+conditioning,steady-state,Deficit Push Up,horizontal-press,"[""bodyweight""]",4
+conditioning,unclassified,Bike,cardio,"[""bike""]",4
 finisher,superset,Cable Forearm Curl,isolation-arms,"[""cable""]",4
 finisher,superset,Cable Tricep Pushdown,isolation-arms,"[""cable""]",4
 finisher,superset,Diamond Plank,core,"[""bodyweight""]",4
@@ -142,7 +147,7 @@ finisher,superset,Incline Dumbbell Front Raise,isolation-shoulders,"[""dumbbell"
 finisher,superset,Ring Or Plank Body Saw,core,"[""rings"",""bodyweight""]",4
 finisher,superset,Seated Dumbbell Rear Delt Fly,isolation-shoulders,"[""dumbbell""]",4
 finisher,superset,Side Plank Hip Tap,core,"[""bodyweight""]",4
-hot-start,unclassified,Strict Bar Dip,horizontal-press,[],4
+hot-start,intervals,Strict Bar Dip,horizontal-press,[],4
 conditioning,amrap,Alternating Dumbbell Power Snatch,olympic,"[""dumbbell""]",3
 conditioning,amrap,Alternating Dumbbell Snatch,olympic,"[""dumbbell""]",3
 conditioning,amrap,Box Jump Over,plyometric,"[""box""]",3
@@ -187,30 +192,25 @@ conditioning,for-time,Skater Jump,plyometric,[],3
 conditioning,for-time,Star Plank,core,"[""bodyweight""]",3
 conditioning,for-time,Switch Lunge,lunge-single-leg,[],3
 conditioning,for-time,V Up,core,[],3
-conditioning,intervals,Burpee Box Jump,plyometric,"[""box""]",3
-conditioning,intervals,Double Under,cardio,[],3
+conditioning,intervals,Crush Grip Dumbbell Curl,isolation-arms,"[""dumbbell""]",3
 conditioning,intervals,Dual Russian Kettlebell Swing,hinge,"[""kettlebell""]",3
-conditioning,intervals,Goblet Squat,squat,[],3
-conditioning,intervals,Switch Lunge,lunge-single-leg,[],3
+conditioning,intervals,Dumbbell Suitcase Drop Lunge,lunge-single-leg,"[""dumbbell""]",3
+conditioning,intervals,Dumbbell Swing,hinge,"[""dumbbell""]",3
+conditioning,intervals,Kettlebell Farmers Carry,carry,"[""kettlebell""]",3
+conditioning,intervals,Kettlebell Front Rack Carry,carry,"[""kettlebell""]",3
 conditioning,intervals,Tall Plank Knee To Elbow,core,"[""bodyweight""]",3
+conditioning,intervals,Tuck L Hang,mobility,[],3
+conditioning,intervals,Wall Ball,squat,"[""medicine-ball""]",3
+conditioning,intervals,Wall Sit,squat,[],3
 conditioning,ladder,Weighted Or Bodyweight Hanging Knee Tuck,core,"[""bodyweight""]",3
-conditioning,unclassified,Alternating Dumbbell Snatch,olympic,"[""dumbbell""]",3
-conditioning,unclassified,Crush Grip Dumbbell Curl,isolation-arms,"[""dumbbell""]",3
-conditioning,unclassified,Dumbbell Push Press,vertical-press,"[""dumbbell""]",3
-conditioning,unclassified,Dumbbell Suitcase Drop Lunge,lunge-single-leg,"[""dumbbell""]",3
-conditioning,unclassified,Goblet Walking Lunge,lunge-single-leg,[],3
-conditioning,unclassified,Hand Release T Push Up,horizontal-press,"[""bodyweight""]",3
-conditioning,unclassified,Kettlebell Farmers Carry,carry,"[""kettlebell""]",3
-conditioning,unclassified,Kettlebell Front Rack Carry,carry,"[""kettlebell""]",3
-conditioning,unclassified,Long Step Bodyweight Walking Lunge,lunge-single-leg,"[""bodyweight""]",3
-conditioning,unclassified,Mountain Climber,core,[],3
-conditioning,unclassified,Narrow Grip Push Up,horizontal-press,"[""bodyweight""]",3
-conditioning,unclassified,Ring Muscle Up,vertical-pull,"[""rings""]",3
-conditioning,unclassified,Squat Jump,squat,[],3
-conditioning,unclassified,Tall Plank Knee To Elbow,core,"[""bodyweight""]",3
-conditioning,unclassified,Toes To Bar,core,[],3
-conditioning,unclassified,Wall Sit,squat,[],3
-conditioning,unclassified,Wide Grip Deficit Push Up,horizontal-press,"[""bodyweight""]",3
+conditioning,steady-state,Devils Press,olympic,[],3
+conditioning,steady-state,Goblet Walking Lunge,lunge-single-leg,[],3
+conditioning,steady-state,Hand Release T Push Up,horizontal-press,"[""bodyweight""]",3
+conditioning,steady-state,Long Step Bodyweight Walking Lunge,lunge-single-leg,"[""bodyweight""]",3
+conditioning,steady-state,Narrow Grip Push Up,horizontal-press,"[""bodyweight""]",3
+conditioning,steady-state,Ring Muscle Up,vertical-pull,"[""rings""]",3
+conditioning,steady-state,Tall Plank Knee To Elbow,core,"[""bodyweight""]",3
+conditioning,steady-state,Wide Grip Deficit Push Up,horizontal-press,"[""bodyweight""]",3
 finisher,every-n-sec,Barbell Curl,isolation-arms,"[""barbell""]",3
 finisher,every-n-sec,Barbell Reverse Curl,isolation-arms,"[""barbell""]",3
 finisher,straight-sets,1 1/4 Barbell Curl,isolation-arms,"[""barbell""]",3
@@ -243,13 +243,10 @@ finisher,superset,Windshield Wiper,core,[],3
 finisher,superset,Zottman Curl,isolation-arms,[],3
 hot-start,every-n-sec,Bar Or Ring Muscle Up,vertical-pull,"[""rings""]",3
 hot-start,every-n-sec,Strict Muscle Up,vertical-pull,[],3
-hot-start,unclassified,Dual Kettlebell Clean,olympic,"[""kettlebell""]",3
-hot-start,unclassified,Dual Kettlebell Russian Swing,hinge,"[""kettlebell""]",3
-hot-start,unclassified,Pause Split Jerk,olympic,[],3
-hot-start,unclassified,Plyo Push Up,horizontal-press,"[""bodyweight""]",3
-hot-start,unclassified,Single Arm Kettlebell Snatch,olympic,"[""kettlebell""]",3
-hot-start,unclassified,Split Jerk,olympic,[],3
-hot-start,unclassified,Strict Ring Muscle Up,vertical-pull,"[""rings""]",3
+hot-start,intervals,Plyo Push Up,horizontal-press,"[""bodyweight""]",3
+hot-start,intervals,Single Arm Kettlebell Snatch,olympic,"[""kettlebell""]",3
+hot-start,intervals,Strict Ring Muscle Up,vertical-pull,"[""rings""]",3
+hot-start,unclassified,Row,cardio,[],3
 hot-start,unclassified,Yoga Push Up,horizontal-press,"[""bodyweight""]",3
 speed-strength,every-n-sec,Hang Power Snatch,olympic,[],3
 speed-strength,every-n-sec,Pause At Knee Clean,olympic,[],3
@@ -300,6 +297,7 @@ conditioning,for-time,Bike Cal,cardio,"[""bike""]",2
 conditioning,for-time,Box Jump Step Down,plyometric,"[""box""]",2
 conditioning,for-time,Burpee No Jump,plyometric,[],2
 conditioning,for-time,Chainsaw Dumbbell Row,horizontal-pull,"[""dumbbell""]",2
+conditioning,for-time,Dumbbell Bent Over Reverse Fly,isolation-shoulders,"[""dumbbell""]",2
 conditioning,for-time,Dumbbell Chainsaw Row,horizontal-pull,"[""dumbbell""]",2
 conditioning,for-time,Goblet Squat,squat,[],2
 conditioning,for-time,Hang Power Clean,olympic,[],2
@@ -313,57 +311,62 @@ conditioning,for-time,Side Plank Rotation,core,"[""bodyweight""]",2
 conditioning,for-time,Single Arm Farmers Walk,carry,[],2
 conditioning,for-time,Strict Bar Dip,horizontal-press,[],2
 conditioning,for-time,Weighted Hanging Knee Tuck,core,[],2
-conditioning,intervals,Dumbbell Swing,hinge,"[""dumbbell""]",2
+conditioning,intervals,Air Squat,squat,[],2
+conditioning,intervals,Alternating Kettlebell Gorilla Row,horizontal-pull,"[""kettlebell""]",2
+conditioning,intervals,Barbell Bent Over Row,horizontal-pull,"[""barbell""]",2
+conditioning,intervals,Cross Body Carry,carry,[],2
+conditioning,intervals,Crush Grip Dumbbell Bicep Curl Carry,carry,"[""dumbbell""]",2
+conditioning,intervals,Devils Press,olympic,[],2
+conditioning,intervals,Double Kettlebell Clean,olympic,"[""kettlebell""]",2
+conditioning,intervals,Dual Dumbbell Sumo Dl High Pull,hinge,"[""dumbbell""]",2
+conditioning,intervals,Dual Kettlebell Sumo Deadlift,hinge,"[""kettlebell""]",2
+conditioning,intervals,Dumbbell Box Step Up,lunge-single-leg,"[""dumbbell"",""box""]",2
+conditioning,intervals,Dumbbell Farmers Carry,carry,"[""dumbbell""]",2
+conditioning,intervals,Dumbbell Front Rack Carry,carry,"[""dumbbell""]",2
+conditioning,intervals,Dumbbell Front Squat,squat,"[""dumbbell""]",2
+conditioning,intervals,Dumbbell Hang Power Clean,olympic,"[""dumbbell""]",2
+conditioning,intervals,Dumbbell Pendlay Row,horizontal-pull,"[""dumbbell""]",2
+conditioning,intervals,Dumbbell Squat Clean,olympic,"[""dumbbell""]",2
+conditioning,intervals,Dumbbell Suitcase Squat Jump,squat,"[""dumbbell""]",2
+conditioning,intervals,Dumbbell Thruster,squat,"[""dumbbell""]",2
+conditioning,intervals,Filly Carry Tough,carry,[],2
+conditioning,intervals,Kettlebell Rack Alternating Curtsy Squat,lunge-single-leg,"[""kettlebell""]",2
+conditioning,intervals,L Sit,core,[],2
 conditioning,intervals,Mixed Grip Body Row,horizontal-pull,[],2
-conditioning,intervals,Mountain Climber,core,[],2
+conditioning,intervals,Overhead Squat,squat,[],2
+conditioning,intervals,Push Up,horizontal-press,"[""bodyweight""]",2
+conditioning,intervals,Right Leg Goblet Step Up,lunge-single-leg,[],2
+conditioning,intervals,Russian Twist,core,[],2
+conditioning,intervals,Shuttle Run,cardio,[],2
+conditioning,intervals,Single Arm Alternating Devils Press,olympic,[],2
 conditioning,intervals,Single Arm Alternating Russian Kettlebell Swing,hinge,"[""kettlebell""]",2
-conditioning,intervals,Squat Jump,squat,[],2
+conditioning,intervals,Single Arm Farmers Walk,carry,[],2
+conditioning,intervals,Single Arm Kettlebell Snatch,olympic,"[""kettlebell""]",2
+conditioning,intervals,Single Arm Suitcase Rear Foot Elevated Split Squat,lunge-single-leg,[],2
+conditioning,intervals,Skater Jump,plyometric,[],2
+conditioning,intervals,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg,[],2
+conditioning,intervals,Toes To Bar,core,[],2
+conditioning,intervals,Towel Kettlebell Curl,isolation-arms,"[""kettlebell""]",2
+conditioning,intervals,Weighted Anchored Sit Up,core,[],2
+conditioning,intervals,Weighted Hanging Knee Tuck,core,[],2
 conditioning,ladder,Alternating Dumbbell Glute Bridge Floor Press,hinge,"[""dumbbell""]",2
 conditioning,ladder,Dumbbell Burpee,plyometric,"[""dumbbell""]",2
 conditioning,ladder,Power Snatch,olympic,[],2
-conditioning,unclassified,Alternating Dumbbell Push Press,vertical-press,"[""dumbbell""]",2
-conditioning,unclassified,Alternating Kettlebell Gorilla Row,horizontal-pull,"[""kettlebell""]",2
-conditioning,unclassified,Bar Facing Burpee,plyometric,[],2
-conditioning,unclassified,Barbell Bent Over Row,horizontal-pull,"[""barbell""]",2
-conditioning,unclassified,Bodyweight Walking Lunge,lunge-single-leg,"[""bodyweight""]",2
-conditioning,unclassified,Chest To Bar Kipping Pull Up,vertical-pull,"[""bodyweight""]",2
-conditioning,unclassified,Cross Body Carry,carry,[],2
-conditioning,unclassified,Crush Grip Dumbbell Bicep Curl Carry,carry,"[""dumbbell""]",2
-conditioning,unclassified,Double Kettlebell Clean,olympic,"[""kettlebell""]",2
-conditioning,unclassified,Dual Dumbbell Sumo Dl High Pull,hinge,"[""dumbbell""]",2
-conditioning,unclassified,Dual Kettlebell Sumo Deadlift,hinge,"[""kettlebell""]",2
-conditioning,unclassified,Dumbbell Box Step Up,lunge-single-leg,"[""dumbbell"",""box""]",2
-conditioning,unclassified,Dumbbell Farmers Carry,carry,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Front Rack Carry,carry,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Front Squat,squat,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Hang Power Clean,olympic,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Pendlay Row,horizontal-pull,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Squat Clean,olympic,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Suitcase Walking Lunge,lunge-single-leg,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Swing,hinge,"[""dumbbell""]",2
-conditioning,unclassified,Dumbbell Thruster,squat,"[""dumbbell""]",2
-conditioning,unclassified,Filly Carry Tough,carry,[],2
+conditioning,steady-state,Alternating Dumbbell Snatch,olympic,"[""dumbbell""]",2
+conditioning,steady-state,American Kettlebell Swing,hinge,"[""kettlebell""]",2
+conditioning,steady-state,Bodyweight Walking Lunge,lunge-single-leg,"[""bodyweight""]",2
+conditioning,steady-state,Chest To Bar Kipping Pull Up,vertical-pull,"[""bodyweight""]",2
+conditioning,steady-state,Dumbbell Push Press,vertical-press,"[""dumbbell""]",2
+conditioning,steady-state,Goblet Squat,squat,[],2
+conditioning,steady-state,Single Arm Kettlebell Plank,core,"[""kettlebell"",""bodyweight""]",2
+conditioning,steady-state,V Up,core,[],2
+conditioning,unclassified,Dumbbell Burpee,plyometric,"[""dumbbell""]",2
 conditioning,unclassified,Goblet Cyclist Squat,squat,[],2
 conditioning,unclassified,Goblet Reverse Lunge,lunge-single-leg,[],2
-conditioning,unclassified,Kettlebell Rack Alternating Curtsy Squat,lunge-single-leg,"[""kettlebell""]",2
-conditioning,unclassified,L Sit,core,[],2
-conditioning,unclassified,Overhead Squat,squat,[],2
 conditioning,unclassified,Pike Strict Handstand Push Up,horizontal-press,"[""bodyweight""]",2
-conditioning,unclassified,Right Leg Goblet Step Up,lunge-single-leg,[],2
-conditioning,unclassified,Single Arm Alternating Devils Press,olympic,[],2
-conditioning,unclassified,Single Arm Farmers Walk,carry,[],2
-conditioning,unclassified,Single Arm Kettlebell Plank,core,"[""kettlebell"",""bodyweight""]",2
-conditioning,unclassified,Single Arm Kettlebell Snatch,olympic,"[""kettlebell""]",2
-conditioning,unclassified,Skater Jump,plyometric,[],2
-conditioning,unclassified,Sprawl,core,[],2
-conditioning,unclassified,Suitcase Rear Foot Elevated Split Squat,lunge-single-leg,[],2
 conditioning,unclassified,Supinated Body Row,horizontal-pull,[],2
-conditioning,unclassified,Towel Kettlebell Curl,isolation-arms,"[""kettlebell""]",2
-conditioning,unclassified,Tuck L Hang,mobility,[],2
 conditioning,unclassified,Turkish Get Up,core,[],2
-conditioning,unclassified,V Up,core,[],2
-conditioning,unclassified,Weighted Anchored Sit Up,core,[],2
-conditioning,unclassified,Weighted Hanging Knee Tuck,core,[],2
+conditioning,unclassified,Weight Plate Turkish Sit Up,core,"[""plate""]",2
 conditioning,unclassified,Wide Grip Body Row,horizontal-pull,[],2
 conditioning,unclassified,Yoga Push Up,horizontal-press,"[""bodyweight""]",2
 finisher,run-the-rack,Dumbbell Curl Run The Rack,isolation-arms,"[""dumbbell""]",2
@@ -432,28 +435,33 @@ hot-start,every-n-sec,Kipping Handstand Push Up,horizontal-press,"[""bodyweight"
 hot-start,every-n-sec,Strict Handstand Push Up,horizontal-press,"[""bodyweight""]",2
 hot-start,every-n-sec,Tuck Up,core,[],2
 hot-start,every-n-sec,Wall Walk,vertical-press,[],2
-hot-start,unclassified,Alternating Oblique Raise In Dip Support,core,[],2
+hot-start,intervals,Alternating Oblique Raise In Dip Support,core,[],2
+hot-start,intervals,Behind The Neck Split Jerk,olympic,[],2
+hot-start,intervals,Dip Support Knee Tuck,core,[],2
+hot-start,intervals,Dip Support Tuck L Sit,core,[],2
+hot-start,intervals,Dual Kettlebell Clean,olympic,"[""kettlebell""]",2
+hot-start,intervals,Dual Kettlebell Clean From Floor,olympic,"[""kettlebell""]",2
+hot-start,intervals,Dual Kettlebell Russian Swing,hinge,"[""kettlebell""]",2
+hot-start,intervals,Dual Kettlebell Snatch,olympic,"[""kettlebell""]",2
+hot-start,intervals,Dumbbell External Rotation On Knee,isolation-shoulders,"[""dumbbell""]",2
+hot-start,intervals,Goblet Tall Kneel To Stand,lunge-single-leg,[],2
+hot-start,intervals,Kettlebell Split Snatch,olympic,"[""kettlebell""]",2
+hot-start,intervals,Lateral Arc Slam Ball,plyometric,"[""medicine-ball""]",2
+hot-start,intervals,Powell Raise,isolation-shoulders,[],2
+hot-start,intervals,Single Arm Dumbbell Cuban Press,isolation-shoulders,"[""dumbbell""]",2
+hot-start,intervals,Single Arm Russian Swing,hinge,[],2
+hot-start,steady-state,Row,cardio,[],2
+hot-start,straight-sets,Pause Split Jerk,olympic,[],2
+hot-start,straight-sets,Split Jerk,olympic,[],2
 hot-start,unclassified,Arnold Z Press,vertical-press,[],2
-hot-start,unclassified,Behind The Neck Split Jerk,olympic,[],2
-hot-start,unclassified,Dip Support Knee Tuck,core,[],2
-hot-start,unclassified,Dip Support Tuck L Sit,core,[],2
-hot-start,unclassified,Dual Kettlebell Clean From Floor,olympic,"[""kettlebell""]",2
-hot-start,unclassified,Dual Kettlebell Snatch,olympic,"[""kettlebell""]",2
-hot-start,unclassified,Dumbbell External Rotation On Knee,isolation-shoulders,"[""dumbbell""]",2
-hot-start,unclassified,Goblet Tall Kneel To Stand,lunge-single-leg,[],2
-hot-start,unclassified,Kettlebell Split Snatch,olympic,"[""kettlebell""]",2
-hot-start,unclassified,Lateral Arc Slam Ball,plyometric,"[""medicine-ball""]",2
-hot-start,unclassified,Powell Raise,isolation-shoulders,[],2
 hot-start,unclassified,Ring Muscle Up,vertical-pull,"[""rings""]",2
-hot-start,unclassified,Single Arm Dumbbell Cuban Press,isolation-shoulders,"[""dumbbell""]",2
-hot-start,unclassified,Single Arm Russian Swing,hinge,[],2
 hot-start,unclassified,Supinated Pull Up Isometric,vertical-pull,"[""bodyweight""]",2
 hot-start,unclassified,Supinated Strict Pull Up,vertical-pull,"[""bodyweight""]",2
 speed-strength,every-n-sec,Muscle Snatch,olympic,[],2
 speed-strength,every-n-sec,No Feet Clean,olympic,[],2
-speed-strength,unclassified,Full Clean,olympic,[],2
-speed-strength,unclassified,Hang Clean,olympic,[],2
-speed-strength,unclassified,Power Clean,olympic,[],2
+speed-strength,straight-sets,Full Clean,olympic,[],2
+speed-strength,straight-sets,Hang Clean,olympic,[],2
+speed-strength,straight-sets,Power Clean,olympic,[],2
 conditioning,amrap,Alternating Dumbbell Gorilla Row,horizontal-pull,"[""dumbbell""]",1
 conditioning,amrap,Alternating Dumbbell Power Clean,olympic,"[""dumbbell""]",1
 conditioning,amrap,Alternating Kettlebell Gorilla Row,horizontal-pull,"[""kettlebell""]",1
@@ -529,6 +537,7 @@ conditioning,every-n-sec,Burpee Plate Jump,plyometric,"[""plate""]",1
 conditioning,every-n-sec,Crush Grip Hammer Curl,isolation-arms,[],1
 conditioning,every-n-sec,Double Push Up Burpee,horizontal-press,"[""bodyweight""]",1
 conditioning,every-n-sec,Dual Dumbbell Overhead Carry,carry,"[""dumbbell""]",1
+conditioning,every-n-sec,Dual Dumbbell Sumo Squat,squat,"[""dumbbell""]",1
 conditioning,every-n-sec,Dual Kettlebell Clean,olympic,"[""kettlebell""]",1
 conditioning,every-n-sec,Dual Kettlebell Overhead Carry,carry,"[""kettlebell""]",1
 conditioning,every-n-sec,Dual Kettlebell Z Press,vertical-press,"[""kettlebell""]",1
@@ -612,25 +621,65 @@ conditioning,for-time,Toes To Ring,core,"[""rings""]",1
 conditioning,for-time,Tuck Up,core,[],1
 conditioning,for-time,Turkish Get Up,core,[],1
 conditioning,for-time,Weighted Hanging Leg Tuck,core,[],1
-conditioning,intervals,Air Squat,squat,[],1
 conditioning,intervals,Alternating Dumbbell Power Snatch,olympic,"[""dumbbell""]",1
+conditioning,intervals,Alternating Dumbbell Push Press,vertical-press,"[""dumbbell""]",1
+conditioning,intervals,Alternating Dumbbell Snatch,olympic,"[""dumbbell""]",1
+conditioning,intervals,Alternating Kettlebell Push Press,vertical-press,"[""kettlebell""]",1
+conditioning,intervals,Bar Facing Burpee,plyometric,[],1
+conditioning,intervals,Barbell Sumo Deadlift High Pull,hinge,"[""barbell""]",1
+conditioning,intervals,Bulgarian Ring Row,lunge-single-leg,"[""rings""]",1
+conditioning,intervals,Burpee Box Jump Over,plyometric,"[""box""]",1
+conditioning,intervals,Burpee Over Bar,plyometric,[],1
+conditioning,intervals,Burpee Over Rower,plyometric,"[""rower""]",1
+conditioning,intervals,Burpee Pull Up,vertical-pull,"[""bodyweight""]",1
+conditioning,intervals,Burpee Tuck Jump,plyometric,[],1
 conditioning,intervals,Deadstop Hike Kettlebell,hinge,"[""kettlebell""]",1
-conditioning,intervals,Devils Press,olympic,[],1
-conditioning,intervals,Dumbbell Burpee,plyometric,"[""dumbbell""]",1
-conditioning,intervals,Dumbbell Power Clean,olympic,"[""dumbbell""]",1
+conditioning,intervals,Double Push Up Burpee,horizontal-press,"[""bodyweight""]",1
+conditioning,intervals,Dual Dumbbell Power Clean,olympic,"[""dumbbell""]",1
+conditioning,intervals,Dual Dumbbell Sumo Deadlift High Pull,hinge,"[""dumbbell""]",1
+conditioning,intervals,Dual Kettlebell Clean,olympic,"[""kettlebell""]",1
+conditioning,intervals,Dumbbell Deadlift,hinge,"[""dumbbell""]",1
+conditioning,intervals,Dumbbell Hang Clean High Pull,olympic,"[""dumbbell""]",1
+conditioning,intervals,Dumbbell Jump Squat,plyometric,"[""dumbbell""]",1
+conditioning,intervals,Dumbbell Overhead Carry,carry,"[""dumbbell""]",1
+conditioning,intervals,Dumbbell Power Clean Or,olympic,"[""dumbbell""]",1
 conditioning,intervals,Dumbbell Reverse Lunge,lunge-single-leg,"[""dumbbell""]",1
 conditioning,intervals,Dumbbell Suitcase Squat,squat,"[""dumbbell""]",1
-conditioning,intervals,Dumbbell Suitcase Squat Jump,squat,"[""dumbbell""]",1
+conditioning,intervals,Dumbbell Z Press,vertical-press,"[""dumbbell""]",1
+conditioning,intervals,Farmers Carry,carry,[],1
+conditioning,intervals,Feet Anchored Sit Up,core,[],1
+conditioning,intervals,Goblet Squat Jump,squat,[],1
+conditioning,intervals,Goblet Tall Kneel To Stand,lunge-single-leg,[],1
+conditioning,intervals,Hang Squat Snatch,olympic,[],1
+conditioning,intervals,Hanging Leg Raise Hanging Knee Tuck,core,[],1
+conditioning,intervals,Hollow Body Hold,core,[],1
+conditioning,intervals,Hollow Rock,core,[],1
+conditioning,intervals,Kettlebell Burpee,plyometric,"[""kettlebell""]",1
+conditioning,intervals,Kettlebell Gorilla Row,horizontal-pull,"[""kettlebell""]",1
 conditioning,intervals,Kettlebell Plank Knee To Elbow,core,"[""kettlebell"",""bodyweight""]",1
+conditioning,intervals,Kettlebell Rack Carry Tough,carry,"[""kettlebell""]",1
 conditioning,intervals,Kettlebell Side Plank,core,"[""kettlebell"",""bodyweight""]",1
-conditioning,intervals,Push Up,horizontal-press,"[""bodyweight""]",1
-conditioning,intervals,Russian Twist,core,[],1
-conditioning,intervals,Shuttle Run,cardio,[],1
+conditioning,intervals,Kettlebell Snatch,olympic,"[""kettlebell""]",1
+conditioning,intervals,Kettlebell Sprawl,core,"[""kettlebell""]",1
+conditioning,intervals,Kettlebell Upright Row,isolation-shoulders,"[""kettlebell""]",1
+conditioning,intervals,Neutral Grip Pull Up,vertical-pull,"[""bodyweight""]",1
+conditioning,intervals,No Push Up Kettlebell Burpee,horizontal-press,"[""kettlebell"",""bodyweight""]",1
+conditioning,intervals,Pendlay Row,horizontal-pull,[],1
+conditioning,intervals,Pull Up,vertical-pull,"[""bodyweight""]",1
+conditioning,intervals,Renegade Row,horizontal-pull,[],1
+conditioning,intervals,Russian Swing To Goblet Squat,squat,[],1
+conditioning,intervals,Side Star Plank,core,"[""bodyweight""]",1
+conditioning,intervals,Single Arm Ring Plank,core,"[""rings"",""bodyweight""]",1
+conditioning,intervals,Single Arm Russian Swing,hinge,[],1
 conditioning,intervals,Single Arm Split Stance Dumbbell Swing,hinge,"[""dumbbell""]",1
 conditioning,intervals,Single Leg Ring Plank,core,"[""rings"",""bodyweight""]",1
+conditioning,intervals,Sit Up,core,[],1
+conditioning,intervals,Split Stance Dumbbell Swing,hinge,"[""dumbbell""]",1
+conditioning,intervals,Sprawl,core,[],1
 conditioning,intervals,Star Plank,core,"[""bodyweight""]",1
-conditioning,intervals,Tuck L Hang,mobility,[],1
+conditioning,intervals,Tuck L Sit,core,[],1
 conditioning,intervals,Weight Plate Squat,squat,"[""plate""]",1
+conditioning,intervals,Wide Grip Barbell Bent Over Row,horizontal-pull,"[""barbell""]",1
 conditioning,ladder,Alternating Dumbbell Snatch,olympic,"[""dumbbell""]",1
 conditioning,ladder,Alternating Russian Kettlebell Swing,hinge,"[""kettlebell""]",1
 conditioning,ladder,American Kettlebell Swing,hinge,"[""kettlebell""]",1
@@ -656,84 +705,46 @@ conditioning,ladder,Kettlebell Swing High Pull,hinge,"[""kettlebell""]",1
 conditioning,ladder,Muscle Snatch,olympic,[],1
 conditioning,ladder,Russian Twist,core,[],1
 conditioning,ladder,Single Arm Dumbbell Bench Press,horizontal-press,"[""dumbbell"",""bench""]",1
-conditioning,unclassified,Air Squat,squat,[],1
-conditioning,unclassified,Alternating Dumbbell Power Clean,olympic,"[""dumbbell""]",1
-conditioning,unclassified,Alternating Kettlebell Push Press,vertical-press,"[""kettlebell""]",1
+conditioning,steady-state,Alternating Dumbbell Power Clean,olympic,"[""dumbbell""]",1
+conditioning,steady-state,Alternating Dumbbell Push Press,vertical-press,"[""dumbbell""]",1
+conditioning,steady-state,Bar Muscle Up,vertical-pull,[],1
+conditioning,steady-state,Dual Dumbbell Front Squat,squat,"[""dumbbell""]",1
+conditioning,steady-state,Dual Kettlebell Russian Swing,hinge,"[""kettlebell""]",1
+conditioning,steady-state,Dumbbell Bent Over Reverse Fly,isolation-shoulders,"[""dumbbell""]",1
+conditioning,steady-state,Dumbbell Suitcase Walking Lunge,lunge-single-leg,"[""dumbbell""]",1
+conditioning,steady-state,Dumbbell Swing,hinge,"[""dumbbell""]",1
+conditioning,steady-state,Ghd Sit Up,core,[],1
+conditioning,steady-state,Kettlebell Chainsaw Row,horizontal-pull,"[""kettlebell""]",1
+conditioning,steady-state,Kettlebell See Saw Row,horizontal-pull,"[""kettlebell""]",1
+conditioning,steady-state,Long Step Walking Lunge,lunge-single-leg,[],1
+conditioning,steady-state,Quadruped Kettlebell Plank Row,core,"[""kettlebell"",""bodyweight""]",1
+conditioning,steady-state,Russian Kettlebell To Goblet Squat,squat,"[""kettlebell""]",1
+conditioning,steady-state,Single Arm Dumbbell Plank,core,"[""dumbbell"",""bodyweight""]",1
+conditioning,steady-state,Single Arm Plank,core,"[""bodyweight""]",1
+conditioning,steady-state,Strict Toes To Bar,core,[],1
+conditioning,steady-state,Toes To Bar,core,[],1
+conditioning,steady-state,Walking Lunge,lunge-single-leg,[],1
+conditioning,steady-state,Weighted Hanging Leg Tuck,core,[],1
 conditioning,unclassified,Banded Reverse Crunch,core,"[""band""]",1
-conditioning,unclassified,Bar Muscle Up,vertical-pull,[],1
-conditioning,unclassified,Barbell Sumo Deadlift High Pull,hinge,"[""barbell""]",1
-conditioning,unclassified,Bulgarian Ring Row,lunge-single-leg,"[""rings""]",1
-conditioning,unclassified,Burpee Box Jump,plyometric,"[""box""]",1
-conditioning,unclassified,Burpee Box Jump Over,plyometric,"[""box""]",1
-conditioning,unclassified,Burpee Over Bar,plyometric,[],1
-conditioning,unclassified,Burpee Over Rower,plyometric,"[""rower""]",1
-conditioning,unclassified,Burpee Pull Up,vertical-pull,"[""bodyweight""]",1
-conditioning,unclassified,Burpee Tuck Jump,plyometric,[],1
-conditioning,unclassified,Double Push Up Burpee,horizontal-press,"[""bodyweight""]",1
-conditioning,unclassified,Dual Dumbbell Front Squat,squat,"[""dumbbell""]",1
-conditioning,unclassified,Dual Dumbbell Power Clean,olympic,"[""dumbbell""]",1
-conditioning,unclassified,Dual Dumbbell Sumo Deadlift High Pull,hinge,"[""dumbbell""]",1
-conditioning,unclassified,Dual Kettlebell Clean,olympic,"[""kettlebell""]",1
-conditioning,unclassified,Dual Kettlebell Russian Swing,hinge,"[""kettlebell""]",1
+conditioning,unclassified,Bar Facing Burpee,plyometric,[],1
 conditioning,unclassified,Dumbbell Arnold Press,vertical-press,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Bent Over Reverse Fly,isolation-shoulders,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Deadlift,hinge,"[""dumbbell""]",1
 conditioning,unclassified,Dumbbell Facing Burpee,plyometric,"[""dumbbell""]",1
 conditioning,unclassified,Dumbbell Floor Press,horizontal-press,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Hang Clean High Pull,olympic,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Jump Squat,plyometric,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Overhead Carry,carry,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Power Clean Or,olympic,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Suitcase Squat Jump,squat,"[""dumbbell""]",1
-conditioning,unclassified,Dumbbell Z Press,vertical-press,"[""dumbbell""]",1
-conditioning,unclassified,Farmers Carry,carry,[],1
-conditioning,unclassified,Feet Anchored Sit Up,core,[],1
-conditioning,unclassified,Ghd Sit Up,core,[],1
-conditioning,unclassified,Goblet Squat Jump,squat,[],1
+conditioning,unclassified,Dumbbell Power Clean,olympic,"[""dumbbell""]",1
+conditioning,unclassified,Dumbbell Push Press,vertical-press,"[""dumbbell""]",1
+conditioning,unclassified,Dumbbell Turkish Sit Up,core,"[""dumbbell""]",1
+conditioning,unclassified,Goblet Squat,squat,[],1
 conditioning,unclassified,Half Kneeling Landmine Press,vertical-press,"[""landmine""]",1
-conditioning,unclassified,Hang Squat Snatch,olympic,[],1
-conditioning,unclassified,Hanging Leg Raise Hanging Knee Tuck,core,[],1
-conditioning,unclassified,Hollow Body Hold,core,[],1
-conditioning,unclassified,Hollow Rock,core,[],1
-conditioning,unclassified,Kettlebell Burpee,plyometric,"[""kettlebell""]",1
-conditioning,unclassified,Kettlebell Chainsaw Row,horizontal-pull,"[""kettlebell""]",1
-conditioning,unclassified,Kettlebell Gorilla Row,horizontal-pull,"[""kettlebell""]",1
-conditioning,unclassified,Kettlebell Rack Carry Tough,carry,"[""kettlebell""]",1
-conditioning,unclassified,Kettlebell See Saw Row,horizontal-pull,"[""kettlebell""]",1
-conditioning,unclassified,Kettlebell Snatch,olympic,"[""kettlebell""]",1
-conditioning,unclassified,Kettlebell Sprawl,core,"[""kettlebell""]",1
-conditioning,unclassified,Kettlebell Upright Row,isolation-shoulders,"[""kettlebell""]",1
-conditioning,unclassified,Long Step Walking Lunge,lunge-single-leg,[],1
+conditioning,unclassified,Jump Lunge,plyometric,[],1
 conditioning,unclassified,Mixed Front Rack Overhead Dumbbell Carry,carry,"[""dumbbell""]",1
 conditioning,unclassified,Mixed Front Rack Overhead Kettlebell Carry,carry,"[""kettlebell""]",1
-conditioning,unclassified,Neutral Grip Pull Up,vertical-pull,"[""bodyweight""]",1
-conditioning,unclassified,No Push Up Kettlebell Burpee,horizontal-press,"[""kettlebell"",""bodyweight""]",1
-conditioning,unclassified,Pendlay Row,horizontal-pull,[],1
 conditioning,unclassified,Plank Dumbbell Row,horizontal-pull,"[""dumbbell"",""bodyweight""]",1
 conditioning,unclassified,Pronated Strict Pull Up,vertical-pull,"[""bodyweight""]",1
-conditioning,unclassified,Pull Up,vertical-pull,"[""bodyweight""]",1
-conditioning,unclassified,Push Up,horizontal-press,"[""bodyweight""]",1
 conditioning,unclassified,Push Up To Shoulder Tap,horizontal-press,"[""bodyweight""]",1
-conditioning,unclassified,Quadruped Kettlebell Plank Row,core,"[""kettlebell"",""bodyweight""]",1
-conditioning,unclassified,Renegade Row,horizontal-pull,[],1
 conditioning,unclassified,Ring Push Up,horizontal-press,"[""rings"",""bodyweight""]",1
-conditioning,unclassified,Russian Kettlebell To Goblet Squat,squat,"[""kettlebell""]",1
-conditioning,unclassified,Russian Swing To Goblet Squat,squat,[],1
-conditioning,unclassified,Russian Twist,core,[],1
-conditioning,unclassified,Side Star Plank,core,"[""bodyweight""]",1
-conditioning,unclassified,Single Arm Dumbbell Plank,core,"[""dumbbell"",""bodyweight""]",1
-conditioning,unclassified,Single Arm Plank,core,"[""bodyweight""]",1
-conditioning,unclassified,Single Arm Ring Plank,core,"[""rings"",""bodyweight""]",1
-conditioning,unclassified,Single Arm Russian Swing,hinge,[],1
-conditioning,unclassified,Sit Up,core,[],1
-conditioning,unclassified,Split Stance Dumbbell Swing,hinge,"[""dumbbell""]",1
-conditioning,unclassified,Strict Toes To Bar,core,[],1
+conditioning,unclassified,Shuttle Run,cardio,[],1
+conditioning,unclassified,Sprawl,core,[],1
 conditioning,unclassified,Supinated Strict Pull Up,vertical-pull,"[""bodyweight""]",1
-conditioning,unclassified,Switch Lunge,lunge-single-leg,[],1
-conditioning,unclassified,Tuck L Sit,core,[],1
-conditioning,unclassified,Walking Lunge,lunge-single-leg,[],1
-conditioning,unclassified,Weighted Hanging Leg Tuck,core,[],1
-conditioning,unclassified,Wide Grip Barbell Bent Over Row,horizontal-pull,"[""barbell""]",1
 conditioning,unclassified,Wide Grip Pull Up,vertical-pull,"[""bodyweight""]",1
 finisher,amrap,Crush Grip Dumbbell Bicep Curl,isolation-arms,"[""dumbbell""]",1
 finisher,amrap,Dumbbell Crush Grip Bicep Curl Carry,carry,"[""dumbbell""]",1
@@ -877,38 +888,41 @@ hot-start,every-n-sec,Wall Facing Shoulder Tap,core,[],1
 hot-start,every-n-sec,Yoga Push Up,horizontal-press,"[""bodyweight""]",1
 hot-start,for-time,Bar Or Ring Muscle Up,vertical-pull,"[""rings""]",1
 hot-start,for-time,Bike,cardio,"[""bike""]",1
-hot-start,intervals,Bike,cardio,"[""bike""]",1
-hot-start,intervals,Row,cardio,[],1
-hot-start,unclassified,Air Squat,squat,[],1
-hot-start,unclassified,Alternating Kettlebell Half Snatch,olympic,"[""kettlebell""]",1
+hot-start,intervals,Air Squat,squat,[],1
+hot-start,intervals,Alternating Kettlebell Half Snatch,olympic,"[""kettlebell""]",1
+hot-start,intervals,Barbell Push Jerk,olympic,"[""barbell""]",1
+hot-start,intervals,Bodyweight Walking Lunge,lunge-single-leg,"[""bodyweight""]",1
+hot-start,intervals,Bottom Of Dip Support,core,[],1
+hot-start,intervals,Dip Support,core,[],1
+hot-start,intervals,Dual Kettlebell Rack Squat,squat,"[""kettlebell""]",1
+hot-start,intervals,Dual Kettlebell Sumo Deadlift,hinge,"[""kettlebell""]",1
+hot-start,intervals,Dual Kettlebell Sumo Deadlift High Pull,hinge,"[""kettlebell""]",1
+hot-start,intervals,Kettlebell Rotational Snatch,olympic,"[""kettlebell""]",1
+hot-start,intervals,Kettlebell Split Stance Ballistic Row,horizontal-pull,"[""kettlebell""]",1
+hot-start,intervals,Kettlebell Sumo Deadlift High Pull,hinge,"[""kettlebell""]",1
+hot-start,intervals,Kettlebell Upright Row,isolation-shoulders,"[""kettlebell""]",1
+hot-start,intervals,Kettlebell Windmill,mobility,"[""kettlebell""]",1
+hot-start,intervals,Pause Split Jerk,olympic,[],1
+hot-start,intervals,Single Arm Dumbbell Push Press,vertical-press,"[""dumbbell""]",1
+hot-start,intervals,Single Arm Kettlebell Split Snatch,olympic,"[""kettlebell""]",1
+hot-start,intervals,Single Arm Kettlebell Sumo Deadlift,hinge,"[""kettlebell""]",1
+hot-start,intervals,Slam Ball,plyometric,"[""medicine-ball""]",1
+hot-start,intervals,Split Jerk,olympic,[],1
+hot-start,steady-state,Bike,cardio,"[""bike""]",1
+hot-start,steady-state,Dual Kettlebell Clean,olympic,"[""kettlebell""]",1
+hot-start,steady-state,Dual Kettlebell Dl,hinge,"[""kettlebell""]",1
+hot-start,steady-state,Dual Kettlebell High Pull,hinge,"[""kettlebell""]",1
+hot-start,steady-state,Dual Kettlebell Russian Swing,hinge,"[""kettlebell""]",1
+hot-start,straight-sets,Power Jerk,olympic,[],1
 hot-start,unclassified,Bar Muscle Up,vertical-pull,[],1
-hot-start,unclassified,Barbell Push Jerk,olympic,"[""barbell""]",1
-hot-start,unclassified,Bodyweight Walking Lunge,lunge-single-leg,"[""bodyweight""]",1
-hot-start,unclassified,Bottom Of Dip Support,core,[],1
 hot-start,unclassified,Burpee Strict Pull Up,vertical-pull,"[""bodyweight""]",1
-hot-start,unclassified,Dip Support,core,[],1
-hot-start,unclassified,Dual Kettlebell Dl,hinge,"[""kettlebell""]",1
-hot-start,unclassified,Dual Kettlebell High Pull,hinge,"[""kettlebell""]",1
-hot-start,unclassified,Dual Kettlebell Rack Squat,squat,"[""kettlebell""]",1
-hot-start,unclassified,Dual Kettlebell Sumo Deadlift,hinge,"[""kettlebell""]",1
-hot-start,unclassified,Dual Kettlebell Sumo Deadlift High Pull,hinge,"[""kettlebell""]",1
 hot-start,unclassified,Explosive Push Up,horizontal-press,"[""bodyweight""]",1
 hot-start,unclassified,Half Kneeling Kettlebell Press,vertical-press,"[""kettlebell""]",1
 hot-start,unclassified,Kettlebell Chainsaw Row,horizontal-pull,"[""kettlebell""]",1
-hot-start,unclassified,Kettlebell Rotational Snatch,olympic,"[""kettlebell""]",1
-hot-start,unclassified,Kettlebell Split Stance Ballistic Row,horizontal-pull,"[""kettlebell""]",1
-hot-start,unclassified,Kettlebell Sumo Deadlift High Pull,hinge,"[""kettlebell""]",1
-hot-start,unclassified,Kettlebell Upright Row,isolation-shoulders,"[""kettlebell""]",1
-hot-start,unclassified,Kettlebell Windmill,mobility,"[""kettlebell""]",1
 hot-start,unclassified,Landmine Meadow Row,horizontal-pull,"[""landmine""]",1
 hot-start,unclassified,Plyo Push Up To Plate,horizontal-press,"[""plate"",""bodyweight""]",1
-hot-start,unclassified,Power Jerk,olympic,[],1
 hot-start,unclassified,Push Up,horizontal-press,"[""bodyweight""]",1
 hot-start,unclassified,Run,cardio,[],1
-hot-start,unclassified,Single Arm Dumbbell Push Press,vertical-press,"[""dumbbell""]",1
-hot-start,unclassified,Single Arm Kettlebell Split Snatch,olympic,"[""kettlebell""]",1
-hot-start,unclassified,Single Arm Kettlebell Sumo Deadlift,hinge,"[""kettlebell""]",1
-hot-start,unclassified,Slam Ball,plyometric,"[""medicine-ball""]",1
 hot-start,unclassified,Supinated Chest To Bar Strict Pull Up,vertical-pull,"[""bodyweight""]",1
 hot-start,unclassified,Tall Kneeling Landmine Press,vertical-press,"[""landmine""]",1
 hot-start,unclassified,Toes To Ring,core,"[""rings""]",1
@@ -922,5 +936,5 @@ speed-strength,every-n-sec,Low Hang Clean,olympic,[],1
 speed-strength,every-n-sec,Low Hang Squat Clean,olympic,[],1
 speed-strength,every-n-sec,Pause At Knee Snatch,olympic,[],1
 speed-strength,every-n-sec,Segment Muscle Clean,olympic,[],1
-speed-strength,unclassified,Low Block Clean,olympic,[],1
-speed-strength,unclassified,Low Hang Power Clean,olympic,[],1
+speed-strength,straight-sets,Low Block Clean,olympic,[],1
+speed-strength,straight-sets,Low Hang Power Clean,olympic,[],1

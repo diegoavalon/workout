@@ -195,5 +195,13 @@
  },
  "barbell-reverse-curl": {
   "pattern": "isolation-arms"
+ },
+ "shinbox hip extension + switch": {
+  "mergeInto": "shinbox-hip-extension-switch",
+  "name": "Shinbox Hip Extension Switch",
+  "note": "one movement written with a plus sign"
+ },
+ "shinbox-hip-extension-switch": {
+  "pattern": "mobility"
  }
 }

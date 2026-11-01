@@ -24,7 +24,7 @@ const MONTHS = [
 const WEEKDAYS = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 
 const DATE_RE =
-  /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+([A-Z][a-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})/;
+  /^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*,?\s*,?\s*([A-Z][a-z]+)\s*,?\s*(\d{1,2})(?:st|nd|rd|th)?\s*,?\s*(\d{4})/;
 const TRACK_RE = /^(Pump Lift|Pump Cond(?:ition)?|Perform|Minimalist)(?:\s+(\d)x)?\s*$/i;
 const DAY_HEADER_RE = /^Week\s+(\d+)\s+Day\s+(\d+)\s*[-–]\s*(.*)$/;
 const SECTION_RE = /^([A-H])\)\.?\s+(.*)$/;
@@ -449,7 +449,7 @@ export function parseSection(label: string | null, title: string, bodyLines: str
       if (!sawExercise && !HEADER_RES.some((re) => re.test(t)) && !/^[-–]?\s*rest/i.test(t)) {
         // Some weeks put the whole prescription on the exercise line: "Back Squat; 4-6 reps @24X1 Tempo; rest 2 min".
         const semi = t.indexOf(";");
-        sec.exercise = semi > 0 ? t.slice(0, semi).trim() : t;
+        sec.exercise = (semi > 0 ? t.slice(0, semi).trim() : t).replace(/^\d+[.)]\s+/, "");
         if (semi > 0) sec.scheme.push(t.slice(semi + 1).trim());
         sawExercise = true;
         i++;
