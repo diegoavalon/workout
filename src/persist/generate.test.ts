@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { coverageProblems, equipmentOk, generate, renderStrength, rng, validateBlock } from "./generate.ts";
+import { BALANCE_PARTNERS, coverageProblems, equipmentOk, generate, renderStrength, rng, validateBlock } from "./generate.ts";
 import { TRACK_IDS } from "./schema.ts";
 import type { ViewIndex, WeekView } from "./views.ts";
 
@@ -174,19 +174,22 @@ describe.skipIf(!haveViews)("generate (real corpus)", () => {
     }
   });
 
-  it("pairs a leg-dominant main lift with lower-body or trunk balance work when the program usually does", () => {
-    const lower = new Set(["squat", "hinge", "lunge-single-leg", "isolation-legs", "core", "carry", "olympic", "plyometric"]);
-    let days = 0, upperOnly = 0;
-    for (let seed = 1; seed <= 20; seed++) {
+  it("pairs a leg-dominant main lift with balance work that suits it", () => {
+    let days = 0, off = 0;
+    for (let seed = 1; seed <= 25; seed++) {
       const g = generate(corpus, { track: "pump-lift-5x", seed, startDate: start });
-      for (const d of g.weeks[0].days.filter((x) => x.type === "training" && ["squat", "hinge", "lunge-single-leg"].includes(x.headline.mainLift?.pattern ?? ""))) {
-        const bal = d.sections.find((x) => x.role === "strength-balance")!;
-        days++;
-        if (!bal.items.some((i) => i.exercise && lower.has(i.exercise.pattern ?? ""))) upperOnly++;
+      for (const wk of [g.weeks[0], g.weeks[1]]) {
+        for (const d of wk.days.filter((x) => x.type === "training")) {
+          const partners = BALANCE_PARTNERS[d.headline.mainLift?.pattern ?? ""];
+          if (!partners) continue;
+          const bal = d.sections.find((x) => x.role === "strength-balance")!;
+          days++;
+          if (bal.items.some((i) => i.exercise && !partners.has(i.exercise.pattern ?? ""))) off++;
+        }
       }
     }
-    expect(days).toBeGreaterThan(20);
-    expect(upperOnly / days).toBeLessThan(0.1);
+    expect(days).toBeGreaterThan(50);
+    expect(off / days).toBeLessThan(0.1);
   });
 
   it("rejects an unknown track", () => {

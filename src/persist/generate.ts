@@ -189,8 +189,17 @@ export function renderStrength(title: string, items: Item[], schemeLines: string
 }
 
 const STRAY_WEEK = /^\s*Week \d+:?\s*$/m;
-const LOWER_MAINS = new Set(["squat", "hinge", "lunge-single-leg"]);
 const LOWER_OR_TRUNK = new Set(["squat", "hinge", "lunge-single-leg", "isolation-legs", "core", "carry", "olympic", "plyometric"]);
+/**
+ * What every movement in the balance superset may be after a leg-dominant main lift. Measured on the distinct published
+ * balance sections: after a squat 72% are entirely lower body or trunk, after a single-leg lift 100%, and after a hinge
+ * 77% are lower body, trunk or pulling (rows and pulldowns are the usual partner for deadlifts).
+ */
+export const BALANCE_PARTNERS: Record<string, Set<string>> = {
+  squat: LOWER_OR_TRUNK,
+  "lunge-single-leg": LOWER_OR_TRUNK,
+  hinge: new Set([...LOWER_OR_TRUNK, "horizontal-pull", "vertical-pull"]),
+};
 const mobilityTopic = (d: Day) => (d.sections.find((x) => x.role === "mobility")?.raw.split("\n").map((l) => l.trim()).filter(Boolean)[1] ?? "").toLowerCase();
 const FAMILIES = ["pump-lift", "pump-condition", "perform", "minimalist"];
 const familyOf = (track: string) => (track === "perform" || track === "minimalist" ? track : track.replace(/-\dx$/, ""));
@@ -384,11 +393,18 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
     const pool = ok.length ? ok : shaped;
     const exactOnly = pool.filter((x) => x.exact);
     const matched = exactOnly.length >= 2 ? exactOnly : pool;
-    // After a leg-dominant lift the published balance work trains the lower body or trunk in 81% of days; the other
-    // 19% pair it with upper-body work only. Prefer the majority so a block reads coherently.
-    if (roles.includes("strength-balance") && LOWER_MAINS.has(pattern)) {
-      const coherent = matched.filter((x) => x.sec.items.some((i) => i.exercise && LOWER_OR_TRUNK.has(i.exercise.pattern ?? "")));
-      if (coherent.length >= 2) return coherent;
+    // After a leg-dominant lift, prefer balance work whose every movement suits it (see BALANCE_PARTNERS), then work with
+    // at least one suitable movement, so a block reads coherently. The rest of the published mix is what this skips.
+    const partners = BALANCE_PARTNERS[pattern];
+    if (roles.includes("strength-balance") && partners) {
+      const fits = (x: { sec: Sec }, all: boolean) => {
+        const pats = x.sec.items.filter((i) => i.exercise).map((i) => i.exercise!.pattern ?? "");
+        return pats.length > 0 && (all ? pats.every((p) => partners.has(p)) : pats.some((p) => partners.has(p)));
+      };
+      const strict = matched.filter((x) => fits(x, true));
+      if (strict.length >= 2) return strict;
+      const lenient = matched.filter((x) => fits(x, false));
+      if (lenient.length >= 2) return lenient;
     }
     return matched;
   };
