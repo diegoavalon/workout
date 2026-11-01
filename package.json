@@ -34,11 +34,12 @@
     "postinstall": "void prepare",
     "persist:extract": "node scripts/persist/extract.ts",
     "persist:parse": "node scripts/persist/parse.ts",
-    "persist:all": "npm run persist:extract && npm run persist:parse && npm run persist:seed && npm run persist:analyze",
+    "persist:all": "npm run persist:extract && npm run persist:parse && npm run persist:seed && npm run persist:views && npm run persist:analyze",
     "persist:catalog": "node scripts/persist/catalog.ts",
     "persist:report": "node scripts/persist/report.ts",
     "persist:seed": "npm run persist:catalog && npm run persist:report && void db seed --yes",
-    "persist:analyze": "node scripts/persist/analysis/run.ts"
+    "persist:analyze": "node scripts/persist/analysis/run.ts",
+    "persist:views": "node scripts/persist/views.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",

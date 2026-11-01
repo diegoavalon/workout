@@ -16,3 +16,4 @@ dist
 # Parsed program content (derived from licensed PDFs); rebuild with npm run persist:all
 /data/text/
 /data/source/
+/data/views/
