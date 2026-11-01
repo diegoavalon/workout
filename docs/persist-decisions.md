@@ -78,8 +78,8 @@ How to read an entry: **Decision**, **Why** (the evidence or reasoning), **Alter
 
 ### D11. Perform: one kind of pre-lift piece per day, alternating A/B
 - **Decision.** Each Perform day gets a hot start or a speed-strength piece, chosen once per day from published Perform days of that day number, with two donors alternating by week.
-- **Why.** Published Perform days stay one kind within a block (for example day 1 speed strength, day 2 hot start).
-- **Risk.** Mixed kinds across a block did occur in the first version before this rule; the kind-per-day rule is inferred from the published day distribution (day 2: 37 hot start, 0 speed; day 3: 6 vs 29), not tested block by block.
+- **Why.** Checked against the data: in all 37 block-and-day combinations that have a pre-lift piece, every week of the block uses the same kind (none mix hot start and speed strength). Which kind a day gets varies by day number (day 2: 37 hot start, 0 speed; day 3: 6 hot start vs 29 speed).
+- **Risk.** The first version mixed kinds within a block; that was the reason for the rule.
 
 ### D12. Minimalist uses its own lifts, borrowing Pump Lift lifts within its kit
 - **Decision.** Take the Pump Lift day's pattern. Choose a fresh Minimalist lift; if none, a fresh Pump Lift lift that needs only dumbbell, kettlebell, bodyweight, pull-up bar, rings or bands; then looser matches.
@@ -137,7 +137,7 @@ The movement-pattern list is the project owner's (16 patterns). The rules assign
 
 ### D18. Days are numbered by position and corrected dates are logged
 - **Decision.** The PDFs have missing, repeated and mis-numbered day headers and wrong printed dates. Days are numbered by position in the track (7 per track), dates computed from the week's Monday, and every disagreement is logged in `data/reports/corrections.json`.
-- **Why.** Dates and headers disagree with each other in places; position in the track was the only consistent signal (99.8% of track-days fit).
+- **Why.** Dates and headers disagree with each other in places; position in the track was the only consistent signal: every track in every week has exactly seven days once the repeats and gaps are resolved.
 
 ### D19. Missing weeks stay missing
 - **Decision.** The four missing weeks (May 18 and 25, Jun 22 and 29) are recorded as gaps with no schedule rows and are not donors.
