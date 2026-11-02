@@ -7,6 +7,7 @@ import { Dialog, DialogDescription, DialogFooter, DialogHeader, DialogPanel, Dia
 import { Progress } from "./components/ui/progress";
 import { toastManager } from "./components/ui/toast";
 import { WorkoutBlocks } from "./components/WorkoutRenderer";
+import { DeleteProgramButton } from "./components/DeleteProgramButton";
 import { repo } from "./data/db";
 import { buildGeneratedDayView } from "./domain/generated";
 import {
@@ -16,6 +17,7 @@ import {
 } from "./domain/generated-program";
 import type { ProgramRun, SessionProgress } from "./domain/types";
 import { cn } from "./lib/utils";
+import { GenerationStatus, inputFromOptions, useGeneration } from "./new-program";
 
 export type GenData = { snaps: GeneratedSnapshot[]; runs: ProgramRun[]; progress: SessionProgress[] };
 const flash = (title: string) => toastManager.add({ title });
@@ -72,11 +74,11 @@ export function TrainHome({ data }: { data: GenData }) {
   if (!pick) {
     return (
       <>
-        <Heading title="Train" sub="Save a generated six-week block once, then train from it in order." />
+        <Heading title="Active program" sub="Generate a six-week program once, then train from it in order." />
         <section className={card("flex flex-col gap-4 p-5")}>
-          <p className="text-[15px] text-muted-foreground">{data.snaps.length ? "You have saved blocks, but none is active. Pick one to use." : "No block yet. Import a generated program file to get started."}</p>
+          <p className="text-[15px] text-muted-foreground">{data.snaps.length ? "You have saved programs, but none is active. Pick one to use." : "No active program yet. Generate one to get started."}</p>
           {data.snaps.map((s) => <Link key={s.id} to="/generated/$id" params={{ id: s.id }} className="flex min-h-11 items-center justify-between rounded-lg border px-3 text-sm font-medium hover:bg-muted">{s.title}<ChevronRightIcon className="size-4" /></Link>)}
-          <ImportGeneratedButton variant="default" label="Import generated block" />
+          <div className="flex flex-wrap gap-2"><Link to="/programs/new"><Button size="xl">New program</Button></Link><Link to="/programs/saved"><Button size="xl" variant="outline">Saved programs</Button></Link></div>
         </section>
       </>
     );
@@ -115,15 +117,30 @@ export function TrainHome({ data }: { data: GenData }) {
         </section>
       )}
       {!pos.complete && (
-        <section className="flex flex-col gap-2.5" aria-label="This program week">
-          <h2 className="text-[15px] font-semibold">This program week</h2>
-          <div className="grid grid-cols-3 gap-2">
-            {week.map((s) => (
-              <Link key={s.id} {...sessionPath} params={{ id: snap.id, sid: s.id }} className={card("flex min-h-24 flex-col gap-1.5 p-3 hover:bg-muted")}>
-                <span className="text-[13px] font-semibold">Session {s.order}</span>
-                <StatusBadge status={statusOf(states.get(s.id))} next={s.id === pos.next?.id && !pos.inProgress} />
-              </Link>
-            ))}
+        <section className="flex flex-col gap-3" aria-label="This program week">
+          <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+            <h2 className="text-[15px] font-semibold">This program week</h2>
+            <span className="text-[13px] text-muted-foreground tabular-nums">{weekCounts(snap, states, pos.week).done} of {week.length} complete</span>
+          </div>
+          <div className={cn("grid grid-cols-1 gap-3", week.length === 4 ? "sm:grid-cols-2" : "sm:grid-cols-3")}>
+            {week.map((s) => {
+              const status = statusOf(states.get(s.id));
+              const current = s.id === target?.id;
+              return (
+                <Link key={s.id} {...sessionPath} params={{ id: snap.id, sid: s.id }} aria-current={current ? "step" : undefined}
+                  className={cn(card("flex min-w-0 flex-col gap-3 p-4 transition-colors hover:bg-muted focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"), current && "border-foreground/50 bg-muted/40")}>
+                  <span className="text-xs font-medium text-muted-foreground">Session {s.order}</span>
+                  <div className="flex flex-1 flex-col gap-1.5">
+                    <h3 className="text-[15px] leading-snug font-semibold tracking-tight text-pretty">{s.title}</h3>
+                    <p className="text-xs leading-relaxed text-muted-foreground">Suggested {dateShort(s.date)}</p>
+                  </div>
+                  <div className="flex items-center justify-between gap-3 pt-1">
+                    <StatusBadge status={status} next={s.id === pos.next?.id && !pos.inProgress} />
+                    <ChevronRightIcon className="size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}
@@ -153,7 +170,7 @@ export function BlockSummary({ snap, run, states }: { snap: GeneratedSnapshot; r
         {weeks.map((w) => <Link key={w.week} to="/generated/$id/week/$week" params={{ id: snap.id, week: String(w.week) }} className="flex flex-col rounded-lg border px-2 py-1.5 text-center text-[13px] hover:bg-muted"><span className="font-medium">Week {w.week}</span><span className="text-muted-foreground tabular-nums">{w.done}/{w.total}</span></Link>)}
       </div>
       <div className="flex flex-wrap gap-2">
-        <Link to="/"><Button size="xl">Choose next program</Button></Link>
+        <Link to="/programs/new"><Button size="xl">Choose next program</Button></Link>
         <Button size="xl" variant="outline" onClick={async () => { await repo.endRun(run.id); await repo.startRun(snap.id); flash("New run started — previous history kept"); await router.invalidate(); }}>Run this block again</Button>
       </div>
       <p className="text-[13px] text-muted-foreground">A new run starts empty. This run’s history stays.</p>
@@ -179,9 +196,17 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
   const use = async () => {
     const r = run ?? (await repo.startRun(snap.id));
     if (run) await repo.promoteRun(run.id);
-    flash(`${snap.title} is now on Train`); await router.invalidate(); nav({ to: "/train" }); void r;
+    flash(`${snap.title} is now your Active program`); await router.invalidate(); nav({ to: "/active-program" }); void r;
   };
   const promoted = promotedOf(data)?.snap.id === snap.id;
+  const gen = useGeneration();
+  const another = async () => {
+    const r = await gen.run({ ...inputFromOptions(snap.file.options), seed: "" }, { avoidSeed: snap.file.options.seed });
+    if (!r) return;
+    flash(r.duplicate ? "That program was already saved — opened it" : "Another program saved on this device");
+    nav({ to: "/generated/$id", params: { id: r.snapshot.id } });
+  };
+  const generating = gen.state.status === "running";
   return (
     <>
       <section className={card("overflow-hidden")} aria-label="Program summary">
@@ -215,9 +240,16 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
           {!pos.complete && (
             <div className="flex flex-col gap-2">
               {errors.length ? <Button size="xl" disabled>Can’t activate — fix structure</Button>
-                : promoted ? <Link to="/train"><Button size="xl" className="w-full">Open Train</Button></Link>
-                : <Button size="xl" onClick={use}>{run ? "Make this the Train program" : "Use this program"}</Button>}
+                : promoted ? <Link to="/active-program"><Button size="xl" className="w-full">Open Active program</Button></Link>
+                : <Button size="xl" onClick={use}>{run ? "Make this the Active program" : "Use this program"}</Button>}
               {!run && <p className="text-[13px] text-muted-foreground">Saves all {snap.weekCount} weeks to this device. Doesn’t start a workout.</p>}
+              {!run && snap.file.options.seed !== undefined && (
+                <div className="flex flex-wrap gap-2">
+                  <Link to="/programs/new" search={{ from: snap.id }}><Button variant="outline" disabled={generating}>Edit inputs</Button></Link>
+                  <Button variant="outline" disabled={generating} onClick={another}>{generating ? "Generating…" : "Generate another"}</Button>
+                </div>
+              )}
+              <GenerationStatus state={gen.state} />
             </div>
           )}
         </div>
@@ -366,7 +398,7 @@ export function GeneratedSession({ snap, sid, data }: { snap: GeneratedSnapshot;
   const [confirm, setConfirm] = useState(false);
   const checksRef = useRef(saved?.checks ?? {});
   useEffect(() => { setState(saved); checksRef.current = saved?.checks ?? {}; }, [sid, run?.id]);
-  // Navigation re-reads progress for Train/week screens when leaving.
+  // Navigation re-reads progress for Active program/week screens when leaving.
   useEffect(() => () => { void router.invalidate(); }, []);
   const view = useMemo(() => (day && ref ? buildGeneratedDayView(day, new Map(), `${snap.id}-${ref.id}`) : undefined), [day, ref, snap.id]);
   const status = statusOf(state);
@@ -421,7 +453,7 @@ export function GeneratedSession({ snap, sid, data }: { snap: GeneratedSnapshot;
           </label>
           {upcoming && <div className="rounded-xl border p-3 text-sm"><span className="text-[13px] text-muted-foreground">What’s next</span><br /><Link {...sessionPath} params={{ id: snap.id, sid: upcoming.id }} className="font-semibold underline">Week {upcoming.week} · Session {upcoming.order} · {upcoming.title}</Link></div>}
           <div className="flex flex-wrap gap-2">
-            <Button size="xl" onClick={() => nav({ to: "/train" })}>Back to program</Button>
+            <Button size="xl" onClick={() => nav({ to: "/active-program" })}>Back to program</Button>
             <Button size="xl" variant="outline" onClick={async () => { await patch({ completedAt: undefined }); await router.invalidate(); flash("Completion undone · checkmarks kept"); }}>Undo finish</Button>
           </div>
         </section>
@@ -440,3 +472,52 @@ export function GeneratedSession({ snap, sid, data }: { snap: GeneratedSnapshot;
   );
 }
 export type { SessionRef };
+
+/* ---------------- Saved programs ---------------- */
+export function SavedPrograms({ data }: { data: GenData }) {
+  const router = useRouter();
+  const listRef = useRef<HTMLUListElement>(null);
+  const deleted = async () => {
+    await router.invalidate();
+    flash("Program and training history deleted from this device");
+    listRef.current?.focus();
+  };
+  const active = promotedOf(data)?.snap.id;
+  const rows = [...data.snaps].sort((a, b) => b.importedAt.localeCompare(a.importedAt));
+  return (
+    <>
+      <Heading title="Saved programs" sub="Every program you generate is kept on this device. Opening one never changes your Active program." />
+      {rows.length === 0 && (
+        <section className={card("flex flex-col items-start gap-3 p-5")}>
+          <p className="text-[15px] text-muted-foreground">Nothing saved yet.</p>
+          <Link to="/programs/new"><Button size="xl">New program</Button></Link>
+        </section>
+      )}
+      <ul ref={listRef} tabIndex={-1} className="flex flex-col gap-2.5" aria-label="Saved programs">
+        {rows.map((snap) => {
+          const run = activeRun(data.runs, snap.id);
+          const ended = data.runs.some((r) => r.programId === snap.id);
+          const pos = positionOf(snap, statesFor(snap, data.progress, run?.id ?? data.runs.filter((r) => r.programId === snap.id).sort((a, b) => b.startedAt.localeCompare(a.startedAt))[0]?.id));
+          const label = snap.id === active ? "Active" : pos.complete ? "Completed" : run ? "In progress" : ended ? "Ended" : "Not started";
+          return (
+            <li key={snap.id} className={cn(card("flex items-center"), snap.id === active && "border-foreground")}>
+              <Link to="/generated/$id" params={{ id: snap.id }} className="grid min-h-20 min-w-0 flex-1 grid-cols-[minmax(0,1fr)_auto] items-center gap-x-3 gap-y-2 rounded-2xl p-4 transition-colors hover:bg-muted sm:flex">
+                <span className="col-span-2 flex min-w-0 flex-1 flex-col gap-0.5">
+                  <span className="text-[17px] font-semibold tracking-tight">{snap.title}</span>
+                  <span className="text-[13px] text-muted-foreground">{snap.weekCount} weeks · {pos.total} training sessions{snap.startDate ? ` · starts ${dateShort(snap.startDate)}` : ""}{ended ? ` · ${pos.done} of ${pos.total} done` : ""}</span>
+                </span>
+                <Badge variant={label === "Active" ? "default" : label === "Completed" ? "success" : label === "In progress" ? "secondary" : "outline"} size="lg" className="justify-self-start">{label}</Badge>
+                <ChevronRightIcon className="size-4.5 opacity-50" aria-hidden="true" />
+              </Link>
+              <DeleteProgramButton program={snap} active={snap.id === active} hasFallback={!!promotedOf({ ...data, snaps: data.snaps.filter((s) => s.id !== snap.id) })} onDeleted={deleted} />
+            </li>
+          );
+        })}
+      </ul>
+      <section className="flex flex-col gap-2 border-t pt-5" aria-label="Import">
+        <span className="text-[13px] text-muted-foreground">Have a generated program file from the command line? You can add it here.</span>
+        <ImportGeneratedButton variant="outline" label="Import generated JSON" />
+      </section>
+    </>
+  );
+}

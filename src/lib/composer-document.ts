@@ -176,7 +176,7 @@ function createToken(part: ComposerTokenPart): HTMLSpanElement {
   fallback.textContent = part.text ?? `${part.trigger}${part.label}`;
   const renderer = document.createElement("span");
   renderer.dataset.slot = "composer-token-renderer";
-  token.append(fallback, renderer);
+  token.appendChild(fallback); token.appendChild(renderer);
   return token;
 }
 
@@ -234,7 +234,7 @@ function placeCaretAfterToken(
     } else if (token.parentNode) {
       selection.collapse(
         token.parentNode,
-        Array.from(token.parentNode.childNodes).indexOf(token) + 1,
+        Array.from(token.parentNode.childNodes).indexOf(token as ChildNode) + 1,
       );
     }
     return;
@@ -407,7 +407,7 @@ function readSelection(input: HTMLElement): ComposerSelection | null {
     range.selectNodeContents(input);
     range.setEnd(node, position);
     const fragment = document.createElement("div");
-    fragment.append(range.cloneContents());
+    fragment.appendChild(range.cloneContents());
     return getComposerText(readValue(fragment, false)).length;
   }
   return {

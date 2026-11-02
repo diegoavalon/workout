@@ -1,9 +1,11 @@
 import { expect, test } from "@playwright/test";
+import { seedLegacyProgram } from "./legacy";
 
 const sessionUrl = "/program/minimalist-four-day/week/w01/session/w01-s1";
 
 test("set tracking is reversible and local to the open session", async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 812 });
+  await seedLegacyProgram(page, "minimalist-four-day");
   await page.goto(sessionUrl);
   const card = page.getByRole("article", { name: "Dumbbell Bench Press", exact: true });
   await expect(card.getByRole("checkbox")).toHaveCount(3);
@@ -37,6 +39,7 @@ test("set tracking is reversible and local to the open session", async ({ page }
 });
 
 test("superset work and rest prescriptions use one shared timer offline", async ({ page, context }) => {
+  await seedLegacyProgram(page, "minimalist-four-day");
   await page.goto("/program/minimalist-four-day/week/w01/session/w01-s2");
   const group = page.getByRole("region", { name: "Superset C", exact: true });
   const tracker = group.getByRole("group", { name: "Superset C tracking", exact: true });
@@ -75,6 +78,7 @@ test("superset work and rest prescriptions use one shared timer offline", async 
 for (const width of [1280, 375]) {
   test(`superset tracking stays sticky within its group at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
+    await seedLegacyProgram(page, "minimalist-four-day");
     await page.goto("/program/minimalist-four-day/week/w01/session/w01-s4");
     const group = page.getByRole("region", { name: "Superset C", exact: true });
     const tracker = group.getByRole("group", { name: "Superset C tracking", exact: true });

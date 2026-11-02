@@ -33,7 +33,7 @@ export type GeneratedDay = {
   sections: GeneratedSection[];
 };
 export type GeneratedWeek = { weekStart: string; days: GeneratedDay[]; block?: { weekNumber: number; weekCount: number } };
-export type GeneratedProgram = { options: { track: string; seed?: number; startDate?: string }; weeks: GeneratedWeek[] };
+export type GeneratedProgram = { options: { track: string; seed?: number; startDate?: string; equipment?: string[]; avoidRecent?: boolean }; weeks: GeneratedWeek[] };
 
 export type SessionView = WorkoutView & {
   key: string; title: string; dayLabel: string; date: string; type: string; badges: string[];

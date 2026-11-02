@@ -1,36 +1,24 @@
 import { expect, test } from "@playwright/test";
+import { seedLegacyProgram } from "./legacy";
 
 test("offline deep link, navigation with zero network, and completion persist", async ({ page, context }) => {
-  await page.goto("/");
-  await expect(page.getByRole("heading", { name: /how many days/i })).toBeVisible();
+  await seedLegacyProgram(page, "minimalist-four-day");
+  await expect(page.getByRole("heading", { name: "Active program" })).toBeVisible();
   // Wait for the service worker to control the page.
-  await page.waitForFunction(async () => {
-    const reg = await navigator.serviceWorker.getRegistration();
-    return !!reg?.active;
-  });
+  await page.waitForFunction(async () => !!(await navigator.serviceWorker.getRegistration())?.active);
   await page.reload();
-  await page.getByRole("link", { name: "4× per week" }).first().click();
-  await expect(page).toHaveURL(/\/programs\/4/);
-  await page.getByRole("link", { name: /Athletic Performance/ }).click();
-  await expect(page).toHaveURL(/\/program\/athletic-performance/);
-  const sessionHref = await page.getByRole("link", { name: /Week 1/ }).getAttribute("href");
-  expect(sessionHref).toBeTruthy();
 
   await context.setOffline(true);
-  const failed: string[] = [];
-  page.on("requestfailed", (r) => failed.push(r.url()));
   // Deep-link a nested session URL with no network.
-  await page.goto("/program/athletic-performance/week/w01/session/w01-s1");
-  await expect(page.getByRole("heading", { name: /Lower Body Strength|Session/ }).first()).toBeVisible();
-  await expect(page.getByText("Back Squat")).toBeVisible();
-  // In-app navigation offline, then complete the session.
+  await page.goto("/program/minimalist-four-day/week/w01/session/w01-s1");
+  await expect(page.getByRole("button", { name: "Mark complete" })).toBeVisible();
   await page.getByRole("button", { name: "Mark complete" }).click();
   await expect(page.getByRole("button", { name: "Completed" })).toBeVisible();
   await page.reload();
   await expect(page.getByRole("button", { name: "Completed" })).toBeVisible();
   // In-app transitions make zero network requests.
   let requestCount = 0;
-  page.on("request", () => requestCount++);
+  page.on("request", (r) => { if (!/\/favicon[^/]*$/.test(r.url())) requestCount++; }); // browsers fetch the tab icon on their own
   await page.getByRole("link", { name: "Week 1" }).click();
   await expect(page).toHaveURL(/\/week\/w01$/);
   await page.waitForTimeout(300);

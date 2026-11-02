@@ -30,6 +30,7 @@ export interface Repository {
   importGenerated(raw: unknown): Promise<{ snapshot?: GeneratedSnapshot; errors: string[]; duplicate: boolean }>;
   listGenerated(): Promise<GeneratedSnapshot[]>;
   getGenerated(id: string): Promise<GeneratedSnapshot | undefined>;
+  deleteGenerated(id: string): Promise<void>;
   promoteRun(runId: string): Promise<void>;
   patchProgress(runId: string, programId: string, sessionId: string, patch: Partial<SessionProgress>): Promise<SessionProgress>;
   listMedia(programId?: string): Promise<MediaRecord[]>;
@@ -187,6 +188,26 @@ export class MemoryRepository implements Repository {
   }
   async listGenerated() { await this.ensureSeeded(); return [...this.generated.values()].sort((a, b) => a.title.localeCompare(b.title)); }
   async getGenerated(id: string) { await this.ensureSeeded(); return this.generated.get(id); }
+  /** Remove one saved block and all of its runs and progress from this device. */
+  async deleteGenerated(id: string) {
+    await this.ensureSeeded();
+    const snapshot = this.generated.get(id);
+    if (!snapshot) return;
+    const runs = [...this.runs].filter(([, run]) => run.programId === id);
+    const runIds = new Set(runs.map(([key]) => key));
+    const progress = [...this.progress].filter(([, p]) => runIds.has(p.runId) || p.sessionKey.startsWith(sessionKey(id, "")));
+    this.generated.delete(id);
+    for (const [key] of runs) this.runs.delete(key);
+    for (const [key] of progress) this.progress.delete(key);
+    try {
+      await this.sync();
+    } catch (error) {
+      this.generated.set(id, snapshot);
+      for (const [key, run] of runs) this.runs.set(key, run);
+      for (const [key, p] of progress) this.progress.set(key, p);
+      throw error;
+    }
+  }
   /** Validate and save the full generated payload. Re-importing identical content is a no-op. */
   async importGenerated(raw: unknown) {
     await this.ensureSeeded();

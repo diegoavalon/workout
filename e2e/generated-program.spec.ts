@@ -2,8 +2,8 @@ import { expect, test } from "@playwright/test";
 
 const FILE = "data/generated/pump-lift-3x-seed28-2026-11-02.json";
 
-test("import → activate → start → check → reload → finish → undo", async ({ page }) => {
-  await page.goto("/train");
+test("import (Saved programs) → activate → start → check → reload → finish → undo", async ({ page }) => {
+  await page.goto("/programs/saved");
   await page.locator('input[type="file"]').first().setInputFiles(FILE);
   await expect(page.getByRole("heading", { name: "Pump Lift · 3 days/week" })).toBeVisible();
   await expect(page.getByText("6 weeks · 18 training sessions")).toBeVisible();

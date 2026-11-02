@@ -567,7 +567,7 @@ export function useComposerEditor({
         )
           return;
         const fragment = document.createElement("div");
-        fragment.append(selection.getRangeAt(0).cloneContents());
+        fragment.appendChild(selection.getRangeAt(0).cloneContents());
         const copiedValue = readValue(fragment, false);
         event.clipboardData.setData("text/plain", getComposerText(copiedValue));
         event.clipboardData.setData(
@@ -591,7 +591,7 @@ export function useComposerEditor({
         )
           return;
         const fragment = document.createElement("div");
-        fragment.append(selection.getRangeAt(0).cloneContents());
+        fragment.appendChild(selection.getRangeAt(0).cloneContents());
         const copiedValue = readValue(fragment, false);
         event.clipboardData.setData("text/plain", getComposerText(copiedValue));
         event.clipboardData.setData(
