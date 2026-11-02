@@ -1,6 +1,7 @@
 import { progressExportSchema, validateManifest } from "../domain/manifest";
 import { flatSessions, sessionKey, type Exercise, type ImportReport, type MediaRecord, type Program, type ProgramRun, type SessionProgress } from "../domain/types";
 import { exerciseIdOf, allAssignments } from "../domain/workout";
+import { registerGenerated, validateGeneratedFile, type GeneratedFile, type GeneratedSnapshot } from "../domain/generated-program";
 import { buildSeed, SEED_PROGRAM_IDS } from "./fixtures";
 
 export type BundleInput = { manifest: unknown; files: Record<string, unknown>; library?: unknown[] };
@@ -25,7 +26,12 @@ export interface Repository {
   toggleComplete(runId: string, programId: string, sessionId: string): Promise<SessionProgress>;
   markOpened(runId: string, programId: string, sessionId: string): Promise<void>;
   exportProgress(): Promise<string>;
-  importProgress(json: unknown): Promise<{ runs: number; progress: number }>;
+  importProgress(json: unknown): Promise<{ runs: number; progress: number; generated: number }>;
+  importGenerated(raw: unknown): Promise<{ snapshot?: GeneratedSnapshot; errors: string[]; duplicate: boolean }>;
+  listGenerated(): Promise<GeneratedSnapshot[]>;
+  getGenerated(id: string): Promise<GeneratedSnapshot | undefined>;
+  promoteRun(runId: string): Promise<void>;
+  patchProgress(runId: string, programId: string, sessionId: string, patch: Partial<SessionProgress>): Promise<SessionProgress>;
   listMedia(programId?: string): Promise<MediaRecord[]>;
   setMedia(r: MediaRecord): Promise<void>;
   deleteMedia(programId: string): Promise<void>;
@@ -39,6 +45,7 @@ export class MemoryRepository implements Repository {
   programs = new Map<string, Program>();
   items = new Map<string, Record<string, unknown>[]>();
   exercises = new Map<string, Exercise>();
+  generated = new Map<string, GeneratedSnapshot>();
   runs = new Map<string, ProgramRun>();
   progress = new Map<string, SessionProgress>();
   media = new Map<string, MediaRecord>();
@@ -160,7 +167,8 @@ export class MemoryRepository implements Repository {
     const existing = await this.activeRun(pid);
     if (existing) return existing;
     const program = await this.getProgram(pid);
-    const run: ProgramRun = { id: uid(), programId: pid, contentVersionAtStart: program?.contentVersion ?? "unknown", startedAt: new Date().toISOString() };
+    const now = new Date().toISOString();
+    const run: ProgramRun = { id: uid(), programId: pid, contentVersionAtStart: program?.contentVersion ?? this.generated.get(pid)?.fingerprint ?? "unknown", startedAt: now, ...(this.generated.has(pid) ? { promotedAt: now } : {}) };
     this.runs.set(run.id, run); await this.sync(); return run;
   }
   async endRun(runId: string) { const r = this.runs.get(runId); if (r) { this.runs.set(runId, { ...r, endedAt: new Date().toISOString() }); await this.sync(); } }
@@ -177,15 +185,41 @@ export class MemoryRepository implements Repository {
     const prev = this.progress.get(mapKey);
     this.progress.set(mapKey, { ...prev, runId, sessionKey: key, lastOpenedAt: new Date().toISOString() }); await this.sync();
   }
+  async listGenerated() { await this.ensureSeeded(); return [...this.generated.values()].sort((a, b) => a.title.localeCompare(b.title)); }
+  async getGenerated(id: string) { await this.ensureSeeded(); return this.generated.get(id); }
+  /** Validate and save the full generated payload. Re-importing identical content is a no-op. */
+  async importGenerated(raw: unknown) {
+    await this.ensureSeeded();
+    const errors = validateGeneratedFile(raw);
+    if (errors.length) return { errors, duplicate: false };
+    const snapshot = registerGenerated(structuredClone(raw) as GeneratedFile);
+    const existing = this.generated.get(snapshot.id);
+    if (existing) return { snapshot: existing, errors: [], duplicate: true };
+    this.generated.set(snapshot.id, snapshot); await this.sync();
+    return { snapshot, errors: [], duplicate: false };
+  }
+  /** Make this run the home-screen program without touching any other run or its history. */
+  async promoteRun(runId: string) { const r = this.runs.get(runId); if (r) { this.runs.set(runId, { ...r, promotedAt: new Date().toISOString() }); await this.sync(); } }
+  async patchProgress(runId: string, pid: string, sid: string, patch: Partial<SessionProgress>) {
+    const key = sessionKey(pid, sid); const mapKey = `${runId}::${key}`;
+    const next: SessionProgress = { ...this.progress.get(mapKey), runId, sessionKey: key, ...patch, lastOpenedAt: new Date().toISOString() };
+    this.progress.set(mapKey, next); await this.sync(); return next;
+  }
   async exportProgress() {
-    return JSON.stringify({ kind: "workout-progress", version: 1, runs: [...this.runs.values()], progress: [...this.progress.values()] }, null, 2);
+    return JSON.stringify({ kind: "workout-progress", version: 2, generated: [...this.generated.values()], runs: [...this.runs.values()], progress: [...this.progress.values()] }, null, 2);
   }
   async importProgress(json: unknown) {
     const parsed = progressExportSchema.parse(json);
+    let generated = 0;
+    for (const g of parsed.generated ?? []) {
+      const snap = g as GeneratedSnapshot;
+      if (!snap || typeof snap.id !== "string" || validateGeneratedFile(snap.file).length) throw new Error("Backup contains an invalid generated program.");
+      this.generated.set(snap.id, snap); generated++;
+    }
     for (const r of parsed.runs) this.runs.set(r.id, r);
     for (const p of parsed.progress) this.progress.set(`${p.runId}::${p.sessionKey}`, p);
     await this.sync();
-    return { runs: parsed.runs.length, progress: parsed.progress.length };
+    return { runs: parsed.runs.length, progress: parsed.progress.length, generated };
   }
   async listMedia(pid?: string) { await this.ensureSeeded(); return [...this.media.values()].filter((m) => !pid || m.programId === pid); }
   async setMedia(r: MediaRecord) { this.media.set(r.url, r); await this.sync(); }

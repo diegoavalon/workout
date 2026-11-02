@@ -84,7 +84,7 @@ export function ExerciseCard({ exercise, nested, tracking, complete = false }: E
         </div>
         {!exercise.known && <p className="text-sm text-warning-foreground">This exercise was not found in the library. The prescription is shown as written.</p>}
         {exercise.metrics.length > 0 && (
-          <dl className="grid grid-cols-[repeat(auto-fit,minmax(90px,1fr))] gap-2">
+          <dl className={`grid gap-2 ${exercise.metrics.length === 4 ? "grid-cols-2" : "grid-cols-[repeat(auto-fit,minmax(90px,1fr))]"}`}>
             {exercise.metrics.map((metric) => (
               <div key={metric.key} className="flex flex-col gap-0.5 rounded-[10px] bg-muted px-3 py-2.5 has-[[data-timer-completed=true]]:ring-1 has-[[data-timer-completed=true]]:ring-success/40">
                 <dt className="text-xs font-medium text-muted-foreground">{metric.label}</dt>
@@ -133,7 +133,7 @@ export function WorkoutBlocks({ view, tracking, onTrackingChange }: { view: Work
   const state: WorkoutTracking = { tracking, onTrackingChange };
   return (
     <div className="flex flex-col gap-7">
-      {view.blocks.map((block) => <Block key={block.key} block={block} state={state} />)}
+      {view.blocks.map((block) => <div key={block.key} id={block.key} className="scroll-mt-32"><Block block={block} state={state} /></div>)}
     </div>
   );
 }

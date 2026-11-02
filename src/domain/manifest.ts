@@ -51,10 +51,13 @@ export function validateManifest(input: unknown): { manifest?: Program; issues: 
 
 export const progressExportSchema = z.object({
   kind: z.literal("workout-progress"),
-  version: z.literal(1),
-  runs: z.array(z.object({ id: z.string(), programId: z.string(), contentVersionAtStart: z.string(), startedAt: z.string(), endedAt: z.string().optional() })),
+  version: z.union([z.literal(1), z.literal(2)]),
+  /** Generated program snapshots (v2): a seed cannot rebuild them, so backups carry the payload. */
+  generated: z.array(z.unknown()).optional(),
+  runs: z.array(z.object({ id: z.string(), programId: z.string(), contentVersionAtStart: z.string(), startedAt: z.string(), endedAt: z.string().optional(), promotedAt: z.string().optional() })),
   progress: z.array(z.object({
     runId: z.string(), sessionKey: z.string(),
     completedAt: z.string().optional(), startedAt: z.string().optional(), lastOpenedAt: z.string().optional(),
+    checks: z.record(z.string(), z.array(z.string())).optional(), note: z.string().optional(), lastSection: z.string().optional(), savedAt: z.string().optional(),
   })),
 });

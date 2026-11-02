@@ -164,7 +164,7 @@ export function buildWorkoutView(items: readonly Record<string, unknown>[], exer
           kind: "superset", key, label: lt,
           title: typeof item.title === "string" && item.title.trim() ? item.title : `Superset ${lt}`,
           ariaLabel: typeof item.title === "string" && item.title.trim() ? item.title : `Superset ${lt}`,
-          subtitle: "Alternate exercises",
+          subtitle: "Superset",
           roundCount: supersetRoundCount(item, subs),
           timers, preferredTimerId: preferred?.id ?? null, notes: [],
           exercises: subs.map((sa, j) => exerciseView(sa, lt + (j + 1), exerciseIndex, false, `${key}-${String(sa.itemId ?? j)}`)),
@@ -175,7 +175,7 @@ export function buildWorkoutView(items: readonly Record<string, unknown>[], exer
       blocks.push({
         kind: "section", key, title,
         ariaLabel: typeof item.title === "string" ? item.title : isSuperset ? `Superset ${lt}` : `Group ${lt}`,
-        subtitle: isSection ? `${subs.length} exercises · in order` : isSuperset ? `Alternate exercises${typeof item.rest === "number" ? ` · rest ${fmtSeconds(item.rest)} after each round` : ""}` : "Complete in order",
+        subtitle: isSection ? `${subs.length} exercises · in order` : isSuperset ? `Superset${typeof item.rest === "number" ? ` · rest ${fmtSeconds(item.rest)} after each round` : ""}` : "Complete in order",
         framed: !isSection, notes: [],
         exercises: subs.map((sa, j) => exerciseView(sa, isSection ? String(j + 1) : lt + (j + 1), exerciseIndex, true, `${key}-${String(sa.itemId ?? j)}`)),
       });

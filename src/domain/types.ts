@@ -46,6 +46,8 @@ export type ProgramRun = {
   contentVersionAtStart: string;
   startedAt: string;
   endedAt?: string;
+  /** Set when the run is made the promoted (home-screen) program; latest wins. */
+  promotedAt?: string;
 };
 export type SessionProgress = {
   runId: string;
@@ -53,6 +55,12 @@ export type SessionProgress = {
   completedAt?: string;
   startedAt?: string;
   lastOpenedAt?: string;
+  /** Generated sessions: saved set/round checkmarks keyed by view-model key. */
+  checks?: Record<string, string[]>;
+  note?: string;
+  /** Title of the section last touched, for "Resume session". */
+  lastSection?: string;
+  savedAt?: string;
 };
 export type MediaRecord = {
   url: string;

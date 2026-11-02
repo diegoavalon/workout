@@ -43,7 +43,7 @@ describe("buildGeneratedDayView", () => {
     const [lift] = section.exercises;
     expect(lift).toMatchObject({ label: "C", title: "Sumo Deadlift", known: true, trackingCount: 2 });
     expect(lift.setDetails).toEqual(["Warm-up: 10 reps (easy)", "Set 1: 10 reps @ RPE 7", "Set 2: 6 reps @ RPE 9"]);
-    expect(lift.metrics.find((m) => m.label === "Rest")).toMatchObject({ value: "2:00–3:00", timerSeconds: null });
+    expect(lift.metrics.find((m) => m.label === "Rest")).toMatchObject({ value: "2:00–3:00", timerSeconds: 120 });
     expect(lift.metrics.find((m) => m.label === "Tempo")?.value).toBe("20X0");
 
     const [superset] = byKind(view.blocks, "superset");

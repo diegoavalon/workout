@@ -1,0 +1,2146 @@
+[
+ {
+  "name": "Cardio Of Choice",
+  "uses": 1287
+ },
+ {
+  "name": "Cardio Sprint",
+  "uses": 429
+ },
+ {
+  "name": "Run",
+  "uses": 181
+ },
+ {
+  "name": "Walk",
+  "uses": 138
+ },
+ {
+  "name": "Child Pose Lat Stretch",
+  "uses": 107
+ },
+ {
+  "name": "Romanian Deadlift",
+  "uses": 95
+ },
+ {
+  "name": "Banded Lat Stretch",
+  "uses": 94
+ },
+ {
+  "name": "Run/Bike/Row",
+  "uses": 89
+ },
+ {
+  "name": "Barbell Skullcrusher",
+  "uses": 87
+ },
+ {
+  "name": "Slantboard Jefferson Pulse",
+  "uses": 87
+ },
+ {
+  "name": "Seated Shoulder Extension Stretch",
+  "uses": 78
+ },
+ {
+  "name": "Row Or Jog",
+  "uses": 76
+ },
+ {
+  "name": "Elevated Pigeon Stretch",
+  "uses": 75
+ },
+ {
+  "name": "Banded Single Arm Chest Stretch",
+  "uses": 72
+ },
+ {
+  "name": "Banded Reverse Nordic",
+  "uses": 66
+ },
+ {
+  "name": "Lower Switch Cossack Squat",
+  "uses": 64
+ },
+ {
+  "name": "Assisted Nordic Hamstring Curl",
+  "uses": 54
+ },
+ {
+  "name": "Strict Press",
+  "uses": 51
+ },
+ {
+  "name": "Foot Elevated Hip Flexion Stretch",
+  "uses": 48
+ },
+ {
+  "name": "Pvc Shoulder Extension Stretch",
+  "uses": 48
+ },
+ {
+  "name": "Pvc Prayer Stretch",
+  "uses": 44
+ },
+ {
+  "name": "Single Leg Hand Support Dumbbell Romanian Deadlift",
+  "uses": 44
+ },
+ {
+  "name": "Tall Kneeling Kettlebell Halo",
+  "uses": 44
+ },
+ {
+  "name": "Banded Single Arm Lat Stretch",
+  "uses": 42
+ },
+ {
+  "name": "Shinbox Er Stretch",
+  "uses": 42
+ },
+ {
+  "name": "Wall Reverse Shoulder Circle",
+  "uses": 40
+ },
+ {
+  "name": "Banded Shoulder Flexion Stretch",
+  "uses": 39
+ },
+ {
+  "name": "Dumbbell Skullcrusher",
+  "uses": 39
+ },
+ {
+  "name": "Sidelying Thoracic Rotation Sweep",
+  "uses": 39
+ },
+ {
+  "name": "Banded Single Arm Cross Body Stretch",
+  "uses": 36
+ },
+ {
+  "name": "Middle Split Hip Hinge",
+  "uses": 36
+ },
+ {
+  "name": "Thoracic Spine Can Opener",
+  "uses": 36
+ },
+ {
+  "name": "Incline Prone Dumbbell Row",
+  "uses": 34
+ },
+ {
+  "name": "Suitcase Rear Foot Elevated Split Squat",
+  "uses": 33
+ },
+ {
+  "name": "Feet Anchored Sit Up",
+  "uses": 32
+ },
+ {
+  "name": "Dual Kettlebell Rack Lateral Band Walk",
+  "uses": 30
+ },
+ {
+  "name": "Dumbbell Front Squat",
+  "uses": 30
+ },
+ {
+  "name": "Run Bike Ski Or Row",
+  "uses": 30
+ },
+ {
+  "name": "Standing Kettlebell Windmill",
+  "uses": 30
+ },
+ {
+  "name": "Deficit Dumbbell Sumo Deadlift",
+  "uses": 28
+ },
+ {
+  "name": "Dumbbell Er On Knee",
+  "uses": 28
+ },
+ {
+  "name": "Single Leg Dumbbell Glute Bridge",
+  "uses": 28
+ },
+ {
+  "name": "Alternating Landmine Rotational Deadlift",
+  "uses": 27
+ },
+ {
+  "name": "B Stance Hip Thrust",
+  "uses": 27
+ },
+ {
+  "name": "Lumbar Roll To Pancake Stretch",
+  "uses": 27
+ },
+ {
+  "name": "Dumbbell Pullover",
+  "uses": 25
+ },
+ {
+  "name": "Seated Dumbbell Press",
+  "uses": 25
+ },
+ {
+  "name": "Band Single Arm Pec Stretch",
+  "uses": 24
+ },
+ {
+  "name": "Bike Calorie",
+  "uses": 24
+ },
+ {
+  "name": "Crush Grip Rotational Deadlift",
+  "uses": 24
+ },
+ {
+  "name": "Deficit Wide Push Up",
+  "uses": 24
+ },
+ {
+  "name": "Narrow Push Up",
+  "uses": 24
+ },
+ {
+  "name": "Quadruped Crawl Reverse",
+  "uses": 24
+ },
+ {
+  "name": "Row Calorie",
+  "uses": 24
+ },
+ {
+  "name": "Supinated Lat Pulldown",
+  "uses": 24
+ },
+ {
+  "name": "Weighted Hanging Knee Tuck",
+  "uses": 24
+ },
+ {
+  "name": "Butterfly Stretch Fold",
+  "uses": 23
+ },
+ {
+  "name": "Dumbbell Seated Good Morning",
+  "uses": 23
+ },
+ {
+  "name": "Wrist Circle",
+  "uses": 23
+ },
+ {
+  "name": "Dumbbell Push Press",
+  "uses": 22
+ },
+ {
+  "name": "Floor Press",
+  "uses": 21
+ },
+ {
+  "name": "Squat Jump",
+  "uses": 21
+ },
+ {
+  "name": "Stiff Leg Deadlift",
+  "uses": 21
+ },
+ {
+  "name": "Band Pullapart",
+  "uses": 20
+ },
+ {
+  "name": "Dumbbell Strict Press",
+  "uses": 20
+ },
+ {
+  "name": "Dumbbell Hang Power Clean",
+  "uses": 19
+ },
+ {
+  "name": "Renegade Row",
+  "uses": 19
+ },
+ {
+  "name": "Run Row Or Bike",
+  "uses": 19
+ },
+ {
+  "name": "Cross Body Toe Touch",
+  "uses": 18
+ },
+ {
+  "name": "Dumbbell Bent Over Elbowing Row",
+  "uses": 18
+ },
+ {
+  "name": "Hamstring Walkout",
+  "uses": 18
+ },
+ {
+  "name": "Hollow Hold",
+  "uses": 18
+ },
+ {
+  "name": "Lumbar Roll To Pike Stretch",
+  "uses": 18
+ },
+ {
+  "name": "Powell Raise",
+  "uses": 18
+ },
+ {
+  "name": "Push Press",
+  "uses": 18
+ },
+ {
+  "name": "Sidelying Thoracic Rotation W/Reach",
+  "uses": 18
+ },
+ {
+  "name": "Switch Lunge",
+  "uses": 18
+ },
+ {
+  "name": "Tall Kneeling Lat Stretch",
+  "uses": 18
+ },
+ {
+  "name": "Weighted Straddle Stretch",
+  "uses": 18
+ },
+ {
+  "name": "Dumbbell Fly On Floor",
+  "uses": 17
+ },
+ {
+  "name": "Bent Over Row Isometric",
+  "uses": 16
+ },
+ {
+  "name": "Half Kneeling Hamstring To Half Kneeling Hip Flexor Flow",
+  "uses": 16
+ },
+ {
+  "name": "Band Assisted Reverse Nordic",
+  "uses": 15
+ },
+ {
+  "name": "Band Or Cable Straight Arm Lat Pulldown",
+  "uses": 15
+ },
+ {
+  "name": "Bike Buy In",
+  "uses": 15
+ },
+ {
+  "name": "Hand Support Suitcase Calf Raise",
+  "uses": 15
+ },
+ {
+  "name": "Hand Support Suitcase Single Leg Calf Raise",
+  "uses": 15
+ },
+ {
+  "name": "Hanging Oblique Raise",
+  "uses": 15
+ },
+ {
+  "name": "Incline Dumbbell Fly",
+  "uses": 15
+ },
+ {
+  "name": "Quadruped Crawl Backward",
+  "uses": 15
+ },
+ {
+  "name": "Side Plank Powell Raise",
+  "uses": 15
+ },
+ {
+  "name": "Single Arm Dumbbell Lean Away Lateral Raise",
+  "uses": 15
+ },
+ {
+  "name": "Single Leg Hip Thrust",
+  "uses": 15
+ },
+ {
+  "name": "Supinated Body Row",
+  "uses": 15
+ },
+ {
+  "name": "Supine Band Lat Pullover",
+  "uses": 15
+ },
+ {
+  "name": "1/2 Turkish Get Up",
+  "uses": 14
+ },
+ {
+  "name": "Close Grip Barbell Bench Press",
+  "uses": 14
+ },
+ {
+  "name": "Dumbbell Rack Tall Kneel To Stand",
+  "uses": 14
+ },
+ {
+  "name": "Kettlebell Bottoms Up Carry",
+  "uses": 14
+ },
+ {
+  "name": "Reverse Barbell Curl",
+  "uses": 14
+ },
+ {
+  "name": "Seated Behind The Neck Press",
+  "uses": 14
+ },
+ {
+  "name": "Shinbox Hip Ir Stretch",
+  "uses": 14
+ },
+ {
+  "name": "Wide Grip Barbell Bench Press",
+  "uses": 14
+ },
+ {
+  "name": "Cable Or Banded Face Pull",
+  "uses": 13
+ },
+ {
+  "name": "Dumbbell Suitcase Reverse Lunge",
+  "uses": 13
+ },
+ {
+  "name": "Goblet Tall Kneel To Stand",
+  "uses": 13
+ },
+ {
+  "name": "Alternating Dumbbell Snatch",
+  "uses": 12
+ },
+ {
+  "name": "Alternating Single Arm Split Stance Kettlebell Swing",
+  "uses": 12
+ },
+ {
+  "name": "Back Supported Barbell Strict Press",
+  "uses": 12
+ },
+ {
+  "name": "Barbell B Stance Hip Thrust",
+  "uses": 12
+ },
+ {
+  "name": "Barbell Incline Bench Press",
+  "uses": 12
+ },
+ {
+  "name": "Cable Forearm Curl",
+  "uses": 12
+ },
+ {
+  "name": "Dumbbell Meadows Row",
+  "uses": 12
+ },
+ {
+  "name": "Half Kneeling Single Arm Dumbbell Strict Press",
+  "uses": 12
+ },
+ {
+  "name": "Low Handle Landmine Cossack Squat",
+  "uses": 12
+ },
+ {
+  "name": "Offset Kettlebell Push Up",
+  "uses": 12
+ },
+ {
+  "name": "Plank To Alternating Toe Touch",
+  "uses": 12
+ },
+ {
+  "name": "Single Dumbbell Romanian Deadlift",
+  "uses": 12
+ },
+ {
+  "name": "Suitcase Walking Lunge",
+  "uses": 12
+ },
+ {
+  "name": "Burpee Box Jump",
+  "uses": 11
+ },
+ {
+  "name": "Glute Bridge Alternating Dumbbell Floor Press",
+  "uses": 11
+ },
+ {
+  "name": "Split Stance Dual Kettlebell Row",
+  "uses": 11
+ },
+ {
+  "name": "Tall Kneeling Triceps Stretch",
+  "uses": 11
+ },
+ {
+  "name": "Waiter Curl",
+  "uses": 11
+ },
+ {
+  "name": "Bike Or Row",
+  "uses": 10
+ },
+ {
+  "name": "Downward Dog Shoulder Tap",
+  "uses": 10
+ },
+ {
+  "name": "Dumbbell Arnold Press",
+  "uses": 10
+ },
+ {
+  "name": "Dumbbell Bent Over Row Isometric",
+  "uses": 10
+ },
+ {
+  "name": "L Sit",
+  "uses": 10
+ },
+ {
+  "name": "Narrow Tricep Push Up",
+  "uses": 10
+ },
+ {
+  "name": "Suitcase Short Step Walking Lunge",
+  "uses": 10
+ },
+ {
+  "name": "Wide Grip Barbell Row",
+  "uses": 10
+ },
+ {
+  "name": "Wide Push Up",
+  "uses": 10
+ },
+ {
+  "name": "Alternating Kettlebell Press",
+  "uses": 9
+ },
+ {
+  "name": "Dumbbell Cross Body Hammer Curl",
+  "uses": 9
+ },
+ {
+  "name": "Dumbbell Frog Pump",
+  "uses": 9
+ },
+ {
+  "name": "Hands On Bench Tricep Push Up",
+  "uses": 9
+ },
+ {
+  "name": "Poliquin Step",
+  "uses": 9
+ },
+ {
+  "name": "Single Arm Dumbbell Press",
+  "uses": 9
+ },
+ {
+  "name": "Suitcase Russian Step Up",
+  "uses": 9
+ },
+ {
+  "name": "Tuck L Sit",
+  "uses": 9
+ },
+ {
+  "name": "1 1/4 Hip Thrust",
+  "uses": 8
+ },
+ {
+  "name": "Assisted Kot Squat",
+  "uses": 8
+ },
+ {
+  "name": "Banded Straight Arm Pulldown",
+  "uses": 8
+ },
+ {
+  "name": "Bodyweight Cyclist Pulse Squat",
+  "uses": 8
+ },
+ {
+  "name": "Dumbbell Cyclist Front Squat",
+  "uses": 8
+ },
+ {
+  "name": "Dumbbell Front Rack Walking Lunge",
+  "uses": 8
+ },
+ {
+  "name": "Dumbbell Shrug",
+  "uses": 8
+ },
+ {
+  "name": "Elevated Side Plank Hip Tap",
+  "uses": 8
+ },
+ {
+  "name": "Front Foot Elevated Back Rack Kot Split Squat",
+  "uses": 8
+ },
+ {
+  "name": "Front Foot Elevated Kot Suitcase Split Squat",
+  "uses": 8
+ },
+ {
+  "name": "Half Kneeling Windmill",
+  "uses": 8
+ },
+ {
+  "name": "Incline Y Raise",
+  "uses": 8
+ },
+ {
+  "name": "Kettlebell Farmers Carry",
+  "uses": 8
+ },
+ {
+  "name": "Plate Loaded Turkish Sit Up",
+  "uses": 8
+ },
+ {
+  "name": "Single Arm Banded/Cable Lat Pulldown",
+  "uses": 8
+ },
+ {
+  "name": "Single Arm Suitcase Reverse Lunge",
+  "uses": 8
+ },
+ {
+  "name": "Single Leg Straight Leg Bridge Hold",
+  "uses": 8
+ },
+ {
+  "name": "Split Stance Isometric W/Pulse",
+  "uses": 8
+ },
+ {
+  "name": "Straight Leg Bridge Hold",
+  "uses": 8
+ },
+ {
+  "name": "Suitcase Kot Split Squat",
+  "uses": 8
+ },
+ {
+  "name": "Bench Support Landmine Meadow",
+  "uses": 7
+ },
+ {
+  "name": "Cobra Leg Behind Squat",
+  "uses": 7
+ },
+ {
+  "name": "Dip Support",
+  "uses": 7
+ },
+ {
+  "name": "Dual Kettlebell Rack Tall Kneel To Stand",
+  "uses": 7
+ },
+ {
+  "name": "Dumbbell Pendlay Row",
+  "uses": 7
+ },
+ {
+  "name": "Dumbbell Turkish Sit Up",
+  "uses": 7
+ },
+ {
+  "name": "Goblet Kickstand Squat",
+  "uses": 7
+ },
+ {
+  "name": "Kettlebell Push Press",
+  "uses": 7
+ },
+ {
+  "name": "Leg Behind Goblet Squat",
+  "uses": 7
+ },
+ {
+  "name": "Parallette Push Up",
+  "uses": 7
+ },
+ {
+  "name": "Plate Loaded Leg Behind Squat",
+  "uses": 7
+ },
+ {
+  "name": "Wall Ball",
+  "uses": 7
+ },
+ {
+  "name": "Bent Over Dumbbell Reverse Fly",
+  "uses": 6
+ },
+ {
+  "name": "Bike Sprint",
+  "uses": 6
+ },
+ {
+  "name": "Child Pose W Lat Stretch",
+  "uses": 6
+ },
+ {
+  "name": "Controlled 90/90 Hip Roll",
+  "uses": 6
+ },
+ {
+  "name": "Donkey Calf Raise",
+  "uses": 6
+ },
+ {
+  "name": "Dual Dumbbell Rack Carry",
+  "uses": 6
+ },
+ {
+  "name": "Dual Kettlebell Rack Carry",
+  "uses": 6
+ },
+ {
+  "name": "Dual Kettlebell Russian Swing",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell Curl Run The Rack",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell Deadlift",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell External Rotation On Knee",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell Hammer Curl",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell/Kettlebell Gorilla Row",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell Rolling Skullcrusher",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell Sumo Deadlift",
+  "uses": 6
+ },
+ {
+  "name": "Dumbbell Sumo Romanian Deadlift",
+  "uses": 6
+ },
+ {
+  "name": "Filly Carry",
+  "uses": 6
+ },
+ {
+  "name": "Hollow Body Rock",
+  "uses": 6
+ },
+ {
+  "name": "Horn Grip Kettlebell Curl",
+  "uses": 6
+ },
+ {
+  "name": "L Hang",
+  "uses": 6
+ },
+ {
+  "name": "Leg Behind Plate Loaded Pistol",
+  "uses": 6
+ },
+ {
+  "name": "Mixed Front Rack Overhead Kettlebell Carry",
+  "uses": 6
+ },
+ {
+  "name": "Narrow Grip Push Up",
+  "uses": 6
+ },
+ {
+  "name": "Plank Or Ring Body Saw",
+  "uses": 6
+ },
+ {
+  "name": "Plank Press Up",
+  "uses": 6
+ },
+ {
+  "name": "Ring Or Plank Body Saw",
+  "uses": 6
+ },
+ {
+  "name": "Row Cal",
+  "uses": 6
+ },
+ {
+  "name": "Seated Dumbbell Strict Press",
+  "uses": 6
+ },
+ {
+  "name": "Sidelying Thoracic Sweep",
+  "uses": 6
+ },
+ {
+  "name": "Single Arm Russian Swing",
+  "uses": 6
+ },
+ {
+  "name": "Single Leg Donkey Calf Raise",
+  "uses": 6
+ },
+ {
+  "name": "Single Leg Dumbbell Suitcase Calf Raise",
+  "uses": 6
+ },
+ {
+  "name": "Single Leg V Up",
+  "uses": 6
+ },
+ {
+  "name": "Strict Muscle Up",
+  "uses": 6
+ },
+ {
+  "name": "Strict Pull Up",
+  "uses": 6
+ },
+ {
+  "name": "Sumo Dumbbell Romanian Deadlift",
+  "uses": 6
+ },
+ {
+  "name": "Wall Leaning Double Calf Raise",
+  "uses": 6
+ },
+ {
+  "name": "Wide Grip Barbell Bent Over Row",
+  "uses": 6
+ },
+ {
+  "name": "Alternating Dumbbell Power Clean",
+  "uses": 5
+ },
+ {
+  "name": "Alternating Kettlebell Gorilla Row",
+  "uses": 5
+ },
+ {
+  "name": "Alternating Single Arm Dumbbell Rack Tall Kneel To Stand",
+  "uses": 5
+ },
+ {
+  "name": "Band Behind The Back Stretch",
+  "uses": 5
+ },
+ {
+  "name": "Cable Tricep Pushdown",
+  "uses": 5
+ },
+ {
+  "name": "Chainsaw Row Left Arm",
+  "uses": 5
+ },
+ {
+  "name": "Chainsaw Row Right Arm",
+  "uses": 5
+ },
+ {
+  "name": "Dip Support Knee Raise",
+  "uses": 5
+ },
+ {
+  "name": "Dual Kettlebell/Dumbbell Rack Curtsy Squat",
+  "uses": 5
+ },
+ {
+  "name": "Dual Kettlebell/Dumbbell Rack Tall Kneel To Stand",
+  "uses": 5
+ },
+ {
+  "name": "Dumbbell Narrow Grip Bench Press",
+  "uses": 5
+ },
+ {
+  "name": "Dumbbell Seated Goodmoring",
+  "uses": 5
+ },
+ {
+  "name": "Dumbbell Z Press",
+  "uses": 5
+ },
+ {
+  "name": "Front Foot Elevated Hand Support Suitcase Kot Split Squat",
+  "uses": 5
+ },
+ {
+  "name": "Hand Support Knee Over Toe Split Squat",
+  "uses": 5
+ },
+ {
+  "name": "Head Support Bent Over Dumbbell Row",
+  "uses": 5
+ },
+ {
+  "name": "Kettlebell Farmers Carry Or",
+  "uses": 5
+ },
+ {
+  "name": "Kettlebell Overhead Carry",
+  "uses": 5
+ },
+ {
+  "name": "Kettlebell Snatch",
+  "uses": 5
+ },
+ {
+  "name": "Neutral Grip Pull Up",
+  "uses": 5
+ },
+ {
+  "name": "Overhead Carry",
+  "uses": 5
+ },
+ {
+  "name": "Reverse Plank Bridge With Hip Lift",
+  "uses": 5
+ },
+ {
+  "name": "Ring Muscle Up",
+  "uses": 5
+ },
+ {
+  "name": "Seated Dumbbell Filly Press",
+  "uses": 5
+ },
+ {
+  "name": "Supinated Grip Dumbbell Bench Press",
+  "uses": 5
+ },
+ {
+  "name": "Alternating Single Arm Dumbbell Devil Press",
+  "uses": 4
+ },
+ {
+  "name": "Alternating Suitcase Kot Forward Elevated Lunge",
+  "uses": 4
+ },
+ {
+  "name": "Arnold Z Press",
+  "uses": 4
+ },
+ {
+  "name": "Banded Chest Stretch",
+  "uses": 4
+ },
+ {
+  "name": "Bar Or Ring Muscle Up",
+  "uses": 4
+ },
+ {
+  "name": "Cross Body Carry",
+  "uses": 4
+ },
+ {
+  "name": "Cross Body Kettlebell Carry",
+  "uses": 4
+ },
+ {
+  "name": "Crush Grip Dumbbell Curl",
+  "uses": 4
+ },
+ {
+  "name": "Deficit Or Parallette Push Up",
+  "uses": 4
+ },
+ {
+  "name": "Double Kettlebell Clean",
+  "uses": 4
+ },
+ {
+  "name": "Dual Kettlebell Front Rack Carry",
+  "uses": 4
+ },
+ {
+  "name": "Dumbbell Bent Over Meadows Row",
+  "uses": 4
+ },
+ {
+  "name": "Dumbbell Box Step Up",
+  "uses": 4
+ },
+ {
+  "name": "Dumbbell Glute Bridge Floor Press",
+  "uses": 4
+ },
+ {
+  "name": "Dumbbell Rack Carry",
+  "uses": 4
+ },
+ {
+  "name": "Dumbbell Rack Curtsy Squat",
+  "uses": 4
+ },
+ {
+  "name": "Dumbbell Suitcase Kot Split Squat",
+  "uses": 4
+ },
+ {
+  "name": "Farmers Carry",
+  "uses": 4
+ },
+ {
+  "name": "Forward Fold With Rotation",
+  "uses": 4
+ },
+ {
+  "name": "Hand On Bench Narrow Grip Push Up",
+  "uses": 4
+ },
+ {
+  "name": "Hands On Bench Push Up",
+  "uses": 4
+ },
+ {
+  "name": "Head Support Dumbbell Rear Delt Fly",
+  "uses": 4
+ },
+ {
+  "name": "Jm Press",
+  "uses": 4
+ },
+ {
+  "name": "Kettlebell Goblet Carry",
+  "uses": 4
+ },
+ {
+  "name": "Kettlebell Rack Alternating Curtsy Squat",
+  "uses": 4
+ },
+ {
+  "name": "Lateral Burpee Over Dumbbell",
+  "uses": 4
+ },
+ {
+  "name": "Left Leg Goblet Cossack Lunge",
+  "uses": 4
+ },
+ {
+  "name": "Pike Hs Hold",
+  "uses": 4
+ },
+ {
+  "name": "Rear Delt Swing",
+  "uses": 4
+ },
+ {
+  "name": "Right Leg Goblet Cossack Lunge",
+  "uses": 4
+ },
+ {
+  "name": "Side Star Plank",
+  "uses": 4
+ },
+ {
+  "name": "Single Arm Prayer Stretch",
+  "uses": 4
+ },
+ {
+  "name": "Standing Band Abduction",
+  "uses": 4
+ },
+ {
+  "name": "Straight Leg Sit Up",
+  "uses": 4
+ },
+ {
+  "name": "Strict Kettlebell Press",
+  "uses": 4
+ },
+ {
+  "name": "Suitcase Front Foot Elevated Kot Split Squat",
+  "uses": 4
+ },
+ {
+  "name": "Suitcase Knee Over Toe Split Squat",
+  "uses": 4
+ },
+ {
+  "name": "Weighted Or Bodyweight Hanging Knee Tuck",
+  "uses": 4
+ },
+ {
+  "name": "1 1/4 Cyclist Goblet Squat",
+  "uses": 3
+ },
+ {
+  "name": "Ab Wheel",
+  "uses": 3
+ },
+ {
+  "name": "Alternating Dumbbell Glute Bridge Floor Press",
+  "uses": 3
+ },
+ {
+  "name": "Alternating Single Arm Kettlebell Split Stance Swing",
+  "uses": 3
+ },
+ {
+  "name": "Back Supported Arnold Press",
+  "uses": 3
+ },
+ {
+  "name": "Back Supported Dumbbell Arnold Press",
+  "uses": 3
+ },
+ {
+  "name": "Barbell Curl 21s",
+  "uses": 3
+ },
+ {
+  "name": "Bent Over Reverse Fly",
+  "uses": 3
+ },
+ {
+  "name": "Bike Buy Out",
+  "uses": 3
+ },
+ {
+  "name": "Bike Max Calories In Time Remaining",
+  "uses": 3
+ },
+ {
+  "name": "Burpee Buy In",
+  "uses": 3
+ },
+ {
+  "name": "Burpee No Jump",
+  "uses": 3
+ },
+ {
+  "name": "Burpee Plate Jump",
+  "uses": 3
+ },
+ {
+  "name": "Burpee Pull Up",
+  "uses": 3
+ },
+ {
+  "name": "Cable Or Banded Abduction",
+  "uses": 3
+ },
+ {
+  "name": "Cable Or Banded Adduction",
+  "uses": 3
+ },
+ {
+  "name": "Cable Straight Arm Lat Pulldown",
+  "uses": 3
+ },
+ {
+  "name": "Crush Grip Dumbbell Hollow Hold",
+  "uses": 3
+ },
+ {
+  "name": "Deadstop Hike Kettlebell",
+  "uses": 3
+ },
+ {
+  "name": "Dual Dumbbell Curl",
+  "uses": 3
+ },
+ {
+  "name": "Dual Kettlebell Rack Single Leg Wall Sit",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Alternating Z Press",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Curl 21s",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Hamstring March",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Hollow Body Hold",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Hollow Body Rock",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Incline Bench Press",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell/Kettlebell Front Rack Front Foot Elevated Split Squat",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell/Kettlebell Front Rack Rear Foot Elevated Split Squat",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Lean Away Lateral Raise",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Overhead Carry",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Side Plank Rotation",
+  "uses": 3
+ },
+ {
+  "name": "Dumbbell Squat Clean",
+  "uses": 3
+ },
+ {
+  "name": "Filly Carry Tough",
+  "uses": 3
+ },
+ {
+  "name": "Front Foot Elevated Hand Support Kot Suitcase Split Squat",
+  "uses": 3
+ },
+ {
+  "name": "Gliding Hamstring Curl",
+  "uses": 3
+ },
+ {
+  "name": "Hamstring Walk Out",
+  "uses": 3
+ },
+ {
+  "name": "Hand Support Dumbbell Knee Over Toe Split Squat",
+  "uses": 3
+ },
+ {
+  "name": "Hang Clean",
+  "uses": 3
+ },
+ {
+  "name": "Incline Narrow Grip Dumbbell Bench Press",
+  "uses": 3
+ },
+ {
+  "name": "Kettlebell Plank Pass Through",
+  "uses": 3
+ },
+ {
+  "name": "Kettlebell Plank Pull Through",
+  "uses": 3
+ },
+ {
+  "name": "Kettlebell Rack Carry Or",
+  "uses": 3
+ },
+ {
+  "name": "Kettlebell Rack Carry Tough",
+  "uses": 3
+ },
+ {
+  "name": "Landmine Kot Squat",
+  "uses": 3
+ },
+ {
+  "name": "Left Leg Goblet Kickstand Squat",
+  "uses": 3
+ },
+ {
+  "name": "Mixed Front Rack Overhead Carry",
+  "uses": 3
+ },
+ {
+  "name": "Mixed Front Rack Overhead Dumbbell Carry",
+  "uses": 3
+ },
+ {
+  "name": "Neutral Grip Ring Row",
+  "uses": 3
+ },
+ {
+  "name": "Pause At Knee Clean",
+  "uses": 3
+ },
+ {
+  "name": "Plank Knee To Elbow",
+  "uses": 3
+ },
+ {
+  "name": "Pronated Grip Ring Row",
+  "uses": 3
+ },
+ {
+  "name": "Right Leg Goblet Kickstand Squat",
+  "uses": 3
+ },
+ {
+  "name": "Right Leg Goblet Step Up",
+  "uses": 3
+ },
+ {
+  "name": "Ring Or Bar Dip Support",
+  "uses": 3
+ },
+ {
+  "name": "Row Max Meters In Time Remaining",
+  "uses": 3
+ },
+ {
+  "name": "Rower Hamstring Curl",
+  "uses": 3
+ },
+ {
+  "name": "Seated Alternating Dumbbell Press",
+  "uses": 3
+ },
+ {
+  "name": "Sidelying Powell Raise On Bench",
+  "uses": 3
+ },
+ {
+  "name": "Single Arm Alternating Devils Press",
+  "uses": 3
+ },
+ {
+  "name": "Single Arm Dumbbell Meadow Row",
+  "uses": 3
+ },
+ {
+  "name": "Single Leg Banded Adduction",
+  "uses": 3
+ },
+ {
+  "name": "Slide Hamstring Curl",
+  "uses": 3
+ },
+ {
+  "name": "Split Stance Dual Kettlebell Deadlift",
+  "uses": 3
+ },
+ {
+  "name": "Split Stance Dual Kettlebell Romanian Deadlift",
+  "uses": 3
+ },
+ {
+  "name": "Split Stance Isometric Hold W/Pulse",
+  "uses": 3
+ },
+ {
+  "name": "Strict Handstand Push Up",
+  "uses": 3
+ },
+ {
+  "name": "Supinated Band Pullapart",
+  "uses": 3
+ },
+ {
+  "name": "Supinated Pull Up Negative",
+  "uses": 3
+ },
+ {
+  "name": "Wall Sit Single Leg March",
+  "uses": 3
+ },
+ {
+  "name": "Weighted Hanging Leg Tuck",
+  "uses": 3
+ },
+ {
+  "name": "Wide Grip Pull Up",
+  "uses": 3
+ },
+ {
+  "name": "Alternating Dumbbell Bicep Curl Drop Set",
+  "uses": 2
+ },
+ {
+  "name": "Alternating Dumbbell Clean",
+  "uses": 2
+ },
+ {
+  "name": "Alternating Oblique Raise In Dip Support",
+  "uses": 2
+ },
+ {
+  "name": "Band Or Cable Chest Fly",
+  "uses": 2
+ },
+ {
+  "name": "Barbell Sumo Deadlift High Pull",
+  "uses": 2
+ },
+ {
+  "name": "Behind The Neck Split Jerk",
+  "uses": 2
+ },
+ {
+  "name": "Bent Over Reverse Dumbbell Fly",
+  "uses": 2
+ },
+ {
+  "name": "Bike Cal",
+  "uses": 2
+ },
+ {
+  "name": "Box Jump",
+  "uses": 2
+ },
+ {
+  "name": "Calories Row",
+  "uses": 2
+ },
+ {
+  "name": "Chainsaw Dumbbell Row",
+  "uses": 2
+ },
+ {
+  "name": "Chest To Bar Kipping Pull Up",
+  "uses": 2
+ },
+ {
+  "name": "Crush Grip Hammer Curl",
+  "uses": 2
+ },
+ {
+  "name": "Cyclist Goblet Squat",
+  "uses": 2
+ },
+ {
+  "name": "Decline Or Weighted Feet Anchored Sit Up",
+  "uses": 2
+ },
+ {
+  "name": "Dip Support Knee Tuck",
+  "uses": 2
+ },
+ {
+  "name": "Dual Dumbbell Arnold Press",
+  "uses": 2
+ },
+ {
+  "name": "Dual Dumbbell Rack Tall Kneel To Stand",
+  "uses": 2
+ },
+ {
+  "name": "Dual Dumbbell Sumo Dl High Pull",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Crush Grip Overhead Tricep Extension",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Flat Bench Chest Fly",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Hang Snatch",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Overhead Tricep Extension Density Set",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Single Leg Hip Thrust",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Skullcrusher Density Set",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Split Stance Romanian Deadlift",
+  "uses": 2
+ },
+ {
+  "name": "Dumbbell Suitcase Rear Foot Elevated Split Squat",
+  "uses": 2
+ },
+ {
+  "name": "Half Kneeling Dumbbell/Kettlebell See Saw Press",
+  "uses": 2
+ },
+ {
+  "name": "Half Kneeling Dumbbell Press",
+  "uses": 2
+ },
+ {
+  "name": "Half Kneeling Kettlebell Press",
+  "uses": 2
+ },
+ {
+  "name": "Hammer Curl Drop Set",
+  "uses": 2
+ },
+ {
+  "name": "Hip Thrust March",
+  "uses": 2
+ },
+ {
+  "name": "Hollow Body Scissor Kick",
+  "uses": 2
+ },
+ {
+  "name": "Incline Alternating Dumbbell Bicep Curl",
+  "uses": 2
+ },
+ {
+  "name": "Incline Dumbbell Bicep Curl",
+  "uses": 2
+ },
+ {
+  "name": "Kettlebell Overhead Squat",
+  "uses": 2
+ },
+ {
+  "name": "Kettlebell Rack Reverse Lunge",
+  "uses": 2
+ },
+ {
+  "name": "Kettlebell Snatch L Or",
+  "uses": 2
+ },
+ {
+  "name": "Kettlebell Windmill Or",
+  "uses": 2
+ },
+ {
+  "name": "Kipping Handstand Push Up",
+  "uses": 2
+ },
+ {
+  "name": "L Sit Up",
+  "uses": 2
+ },
+ {
+  "name": "Lateral Arc Slam Ball",
+  "uses": 2
+ },
+ {
+  "name": "Left Arm Kettlebell Press",
+  "uses": 2
+ },
+ {
+  "name": "Left Arm Kettlebell Snatch",
+  "uses": 2
+ },
+ {
+  "name": "Left Arm Press",
+  "uses": 2
+ },
+ {
+  "name": "Poliquin Raise",
+  "uses": 2
+ },
+ {
+  "name": "Power Jerk",
+  "uses": 2
+ },
+ {
+  "name": "Quadruped Reverse Crawl",
+  "uses": 2
+ },
+ {
+  "name": "Ring Assisted Pistol Squat",
+  "uses": 2
+ },
+ {
+  "name": "Ring Or Kettlebell Deficit Push Up",
+  "uses": 2
+ },
+ {
+  "name": "Row As Many Calories As Possible",
+  "uses": 2
+ },
+ {
+  "name": "Russian Kettlebell To Goblet Squat",
+  "uses": 2
+ },
+ {
+  "name": "Russian Swing To Goblet Squat",
+  "uses": 2
+ },
+ {
+  "name": "Seated Concentration Curl",
+  "uses": 2
+ },
+ {
+  "name": "Seated Or Back Supported Dumbbell Strict Press",
+  "uses": 2
+ },
+ {
+  "name": "Shuttle Run In Time Remaining",
+  "uses": 2
+ },
+ {
+  "name": "Single Arm Alternating Dumbbell Power Clean",
+  "uses": 2
+ },
+ {
+  "name": "Single Arm Alternating Russian Kettlebell Swing",
+  "uses": 2
+ },
+ {
+  "name": "Single Arm Arnold Z Press",
+  "uses": 2
+ },
+ {
+  "name": "Single Arm Farmer Carry",
+  "uses": 2
+ },
+ {
+  "name": "Single Arm Kettlebell Split Snatch",
+  "uses": 2
+ },
+ {
+  "name": "Single Arm Kettlebell Sumo Deadlift",
+  "uses": 2
+ },
+ {
+  "name": "Single Arm Overhead Dumbbell Carry",
+  "uses": 2
+ },
+ {
+  "name": "Split Stance Dumbbell Cross Body Romanian Deadlift",
+  "uses": 2
+ },
+ {
+  "name": "Straddle Weight Plate Front Raise",
+  "uses": 2
+ },
+ {
+  "name": "Suitcase Standing Calf Raise",
+  "uses": 2
+ },
+ {
+  "name": "Supinated Chest To Bar Strict Pull Up",
+  "uses": 2
+ },
+ {
+  "name": "Weight Plate Bicep Curl Isometric",
+  "uses": 2
+ },
+ {
+  "name": "Weight Plate Russian Twist",
+  "uses": 2
+ },
+ {
+  "name": "1 1/4 Dumbbell Bicep Curl",
+  "uses": 1
+ },
+ {
+  "name": "Alternating Dumbbell Gorilla Row",
+  "uses": 1
+ },
+ {
+  "name": "Alternating Dumbbell Plank Row",
+  "uses": 1
+ },
+ {
+  "name": "Alternating Kettlebell Plank Row",
+  "uses": 1
+ },
+ {
+  "name": "Alternating Russian Kettlebell Swing",
+  "uses": 1
+ },
+ {
+  "name": "Back Squat Progression",
+  "uses": 1
+ },
+ {
+  "name": "Barbell Push Jerk",
+  "uses": 1
+ },
+ {
+  "name": "Bike As Many Calories As Possible",
+  "uses": 1
+ },
+ {
+  "name": "Bike Between Set",
+  "uses": 1
+ },
+ {
+  "name": "Bradford Press To Full Press",
+  "uses": 1
+ },
+ {
+  "name": "Burpee Box Step Up",
+  "uses": 1
+ },
+ {
+  "name": "Burpee Step Up",
+  "uses": 1
+ },
+ {
+  "name": "Burpee Tuck Jump",
+  "uses": 1
+ },
+ {
+  "name": "Cal Bike",
+  "uses": 1
+ },
+ {
+  "name": "Cal Row",
+  "uses": 1
+ },
+ {
+  "name": "Deficit Deadlift Progression",
+  "uses": 1
+ },
+ {
+  "name": "Dual Dumbbell Incline Chest Supported Row",
+  "uses": 1
+ },
+ {
+  "name": "Dual Dumbbell Power Clean",
+  "uses": 1
+ },
+ {
+  "name": "Dual Dumbbell Preacher Curl",
+  "uses": 1
+ },
+ {
+  "name": "Dual Dumbbell Rack Curtsy Squat",
+  "uses": 1
+ },
+ {
+  "name": "Dual Dumbbell Rack Squat",
+  "uses": 1
+ },
+ {
+  "name": "Dual Kettlebell Dl",
+  "uses": 1
+ },
+ {
+  "name": "Dual Kettlebell High Pull",
+  "uses": 1
+ },
+ {
+  "name": "Dual Kettlebell Z Press",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Alternating Drop Lunge",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Crush Grip Bicep Curl Carry",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Deficit Push Up",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell External Rotation",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Jump Squat",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Pendlay Row Or",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Power Clean Or",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Split Stance Deadlift",
+  "uses": 1
+ },
+ {
+  "name": "Dumbbell Suitcase Jump Lunge",
+  "uses": 1
+ },
+ {
+  "name": "E Ow To Tall Plank",
+  "uses": 1
+ },
+ {
+  "name": "Feet Farmers Carry Or",
+  "uses": 1
+ },
+ {
+  "name": "Feet Goblet Carry",
+  "uses": 1
+ },
+ {
+  "name": "Front Raise",
+  "uses": 1
+ },
+ {
+  "name": "Goblet Squat Jump",
+  "uses": 1
+ },
+ {
+  "name": "Goblet Squat Progression",
+  "uses": 1
+ },
+ {
+  "name": "Hanging Knee Raise",
+  "uses": 1
+ },
+ {
+  "name": "Hanging Leg Raise Hanging Knee Tuck",
+  "uses": 1
+ },
+ {
+  "name": "Hinge Back Bicep",
+  "uses": 1
+ },
+ {
+  "name": "Hs Hold",
+  "uses": 1
+ },
+ {
+  "name": "Hs Walk",
+  "uses": 1
+ },
+ {
+  "name": "Jumping Lunge On Box",
+  "uses": 1
+ },
+ {
+  "name": "Kettlebell Horn Grip Bicep Curl",
+  "uses": 1
+ },
+ {
+  "name": "Kettlebell Plank Pull Through Or",
+  "uses": 1
+ },
+ {
+  "name": "Kettlebell Push Jerk",
+  "uses": 1
+ },
+ {
+  "name": "Kettlebell See Saw Row",
+  "uses": 1
+ },
+ {
+  "name": "Kettlebell Split Stance Ballistic Row",
+  "uses": 1
+ },
+ {
+  "name": "Kettlebell Windmill Left Or",
+  "uses": 1
+ },
+ {
+  "name": "Kettlebell Windmill Right Or",
+  "uses": 1
+ },
+ {
+  "name": "Left Arm Dumbbell Push Press",
+  "uses": 1
+ },
+ {
+  "name": "Left Arm Snatch",
+  "uses": 1
+ },
+ {
+  "name": "Left Arm Snatch High Pull",
+  "uses": 1
+ },
+ {
+  "name": "Left Leg Goblet Cossack Squat",
+  "uses": 1
+ },
+ {
+  "name": "Leg Behind Goblet Pistol",
+  "uses": 1
+ },
+ {
+  "name": "Low Hang Clean",
+  "uses": 1
+ },
+ {
+  "name": "Low Incline Dumbbell Bench Press Progression",
+  "uses": 1
+ },
+ {
+  "name": "Mixed Grip Strict Pull Up",
+  "uses": 1
+ },
+ {
+  "name": "Monster Walk",
+  "uses": 1
+ },
+ {
+  "name": "Narrow Dumbbell Floor Press",
+  "uses": 1
+ },
+ {
+  "name": "Narrow Grip Strict Pull Up",
+  "uses": 1
+ },
+ {
+  "name": "Overhead Dumbbell Carry",
+  "uses": 1
+ },
+ {
+  "name": "Pikes And Pancake",
+  "uses": 1
+ },
+ {
+  "name": "Push Up To Shoulder Tap",
+  "uses": 1
+ },
+ {
+  "name": "Quadruped Kettlebell Plank Row",
+  "uses": 1
+ },
+ {
+  "name": "Right Arm Dumbbell Push Press",
+  "uses": 1
+ },
+ {
+  "name": "Right Arm Kettlebell Press",
+  "uses": 1
+ },
+ {
+  "name": "Right Arm Kettlebell Snatch",
+  "uses": 1
+ },
+ {
+  "name": "Right Arm Press",
+  "uses": 1
+ },
+ {
+  "name": "Right Arm Snatch",
+  "uses": 1
+ },
+ {
+  "name": "Right Arm Snatch High Pull",
+  "uses": 1
+ },
+ {
+  "name": "Right Leg Goblet Cossack Squat",
+  "uses": 1
+ },
+ {
+  "name": "Russian Box Step Up",
+  "uses": 1
+ },
+ {
+  "name": "Shoulder Extension",
+  "uses": 1
+ },
+ {
+  "name": "Single Arm Dumbbell Rack Kickstand Squat",
+  "uses": 1
+ },
+ {
+  "name": "Single Arm Dumbbell Rack Tall Kneel To Stand",
+  "uses": 1
+ },
+ {
+  "name": "Single Arm Kettlebell Farmers Walk",
+  "uses": 1
+ },
+ {
+  "name": "Single Arm Overhead Carry Left Arm",
+  "uses": 1
+ },
+ {
+  "name": "Single Arm Overhead Carry Right Arm",
+  "uses": 1
+ },
+ {
+  "name": "Single Arm Split Stance Dumbbell Swing",
+  "uses": 1
+ },
+ {
+  "name": "Single Leg Hanging L Sit",
+  "uses": 1
+ },
+ {
+  "name": "Strict Bar Dip Progression",
+  "uses": 1
+ },
+ {
+  "name": "Strict Bar Dip/Push Up",
+  "uses": 1
+ },
+ {
+  "name": "Strict Dumbbell Press",
+  "uses": 1
+ },
+ {
+  "name": "Strict Hspu",
+  "uses": 1
+ },
+ {
+  "name": "Strict Ring Dip",
+  "uses": 1
+ },
+ {
+  "name": "Weighted Feet Anchored Sit Up",
+  "uses": 1
+ },
+ {
+  "name": "100m Run",
+  "uses": 0
+ },
+ {
+  "name": "140 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "2x Inchworm Push Up",
+  "uses": 0
+ },
+ {
+  "name": "4 Wall Walk",
+  "uses": 0
+ },
+ {
+  "name": "40 50 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "40 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "45 Degree Hyper",
+  "uses": 0
+ },
+ {
+  "name": "48 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "50 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "6 Inchworm",
+  "uses": 0
+ },
+ {
+  "name": "60 75 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "60 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "75 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "80 Single Under",
+  "uses": 0
+ },
+ {
+  "name": "Band Cross Body Tricep Extension",
+  "uses": 0
+ },
+ {
+  "name": "Band Row",
+  "uses": 0
+ },
+ {
+  "name": "Banded Tricep Pushdown",
+  "uses": 0
+ },
+ {
+  "name": "Barbell Face Pull",
+  "uses": 0
+ },
+ {
+  "name": "Barbell Rollout",
+  "uses": 0
+ },
+ {
+  "name": "Cable Tricep Kickback",
+  "uses": 0
+ },
+ {
+  "name": "Dip Support L Sit",
+  "uses": 0
+ },
+ {
+  "name": "Dumbbell Prone Row",
+  "uses": 0
+ },
+ {
+  "name": "Inverted Skullcrusher",
+  "uses": 0
+ },
+ {
+  "name": "Machine Calf Raise",
+  "uses": 0
+ },
+ {
+  "name": "Physioball Hamstring Curl",
+  "uses": 0
+ },
+ {
+  "name": "Pike Hspu",
+  "uses": 0
+ },
+ {
+  "name": "Pronated Grip Lat Pull Down",
+  "uses": 0
+ },
+ {
+  "name": "Pronated Pull Up",
+  "uses": 0
+ },
+ {
+  "name": "Prone Hamstring Curl Machine",
+  "uses": 0
+ },
+ {
+  "name": "Standing Cable Abduction",
+  "uses": 0
+ },
+ {
+  "name": "Supinated Grip Lat Pull Down",
+  "uses": 0
+ },
+ {
+  "name": "Tall Plank Second",
+  "uses": 0
+ }
+]

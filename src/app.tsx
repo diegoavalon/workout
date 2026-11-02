@@ -14,10 +14,17 @@ import { completedKeys, collectMedia, frequencyGroups, groupForParam, nextIncomp
 import { WEEKDAYS, flatSessions, sessionKey, type ImportReport, type Program } from "./domain/types";
 import type { RawItem } from "./domain/workout";
 import { cn } from "./lib/utils";
+import { positionOf, statesFor } from "./domain/generated-program";
+import { GeneratedOverview, GeneratedSession, GeneratedWeek, ImportGeneratedButton, TrainHome, isGeneratedFile, promotedOf } from "./generated-ui";
 
 const flash = (title: string) => toastManager.add({ title });
 const card = (cls?: string) => cn("rounded-2xl border bg-card shadow-xs/5", cls);
 
+async function genData() {
+  await repo.ensureSeeded();
+  const [snaps, runs, progress] = await Promise.all([repo.listGenerated(), repo.listRuns(), repo.listProgress()]);
+  return { snaps, runs, progress };
+}
 async function baseData() {
   await repo.ensureSeeded();
   await repo.syncCatalog();
@@ -50,6 +57,9 @@ function Shell() {
       <div className="relative flex min-h-dvh bg-background text-foreground">
         <aside className="sticky top-0 hidden h-dvh w-56 shrink-0 flex-col overflow-auto border-e bg-sidebar lg:flex">
           <Link to="/" aria-label="Tempo home" className="flex h-15 shrink-0 items-center border-b px-5 transition-colors hover:bg-muted"><BrandLogo /></Link>
+          <nav className="flex flex-col gap-0.5 p-3 pb-0" aria-label="Train">
+            <Link to="/train" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">Train</Link>
+          </nav>
           <nav className="flex flex-col gap-0.5 p-3" aria-label="Library">
             <span className="px-2 pt-1 pb-2 text-xs font-medium text-muted-foreground">Library</span>
             {[3, 4, 5].map((n) => <Link key={n} to="/programs/$group" params={{ group: String(n) }} className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">{n}× per week</Link>)}
@@ -79,6 +89,7 @@ function Shell() {
           )}
           <main className="flex-1"><div className="mx-auto flex max-w-190 flex-col gap-7 px-4 pt-7 pb-12 sm:px-8"><Outlet /></div></main>
           <nav className="sticky bottom-0 flex border-t bg-background lg:hidden" aria-label="App">
+            <Link to="/train" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Train</Link>
             <Link to="/" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Library</Link>
             <Link to="/downloads" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Downloads</Link>
             <Link to="/settings" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Settings</Link>
@@ -143,6 +154,7 @@ function Library() {
 
 function ImportDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (v: boolean) => void }) {
   const router = useRouter();
+  const navigate = useNavigate();
   const [report, setReport] = useState<ImportReport | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [url, setUrl] = useState("");
@@ -163,11 +175,11 @@ function ImportDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (v:
       await doImport({ manifest, files, library });
     } catch (e) { setError(e instanceof Error ? e.message : String(e)); }
   };
-  const fromFile = async (f: File | undefined) => { if (f) { try { await doImport(JSON.parse(await f.text())); } catch (e) { setError(e instanceof Error ? e.message : String(e)); } } };
+  const fromFile = async (f: File | undefined) => { if (f) { try { const parsed = JSON.parse(await f.text()); if (isGeneratedFile(parsed)) { const r = await repo.importGenerated(parsed); if (!r.snapshot) { setError(r.errors.join(" ")); return; } flash(r.duplicate ? "Already saved — opened the existing block" : "Block saved on this device"); onOpenChange(false); navigate({ to: "/generated/$id", params: { id: r.snapshot.id } }); return; } await doImport(parsed); } catch (e) { setError(e instanceof Error ? e.message : String(e)); } } };
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogPopup>
-        <DialogHeader><DialogTitle>Import program</DialogTitle><DialogDescription>Import a versioned bundle: a manifest JSON plus its session files. Progress for unchanged session IDs is kept.</DialogDescription></DialogHeader>
+        <DialogHeader><DialogTitle>Import program</DialogTitle><DialogDescription>Import a versioned bundle (manifest JSON plus session files) or a generated six-week block file. Progress for unchanged session IDs is kept.</DialogDescription></DialogHeader>
         <DialogPanel className="flex flex-col gap-4">
           <label className="flex flex-col gap-1.5 text-sm font-medium">Bundle file (.json with manifest, files, library)
             <input type="file" accept="application/json" className="min-h-11 text-sm" onChange={(e) => fromFile(e.target.files?.[0])} /></label>
@@ -488,7 +500,7 @@ function Settings() {
   };
   const restore = async (f: File | undefined) => {
     if (!f) return;
-    try { const r = await repo.importProgress(JSON.parse(await f.text())); flash(`Restored ${r.runs} runs and ${r.progress} progress records`); await router.invalidate(); }
+    try { const r = await repo.importProgress(JSON.parse(await f.text())); const gd = await genData(); const p = promotedOf(gd); const pos = p ? positionOf(p.snap, statesFor(p.snap, gd.progress, p.run.id)) : null; flash(pos && p ? `Restored ${p.snap.title} · Your place: ${pos.next ? `Week ${pos.next.week} · Session ${pos.next.order}` : "complete"} · ${pos.done} of ${pos.total} complete` : `Restored ${r.runs} runs and ${r.progress} progress records`); await router.invalidate(); }
     catch (e) { flash(`Backup rejected: ${e instanceof Error ? e.message : String(e)}`); }
   };
   const act = async () => {
@@ -504,8 +516,8 @@ function Settings() {
     <>
       <Heading title="Settings & data" sub="Progress, media, and imported content are stored separately on this device." />
       <section className={card("flex flex-col")}>
-        {row("Export progress", "Download runs and session completion as JSON.", <Button variant="outline" onClick={download}>Export</Button>)}
-        {row("Restore progress", "Import a previously exported file. Invalid files are rejected without changing data.", <><input ref={fileRef} type="file" accept="application/json" className="hidden" onChange={(e) => restore(e.target.files?.[0])} /><Button variant="outline" onClick={() => fileRef.current?.click()}>Restore</Button></>)}
+        {row("Back up programs & progress", "Generated programs, runs, checkmarks, and notes in one file.", <Button variant="outline" onClick={download}>Export</Button>)}
+        {row("Restore backup", "Import a previously exported file. Invalid files are rejected without changing data.", <><input ref={fileRef} type="file" accept="application/json" className="hidden" onChange={(e) => restore(e.target.files?.[0])} /><Button variant="outline" onClick={() => fileRef.current?.click()}>Restore</Button></>)}
         {row("Delete media only", "Removes downloaded images/video. Workouts and progress stay.", <Button variant="outline" onClick={() => setConfirm("media")}>Delete media</Button>)}
         {row("Delete progress only", "Removes runs and completion history. Content stays.", <Button variant="outline" onClick={() => setConfirm("progress")}>Delete progress</Button>)}
         {row("Reset local content", "Removes imported programs from this device. Progress stays, keyed by stable session IDs.", <Button variant="outline" onClick={() => setConfirm("content")}>Reset content</Button>)}
@@ -519,6 +531,26 @@ function Settings() {
       </Dialog>
     </>
   );
+}
+
+/* ---------------- Generated programs ---------------- */
+function TrainPage() { return <TrainHome data={trainRoute.useLoaderData()} />; }
+function GenOverviewPage() {
+  const data = genOverviewRoute.useLoaderData();
+  const snap = data.snaps.find((x) => x.id === genOverviewRoute.useParams().id);
+  return snap ? <GeneratedOverview snap={snap} data={data} /> : <NotFound what="Generated program" />;
+}
+function GenWeekPage() {
+  const data = genWeekRoute.useLoaderData();
+  const { id, week } = genWeekRoute.useParams();
+  const snap = data.snaps.find((x) => x.id === id);
+  return snap && Number(week) >= 1 && Number(week) <= snap.weekCount ? <GeneratedWeek snap={snap} week={Number(week)} data={data} /> : <NotFound what="Week" />;
+}
+function GenSessionPage() {
+  const data = genSessionRoute.useLoaderData();
+  const { id, sid } = genSessionRoute.useParams();
+  const snap = data.snaps.find((x) => x.id === id);
+  return snap ? <GeneratedSession key={sid} snap={snap} sid={sid} data={data} /> : <NotFound what="Session" />;
 }
 
 /* ---------------- Routes ---------------- */
@@ -545,6 +577,10 @@ const sessionRoute = createRoute({
   },
   component: SessionView,
 });
+const trainRoute = createRoute({ getParentRoute: () => rootRoute, path: "/train", loader: genData, component: TrainPage });
+const genOverviewRoute = createRoute({ getParentRoute: () => rootRoute, path: "/generated/$id", loader: genData, component: GenOverviewPage });
+const genWeekRoute = createRoute({ getParentRoute: () => rootRoute, path: "/generated/$id/week/$week", loader: genData, component: GenWeekPage });
+const genSessionRoute = createRoute({ getParentRoute: () => rootRoute, path: "/generated/$id/session/$sid", loader: genData, component: GenSessionPage });
 const downloadsRoute = createRoute({
   getParentRoute: () => rootRoute, path: "/downloads",
   loader: async () => { const b = await baseData(); const itemsByProgram: Record<string, Map<string, Record<string, unknown>[]>> = {}; for (const p of b.programs) itemsByProgram[p.id] = await repo.getAllSessionItems(p.id); return { ...b, itemsByProgram, exerciseIndex: await repo.exerciseIndex() }; },
@@ -552,6 +588,6 @@ const downloadsRoute = createRoute({
 });
 const settingsRoute = createRoute({ getParentRoute: () => rootRoute, path: "/settings", loader: baseData, component: Settings });
 
-export const routeTree = rootRoute.addChildren([libraryRoute, groupRoute, programRoute, weekRoute, sessionRoute, downloadsRoute, settingsRoute]);
+export const routeTree = rootRoute.addChildren([libraryRoute, trainRoute, genOverviewRoute, genWeekRoute, genSessionRoute, groupRoute, programRoute, weekRoute, sessionRoute, downloadsRoute, settingsRoute]);
 export const router = createRouter({ routeTree, defaultPreload: "intent" });
 declare module "@tanstack/react-router" { interface Register { router: typeof router } }

@@ -1,6 +1,7 @@
 import type { Exercise } from "./types";
 import { fmtSeconds } from "./workout";
 import type { BlockView, ExerciseView, MetricView, TimerOptionView, WorkoutView } from "./view-model";
+import mediaMap from "../../data/catalog/media.json";
 
 /**
  * Adapter for generated program files (e.g. `data/generated/pump-lift-3x-*.json`).
@@ -51,7 +52,8 @@ const rangeSeconds = (rest: GeneratedItem["restSec"]): { value: string; timerSec
   if (rest === null) return null;
   const [min, max] = Array.isArray(rest) ? rest : [rest, rest];
   if (!Number.isFinite(min) || min <= 0) return null;
-  return { value: min === max ? fmtSeconds(min) : `${fmtSeconds(min)}–${fmtSeconds(max)}`, timerSeconds: min === max ? min : null };
+  // A ranged rest counts down from its lower bound; the tile still shows the full range.
+  return { value: min === max ? fmtSeconds(min) : `${fmtSeconds(min)}–${fmtSeconds(max)}`, timerSeconds: min };
 };
 
 function setValue(set: GeneratedSet, perSide: boolean): string {
@@ -66,10 +68,15 @@ function setDetail(set: GeneratedSet, workingIndex: number, perSide: boolean): s
   return `${head}: ${setValue(set, perSide)}${rpe ? ` @ RPE ${rpe}` : ""}${set.effort ? ` (${set.effort})` : ""}`;
 }
 
+/** Catalog exercise id → media from the exercise-library export (`npm run persist:media`). */
+const exerciseMedia = mediaMap as Record<string, { imageUrl?: string; videoUrl?: string; thumbnail?: string }>;
+
 function generatedExercise(item: GeneratedItem, key: string, label: string, index: Map<string, Exercise>, tracked: boolean): ExerciseView {
   const working = item.sets.filter((s) => s.kind === "working");
   const effective = working.length ? working : item.sets;
   const library = item.exercise ? index.get(item.exercise.id) : undefined;
+  // Imported libraries win; otherwise fall back to the media matched from the exercise-library export.
+  const media = item.exercise && !library?.imageUrl && !library?.videoUrl ? exerciseMedia[item.exercise.id] : undefined;
   const metrics: MetricView[] = [];
   if (tracked && effective.length) metrics.push({ key: "Sets", label: "Sets", value: String(effective.length), timerSeconds: null });
   const firstType = effective[0]?.repsType;
@@ -97,9 +104,9 @@ function generatedExercise(item: GeneratedItem, key: string, label: string, inde
     key, label,
     title: library?.title ?? item.exercise?.name ?? item.nameRaw ?? (anonymous ? "Timed interval" : "Unknown exercise"),
     known: anonymous || item.exercise !== null || library !== undefined,
-    imageUrl: library?.imageUrl ?? library?.thumbnail ?? null,
-    videoUrl: library?.videoUrl ?? null,
-    posterUrl: library?.imageUrl ?? library?.thumbnail ?? null,
+    imageUrl: library?.imageUrl ?? library?.thumbnail ?? media?.imageUrl ?? media?.thumbnail ?? null,
+    videoUrl: library?.videoUrl ?? media?.videoUrl ?? null,
+    posterUrl: library?.imageUrl ?? library?.thumbnail ?? media?.imageUrl ?? media?.thumbnail ?? null,
     // Tracked cards hide the Sets tile; the tracker itself shows the count.
     metrics: tracked ? metrics.filter((m) => m.key !== "Sets") : metrics,
     notes: item.alternatives?.length ? `Alternative: ${item.alternatives.map((a) => a.name).join(", ")}` : null,
@@ -111,11 +118,14 @@ function generatedExercise(item: GeneratedItem, key: string, label: string, inde
 const sectionNotes = (section: GeneratedSection): string[] =>
   (section.notes ?? []).map((n) => (n.label ? `${n.label}: ${n.text}` : n.text));
 
-/** Build the root view model for one generated day (training, recovery, or note). */
-export function buildGeneratedDayView(day: GeneratedDay, exerciseIndex: Map<string, Exercise> = new Map()): SessionView {
+/**
+ * Build the root view model for one generated day (training, recovery, or note).
+ * `keyPrefix` scopes block/set keys; pass a stable session id so saved checkmarks survive date edits.
+ */
+export function buildGeneratedDayView(day: GeneratedDay, exerciseIndex: Map<string, Exercise> = new Map(), keyPrefix: string = day.date): SessionView {
   const blocks: BlockView[] = [];
   for (const section of day.sections) {
-    const key = `${day.date}-${section.label}`;
+    const key = `${keyPrefix}-${section.label}`;
     const notes = sectionNotes(section);
     if (!section.items.length) {
       const lines = [
@@ -133,7 +143,7 @@ export function buildGeneratedDayView(day: GeneratedDay, exerciseIndex: Map<stri
       if (lastRest?.timerSeconds) timers.push({ id: "round-rest", label: "Rest after round", display: lastRest.value, seconds: lastRest.timerSeconds, kind: "Rest" });
       blocks.push({
         kind: "superset", key, label: section.label, title: section.title, ariaLabel: section.title,
-        subtitle: section.format === "superset" ? "Alternate exercises" : "Run the rack",
+        subtitle: section.format === "superset" ? "Superset" : "Run the rack",
         roundCount, timers, preferredTimerId: timers[0]?.id ?? null, notes,
         exercises: section.items.map((it, j) => generatedExercise(it, `${key}-${j}`, section.label + (j + 1), exerciseIndex, false)),
       });
