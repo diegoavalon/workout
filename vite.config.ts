@@ -2,11 +2,13 @@ import { defineConfig } from "vite";
 import { voidReact } from "@void/react/plugin";
 import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
+import { corpusPlugin } from "./scripts/vite-corpus.ts";
 
 export default defineConfig({
   plugins: [
     voidReact({ react: { compiler: true } }),
     tailwindcss(),
+    corpusPlugin(),
     VitePWA({
       strategies: "injectManifest",
       srcDir: "src",

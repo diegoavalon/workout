@@ -200,3 +200,7 @@ The exercise grouping that all of this depends on is reviewable in `data/reports
 A block is a function of `(corpus, track, seed, start, equipment, avoidRecent)`. The corpus is the set of view files, which are themselves rebuilt from the PDFs by `npm run persist:all`. There is no clock and no network. The default start date (the next Monday) and the random default seed are chosen only in the CLI wrapper, never in `generate()`, and the chosen seed is printed.
 
 `src/persist/generate.test.ts` covers: seeded randomness; equipment rules; text rendering; a valid six-week block for every track; reproducibility and variation across seeds; A/B alternation and the skeleton; seed coupling between tracks; Perform's pre-lift kind; Minimalist's day count; the validation checks, including deliberately broken blocks. The corpus tests skip themselves if `data/views` has not been built.
+
+## Generating in the browser
+
+The app runs `src/persist/generate.ts` unchanged in a Web Worker (`src/generate/`). `npm run build` (and `npm run dev`) package `data/views` into `/corpus/corpus-<hash>.json` plus `/corpus/manifest.json` through `scripts/vite-corpus.ts`; the build fails with a pointer to `npm run persist:views` when the source is missing. The corpus is a static asset outside the JS bundle and the service-worker precache. The worker downloads it on first generation and keeps it in Cache Storage (`workout-corpus-v1`), so later generation works offline. `src/generate/parity.test.ts` checks that browser and CLI output are identical for the same options.

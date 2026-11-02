@@ -83,6 +83,49 @@ describe("validation and caveats", () => {
 });
 
 describe("repository", () => {
+  it("deletes only the selected snapshot and all its runs and progress", async () => {
+    const repo = new MemoryRepository();
+    const a = (await repo.importGenerated(structuredClone(file))).snapshot!;
+    const other = structuredClone(file);
+    other.options.seed = 29;
+    const b = (await repo.importGenerated(other)).snapshot!;
+    const first = await repo.startRun(a.id);
+    await repo.patchProgress(first.id, a.id, a.sessions[0].id, { checks: { sets: ["1"] }, note: "First run" });
+    await repo.endRun(first.id);
+    const second = await repo.startRun(a.id);
+    await repo.patchProgress(second.id, a.id, a.sessions[0].id, { startedAt: "now" });
+    const kept = await repo.startRun(b.id);
+    const progress = await repo.patchProgress(kept.id, b.id, b.sessions[0].id, { checks: { sets: ["1", "2"] } });
+
+    await repo.deleteGenerated(a.id);
+    expect(await repo.getGenerated(a.id)).toBeUndefined();
+    expect((await repo.listGenerated()).map((s) => s.id)).toEqual([b.id]);
+    expect(await repo.listRuns()).toEqual([kept]);
+    expect(await repo.listProgress()).toEqual([progress]);
+    await repo.deleteGenerated(a.id); // Repeated deletion is harmless.
+    const backup = JSON.parse(await repo.exportProgress());
+    expect(backup.generated.map((s: { id: string }) => s.id)).toEqual([b.id]);
+    expect(backup.runs).toEqual([kept]);
+    expect(backup.progress).toEqual([progress]);
+  });
+  it("keeps the program and its history available when deletion cannot be persisted", async () => {
+    class FailingRepository extends MemoryRepository {
+      fail = false;
+      protected override async sync() { if (this.fail) throw new Error("Storage unavailable"); }
+    }
+    const repo = new FailingRepository();
+    const snapshot = (await repo.importGenerated(structuredClone(file))).snapshot!;
+    const run = await repo.startRun(snapshot.id);
+    const progress = await repo.patchProgress(run.id, snapshot.id, snapshot.sessions[0].id, { checks: { sets: ["1"] } });
+    repo.fail = true;
+    await expect(repo.deleteGenerated(snapshot.id)).rejects.toThrow("Storage unavailable");
+    expect(await repo.getGenerated(snapshot.id)).toEqual(snapshot);
+    expect(await repo.listRuns()).toEqual([run]);
+    expect(await repo.listProgress()).toEqual([progress]);
+    repo.fail = false;
+    await repo.deleteGenerated(snapshot.id);
+    expect(await repo.listGenerated()).toEqual([]);
+  });
   it("imports once, resumes, undoes finish with checks kept, and restores from backup", async () => {
     const repo = new MemoryRepository();
     const first = await repo.importGenerated(structuredClone(file));

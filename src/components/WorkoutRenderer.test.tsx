@@ -90,8 +90,8 @@ describe("WorkoutRenderer", () => {
       { type: "exerciseAssignment", itemId: "other-plank", child: { id: "plank", title: "Plank" }, sets: 1 },
     ] }];
     const { unmount } = render(<WorkoutRenderer items={items} exerciseIndex={new Map()} />);
-    const group = screen.getByRole("region", { name: "Superset A", exact: true });
-    const other = screen.getByRole("region", { name: "Superset B", exact: true });
+    const group = screen.getByRole("region", { name: "Superset A" });
+    const other = screen.getByRole("region", { name: "Superset B" });
     const cards = within(group).getAllByRole("article", { name: "Plank" });
     expect(cards.every((card) => within(card).queryByRole("checkbox") === null)).toBe(true);
     fireEvent.click(within(group).getByRole("checkbox", { name: "Round 1" }));
@@ -115,8 +115,8 @@ describe("WorkoutRenderer", () => {
       { type: "exerciseAssignment", itemId: "b", child: { id: "b", title: "Chin Up" }, sets: 3, times: 20, rest: 120 },
     ] }];
     render(<WorkoutRenderer items={items} exerciseIndex={new Map()} />);
-    const group = screen.getByRole("region", { name: "Superset A", exact: true });
-    const header = within(group).getByRole("group", { name: "Superset A tracking", exact: true });
+    const group = screen.getByRole("region", { name: "Superset A" });
+    const header = within(group).getByRole("group", { name: "Superset A tracking" });
     expect(within(group).getAllByRole("checkbox")).toHaveLength(3);
     expect(within(group).getAllByRole("timer")).toHaveLength(1);
     for (const card of within(group).getAllByRole("article")) {
@@ -152,7 +152,7 @@ describe("WorkoutRenderer", () => {
     ] }];
     render(<WorkoutRenderer items={items} exerciseIndex={new Map()} />);
     expect(screen.queryByRole("checkbox")).toBeNull();
-    expect(screen.getByRole("region", { name: "Superset A", exact: true }).getAttribute("data-completed")).toBe("false");
+    expect(screen.getByRole("region", { name: "Superset A" }).getAttribute("data-completed")).toBe("false");
   });
 
   it("preserves individual tracking in sequential sections", () => {

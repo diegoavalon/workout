@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { createRootRoute, createRoute, createRouter, Link, Outlet, useNavigate, useRouter } from "@tanstack/react-router";
-import { ArrowUpFromLineIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, ClockIcon, DownloadIcon, HardDriveDownloadIcon, MoonIcon, PlayIcon, RotateCcwIcon, SettingsIcon, SunIcon, Trash2Icon } from "lucide-react";
+import { createRootRoute, createRoute, createRouter, Link, Outlet, redirect, useNavigate, useRouter } from "@tanstack/react-router";
+import { CheckIcon, ChevronLeftIcon, ChevronRightIcon, ClockIcon, DownloadIcon, HardDriveDownloadIcon, MoonIcon, PlayIcon, RotateCcwIcon, SettingsIcon, SunIcon, Trash2Icon } from "lucide-react";
 import { Badge } from "./components/ui/badge";
 import { Button } from "./components/ui/button";
 import { Dialog, DialogDescription, DialogFooter, DialogHeader, DialogPanel, DialogPopup, DialogTitle } from "./components/ui/dialog";
@@ -10,12 +10,13 @@ import { BrandLogo } from "./components/BrandLogo";
 import { WorkoutRenderer } from "./components/WorkoutRenderer";
 import { repo } from "./data/db";
 import { deleteCachedMedia, downloadMedia, requestPersistence, storageEstimate } from "./data/media";
-import { completedKeys, collectMedia, frequencyGroups, groupForParam, nextIncomplete, programProgress } from "./domain/selectors";
-import { WEEKDAYS, flatSessions, sessionKey, type ImportReport, type Program } from "./domain/types";
+import { completedKeys, collectMedia, nextIncomplete, programProgress } from "./domain/selectors";
+import { WEEKDAYS, flatSessions, sessionKey } from "./domain/types";
 import type { RawItem } from "./domain/workout";
+import { NewProgram } from "./new-program";
 import { cn } from "./lib/utils";
 import { positionOf, statesFor } from "./domain/generated-program";
-import { GeneratedOverview, GeneratedSession, GeneratedWeek, ImportGeneratedButton, TrainHome, isGeneratedFile, promotedOf } from "./generated-ui";
+import { GeneratedOverview, GeneratedSession, GeneratedWeek, SavedPrograms, TrainHome, promotedOf } from "./generated-ui";
 
 const flash = (title: string) => toastManager.add({ title });
 const card = (cls?: string) => cn("rounded-2xl border bg-card shadow-xs/5", cls);
@@ -27,7 +28,6 @@ async function genData() {
 }
 async function baseData() {
   await repo.ensureSeeded();
-  await repo.syncCatalog();
   const [programs, runs, progress] = await Promise.all([repo.listPrograms(), repo.listRuns(), repo.listProgress()]);
   return { programs, runs, progress };
 }
@@ -56,14 +56,12 @@ function Shell() {
     <ToastProvider position="bottom-center">
       <div className="relative flex min-h-dvh bg-background text-foreground">
         <aside className="sticky top-0 hidden h-dvh w-56 shrink-0 flex-col overflow-auto border-e bg-sidebar lg:flex">
-          <Link to="/" aria-label="Tempo home" className="flex h-15 shrink-0 items-center border-b px-5 transition-colors hover:bg-muted"><BrandLogo /></Link>
-          <nav className="flex flex-col gap-0.5 p-3 pb-0" aria-label="Train">
-            <Link to="/train" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">Train</Link>
-          </nav>
-          <nav className="flex flex-col gap-0.5 p-3" aria-label="Library">
-            <span className="px-2 pt-1 pb-2 text-xs font-medium text-muted-foreground">Library</span>
-            {[3, 4, 5].map((n) => <Link key={n} to="/programs/$group" params={{ group: String(n) }} className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">{n}× per week</Link>)}
-            <Link to="/programs/$group" params={{ group: "other" }} className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">Other schedules</Link>
+          <Link to="/active-program" aria-label="Tempo home" className="flex h-15 shrink-0 items-center border-b px-5 transition-colors hover:bg-muted"><BrandLogo /></Link>
+          <nav className="flex flex-col gap-0.5 p-3" aria-labelledby="programs-nav-heading">
+            <h2 id="programs-nav-heading" className="px-2.5 pt-1 pb-2 text-xs font-medium text-muted-foreground">Programs</h2>
+            <Link to="/active-program" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">Active</Link>
+            <Link to="/programs/new" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">New</Link>
+            <Link to="/programs/saved" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">Saved</Link>
           </nav>
           <nav className="flex flex-col gap-0.5 p-3" aria-label="App">
             <Link to="/downloads" className="flex h-9 items-center gap-2 rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted"><HardDriveDownloadIcon className="size-4" />Downloads</Link>
@@ -76,7 +74,7 @@ function Shell() {
         </aside>
         <div className="flex min-w-0 flex-1 flex-col">
           <header className="sticky top-0 z-20 flex h-15 items-center gap-2 border-b bg-background px-3 sm:px-6">
-            <Link to="/" aria-label="Tempo home" className="flex min-h-11 items-center lg:hidden"><BrandLogo /></Link>
+            <Link to="/active-program" aria-label="Tempo home" className="flex min-h-11 items-center lg:hidden"><BrandLogo /></Link>
             <span className="flex-1" />
             {offline && <Badge variant="secondary" size="lg">Offline</Badge>}
             <Button variant="ghost" size="icon-lg" aria-label="Toggle theme" onClick={() => setDark((d) => !d)}>{dark ? <SunIcon /> : <MoonIcon />}</Button>
@@ -89,10 +87,11 @@ function Shell() {
           )}
           <main className="flex-1"><div className="mx-auto flex max-w-190 flex-col gap-7 px-4 pt-7 pb-12 sm:px-8"><Outlet /></div></main>
           <nav className="sticky bottom-0 flex border-t bg-background lg:hidden" aria-label="App">
-            <Link to="/train" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Train</Link>
-            <Link to="/" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Library</Link>
-            <Link to="/downloads" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Downloads</Link>
-            <Link to="/settings" className="flex min-h-14 flex-1 items-center justify-center text-sm font-medium [&.active]:text-primary">Settings</Link>
+            <Link to="/active-program" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Active</Link>
+            <Link to="/programs/new" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">New</Link>
+            <Link to="/programs/saved" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Saved</Link>
+            <Link to="/downloads" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Downloads</Link>
+            <Link to="/settings" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Settings</Link>
           </nav>
         </div>
       </div>
@@ -104,126 +103,7 @@ function Heading({ title, sub }: { title: string; sub?: string }) {
   return <div className="flex flex-col gap-2"><h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-semibold tracking-tight text-balance">{title}</h1>{sub && <p className="text-base text-muted-foreground">{sub}</p>}</div>;
 }
 function NotFound({ what }: { what: string }) {
-  return <><Heading title={`${what} not found`} sub="It may have been removed by a content update. Your progress is stored separately and has not been changed." /><Link to="/" className="text-sm font-medium underline">Back to library</Link></>;
-}
-
-/* ---------------- Library ---------------- */
-function Library() {
-  const { programs, runs, progress } = libraryRoute.useLoaderData();
-  const groups = frequencyGroups(programs);
-  const active = runs.find((r) => !r.endedAt);
-  const activeProg = active ? programs.find((p) => p.id === active.programId) : undefined;
-  const done = active ? completedKeys(progress, active.id) : new Set<string>();
-  const nx = activeProg ? nextIncomplete(activeProg, done) : null;
-  const [importOpen, setImportOpen] = useState(false);
-  return (
-    <>
-      {activeProg && active && (
-        <section className={card("flex flex-col gap-4 p-5")} aria-label="Continue">
-          <div className="flex flex-wrap items-start justify-between gap-3">
-            <div className="flex flex-col gap-1">
-              <span className="text-[13px] font-medium text-muted-foreground">Continue · {activeProg.title}</span>
-              <span className="text-xl font-semibold tracking-tight">{nx ? `Session ${nx.order} — ${nx.title ?? ""}` : "Program complete"}</span>
-              <span className="text-sm text-muted-foreground">{nx ? `Week ${nx.weekOrder} of ${activeProg.totalWeeks}` : "Every session is done."}</span>
-            </div>
-            {nx ? <Link to="/program/$programId/week/$weekId/session/$sessionId" params={{ programId: activeProg.id, weekId: nx.weekId, sessionId: nx.id }}><Button size="xl">Continue<ChevronRightIcon /></Button></Link>
-              : <Link to="/program/$programId" params={{ programId: activeProg.id }}><Button size="xl">Review</Button></Link>}
-          </div>
-          <Progress value={(programProgress(activeProg, done).done / Math.max(1, programProgress(activeProg, done).total)) * 100} />
-          <span className="text-[13px] text-muted-foreground">{programProgress(activeProg, done).done} of {programProgress(activeProg, done).total} sessions complete</span>
-        </section>
-      )}
-      <Heading title="How many days per week do you want to train?" sub="Pick a frequency to see programs built around it." />
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-3">
-        {groups.map((g) => (
-          <Link key={g.key} to="/programs/$group" params={{ group: g.key }} className={card("flex min-h-50 flex-col gap-3.5 p-5 transition-colors hover:bg-muted")}>
-            <span className="flex items-baseline gap-1.5">{g.daysPerWeek ? <><span className="font-heading text-[52px] leading-none font-semibold tracking-tighter tabular-nums">{g.daysPerWeek}×</span><span className="text-[15px] font-medium text-muted-foreground">per week</span></> : <span className="font-heading text-3xl font-semibold">Other</span>}</span>
-            <span className="text-[15px] text-muted-foreground">{g.label}</span>
-            <span className="mt-auto flex items-center justify-between text-sm font-medium"><span>{g.programs.length} program{g.programs.length === 1 ? "" : "s"}</span><ChevronRightIcon className="size-4.5" /></span>
-          </Link>
-        ))}
-      </div>
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <span className="text-[13px] text-muted-foreground">Programs and progress are stored on this device.</span>
-        <Button variant="outline" onClick={() => setImportOpen(true)}><ArrowUpFromLineIcon />Import program</Button>
-      </div>
-      <ImportDialog open={importOpen} onOpenChange={setImportOpen} />
-    </>
-  );
-}
-
-function ImportDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (v: boolean) => void }) {
-  const router = useRouter();
-  const navigate = useNavigate();
-  const [report, setReport] = useState<ImportReport | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [url, setUrl] = useState("");
-  const [busy, setBusy] = useState(false);
-  const doImport = async (input: { manifest: unknown; files: Record<string, unknown>; library?: unknown[] }) => {
-    setBusy(true); setError(null);
-    try { const r = await repo.importBundle(input); setReport(r); if (!r.errors.length) { flash(r.duplicate ? "Already imported — no duplicates created" : "Program imported"); await router.invalidate(); } }
-    catch (e) { setError(e instanceof Error ? e.message : String(e)); } finally { setBusy(false); }
-  };
-  const fromUrl = async () => {
-    try {
-      const manifest = (await (await fetch(url)).json()) as { weeks?: { sessions?: { contentPath: string }[] }[] };
-      const base = url.slice(0, url.lastIndexOf("/") + 1);
-      const files: Record<string, unknown> = {};
-      for (const w of manifest.weeks ?? []) for (const s of w.sessions ?? []) files[s.contentPath] = await (await fetch(new URL(s.contentPath, base).href)).json();
-      let library: unknown[] | undefined;
-      try { const l = await (await fetch(new URL("exercises/library.json", base.replace(/programs\/[^/]+\/$/, "")).href)).json(); if (Array.isArray(l)) library = l; } catch { /* optional */ }
-      await doImport({ manifest, files, library });
-    } catch (e) { setError(e instanceof Error ? e.message : String(e)); }
-  };
-  const fromFile = async (f: File | undefined) => { if (f) { try { const parsed = JSON.parse(await f.text()); if (isGeneratedFile(parsed)) { const r = await repo.importGenerated(parsed); if (!r.snapshot) { setError(r.errors.join(" ")); return; } flash(r.duplicate ? "Already saved — opened the existing block" : "Block saved on this device"); onOpenChange(false); navigate({ to: "/generated/$id", params: { id: r.snapshot.id } }); return; } await doImport(parsed); } catch (e) { setError(e instanceof Error ? e.message : String(e)); } } };
-  return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogPopup>
-        <DialogHeader><DialogTitle>Import program</DialogTitle><DialogDescription>Import a versioned bundle (manifest JSON plus session files) or a generated six-week block file. Progress for unchanged session IDs is kept.</DialogDescription></DialogHeader>
-        <DialogPanel className="flex flex-col gap-4">
-          <label className="flex flex-col gap-1.5 text-sm font-medium">Bundle file (.json with manifest, files, library)
-            <input type="file" accept="application/json" className="min-h-11 text-sm" onChange={(e) => fromFile(e.target.files?.[0])} /></label>
-          <label className="flex flex-col gap-1.5 text-sm font-medium">Or manifest URL
-            <span className="flex gap-2"><input value={url} onChange={(e) => setUrl(e.target.value)} placeholder="https://…/program.json" className="min-h-11 flex-1 rounded-lg border bg-background px-3" /><Button disabled={busy || !url} onClick={fromUrl}>Fetch</Button></span></label>
-          {error && <p role="alert" className="text-sm text-destructive">{error}</p>}
-          {report && (
-            <div className="flex flex-col gap-1.5 text-sm" role="status">
-              {report.errors.map((e) => <p key={e} className="text-destructive">{e}</p>)}
-              {!report.errors.length && <p><CheckIcon className="mr-1 inline size-4" />Imported {report.sessionsImported} sessions into program {report.programId} (content {report.contentVersion}).</p>}
-              {report.missingExercises.map((m) => <p key={m} className="text-warning-foreground">Missing exercise: {m} — sessions still render with a placeholder.</p>)}
-              {report.warnings.map((w) => <p key={w} className="text-muted-foreground">{w}</p>)}
-              {report.removedSessionIds.length > 0 && <p className="text-warning-foreground">Migration report: session IDs removed by this update: {report.removedSessionIds.join(", ")}. Their progress records are kept, not deleted.</p>}
-            </div>
-          )}
-        </DialogPanel>
-        <DialogFooter><Button variant="outline" onClick={() => onOpenChange(false)}>Close</Button></DialogFooter>
-      </DialogPopup>
-    </Dialog>
-  );
-}
-
-/* ---------------- Program list / overview / week / session ---------------- */
-function ProgramList() {
-  const { programs } = groupRoute.useLoaderData();
-  const { group } = groupRoute.useParams();
-  const g = groupForParam(programs, group);
-  if (!g) return <NotFound what="Schedule group" />;
-  return (
-    <>
-      <Heading title={g.label} sub={g.daysPerWeek ? `${g.daysPerWeek} sessions a week, in order, on days you choose.` : "Programs on schedules other than 3, 4, or 5 days a week."} />
-      {g.programs.length === 0 && <p className="text-muted-foreground">No programs on this schedule yet. Import one from the library.</p>}
-      <div className="flex flex-col gap-3">
-        {g.programs.map((p) => (
-          <Link key={p.id} to="/program/$programId" params={{ programId: p.id }} className={card("flex flex-col gap-2.5 p-5 transition-colors hover:bg-muted")}>
-            <span className="flex flex-wrap gap-1.5"><Badge variant="outline" size="lg">{p.totalWeeks} weeks</Badge><Badge variant="outline" size="lg">{p.daysPerWeek}×/week</Badge>{p.focus && <Badge variant="secondary" size="lg">{p.focus}</Badge>}</span>
-            <span className="text-xl font-semibold tracking-tight">{p.title}</span>
-            {p.description && <span className="text-[15px] text-muted-foreground text-pretty">{p.description}</span>}
-            {p.equipment?.length ? <span className="text-[13px] text-muted-foreground">Equipment: {p.equipment.join(", ")}</span> : null}
-          </Link>
-        ))}
-      </div>
-    </>
-  );
+  return <><Heading title={`${what} not found`} sub="It may have been removed by a content update. Your progress is stored separately and has not been changed." /><Link to="/active-program" className="text-sm font-medium underline">Back to Active program</Link></>;
 }
 
 function MediaSummary({ programId, items, exerciseIndex }: { programId: string; items: Map<string, Record<string, unknown>[]>; exerciseIndex: Map<string, import("./domain/types").Exercise> }) {
@@ -534,10 +414,18 @@ function Settings() {
 }
 
 /* ---------------- Generated programs ---------------- */
-function TrainPage() { return <TrainHome data={trainRoute.useLoaderData()} />; }
+function NewProgramPage() {
+  const data = newProgramRoute.useLoaderData();
+  const { from } = newProgramRoute.useSearch();
+  const snap = from ? data.snaps.find((x) => x.id === from) : undefined;
+  return <NewProgram key={snap?.id ?? "new"} from={snap} />;
+}
+function SavedPage() { return <SavedPrograms data={savedRoute.useLoaderData()} />; }
+function TrainPage() { return <TrainHome data={activeRoute.useLoaderData()} />; }
 function GenOverviewPage() {
   const data = genOverviewRoute.useLoaderData();
-  const snap = data.snaps.find((x) => x.id === genOverviewRoute.useParams().id);
+  const { id } = genOverviewRoute.useParams();
+  const snap = data.snaps.find((x) => x.id === id);
   return snap ? <GeneratedOverview snap={snap} data={data} /> : <NotFound what="Generated program" />;
 }
 function GenWeekPage() {
@@ -555,8 +443,17 @@ function GenSessionPage() {
 
 /* ---------------- Routes ---------------- */
 const rootRoute = createRootRoute({ component: Shell, notFoundComponent: () => <NotFound what="Page" /> });
-const libraryRoute = createRoute({ getParentRoute: () => rootRoute, path: "/", loader: baseData, component: Library });
-const groupRoute = createRoute({ getParentRoute: () => rootRoute, path: "/programs/$group", loader: baseData, component: ProgramList });
+const goActive = () => { throw redirect({ to: "/active-program", replace: true }); };
+const homeRoute = createRoute({ getParentRoute: () => rootRoute, path: "/", beforeLoad: goActive });
+const trainRedirect = createRoute({ getParentRoute: () => rootRoute, path: "/train", beforeLoad: goActive });
+const newProgramRoute = createRoute({
+  getParentRoute: () => rootRoute, path: "/programs/new",
+  validateSearch: (s: Record<string, unknown>): { from?: string } => (typeof s.from === "string" ? { from: s.from } : {}),
+  loader: genData, component: NewProgramPage,
+});
+const savedRoute = createRoute({ getParentRoute: () => rootRoute, path: "/programs/saved", loader: genData, component: SavedPage });
+// Old frequency-list URLs (/programs/3, /programs/other, ...) now lead to the generator.
+const legacyGroupRoute = createRoute({ getParentRoute: () => rootRoute, path: "/programs/$group", beforeLoad: () => { throw redirect({ to: "/programs/new", replace: true }); } });
 const programRoute = createRoute({
   getParentRoute: () => rootRoute, path: "/program/$programId",
   loader: async ({ params }) => { const b = await baseData(); const program = b.programs.find((p) => p.id === params.programId); return { ...b, program, items: program ? await repo.getAllSessionItems(program.id) : new Map(), exerciseIndex: await repo.exerciseIndex() }; },
@@ -577,7 +474,7 @@ const sessionRoute = createRoute({
   },
   component: SessionView,
 });
-const trainRoute = createRoute({ getParentRoute: () => rootRoute, path: "/train", loader: genData, component: TrainPage });
+const activeRoute = createRoute({ getParentRoute: () => rootRoute, path: "/active-program", loader: genData, component: TrainPage });
 const genOverviewRoute = createRoute({ getParentRoute: () => rootRoute, path: "/generated/$id", loader: genData, component: GenOverviewPage });
 const genWeekRoute = createRoute({ getParentRoute: () => rootRoute, path: "/generated/$id/week/$week", loader: genData, component: GenWeekPage });
 const genSessionRoute = createRoute({ getParentRoute: () => rootRoute, path: "/generated/$id/session/$sid", loader: genData, component: GenSessionPage });
@@ -588,6 +485,6 @@ const downloadsRoute = createRoute({
 });
 const settingsRoute = createRoute({ getParentRoute: () => rootRoute, path: "/settings", loader: baseData, component: Settings });
 
-export const routeTree = rootRoute.addChildren([libraryRoute, trainRoute, genOverviewRoute, genWeekRoute, genSessionRoute, groupRoute, programRoute, weekRoute, sessionRoute, downloadsRoute, settingsRoute]);
+export const routeTree = rootRoute.addChildren([homeRoute, trainRedirect, newProgramRoute, savedRoute, activeRoute, genOverviewRoute, genWeekRoute, genSessionRoute, legacyGroupRoute, programRoute, weekRoute, sessionRoute, downloadsRoute, settingsRoute]);
 export const router = createRouter({ routeTree, defaultPreload: "intent" });
 declare module "@tanstack/react-router" { interface Register { router: typeof router } }
