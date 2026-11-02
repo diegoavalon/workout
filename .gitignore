@@ -10,6 +10,7 @@ dist
 .DS_Store
 # Raw source exports and generated bundles contain licensed program content; keep local
 /raw-export/**/*.json
+!/raw-export/exercise-library.json
 # Browser profile used by capture:raw (holds the source-app login session)
 /.auth/
 

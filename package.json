@@ -42,7 +42,8 @@
     "persist:views": "node scripts/persist/views.ts",
     "persist:generate": "node scripts/persist/generate.ts",
     "persist:generator-check": "node scripts/persist/analysis/generator-check.ts",
-    "persist:patterns": "node scripts/persist/patterns.ts"
+    "persist:patterns": "node scripts/persist/patterns.ts",
+    "persist:media": "node scripts/persist/media.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
