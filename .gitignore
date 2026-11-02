@@ -19,3 +19,6 @@ dist
 /data/source/
 /data/views/
 /data/generated/
+
+# Throwaway e2e session cookie
+/test-results/auth-state.json

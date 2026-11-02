@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { createRootRoute, createRoute, createRouter, Link, Outlet, redirect, useNavigate, useRouter } from "@tanstack/react-router";
-import { CheckIcon, ChevronLeftIcon, ChevronRightIcon, ClockIcon, DownloadIcon, HardDriveDownloadIcon, MoonIcon, PlayIcon, RotateCcwIcon, SettingsIcon, SunIcon, Trash2Icon } from "lucide-react";
+import { CheckIcon, ChevronLeftIcon, ChevronRightIcon, ClockIcon, DownloadIcon, HardDriveDownloadIcon, LogOutIcon, MoonIcon, PlayIcon, RotateCcwIcon, SettingsIcon, SunIcon, Trash2Icon } from "lucide-react";
 import { Badge } from "./components/ui/badge";
 import { Button } from "./components/ui/button";
 import { Dialog, DialogDescription, DialogFooter, DialogHeader, DialogPanel, DialogPopup, DialogTitle } from "./components/ui/dialog";
@@ -14,6 +14,7 @@ import { completedKeys, collectMedia, nextIncomplete, programProgress } from "./
 import { WEEKDAYS, flatSessions, sessionKey } from "./domain/types";
 import type { RawItem } from "./domain/workout";
 import { NewProgram } from "./new-program";
+import { AuthGate, signOut } from "./auth-gate";
 import { cn } from "./lib/utils";
 import { positionOf, statesFor } from "./domain/generated-program";
 import { GeneratedOverview, GeneratedSession, GeneratedWeek, SavedPrograms, TrainHome, promotedOf } from "./generated-ui";
@@ -66,6 +67,7 @@ function Shell() {
           <nav className="flex flex-col gap-0.5 p-3" aria-label="App">
             <Link to="/downloads" className="flex h-9 items-center gap-2 rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted"><HardDriveDownloadIcon className="size-4" />Downloads</Link>
             <Link to="/settings" className="flex h-9 items-center gap-2 rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted"><SettingsIcon className="size-4" />Settings</Link>
+            <button type="button" onClick={signOut} className="flex h-9 items-center gap-2 rounded-lg px-2.5 text-start text-sm font-medium hover:bg-muted"><LogOutIcon className="size-4" />Sign out</button>
           </nav>
           <div className="mt-auto flex items-center gap-2 border-t px-5 py-4 text-xs text-muted-foreground">
             <span className={cn("size-1.5 rounded-full", offline ? "bg-muted-foreground" : "bg-success")} />
@@ -401,6 +403,7 @@ function Settings() {
         {row("Delete media only", "Removes downloaded images/video. Workouts and progress stay.", <Button variant="outline" onClick={() => setConfirm("media")}>Delete media</Button>)}
         {row("Delete progress only", "Removes runs and completion history. Content stays.", <Button variant="outline" onClick={() => setConfirm("progress")}>Delete progress</Button>)}
         {row("Reset local content", "Removes imported programs from this device. Progress stays, keyed by stable session IDs.", <Button variant="outline" onClick={() => setConfirm("content")}>Reset content</Button>)}
+        {row("Sign out", "Local programs and progress stay on this device.", <Button variant="outline" onClick={signOut}>Sign out</Button>)}
       </section>
       <p className="text-[13px] text-muted-foreground">Browsers can evict local storage, especially Safari on iOS for sites not added to the Home Screen. Export your progress regularly; no storage is guaranteed indefinitely.</p>
       <Dialog open={!!confirm} onOpenChange={(v) => !v && setConfirm(null)}>
@@ -442,7 +445,7 @@ function GenSessionPage() {
 }
 
 /* ---------------- Routes ---------------- */
-const rootRoute = createRootRoute({ component: Shell, notFoundComponent: () => <NotFound what="Page" /> });
+const rootRoute = createRootRoute({ component: () => <AuthGate><Shell /></AuthGate>, notFoundComponent: () => <NotFound what="Page" /> });
 const goActive = () => { throw redirect({ to: "/active-program", replace: true }); };
 const homeRoute = createRoute({ getParentRoute: () => rootRoute, path: "/", beforeLoad: goActive });
 const trainRedirect = createRoute({ getParentRoute: () => rootRoute, path: "/train", beforeLoad: goActive });

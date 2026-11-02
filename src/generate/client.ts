@@ -8,7 +8,7 @@ export class GenerateError extends Error {
   constructor(message: string, readonly kind: "download" | "generate") { super(message); this.name = "GenerateError"; }
 }
 
-const MANIFEST_URL = "/corpus/manifest.json";
+const MANIFEST_URL = "/api/corpus/manifest.json";
 const MANIFEST_KEY = "workout-corpus-manifest";
 
 /** Latest manifest; the last good copy is kept so the form works offline once the corpus has been cached. */

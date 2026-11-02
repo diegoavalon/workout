@@ -35,7 +35,7 @@ describe.skipIf(!haveViews)("corpus packaging", () => {
     const { packageCorpus } = await corpusModule();
     const { manifest, corpusName } = packageCorpus();
     expect(corpusName).toBe(`corpus-${manifest.version}.json`);
-    expect(manifest.url).toBe(`/corpus/${corpusName}`);
+    expect(manifest.url).toBe(`/api/corpus/${corpusName}`);
     expect(manifest.weeks).toBeGreaterThan(100);
     expect(manifest.equipment).toContain("dumbbell");
     expect(manifest.equipment).not.toContain("bodyweight");

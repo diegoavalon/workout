@@ -42,7 +42,7 @@ export function packageCorpus(viewsDir = "data/views"): { manifest: CorpusManife
   const corpus = JSON.stringify(weeks);
   const version = createHash("sha256").update(corpus).digest("hex").slice(0, 12);
   const corpusName = `corpus-${version}.json`;
-  return { corpus, corpusName, manifest: { version, url: `/corpus/${corpusName}`, bytes: Buffer.byteLength(corpus), weeks: weeks.length, equipment: equipmentTags(weeks) } };
+  return { corpus, corpusName, manifest: { version, url: `/api/corpus/${corpusName}`, bytes: Buffer.byteLength(corpus), weeks: weeks.length, equipment: equipmentTags(weeks) } };
 }
 
 export function writeCorpus(outDir: string, viewsDir = "data/views") {

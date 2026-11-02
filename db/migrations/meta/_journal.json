@@ -8,6 +8,13 @@
       "when": 1793506324936,
       "tag": "20261101041204_fixed_captain_universe",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793645168870,
+      "tag": "20261102184608_flawless_polaris",
+      "breakpoints": true
     }
   ]
 }
