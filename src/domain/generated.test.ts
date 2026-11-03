@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import programJson from "../../data/generated/pump-lift-3x-seed28-2026-11-02.json?raw";
-import { buildGeneratedDayView, buildGeneratedProgramView, type GeneratedDay, type GeneratedProgram } from "./generated";
+import { generatedProgramFixture } from "../test-fixtures/generated-program";
+import { buildGeneratedDayView, buildGeneratedProgramView, type GeneratedDay } from "./generated";
 import type { BlockView } from "./view-model";
 
 const byKind = <K extends BlockView["kind"]>(blocks: BlockView[], kind: K) =>
@@ -69,18 +69,17 @@ describe("buildGeneratedDayView", () => {
     expect(section.exercises[0].metrics.find((m) => m.label === "Time")).toMatchObject({ value: "180 sec", timerSeconds: 180 });
   });
 
-  it("builds the real generated pump-lift program file", () => {
-    const program = JSON.parse(programJson) as GeneratedProgram;
-    const view = buildGeneratedProgramView(program);
+  it("builds a six-week program with per-set details", () => {
+    const view = buildGeneratedProgramView(generatedProgramFixture);
     expect(view.weeks).toHaveLength(6);
     const days = view.weeks.flatMap((w) => w.days);
     expect(days.filter((d) => d.type === "training")).toHaveLength(18);
 
     const first = days[0];
-    expect(first.title).toBe("Sumo Deadlift + Push Press");
+    expect(first.title).toBe("Test Squat");
     const titles = first.blocks.flatMap((b) => (b.kind === "section" || b.kind === "superset" ? b.exercises.map((e) => e.title) : []));
-    expect(titles).toContain("Sumo Deadlift");
-    const lift = first.blocks.flatMap((b) => (b.kind === "section" || b.kind === "superset" ? b.exercises : [])).find((e) => e.title === "Sumo Deadlift");
+    expect(titles).toContain("Test Squat");
+    const lift = first.blocks.flatMap((b) => (b.kind === "section" || b.kind === "superset" ? b.exercises : [])).find((e) => e.title === "Test Squat");
     expect(lift?.setDetails).toContain("Set 3: 6 reps @ RPE 9");
     expect(lift?.trackingCount).toBe(3);
   });
