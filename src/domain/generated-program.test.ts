@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import raw from "../../data/generated/pump-lift-3x-seed28-2026-11-02.json";
+import { generatedProgramFixture } from "../test-fixtures/generated-program";
 import { MemoryRepository } from "../data/repository";
 import { buildGeneratedDayView } from "./generated";
 import { caveatsOf, dayOf, positionOf, previewView, registerGenerated, uncheckedOf, validateGeneratedFile, type GeneratedFile, type StateMap } from "./generated-program";
 
-const file = raw as unknown as GeneratedFile;
+const file = generatedProgramFixture;
 const snap = registerGenerated(file, "2026-11-01T00:00:00Z");
 
 describe("registerGenerated", () => {

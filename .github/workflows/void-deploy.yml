@@ -1,7 +1,7 @@
 name: Deploy to Cloudflare
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 concurrency:
   group: void-cloudflare-deploy-${{ github.repository }}-${{ github.ref }}
@@ -20,6 +20,10 @@ jobs:
           node-version: lts/*
           cache: npm
       - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Unit tests
+        run: npm test
       - name: Deploy
         env:
           # Add this scoped token at Settings → Secrets and variables → Actions.

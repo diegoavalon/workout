@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig, type Plugin } from "vite";
 import { voidPlugin } from "void";
 import { voidReact } from "@void/react/plugin";
 import tailwindcss from "@tailwindcss/vite";
@@ -11,6 +11,7 @@ export default defineConfig({
     voidReact({ react: { compiler: true } }),
     tailwindcss(),
     corpusPlugin(),
+    // PWA assets belong in the client output, outside the Worker bundle.
     VitePWA({
       strategies: "injectManifest",
       srcDir: "src",
@@ -31,6 +32,9 @@ export default defineConfig({
         ],
       },
       devOptions: { enabled: false },
-    }),
+    }).map((plugin): Plugin => ({
+      ...plugin,
+      applyToEnvironment: (environment) => environment.name === "client",
+    })),
   ],
 });

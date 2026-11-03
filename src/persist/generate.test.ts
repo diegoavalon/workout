@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { beforeAll, describe, expect, it } from "vitest";
 import { BALANCE_PARTNERS, coverageProblems, equipmentOk, generate, renderStrength, rng, validateBlock } from "./generate.ts";
 import { TRACK_IDS } from "./schema.ts";
 import type { ViewIndex, WeekView } from "./views.ts";
@@ -55,9 +55,11 @@ const existsSync = (p: string): boolean => fs.existsSync(p);
 const readFileSync = (p: string, enc: string): string => fs.readFileSync(p, enc);
 const haveViews = existsSync("data/views/index.json");
 describe.skipIf(!haveViews)("generate (real corpus)", () => {
-  const index: ViewIndex = JSON.parse(readFileSync("data/views/index.json", "utf8"));
   const corpus: WeekView[] = [];
-  for (const w of index.weeks) for (const f of Object.values(w.files)) corpus.push(JSON.parse(readFileSync(`data/views/${f}`, "utf8")));
+  beforeAll(() => {
+    const index: ViewIndex = JSON.parse(readFileSync("data/views/index.json", "utf8"));
+    for (const w of index.weeks) for (const f of Object.values(w.files)) corpus.push(JSON.parse(readFileSync(`data/views/${f}`, "utf8")));
+  });
   const start = "2027-01-04";
 
   it("builds six valid weeks with the right training-day count for every track", () => {

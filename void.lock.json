@@ -1,9 +1,38 @@
 {
   "version": 1,
-  "source": {},
+  "source": {
+    "name": "nivelo-tempo",
+    "routes": [
+      {
+        "pattern": "tempo.nivelohq.com",
+        "custom_domain": true
+      }
+    ]
+  },
   "resolved": {
     "account_id": "fa521e260a639c380bd06653a394bfb2",
-    "compatibility_date": "2026-02-24"
+    "compatibility_date": "2026-02-24",
+    "name": "nivelo-tempo",
+    "routes": [
+      {
+        "pattern": "tempo.nivelohq.com",
+        "custom_domain": true
+      }
+    ],
+    "d1_databases": [
+      {
+        "binding": "DB",
+        "database_name": "nivelo-tempo-db",
+        "database_id": "99d5c44d-4d63-45e2-bc61-6ab37dbcbc7e",
+        "migrations_dir": "./db/migrations"
+      }
+    ],
+    "r2_buckets": [
+      {
+        "binding": "STORAGE",
+        "bucket_name": "nivelo-tempo-storage"
+      }
+    ]
   },
-  "text": "{\n  \"account_id\": \"fa521e260a639c380bd06653a394bfb2\",\n  \"compatibility_date\": \"2026-02-24\"\n}\n"
+  "text": "{\n  \"account_id\": \"fa521e260a639c380bd06653a394bfb2\",\n  \"compatibility_date\": \"2026-02-24\",\n  \"name\": \"nivelo-tempo\",\n  \"routes\": [\n    {\n      \"pattern\": \"tempo.nivelohq.com\",\n      \"custom_domain\": true\n    }\n  ],\n  \"d1_databases\": [\n    {\n      \"binding\": \"DB\",\n      \"database_name\": \"nivelo-tempo-db\",\n      \"database_id\": \"99d5c44d-4d63-45e2-bc61-6ab37dbcbc7e\",\n      \"migrations_dir\": \"./db/migrations\"\n    }\n  ],\n  \"r2_buckets\": [\n    {\n      \"binding\": \"STORAGE\",\n      \"bucket_name\": \"nivelo-tempo-storage\"\n    }\n  ]\n}\n"
 }
