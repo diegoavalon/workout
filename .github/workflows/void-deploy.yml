@@ -24,16 +24,6 @@ jobs:
         run: npm run typecheck
       - name: Unit tests
         run: npm test
-      - name: Diagnose Cloudflare access
-        # Temporary: prints Cloudflare's real response for the call the deploy's secret check makes.
-        continue-on-error: true
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/user/tokens/verify" | head -c 600; echo
-          echo "--- worker secrets ---"
-          curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/scripts/nivelo-tempo/secrets" | head -c 600; echo
       - name: Deploy
         env:
           # Add this scoped token at Settings → Secrets and variables → Actions.
