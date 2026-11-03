@@ -53,7 +53,19 @@ If deployment fails with `ENOENT` for `.wrangler/deploy/config.json`, stop the d
 
 ### 3. Create the owner account
 
-Sign-up is closed until a temporary setup key is present. Run the following in Bash, entering credentials at the prompts instead of putting them in shell history:
+`SETUP_KEY` is a one-time secret that authorises creating the single owner account. Every sign-up request must carry it in an `x-setup-key` header (`auth.ts`); with the secret unset, or once any account exists, sign-up is refused. It is not your login password. You choose the email and password while creating the account, then delete the key.
+
+**Step 1: set the key** (both options need this). Generate it locally and store it as a secret without echoing it:
+
+```bash
+export SETUP_KEY="$(openssl rand -hex 32)"
+printf '%s' "$SETUP_KEY" | npx void secret put SETUP_KEY
+echo "$SETUP_KEY"   # copy it for Option A; skip for Option B
+```
+
+**Step 2, Option A: browser.** Open `https://tempo.nivelohq.com/setup` (not linked from sign-in). Enter the setup key, a name, your email and a password of at least 8 characters, then **Create account**. You are signed in and sent to the app. If an owner already exists, the page says so and offers a link to sign in. A wrong key shows an error under the key field.
+
+**Step 2, Option B: script.** Run in the same shell. Credentials are read at prompts so they stay out of shell history:
 
 ```bash
 export APP_URL=https://tempo.nivelohq.com
@@ -61,20 +73,19 @@ read -r -p "Owner email: " OWNER_EMAIL
 read -r -s -p "Owner password: " OWNER_PASSWORD
 printf '\n'
 export OWNER_EMAIL OWNER_PASSWORD
-export SETUP_KEY="$(openssl rand -hex 32)"
-
-printf '%s' "$SETUP_KEY" | npx void secret put SETUP_KEY
-npm run auth:create-owner
+npm run auth:create-owner      # scripts/create-owner.ts: POSTs /api/auth/sign-up/email with x-setup-key
 ```
 
-After the account is successfully created, remove the setup key:
+Optional `OWNER_NAME` sets the display name (default `Owner`). The script prints "Owner account created" on success and the HTTP status on failure.
 
-```sh
+**Step 3: remove the key** once the account exists:
+
+```bash
 npx void secret delete SETUP_KEY
 unset SETUP_KEY
 ```
 
-Sign-up also refuses once any account exists. Keep the owner credentials in your password manager; they are used for sign-in and corpus uploads.
+Keep the owner credentials in your password manager; they are used for sign-in and corpus uploads. There is no password-reset email: if you forget the password, reset it from the server with Void CLI access.
 
 ### 4. Upload the private source programs
 
