@@ -1,6 +1,7 @@
-import type { Generated, GenerateOptions } from "../persist/generate";
+import type { RecoveryDay } from "../domain/generated";
+import type { Generated, GenerateOptions, RecoveryOptions } from "../persist/generate";
 import { isCorpusCached } from "./corpus";
-import type { CorpusRef, GenerateResponse, Phase } from "./protocol";
+import type { CorpusRef, GenerateRequest, GenerateResponse, GenerateTask, Phase } from "./protocol";
 
 export interface CorpusManifest extends CorpusRef { weeks: number; equipment: string[] }
 export interface GenerateProgress { phase: Phase; loaded?: number; total?: number }
@@ -38,8 +39,8 @@ let worker: Worker | undefined;
 let seq = 0;
 const getWorker = () => (worker ??= new Worker(new URL("./worker.ts", import.meta.url), { type: "module" }));
 
-/** Generates a block in a Web Worker. The generator and corpus are loaded lazily on first use. */
-export function generateProgram(manifest: CorpusManifest, options: GenerateOptions, onProgress: (p: GenerateProgress) => void = () => {}): Promise<Generated> {
+/** The worker and corpus are loaded lazily on first use. */
+function runGenerator({ version, url, bytes }: CorpusRef, task: GenerateTask, onProgress?: (p: GenerateProgress) => void): Promise<Generated | RecoveryDay[][]> {
   return new Promise((resolve, reject) => {
     const w = getWorker();
     const id = ++seq;
@@ -47,12 +48,24 @@ export function generateProgram(manifest: CorpusManifest, options: GenerateOptio
     const onMessage = (e: MessageEvent<GenerateResponse>) => {
       const m = e.data;
       if (m.id !== id) return;
-      if (m.type === "progress") onProgress(m);
+      if (m.type === "progress") onProgress?.(m);
       else if (m.type === "done") { cleanup(); resolve(m.result); }
       else { cleanup(); reject(new GenerateError(m.message, m.kind)); }
     };
     const onError = (e: ErrorEvent) => { cleanup(); worker?.terminate(); worker = undefined; reject(new GenerateError(e.message || "Generation failed unexpectedly.", "generate")); };
     w.addEventListener("message", onMessage); w.addEventListener("error", onError);
-    w.postMessage({ id, corpus: { version: manifest.version, url: manifest.url, bytes: manifest.bytes }, options });
+    w.postMessage({ id, corpus: { version, url, bytes }, ...task } satisfies GenerateRequest);
   });
+}
+
+export async function generateProgram(manifest: CorpusManifest, options: GenerateOptions, onProgress?: (p: GenerateProgress) => void): Promise<Generated> {
+  const result = await runGenerator(manifest, { task: "program", options }, onProgress);
+  if (Array.isArray(result)) throw new GenerateError("The generator returned an unexpected result.", "generate");
+  return result;
+}
+
+export async function generateRecovery(manifest: CorpusManifest, options: RecoveryOptions, onProgress?: (p: GenerateProgress) => void): Promise<RecoveryDay[][]> {
+  const result = await runGenerator(manifest, { task: "recovery", options }, onProgress);
+  if (!Array.isArray(result)) throw new GenerateError("The generator returned an unexpected result.", "generate");
+  return result;
 }

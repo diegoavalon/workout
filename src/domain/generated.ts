@@ -11,10 +11,14 @@ import mediaMap from "../../data/catalog/media.json";
  * programs need no renderer of their own.
  */
 
-export type GeneratedExerciseRef = { id: string; name: string; pattern?: string; equipment?: string[]; unilateral?: boolean };
+export type GeneratedExerciseRef = { id: string; name: string; pattern?: string | null; equipment?: string[]; unilateral?: boolean };
 export type GeneratedSet = {
   kind: string; repsType: string; repsMin: number | null; repsMax: number | null;
   unit: string | null; valueFemale?: number | null; rpeMin: number | null; rpeMax: number | null; effort: string | null;
+  /** Combination lifts: reps per movement (e.g. [14, 10] shows as "14 + 10"); repsMin/repsMax hold the total. */
+  repsParts?: number[];
+  /** Prescribed load for this set (display only), in `weightUnit`. */
+  weight?: number | null; weightUnit?: string | null;
 };
 export type GeneratedItem = {
   exercise: GeneratedExerciseRef | null; nameRaw: string | null;
@@ -33,7 +37,19 @@ export type GeneratedDay = {
   sections: GeneratedSection[];
 };
 export type GeneratedWeek = { weekStart: string; days: GeneratedDay[]; block?: { weekNumber: number; weekCount: number } };
-export type GeneratedProgram = { options: { track: string; seed?: number; startDate?: string; equipment?: string[]; avoidRecent?: boolean }; weeks: GeneratedWeek[] };
+export type RecoveryDay = Pick<GeneratedDay, "day" | "sections">;
+export type GeneratedProgram = {
+  options: {
+    track: string; seed?: number; startDate?: string; equipment?: string[]; avoidRecent?: boolean;
+    /** Display name for fixed programs (otherwise derived from the track). */
+    title?: string;
+    /** Fixed programs with weights: the unit and the one-rep maxes they were calculated from. */
+    unit?: string; maxes?: Record<string, number>; maxLabels?: Record<string, string>;
+    /** Power Thrash II uses the full set prescription when this is omitted. */
+    setVolume?: "half";
+  };
+  weeks: GeneratedWeek[];
+};
 
 export type SessionView = WorkoutView & {
   key: string; title: string; dayLabel: string; date: string; type: string; badges: string[];
@@ -57,7 +73,7 @@ const rangeSeconds = (rest: GeneratedItem["restSec"]): { value: string; timerSec
 };
 
 function setValue(set: GeneratedSet, perSide: boolean): string {
-  const reps = range(set.repsMin, set.repsMax);
+  const reps = set.repsParts?.length ? set.repsParts.join(" + ") : range(set.repsMin, set.repsMax);
   if (reps === null) return "Max reps";
   const unit = set.repsType === "count" ? "reps" : set.unit ?? set.repsType;
   return `${reps} ${unit}${perSide ? "/side" : ""}`;
@@ -65,7 +81,8 @@ function setValue(set: GeneratedSet, perSide: boolean): string {
 function setDetail(set: GeneratedSet, workingIndex: number, perSide: boolean): string {
   const head = set.kind === "warmup" ? "Warm-up" : `Set ${workingIndex}`;
   const rpe = range(set.rpeMin, set.rpeMax);
-  return `${head}: ${setValue(set, perSide)}${rpe ? ` @ RPE ${rpe}` : ""}${set.effort ? ` (${set.effort})` : ""}`;
+  const load = set.weight != null ? ` @ ${set.weight} ${set.weightUnit ?? ""}`.trimEnd() : "";
+  return `${head}: ${setValue(set, perSide)}${load}${rpe ? ` @ RPE ${rpe}` : ""}${set.effort ? ` (${set.effort})` : ""}`;
 }
 
 /** Catalog exercise id → media from the exercise-library export (`npm run persist:media`). */
@@ -90,6 +107,11 @@ function generatedExercise(item: GeneratedItem, key: string, label: string, inde
       value: values.join(" · "),
       timerSeconds: isTime && single ? (firstType === "minutes" ? effective[0].repsMin! * 60 : effective[0].repsMin!) : null,
     });
+    const loads = effective.map((s) => s.weight).filter((w): w is number => typeof w === "number");
+    if (loads.length) {
+      const unit = effective.find((s) => s.weight != null)?.weightUnit ?? "";
+      metrics.push({ key: "Weight", label: "Weight", value: `${range(Math.min(...loads), Math.max(...loads))} ${unit}`.trimEnd(), timerSeconds: null });
+    }
     const rpes = [...new Set(effective.map((s) => range(s.rpeMin, s.rpeMax)).filter(Boolean))];
     if (rpes.length) metrics.push({ key: "RPE", label: "RPE", value: rpes.join(" · "), timerSeconds: null });
   }

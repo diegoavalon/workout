@@ -1,5 +1,8 @@
 import { TRACK_IDS, type TrackId } from "../persist/schema";
 import type { GenerateOptions } from "../persist/generate";
+import { isMonday } from "../domain/calendar";
+
+export { isMonday };
 
 export type Style = "pump-lift" | "pump-condition" | "perform" | "minimalist";
 export const STYLES: { id: Style; label: string; blurb: string; days: number[] }[] = [
@@ -41,12 +44,6 @@ export function nextMonday(from = new Date()): string {
   d.setDate(d.getDate() + ((8 - d.getDay()) % 7));
   return iso(d);
 }
-export function isMonday(date: string): boolean {
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return false;
-  const d = new Date(`${date}T00:00:00Z`);
-  return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === date && d.getUTCDay() === 1;
-}
-
 /** Blank → null (pick one for me). Otherwise a whole number from 0 to 4294967295, or an error message. */
 export function parseSeed(text: string): { seed: number | null; error?: string } {
   const t = text.trim();

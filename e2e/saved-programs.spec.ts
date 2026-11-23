@@ -47,7 +47,7 @@ test("cancel and delete saved programs, preserving other programs and persisting
   await page.reload();
   await expect(rows).toHaveCount(0);
   await page.goto("/active-program");
-  await expect(page.getByText("No active program yet. Generate one to get started.")).toBeVisible();
+  await expect(page.getByText("Create a program to start training.")).toBeVisible();
 });
 
 test("deleting the active program returns to the remaining program already in progress", async ({ page }) => {

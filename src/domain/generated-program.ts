@@ -72,7 +72,7 @@ export function registerGenerated(file: GeneratedFile, importedAt = new Date().t
   const base = track.replace(/-\d+x$/, "");
   return {
     id: `${GENERATED_ID_PREFIX}${fingerprint.slice(0, 12)}`, fingerprint, schemaVersion: 1, importedAt,
-    title: `${titleCase(base)} · ${freq} days/week`, track, daysPerWeek: freq, weekCount: file.weeks.length,
+    title: `${file.options.title ?? titleCase(base)} · ${freq} days/week`, track, daysPerWeek: freq, weekCount: file.weeks.length,
     startDate: file.options.startDate, file, sessions,
   };
 }
@@ -180,8 +180,8 @@ export function equipmentOf(file: GeneratedFile): string[] {
   return [...set].sort();
 }
 
-/** Main lift of a session, week by week: exact per-set reps and RPE (never collapsed to "3 × 10"). */
-export function mainLiftSets(day: GeneratedDay | undefined): { name: string; reps: string; rpe: string } | null {
+/** Main lift of a session, week by week: exact per-set reps and RPE or load (never collapsed to "3 × 10"). */
+export function mainLiftSets(day: GeneratedDay | undefined): { name: string; reps: string; rpe: string; load: string } | null {
   const section = day?.sections.find((s) => s.role.startsWith("strength") && s.items.length);
   const item = section?.items[0];
   if (!item) return null;
@@ -189,9 +189,16 @@ export function mainLiftSets(day: GeneratedDay | undefined): { name: string; rep
   const fmt = (a: number | null, b: number | null) => (a === null && b === null ? "" : a === b || b === null ? String(a) : a === null ? String(b) : `${a}–${b}`);
   return {
     name: item.exercise?.name ?? item.nameRaw ?? "Main lift",
-    reps: working.map((s) => fmt(s.repsMin, s.repsMax) || "max").join(" · "),
+    reps: working.map((s) => (s.repsParts?.length ? s.repsParts.join("+") : fmt(s.repsMin, s.repsMax) || "max")).join(" · "),
     rpe: working.map((s) => fmt(s.rpeMin, s.rpeMax)).filter(Boolean).join(" · "),
+    load: loadRange(working),
   };
+}
+function loadRange(sets: GeneratedDay["sections"][number]["items"][number]["sets"]): string {
+  const w = sets.map((s) => s.weight).filter((x): x is number => typeof x === "number");
+  if (!w.length) return "";
+  const lo = Math.min(...w), hi = Math.max(...w);
+  return `${lo === hi ? lo : `${lo}–${hi}`} ${sets.find((s) => s.weightUnit)?.weightUnit ?? ""}`.trim();
 }
 
 const WD = ["", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
