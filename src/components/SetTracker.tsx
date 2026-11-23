@@ -25,7 +25,10 @@ export function SetTracker({ count, completed, onChange, label, unit = "Set", co
           const checked = completed.includes(value);
           return (
             <Label key={value} className={cn("min-h-11 cursor-pointer rounded-lg border bg-card transition-colors", compact ? "min-w-11 justify-center gap-1.5 px-1.5" : "bg-muted px-3", checked && "border-success/40 bg-success/8 text-success-foreground")}>
-              <Checkbox value={value} className={compact ? "size-4" : undefined} />
+              <Checkbox
+                value={value}
+                className={cn(compact && "size-4", "*:data-[slot=checkbox-indicator]:data-checked:bg-success-foreground *:data-[slot=checkbox-indicator]:data-checked:text-card")}
+              />
               <span><span className={cn(compact && "sr-only")}>{unit} </span>{value}</span>
             </Label>
           );

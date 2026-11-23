@@ -27,7 +27,7 @@ const activeRun = (runs: ProgramRun[], id: string) => runs.filter((r) => r.progr
 const sessionPath = { to: "/generated/$id/session/$sid" } as const;
 
 function Heading({ title, sub }: { title: string; sub?: string }) {
-  return <div className="flex flex-col gap-2"><h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-semibold tracking-tight text-balance">{title}</h1>{sub && <p className="text-base text-muted-foreground">{sub}</p>}</div>;
+  return <div className="flex flex-col gap-2"><h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-black text-balance">{title}</h1>{sub && <p className="text-base text-muted-foreground">{sub}</p>}</div>;
 }
 const StatusBadge = ({ status, next }: { status: ReturnType<typeof statusOf>; next?: boolean }) =>
   status === "complete" ? <Badge variant="success" size="lg">Complete</Badge>
@@ -218,7 +218,7 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
             <span className="text-xs font-medium tracking-widest text-muted-foreground uppercase">{run ? "Training program" : "Review program"}</span>
             <Badge variant={pos.complete ? "success" : run ? "secondary" : "outline"} size="lg">{pos.complete ? "Completed" : run ? "In progress" : "Not active"}</Badge>
           </div>
-          <h1 className="font-heading text-[clamp(28px,4.5vw,36px)] leading-[1.1] font-semibold tracking-tight">{snap.title}</h1>
+          <h1 className="font-heading text-[clamp(28px,4.5vw,36px)] leading-[1.1] font-black">{snap.title}</h1>
           <p className="text-[15px] leading-relaxed text-muted-foreground text-pretty">{snap.weekCount} weeks · {training.length} training sessions. Train in order on days that suit you; it can take longer than {snap.weekCount} calendar weeks.</p>
         </div>
         <dl className="grid grid-cols-3 gap-px border-y bg-border">
@@ -260,7 +260,7 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
       {run && pos.complete && <BlockSummary snap={snap} run={run} states={states} />}
       <section className="flex flex-col gap-3" aria-label="What you’ll do">
         <div className="mb-2 flex flex-wrap items-center justify-between gap-2 sm:mb-3">
-          <h2 className="font-heading text-xl font-semibold">What you’ll do</h2>
+          <h2 className="font-heading text-xl font-bold">What you’ll do</h2>
           <div className="flex gap-1" role="group" aria-label="View">
             {(["week", "progression"] as const).map((v) => <Button key={v} size="sm" variant={view === v ? "default" : "outline"} onClick={() => setView(v)}>{v === "week" ? "By week" : "Progression"}</Button>)}
           </div>
@@ -380,7 +380,7 @@ export function GeneratedWeek({ snap, week, data }: { snap: GeneratedSnapshot; w
       <Heading title={`Week ${week}`} sub={`${counts.done} of ${counts.total} sessions${first ? ` · suggested ${dateShort(first.date)}` : ""}. Dates are suggestions; a missed day never skips a session.`} />
       <SessionList snap={snap} states={states} week={week} next={pos.next?.id} />
       <section className="hidden flex-col gap-2 lg:flex" aria-label="Block overview">
-        <h2 className="font-heading text-xl font-semibold">Block overview</h2>
+        <h2 className="font-heading text-xl font-bold">Block overview</h2>
         <div className={card("overflow-x-auto")}>
           <table className="w-full text-sm">
             <thead><tr className="border-b text-left text-muted-foreground"><th className="p-2.5 font-medium" />{Array.from({ length: snap.weekCount }, (_, i) => <th key={i} className="p-2.5 font-medium">Week {i + 1}</th>)}</tr></thead>
@@ -454,7 +454,7 @@ export function GeneratedSession({ snap, sid, data }: { snap: GeneratedSnapshot;
       {mode === "inert" || mode === "preview" ? <div className="rounded-lg bg-muted px-3 py-2 text-[13px] font-medium text-muted-foreground">Preview — doesn’t change progress</div> : mode === "active" ? <Badge variant="secondary" size="lg" className="self-start">In progress · saved</Badge> : null}
       <div className="flex flex-col gap-2">
         <span className="text-[15px] font-semibold text-muted-foreground">{title} · suggested {dateShort(ref.date)}</span>
-        <h1 className="font-heading text-[clamp(28px,5vw,38px)] leading-[1.08] font-bold tracking-tight text-balance">{ref.title}</h1>
+        <h1 className="font-heading text-[clamp(28px,5vw,38px)] leading-[1.08] font-black text-balance">{ref.title}</h1>
         {view.badges.filter((b) => b.startsWith("Short")).map((b) => <span key={b} className="text-sm text-muted-foreground">{b}</span>)}
         <div className="flex flex-wrap gap-1.5 pt-1" aria-label="Sections">
           {view.blocks.filter((b) => "title" in b && b.title).map((b) => <button key={b.key} type="button" className="min-h-9 rounded-full border px-3 text-[13px] hover:bg-muted" onClick={() => document.getElementById(b.key)?.scrollIntoView({ behavior: "smooth", block: "start" })}>{"label" in b && b.label ? `${b.label} · ` : ""}{"title" in b ? b.title : ""}</button>)}

@@ -151,7 +151,7 @@ export function NewProgram({ from }: { from?: GeneratedSnapshot }) {
   return (
     <>
       <div className="flex flex-col gap-3">
-        <h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-semibold tracking-tight text-balance">New program</h1>
+        <h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-black text-balance">New program</h1>
         <p className="max-w-120 text-[15px] leading-relaxed text-muted-foreground">Choose how you want to train. Preview your program before you start.</p>
       </div>
       <RadioGroup aria-label="Choose a program" value={fixed ? POWER_THRASH_TRACK : input.style} onValueChange={pickProgram} disabled={running || savingFixed} className="gap-6">

@@ -21,6 +21,8 @@ import { GeneratedOverview, GeneratedSession, GeneratedWeek, SavedPrograms, Trai
 
 const flash = (title: string) => toastManager.add({ title });
 const card = (cls?: string) => cn("rounded-2xl border bg-card shadow-xs/5", cls);
+const sidebarLink = "flex h-9 items-center gap-2 rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-sidebar-accent [&.active]:text-sidebar-accent-foreground";
+const mobileNavLink = "flex min-h-14 flex-1 items-center justify-center border-t-2 border-transparent px-1 text-center text-[13px] font-medium [&.active]:border-brand-foreground [&.active]:text-brand-foreground";
 
 async function genData() {
   await repo.ensureSeeded();
@@ -60,13 +62,13 @@ function Shell() {
           <Link to="/active-program" aria-label="Tempo home" className="flex h-15 shrink-0 items-center border-b px-5 transition-colors hover:bg-muted"><BrandLogo /></Link>
           <nav className="flex flex-col gap-0.5 p-3" aria-labelledby="programs-nav-heading">
             <h2 id="programs-nav-heading" className="px-2.5 pt-1 pb-2 text-xs font-medium text-muted-foreground">Programs</h2>
-            <Link to="/active-program" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">Active</Link>
-            <Link to="/programs/new" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">New</Link>
-            <Link to="/programs/saved" className="flex h-9 items-center rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted">Saved</Link>
+            <Link to="/active-program" className={sidebarLink}>Active</Link>
+            <Link to="/programs/new" className={sidebarLink}>New</Link>
+            <Link to="/programs/saved" className={sidebarLink}>Saved</Link>
           </nav>
           <nav className="flex flex-col gap-0.5 p-3" aria-label="App">
-            <Link to="/downloads" className="flex h-9 items-center gap-2 rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted"><HardDriveDownloadIcon className="size-4" />Downloads</Link>
-            <Link to="/settings" className="flex h-9 items-center gap-2 rounded-lg px-2.5 text-sm font-medium hover:bg-muted [&.active]:bg-muted"><SettingsIcon className="size-4" />Settings</Link>
+            <Link to="/downloads" className={sidebarLink}><HardDriveDownloadIcon className="size-4" />Downloads</Link>
+            <Link to="/settings" className={sidebarLink}><SettingsIcon className="size-4" />Settings</Link>
             <button type="button" onClick={signOut} className="flex h-9 items-center gap-2 rounded-lg px-2.5 text-start text-sm font-medium hover:bg-muted"><LogOutIcon className="size-4" />Sign out</button>
           </nav>
           <div className="mt-auto flex items-center gap-2 border-t px-5 py-4 text-xs text-muted-foreground">
@@ -89,11 +91,11 @@ function Shell() {
           )}
           <main className="flex-1"><div className="mx-auto flex max-w-190 flex-col gap-7 px-4 pt-7 pb-12 sm:px-8"><Outlet /></div></main>
           <nav className="sticky bottom-0 flex border-t bg-background lg:hidden" aria-label="App">
-            <Link to="/active-program" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Active</Link>
-            <Link to="/programs/new" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">New</Link>
-            <Link to="/programs/saved" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Saved</Link>
-            <Link to="/downloads" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Downloads</Link>
-            <Link to="/settings" className="flex min-h-14 flex-1 items-center justify-center px-1 text-center text-[13px] font-medium [&.active]:text-primary">Settings</Link>
+            <Link to="/active-program" className={mobileNavLink}>Active</Link>
+            <Link to="/programs/new" className={mobileNavLink}>New</Link>
+            <Link to="/programs/saved" className={mobileNavLink}>Saved</Link>
+            <Link to="/downloads" className={mobileNavLink}>Downloads</Link>
+            <Link to="/settings" className={mobileNavLink}>Settings</Link>
           </nav>
         </div>
       </div>
@@ -102,7 +104,7 @@ function Shell() {
 }
 
 function Heading({ title, sub }: { title: string; sub?: string }) {
-  return <div className="flex flex-col gap-2"><h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-semibold tracking-tight text-balance">{title}</h1>{sub && <p className="text-base text-muted-foreground">{sub}</p>}</div>;
+  return <div className="flex flex-col gap-2"><h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-black text-balance">{title}</h1>{sub && <p className="text-base text-muted-foreground">{sub}</p>}</div>;
 }
 function NotFound({ what }: { what: string }) {
   return <><Heading title={`${what} not found`} sub="It may have been removed by a content update. Your progress is stored separately and has not been changed." /><Link to="/active-program" className="text-sm font-medium underline">Back to Active program</Link></>;
@@ -179,7 +181,7 @@ function ProgramOverview() {
             <span className="text-xs font-medium tracking-widest text-muted-foreground uppercase">Training program</span>
             {run && <Badge variant={nx ? "secondary" : "success"} size="lg">{nx ? "In progress" : "Completed"}</Badge>}
           </div>
-          <h1 className="font-heading text-[clamp(28px,4.5vw,36px)] leading-[1.1] font-semibold tracking-tight">{program.title}</h1>
+          <h1 className="font-heading text-[clamp(28px,4.5vw,36px)] leading-[1.1] font-black">{program.title}</h1>
           <p className="text-[15px] leading-relaxed text-muted-foreground text-pretty">{description}</p>
           {(focus || difficulty) && (
             <div className="flex flex-wrap gap-2">
@@ -192,7 +194,7 @@ function ProgramOverview() {
           {[["Days per week", program.daysPerWeek], ["Weeks", program.totalWeeks], ["Sessions", totalSessions]].map(([label, value]) => (
             <div key={label} className="flex flex-col gap-1.5 bg-card p-4 sm:px-6 sm:py-5">
               <dt className="text-xs leading-4 font-medium text-muted-foreground">{label}</dt>
-              <dd className="order-first font-heading text-[28px] leading-none font-semibold tracking-tight tabular-nums">{value}</dd>
+              <dd className="order-first font-heading text-[28px] leading-none font-semibold tabular-nums">{value}</dd>
               {label === "Sessions" && optionalSessions > 0 && <dd className="text-[11px] leading-relaxed text-muted-foreground">{pr.total} training · {optionalSessions} optional</dd>}
             </div>
           ))}
@@ -226,7 +228,7 @@ function ProgramOverview() {
       </section>
       <MediaSummary programId={program.id} items={items} exerciseIndex={exerciseIndex} />
       <section className="flex flex-col gap-3" aria-label="Weeks">
-        <h2 className="font-heading text-xl font-semibold tracking-tight">Weeks</h2>
+        <h2 className="font-heading text-xl font-bold">Weeks</h2>
         <div className="overflow-hidden rounded-2xl border bg-card shadow-xs/5">
           {[...program.weeks].sort((a, b) => a.order - b.order).map((w) => {
             const wd = w.sessions.filter((s) => done.has(sessionKey(program.id, s.id))).length;
@@ -313,7 +315,7 @@ function SessionView() {
       </nav>
       <div className="flex flex-col gap-2.5">
         <span className="text-[15px] font-semibold text-muted-foreground">Session {session.order}</span>
-        <h1 className="font-heading text-[clamp(30px,5vw,40px)] leading-[1.08] font-bold tracking-tight text-balance">{session.title ?? `Session ${session.order}`}</h1>
+        <h1 className="font-heading text-[clamp(30px,5vw,40px)] leading-[1.08] font-black text-balance">{session.title ?? `Session ${session.order}`}</h1>
         <div className="flex flex-wrap gap-1.5 pt-1">
           {session.estimatedMinutes && <Badge variant="outline" size="lg"><ClockIcon />{session.estimatedMinutes} min</Badge>}
           <Badge variant="outline" size="lg">{exerciseCount} exercises</Badge>
