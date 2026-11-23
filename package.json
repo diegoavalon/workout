@@ -45,6 +45,7 @@
     "persist:patterns": "node scripts/persist/patterns.ts",
     "persist:media": "node scripts/persist/media.ts",
     "corpus:upload": "node scripts/corpus-upload.ts",
+    "power-thrash:convert": "node scripts/power-thrash.ts",
     "auth:create-owner": "node scripts/create-owner.ts"
   },
   "dependencies": {

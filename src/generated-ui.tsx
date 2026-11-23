@@ -15,6 +15,7 @@ import {
   uncheckedOf, validateGeneratedFile, weekCounts, weekSessions, weekdayShort,
   type GeneratedSnapshot, type SessionRef, type StateMap,
 } from "./domain/generated-program";
+import { isPowerThrash } from "./domain/power-thrash";
 import type { ProgramRun, SessionProgress } from "./domain/types";
 import { cn } from "./lib/utils";
 import { GenerationStatus, inputFromOptions, useGeneration } from "./new-program";
@@ -74,9 +75,9 @@ export function TrainHome({ data }: { data: GenData }) {
   if (!pick) {
     return (
       <>
-        <Heading title="Active program" sub="Generate a six-week program once, then train from it in order." />
+        <Heading title="Active program" />
         <section className={card("flex flex-col gap-4 p-5")}>
-          <p className="text-[15px] text-muted-foreground">{data.snaps.length ? "You have saved programs, but none is active. Pick one to use." : "No active program yet. Generate one to get started."}</p>
+          <p className="text-[15px] text-muted-foreground">{data.snaps.length ? "You have saved programs, but none is active. Pick one to use." : "Create a program to start training."}</p>
           {data.snaps.map((s) => <Link key={s.id} to="/generated/$id" params={{ id: s.id }} className="flex min-h-11 items-center justify-between rounded-lg border px-3 text-sm font-medium hover:bg-muted">{s.title}<ChevronRightIcon className="size-4" /></Link>)}
           <div className="flex flex-wrap gap-2"><Link to="/programs/new"><Button size="xl">New program</Button></Link><Link to="/programs/saved"><Button size="xl" variant="outline">Saved programs</Button></Link></div>
         </section>
@@ -190,6 +191,8 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
   const equipment = equipmentOf(snap.file);
   const [week, setWeek] = useState(1);
   const [view, setView] = useState<"week" | "progression">("week");
+  const fixed = isPowerThrash(snap.file);
+  const { maxes, maxLabels, unit, setVolume } = snap.file.options;
   const training = trainingSessions(snap);
   const recovery = snap.sessions.filter((s) => s.kind === "recovery").length;
   const rest = weekSessions(snap, week).filter((s) => s.kind === "rest").length;
@@ -243,7 +246,7 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
                 : promoted ? <Link to="/active-program"><Button size="xl" className="w-full">Open Active program</Button></Link>
                 : <Button size="xl" onClick={use}>{run ? "Make this the Active program" : "Use this program"}</Button>}
               {!run && <p className="text-[13px] text-muted-foreground">Saves all {snap.weekCount} weeks to this device. Doesn’t start a workout.</p>}
-              {!run && snap.file.options.seed !== undefined && (
+              {!fixed && !run && snap.file.options.seed !== undefined && (
                 <div className="flex flex-wrap gap-2">
                   <Link to="/programs/new" search={{ from: snap.id }}><Button variant="outline" disabled={generating}>Edit inputs</Button></Link>
                   <Button variant="outline" disabled={generating} onClick={another}>{generating ? "Generating…" : "Generate another"}</Button>
@@ -256,7 +259,7 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
       </section>
       {run && pos.complete && <BlockSummary snap={snap} run={run} states={states} />}
       <section className="flex flex-col gap-3" aria-label="What you’ll do">
-        <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="mb-2 flex flex-wrap items-center justify-between gap-2 sm:mb-3">
           <h2 className="font-heading text-xl font-semibold">What you’ll do</h2>
           <div className="flex gap-1" role="group" aria-label="View">
             {(["week", "progression"] as const).map((v) => <Button key={v} size="sm" variant={view === v ? "default" : "outline"} onClick={() => setView(v)}>{v === "week" ? "By week" : "Progression"}</Button>)}
@@ -264,9 +267,9 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
         </div>
         {view === "week" ? (
           <>
-            <WeekTabs snap={snap} states={states} selected={week} onSelect={setWeek} />
+            <WeekTabs snap={snap} states={states} selected={week} onSelect={setWeek} className="mb-2 sm:mb-3" />
             <SessionList snap={snap} states={states} week={week} next={pos.next?.id} />
-            <p className="text-[13px] text-muted-foreground">{recovery > 0 ? `+ ${weekSessions(snap, week).filter((s) => s.kind === "recovery").length} optional recovery` : ""}{rest ? ` · ${rest} rest day` : ""} · <Link to="/generated/$id/week/$week" params={{ id: snap.id, week: String(week) }} className="underline">Open Week {week}</Link></p>
+            <p className="text-[13px] text-muted-foreground">{recovery > 0 ? `+ ${weekSessions(snap, week).filter((s) => s.kind === "recovery").length} optional recovery` : ""}{rest ? ` · ${rest} rest ${rest === 1 ? "day" : "days"}` : ""} · <Link to="/generated/$id/week/$week" params={{ id: snap.id, week: String(week) }} className="underline">Open Week {week}</Link></p>
           </>
         ) : <Progression snap={snap} />}
       </section>
@@ -277,8 +280,21 @@ export function GeneratedOverview({ snap, data }: { snap: GeneratedSnapshot; dat
           {snap.file.options.seed !== undefined && <><dt>Seed</dt><dd>{snap.file.options.seed}</dd></>}
           <dt>Fingerprint</dt><dd className="font-mono">{snap.fingerprint.slice(0, 12)}</dd>
           <dt>Saved</dt><dd>{new Date(snap.importedAt).toLocaleString()}</dd>
+          {fixed && <><dt>Sets per exercise</dt><dd>{setVolume === "half" ? "Half sets" : "Full sets"}</dd></>}
+          {fixed && Object.entries(maxes ?? {}).map(([id, value]) => (
+            <div key={id} className="contents">
+              <dt>{maxLabels?.[id] ?? id.replaceAll("-", " ")}</dt>
+              <dd className="tabular-nums">{value} {unit ?? "lb"}</dd>
+            </div>
+          ))}
           {snap.file.checks?.map((c) => <><dt key={c.name + "k"}>{c.name}</dt><dd key={c.name + "v"}>{c.status}{c.detail ? ` — ${c.detail}` : ""}</dd></>)}
         </dl>
+        {fixed && (
+          <div className="mt-4 flex flex-col items-start gap-2">
+            <Link to="/programs/new" search={{ from: snap.id }} className="font-medium underline underline-offset-2">Change maxes or sets</Link>
+            <p className="text-muted-foreground">Changed inputs create a separate program. Your progress stays with the original.</p>
+          </div>
+        )}
       </details>
     </>
   );
@@ -302,9 +318,9 @@ function Progression({ snap }: { snap: GeneratedSnapshot }) {
 }
 
 /* ---------------- Week browser ---------------- */
-function WeekTabs({ snap, states, selected, onSelect, current }: { snap: GeneratedSnapshot; states: StateMap; selected: number; onSelect: (w: number) => void; current?: number }) {
+function WeekTabs({ snap, states, selected, onSelect, current, className }: { snap: GeneratedSnapshot; states: StateMap; selected: number; onSelect: (w: number) => void; current?: number; className?: string }) {
   return (
-    <div className="grid grid-cols-6 gap-1.5" role="tablist" aria-label="Program weeks">
+    <div className={cn("grid grid-cols-6 gap-1.5", className)} role="tablist" aria-label="Program weeks">
       {Array.from({ length: snap.weekCount }, (_, i) => i + 1).map((w) => {
         const c = weekCounts(snap, states, w);
         return (

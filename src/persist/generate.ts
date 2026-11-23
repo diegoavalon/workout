@@ -1,6 +1,7 @@
 import type { TrackId } from "./schema.ts";
 import type { WeekView } from "./views.ts";
 import { weekView } from "./views.ts";
+import type { RecoveryDay } from "../domain/generated.ts";
 
 // Block generator. It remixes what the program has already published: every choice is sampled from
 // observed material and recombined under the rules measured in data/reports/analysis.md.
@@ -30,6 +31,13 @@ export interface GenerateOptions {
   /** Avoid main lifts used in the most recent observed block. Default true. */
   avoidRecent?: boolean;
   weeks?: number;
+}
+
+export interface RecoveryOptions {
+  track: TrackId;
+  seed: number;
+  weeks: number;
+  days: readonly number[];
 }
 
 export interface Check {
@@ -201,6 +209,36 @@ export const BALANCE_PARTNERS: Record<string, Set<string>> = {
   hinge: new Set([...LOWER_OR_TRUNK, "horizontal-pull", "vertical-pull"]),
 };
 const mobilityTopic = (d: Day) => (d.sections.find((x) => x.role === "mobility")?.raw.split("\n").map((l) => l.trim()).filter(Boolean)[1] ?? "").toLowerCase();
+
+function recoveryPicker(corpus: WeekView[], track: TrackId, r: Rand) {
+  const days = corpus.filter((week) => week.track === track).flatMap((week) => week.days);
+  const order = shuffle(days.filter((day) => day.type === "recovery" && !day.sections.some((section) => STRAY_WEEK.test(section.raw))), r);
+  return (week: number, day: number, usedTopics: Set<string>) => {
+    // Try each donor in order, preferring a mobility topic we haven't used this week.
+    for (let index = 0; index < order.length; index++) {
+      const candidate = order[(week + day + index) % order.length];
+      const topic = mobilityTopic(candidate);
+      if (usedTopics.has(topic) && index < order.length - 1) continue;
+      usedTopics.add(topic);
+      return candidate.sections.map((section, i) => ({ ...section, label: LETTERS[i], raw: section.raw.replace(/^[A-H]\)\s*/, "") }));
+    }
+    return [];
+  };
+}
+
+/** Selects recovery sessions for a supplied weekly schedule without generating strength days. */
+export function generateRecoveryWeeks(corpus: WeekView[], options: RecoveryOptions): RecoveryDay[][] {
+  const pickRecovery = recoveryPicker(corpus, options.track, rng(options.seed));
+  return Array.from({ length: options.weeks }, (_, week) => {
+    const usedTopics = new Set<string>();
+    return options.days.map((day) => {
+      const sections = pickRecovery(week, day, usedTopics);
+      if (!sections.length) throw new Error("The source programs don’t contain recovery sessions for this track.");
+      return { day, sections };
+    });
+  });
+}
+
 const FAMILIES = ["pump-lift", "pump-condition", "perform", "minimalist"];
 const familyOf = (track: string) => (track === "perform" || track === "minimalist" ? track : track.replace(/-\dx$/, ""));
 const PRE_LIFT = ["hot-start", "speed-strength"];
@@ -440,7 +478,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
       short: ix.daysFor(genTrack, mp)[0]?.day.focus.shortOnTime ?? [],
     });
   }
-  const recoveryOrder = shuffle(ix.days.filter((d) => d.track === opts.track && d.day.type === "recovery" && !d.day.sections.some((x) => STRAY_WEEK.test(x.raw))), r);
+  const pickRecovery = recoveryPicker(corpus, opts.track, r);
 
   // 7. Assemble the weeks.
   const weeks: WeekView[] = [];
@@ -481,14 +519,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
         };
       }
       if (type === "recovery") {
-        // Walk the shuffled recovery sessions from this week's start and take the first whose mobility topic is new this week.
-        let rec: Day | null = null;
-        for (let k = 0; k < recoveryOrder.length; k++) {
-          const cand = recoveryOrder[(w + day + k) % recoveryOrder.length].day;
-          if (!usedTopics.has(mobilityTopic(cand)) || k === recoveryOrder.length - 1) { rec = cand; break; }
-        }
-        if (rec) usedTopics.add(mobilityTopic(rec));
-        const secs = rec ? rec.sections.map((x, i) => ({ ...x, label: LETTERS[i], raw: x.raw.replace(/^[A-H]\)\s*/, "") })) : [];
+        const secs = pickRecovery(w, day, usedTopics);
         return { ...dayBase, type: "recovery" as const, headline: { mainLift: null, focusTopic: null, roles: secs.map((x) => x.role) }, focus: { topic: null, body: null, shortOnTime: [] }, sections: secs };
       }
       return { ...dayBase, type: "note" as const, headline: { mainLift: null, focusTopic: null, roles: [] }, focus: { topic: null, body: null, shortOnTime: [] }, sections: [] };

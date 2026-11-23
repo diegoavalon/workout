@@ -37,12 +37,12 @@ test("old entry points land on the new pages", async ({ page }) => {
 test("form defaults, fixed frequencies, and validation", async ({ page }) => {
   await page.clock.setFixedTime(new Date("2026-11-02T12:00:00Z"));
   await page.goto("/programs/new");
-  await expect(page.getByRole("button", { name: /Pump Lift/ })).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByRole("radio", { name: "Pump Lift" })).toBeChecked();
   await expect(page.getByRole("button", { name: "3", exact: true })).toHaveAttribute("aria-pressed", "true");
-  await page.getByRole("button", { name: /^Perform/ }).click();
+  await page.getByRole("radio", { name: "Perform" }).click();
   await expect(page.getByRole("button", { name: "5", exact: true })).toBeDisabled();
   await expect(page.getByRole("button", { name: "3", exact: true })).toHaveCount(0);
-  await page.getByRole("button", { name: /^Minimalist/ }).click();
+  await page.getByRole("radio", { name: "Minimalist" }).click();
   await expect(page.getByRole("button", { name: "4", exact: true })).toBeDisabled();
   const start = page.getByLabel("Suggested start (a Monday)");
   await start.click();
@@ -104,7 +104,7 @@ test("generate → review → activate → resume, then generate another without
 
 test("edit inputs keeps the previous choices", async ({ page }) => {
   await page.goto("/programs/new");
-  await page.getByRole("button", { name: /^Pump Condition/ }).click();
+  await page.getByRole("radio", { name: "Pump Condition" }).click();
   await page.getByRole("button", { name: "4", exact: true }).click();
   await page.getByRole("button", { name: "Choose what I have" }).click();
   await page.getByRole("checkbox", { name: "Dumbbell", exact: true }).check();
@@ -112,7 +112,7 @@ test("edit inputs keeps the previous choices", async ({ page }) => {
   await setSeed(page, "7");
   await generate(page);
   await page.getByRole("link", { name: "Edit inputs" }).click();
-  await expect(page.getByRole("button", { name: /^Pump Condition/ })).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByRole("radio", { name: "Pump Condition" })).toBeChecked();
   await expect(page.getByRole("button", { name: "4", exact: true })).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByRole("checkbox", { name: "Dumbbell", exact: true })).toBeChecked();
   await page.getByRole("button", { name: "Advanced" }).click();
@@ -144,9 +144,11 @@ test("mobile layout fits and the form works by keyboard", async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 812 });
   await page.goto("/programs/new");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
-  await page.getByRole("button", { name: /^Minimalist/ }).focus();
-  await page.keyboard.press("Enter");
-  await expect(page.getByRole("button", { name: /^Minimalist/ })).toHaveAttribute("aria-pressed", "true");
+  await page.getByRole("radio", { name: "Pump Lift" }).focus();
+  await page.keyboard.press("ArrowDown");
+  await page.keyboard.press("ArrowDown");
+  await page.keyboard.press("ArrowDown");
+  await expect(page.getByRole("radio", { name: "Minimalist" })).toBeChecked();
   await page.getByRole("button", { name: "Generate program" }).focus();
   await page.keyboard.press("Enter");
   await expect(page.getByRole("button", { name: "Use this program" })).toBeVisible({ timeout: 45_000 });

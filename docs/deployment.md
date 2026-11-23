@@ -89,12 +89,20 @@ Keep the owner credentials in your password manager; they are used for sign-in a
 
 ### 4. Upload the private source programs
 
-Use the same shell so `APP_URL`, `OWNER_EMAIL`, and `OWNER_PASSWORD` are still available. The upload needs `data/views/index.json` and its referenced files locally. If they are missing but the local parsed source is available, run `npm run persist:views` first.
+Use the same shell so `APP_URL`, `OWNER_EMAIL`, and `OWNER_PASSWORD` are still available. The generator upload uses `data/views/index.json` and its referenced files. Generate them with `npm run persist:views`.
 
 ```sh
 npm run corpus:upload
-unset OWNER_EMAIL OWNER_PASSWORD
 ```
+
+If you have permission to publish the Power Thrash II template, generate and upload it separately. Power Thrash II uses the generator corpus above for its recovery sessions. The workbook and template are ignored by Git.
+
+```sh
+npm run power-thrash:convert
+npm run corpus:upload -- --power-thrash
+```
+
+Clear the credentials after uploading with `unset OWNER_EMAIL OWNER_PASSWORD`.
 
 The script signs in, uploads the versioned corpus to private R2, and uploads its manifest last. Re-run it whenever the source weeks change. Normal code deployments do not upload or reset the corpus.
 
@@ -124,7 +132,7 @@ Future pushes to `master` deploy to the configured hostname. Keep this GitHub Ac
 
 ## Local development
 
-`npm run dev` serves local `data/views` through `/api/corpus/*` using a development middleware. Production uses the authenticated Worker route. Create a local owner once with `SETUP_KEY=dev npm run dev` and `npm run auth:create-owner` against `http://localhost:5173`, supplying the same setup key and local owner credentials.
+`npm run dev` serves local `data/views` through `/api/corpus/*` using development middleware. For Power Thrash II, run `npm run power-thrash:convert` for the workout template and `npm run persist:views` for recovery source data if it’s missing. Preview and production use the authenticated Worker route and private storage. Create a local owner once with `SETUP_KEY=dev npm run dev` and `npm run auth:create-owner` against `http://localhost:5173`, supplying the same setup key and local owner credentials.
 
 ## Tests
 

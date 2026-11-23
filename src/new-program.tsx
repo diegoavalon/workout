@@ -1,21 +1,24 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { Link, useNavigate } from "@tanstack/react-router";
-import { ArrowRightIcon, CalendarIcon, CheckIcon, ChevronDownIcon, LoaderCircleIcon, TriangleAlertIcon } from "lucide-react";
+import { ArrowRightIcon, ChevronDownIcon, LoaderCircleIcon, TriangleAlertIcon } from "lucide-react";
+import { PowerThrashFields } from "./components/PowerThrashFields";
+import { StartDateField } from "./components/StartDateField";
 import { Alert, AlertDescription, AlertTitle } from "./components/ui/alert";
 import { Button } from "./components/ui/button";
-import { Calendar } from "./components/ui/calendar";
 import { Checkbox } from "./components/ui/checkbox";
 import { Collapsible, CollapsiblePanel, CollapsibleTrigger } from "./components/ui/collapsible";
 import { Field, FieldDescription, FieldLabel } from "./components/ui/field";
 import { Input } from "./components/ui/input";
-import { Popover, PopoverPopup, PopoverTrigger } from "./components/ui/popover";
+import { Label } from "./components/ui/label";
 import { Progress } from "./components/ui/progress";
+import { Radio, RadioGroup } from "./components/ui/radio-group";
 import { toastManager } from "./components/ui/toast";
 import { repo } from "./data/db";
 import type { GeneratedSnapshot } from "./domain/generated-program";
 import { corpusCached, generateProgram, GenerateError, loadManifest, type CorpusManifest, type GenerateProgress } from "./generate/client";
 import { MAX_SEED, STYLES, WEEKS, buildOptions, daysFor, defaultInput, equipmentLabel, parseSeed, randomSeed, validateInput, type ProgramInput, type Style } from "./generate/options";
 import type { GeneratedProgram } from "./domain/generated";
+import { isPowerThrash, POWER_THRASH_TRACK } from "./domain/power-thrash";
 import { cn } from "./lib/utils";
 
 const FALLBACK_EQUIPMENT = ["band", "barbell", "bench", "bike", "box", "cable", "dumbbell", "jump-rope", "kettlebell", "landmine", "machine", "medicine-ball", "plate", "pull-up-bar", "pvc", "rings", "rower", "ski-erg"];
@@ -94,92 +97,86 @@ const choice = (on: boolean) => cn(
   on && "border-foreground/60 bg-accent/60 dark:bg-accent/60",
 );
 
+function ProgramChoice({ value, label, description, selected }: { value: string; label: string; description: string; selected: boolean }) {
+  return (
+    <Label className={cn("h-auto cursor-pointer items-start gap-4 rounded-xl border border-input bg-card p-4 text-start hover:bg-accent/50 has-data-disabled:cursor-not-allowed has-data-disabled:opacity-60 sm:min-h-27", choice(selected))}>
+      <span className="flex min-w-0 flex-1 flex-col gap-1.5">
+        <span id={`choice-${value}`} className="text-[15px] leading-5 font-semibold">{label}</span>
+        <span id={`choice-${value}-description`} className="text-[13px] leading-5 font-normal text-muted-foreground">{description}</span>
+      </span>
+      <Radio value={value} aria-labelledby={`choice-${value}`} aria-describedby={`choice-${value}-description`} className="mt-0.5" />
+    </Label>
+  );
+}
+
 export function NewProgram({ from }: { from?: GeneratedSnapshot }) {
   const nav = useNavigate();
-  const [input, setInput] = useState<ProgramInput>(() => (from ? inputFromOptions(from.file.options) : defaultInput()));
+  const fixedSource = from && isPowerThrash(from.file) ? from : undefined;
+  const [fixed, setFixed] = useState(!!fixedSource);
+  const [savingFixed, setSavingFixed] = useState(false);
+  const [input, setInput] = useState<ProgramInput>(() => (from && !fixedSource ? inputFromOptions(from.file.options) : defaultInput()));
   const [manifest, setManifest] = useState<CorpusManifest | null>(null);
   const [cached, setCached] = useState<boolean | null>(null);
   const [touched, setTouched] = useState(false);
-  const [calendarOpen, setCalendarOpen] = useState(false);
   const { state, run } = useGeneration();
   const running = state.status === "running";
-  useEffect(() => { loadManifest().then((m) => { setManifest(m); corpusCached(m).then(setCached); }).catch(() => setCached(false)); }, []);
+  useEffect(() => {
+    if (fixed || cached !== null) return;
+    loadManifest().then(async (m) => { setManifest(m); setCached(await corpusCached(m)); }).catch(() => setCached(false));
+  }, [fixed, cached]);
   const set = (p: Partial<ProgramInput>) => setInput((i) => ({ ...i, ...p }));
   const errors = validateInput(input);
   const seedError = parseSeed(input.seed).error;
   const dateError = errors.find((e) => e.startsWith("Start"));
-  const selectedDate = input.startDate ? new Date(`${input.startDate}T00:00:00`) : undefined;
   const tags = manifest?.equipment ?? FALLBACK_EQUIPMENT;
   const days = daysFor(input.style);
-  const pickStyle = (style: Style) => set({ style, days: daysFor(style).includes(input.days) ? input.days : daysFor(style)[0] });
+  const pickProgram = (value: unknown) => {
+    setFixed(value === POWER_THRASH_TRACK);
+    const style = STYLES.find((s) => s.id === value)?.id;
+    if (style) {
+      const availableDays = daysFor(style);
+      set({ style, days: availableDays.includes(input.days) ? input.days : availableDays[0] });
+    }
+  };
+  const openSaved = (snapshot: GeneratedSnapshot, duplicate: boolean) => {
+    toastManager.add({ title: duplicate ? "Already saved — opened the existing program" : "Program saved on this device" });
+    void nav({ to: "/generated/$id", params: { id: snapshot.id } });
+  };
   const submit = async (e: React.FormEvent) => {
     e.preventDefault(); setTouched(true);
     if (errors.length || running) return;
     const r = await run(input);
-    if (!r) return;
-    toastManager.add({ title: r.duplicate ? "Already saved — opened the existing program" : "Program saved on this device" });
-    nav({ to: "/generated/$id", params: { id: r.snapshot.id } });
+    if (r) openSaved(r.snapshot, r.duplicate);
   };
   return (
     <>
       <div className="flex flex-col gap-3">
         <h1 className="font-heading text-[clamp(26px,4vw,32px)] leading-[1.15] font-semibold tracking-tight text-balance">New program</h1>
-        <p className="max-w-120 text-[15px] leading-relaxed text-muted-foreground">Choose how you want to train. Preview your six-week program before you start.</p>
+        <p className="max-w-120 text-[15px] leading-relaxed text-muted-foreground">Choose how you want to train. Preview your program before you start.</p>
       </div>
-      <form onSubmit={submit} noValidate className="flex flex-col gap-7 sm:gap-8" aria-busy={running}>
+      <RadioGroup aria-label="Choose a program" value={fixed ? POWER_THRASH_TRACK : input.style} onValueChange={pickProgram} disabled={running || savingFixed} className="gap-6">
         <Group label="Training style">
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {STYLES.map((s) => (
-              <Button key={s.id} type="button" variant="outline" aria-pressed={input.style === s.id} disabled={running} className={cn(choice(input.style === s.id), "h-auto items-start gap-4 rounded-xl p-4 text-start whitespace-normal sm:h-auto sm:min-h-27")} onClick={() => pickStyle(s.id)}>
-                <span className="flex min-w-0 flex-1 flex-col gap-1.5">
-                  <span className="text-[15px] leading-5 font-semibold">{s.label}</span>
-                  <span className="text-[13px] leading-5 font-normal text-muted-foreground">{s.blurb}</span>
-                </span>
-                <span aria-hidden="true" className={cn("mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full border", input.style === s.id ? "border-foreground bg-foreground text-background" : "border-input")}>
-                  <CheckIcon className={cn("size-3", input.style !== s.id && "invisible")} />
-                </span>
-              </Button>
+              <ProgramChoice key={s.id} value={s.id} label={s.label} description={s.blurb} selected={!fixed && input.style === s.id} />
             ))}
           </div>
         </Group>
+        <Group label="Fixed program">
+          <div className="grid grid-cols-1 sm:grid-cols-2">
+            <ProgramChoice value={POWER_THRASH_TRACK} label="Power Thrash II" description="12 weeks, 3 training days a week, weights from your maxes." selected={fixed} />
+          </div>
+        </Group>
+      </RadioGroup>
+      <PowerThrashFields active={fixed} from={fixedSource} saving={savingFixed} onSavingChange={setSavingFixed} onSaved={openSaved} />
+      {!fixed && <form onSubmit={submit} noValidate className="flex flex-col gap-7 sm:gap-8" aria-busy={running}>
         <div className="grid gap-6 border-y py-6 sm:grid-cols-2 sm:gap-8">
           <Group label="Days per week" hint={days.length === 1 ? `${STYLES.find((s) => s.id === input.style)!.label} is always ${days[0]} days a week.` : "Choose a frequency that fits your week."}>
             <div className="flex gap-2">
               {days.map((d) => <Button key={d} type="button" variant="outline" aria-pressed={input.days === d} disabled={running || days.length === 1} className={cn(choice(input.days === d), "min-w-16 justify-center text-base tabular-nums sm:text-base")} onClick={() => set({ days: d })}>{d}</Button>)}
             </div>
           </Group>
-          <Field invalid={touched && !!dateError} disabled={running} className="gap-3">
-            <FieldLabel htmlFor="program-start" className="text-sm leading-5 font-semibold">Suggested start (a Monday)</FieldLabel>
-            <Popover open={calendarOpen} onOpenChange={setCalendarOpen}>
-              <PopoverTrigger
-                id="program-start"
-                disabled={running}
-                aria-invalid={touched && !!dateError}
-                aria-describedby={dateError && (touched || input.startDate) ? "start-date-hint start-date-error" : "start-date-hint"}
-                render={<Button type="button" variant="outline" className="min-h-11 w-full max-w-64 justify-between gap-3 px-3 font-normal" />}
-              >
-                {selectedDate ? selectedDate.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "Choose a Monday"}
-                <CalendarIcon aria-hidden="true" className="text-muted-foreground" />
-              </PopoverTrigger>
-              <PopoverPopup align="start" aria-label="Choose a Monday">
-                <Calendar
-                  mode="single"
-                  required
-                  autoFocus
-                  weekStartsOn={1}
-                  defaultMonth={selectedDate}
-                  selected={selectedDate}
-                  disabled={(date) => running || date.getDay() !== 1}
-                  onSelect={(date) => {
-                    set({ startDate: `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}` });
-                    setCalendarOpen(false);
-                  }}
-                />
-              </PopoverPopup>
-            </Popover>
-            <FieldDescription id="start-date-hint" className="text-[13px] leading-relaxed">Go at your own pace. Missed dates never skip a session.</FieldDescription>
-            {dateError && (touched || input.startDate) && <p id="start-date-error" role="alert" className="text-[13px] text-destructive-foreground">{dateError}</p>}
-          </Field>
+          <StartDateField value={input.startDate} disabled={running} error={dateError && (touched || input.startDate) ? dateError : undefined} onChange={(startDate) => set({ startDate })} />
         </div>
         <Group label="Equipment" hint="Bodyweight exercises are always included.">
           <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
@@ -237,7 +234,7 @@ export function NewProgram({ from }: { from?: GeneratedSnapshot }) {
           </div>
           <p className="max-w-128 text-xs leading-relaxed text-muted-foreground">{cached ? "Source programs are saved on this device, so you can generate offline." : "The first generation downloads about 17 MB of source programs and keeps them for offline use."}</p>
         </div>
-      </form>
+      </form>}
     </>
   );
 }
