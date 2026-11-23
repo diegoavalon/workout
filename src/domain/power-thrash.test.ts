@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { MemoryRepository } from "../data/repository";
-import { generateRecoveryWeeks } from "../persist/generate";
-import { examplePowerThrashMaxes, powerThrashFixture, recoveryCorpusFixture } from "../test-fixtures/power-thrash";
+import { generateRecoveryWeeks, generateSupportingWeeks } from "../persist/generate";
+import { examplePowerThrashMaxes, powerThrashFixture, supportCorpusFixture } from "../test-fixtures/power-thrash";
 import { buildGeneratedDayView } from "./generated";
 import { registerGenerated, validateGeneratedFile } from "./generated-program";
-import { buildPowerThrash, isPowerThrash, POWER_THRASH_RECOVERY_DAYS, roundLoad, savedPowerThrashRecovery, validateMaxes } from "./power-thrash";
+import { buildPowerThrash, isPowerThrash, POWER_THRASH_RECOVERY_DAYS, POWER_THRASH_TRAINING_DAYS, roundLoad, savedPowerThrashSupport, validateMaxes } from "./power-thrash";
 
 const monday = "2026-11-23";
 const maxId = powerThrashFixture.maxes[0].id;
@@ -75,7 +75,7 @@ describe("Power Thrash II", () => {
   });
 
   it("schedules generated recovery on off days and reuses it when editing", () => {
-    const recovery = generateRecoveryWeeks(recoveryCorpusFixture, {
+    const recovery = generateRecoveryWeeks(supportCorpusFixture, {
       track: "pump-lift-3x", seed: 20261123, weeks: 12, days: POWER_THRASH_RECOVERY_DAYS,
     });
     const file = buildPowerThrash(powerThrashFixture, examplePowerThrashMaxes, monday, "full", recovery);
@@ -88,12 +88,39 @@ describe("Power Thrash II", () => {
       expect(new Set(recovery[index].map((day) => day.sections[0].title)).size).toBe(3);
       for (const { day, sections } of recovery[index]) expect(week.days[day - 1].sections).toEqual(sections);
     }
-    expect(savedPowerThrashRecovery(build(), 12)).toBeUndefined();
-    const reused = savedPowerThrashRecovery(file, 12);
+    expect(savedPowerThrashSupport(build(), 12).recovery).toBeUndefined();
+    const { recovery: reused, warmups } = savedPowerThrashSupport(file, 12);
     expect(reused).toEqual(recovery);
+    expect(warmups).toBeUndefined();
     const edited = buildPowerThrash(powerThrashFixture, examplePowerThrashMaxes, "2026-11-30", "half", reused);
     expect(edited.weeks[0].days[1].date).toBe("2026-12-01");
     expect(edited.weeks[0].days[1].sections).toEqual(file.weeks[0].days[1].sections);
+  });
+
+  it("prepends Persist warm-ups to training days and keeps their prescription with half sets", () => {
+    const options = {
+      track: "pump-lift-3x", seed: 20261123, weeks: 12,
+      recoveryDays: POWER_THRASH_RECOVERY_DAYS, warmupDays: POWER_THRASH_TRAINING_DAYS, warmupEquipment: ["dumbbell"],
+    } as const;
+    const recovery = generateRecoveryWeeks(supportCorpusFixture, { ...options, days: options.recoveryDays });
+    const support = generateSupportingWeeks(supportCorpusFixture, options);
+    const original = buildPowerThrash(powerThrashFixture, examplePowerThrashMaxes, monday, "half", recovery);
+    const file = buildPowerThrash(powerThrashFixture, examplePowerThrashMaxes, monday, "half", support);
+    expect(validateGeneratedFile(file)).toEqual([]);
+    const donor = supportCorpusFixture[0].days.find((day) => day.type === "training")!.sections[0];
+    for (const [index, week] of file.weeks.entries()) {
+      for (const day of week.days) {
+        const previous = original.weeks[index].days[day.day - 1];
+        if (day.type === "training") {
+          expect(day.sections).toEqual([{ ...donor, label: "WU", raw: "Warm-Up:\nTest warm-up movement" }, ...previous.sections]);
+        } else {
+          expect(day).toEqual(previous);
+        }
+      }
+    }
+    const saved = savedPowerThrashSupport(file, 12);
+    expect(saved.recovery).toEqual(recovery);
+    expect(saved.warmups).toEqual(generateSupportingWeeks(supportCorpusFixture, { ...options, recoveryDays: [] }));
   });
 
   it("reopens identical content and keeps existing progress with its original program after an edit", async () => {

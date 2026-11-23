@@ -37,7 +37,7 @@ export type GeneratedDay = {
   sections: GeneratedSection[];
 };
 export type GeneratedWeek = { weekStart: string; days: GeneratedDay[]; block?: { weekNumber: number; weekCount: number } };
-export type RecoveryDay = Pick<GeneratedDay, "day" | "sections">;
+export type SupportingDay = Pick<GeneratedDay, "day" | "sections">;
 export type GeneratedProgram = {
   options: {
     track: string; seed?: number; startDate?: string; equipment?: string[]; avoidRecent?: boolean;

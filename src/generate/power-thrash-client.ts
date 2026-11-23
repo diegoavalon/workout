@@ -1,7 +1,7 @@
 import { fetch, FetchError } from "void/client";
 import { z } from "zod";
-import { POWER_THRASH_CREDIT, POWER_THRASH_RECOVERY_DAYS, POWER_THRASH_TEMPLATE, type PtTemplate } from "../domain/power-thrash";
-import { generateRecovery, loadManifest, type GenerateProgress } from "./client";
+import { POWER_THRASH_CREDIT, POWER_THRASH_RECOVERY_DAYS, POWER_THRASH_TEMPLATE, POWER_THRASH_TRAINING_DAYS, type PtTemplate } from "../domain/power-thrash";
+import { generateSupport, loadManifest, type GenerateProgress } from "./client";
 
 const text = z.string().trim().min(1);
 const CACHE_KEY = "workout-power-thrash-template";
@@ -38,7 +38,7 @@ const templateSchema = z.object({
   const maxIds = new Set(template.maxes.map((max) => max.id));
   return maxIds.size === template.maxes.length && template.weeks.every((week, index) =>
     week.week === index + 1 && week.days.every((day, dayIndex) =>
-      day.day === dayIndex * 2 + 1 && day.exercises.every((item) =>
+      day.day === POWER_THRASH_TRAINING_DAYS[dayIndex] && day.exercises.every((item) =>
         item.max === null ? item.sets.every((set) => set.pct === null) : maxIds.has(item.max),
       ),
     ),
@@ -73,12 +73,17 @@ export async function loadPowerThrashTemplate(signal: AbortSignal): Promise<PtTe
   throw new Error("The Power Thrash II template is invalid. Ask the owner to publish it again.");
 }
 
-export async function loadPowerThrashRecovery(weeks: number, startDate: string, onProgress: (progress: GenerateProgress) => void) {
+export async function loadPowerThrashSupport(
+  { weeks, startDate, needRecovery, needWarmups }: { weeks: number; startDate: string; needRecovery: boolean; needWarmups: boolean },
+  onProgress: (progress: GenerateProgress) => void,
+) {
   const manifest = await loadManifest();
-  return generateRecovery(manifest, {
+  return generateSupport(manifest, {
     track: "pump-lift-3x",
     seed: Number(startDate.replaceAll("-", "")),
     weeks,
-    days: POWER_THRASH_RECOVERY_DAYS,
+    recoveryDays: needRecovery ? POWER_THRASH_RECOVERY_DAYS : [],
+    warmupDays: needWarmups ? POWER_THRASH_TRAINING_DAYS : [],
+    warmupEquipment: ["dumbbell"],
   }, onProgress);
 }

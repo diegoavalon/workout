@@ -1,5 +1,5 @@
 import { isMonday } from "./calendar.ts";
-import type { GeneratedDay, GeneratedExerciseRef, GeneratedSection, GeneratedSet, GeneratedWeek, RecoveryDay } from "./generated";
+import type { GeneratedDay, GeneratedExerciseRef, GeneratedSection, GeneratedSet, GeneratedWeek, SupportingDay } from "./generated";
 import type { GeneratedFile } from "./generated-program";
 
 /**
@@ -34,18 +34,25 @@ export type PowerThrashSetVolume = "full" | "half";
 export const POWER_THRASH_TRACK = "power-thrash-ii-3x";
 export const POWER_THRASH_TEMPLATE = "power-thrash-ii.json";
 export const POWER_THRASH_CREDIT = "Istvan Javorek";
+export const POWER_THRASH_TRAINING_DAYS: readonly number[] = [1, 3, 5];
 export const POWER_THRASH_RECOVERY_DAYS: readonly number[] = [2, 4, 6];
 export const isPowerThrash = (file: Pick<GeneratedFile, "options">) => file.options.track === POWER_THRASH_TRACK;
 
-/** Reuse complete saved recovery sessions when editing a program, including offline. */
-export function savedPowerThrashRecovery(file: GeneratedFile, weekCount: number): RecoveryDay[][] | undefined {
-  if (file.weeks.length !== weekCount) return undefined;
-  const recovery = file.weeks.map((week) => week.days
-    .filter((day) => day.type === "recovery" && day.sections.length)
-    .map(({ day, sections }) => ({ day, sections })));
-  return recovery.every((week) => POWER_THRASH_RECOVERY_DAYS.every((day) => week.some((session) => session.day === day)))
-    ? recovery
-    : undefined;
+/** Reuse each complete set of supporting sections when editing a saved program. */
+export function savedPowerThrashSupport(file: GeneratedFile | undefined, weekCount: number) {
+  if (file?.weeks.length !== weekCount) return {};
+  const read = (days: readonly number[], type: GeneratedDay["type"], select: (sections: GeneratedSection[]) => GeneratedSection[]) => {
+    const weeks = file.weeks.map((week) => week.days
+      .filter((day) => day.type === type && days.includes(day.day))
+      .map(({ day, sections }) => ({ day, sections: select(sections) })));
+    return weeks.every((week) => days.every((day) => week.some((session) => session.day === day && session.sections.length)))
+      ? weeks
+      : undefined;
+  };
+  return {
+    recovery: read(POWER_THRASH_RECOVERY_DAYS, "recovery", (sections) => sections),
+    warmups: read(POWER_THRASH_TRAINING_DAYS, "training", (sections) => sections.filter((section) => section.role === "warmup")),
+  };
 }
 
 /**
@@ -89,7 +96,7 @@ function set(s: PtSet, load: number | null): GeneratedSet {
 
 /** Build a followable program from the template and the athlete's maxes (lb). `startDate` is a Monday. */
 export function buildPowerThrash(
-  template: PtTemplate, maxes: Maxes, startDate: string, setVolume: PowerThrashSetVolume = "full", recoveryWeeks?: RecoveryDay[][],
+  template: PtTemplate, maxes: Maxes, startDate: string, setVolume: PowerThrashSetVolume = "full", supportingWeeks?: SupportingDay[][],
 ): GeneratedFile {
   if (!isMonday(startDate)) throw new Error("Start date must be a Monday.");
   const errors = validateMaxes(template, maxes);
@@ -101,12 +108,10 @@ export function buildPowerThrash(
       const dayNo = i + 1;
       const date = addDays(weekStart, i);
       const src = w.days.find((d) => d.day === dayNo);
+      const support = supportingWeeks?.[w.week - 1]?.find((session) => session.day === dayNo);
       if (!src) {
-        const recovery = POWER_THRASH_RECOVERY_DAYS.includes(dayNo)
-          ? recoveryWeeks?.[w.week - 1]?.find((session) => session.day === dayNo)
-          : undefined;
-        return recovery
-          ? { day: dayNo, date, type: "recovery", sections: recovery.sections }
+        return support && POWER_THRASH_RECOVERY_DAYS.includes(dayNo)
+          ? { day: dayNo, date, type: "recovery", sections: support.sections }
           : { day: dayNo, date, type: "rest", sections: [] };
       }
       const sections: GeneratedSection[] = src.exercises.map((ex, j) => {
@@ -121,7 +126,10 @@ export function buildPowerThrash(
           }],
         };
       });
-      return { day: dayNo, date, type: "training", headline: { mainLift: exerciseRef(src.exercises[0]), focusTopic: null }, sections };
+      return {
+        day: dayNo, date, type: "training", headline: { mainLift: exerciseRef(src.exercises[0]), focusTopic: null },
+        sections: [...(support?.sections.filter((section) => section.role === "warmup") ?? []), ...sections],
+      };
     });
     return { weekStart, days, block: { weekNumber: w.week, weekCount: template.weeks.length } };
   });

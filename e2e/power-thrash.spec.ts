@@ -1,18 +1,18 @@
 import { expect, test } from "@playwright/test";
 import { POWER_THRASH_TEMPLATE } from "../src/domain/power-thrash.ts";
 import { CORPUS_CACHE } from "../src/generate/protocol.ts";
-import { powerThrashFixture, recoveryCorpusFixture } from "../src/test-fixtures/power-thrash.ts";
+import { powerThrashFixture, supportCorpusFixture } from "../src/test-fixtures/power-thrash.ts";
 
 test.use({ serviceWorkers: "block" });
 
 test("create Power Thrash II, train from the first week, and edit the saved maxes offline", async ({ page, context }) => {
   const templatePath = `/api/corpus/${POWER_THRASH_TEMPLATE}`;
-  const corpusBody = JSON.stringify(recoveryCorpusFixture);
+  const corpusBody = JSON.stringify(supportCorpusFixture);
   const version = "0aabbccddeef";
   const corpusUrl = `/api/corpus/corpus-${version}.json`;
   await context.route(corpusUrl, (route) => route.fulfill({ contentType: "application/json", body: corpusBody }));
   await page.route("/api/corpus/manifest.json", (route) => route.fulfill({
-    json: { version, url: corpusUrl, bytes: Buffer.byteLength(corpusBody), weeks: recoveryCorpusFixture.length, equipment: [] },
+    json: { version, url: corpusUrl, bytes: Buffer.byteLength(corpusBody), weeks: supportCorpusFixture.length, equipment: [] },
   }));
   let downloads = 0;
   await page.route(templatePath, (route) => {
@@ -64,6 +64,8 @@ test("create Power Thrash II, train from the first week, and edit the saved maxe
   await expect(page.getByRole("heading", { name: /Fixture mobility/ })).toBeVisible();
   await page.goBack();
   await page.getByRole("link", { name: /Session 1 · Mon/ }).click();
+  await expect(page.getByRole("heading", { name: "Fixture warm-up" })).toBeVisible();
+  await expect(page.getByRole("article").first()).toHaveAccessibleName("Test warm-up movement");
   await expect(page.getByText("Set 1: 14 + 10 reps @ 125 lb")).toBeVisible();
   await expect(page.getByText("Moves: Test press, Test row.")).toBeVisible();
   await expect(page.getByRole("article", { name: "Stair Run" }).getByText("Weight")).toHaveCount(0);
@@ -97,6 +99,10 @@ test("create Power Thrash II, train from the first week, and edit the saved maxe
     await expect(page.getByText("Half sets", { exact: true })).toBeVisible();
     await page.getByRole("link", { name: "Change maxes or sets" }).click();
     await expect(page.getByRole("radio", { name: "Half sets" })).toBeChecked();
+    await page.getByRole("link", { name: "Back to review" }).click();
+    await page.getByRole("link", { name: "Open Week 1" }).click();
+    await page.getByRole("link", { name: /Session 1 · Mon/ }).click();
+    await expect(page.getByRole("heading", { name: "Fixture warm-up" })).toBeVisible();
   } finally {
     await context.setOffline(false);
   }
