@@ -2,6 +2,8 @@
   "version": 1,
   "source": {
     "name": "nivelo-tempo",
+    "workers_dev": true,
+    "preview_urls": true,
     "routes": [
       {
         "pattern": "tempo.nivelohq.com",
@@ -10,8 +12,6 @@
     ]
   },
   "resolved": {
-    "account_id": "fa521e260a639c380bd06653a394bfb2",
-    "compatibility_date": "2026-02-24",
     "name": "nivelo-tempo",
     "routes": [
       {
@@ -19,6 +19,8 @@
         "custom_domain": true
       }
     ],
+    "account_id": "fa521e260a639c380bd06653a394bfb2",
+    "compatibility_date": "2026-02-24",
     "d1_databases": [
       {
         "binding": "DB",
@@ -32,7 +34,9 @@
         "binding": "STORAGE",
         "bucket_name": "nivelo-tempo-storage"
       }
-    ]
+    ],
+    "workers_dev": true,
+    "preview_urls": true
   },
-  "text": "{\n  \"account_id\": \"fa521e260a639c380bd06653a394bfb2\",\n  \"compatibility_date\": \"2026-02-24\",\n  \"name\": \"nivelo-tempo\",\n  \"routes\": [\n    {\n      \"pattern\": \"tempo.nivelohq.com\",\n      \"custom_domain\": true\n    }\n  ],\n  \"d1_databases\": [\n    {\n      \"binding\": \"DB\",\n      \"database_name\": \"nivelo-tempo-db\",\n      \"database_id\": \"99d5c44d-4d63-45e2-bc61-6ab37dbcbc7e\",\n      \"migrations_dir\": \"./db/migrations\"\n    }\n  ],\n  \"r2_buckets\": [\n    {\n      \"binding\": \"STORAGE\",\n      \"bucket_name\": \"nivelo-tempo-storage\"\n    }\n  ]\n}\n"
+  "text": "{\n  \"name\": \"nivelo-tempo\",\n  \"routes\": [\n    {\n      \"pattern\": \"tempo.nivelohq.com\",\n      \"custom_domain\": true\n    }\n  ],\n  \"account_id\": \"fa521e260a639c380bd06653a394bfb2\",\n  \"compatibility_date\": \"2026-02-24\",\n  \"d1_databases\": [\n    {\n      \"binding\": \"DB\",\n      \"database_name\": \"nivelo-tempo-db\",\n      \"database_id\": \"99d5c44d-4d63-45e2-bc61-6ab37dbcbc7e\",\n      \"migrations_dir\": \"./db/migrations\"\n    }\n  ],\n  \"r2_buckets\": [\n    {\n      \"binding\": \"STORAGE\",\n      \"bucket_name\": \"nivelo-tempo-storage\"\n    }\n  ],\n  \"workers_dev\": true,\n  \"preview_urls\": true\n}\n"
 }
