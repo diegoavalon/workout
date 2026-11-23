@@ -2,12 +2,12 @@ import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/re
 import type { ReactNode } from "react";
 import { afterEach, beforeEach, expect, it, vi } from "vitest";
 import { registerGenerated } from "../domain/generated-program";
-import { buildPowerThrash, POWER_THRASH_RECOVERY_DAYS } from "../domain/power-thrash";
+import { buildPowerThrash, POWER_THRASH_RECOVERY_DAYS, POWER_THRASH_TRAINING_DAYS } from "../domain/power-thrash";
 import { NewProgram } from "../new-program";
-import { generateRecoveryWeeks } from "../persist/generate";
-import { examplePowerThrashMaxes, powerThrashFixture, recoveryCorpusFixture } from "../test-fixtures/power-thrash";
+import { generateRecoveryWeeks, generateSupportingWeeks } from "../persist/generate";
+import { examplePowerThrashMaxes, powerThrashFixture, supportCorpusFixture } from "../test-fixtures/power-thrash";
 
-const mocks = vi.hoisted(() => ({ navigate: vi.fn(), loadTemplate: vi.fn(), loadRecovery: vi.fn(), save: vi.fn() }));
+const mocks = vi.hoisted(() => ({ navigate: vi.fn(), loadTemplate: vi.fn(), loadSupport: vi.fn(), save: vi.fn() }));
 vi.mock("@tanstack/react-router", () => ({
   useNavigate: () => mocks.navigate,
   Link: ({ children }: { children: ReactNode }) => <a href="#review">{children}</a>,
@@ -16,7 +16,7 @@ vi.mock("../generate/client", () => ({
   loadManifest: vi.fn().mockResolvedValue({ equipment: [] }),
   corpusCached: vi.fn().mockResolvedValue(false),
 }));
-vi.mock("../generate/power-thrash-client", () => ({ loadPowerThrashTemplate: mocks.loadTemplate, loadPowerThrashRecovery: mocks.loadRecovery }));
+vi.mock("../generate/power-thrash-client", () => ({ loadPowerThrashTemplate: mocks.loadTemplate, loadPowerThrashSupport: mocks.loadSupport }));
 vi.mock("../data/db", () => ({ repo: { importGenerated: mocks.save } }));
 
 const select = (name: string) => fireEvent.click(screen.getByRole("radio", { name }));
@@ -27,9 +27,12 @@ beforeEach(() => {
   vi.clearAllMocks();
   mocks.loadTemplate.mockReset();
   mocks.loadTemplate.mockResolvedValue(powerThrashFixture);
-  mocks.loadRecovery.mockResolvedValue(generateRecoveryWeeks(recoveryCorpusFixture, {
-    track: "pump-lift-3x", seed: 20261123, weeks: 12, days: POWER_THRASH_RECOVERY_DAYS,
-  }));
+  mocks.loadSupport.mockImplementation(async ({ weeks, needRecovery, needWarmups }) =>
+    generateSupportingWeeks(supportCorpusFixture, {
+      track: "pump-lift-3x", seed: 20261123, weeks,
+      recoveryDays: needRecovery ? POWER_THRASH_RECOVERY_DAYS : [],
+      warmupDays: needWarmups ? POWER_THRASH_TRAINING_DAYS : [],
+    }));
   mocks.save.mockImplementation(async (file) => ({ snapshot: registerGenerated(file), duplicate: false }));
 });
 
@@ -159,16 +162,25 @@ it("allows retrying a failed template request", async () => {
   expect(mocks.loadTemplate).toHaveBeenCalledTimes(2);
 });
 
-it("keeps the maxes and lets the user retry if recovery generation fails", async () => {
-  const snap = registerGenerated(buildPowerThrash(powerThrashFixture, examplePowerThrashMaxes, "2026-11-23"));
-  mocks.loadRecovery.mockRejectedValueOnce(new Error("The recovery source is unavailable."));
+it("reuses saved recovery and retains the maxes when retrying a failed warm-up download", async () => {
+  const recovery = generateRecoveryWeeks(supportCorpusFixture, {
+    track: "pump-lift-3x", seed: 20261130, weeks: 12, days: POWER_THRASH_RECOVERY_DAYS,
+  });
+  const original = buildPowerThrash(powerThrashFixture, examplePowerThrashMaxes, "2026-11-23", "full", recovery);
+  const snap = registerGenerated(original);
+  mocks.loadSupport.mockRejectedValueOnce(new Error("The warm-up source is unavailable."));
   render(<NewProgram from={snap} />);
   const submit = await screen.findByRole("button", { name: "Create program" });
   fireEvent.click(submit);
-  await screen.findByText("The recovery source is unavailable.");
+  await screen.findByText("The warm-up source is unavailable.");
   expect(lift().value).toBe("175");
   expect(mocks.save).not.toHaveBeenCalled();
 
   fireEvent.click(submit);
   await waitFor(() => expect(mocks.save).toHaveBeenCalledTimes(1));
+  expect(mocks.loadSupport).toHaveBeenLastCalledWith(expect.objectContaining({ needRecovery: false, needWarmups: true }), expect.any(Function));
+  const saved = mocks.save.mock.calls[0][0];
+  expect(saved.weeks[0].days[0].sections[0].title).toBe("Fixture warm-up");
+  expect(saved.weeks.map((week: (typeof original.weeks)[number]) => week.days.filter((day) => day.type === "recovery")))
+    .toEqual(original.weeks.map((week) => week.days.filter((day) => day.type === "recovery")));
 });

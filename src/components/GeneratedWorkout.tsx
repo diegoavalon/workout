@@ -11,7 +11,7 @@ export function GeneratedSessionView({ session, tracking, onTrackingChange }: { 
     <div className="flex flex-col gap-7">
       <div className="flex flex-col gap-2.5">
         <span className="text-[15px] font-semibold text-muted-foreground">{session.dayLabel} · {session.date}</span>
-        <h1 className="font-heading text-[clamp(30px,5vw,40px)] leading-[1.08] font-bold tracking-tight text-balance">{session.title}</h1>
+        <h1 className="font-heading text-[clamp(30px,5vw,40px)] leading-[1.08] font-black text-balance">{session.title}</h1>
         <div className="flex flex-wrap gap-1.5 pt-1">
           {session.badges.map((badge) => <Badge key={badge} variant="outline" size="lg">{badge}</Badge>)}
         </div>
@@ -25,7 +25,7 @@ export function GeneratedSessionView({ session, tracking, onTrackingChange }: { 
 export function GeneratedProgramViewComponent({ program, tracking, onTrackingChange }: { program: GeneratedProgramView } & WorkoutTracking) {
   return (
     <div className="flex flex-col gap-10">
-      <h1 className="font-heading text-[clamp(30px,5vw,40px)] leading-[1.08] font-bold tracking-tight text-balance">{program.title}</h1>
+      <h1 className="font-heading text-[clamp(30px,5vw,40px)] leading-[1.08] font-black text-balance">{program.title}</h1>
       {program.weeks.map((week) => (
         <section key={week.key} aria-label={week.label} className="flex flex-col gap-7">
           <h2 className="text-lg font-semibold">{week.label}</h2>

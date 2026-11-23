@@ -13,8 +13,8 @@ import { cn } from "../lib/utils";
 /* ---------------- Pure UI components (props in, markup out) ---------------- */
 
 function lineClassName(header: number | undefined): string {
-  if (header === 1) return "mt-2 font-heading text-[26px] font-bold leading-tight tracking-tight";
-  if (header === 2) return "mt-2 font-heading text-[22px] font-semibold leading-tight tracking-tight";
+  if (header === 1) return "mt-2 font-heading text-[26px] font-bold leading-tight";
+  if (header === 2) return "mt-2 font-heading text-[22px] font-bold leading-tight";
   if (header) return "mt-2 text-lg font-semibold leading-tight";
   return "text-[17px] leading-relaxed";
 }
@@ -79,7 +79,7 @@ export function ExerciseCard({ exercise, nested, tracking, complete = false }: E
       <div className={cn("flex flex-[999_1_280px] flex-col gap-3 p-5", nested && "p-4")}>
         <div className="flex flex-wrap items-center gap-2.5">
           <span className="rounded-md bg-muted px-1.5 py-0.5 font-mono text-[13px] font-medium text-muted-foreground">{exercise.label}</span>
-          <h3 className={cn("flex-1 font-heading text-[21px] font-semibold tracking-tight", complete && "text-success-foreground")}>{exercise.title}</h3>
+          <h3 className={cn("flex-1 font-heading text-[21px] font-bold", complete && "text-success-foreground")}>{exercise.title}</h3>
           {complete && tracking && <Badge variant="success"><CheckIcon aria-hidden="true" />Completed</Badge>}
         </div>
         {!exercise.known && <p className="text-sm text-warning-foreground">This exercise was not found in the library. The prescription is shown as written.</p>}

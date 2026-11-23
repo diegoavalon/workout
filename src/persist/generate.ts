@@ -1,7 +1,7 @@
 import type { TrackId } from "./schema.ts";
 import type { WeekView } from "./views.ts";
 import { weekView } from "./views.ts";
-import type { RecoveryDay } from "../domain/generated.ts";
+import type { SupportingDay } from "../domain/generated.ts";
 
 // Block generator. It remixes what the program has already published: every choice is sampled from
 // observed material and recombined under the rules measured in data/reports/analysis.md.
@@ -38,6 +38,12 @@ export interface RecoveryOptions {
   seed: number;
   weeks: number;
   days: readonly number[];
+}
+
+export interface SupportingOptions extends Omit<RecoveryOptions, "days"> {
+  recoveryDays: readonly number[];
+  warmupDays: readonly number[];
+  warmupEquipment?: readonly string[];
 }
 
 export interface Check {
@@ -197,6 +203,21 @@ export function renderStrength(title: string, items: Item[], schemeLines: string
 }
 
 const STRAY_WEEK = /^\s*Week \d+:?\s*$/m;
+const usableSection = (section: Sec) => section.items.length > 0 && !STRAY_WEEK.test(section.raw);
+const sectionText = (section: Sec) => section.raw.replace(/^[A-H]\)\s*/, "");
+
+function sampleDistinctSections(pool: Sec[], count: number, r: Rand): Sec[] {
+  const seen = new Set<string>();
+  const unique = pool.filter((section) => {
+    if (seen.has(section.raw)) return false;
+    seen.add(section.raw);
+    return true;
+  });
+  if (!unique.length) throw new Error("the corpus has no section to sample for this slot");
+  const order = shuffle(unique, r);
+  return Array.from({ length: count }, (_, i) => order[i % order.length]);
+}
+
 const LOWER_OR_TRUNK = new Set(["squat", "hinge", "lunge-single-leg", "isolation-legs", "core", "carry", "olympic", "plyometric"]);
 /**
  * What every movement in the balance superset may be after a leg-dominant main lift. Measured on the distinct published
@@ -220,14 +241,14 @@ function recoveryPicker(corpus: WeekView[], track: TrackId, r: Rand) {
       const topic = mobilityTopic(candidate);
       if (usedTopics.has(topic) && index < order.length - 1) continue;
       usedTopics.add(topic);
-      return candidate.sections.map((section, i) => ({ ...section, label: LETTERS[i], raw: section.raw.replace(/^[A-H]\)\s*/, "") }));
+      return candidate.sections.map((section, i) => ({ ...section, label: LETTERS[i], raw: sectionText(section) }));
     }
     return [];
   };
 }
 
 /** Selects recovery sessions for a supplied weekly schedule without generating strength days. */
-export function generateRecoveryWeeks(corpus: WeekView[], options: RecoveryOptions): RecoveryDay[][] {
+export function generateRecoveryWeeks(corpus: WeekView[], options: RecoveryOptions): SupportingDay[][] {
   const pickRecovery = recoveryPicker(corpus, options.track, rng(options.seed));
   return Array.from({ length: options.weeks }, (_, week) => {
     const usedTopics = new Set<string>();
@@ -237,6 +258,27 @@ export function generateRecoveryWeeks(corpus: WeekView[], options: RecoveryOptio
       return { day, sections };
     });
   });
+}
+
+/** Sample Persist warm-ups and recovery for another program's schedule. */
+export function generateSupportingWeeks(corpus: WeekView[], options: SupportingOptions): SupportingDay[][] {
+  const { track, seed, weeks, recoveryDays, warmupDays, warmupEquipment } = options;
+  const recovery = generateRecoveryWeeks(corpus, { track, seed, weeks, days: recoveryDays });
+  if (!warmupDays.length) return recovery;
+
+  const allowed = warmupEquipment && new Set(warmupEquipment);
+  const pool = corpus.filter((week) => week.track === track)
+    .flatMap((week) => week.days.filter((day) => day.type === "training"))
+    .flatMap((day) => day.sections.filter((section) => section.role === "warmup" && usableSection(section) && sectionOk(section, allowed)));
+  if (!pool.length) throw new Error("The source programs don’t contain warm-ups that fit this program.");
+  const warmups = sampleDistinctSections(pool, weeks * warmupDays.length, rng(seed));
+  return recovery.map((week, index) => [
+    ...week,
+    ...warmupDays.map((day, offset) => {
+      const section = warmups[index * warmupDays.length + offset];
+      return { day, sections: [{ ...section, label: "WU", raw: sectionText(section) }] };
+    }),
+  ]);
 }
 
 const FAMILIES = ["pump-lift", "pump-condition", "perform", "minimalist"];
@@ -424,7 +466,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
     for (const d of tracks.flatMap((t) => ix.daysFor(t, null))) {
       if (dayNumber !== undefined && d.day.day !== dayNumber) continue;
       // A stray "Week 2" line inside a section is a leftover from the source PDF; such sections are not copied.
-      for (const sec of d.day.sections) if (roles.includes(sec.role) && sec.items.length && !STRAY_WEEK.test(sec.raw)) out.push({ sec, exact: d.mainPattern === pattern });
+      for (const sec of d.day.sections) if (roles.includes(sec.role) && usableSection(sec)) out.push({ sec, exact: d.mainPattern === pattern });
     }
     // Pump Lift balance and finisher sections are supersets; skip single-movement formats.
     const shaped = roles.some((x) => x === "strength-balance" || x === "finisher") ? out.filter((x) => x.sec.items.length >= 2 || !out.some((y) => y.sec.items.length >= 2)) : out;
@@ -447,13 +489,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
     }
     return matched;
   };
-  const distinct = (pool: { sec: Sec }[], n: number): Sec[] => {
-    const seen = new Set<string>();
-    const uniq = pool.filter((x) => { if (seen.has(x.sec.raw)) return false; seen.add(x.sec.raw); return true; });
-    if (!uniq.length) throw new Error("the corpus has no section to sample for this slot");
-    const shuffled = shuffle(uniq, r);
-    return Array.from({ length: n }, (_, i) => shuffled[i % shuffled.length].sec);
-  };
+  const distinct = (pool: { sec: Sec }[], n: number) => sampleDistinctSections(pool.map(({ sec }) => sec), n, r);
   // Within a block a day's pre-lift piece stays one kind (hot start or speed strength) and alternates A/B.
   const preLift = (pattern: string, day: number): Sec[] => {
     const pool = sectionPool(PRE_LIFT, pattern, day);
@@ -499,7 +535,7 @@ export function generate(corpus: WeekView[], opts: GenerateOptions): Generated {
         const secondItem = hasSecond ? itemFor(odd ? slot.sec.a : slot.sec.b, slot.secScheme[w]) : null;
         const focusTopic = [mainItem.exercise?.name, secondItem?.exercise?.name].filter(Boolean).join(" + ");
         add({ title: "Daily Focus Notes", role: "focus-note", format: null, minutes: null, scheme: {}, notes: [], items: [], raw: `Daily Focus Notes:\n${focusTopic}` });
-        const copy = (x: Sec) => add({ ...x, raw: x.raw.replace(/^[A-H]\)\s*/, "") });
+        const copy = (x: Sec) => add({ ...x, raw: sectionText(x) });
         copy(sup.warmup[w]);
         if (family === "perform") copy(sup.pre[w]);
         const ms = slot.mainScheme[w];

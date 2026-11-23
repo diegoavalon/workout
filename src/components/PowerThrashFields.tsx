@@ -4,9 +4,9 @@ import { ArrowRightIcon, LoaderCircleIcon, TriangleAlertIcon } from "lucide-reac
 import { repo } from "../data/db";
 import { isMonday } from "../domain/calendar";
 import type { GeneratedSnapshot } from "../domain/generated-program";
-import { buildPowerThrash, savedPowerThrashRecovery, validateMaxes, type PowerThrashSetVolume, type PtTemplate } from "../domain/power-thrash";
+import { buildPowerThrash, savedPowerThrashSupport, validateMaxes, type PowerThrashSetVolume, type PtTemplate } from "../domain/power-thrash";
 import type { GenerateProgress } from "../generate/client";
-import { loadPowerThrashRecovery, loadPowerThrashTemplate } from "../generate/power-thrash-client";
+import { loadPowerThrashSupport, loadPowerThrashTemplate } from "../generate/power-thrash-client";
 import { nextMonday } from "../generate/options";
 import { StartDateField } from "./StartDateField";
 import { Alert, AlertDescription, AlertTitle } from "./ui/alert";
@@ -53,7 +53,7 @@ export function PowerThrashFields({ active, from, saving, onSavingChange, onSave
   const [blurred, setBlurred] = useState<Set<string>>(() => new Set());
   const [submitted, setSubmitted] = useState(false);
   const [saveError, setSaveError] = useState("");
-  const [recoveryProgress, setRecoveryProgress] = useState<GenerateProgress | null>(null);
+  const [supportProgress, setSupportProgress] = useState<GenerateProgress | null>(null);
   const busy = useRef(false);
 
   useEffect(() => {
@@ -106,20 +106,27 @@ export function PowerThrashFields({ active, from, saving, onSavingChange, onSave
     onSavingChange(true);
     setSaveError("");
     try {
-      let recovery = from && savedPowerThrashRecovery(from.file, template.weeks.length);
-      if (!recovery) {
-        setRecoveryProgress({ phase: "generate" });
-        recovery = await loadPowerThrashRecovery(template.weeks.length, startDate, setRecoveryProgress);
-        setRecoveryProgress(null);
-      }
-      const saved = await repo.importGenerated(buildPowerThrash(template, maxes, startDate, setVolume, recovery));
+      const weeks = template.weeks.length;
+      const { recovery, warmups } = savedPowerThrashSupport(from?.file, weeks);
+      const needRecovery = !recovery;
+      const needWarmups = !warmups;
+      const generated = needRecovery || needWarmups
+        ? await loadPowerThrashSupport({ weeks, startDate, needRecovery, needWarmups }, setSupportProgress)
+        : undefined;
+      setSupportProgress(null);
+      const support = template.weeks.map((_, index) => [
+        ...(recovery?.[index] ?? []),
+        ...(warmups?.[index] ?? []),
+        ...(generated?.[index] ?? []),
+      ]);
+      const saved = await repo.importGenerated(buildPowerThrash(template, maxes, startDate, setVolume, support));
       if (!saved.snapshot) throw new Error(saved.errors.join(" "));
       onSaved(saved.snapshot, saved.duplicate);
     } catch (error) {
       setSaveError(error instanceof Error && error.message ? error.message : "Try saving again.");
     } finally {
       busy.current = false;
-      setRecoveryProgress(null);
+      setSupportProgress(null);
       onSavingChange(false);
     }
   };
@@ -198,16 +205,16 @@ export function PowerThrashFields({ active, from, saving, onSavingChange, onSave
         </div>
       </fieldset>
       <StartDateField value={startDate} onChange={setStartDate} disabled={saving} error={submitted ? dateError : undefined} />
-      <p className="text-sm text-muted-foreground">Optional recovery on Tuesday, Thursday, and Saturday. Rest on Sunday.</p>
+      <p className="text-sm text-muted-foreground">Training starts with a Persist warm-up. Optional recovery on Tuesday, Thursday, and Saturday. Rest on Sunday.</p>
       <div className="flex flex-col gap-2 text-sm text-muted-foreground">
         <p className="text-pretty">Original program by {template.credit}.</p>
       </div>
       <div className="flex flex-col gap-4 border-t pt-6">
-        {recoveryProgress && (
+        {supportProgress && (
           <div role="status" className="flex flex-col gap-2 text-sm">
-            <span>{recoveryProgress.phase === "download" ? "Downloading recovery source programs…" : "Preparing recovery sessions…"}</span>
-            {recoveryProgress.phase === "download" && recoveryProgress.total
-              ? <Progress value={100 * (recoveryProgress.loaded ?? 0) / recoveryProgress.total} aria-label="Recovery download progress" />
+            <span>{supportProgress.phase === "download" ? "Downloading source programs…" : "Preparing warm-ups and recovery…"}</span>
+            {supportProgress.phase === "download" && supportProgress.total
+              ? <Progress value={100 * (supportProgress.loaded ?? 0) / supportProgress.total} aria-label="Source program download progress" />
               : null}
           </div>
         )}

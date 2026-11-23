@@ -65,7 +65,7 @@ export function Setup({ onDone }: { onDone: () => void }) {
       <Screen>
         <span className="flex size-11 items-center justify-center rounded-full bg-muted text-muted-foreground"><LockIcon className="size-5.5" /></span>
         <div className="flex flex-col gap-1.5">
-          <h1 className="font-heading text-2xl font-semibold tracking-tight">This Tempo is already set up</h1>
+          <h1 className="font-heading text-2xl font-bold">This Tempo is already set up</h1>
           <p className="text-sm text-muted-foreground">It has an owner, so new accounts can’t be created. If it’s yours, sign in.</p>
         </div>
         <Button size="xl" onClick={goHome}>Go to sign in</Button>
@@ -76,7 +76,7 @@ export function Setup({ onDone }: { onDone: () => void }) {
   return (
     <Screen>
       <div className="flex flex-col gap-1.5">
-        <h1 className="font-heading text-2xl font-semibold tracking-tight">Set up your account</h1>
+        <h1 className="font-heading text-2xl font-bold">Set up your account</h1>
         <p className="text-sm text-muted-foreground">This creates the only account on this server. Sign-up closes as soon as you’re done.</p>
       </div>
       <form onSubmit={submit} className="flex flex-col gap-4">

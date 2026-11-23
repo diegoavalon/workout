@@ -1,5 +1,5 @@
-import type { RecoveryDay } from "../domain/generated";
-import type { Generated, GenerateOptions, RecoveryOptions } from "../persist/generate";
+import type { SupportingDay } from "../domain/generated";
+import type { Generated, GenerateOptions, SupportingOptions } from "../persist/generate";
 import { isCorpusCached } from "./corpus";
 import type { CorpusRef, GenerateRequest, GenerateResponse, GenerateTask, Phase } from "./protocol";
 
@@ -40,7 +40,7 @@ let seq = 0;
 const getWorker = () => (worker ??= new Worker(new URL("./worker.ts", import.meta.url), { type: "module" }));
 
 /** The worker and corpus are loaded lazily on first use. */
-function runGenerator({ version, url, bytes }: CorpusRef, task: GenerateTask, onProgress?: (p: GenerateProgress) => void): Promise<Generated | RecoveryDay[][]> {
+function runGenerator({ version, url, bytes }: CorpusRef, task: GenerateTask, onProgress?: (p: GenerateProgress) => void): Promise<Generated | SupportingDay[][]> {
   return new Promise((resolve, reject) => {
     const w = getWorker();
     const id = ++seq;
@@ -64,8 +64,8 @@ export async function generateProgram(manifest: CorpusManifest, options: Generat
   return result;
 }
 
-export async function generateRecovery(manifest: CorpusManifest, options: RecoveryOptions, onProgress?: (p: GenerateProgress) => void): Promise<RecoveryDay[][]> {
-  const result = await runGenerator(manifest, { task: "recovery", options }, onProgress);
+export async function generateSupport(manifest: CorpusManifest, options: SupportingOptions, onProgress?: (p: GenerateProgress) => void): Promise<SupportingDay[][]> {
+  const result = await runGenerator(manifest, { task: "support", options }, onProgress);
   if (!Array.isArray(result)) throw new GenerateError("The generator returned an unexpected result.", "generate");
   return result;
 }

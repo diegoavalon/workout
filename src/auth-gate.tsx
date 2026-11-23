@@ -94,7 +94,7 @@ function SignIn({ onDone }: { onDone: () => void }) {
       <div className="flex w-full max-w-sm flex-col gap-6 sm:rounded-2xl sm:border sm:bg-card sm:p-6 sm:shadow-xs/5">
         <BrandLogo />
         <div className="flex flex-col gap-1.5">
-          <h1 className="font-heading text-2xl font-semibold tracking-tight">Sign in</h1>
+          <h1 className="font-heading text-2xl font-bold">Sign in</h1>
           <p className="text-sm text-muted-foreground">Once you’re in, this device stays signed in and works without a connection.</p>
         </div>
         {wait > 0 && (

@@ -1,5 +1,5 @@
 /// <reference lib="webworker" />
-import { generate, generateRecoveryWeeks } from "../persist/generate";
+import { generate, generateSupportingWeeks } from "../persist/generate";
 import type { WeekView } from "../persist/views";
 import { CorpusDownloadError, fetchCorpusText, parseCorpus } from "./corpus";
 import type { GenerateRequest, GenerateResponse } from "./protocol";
@@ -21,8 +21,8 @@ self.onmessage = async (e: MessageEvent<GenerateRequest>) => {
   }
   try {
     post({ id, type: "progress", phase: "generate" });
-    const result = e.data.task === "recovery"
-      ? generateRecoveryWeeks(loaded.weeks, e.data.options)
+    const result = e.data.task === "support"
+      ? generateSupportingWeeks(loaded.weeks, e.data.options)
       : generate(loaded.weeks, e.data.options);
     post({ id, type: "done", result });
   } catch (err) { post({ id, type: "error", kind: "generate", message: err instanceof Error ? err.message : String(err) }); }
